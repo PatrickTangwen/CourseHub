@@ -41,7 +41,7 @@ Rebuild CourseHub as a full-stack Next.js application with:
 
 ### Framework and rendering
 
-- Next.js 13.4+ App Router with React 18 and TypeScript. Tech stack is constrained to August 2023 era for resume alignment (see ADR-0001).
+- Next.js 15 App Router with React 19 and TypeScript 5. Uses latest stable versions (see ADR-0001).
 - Mixed rendering strategy per ADR-0004:
   - **SSG** (`generateStaticParams`): course detail, department listing, department detail, home, about, resources.
   - **CSR + API Route**: search results page fetches `/api/search` on the client.
@@ -71,7 +71,7 @@ Rebuild CourseHub as a full-stack Next.js application with:
 
 ### UI and components
 
-- shadcn/ui component library with Tailwind CSS 3 for styling.
+- shadcn/ui component library with Tailwind CSS 4 for styling.
 - Recharts for grade distribution bar charts (color-coded: green for A range, yellow for B, orange for C, red for D/F).
 - dnd-kit for Interactive Planner drag-and-drop.
 - html2canvas + jsPDF for PDF export.
@@ -125,7 +125,7 @@ A bad test mocks Prisma internals, asserts on CSS class names, or tests that a R
 
 ### Test tooling
 
-- Vitest (fast, Vite-native, dominant in 2023 Next.js projects).
+- Vitest (fast, widely adopted in the Next.js ecosystem).
 - No React Testing Library for UI components — behavior is verified via API and serialization seams, not DOM assertions.
 
 ## Out of Scope
@@ -142,6 +142,6 @@ A bad test mocks Prisma internals, asserts on CSS class names, or tests that a R
 
 ## Further Notes
 
-- **Resume narrative**: this project is listed under internship experience (August 2023). All tech choices must be credible for that time period. The developer should be prepared to explain every architectural decision (rendering strategy, database choice, anonymous auth, scraper design) in an interview setting.
+- **Project context**: this is a refactored version of an earlier internship project, rebuilt from scratch with the latest stable tech stack. The developer should be prepared to explain every architectural decision (rendering strategy, database choice, anonymous auth, scraper design) in an interview setting.
 - **Data volume**: the CSV contains ~12,300 grade distribution records across multiple terms and departments. The course catalog will likely yield 5,000-10,000 course entries. Both fit comfortably within Vercel Postgres free tier (256MB).
 - **Deployment sequence**: git init → push to GitHub → connect to Vercel → provision Vercel Postgres → run seed scripts → deploy.

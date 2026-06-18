@@ -31,6 +31,7 @@ Use three rendering strategies matched to data characteristics:
 ## Consequences
 
 - Fast page loads for course/department pages (pre-rendered HTML).
+- React 19 Server Components used by default for data-fetching pages — reduces client JS bundle.
 - Search stays responsive via client-side fetch to API route.
-- Planner is a fully client-side React app within the Next.js shell.
-- Interview talking point: demonstrates understanding of when to use SSG vs SSR vs CSR.
+- Planner is a fully client-side React app (marked `"use client"`) within the Next.js shell.
+- Demonstrates understanding of when to use SSG vs SSR vs CSR and how React Server Components fit in.

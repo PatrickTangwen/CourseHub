@@ -27,8 +27,7 @@ The scraper is a one-time ingest script, not a scheduled job. Re-run manually if
 
 ## Consequences
 
-- Single-language project (TypeScript throughout) — stronger resume narrative.
+- Single-language project (TypeScript throughout).
 - Scraper is reproducible: `pnpm run scrape` populates a fresh database.
 - No dependency on external APIs or data feeds.
 - Data may go stale if not re-scraped. Acceptable for a portfolio project.
-- Scraper code in the repo is an interview talking point (data engineering pipeline).

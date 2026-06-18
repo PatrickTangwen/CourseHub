@@ -12,9 +12,9 @@ The original site used static CSV/JSON files with no database. We need structure
 3. Shared course plans (user-generated, persisted for shareable URLs)
 
 Considered alternatives:
-- Firebase Firestore — already in use, but poor fit with Next.js SSG/API patterns
-- PlanetScale (MySQL) — popular in 2023, but free tier was removed in 2024
-- SQLite — no server needed, but doesn't work on Vercel serverless
+- Firebase Firestore — original site used Firebase, but poor fit with Next.js SSG/API patterns
+- Drizzle ORM + Neon direct — lighter weight ORM, but Prisma's migration tooling and ecosystem are more mature
+- SQLite / Turso — no managed server needed, but less natural on Vercel serverless
 
 ## Decision
 

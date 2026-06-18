@@ -4,10 +4,10 @@ UCSD course planning platform for students — course search, grade distribution
 
 ## Tech stack
 
-Constrained to August 2023 era (resume alignment with internship timeline).
+Uses current latest-stable versions as of the refactor date.
 
-- **Framework**: Next.js 13.4+ (App Router), React 18, TypeScript
-- **Styling**: Tailwind CSS 3, shadcn/ui component library
+- **Framework**: Next.js 15 (App Router), React 19, TypeScript 5
+- **Styling**: Tailwind CSS 4, shadcn/ui component library
 - **Database**: Vercel Postgres, Prisma ORM
 - **Charts**: Recharts (grade distribution visualization)
 - **Drag & drop**: dnd-kit (planner)
