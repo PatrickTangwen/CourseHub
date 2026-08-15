@@ -1,0 +1,41 @@
+import express from 'express';
+import asyncHandler from 'express-async-handler';
+import {
+  verifyHeaders,
+  generateCSVCatalog,
+  refreshCatalog,
+} from './catalog.handlers.js';
+import { staticJSON } from './staticCatalogRoutes.js';
+import { authWithEvals } from '../auth/auth.handlers.js';
+import { STATIC_FILE_DIR } from '../config.js';
+
+export function registerLegacyCatalogRoutes(app: express.Express): void {
+  // Enable static catalog refresh on demand.
+  // After the crawler runs, we hit this route to refresh the static files.
+  app.get('/api/catalog/refresh', verifyHeaders, asyncHandler(refreshCatalog));
+
+  // Evals data require NetID authentication
+  app.use(
+    '/api/catalog/evals',
+    authWithEvals,
+    staticJSON(`${STATIC_FILE_DIR}/catalogs/evals`),
+  );
+
+  app.get(
+    '/api/catalog/csv/:seasonCode(\\d{6}).csv',
+    authWithEvals,
+    asyncHandler(generateCSVCatalog),
+  );
+
+  app.use(
+    '/api/sitemaps',
+    express.static(`${STATIC_FILE_DIR}/sitemaps`, {
+      cacheControl: true,
+      maxAge: '1h',
+      lastModified: true,
+      etag: true,
+    }),
+  );
+}
+
+export default registerLegacyCatalogRoutes;

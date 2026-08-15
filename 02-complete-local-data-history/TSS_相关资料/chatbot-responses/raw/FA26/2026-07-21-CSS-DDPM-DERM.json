@@ -1,0 +1,841 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "CSS, DDPM, DERM",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "001",
+      "course_title": null,
+      "tss_course_code": "CSS-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000097",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 224,
+                "seats_available": 224,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-001-LA",
+              "event_id": "E 00000098",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "CSB 004",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 56,
+                "seats_available": 56,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000097",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 224,
+                "seats_available": 224,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-002-LA",
+              "event_id": "E 00000099",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "6:00pm",
+                  "end_time": "6:50pm",
+                  "location_displayed": "CSB 004",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 56,
+                "seats_available": 56,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000097",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 224,
+                "seats_available": 224,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-003-LA",
+              "event_id": "E 00000100",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "CSB 004",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 56,
+                "seats_available": 56,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000097",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 224,
+                "seats_available": 224,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-004-LA",
+              "event_id": "E 00000101",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CSB 004",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 56,
+                "seats_available": 56,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "200",
+      "course_title": null,
+      "tss_course_code": "DDPM-200",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004442",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": "PSB 1160",
+                  "instructor": "Joseph Ma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": null,
+                  "instructor": "Joseph Ma",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "201",
+      "course_title": null,
+      "tss_course_code": "DDPM-201",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004443",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "8:00pm",
+                  "location_displayed": "PSB 1160",
+                  "instructor": "Joseph Ma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "8:00pm",
+                  "location_displayed": null,
+                  "instructor": "Joseph Ma",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "202",
+      "course_title": null,
+      "tss_course_code": "DDPM-202",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004444",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "8:00pm",
+                  "location_displayed": "PSB 1160",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "7:00pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "203",
+      "course_title": null,
+      "tss_course_code": "DDPM-203",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004445",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "8:00pm",
+                  "location_displayed": "PSB 1160",
+                  "instructor": "Jeremiah Momper",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "7:00pm",
+                  "location_displayed": null,
+                  "instructor": "Jeremiah Momper",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "428",
+      "course_title": null,
+      "tss_course_code": "DERM-428",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00001958",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Jeremy Schneider",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 6,
+                "seats_available": 6,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "428T",
+      "course_title": null,
+      "tss_course_code": "DERM-428T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00001959",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Jeremy Schneider",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 13,
+                "seats_available": 13,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "436",
+      "course_title": null,
+      "tss_course_code": "DERM-436",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00001960",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Dawn Eichenfield",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "436T",
+      "course_title": null,
+      "tss_course_code": "DERM-436T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00001961",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Dawn Eichenfield",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

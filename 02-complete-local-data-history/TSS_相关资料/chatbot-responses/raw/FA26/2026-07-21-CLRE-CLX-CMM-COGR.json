@@ -1,0 +1,1270 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "CLRE, CLX, CMM, COGR",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "254",
+      "course_title": null,
+      "tss_course_code": "CLRE-254",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004323",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "4:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Florin Vaida\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "4:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Florin Vaida\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 65,
+                "seats_available": 65,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00004324",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Florin Vaida\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Florin Vaida\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "255",
+      "course_title": null,
+      "tss_course_code": "CLRE-255",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004325",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Raphael Cuomo\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-001-LA",
+              "event_id": "E 00004326",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Raphael Cuomo\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "256",
+      "course_title": null,
+      "tss_course_code": "CLRE-256",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004327",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 65,
+                "seats_available": 65,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004328",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 65,
+                "seats_available": 65,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00004867",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "002-001-DI",
+              "event_id": "E 00004868",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "4:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Sheldon Morris\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "257",
+      "course_title": null,
+      "tss_course_code": "CLRE-257",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004329",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Ravindra Mehta\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Ravindra Mehta\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 65,
+                "seats_available": 65,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "se",
+              "section_code": "001-001-SE",
+              "event_id": "E 00004330",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Ravindra Mehta\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 65,
+                "seats_available": 65,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "258",
+      "course_title": null,
+      "tss_course_code": "CLRE-258",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004331",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "4:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Ravindra Mehta\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00004332",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "6:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Ravindra Mehta\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "260",
+      "course_title": null,
+      "tss_course_code": "CLRE-260",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "EL00002400",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Raphael Cuomo\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "295A",
+      "course_title": null,
+      "tss_course_code": "CLRE-295A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004333",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "4:00pm",
+                  "location_displayed": null,
+                  "instructor": "\"Raphael Cuomo\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 45,
+                "seats_available": 45,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "297",
+      "course_title": null,
+      "tss_course_code": "CLRE-297",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-IN",
+              "event_id": "EL00002401",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Raphael Cuomo\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "200A",
+      "course_title": null,
+      "tss_course_code": "COGR-200A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000234",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "MCC 127",
+                  "instructor": "\"Andrew deWaard\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "200C",
+      "course_title": null,
+      "tss_course_code": "COGR-200C",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000235",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "MCC 127",
+                  "instructor": "\"Morana Alac\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "201B",
+      "course_title": null,
+      "tss_course_code": "COGR-201B",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000236",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "MCC 127",
+                  "instructor": "\"Alexander Fattal\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "225C",
+      "course_title": null,
+      "tss_course_code": "COGR-225C",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00003793",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "RWAC 0472",
+                  "instructor": "\"Kerry Mckenzie\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "262",
+      "course_title": null,
+      "tss_course_code": "COGR-262",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000237",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCC 127",
+                  "instructor": "\"Elana Zilberg\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "275",
+      "course_title": null,
+      "tss_course_code": "COGR-275",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000238",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "MCC 127",
+                  "instructor": "\"Brian Goldfarb\"",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "500",
+      "course_title": null,
+      "tss_course_code": "COGR-500",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-IN",
+              "event_id": "EL00000350",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Alexander Fattal\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-IN",
+              "event_id": "EL00000352",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Christo Sims\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-IN",
+              "event_id": "EL00000353",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Gavin Halm\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "005-000-IN",
+              "event_id": "EL00000354",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Patricia Ahn\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 1,
+                "seats_available": 1,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "007-000-IN",
+              "event_id": "EL00000356",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "\"Lilly Irani\"",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 1,
+                "seats_available": 1,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

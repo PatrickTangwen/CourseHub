@@ -1,0 +1,321 @@
+{
+  "subject": "PHAR",
+  "term": "WI26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "PHAR:222",
+      "subject": "PHAR",
+      "course_number": "222",
+      "title": "Fundamentals of Cancer Biology",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:17593",
+          "course_id": "PHAR:222",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Dowdy, Steven F.",
+            "Yang, Jing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "10:00",
+              "end_time": "12:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "10:00a-12:00p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PHAR",
+            "raw_course_number": "222",
+            "raw_section_identifier": "17593",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR:255",
+      "subject": "PHAR",
+      "course_number": "255",
+      "title": "Moleculr/Drug &Disease Therapy",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:17594",
+          "course_id": "PHAR:255",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Joiner, William J.",
+            "Sunahara, Roger Ken"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PHAR",
+            "raw_course_number": "255",
+            "raw_section_identifier": "17594",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR:275",
+      "subject": "PHAR",
+      "course_number": "275",
+      "title": "Seminars in Pharmacology",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:17595",
+          "course_id": "PHAR:275",
+          "section_code": "A00",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Yang, Jing",
+            "Rangamani, Padmini",
+            "Mendiola, Andrew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "13:00",
+              "end_time": "15:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "1:00p-3:00p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PHAR",
+            "raw_course_number": "275",
+            "raw_section_identifier": "17595",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR:295",
+      "subject": "PHAR",
+      "course_number": "295",
+      "title": "Pharmacolgy Research Discussns",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:17661",
+          "course_id": "PHAR:295",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Joiner, William J."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PHAR",
+            "raw_course_number": "295",
+            "raw_section_identifier": "17661",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PHAR:299",
+      "subject": "PHAR",
+      "course_number": "299",
+      "title": "Independent Study Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:17662",
+          "course_id": "PHAR:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Schoeneberg, Johannes"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PHAR",
+            "raw_course_number": "299",
+            "raw_section_identifier": "17662",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

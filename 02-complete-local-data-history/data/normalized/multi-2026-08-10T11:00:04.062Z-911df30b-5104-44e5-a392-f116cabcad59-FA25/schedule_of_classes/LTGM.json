@@ -1,0 +1,98 @@
+{
+  "subject": "LTGM",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "LTGM:2A",
+      "subject": "LTGM",
+      "course_number": "2A",
+      "title": "Intermediate German I",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltgm2a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:924926",
+          "course_id": "LTGM:2A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Fischer-Grunski, Eva K"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "APM",
+              "room": "4301",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "APM 4301"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "09:20",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "8:30a-9:20a",
+              "raw_location": "RCLAS R06"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-12-10",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "APM",
+              "room": "4301",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "APM 4301"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTGM",
+            "raw_course_number": "2A",
+            "raw_section_identifier": "924926",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    }
+  ]
+}

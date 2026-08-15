@@ -1,0 +1,375 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "BENG, BGGN",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "001",
+      "course_title": "Introduction to Bioengineering",
+      "tss_course_code": "BENG-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004300",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PFBH 191",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 100,
+                "seats_available": 100,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-001-LA",
+              "event_id": "E 00004301",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "SME 304",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004300",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PFBH 191",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 100,
+                "seats_available": 100,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-002-LA",
+              "event_id": "E 00004305",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "SME 306",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "002",
+      "course_title": "Intro Computer Prog & MATLAB",
+      "tss_course_code": "BENG-002",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002597",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PFBH 161",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PFBH 161",
+                  "instructor": "Reem Khojah",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "pr",
+              "section_code": "001-001-PR",
+              "event_id": "EL00002326",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Reem Khojah",
+                  "is_tba": true,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "100",
+      "course_title": "Intro to Prob & Stats for BENG",
+      "tss_course_code": "BENG-100",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000476",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA 123",
+                  "instructor": "Alyssa Taylor",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA 123",
+                  "instructor": "Alyssa Taylor",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA 123",
+                  "instructor": "Alyssa Taylor",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "COA 123",
+                  "instructor": "Alyssa Taylor",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000477",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "COA B23",
+                  "instructor": "Alyssa Taylor",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

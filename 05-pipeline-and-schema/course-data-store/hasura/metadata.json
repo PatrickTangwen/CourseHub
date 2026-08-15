@@ -1,0 +1,512 @@
+{
+  "version": 3,
+  "sources": [
+    {
+      "name": "course_data_store",
+      "kind": "postgres",
+      "configuration": {
+        "connection_info": {
+          "database_url": {
+            "from_env": "COURSE_DATA_STORE_DATABASE_URL"
+          },
+          "isolation_level": "read-committed",
+          "use_prepared_statements": true
+        }
+      },
+      "tables": [
+        {
+          "table": { "schema": "public", "name": "supported_terms" },
+          "configuration": {
+            "custom_root_fields": {
+              "select": "supportedTerms",
+              "select_by_pk": "supportedTerm"
+            },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "term_label": "termLabel",
+              "date_start": "dateStart",
+              "date_end": "dateEnd",
+              "snapshot_generated_at": "snapshotGeneratedAt",
+              "artifact_fingerprint": "artifactFingerprint",
+              "snapshot_lifecycle": "snapshotLifecycle"
+            }
+          },
+          "array_relationships": [
+            {
+              "name": "courses",
+              "using": {
+                "foreign_key_constraint_on": {
+                  "column": "term_code",
+                  "table": { "schema": "public", "name": "courses" }
+                }
+              }
+            },
+            {
+              "name": "importRuns",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": { "schema": "public", "name": "import_runs" },
+                  "column_mapping": { "term_code": "term_code" },
+                  "insertion_order": null
+                }
+              }
+            },
+            {
+              "name": "importManifestCells",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": {
+                    "schema": "public",
+                    "name": "import_manifest_cells"
+                  },
+                  "column_mapping": { "term_code": "term_code" },
+                  "insertion_order": null
+                }
+              }
+            }
+          ],
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "artifact_fingerprint",
+                  "term_code",
+                  "term_label",
+                  "date_start",
+                  "date_end",
+                  "snapshot_generated_at",
+                  "snapshot_lifecycle"
+                ],
+                "filter": {},
+                "limit": 10
+              }
+            }
+          ]
+        },
+        {
+          "table": { "schema": "public", "name": "courses" },
+          "configuration": {
+            "custom_root_fields": {
+              "select": "courses",
+              "select_by_pk": "course"
+            },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "course_id": "courseId",
+              "course_number": "courseNumber",
+              "prerequisites_text": "prerequisitesText",
+              "restrictions_text": "restrictionsText",
+              "catalog_url": "catalogUrl"
+            }
+          },
+          "array_relationships": [
+            {
+              "name": "sections",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": { "schema": "public", "name": "sections" },
+                  "column_mapping": {
+                    "term_code": "term_code",
+                    "course_id": "course_id"
+                  },
+                  "insertion_order": null
+                }
+              }
+            },
+            {
+              "name": "gradeArchiveRecords",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": {
+                    "schema": "public",
+                    "name": "grade_archive_records"
+                  },
+                  "column_mapping": {
+                    "term_code": "term_code",
+                    "course_id": "course_id"
+                  },
+                  "insertion_order": null
+                }
+              }
+            }
+          ],
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "term_code",
+                  "course_id",
+                  "subject",
+                  "course_number",
+                  "title",
+                  "units",
+                  "description",
+                  "prerequisites_text",
+                  "restrictions_text",
+                  "catalog_url"
+                ],
+                "filter": {},
+                "limit": 100
+              }
+            }
+          ]
+        },
+        {
+          "table": { "schema": "public", "name": "sections" },
+          "configuration": {
+            "custom_root_fields": {
+              "select": "sections",
+              "select_by_pk": "section"
+            },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "section_id": "sectionId",
+              "course_id": "courseId",
+              "section_code": "sectionCode",
+              "meeting_type": "meetingType"
+            }
+          },
+          "object_relationships": [
+            {
+              "name": "snapshotAvailability",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": {
+                    "schema": "public",
+                    "name": "snapshot_availability"
+                  },
+                  "column_mapping": {
+                    "term_code": "term_code",
+                    "section_id": "section_id"
+                  },
+                  "insertion_order": null
+                }
+              }
+            }
+          ],
+          "array_relationships": [
+            {
+              "name": "meetings",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": { "schema": "public", "name": "meetings" },
+                  "column_mapping": {
+                    "term_code": "term_code",
+                    "section_id": "section_id"
+                  },
+                  "insertion_order": null
+                }
+              }
+            },
+            {
+              "name": "instructorLinks",
+              "using": {
+                "manual_configuration": {
+                  "remote_table": {
+                    "schema": "public",
+                    "name": "section_instructors"
+                  },
+                  "column_mapping": {
+                    "term_code": "term_code",
+                    "section_id": "section_id"
+                  },
+                  "insertion_order": null
+                }
+              }
+            }
+          ],
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "term_code",
+                  "section_id",
+                  "course_id",
+                  "section_code",
+                  "meeting_type"
+                ],
+                "filter": {},
+                "limit": 200
+              }
+            }
+          ]
+        },
+        {
+          "table": { "schema": "public", "name": "meetings" },
+          "configuration": {
+            "custom_root_fields": { "select": "meetings" },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "section_id": "sectionId",
+              "meeting_index": "meetingIndex",
+              "meeting_date": "date",
+              "start_time": "startTime",
+              "end_time": "endTime",
+              "is_tba": "isTba",
+              "meeting_type": "meetingType",
+              "raw_days": "rawDays",
+              "raw_time": "rawTime",
+              "raw_location": "rawLocation"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "term_code",
+                  "section_id",
+                  "meeting_index",
+                  "days",
+                  "meeting_date",
+                  "start_time",
+                  "end_time",
+                  "building",
+                  "room",
+                  "is_tba",
+                  "meeting_type",
+                  "raw_days",
+                  "raw_time",
+                  "raw_location"
+                ],
+                "filter": {},
+                "limit": 250
+              }
+            }
+          ]
+        },
+        {
+          "table": { "schema": "public", "name": "instructors" },
+          "configuration": {
+            "custom_root_fields": { "select": "instructors" },
+            "custom_column_names": {
+              "instructor_name": "instructorName"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": ["instructor_name"],
+                "filter": {},
+                "limit": 100
+              }
+            }
+          ]
+        },
+        {
+          "table": {
+            "schema": "public",
+            "name": "section_instructors"
+          },
+          "configuration": {
+            "custom_root_fields": { "select": "sectionInstructors" },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "section_id": "sectionId",
+              "instructor_name": "instructorName"
+            }
+          },
+          "object_relationships": [
+            {
+              "name": "instructor",
+              "using": {
+                "foreign_key_constraint_on": "instructor_name"
+              }
+            }
+          ],
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": ["term_code", "section_id", "instructor_name"],
+                "filter": {},
+                "limit": 200
+              }
+            }
+          ]
+        },
+        {
+          "table": {
+            "schema": "public",
+            "name": "grade_archive_records"
+          },
+          "configuration": {
+            "custom_root_fields": { "select": "gradeArchiveRecords" },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "course_id": "courseId",
+              "record_index": "recordIndex",
+              "archive_subject": "subject",
+              "archive_course": "courseNumber",
+              "archive_year": "year",
+              "archive_quarter": "quarter",
+              "archive_title": "title",
+              "a_percent": "aPercent",
+              "b_percent": "bPercent",
+              "c_percent": "cPercent",
+              "d_percent": "dPercent",
+              "f_percent": "fPercent",
+              "w_percent": "wPercent",
+              "p_percent": "pPercent",
+              "np_percent": "npPercent",
+              "raw_record": "rawRecord",
+              "matched_via": "matchedVia"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "term_code",
+                  "course_id",
+                  "record_index",
+                  "archive_subject",
+                  "archive_course",
+                  "archive_year",
+                  "archive_quarter",
+                  "archive_title",
+                  "instructor",
+                  "gpa",
+                  "a_percent",
+                  "b_percent",
+                  "c_percent",
+                  "d_percent",
+                  "f_percent",
+                  "w_percent",
+                  "p_percent",
+                  "np_percent",
+                  "raw_record",
+                  "matched_via"
+                ],
+                "filter": {},
+                "limit": 200
+              }
+            }
+          ]
+        },
+        {
+          "table": {
+            "schema": "public",
+            "name": "snapshot_availability"
+          },
+          "configuration": {
+            "custom_root_fields": { "select": "snapshotAvailability" },
+            "custom_column_names": {
+              "term_code": "termCode",
+              "section_id": "sectionId",
+              "waitlist_count": "waitlistCount",
+              "observed_at": "observedAt",
+              "term_state": "termState"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "term_code",
+                  "section_id",
+                  "enrolled",
+                  "capacity",
+                  "waitlist_count",
+                  "observed_at",
+                  "term_state"
+                ],
+                "filter": {},
+                "limit": 200
+              }
+            }
+          ]
+        },
+        {
+          "table": { "schema": "public", "name": "import_runs" },
+          "configuration": {
+            "custom_root_fields": { "select": "courseDataImportRuns" },
+            "custom_column_names": {
+              "artifact_fingerprint": "artifactFingerprint",
+              "snapshot_run_id": "snapshotRunId",
+              "generated_at": "generatedAt",
+              "term_code": "termCode",
+              "imported_at": "importedAt",
+              "schedule_source_timestamp": "scheduleSourceTimestamp",
+              "catalog_source_timestamp": "catalogSourceTimestamp",
+              "grade_source_timestamp": "gradeSourceTimestamp",
+              "manifest_fingerprint": "manifestFingerprint",
+              "manifest_ok": "manifestOk",
+              "manifest_empty": "manifestEmpty",
+              "manifest_failed": "manifestFailed",
+              "manifest_partial": "manifestPartial",
+              "snapshot_lifecycle": "snapshotLifecycle"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "artifact_fingerprint",
+                  "snapshot_run_id",
+                  "generated_at",
+                  "term_code",
+                  "schedule_source_timestamp",
+                  "catalog_source_timestamp",
+                  "grade_source_timestamp",
+                  "manifest_fingerprint",
+                  "manifest_ok",
+                  "manifest_empty",
+                  "manifest_failed",
+                  "manifest_partial",
+                  "snapshot_lifecycle"
+                ],
+                "filter": {},
+                "limit": 20
+              }
+            }
+          ]
+        },
+        {
+          "table": {
+            "schema": "public",
+            "name": "import_manifest_cells"
+          },
+          "configuration": {
+            "custom_root_fields": { "select": "importManifestCells" },
+            "custom_column_names": {
+              "artifact_fingerprint": "artifactFingerprint",
+              "term_code": "termCode",
+              "row_counts": "rowCounts",
+              "raw_artifacts": "rawArtifacts",
+              "normalized_artifact": "normalizedArtifact"
+            }
+          },
+          "select_permissions": [
+            {
+              "role": "anonymous",
+              "permission": {
+                "columns": [
+                  "artifact_fingerprint",
+                  "term_code",
+                  "subject",
+                  "source",
+                  "status",
+                  "reason",
+                  "attempts",
+                  "row_counts",
+                  "raw_artifacts",
+                  "normalized_artifact"
+                ],
+                "filter": {},
+                "limit": 100
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

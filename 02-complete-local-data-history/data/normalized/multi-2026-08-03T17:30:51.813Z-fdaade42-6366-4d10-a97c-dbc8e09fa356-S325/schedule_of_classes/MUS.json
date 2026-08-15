@@ -1,0 +1,119 @@
+{
+  "subject": "MUS",
+  "term": "S325",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "MUS:199",
+      "subject": "MUS",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MUS.html#mus199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S325:982119",
+          "course_id": "MUS:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Freitas Caetano, Marcelo"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S325",
+            "raw_subject": "MUS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "982119",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MUS:299",
+      "subject": "MUS",
+      "course_number": "299",
+      "title": "Advncd Rsrch Prjcts&Indpnt Stu",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MUS.html#mus299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S325:975564",
+          "course_id": "MUS:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Terrazas Perez, Wilfrido D"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S325",
+            "raw_subject": "MUS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "975564",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3864 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "ANES, ANSC, ANTH, ASTR, AUD",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "296",
+      "course_title": "Independent Study",
+      "tss_course_code": "ANES-296",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-IN",
+          "displayed_package_id": "EL00003267",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "001-000-IN",
+              "event_id": "EL00003267",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Brian Park",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "401",
+      "course_title": "Anesthesiology Clerkship",
+      "tss_course_code": "ANES-401",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-CL",
+          "displayed_package_id": "EL00000004",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00000004",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Lawrence Weinstein",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "402",
+      "course_title": "Pain Med Eval & Intervntnl Clk",
+      "tss_course_code": "ANES-402",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "EL00000005",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Gregory Polston",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "cl",
+              "section_code": "001-001-CL",
+              "event_id": "EL00000006",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Gregory Polston",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "402T",
+      "course_title": "Pain Med Eval & Intervent Sel",
+      "tss_course_code": "ANES-402T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-CL",
+          "displayed_package_id": "EL00000007",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00000007",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Gregory Polston",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "403",
+      "course_title": "Critical Care Medicine Clerksp",
+      "tss_course_code": "ANES-403",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-CL",
+          "displayed_package_id": "EL00000008",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00000008",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Angela Meier",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "403T",
+      "course_title": "Anes Critical Care Med Sel",
+      "tss_course_code": "ANES-403T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-CL",
+          "displayed_package_id": "EL00000009",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00000009",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Angela Meier",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "410",
+      "course_title": "Introduction to Anesthesiology",
+      "tss_course_code": "ANES-410",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-CL",
+          "displayed_package_id": "EL00000010",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "cl",
+              "section_code": "001-000-CL",
+              "event_id": "EL00000010",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Lawrence Weinstein",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "496",
+      "course_title": "Clinical Independent Study",
+      "tss_course_code": "ANES-496",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-IN",
+          "displayed_package_id": "EL00000011",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "001-000-IN",
+              "event_id": "EL00000011",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": "002-000-IN",
+          "displayed_package_id": "EL00000012",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "002-000-IN",
+              "event_id": "EL00000012",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "121",
+      "course_title": "Psychological Anthropology",
+      "tss_course_code": "ANSC-121",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000286",
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000286",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "122",
+      "course_title": "Language in Society",
+      "tss_course_code": "ANSC-122",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00004842",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004842",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Rihan Yeh",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Rihan Yeh",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Rihan Yeh",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "124",
+      "course_title": "Cultural Anthropology",
+      "tss_course_code": "ANSC-124",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000287",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000287",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Jon Bialecki",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Jon Bialecki",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Jon Bialecki",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "129",
+      "course_title": "Meaning and Healing",
+      "tss_course_code": "ANSC-129",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00003657",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00003657",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "RWAC 0425",
+                  "instructor": "Thomas Csordas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "RWAC 0425",
+                  "instructor": "Thomas Csordas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "RWAC 0425",
+                  "instructor": "Thomas Csordas",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 6,
+                "seats_available": 6,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "142",
+      "course_title": "Anthropology of Latin America",
+      "tss_course_code": "ANSC-142",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000288",
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000288",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "COA 121",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "COA 121",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "COA 121",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "COA 121",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "148",
+      "course_title": "Global Health&Cultrl Diversity",
+      "tss_course_code": "ANSC-148",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00002393",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002393",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Giselle Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Giselle Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Giselle Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 46,
+                "seats_available": 46,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "152",
+      "course_title": "Social Justice in South Asia",
+      "tss_course_code": "ANSC-152",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000289",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000289",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "169",
+      "course_title": "Culture & Envr/Resrch Sem/Prac",
+      "tss_course_code": "ANSC-169",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000290",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MALK B92",
+                  "instructor": "Jana Fortier",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MALK B92",
+                  "instructor": "Jana Fortier",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "pr",
+              "section_code": "001-001-PR",
+              "event_id": "E 00004833",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "1:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "SSB 102",
+                  "instructor": "Jana Fortier",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "1:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "SSB 102",
+                  "instructor": "Jana Fortier",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "173",
+      "course_title": "Ethnography in Practice",
+      "tss_course_code": "ANSC-173",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-PR",
+          "displayed_package_id": "E 00000291",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "pr",
+              "section_code": "001-000-PR",
+              "event_id": "E 00000291",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "12:50pm",
+                  "location_displayed": "SSB 269",
+                  "instructor": "Suzanne Brenner",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "SSB 269",
+                  "instructor": "Suzanne Brenner",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 12,
+                "seats_available": 12,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001",
+      "course_title": "Introduction to Culture",
+      "tss_course_code": "ANTH-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000029",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000029",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MANDE B-202",
+                  "instructor": "Aftab Jassal",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MANDE B-202",
+                  "instructor": "Aftab Jassal",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "MANDE B-202",
+                  "instructor": "Aftab Jassal",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 150,
+                "seats_available": 150,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "002",
+      "course_title": "Human Origins",
+      "tss_course_code": "ANTH-002",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000251",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00000252",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00000253",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00000254",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "WLH 2114",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-005-DI",
+              "event_id": "E 00000255",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "WLH 2114",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000250",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 216,
+                "seats_available": 216,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-006-DI",
+              "event_id": "E 00000256",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "WLH 2114",
+                  "instructor": "Linnea Wilder",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "021",
+      "course_title": "Race and Racisms",
+      "tss_course_code": "ANTH-021",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000259",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "WLH 2208",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00000260",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "WLH 2208",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00000261",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "WLH 2208",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00000262",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2150",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-005-DI",
+              "event_id": "E 00000263",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1305",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 32,
+                "seats_available": 32,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000258",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 192,
+                "seats_available": 192,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-006-DI",
+              "event_id": "E 00000264",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "WLH 2208",
+                  "instructor": "Annika Stone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 36,
+                "seats_available": 36,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "030",
+      "course_title": "Decolonizing the Body",
+      "tss_course_code": "ANTH-030",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000272",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000272",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2150",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2150",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2150",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "HSS 2150",
+                  "instructor": "Saiba Varma",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "087",
+      "course_title": "Freshman Seminar",
+      "tss_course_code": "ANTH-087",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000274",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000274",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "SSB 102",
+                  "instructor": "David Jordan",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": "002-000-SE",
+          "displayed_package_id": "E 00000275",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00000275",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "SSB 102",
+                  "instructor": "David Jordan",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "101",
+      "course_title": "Foundations/Social Complexity",
+      "tss_course_code": "ANTH-101",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000292",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000293",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "CENTR 205",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000292",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00000294",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 205",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000292",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00000295",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "CENTR 205",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000292",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "CENTR 216",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00000296",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 205",
+                  "instructor": "Paul Goldstein",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "105",
+      "course_title": "Climate Change, Race,& Inequal",
+      "tss_course_code": "ANTH-105",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000297",
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000297",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 1A19",
+                  "instructor": "",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 1A19",
+                  "instructor": "",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 1A19",
+                  "instructor": "",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 1A19",
+                  "instructor": "",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 80,
+                "seats_available": 80,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "107",
+      "course_title": "Dsgn:Disasters,Emerg,Weather",
+      "tss_course_code": "ANTH-107",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000298",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000298",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Steven Parish",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Steven Parish",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "COA 124",
+                  "instructor": "Steven Parish",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "108",
+      "course_title": "IndigPpls, Develop,& ClimChng",
+      "tss_course_code": "ANTH-108",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000299",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000299",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "COA B26",
+                  "instructor": "Julia Sloane",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "196A",
+      "course_title": "Honors Studies in Anthropology",
+      "tss_course_code": "ANTH-196A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000300",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000300",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CENTR 223",
+                  "instructor": "Geoffrey Braswell",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "203",
+      "course_title": "Introduction to Anthropogeny",
+      "tss_course_code": "ANTH-203",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000301",
+          "final_exam_date": "2026-12-12",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000301",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "1:00pm",
+                  "end_time": "4:30pm",
+                  "location_displayed": "SSRB 310",
+                  "instructor": "Pascal Gagneux",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-12",
+                  "days": "S",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "SSRB 310",
+                  "instructor": "Pascal Gagneux",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "212",
+      "course_title": "Adv Topics in Biological Anthr",
+      "tss_course_code": "ANTH-212",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "002-000-SE",
+          "displayed_package_id": "E 00004297",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00004297",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": "Keolu Fox",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "230",
+      "course_title": "Department Colloquium",
+      "tss_course_code": "ANTH-230",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00004752",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004752",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "4:30pm",
+                  "location_displayed": null,
+                  "instructor": "Pascal Gagneux",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "241",
+      "course_title": "Ling Anth Workshop",
+      "tss_course_code": "ANTH-241",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00004811",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004811",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "SSRB 340",
+                  "instructor": "Rihan Yeh",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "273",
+      "course_title": "Colloquium in Science Studies",
+      "tss_course_code": "ANTH-273",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00003792",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00003792",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "RWAC 0472",
+                  "instructor": "Kerry Mckenzie",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "278",
+      "course_title": "Anthropological Methods",
+      "tss_course_code": "ANTH-278",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00004298",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004298",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "RWAC 0425",
+                  "instructor": "Bonnie Kaiser Bonnie Kaiser",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": null,
+                  "instructor": "Bonnie Kaiser Bonnie Kaiser",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "RWAC 0425",
+                  "instructor": "Bonnie Kaiser Bonnie Kaiser",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "280A",
+      "course_title": "Core Seminar in Social Anthro",
+      "tss_course_code": "ANTH-280A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000303",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000303",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "6:50pm",
+                  "location_displayed": "SSB 269",
+                  "instructor": "Aftab Jassal",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "280D",
+      "course_title": "Core Sem/Anthro Archaeology",
+      "tss_course_code": "ANTH-280D",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000304",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000304",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "5:00pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CENTR 223",
+                  "instructor": "Isabel Rivera-Collazo",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "281A",
+      "course_title": "Proseminar",
+      "tss_course_code": "ANTH-281A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-SE",
+          "displayed_package_id": "E 00000305",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000305",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CENTR 223",
+                  "instructor": "Zachary Dunseth",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": true,
+    "continuation_needed": false
+  }
+}

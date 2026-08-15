@@ -1,0 +1,153 @@
+{
+  "subject": "LTEU",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "LTEU:140",
+      "subject": "LTEU",
+      "course_number": "140",
+      "title": "Italian Literature in Transltn",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#lteu140",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925459",
+          "course_id": "LTEU:140",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "De Marchi Gherini, Adriana"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "SOLIS",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "SOLIS 110"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "SOLIS",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "SOLIS 110"
+            }
+          ],
+          "enrolled": 45,
+          "capacity": 46,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTEU",
+            "raw_course_number": "140",
+            "raw_section_identifier": "925459",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTEU:154",
+      "subject": "LTEU",
+      "course_number": "154",
+      "title": "Russian Culture",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#lteu154",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925461",
+          "course_id": "LTEU:154",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Morse, Ainsley"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "WLH",
+              "room": "2112",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "WLH 2112"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "WLH",
+              "room": "2112",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "WLH 2112"
+            }
+          ],
+          "enrolled": 33,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTEU",
+            "raw_course_number": "154",
+            "raw_section_identifier": "925461",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

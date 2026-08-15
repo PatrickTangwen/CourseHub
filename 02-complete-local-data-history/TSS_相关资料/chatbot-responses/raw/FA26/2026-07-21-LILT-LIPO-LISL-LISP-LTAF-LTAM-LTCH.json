@@ -1,0 +1,5455 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "LILT, LIPO, LISL, LISP, LTAF, LTAM, LTCH",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "001A",
+      "course_title": null,
+      "tss_course_code": "LIPO-001A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001138",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001139",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001AX",
+      "course_title": null,
+      "tss_course_code": "LIPO-001AX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001140",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00001141",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001D",
+      "course_title": null,
+      "tss_course_code": "LIPO-001D",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001142",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3218",
+                  "instructor": "Denise Paladini",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001DX",
+      "course_title": null,
+      "tss_course_code": "LIPO-001DX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001143",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": "Cassia De Abreu",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001A",
+      "course_title": null,
+      "tss_course_code": "LISL-001A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00002820",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00002821",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00002822",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001144",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001145",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001146",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2330",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001AR",
+      "course_title": null,
+      "tss_course_code": "LISL-001AR",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001147",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00001148",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00001149",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001AX",
+      "course_title": null,
+      "tss_course_code": "LISL-001AX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00002823",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00002824",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "003-000-DI",
+              "event_id": "E 00002825",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001B",
+      "course_title": null,
+      "tss_course_code": "LISL-001B",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00002826",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001150",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00001151",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001152",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00002831",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00004882",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2333A",
+                  "instructor": "Peggy Lott",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2333A",
+                  "instructor": "Peggy Lott",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2333A",
+                  "instructor": "Peggy Lott",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001BX",
+      "course_title": null,
+      "tss_course_code": "LISL-001BX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001153",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00002827",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "003-000-DI",
+              "event_id": "E 00002828",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001D",
+      "course_title": null,
+      "tss_course_code": "LISL-001D",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00002829",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00004181",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00002832",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00002833",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001DX",
+      "course_title": null,
+      "tss_course_code": "LISL-001DX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00002834",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00002835",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "APM 3321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001A",
+      "course_title": null,
+      "tss_course_code": "LISP-001A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001154",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001155",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00001156",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001157",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001158",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001159",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "007-000-TU",
+              "event_id": "E 00001160",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MCGIL 2342",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 14,
+                "seats_available": 14,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001AX",
+      "course_title": null,
+      "tss_course_code": "LISP-001AX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001161",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "COA 127",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00001162",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 28,
+                "seats_available": 28,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "003-000-DI",
+              "event_id": "E 00001163",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "APM 3402",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 21,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "004-000-DI",
+              "event_id": "E 00001164",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "YORK 3060",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "YORK 3060",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 21,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001B",
+      "course_title": null,
+      "tss_course_code": "LISP-001B",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001165",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001166",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 4060A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00001167",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 4060B",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 4060B",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 4060B",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001168",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001169",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001170",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "007-000-TU",
+              "event_id": "E 00001171",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "008-000-TU",
+              "event_id": "E 00001172",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "009-000-TU",
+              "event_id": "E 00001173",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "010-000-TU",
+              "event_id": "E 00001174",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001BX",
+      "course_title": null,
+      "tss_course_code": "LISP-001BX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001175",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "WLH 2206",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "WLH 2206",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "MANDE B-202",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00001176",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "WLH 2209",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "WLH 2209",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "003-000-DI",
+              "event_id": "E 00001177",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1315",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1315",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "004-000-DI",
+              "event_id": "E 00001178",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 2154",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 2154",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "005-000-DI",
+              "event_id": "E 00001179",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 218",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 218",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001D",
+      "course_title": null,
+      "tss_course_code": "LISP-001D",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001180",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001181",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1138",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00001182",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001183",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001184",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001185",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "007-000-TU",
+              "event_id": "E 00001186",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "008-000-TU",
+              "event_id": "E 00001187",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "009-000-TU",
+              "event_id": "E 00001188",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "010-000-TU",
+              "event_id": "E 00001189",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 224C",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001DX",
+      "course_title": null,
+      "tss_course_code": "LISP-001DX",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "001-000-DI",
+              "event_id": "E 00001190",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 205",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 205",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "002-000-DI",
+              "event_id": "E 00001191",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "CENTR 203",
+                  "instructor": "Alicia Munoz Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "CENTR 203",
+                  "instructor": "Alicia Munoz Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": "Alicia Munoz Sanchez",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "003-000-DI",
+              "event_id": "E 00001192",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 220",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 220",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "004-000-DI",
+              "event_id": "E 00001193",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1315",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1315",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-05",
+          "components": [
+            {
+              "type": "discussion",
+              "section_code": "005-000-DI",
+              "event_id": "E 00001194",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 207",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "CENTR 207",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-05",
+                  "days": "S",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": null,
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "015",
+      "course_title": null,
+      "tss_course_code": "LISP-015",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001195",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MANDE B-152",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MANDE B-152",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "MANDE B-152",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "018",
+      "course_title": null,
+      "tss_course_code": "LISP-018",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001196",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MANDE B-152",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MANDE B-152",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "120",
+      "course_title": null,
+      "tss_course_code": "LTAF-120",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001402",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Oumelbanine Zhiri",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Oumelbanine Zhiri",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "MANDE B-104",
+                  "instructor": "Oumelbanine Zhiri",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "110",
+      "course_title": null,
+      "tss_course_code": "LTAM-110",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001403",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Gloria Chacon",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Gloria Chacon",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "WLH 2112",
+                  "instructor": "Gloria Chacon",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "120",
+      "course_title": null,
+      "tss_course_code": "LTAM-120",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001404",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "SOLIS 110",
+                  "instructor": "Luis Martin-Cabrera",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "SOLIS 110",
+                  "instructor": "Luis Martin-Cabrera",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "SOLIS 110",
+                  "instructor": "Luis Martin-Cabrera",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "SOLIS 110",
+                  "instructor": "Luis Martin-Cabrera",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "101",
+      "course_title": null,
+      "tss_course_code": "LTCH-101",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001440",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 1A22",
+                  "instructor": "Ping-Hui Liao",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 1A22",
+                  "instructor": "Ping-Hui Liao",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 1A22",
+                  "instructor": "Ping-Hui Liao",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

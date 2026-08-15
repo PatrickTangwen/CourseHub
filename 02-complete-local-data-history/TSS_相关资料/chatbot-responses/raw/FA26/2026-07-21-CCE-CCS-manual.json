@@ -1,0 +1,2426 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "CCE, CCS",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00",
+    "source_note": "No schedule information was found for CCS in Fall 2026."
+  },
+  "courses": [
+    {
+      "course_code": "001",
+      "course_title": "Critical Approach / Comm Practice",
+      "tss_course_code": "CCE-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000154",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00000155",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00000156",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00000157",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "005-000-SE",
+              "event_id": "E 00000158",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "006-000-SE",
+              "event_id": "E 00000159",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "007-000-SE",
+              "event_id": "E 00000160",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "008-000-SE",
+              "event_id": "E 00000161",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "002",
+      "course_title": "Cultivating / Comm Informed Practices",
+      "tss_course_code": "CCE-002",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004341",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00004342",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00004343",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kerry White",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00004344",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "005-000-SE",
+              "event_id": "E 00004345",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Vabianna Santos",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "006-000-SE",
+              "event_id": "E 00004346",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "007-000-SE",
+              "event_id": "E 00004347",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "008-000-SE",
+              "event_id": "E 00004348",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Ash Merryman",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "009-000-SE",
+              "event_id": "E 00004349",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "010-000-SE",
+              "event_id": "E 00004350",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "011-000-SE",
+              "event_id": "E 00004351",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "003",
+      "course_title": "Elements / Comm Engage College Research",
+      "tss_course_code": "CCE-003",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00004355",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Louis Labat",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00004356",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "005-000-SE",
+              "event_id": "E 00004357",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "006-000-SE",
+              "event_id": "E 00004358",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0274",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "007-000-SE",
+              "event_id": "E 00004797",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 21,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "110",
+      "course_title": "Foundations / Comm Partnership",
+      "tss_course_code": "CCE-110",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000162",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Danielle Williams",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Danielle Williams",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00000163",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "James Crawford",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "James Crawford",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00000164",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Nicole Kenley",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "Nicole Kenley",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00000165",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "David Quijada",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": "David Quijada",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 41,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "120",
+      "course_title": "Comm Partnership / Proj Design",
+      "tss_course_code": "CCE-120",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004359",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kassandra Lee",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "001-001-FW",
+              "event_id": "E 00001101",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00004360",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Kathryn Garcia",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "002-001-FW",
+              "event_id": "E 00001102",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00004361",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "003-001-FW",
+              "event_id": "E 00004365",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00004362",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "004-001-FW",
+              "event_id": "E 00004366",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "PODEM 0273",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "007-000-SE",
+              "event_id": "E 00004874",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "007-001-FW",
+              "event_id": "E 00004876",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "se",
+              "section_code": "008-000-SE",
+              "event_id": "E 00004875",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PODEM 0275",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            },
+            {
+              "type": "fw",
+              "section_code": "008-001-FW",
+              "event_id": "E 00004877",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Michele Bigley",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 31,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "500",
+      "course_title": "Apprentice Teaching in CCE",
+      "tss_course_code": "CCE-500",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "EL00000341",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "TBA",
+                  "instructor": "James Crawford",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": null,
+                "capacity": null,
+                "seats_available": 3,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": null
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": true,
+    "continuation_needed": false,
+    "no_returned_subjects": [
+      "CCS"
+    ]
+  }
+}

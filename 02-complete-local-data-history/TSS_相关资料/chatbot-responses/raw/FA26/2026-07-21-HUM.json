@@ -1,0 +1,4622 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "HUM",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "001",
+      "course_title": null,
+      "tss_course_code": "HUM-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000400",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00000401",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00000402",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00000403",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-005-DI",
+              "event_id": "E 00000404",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-006-DI",
+              "event_id": "E 00000405",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-007-DI",
+              "event_id": "E 00000406",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "SSB 106",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "SSB 106",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-008-DI",
+              "event_id": "E 00000407",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "MANDE B-146",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-009-DI",
+              "event_id": "E 00000408",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-010-DI",
+              "event_id": "E 00000409",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-011-DI",
+              "event_id": "E 00000410",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 12,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000399",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 180,
+                "seats_available": 180,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-012-DI",
+              "event_id": "E 00000411",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "YORK 4050B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 15,
+                "seats_available": 15,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "003",
+      "course_title": null,
+      "tss_course_code": "HUM-003",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00000416",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00000417",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00000418",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00000419",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-005-DI",
+              "event_id": "E 00000420",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000412",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "YORK 2622",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "PCYNH 109",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 174,
+                "seats_available": 174,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-006-DI",
+              "event_id": "E 00000421",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Antony Lyon",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00000413",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-18",
+                  "days": "U",
+                  "start_time": "2:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 116,
+                "seats_available": 116,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "002-001-DI",
+              "event_id": "E 00000422",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "CENTR 217B",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00000413",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-18",
+                  "days": "U",
+                  "start_time": "2:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 116,
+                "seats_available": 116,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "002-002-DI",
+              "event_id": "E 00000423",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "WLH 2208",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00000413",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-18",
+                  "days": "U",
+                  "start_time": "2:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 116,
+                "seats_available": 116,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "002-003-DI",
+              "event_id": "E 00000424",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00000413",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-18",
+                  "days": "U",
+                  "start_time": "2:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 1330",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 116,
+                "seats_available": 116,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "002-004-DI",
+              "event_id": "E 00000425",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-001-DI",
+              "event_id": "E 00000426",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 12,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-002-DI",
+              "event_id": "E 00000427",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 13,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-003-DI",
+              "event_id": "E 00000428",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 14,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-004-DI",
+              "event_id": "E 00000429",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 2321",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 15,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-005-DI",
+              "event_id": "E 00000430",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 16,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "003-000-LE",
+              "event_id": "E 00000414",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "LEDDN AUD",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-26",
+                  "days": "M",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 203,
+                "seats_available": 203,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "003-006-DI",
+              "event_id": "E 00000431",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Bretton Rodriguez",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 17,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-001-DI",
+              "event_id": "E 00000433",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 18,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-002-DI",
+              "event_id": "E 00000434",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 19,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-003-DI",
+              "event_id": "E 00000435",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 20,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-004-DI",
+              "event_id": "E 00000436",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 21,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-005-DI",
+              "event_id": "E 00000437",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 22,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-006-DI",
+              "event_id": "E 00000438",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 23,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-007-DI",
+              "event_id": "E 00000439",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 24,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "004-000-LE",
+              "event_id": "E 00000415",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "MOS 0114",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "midterm",
+                  "specific_date": "2026-10-21",
+                  "days": "W",
+                  "start_time": "7:00pm",
+                  "end_time": "8:50pm",
+                  "location_displayed": "YORK 2722",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 232,
+                "seats_available": 232,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "004-008-DI",
+              "event_id": "E 00000440",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "YORK 3000A",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 29,
+                "seats_available": 29,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "100",
+      "course_title": null,
+      "tss_course_code": "HUM-100",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00000441",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "002-000-SE",
+              "event_id": "E 00000442",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "GH 174",
+                  "instructor": "Geoffrey West",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "003-000-SE",
+              "event_id": "E 00000443",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "004-000-SE",
+              "event_id": "E 00000444",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "005-000-SE",
+              "event_id": "E 00000445",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Tatiana Zavodny",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "006-000-SE",
+              "event_id": "E 00000446",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "YORK 3070",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "007-000-SE",
+              "event_id": "E 00000447",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "YORK 3060",
+                  "instructor": "Matthew Crum",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "009-000-SE",
+              "event_id": "E 00000449",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": null,
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "GH 174",
+                  "instructor": null,
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "010-000-SE",
+              "event_id": "E 00000450",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "YORK 3070",
+                  "instructor": null,
+                  "is_tba": 0,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "YORK 3070",
+                  "instructor": null,
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 18,
+                "seats_available": 18,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "088",
+      "course_title": null,
+      "tss_course_code": "HUM-088",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "se",
+              "section_code": "001-000-SE",
+              "event_id": "E 00005244",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "11:20am",
+                  "location_displayed": "RVCOM FORML",
+                  "instructor": "Kristina Markman",
+                  "is_tba": 0,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": "AC",
+                "is_cancelled": 0
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

@@ -1,0 +1,1040 @@
+{
+  "subject": "USP",
+  "term": "S125",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "USP:1",
+      "subject": "USP",
+      "course_number": "1",
+      "title": "History/US Urban Communities",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp1",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885352",
+          "course_id": "USP:1",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Kwak, Nancy"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RCLAS R09"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R56",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RCLAS R56"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R04"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 45,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "1",
+            "raw_section_identifier": "885352",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:4",
+      "subject": "USP",
+      "course_number": "4",
+      "title": "Intro/Geographic Info Systems",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp4",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885368",
+          "course_id": "USP:4",
+          "section_code": "A00",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "McTague, Sarah"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R06"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "4",
+            "raw_section_identifier": "885368",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:5",
+      "subject": "USP",
+      "course_number": "5",
+      "title": "Intro to Real Estate/Develmnt",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp5",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885377",
+          "course_id": "USP:5",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Boomhower, Matthew Charles"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R100",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RCLAS R100"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R104",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RCLAS R104"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R34",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R34"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "5",
+            "raw_section_identifier": "885377",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:100",
+      "subject": "USP",
+      "course_number": "100",
+      "title": "Introduction to Urban Planning",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885395",
+          "course_id": "USP:100",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Sarkar, Sheila Srilekha"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R12",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R12"
+            }
+          ],
+          "enrolled": 33,
+          "capacity": 45,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "100",
+            "raw_section_identifier": "885395",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:101",
+      "subject": "USP",
+      "course_number": "101",
+      "title": "Introduction/Policy Analysis",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp101",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885396",
+          "course_id": "USP:101",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bergman, Matthew Edward"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R19",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R19"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R19",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R19"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 12,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "101",
+            "raw_section_identifier": "885396",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:124",
+      "subject": "USP",
+      "course_number": "124",
+      "title": "Land Use Planning",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp124",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885403",
+          "course_id": "USP:124",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Fulton, William"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R21",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R21"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RCLAS",
+              "room": "R03",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RCLAS R03"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 45,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "124",
+            "raw_section_identifier": "885403",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:143",
+      "subject": "USP",
+      "course_number": "143",
+      "title": "The US Health Care System",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp143",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885408",
+          "course_id": "USP:143",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Hinds, Juli Beth"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R57",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R57"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R32",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R32"
+            }
+          ],
+          "enrolled": 62,
+          "capacity": 75,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "143",
+            "raw_section_identifier": "885408",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:145",
+      "subject": "USP",
+      "course_number": "145",
+      "title": "Aging-Social & Health Policy",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp145",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885409",
+          "course_id": "USP:145",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Yaghmaee, Saman"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R19",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R19"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "145",
+            "raw_section_identifier": "885409",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:152A",
+      "subject": "USP",
+      "course_number": "152A",
+      "title": "Real Estate/Dev Finance&Invest",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp152a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885447",
+          "course_id": "USP:152A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Weaver, Todd D"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "18:00",
+              "end_time": "20:50",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "6:00p-8:50p",
+              "raw_location": "RCLAS R09"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R23",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RCLAS R23"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R09"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "152A",
+            "raw_section_identifier": "885447",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:153",
+      "subject": "USP",
+      "course_number": "153",
+      "title": "Real Estate&DevMarket Analysis",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp153",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885448",
+          "course_id": "USP:153",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Shenkman, Michael Thomas"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R06"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R06"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "153",
+            "raw_section_identifier": "885448",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:154",
+      "subject": "USP",
+      "course_number": "154",
+      "title": "Global Justice/Theory & Action",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp154",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885483",
+          "course_id": "USP:154",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "154",
+            "raw_section_identifier": "885483",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:168",
+      "subject": "USP",
+      "course_number": "168",
+      "title": "History of Los Angeles",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp168",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885501",
+          "course_id": "USP:168",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "168",
+            "raw_section_identifier": "885501",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:170",
+      "subject": "USP",
+      "course_number": "170",
+      "title": "Planning for Sustainable Comm",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp170",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885502",
+          "course_id": "USP:170",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Hinds, Juli Beth"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R22",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R22"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RCLAS R06"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "170",
+            "raw_section_identifier": "885502",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "USP:173",
+      "subject": "USP",
+      "course_number": "173",
+      "title": "History/Urban Planning&Design",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/USP.html#usp173",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:885503",
+          "course_id": "USP:173",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Herzog, Lawrence"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R37",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R37"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R05",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R05"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "USP",
+            "raw_course_number": "173",
+            "raw_section_identifier": "885503",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

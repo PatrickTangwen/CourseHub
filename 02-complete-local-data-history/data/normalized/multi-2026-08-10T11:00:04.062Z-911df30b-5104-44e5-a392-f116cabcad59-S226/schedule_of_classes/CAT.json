@@ -1,0 +1,450 @@
+{
+  "subject": "CAT",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "08/10/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "CAT:124",
+      "subject": "CAT",
+      "course_number": "124",
+      "title": "Sixth College Practicum",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/CAT.html#cat124",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:278674",
+          "course_id": "CAT:124",
+          "section_code": "A01",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Mertz-Vega, Caleb Alan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "12:20",
+              "building": "RWAC",
+              "room": "0291",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-12:20p",
+              "raw_location": "RWAC 0291"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Practicum",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "124",
+            "raw_section_identifier": "278674",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CAT:125",
+      "subject": "CAT",
+      "course_number": "125",
+      "title": "Public Rhetoric & Prac Comm",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/CAT.html#cat125",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262517",
+          "course_id": "CAT:125",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Marchisotto, Jennifer Anne"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "13:00",
+              "building": "CTL",
+              "room": "B108",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-1:00p",
+              "raw_location": "CTL B108"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "CTL",
+              "room": "B108",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "CTL B108"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125",
+            "raw_section_identifier": "262517",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CAT:125R",
+      "subject": "CAT",
+      "course_number": "125R",
+      "title": "Pub Rhet & Prac Comm Online",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/CAT.html#cat125r",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262518",
+          "course_id": "CAT:125R",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Delaville, Romain"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "12:00",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-12:00p",
+              "raw_location": "RCLAS R09"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R09"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125R",
+            "raw_section_identifier": "262518",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "S226:262520",
+          "course_id": "CAT:125R",
+          "section_code": "B00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Smith, Lauryn Alissa"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "12:00",
+              "building": "RCLAS",
+              "room": "R100",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-12:00p",
+              "raw_location": "RCLAS R100"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R100",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R100"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125R",
+            "raw_section_identifier": "262520",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "S226:262521",
+          "course_id": "CAT:125R",
+          "section_code": "C00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Morales, Celeste Georgianna"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "12:00",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-12:00p",
+              "raw_location": "RCLAS R02"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R02"
+            }
+          ],
+          "enrolled": 16,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125R",
+            "raw_section_identifier": "262521",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "S226:262523",
+          "course_id": "CAT:125R",
+          "section_code": "D00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Irwin, Matthew Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "12:00",
+              "building": "RCLAS",
+              "room": "R101",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-12:00p",
+              "raw_location": "RCLAS R101"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R101"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125R",
+            "raw_section_identifier": "262523",
+            "raw_section_code": "D00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "S226:262524",
+          "course_id": "CAT:125R",
+          "section_code": "E00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Vanderschuit, Maya Alysia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "13:00",
+              "building": "RCLAS",
+              "room": "R102",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-1:00p",
+              "raw_location": "RCLAS R102"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R102"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "CAT",
+            "raw_course_number": "125R",
+            "raw_section_identifier": "262524",
+            "raw_section_code": "E00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

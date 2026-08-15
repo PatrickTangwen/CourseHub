@@ -1,0 +1,1 @@
+Extracted from TritonGPT chat. Raw code blocks are preserved verbatim. capacity rows are merged in fa26_module_capacity.csv. Audit: unique course count matches 2093, but 7291 extracted capacity rows vs 7295 declared sections (difference 4).

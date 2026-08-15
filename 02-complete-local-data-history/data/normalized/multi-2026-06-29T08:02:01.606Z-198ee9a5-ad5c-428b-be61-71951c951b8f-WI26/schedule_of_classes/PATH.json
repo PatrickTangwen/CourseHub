@@ -1,0 +1,930 @@
+{
+  "subject": "PATH",
+  "term": "WI26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "PATH:221",
+      "subject": "PATH",
+      "course_number": "221",
+      "title": "Fundamentals of Cancer Biology",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/PATH.html#path221",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:22472",
+          "course_id": "PATH:221",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Yang, Jing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "10:00",
+              "end_time": "12:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "10:00a-12:00p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "221",
+            "raw_section_identifier": "22472",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:296",
+      "subject": "PATH",
+      "course_number": "296",
+      "title": "Pathology Independent Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/PATH.html#path296",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55830",
+          "course_id": "PATH:296",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55830",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55860",
+          "course_id": "PATH:296",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55860",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55867",
+          "course_id": "PATH:296",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55867",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:299",
+      "subject": "PATH",
+      "course_number": "299",
+      "title": "Path/Independent Study Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/PATH.html#path299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55868",
+          "course_id": "PATH:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Klemke, Richard"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55868",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55870",
+          "course_id": "PATH:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55870",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55874",
+          "course_id": "PATH:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55874",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:401A",
+      "subject": "PATH",
+      "course_number": "401A",
+      "title": "Pathology Clerkship/Autopsy",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55879",
+          "course_id": "PATH:401A",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Russo, Hana Marie"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "401A",
+            "raw_section_identifier": "55879",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:401B",
+      "subject": "PATH",
+      "course_number": "401B",
+      "title": "Pathology Clerkship/Cytology",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55880",
+          "course_id": "PATH:401B",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Hasteh, Farnaz"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "401B",
+            "raw_section_identifier": "55880",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:401C",
+      "subject": "PATH",
+      "course_number": "401C",
+      "title": "Pathology Clerkship/Clinical",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55881",
+          "course_id": "PATH:401C",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Allen, Elizabeth S"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "401C",
+            "raw_section_identifier": "55881",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:401S",
+      "subject": "PATH",
+      "course_number": "401S",
+      "title": "Pathology Clerkship/Surgery",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55882",
+          "course_id": "PATH:401S",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Vavinskaya, Vera"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "401S",
+            "raw_section_identifier": "55882",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:410",
+      "subject": "PATH",
+      "course_number": "410",
+      "title": "Intro to Surgical Pathology",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55885",
+          "course_id": "PATH:410",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Vavinskaya, Vera"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "410",
+            "raw_section_identifier": "55885",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:411",
+      "subject": "PATH",
+      "course_number": "411",
+      "title": "Intro to Anatomic Pathology",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55886",
+          "course_id": "PATH:411",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Jih, Lily"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "411",
+            "raw_section_identifier": "55886",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:412",
+      "subject": "PATH",
+      "course_number": "412",
+      "title": "Intro to Ophthalmic Pathology",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55891",
+          "course_id": "PATH:412",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Ferguson, Cole John"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "412",
+            "raw_section_identifier": "55891",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:413",
+      "subject": "PATH",
+      "course_number": "413",
+      "title": "Intro to Neuropath Selective",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:58414",
+          "course_id": "PATH:413",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Goodwill, Vanessa Shareen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "413",
+            "raw_section_identifier": "58414",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:426",
+      "subject": "PATH",
+      "course_number": "426",
+      "title": "Pathology Clerkship/Pediatric",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55892",
+          "course_id": "PATH:426",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Malicki, Denise Michelle"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "426",
+            "raw_section_identifier": "55892",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:427",
+      "subject": "PATH",
+      "course_number": "427",
+      "title": "Ophthalmic Pathology",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55893",
+          "course_id": "PATH:427",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Zuraski, Connor Richard"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "427",
+            "raw_section_identifier": "55893",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "PATH:428",
+      "subject": "PATH",
+      "course_number": "428",
+      "title": "Pathology Clerkship/Forensic",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55901",
+          "course_id": "PATH:428",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Vavinskaya, Vera"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "PATH",
+            "raw_course_number": "428",
+            "raw_section_identifier": "55901",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    }
+  ]
+}

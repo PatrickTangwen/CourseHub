@@ -1,0 +1,140 @@
+{
+  "subject": "HINE",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "HINE:144",
+      "subject": "HINE",
+      "course_number": "144",
+      "title": "Topics/Middle Eastern History",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/HIST.html#hine144",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:922132",
+          "course_id": "HINE:144",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Provence, Michael"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RWAC",
+              "room": "0103",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RWAC 0103"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-12-12",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RWAC",
+              "room": "0103",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RWAC 0103"
+            }
+          ],
+          "enrolled": 41,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "FA25",
+            "raw_subject": "HINE",
+            "raw_course_number": "144",
+            "raw_section_identifier": "922132",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "HINE:186",
+      "subject": "HINE",
+      "course_number": "186",
+      "title": "Topics/Middle Eastern History",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/HIST.html#hine186",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:922133",
+          "course_id": "HINE:186",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Provence, Michael"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "14:50",
+              "building": "RWAC",
+              "room": "0846",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "M",
+              "raw_time": "12:00p-2:50p",
+              "raw_location": "RWAC 0846"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "FA25",
+            "raw_subject": "HINE",
+            "raw_course_number": "186",
+            "raw_section_identifier": "922133",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

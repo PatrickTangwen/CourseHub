@@ -1,0 +1,155 @@
+{
+  "subject": "LTAF",
+  "term": "WI26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "07/01/2026, 03:25:00",
+  "courses": [
+    {
+      "course_id": "LTAF:110",
+      "subject": "LTAF",
+      "course_number": "110",
+      "title": "African Oral Literature",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltaf110",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:24778",
+          "course_id": "LTAF:110",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bamgbose, Gabriel Sunday"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "COA",
+              "room": "B26",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "COA B26"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": "2026-03-17",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "COA",
+              "room": "B26",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "COA B26"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI26",
+            "raw_subject": "LTAF",
+            "raw_course_number": "110",
+            "raw_section_identifier": "24778",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTAF:120",
+      "subject": "LTAF",
+      "course_number": "120",
+      "title": "Lit & Film of Modern Africa",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltaf120",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:24779",
+          "course_id": "LTAF:120",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bamgbose, Gabriel Sunday"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "PODEM",
+              "room": "1A22",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "PODEM 1A22"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": "2026-03-17",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A22",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A22"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI26",
+            "raw_subject": "LTAF",
+            "raw_course_number": "120",
+            "raw_section_identifier": "24779",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

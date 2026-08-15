@@ -1,0 +1,44 @@
+{
+  "run_id": "relationship-edge-zero-meeting",
+  "generated_at": "2026-07-11T00:00:00.000Z",
+  "active_planning_term": "RELATIONSHIP-EDGE",
+  "term_label": "Relationship Edge Fixture",
+  "configured_subjects": ["TEST"],
+  "systemic_parser_failure_threshold": 0.5,
+  "cells": [
+    {
+      "term": "RELATIONSHIP-EDGE",
+      "subject": "TEST",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": { "courses": 1, "sections": 1, "meetings": 0 },
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "RELATIONSHIP-EDGE",
+      "subject": "TEST",
+      "source": "general_catalog",
+      "status": "partial",
+      "reason": "Boundary fixture for partial-manifest query semantics",
+      "attempts": 1,
+      "row_counts": { "courses": 0 },
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "RELATIONSHIP-EDGE",
+      "subject": "TEST",
+      "source": "instructor_grade_archive",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": { "records": 1 },
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    }
+  ],
+  "summary": { "ok": 2, "empty": 0, "failed": 0, "partial": 1 }
+}

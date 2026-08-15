@@ -1,0 +1,358 @@
+{
+  "subject": "AAS",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "08/03/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "AAS:10",
+      "subject": "AAS",
+      "course_number": "10",
+      "title": "Intro/African-American Studies",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas10",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:73722",
+          "course_id": "AAS:10",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 34,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "10",
+            "raw_section_identifier": "73722",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "SP26:73723",
+          "course_id": "AAS:10",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 34,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "10",
+            "raw_section_identifier": "73723",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:170",
+      "subject": "AAS",
+      "course_number": "170",
+      "title": "Legacies of Research",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas170",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:73724",
+          "course_id": "AAS:170",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "HSS",
+              "room": "1305",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "HSS 1305"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2026-06-11",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "HSS",
+              "room": "1305",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "HSS 1305"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "170",
+            "raw_section_identifier": "73724",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:198",
+      "subject": "AAS",
+      "course_number": "198",
+      "title": "Directed Group Study",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas198",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:268044",
+          "course_id": "AAS:198",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "198",
+            "raw_section_identifier": "268044",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:278356",
+          "course_id": "AAS:198",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Abdul-Mutakabbir, Jacinda"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 2,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "198",
+            "raw_section_identifier": "278356",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:199",
+      "subject": "AAS",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:269229",
+          "course_id": "AAS:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Childs, Dennis R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "AAS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "269229",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

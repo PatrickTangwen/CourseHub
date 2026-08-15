@@ -1,0 +1,201 @@
+{
+  "subject": "REV",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "REV:20",
+      "subject": "REV",
+      "course_number": "20",
+      "title": "Revelle Honors Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/REV.html#rev20",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:946356",
+          "course_id": "REV:20",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Yu, Paul K L"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "RVCOM",
+              "room": "FORML",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "RVCOM FORML"
+            }
+          ],
+          "enrolled": 40,
+          "capacity": 40,
+          "waitlist_count": 9,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "FA25",
+            "raw_subject": "REV",
+            "raw_course_number": "20",
+            "raw_section_identifier": "946356",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "FA25:946357",
+          "course_id": "REV:20",
+          "section_code": "B00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Yu, Paul K L"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 40,
+          "capacity": 40,
+          "waitlist_count": 19,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "FA25",
+            "raw_subject": "REV",
+            "raw_course_number": "20",
+            "raw_section_identifier": "946357",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "REV:87",
+      "subject": "REV",
+      "course_number": "87",
+      "title": "First-year Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/REV.html#rev87",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:946358",
+          "course_id": "REV:87",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "FA25",
+            "raw_subject": "REV",
+            "raw_course_number": "87",
+            "raw_section_identifier": "946358",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "FA25:969668",
+          "course_id": "REV:87",
+          "section_code": "B00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Rodriguez, Bretton Sigfred"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "17:50",
+              "building": "GH",
+              "room": "174",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "M",
+              "raw_time": "5:00p-5:50p",
+              "raw_location": "GH 174"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "FA25",
+            "raw_subject": "REV",
+            "raw_course_number": "87",
+            "raw_section_identifier": "969668",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

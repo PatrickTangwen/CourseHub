@@ -1,0 +1,65 @@
+active_planning_term: SP26
+term_label: Spring 2026
+term_date_range:
+  start: '2026-03-30'
+  end: '2026-06-12'
+term_date_ranges:
+  FA24:
+    start: '2024-09-26'
+    end: '2024-12-14'
+  S224:
+    start: '2024-08-05'
+    end: '2024-09-07'
+  # UCSD Special Session dates vary by class; this is the official term-level window.
+  S324:
+    start: '2024-06-17'
+    end: '2024-09-21'
+  WI25:
+    start: '2025-01-06'
+    end: '2025-03-22'
+  SP25:
+    start: '2025-03-31'
+    end: '2025-06-13'
+  S125:
+    start: '2025-06-30'
+    end: '2025-08-02'
+  S225:
+    start: '2025-08-04'
+    end: '2025-09-06'
+  # UCSD Special Session dates vary by class; this is the official term-level window.
+  S325:
+    start: '2025-06-16'
+    end: '2025-09-20'
+  FA25:
+    start: '2025-09-25'
+    end: '2025-12-13'
+  WI26:
+    start: '2026-01-05'
+    end: '2026-03-21'
+  SP26:
+    start: '2026-03-30'
+    end: '2026-06-12'
+  S126:
+    start: '2026-06-29'
+    end: '2026-08-01'
+  S226:
+    start: '2026-08-03'
+    end: '2026-09-05'
+  # UCSD Special Session dates vary by class; this is the official term-level window.
+  S326:
+    start: '2026-06-15'
+    end: '2026-09-19'
+  FA26:
+    start: '2026-09-24'
+    end: '2026-12-12'
+configured_subjects:
+  - CSE
+  - MATH
+  - PHYS
+  - ECE
+paths:
+  raw_dir: data/raw
+  normalized_dir: data/normalized
+  reports_dir: data/reports
+  public_catalog_dir: api/static/catalogs/public
+  metadata_path: api/static/metadata.json

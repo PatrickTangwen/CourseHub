@@ -1,0 +1,150 @@
+{
+  "subject": "SPPH",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "08/03/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "SPPH:161R",
+      "subject": "SPPH",
+      "course_number": "161R",
+      "title": "Introduction/Clin Teratology",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://registrar.ucsd.edu/studentlink/cnd.html",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:246917",
+          "course_id": "SPPH:161R",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Chambers, Christina D"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "17:00",
+              "building": "RCLAS",
+              "room": "R05",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "3:00p-5:00p",
+              "raw_location": "RCLAS R05"
+            }
+          ],
+          "enrolled": 5,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "SPPH",
+            "raw_course_number": "161R",
+            "raw_section_identifier": "246917",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SPPH:263B",
+      "subject": "SPPH",
+      "course_number": "263B",
+      "title": "Prin Pharm Sci&Drug DevelpmntB",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://registrar.ucsd.edu/studentlink/cnd.html",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:246919",
+          "course_id": "SPPH:263B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hook, Vivian Yuan-Ho"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:30",
+              "building": "PSB",
+              "room": "1170",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "3:00p-4:30p",
+              "raw_location": "PSB 1170"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 18,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP26",
+            "raw_subject": "SPPH",
+            "raw_course_number": "263B",
+            "raw_section_identifier": "246919",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    }
+  ]
+}

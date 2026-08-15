@@ -1,0 +1,64 @@
+{
+  "subject": "RMED",
+  "term": "S324",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "11/05/2024, 04:24:00",
+  "courses": [
+    {
+      "course_id": "RMED:296",
+      "subject": "RMED",
+      "course_number": "296",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S324:626776",
+          "course_id": "RMED:296",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S324",
+            "raw_subject": "RMED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "626776",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

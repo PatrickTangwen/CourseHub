@@ -1,0 +1,581 @@
+{
+  "subject": "ECE",
+  "term": "S326",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "08/10/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "ECE:111",
+      "subject": "ECE",
+      "course_number": "111",
+      "title": "Advanced Digital Design Proj",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece111",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S326:265820",
+          "course_id": "ECE:111",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Karna, Vishal"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "FAH",
+              "room": "1450",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "FAH 1450"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "FAH",
+              "room": "1450",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "FAH 1450"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2026-07-01",
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "FAH",
+              "room": "1450",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "FAH 1450"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "FAH",
+              "room": "1450",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "FAH 1450"
+            }
+          ],
+          "enrolled": 49,
+          "capacity": 80,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "111",
+            "raw_section_identifier": "265820",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ECE:197",
+      "subject": "ECE",
+      "course_number": "197",
+      "title": "ECE Internship",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece197",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S326:276907",
+          "course_id": "ECE:197",
+          "section_code": "001",
+          "meeting_type": "IT",
+          "instructors": [
+            "Mercier, Patrick Philip"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "IT",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "197",
+            "raw_section_identifier": "276907",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IT"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ECE:298",
+      "subject": "ECE",
+      "course_number": "298",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece298",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S326:278282",
+          "course_id": "ECE:298",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Mercier, Patrick Philip"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "298",
+            "raw_section_identifier": "278282",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ECE:299",
+      "subject": "ECE",
+      "course_number": "299",
+      "title": "Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S326:278770",
+          "course_id": "ECE:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shi, Yuanyuan"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "278770",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:278863",
+          "course_id": "ECE:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Naghizadeh Ardabili, Parinaz"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "278863",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:278915",
+          "course_id": "ECE:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Antipa, Nicholas A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "278915",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:279109",
+          "course_id": "ECE:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Xie, Pengtao"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "279109",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:279110",
+          "course_id": "ECE:299",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ng, Tse Nga"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "279110",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:279310",
+          "course_id": "ECE:299",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ndao, Abdoulaye"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "279310",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:279630",
+          "course_id": "ECE:299",
+          "section_code": "007",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Yip, Michael"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "279630",
+            "raw_section_code": "007",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:280351",
+          "course_id": "ECE:299",
+          "section_code": "008",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Wang, Xiaolong"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "280351",
+            "raw_section_code": "008",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S326:280354",
+          "course_id": "ECE:299",
+          "section_code": "009",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kuzum, Duygu"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S326",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "280354",
+            "raw_section_code": "009",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "AAPI, AESE, ANBI",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "100",
+      "course_title": "Special Topic/Biological Anth",
+      "tss_course_code": "ANBI-100",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000279",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000279",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA 122",
+                  "instructor": "Maria Marchetto",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA 122",
+                  "instructor": "Maria Marchetto",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "COA 122",
+                  "instructor": "Maria Marchetto",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 40,
+                "seats_available": 40,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": "002-000-LE",
+          "displayed_package_id": "E 00000280",
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "002-000-LE",
+              "event_id": "E 00000280",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA B21",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA B21",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "COA B21",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "COA B21",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "112",
+      "course_title": "Methods in Human Neuroscience",
+      "tss_course_code": "ANBI-112",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000281",
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000281",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:30am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "SSRB 310",
+                  "instructor": "Maria Marchetto",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "117",
+      "course_title": "Ancient Genomics",
+      "tss_course_code": "ANBI-117",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000282",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "SOLIS 111",
+                  "instructor": "Keolu Fox",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "SOLIS 111",
+                  "instructor": "Keolu Fox",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "SOLIS 111",
+                  "instructor": "Keolu Fox",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "SOLIS 111",
+                  "instructor": "Keolu Fox",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "lab",
+              "section_code": "001-001-LA",
+              "event_id": "EL00000385",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Keolu Fox",
+                  "is_tba": true,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "134",
+      "course_title": "Human Evolutionary Genetics",
+      "tss_course_code": "ANBI-134",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00004841",
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004841",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "COA 124",
+                  "instructor": "Amy Non",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "COA 124",
+                  "instructor": "Amy Non",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "COA 124",
+                  "instructor": "Amy Non",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "COA 124",
+                  "instructor": "Amy Non",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "136",
+      "course_title": "Human Comparative Neuroanatomy",
+      "tss_course_code": "ANBI-136",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": "001-000-LE",
+          "displayed_package_id": "E 00000283",
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000283",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "SSB 102",
+                  "instructor": "Ekaterini Semendeferi",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "SSB 102",
+                  "instructor": "Ekaterini Semendeferi",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "SSB 102",
+                  "instructor": "Ekaterini Semendeferi",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": true,
+    "continuation_needed": false
+  }
+}

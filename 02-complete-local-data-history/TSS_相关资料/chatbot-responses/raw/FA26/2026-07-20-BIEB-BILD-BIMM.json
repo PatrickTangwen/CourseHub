@@ -1,0 +1,2517 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "BIEB, BILD, BIMM",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "102",
+      "course_title": "Intro Eclgy/Organisms&Habitats",
+      "tss_course_code": "BIEB-102",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001270",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 279,
+                "seats_available": 279,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004126",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": null,
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 70,
+                "seats_available": 70,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001270",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 279,
+                "seats_available": 279,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00004127",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 70,
+                "seats_available": 70,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001270",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 279,
+                "seats_available": 279,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00004128",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": null,
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 70,
+                "seats_available": 70,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-11",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001270",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-11",
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 110",
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 279,
+                "seats_available": 279,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00004129",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": "Michael Overton",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 69,
+                "seats_available": 69,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "121",
+      "course_title": "Ecology Laboratory",
+      "tss_course_code": "BIEB-121",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lab",
+              "section_code": "001-000-LA",
+              "event_id": "E 00003312",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:00am",
+                  "end_time": "12:50pm",
+                  "location_displayed": "YORK 4124",
+                  "instructor": "David Holway",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:00am",
+                  "end_time": "12:50pm",
+                  "location_displayed": "YORK 4124",
+                  "instructor": "David Holway",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 32,
+                "seats_available": 32,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lab",
+              "section_code": "002-000-LA",
+              "event_id": "E 00003313",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "YORK 4124",
+                  "instructor": "Giorgia Pirino",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "5:50pm",
+                  "location_displayed": "YORK 4124",
+                  "instructor": "Giorgia Pirino",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 32,
+                "seats_available": 32,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "146",
+      "course_title": "Genome Diversity and Dynamics",
+      "tss_course_code": "BIEB-146",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001271",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 480,
+                "seats_available": 480,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004130",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "6:00pm",
+                  "end_time": "6:50pm",
+                  "location_displayed": null,
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001271",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 480,
+                "seats_available": 480,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00004131",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": null,
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001271",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 480,
+                "seats_available": 480,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00004132",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": null,
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001271",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "JEANN AUD",
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 480,
+                "seats_available": 480,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00004133",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": "Katherine Petrie",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 120,
+                "seats_available": 120,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "150",
+      "course_title": "Evolution",
+      "tss_course_code": "BIEB-150",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001280",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 278,
+                "seats_available": 278,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004139",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": null,
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 69,
+                "seats_available": 69,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001280",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 278,
+                "seats_available": 278,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00004140",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 69,
+                "seats_available": 69,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001280",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 278,
+                "seats_available": 278,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00004141",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": null,
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 70,
+                "seats_available": 70,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001280",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 278,
+                "seats_available": 278,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00004142",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": null,
+                  "instructor": "Diana Rennison",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 70,
+                "seats_available": 70,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "152",
+      "course_title": "Evol of Infectious Diseases",
+      "tss_course_code": "BIEB-152",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001281",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 404,
+                "seats_available": 404,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004143",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 101,
+                "seats_available": 101,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001281",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 404,
+                "seats_available": 404,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00004144",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:00pm",
+                  "end_time": "6:50pm",
+                  "location_displayed": null,
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 101,
+                "seats_available": 101,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001281",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 404,
+                "seats_available": 404,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00004145",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": null,
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 101,
+                "seats_available": 101,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001281",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "PRICE THTRE",
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 404,
+                "seats_available": 404,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00004146",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": null,
+                  "instructor": "Dominik Wodarz",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 101,
+                "seats_available": 101,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "164",
+      "course_title": "Behav Ecology & Conservation",
+      "tss_course_code": "BIEB-164",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001282",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 292,
+                "seats_available": 292,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00004147",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:00pm",
+                  "end_time": "6:50pm",
+                  "location_displayed": null,
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 73,
+                "seats_available": 73,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001282",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 292,
+                "seats_available": 292,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00004148",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": null,
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 73,
+                "seats_available": 73,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001282",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 292,
+                "seats_available": 292,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00004149",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": null,
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 73,
+                "seats_available": 73,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001282",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "2:00pm",
+                  "end_time": "2:50pm",
+                  "location_displayed": "CTL 0125",
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 292,
+                "seats_available": 292,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00004150",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": null,
+                  "instructor": "Shermin de Silva",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 73,
+                "seats_available": 73,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "001",
+      "course_title": "The Cell",
+      "tss_course_code": "BILD-001",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001249",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 237,
+                "seats_available": 237,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-001-DI",
+              "event_id": "E 00003826",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "8:00am",
+                  "end_time": "8:50am",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 59,
+                "seats_available": 59,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001249",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 237,
+                "seats_available": 237,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-002-DI",
+              "event_id": "E 00003827",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 59,
+                "seats_available": 59,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001249",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 237,
+                "seats_available": 237,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-003-DI",
+              "event_id": "E 00003828",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "3:00pm",
+                  "end_time": "3:50pm",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 59,
+                "seats_available": 59,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00001249",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "3:00pm",
+                  "end_time": "5:59pm",
+                  "location_displayed": "PETER 108",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 237,
+                "seats_available": 237,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "discussion",
+              "section_code": "001-004-DI",
+              "event_id": "E 00003829",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "4:00pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Stacy Ochoa",
+                  "is_tba": false,
+                  "is_arranged": false
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 60,
+                "seats_available": 60,
+                "waitlist": {
+                  "state": "not_shown",
+                  "count": null
+                },
+                "waitlist_only": false,
+                "approval_required": false,
+                "status_code": "AC",
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": true,
+    "continuation_needed": false
+  }
+}

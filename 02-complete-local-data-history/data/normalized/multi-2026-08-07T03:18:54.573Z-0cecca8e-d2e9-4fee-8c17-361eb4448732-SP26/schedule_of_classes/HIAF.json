@@ -1,0 +1,82 @@
+{
+  "subject": "HIAF",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "08/06/2026, 02:16:00",
+  "courses": [
+    {
+      "course_id": "HIAF:113",
+      "subject": "HIAF",
+      "course_number": "113",
+      "title": "SmallWars GloblOrdr/Afrca&Asia",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/HIST.html#hiaf113",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:115025",
+          "course_id": "HIAF:113",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Prestholdt, Jeremy"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": "2026-06-08",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MOS 0204"
+            }
+          ],
+          "enrolled": 62,
+          "capacity": 70,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "SP26",
+            "raw_subject": "HIAF",
+            "raw_course_number": "113",
+            "raw_section_identifier": "115025",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

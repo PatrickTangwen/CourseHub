@@ -1,0 +1,5210 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2241,
+  "offset": 1920,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "125",
+      "module_code": "SOCI-125",
+      "module_name": "Sociology of Immigration",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 55,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Michael Calderon-Zaks"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001344",
+          "section_ref": "FA26:E 00001344",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155816",
+            "156017"
+          ],
+          "capacity": 75,
+          "enrolled": 20,
+          "seats_available": 55,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michael Calderon-Zaks"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2204",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2204",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "WLH",
+              "room_code": "WLH 2204",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "126",
+      "module_code": "SOCI-126",
+      "module_name": "Social Organization/Education",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 33,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Makeba Jones"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00002447",
+          "section_ref": "FA26:E 00002447",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155633"
+          ],
+          "capacity": 50,
+          "enrolled": 17,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Makeba Jones"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "134",
+      "module_code": "SOCI-134",
+      "module_name": "The Making of Modern Medicine",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 40,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Julia Rogers"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001346",
+          "section_ref": "FA26:E 00001346",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155844",
+            "156019"
+          ],
+          "capacity": 45,
+          "enrolled": 5,
+          "seats_available": 40,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Julia Rogers"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CSB",
+              "room_code": "CSB 004",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 004 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CSB",
+              "room_code": "CSB 004",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 004 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CSB",
+              "room_code": "CSB 004",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 004 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CSB",
+              "room_code": "CSB 004",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 004 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "135",
+      "module_code": "SOCI-135",
+      "module_name": "Medical Sociology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 81,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Christine Payne"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001347",
+          "section_ref": "FA26:E 00001347",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155650",
+            "156044"
+          ],
+          "capacity": 100,
+          "enrolled": 19,
+          "seats_available": 81,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christine Payne"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "137",
+      "module_code": "SOCI-137",
+      "module_name": "Sociology of Food",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 123,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Christine Crofts"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001348",
+          "section_ref": "FA26:E 00001348",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155832",
+            "156045"
+          ],
+          "capacity": 145,
+          "enrolled": 22,
+          "seats_available": 123,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christine Crofts"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 105",
+              "building_name": "Center Hall",
+              "room_name": "Room 105 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 105",
+              "building_name": "Center Hall",
+              "room_name": "Room 105 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 105",
+              "building_name": "Center Hall",
+              "room_name": "Room 105 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 105",
+              "building_name": "Center Hall",
+              "room_name": "Room 105 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "138",
+      "module_code": "SOCI-138",
+      "module_name": "Genetics and Society",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 124,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Daniel Navon"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001349",
+          "section_ref": "FA26:E 00001349",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155845",
+            "156046"
+          ],
+          "capacity": 135,
+          "enrolled": 11,
+          "seats_available": 124,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Daniel Navon"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "140",
+      "module_code": "SOCI-140",
+      "module_name": "Sociology Of Law",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 51,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kwai Ng"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001350",
+          "section_ref": "FA26:E 00001350",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155653",
+            "156047"
+          ],
+          "capacity": 70,
+          "enrolled": 19,
+          "seats_available": 51,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kwai Ng"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "140K",
+      "module_code": "SOCI-140K",
+      "module_name": "Law and Society in China",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 68,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kwai Ng"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001351",
+          "section_ref": "FA26:E 00001351",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155927",
+            "156048"
+          ],
+          "capacity": 70,
+          "enrolled": 2,
+          "seats_available": 68,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kwai Ng"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "141",
+      "module_code": "SOCI-141",
+      "module_name": "Crime And Society",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 90,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001352",
+          "section_ref": "FA26:E 00001352",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155654",
+            "156049"
+          ],
+          "capacity": 95,
+          "enrolled": 5,
+          "seats_available": 90,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1190,
+              "start_time_display": "5:00pm",
+              "end_time_display": "7:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A18",
+              "building_name": "Podemos",
+              "room_name": "Room 1A18 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A18",
+              "building_name": "Podemos",
+              "room_name": "Room 1A18 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "142",
+      "module_code": "SOCI-142",
+      "module_name": "Social Deviance",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 86,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Christine Crofts"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001353",
+          "section_ref": "FA26:E 00001353",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155655",
+            "156050"
+          ],
+          "capacity": 150,
+          "enrolled": 64,
+          "seats_available": 86,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christine Crofts"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "143V",
+      "module_code": "SOCI-143V",
+      "module_name": "Love",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 124,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kevin Lewis"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001354",
+          "section_ref": "FA26:E 00001354",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155928",
+            "156051"
+          ],
+          "capacity": 165,
+          "enrolled": 41,
+          "seats_available": 124,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kevin Lewis"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "145",
+      "module_code": "SOCI-145",
+      "module_name": "Violence and Society",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 37,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Laura Acosta Gonzalez"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001355",
+          "section_ref": "FA26:E 00001355",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155833",
+            "156052"
+          ],
+          "capacity": 56,
+          "enrolled": 19,
+          "seats_available": 37,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Laura Acosta Gonzalez"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "COA",
+              "room_code": "COA 117",
+              "building_name": "Coalition Building",
+              "room_name": "Room 117 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "COA",
+              "room_code": "COA 117",
+              "building_name": "Coalition Building",
+              "room_name": "Room 117 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "COA",
+              "room_code": "COA 117",
+              "building_name": "Coalition Building",
+              "room_name": "Room 117 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "148",
+      "module_code": "SOCI-148",
+      "module_name": "Political Sociology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 60,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jonathan Ruiz"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001356",
+          "section_ref": "FA26:E 00001356",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155657",
+            "156053"
+          ],
+          "capacity": 75,
+          "enrolled": 15,
+          "seats_available": 60,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jonathan Ruiz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "150",
+      "module_code": "SOCI-150",
+      "module_name": "Madness and the Movies",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 54,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Mary Blair-Loy"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001357",
+          "section_ref": "FA26:E 00001357",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155848",
+            "156054"
+          ],
+          "capacity": 65,
+          "enrolled": 11,
+          "seats_available": 54,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mary Blair-Loy"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1110,
+              "end_minutes": 1190,
+              "start_time_display": "6:30pm",
+              "end_time_display": "7:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1110,
+              "end_minutes": 1190,
+              "start_time_display": "6:30pm",
+              "end_time_display": "7:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "156",
+      "module_code": "SOCI-156",
+      "module_name": "Sociology of Religion",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 65,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Richard Pitt"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001358",
+          "section_ref": "FA26:E 00001358",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155702",
+            "156055"
+          ],
+          "capacity": 70,
+          "enrolled": 5,
+          "seats_available": 65,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Richard Pitt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2205",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2205",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2205",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2205",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "173",
+      "module_code": "SOCI-173",
+      "module_name": "Soc/Health, Illness, Medicine",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 63,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Maud Arnal"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001359",
+          "section_ref": "FA26:E 00001359",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155936",
+            "156056"
+          ],
+          "capacity": 85,
+          "enrolled": 22,
+          "seats_available": 63,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maud Arnal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "180",
+      "module_code": "SOCI-180",
+      "module_name": "Social Movemnts&Social Protest",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 54,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Michael Calderon-Zaks"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001361",
+          "section_ref": "FA26:E 00001361",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155728",
+            "156058"
+          ],
+          "capacity": 60,
+          "enrolled": 6,
+          "seats_available": 54,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michael Calderon-Zaks"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "187",
+      "module_code": "SOCI-187",
+      "module_name": "African Societies Through Film",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 38,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kristopher Kohler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001362",
+          "section_ref": "FA26:E 00001362",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155731",
+            "156059"
+          ],
+          "capacity": 40,
+          "enrolled": 2,
+          "seats_available": 38,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kristopher Kohler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1080,
+              "end_minutes": 1250,
+              "start_time_display": "6:00pm",
+              "end_time_display": "8:50pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "188D",
+      "module_code": "SOCI-188D",
+      "module_name": "Latin Amer: Society & Politics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 54,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Laura Acosta Gonzalez"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001363",
+          "section_ref": "FA26:E 00001363",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152873",
+            "156060"
+          ],
+          "capacity": 65,
+          "enrolled": 11,
+          "seats_available": 54,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Laura Acosta Gonzalez"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-150",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOCI",
+      "course_code": "188E",
+      "module_code": "SOCI-188E",
+      "module_name": "Community&Social Change/Africa",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 36,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Sociology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Not open to class level: Freshman, Sophomore"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001364",
+          "section_ref": "FA26:E 00001364",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155733",
+            "156061"
+          ],
+          "capacity": 40,
+          "enrolled": 4,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0133",
+              "building_name": "Podemos",
+              "room_name": "Room 0133 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0133",
+              "building_name": "Podemos",
+              "room_name": "Room 0133 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0133",
+              "building_name": "Podemos",
+              "room_name": "Room 0133 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "220",
+      "module_code": "SOMC-220",
+      "module_name": "Foundations of Medicine",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 20,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Mark Hepokoski"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "6 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002155",
+          "section_ref": "FA26:EL00002155",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mark Hepokoski"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002157",
+          "section_ref": "FA26:EL00002157",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mark Hepokoski"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002156",
+          "section_ref": "FA26:EL00002156",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mark Hepokoski"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "221",
+      "module_code": "SOMC-221",
+      "module_name": "Cardiovascular System I",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 20,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "William Penny"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "5 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002158",
+          "section_ref": "FA26:EL00002158",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002160",
+          "section_ref": "FA26:EL00002160",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002159",
+          "section_ref": "FA26:EL00002159",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "222",
+      "module_code": "SOMC-222",
+      "module_name": "Pulmonary System I",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 20,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Tatum Simonson"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002161",
+          "section_ref": "FA26:EL00002161",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tatum Simonson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002163",
+          "section_ref": "FA26:EL00002163",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tatum Simonson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002162",
+          "section_ref": "FA26:EL00002162",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 140,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tatum Simonson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "223",
+      "module_code": "SOMC-223",
+      "module_name": "Gastrointestinal System&Nutri",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 19,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Lars Eckmann"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002164",
+          "section_ref": "FA26:EL00002164",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002166",
+          "section_ref": "FA26:EL00002166",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002165",
+          "section_ref": "FA26:EL00002165",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "231",
+      "module_code": "SOMC-231",
+      "module_name": "Principles of Clinicl Oncology",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Soo Park"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002167",
+          "section_ref": "FA26:EL00002167",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soo Park"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002169",
+          "section_ref": "FA26:EL00002169",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soo Park"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002168",
+          "section_ref": "FA26:EL00002168",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soo Park"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "232",
+      "module_code": "SOMC-232",
+      "module_name": "Arthrts Rheumat & Derm Disordr",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Monica Guma"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002170",
+          "section_ref": "FA26:EL00002170",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Monica Guma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002172",
+          "section_ref": "FA26:EL00002172",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Monica Guma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002171",
+          "section_ref": "FA26:EL00002171",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Monica Guma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "233",
+      "module_code": "SOMC-233",
+      "module_name": "Gastrointestinal Diseases",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 24,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Lars Eckmann"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [
+        "SOMC 223 (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002173",
+          "section_ref": "FA26:EL00002173",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 136,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002175",
+          "section_ref": "FA26:EL00002175",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 136,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002174",
+          "section_ref": "FA26:EL00002174",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 136,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lars Eckmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "234",
+      "module_code": "SOMC-234",
+      "module_name": "Endocrinology,Reprod &Metab II",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Tricia Santos Cavaiola"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "4 units",
+      "prerequisites": [
+        "SOMC 229 (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002176",
+          "section_ref": "FA26:EL00002176",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tricia Santos Cavaiola"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002178",
+          "section_ref": "FA26:EL00002178",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tricia Santos Cavaiola"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002177",
+          "section_ref": "FA26:EL00002177",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tricia Santos Cavaiola"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "235",
+      "module_code": "SOMC-235",
+      "module_name": "Cardiovascular System II",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "William Penny"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "3 units",
+      "prerequisites": [
+        "SOMC 221 (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002179",
+          "section_ref": "FA26:EL00002179",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002181",
+          "section_ref": "FA26:EL00002181",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002180",
+          "section_ref": "FA26:EL00002180",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "William Penny"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "244",
+      "module_code": "SOMC-244",
+      "module_name": "Comp Rev & Prep-USMLE Step 1",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Sean Evans"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002182",
+          "section_ref": "FA26:EL00002182",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sean Evans"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "245A",
+      "module_code": "SOMC-245A",
+      "module_name": "Humanistic Anatomy A",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "ot"
+      ],
+      "instructors": [
+        "Geoffroy Noel"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002183",
+          "section_ref": "FA26:EL00002183",
+          "section_code": "001-000-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Geoffroy Noel"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002184",
+          "section_ref": "FA26:EL00002184",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Geoffroy Noel"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "246A",
+      "module_code": "SOMC-246A",
+      "module_name": "CARE IA",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 19,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl",
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Lisa Eyler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002185",
+          "section_ref": "FA26:EL00002185",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002187",
+          "section_ref": "FA26:EL00002187",
+          "section_code": "001-001-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002186",
+          "section_ref": "FA26:EL00002186",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "247A",
+      "module_code": "SOMC-247A",
+      "module_name": "Diagnostics IA",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 19,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Nigel Calcutt"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002188",
+          "section_ref": "FA26:EL00002188",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nigel Calcutt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002190",
+          "section_ref": "FA26:EL00002190",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nigel Calcutt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002189",
+          "section_ref": "FA26:EL00002189",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nigel Calcutt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "248A",
+      "module_code": "SOMC-248A",
+      "module_name": "Equity in Systems Science IA",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Weena Joshi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002191",
+          "section_ref": "FA26:EL00002191",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Weena Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "251A",
+      "module_code": "SOMC-251A",
+      "module_name": "CARE IIA",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl",
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Lisa Eyler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [
+        "SOMC 246A (minimum grade C-)",
+        "SOMC 246B (minimum grade C-)",
+        "SOMC 246C (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002192",
+          "section_ref": "FA26:EL00002192",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002194",
+          "section_ref": "FA26:EL00002194",
+          "section_code": "001-001-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002193",
+          "section_ref": "FA26:EL00002193",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lisa Eyler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "252A",
+      "module_code": "SOMC-252A",
+      "module_name": "Diagnostics IIA",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Ann Tipps"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [
+        "SOMC 247A (minimum grade C-)",
+        "SOMC 247B (minimum grade C-)",
+        "SOMC 247C (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002195",
+          "section_ref": "FA26:EL00002195",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ann Tipps"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002197",
+          "section_ref": "FA26:EL00002197",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ann Tipps"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002196",
+          "section_ref": "FA26:EL00002196",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ann Tipps"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "253A",
+      "module_code": "SOMC-253A",
+      "module_name": "Clinical Decision Making A",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Arthi Balu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002198",
+          "section_ref": "FA26:EL00002198",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Arthi Balu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002199",
+          "section_ref": "FA26:EL00002199",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Arthi Balu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "254A",
+      "module_code": "SOMC-254A",
+      "module_name": "Equity in Systems Science IIA",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Weena Joshi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "3 units",
+      "prerequisites": [
+        "SOMC 248A (minimum grade C-)",
+        "SOMC 248B (minimum grade C-)",
+        "SOMC 248C (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002200",
+          "section_ref": "FA26:EL00002200",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Weena Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "255A",
+      "module_code": "SOMC-255A",
+      "module_name": "Practice of Medicine IA",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 19,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Matthew Allison"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002201",
+          "section_ref": "FA26:EL00002201",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Matthew Allison"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002202",
+          "section_ref": "FA26:EL00002202",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 141,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Matthew Allison"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "256A",
+      "module_code": "SOMC-256A",
+      "module_name": "Practice of Medicine IIA",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "ot",
+        "se"
+      ],
+      "instructors": [
+        "Desiree Shapiro"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 3,
+      "units_display": "2 units",
+      "prerequisites": [
+        "SOMC 255A (minimum grade C-)",
+        "SOMC 255B (minimum grade C-)",
+        "SOMC 255C (minimum grade C-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002203",
+          "section_ref": "FA26:EL00002203",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Desiree Shapiro"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002205",
+          "section_ref": "FA26:EL00002205",
+          "section_code": "001-001-OT",
+          "instruction_type_name": "ot",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Desiree Shapiro"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002204",
+          "section_ref": "FA26:EL00002204",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 135,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Desiree Shapiro"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMC",
+      "course_code": "400B",
+      "module_code": "SOMC-400B",
+      "module_name": "Master Clinician Clerkship B",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Christopher Cannavino"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Core Courses",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002206",
+          "section_ref": "FA26:EL00002206",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 160,
+          "enrolled": 148,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christopher Cannavino"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMI",
+      "course_code": "296",
+      "module_code": "SOMI-296",
+      "module_name": "Independent Study",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Sean Evans"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Interdisciplinary",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002207",
+          "section_ref": "FA26:EL00002207",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sean Evans"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMI",
+      "course_code": "299",
+      "module_code": "SOMI-299",
+      "module_name": "Independent Study Project",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Katharina Brandl"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Interdisciplinary",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00004362",
+          "section_ref": "FA26:EL00004362",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Katharina Brandl"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SOMI",
+      "course_code": "421",
+      "module_code": "SOMI-421",
+      "module_name": "Subinternship Palliative Med",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Paula Mesarwi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "School of Medicine Interdisciplinary",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002209",
+          "section_ref": "FA26:EL00002209",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paula Mesarwi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SPPS",
+      "course_code": "200B",
+      "module_code": "SPPS-200B",
+      "module_name": "Institutional Pharmacy IPPE",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Alex Luli"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Pharmacy",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Pharmacy",
+        "Limited to major: Doctor of Pharmacy"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002216",
+          "section_ref": "FA26:EL00002216",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 99,
+          "enrolled": 0,
+          "seats_available": 99,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alex Luli"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SPPS",
+      "course_code": "212A",
+      "module_code": "SPPS-212A",
+      "module_name": "Therapeutics I",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 31,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Ashley Feist"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Pharmacy",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "6 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Pharmacy",
+        "Limited to major: Doctor of Pharmacy"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002217",
+          "section_ref": "FA26:EL00002217",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 99,
+          "enrolled": 68,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ashley Feist"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002218",
+          "section_ref": "FA26:EL00002218",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [],
+          "capacity": 99,
+          "enrolled": 68,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ashley Feist"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SPPS",
+      "course_code": "213A",
+      "module_code": "SPPS-213A",
+      "module_name": "Adv Prof Practice Lab I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab"
+      ],
+      "instructors": [
+        "Jennifer Namba"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Pharmacy",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [
+        "SPPS 201 (minimum grade B-)",
+        "SPPS 202 (minimum grade B-)",
+        "SPPS 203 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Pharmacy",
+        "Limited to major: Doctor of Pharmacy"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002219",
+          "section_ref": "FA26:EL00002219",
+          "section_code": "001-000-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 99,
+          "enrolled": 68,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jennifer Namba"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "SPPS",
+      "course_code": "219",
+      "module_code": "SPPS-219",
+      "module_name": "Pharmacogenomics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 31,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Joseph Ma"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Pharmacy",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Pharmacy",
+        "Limited to major: Doctor of Pharmacy"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002220",
+          "section_ref": "FA26:EL00002220",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 99,
+          "enrolled": 68,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Joseph Ma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5419 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2219,
+  "offset": 0,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "AAS",
+      "course_code": "010R",
+      "module_code": "AAS-010R",
+      "module_name": "Intro/African-American Studies",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 59,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Libby Butler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "African American Studies",
+      "academic_level": "LD",
+      "matching_section_count": 3,
+      "sections": [
+        {
+          "section_id": "E 00004309",
+          "section_ref": "FA26:E 00004309",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "150888",
+            "150889",
+            "158015"
+          ],
+          "capacity": 75,
+          "enrolled": 16,
+          "seats_available": 59,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Libby Butler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004310",
+          "section_ref": "FA26:E 00004310",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "150888",
+            "158016"
+          ],
+          "capacity": 38,
+          "enrolled": 9,
+          "seats_available": 29,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Libby Butler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004311",
+          "section_ref": "FA26:E 00004311",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "150889",
+            "158017"
+          ],
+          "capacity": 37,
+          "enrolled": 7,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Libby Butler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "AAS",
+      "course_code": "170",
+      "module_code": "AAS-170",
+      "module_name": "Legacies of Research",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Chadwick Campbell"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "African American Studies",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000039",
+          "section_ref": "FA26:E 00000039",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "150890",
+            "156105",
+            "2926",
+            "2927"
+          ],
+          "capacity": 40,
+          "enrolled": 4,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Chadwick Campbell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0132",
+              "building_name": "Podemos",
+              "room_name": "Room 0132 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0132",
+              "building_name": "Podemos",
+              "room_name": "Room 0132 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 0132",
+              "building_name": "Podemos",
+              "room_name": "Room 0132 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "AAS",
+      "course_code": "198",
+      "module_code": "AAS-198",
+      "module_name": "Directed Group Study",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Jacinda Abdul-Mutakabbir"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "African American Studies",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00004363",
+          "section_ref": "FA26:EL00004363",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": null,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jacinda Abdul-Mutakabbir"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "AAS",
+      "course_code": "199",
+      "module_code": "AAS-199",
+      "module_name": "Independent Study",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Libby Butler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "African American Studies",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00004337",
+          "section_ref": "FA26:EL00004337",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 2,
+          "enrolled": 0,
+          "seats_available": 2,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": null,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Libby Butler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "104",
+      "module_code": "ANAR-104",
+      "module_name": "Intro GIS for Anth & Arch",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 23,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Gilad Shtienberg"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00000248",
+          "section_ref": "FA26:E 00000248",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151012",
+            "151837"
+          ],
+          "capacity": 30,
+          "enrolled": 7,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gilad Shtienberg"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "ERCA",
+              "room_code": "ERCA 117",
+              "building_name": "ERC Administration South",
+              "room_name": "Room 117 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "S",
+              "day_name": "Saturday",
+              "specific_date": "2026-12-12",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "ERCA",
+              "room_code": "ERCA 117",
+              "building_name": "ERC Administration South",
+              "room_name": "Room 117 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000249",
+          "section_ref": "FA26:E 00000249",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "151012",
+            "151838"
+          ],
+          "capacity": 30,
+          "enrolled": 7,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gilad Shtienberg"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "ERCA",
+              "room_code": "ERCA 117",
+              "building_name": "ERC Administration South",
+              "room_name": "Room 117 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 599,
+              "start_time_display": "9:30am",
+              "end_time_display": "9:59am",
+              "building_code": "ERCA",
+              "room_code": "ERCA 117",
+              "building_name": "ERC Administration South",
+              "room_name": "Room 117 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "111",
+      "module_code": "ANAR-111",
+      "module_name": "Foundations of Archaeology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 22,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Rachel Kalisher"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004786",
+          "section_ref": "FA26:E 00004786",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151022"
+          ],
+          "capacity": 30,
+          "enrolled": 8,
+          "seats_available": 22,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Rachel Kalisher"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "117",
+      "module_code": "ANAR-117",
+      "module_name": "Archaeology Field&Lab, SoCal",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "fw",
+        "lecture"
+      ],
+      "instructors": [
+        "Paul Goldstein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00005328",
+          "section_ref": "FA26:E 00005328",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153339",
+            "157752"
+          ],
+          "capacity": 10,
+          "enrolled": 10,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 660,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:00am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 660,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:00am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00005309",
+          "section_ref": "FA26:E 00005309",
+          "section_code": "001-001-FW",
+          "instruction_type_name": "fw",
+          "event_package_ids": [
+            "157752"
+          ],
+          "capacity": 10,
+          "enrolled": 10,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 1020,
+              "start_time_display": "11:00am",
+              "end_time_display": "5:00pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 1020,
+              "start_time_display": "11:00am",
+              "end_time_display": "5:00pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "159",
+      "module_code": "ANAR-159",
+      "module_name": "Societies/CaribbeanArchipelago",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 24,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Isabel Rivera-Collazo"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000277",
+          "section_ref": "FA26:E 00000277",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151013",
+            "152001"
+          ],
+          "capacity": 30,
+          "enrolled": 6,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Isabel Rivera-Collazo"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "166",
+      "module_code": "ANAR-166",
+      "module_name": "Environmental Archaeology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 21,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Nayeli Jiménez Cano"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002391",
+          "section_ref": "FA26:E 00002391",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151014",
+            "154690",
+            "154691"
+          ],
+          "capacity": 30,
+          "enrolled": 9,
+          "seats_available": 21,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nayeli Jiménez Cano"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 121",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 121",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 121",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANAR",
+      "course_code": "181",
+      "module_code": "ANAR-181",
+      "module_name": "Archaeology/Hunters-Gatherers",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 23,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jana Fortier"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropological Archaeology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000278",
+          "section_ref": "FA26:E 00000278",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151021",
+            "152002"
+          ],
+          "capacity": 30,
+          "enrolled": 7,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jana Fortier"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "MALK",
+              "room_code": "MALK B92",
+              "building_name": "Brian C. Malk Hall",
+              "room_name": "Room B92 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "MALK",
+              "room_code": "MALK B92",
+              "building_name": "Brian C. Malk Hall",
+              "room_name": "Room B92 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "MALK",
+              "room_code": "MALK B92",
+              "building_name": "Brian C. Malk Hall",
+              "room_name": "Room B92 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "100",
+      "module_code": "ANBI-100",
+      "module_name": "Special Topic/Biological Anth",
+      "course_title": "Special Topic/Biological Anth",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 33,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Maria Marchetto"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000279",
+          "section_ref": "FA26:E 00000279",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151015",
+            "152003"
+          ],
+          "capacity": 40,
+          "enrolled": 7,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maria Marchetto"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "COA",
+              "room_code": "COA 122",
+              "building_name": "Coalition Building",
+              "room_name": "Room 122 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "COA",
+              "room_code": "COA 122",
+              "building_name": "Coalition Building",
+              "room_name": "Room 122 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "COA",
+              "room_code": "COA 122",
+              "building_name": "Coalition Building",
+              "room_name": "Room 122 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "100",
+      "module_code": "ANBI-100",
+      "module_name": "Special Topic/Biological Anth",
+      "course_title": "Special Topic/Biological Anth",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 53,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Rachel Kalisher"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "002",
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000280",
+          "section_ref": "FA26:E 00000280",
+          "section_code": "002-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152004",
+            "157987"
+          ],
+          "capacity": 60,
+          "enrolled": 7,
+          "seats_available": 53,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Rachel Kalisher"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "COA",
+              "room_code": "COA B21",
+              "building_name": "Coalition Building",
+              "room_name": "Room B21 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "112",
+      "module_code": "ANBI-112",
+      "module_name": "Methods in Human Neuroscience",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Maria Marchetto"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000281",
+          "section_ref": "FA26:E 00000281",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151017",
+            "152005"
+          ],
+          "capacity": 20,
+          "enrolled": 20,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maria Marchetto"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "SSRB",
+              "room_code": "SSRB 310",
+              "building_name": "Social Sciences Research Building",
+              "room_name": "Room 310 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "117",
+      "module_code": "ANBI-117",
+      "module_name": "Ancient Genomics",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 26,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Keolu Fox"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00000282",
+          "section_ref": "FA26:E 00000282",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151018",
+            "152006"
+          ],
+          "capacity": 30,
+          "enrolled": 4,
+          "seats_available": 26,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Keolu Fox"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 530,
+              "start_time_display": "8:00am",
+              "end_time_display": "8:50am",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 530,
+              "start_time_display": "8:00am",
+              "end_time_display": "8:50am",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 530,
+              "start_time_display": "8:00am",
+              "end_time_display": "8:50am",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 111",
+              "building_name": "Solis Hall",
+              "room_name": "Room 111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "EL00000385",
+          "section_ref": "FA26:EL00000385",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 4,
+          "seats_available": 26,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Keolu Fox"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "134",
+      "module_code": "ANBI-134",
+      "module_name": "Human Evolutionary Genetics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 17,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Amy Non"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004841",
+          "section_ref": "FA26:E 00004841",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151019"
+          ],
+          "capacity": 30,
+          "enrolled": 13,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Non"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANBI",
+      "course_code": "136",
+      "module_code": "ANBI-136",
+      "module_name": "Human Comparative Neuroanatomy",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 20,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Ekaterini Semendeferi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology/ Biological Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000283",
+          "section_ref": "FA26:E 00000283",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151020",
+            "152007"
+          ],
+          "capacity": 20,
+          "enrolled": 0,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ekaterini Semendeferi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "296",
+      "module_code": "ANES-296",
+      "module_name": "Independent Study",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Brian Park"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00003267",
+          "section_ref": "FA26:EL00003267",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brian Park"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "299",
+      "module_code": "ANES-299",
+      "module_name": "Anes/Independent Study Project",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Abhinav Gupta"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00004177",
+          "section_ref": "FA26:EL00004177",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Abhinav Gupta"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "401",
+      "module_code": "ANES-401",
+      "module_name": "Anesthesiology Clerkship",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Lawrence Weinstein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00000004",
+          "section_ref": "FA26:EL00000004",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lawrence Weinstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "402",
+      "module_code": "ANES-402",
+      "module_name": "Pain Med Eval & Intervntnl Clk",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 10,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl",
+        "lecture"
+      ],
+      "instructors": [
+        "Gregory Polston"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "EL00000005",
+          "section_ref": "FA26:EL00000005",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gregory Polston"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00000006",
+          "section_ref": "FA26:EL00000006",
+          "section_code": "001-001-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gregory Polston"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "402T",
+      "module_code": "ANES-402T",
+      "module_name": "Pain Med Eval & Intervent Sel",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Gregory Polston"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00000007",
+          "section_ref": "FA26:EL00000007",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gregory Polston"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "403",
+      "module_code": "ANES-403",
+      "module_name": "Critical Care Medicine Clerksp",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Angela Meier"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00000008",
+          "section_ref": "FA26:EL00000008",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Angela Meier"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "403T",
+      "module_code": "ANES-403T",
+      "module_name": "Anes Critical Care Med Sel",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Angela Meier"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00000009",
+          "section_ref": "FA26:EL00000009",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Angela Meier"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "410",
+      "module_code": "ANES-410",
+      "module_name": "Introduction to Anesthesiology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Lawrence Weinstein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00000010",
+          "section_ref": "FA26:EL00000010",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lawrence Weinstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANES",
+      "course_code": "496",
+      "module_code": "ANES-496",
+      "module_name": "Clinical Independent Study",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anesthesiology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "EL00000011",
+          "section_ref": "FA26:EL00000011",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00000012",
+          "section_ref": "FA26:EL00000012",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "121",
+      "module_code": "ANSC-121",
+      "module_name": "Psychological Anthropology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 53,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Julia Sloane"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000286",
+          "section_ref": "FA26:E 00000286",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151062",
+            "152010"
+          ],
+          "capacity": 60,
+          "enrolled": 7,
+          "seats_available": 53,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Julia Sloane"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "122",
+      "module_code": "ANSC-122",
+      "module_name": "Language in Society",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 26,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Rihan Yeh"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004842",
+          "section_ref": "FA26:E 00004842",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151023"
+          ],
+          "capacity": 30,
+          "enrolled": 4,
+          "seats_available": 26,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Rihan Yeh"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "124",
+      "module_code": "ANSC-124",
+      "module_name": "Cultural Anthropology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 32,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jon Bialecki"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000287",
+          "section_ref": "FA26:E 00000287",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151061",
+            "152011"
+          ],
+          "capacity": 40,
+          "enrolled": 8,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jon Bialecki"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-104",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-104",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-104",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "129",
+      "module_code": "ANSC-129",
+      "module_name": "Meaning and Healing",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Thomas Csordas"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003657",
+          "section_ref": "FA26:E 00003657",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151034"
+          ],
+          "capacity": 6,
+          "enrolled": 6,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Thomas Csordas"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0425",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0425 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0425",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0425 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0425",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0425 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "142",
+      "module_code": "ANSC-142",
+      "module_name": "Anthropology of Latin America",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 34,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Annika Stone"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000288",
+          "section_ref": "FA26:E 00000288",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151033",
+            "152012"
+          ],
+          "capacity": 40,
+          "enrolled": 6,
+          "seats_available": 34,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 121",
+              "building_name": "Coalition Building",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 121",
+              "building_name": "Coalition Building",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 121",
+              "building_name": "Coalition Building",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "COA",
+              "room_code": "COA 121",
+              "building_name": "Coalition Building",
+              "room_name": "Room 121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "148",
+      "module_code": "ANSC-148",
+      "module_name": "Global Health&Cultrl Diversity",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 40,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Giselle Sanchez"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002393",
+          "section_ref": "FA26:E 00002393",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151035"
+          ],
+          "capacity": 46,
+          "enrolled": 6,
+          "seats_available": 40,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Giselle Sanchez"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "152",
+      "module_code": "ANSC-152",
+      "module_name": "Social Justice in South Asia",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Saiba Varma"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000289",
+          "section_ref": "FA26:E 00000289",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151036",
+            "152013"
+          ],
+          "capacity": 20,
+          "enrolled": 5,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Saiba Varma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 2305A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2305A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 2305A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2305A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 2305A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2305A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "HSS",
+              "room_code": "HSS 2305A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2305A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "169",
+      "module_code": "ANSC-169",
+      "module_name": "Culture & Envr/Resrch Sem/Prac",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr",
+        "se"
+      ],
+      "instructors": [
+        "Jana Fortier"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00000290",
+          "section_ref": "FA26:E 00000290",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151037",
+            "152014"
+          ],
+          "capacity": 25,
+          "enrolled": 2,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jana Fortier"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MALK",
+              "room_code": "MALK B92",
+              "building_name": "Brian C. Malk Hall",
+              "room_name": "Room B92 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MALK",
+              "room_code": "MALK B92",
+              "building_name": "Brian C. Malk Hall",
+              "room_name": "Room B92 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004833",
+          "section_ref": "FA26:E 00004833",
+          "section_code": "001-001-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [
+            "151037"
+          ],
+          "capacity": 25,
+          "enrolled": 2,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jana Fortier"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 890,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 890,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANSC",
+      "course_code": "173",
+      "module_code": "ANSC-173",
+      "module_name": "Ethnography in Practice",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [
+        "Suzanne Brenner"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthro/ Sociocultural Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000291",
+          "section_ref": "FA26:E 00000291",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [
+            "151038",
+            "152015"
+          ],
+          "capacity": 12,
+          "enrolled": 8,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Suzanne Brenner"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 770,
+              "start_time_display": "10:00am",
+              "end_time_display": "12:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 269",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 269 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "SSB",
+              "room_code": "SSB 269",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 269 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "001",
+      "module_code": "ANTH-001",
+      "module_name": "Introduction to Culture",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 148,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Aftab Jassal"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000029",
+          "section_ref": "FA26:E 00000029",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151052",
+            "156095"
+          ],
+          "capacity": 150,
+          "enrolled": 2,
+          "seats_available": 148,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Aftab Jassal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "002",
+      "module_code": "ANTH-002",
+      "module_name": "Human Origins",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 213,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Linnea Wilder"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000250",
+          "section_ref": "FA26:E 00000250",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151039",
+            "151040",
+            "151041",
+            "151042",
+            "151043",
+            "151044",
+            "151839"
+          ],
+          "capacity": 216,
+          "enrolled": 3,
+          "seats_available": 213,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000251",
+          "section_ref": "FA26:E 00000251",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151039",
+            "151775"
+          ],
+          "capacity": 36,
+          "enrolled": 3,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2112",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2112 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000252",
+          "section_ref": "FA26:E 00000252",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "150939",
+            "151040",
+            "151840"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2112",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2112 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000253",
+          "section_ref": "FA26:E 00000253",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151041",
+            "151977"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2112",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2112 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000254",
+          "section_ref": "FA26:E 00000254",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151042",
+            "151978"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2114",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2114 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000255",
+          "section_ref": "FA26:E 00000255",
+          "section_code": "001-005-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "150940",
+            "151043",
+            "151979"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2114",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2114 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000256",
+          "section_ref": "FA26:E 00000256",
+          "section_code": "001-006-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151044",
+            "151980"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Linnea Wilder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2114",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2114 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "021",
+      "module_code": "ANTH-021",
+      "module_name": "Race and Racisms",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 179,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Annika Stone"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000258",
+          "section_ref": "FA26:E 00000258",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151046",
+            "151047",
+            "151048",
+            "151049",
+            "151050",
+            "151051",
+            "151982"
+          ],
+          "capacity": 192,
+          "enrolled": 13,
+          "seats_available": 179,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "YORK",
+              "room_code": "YORK 2622",
+              "building_name": "York Hall",
+              "room_name": "Room 2622 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "YORK",
+              "room_code": "YORK 2622",
+              "building_name": "York Hall",
+              "room_name": "Room 2622 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "YORK",
+              "room_code": "YORK 2622",
+              "building_name": "York Hall",
+              "room_name": "Room 2622 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "YORK",
+              "room_code": "YORK 2622",
+              "building_name": "York Hall",
+              "room_name": "Room 2622 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000259",
+          "section_ref": "FA26:E 00000259",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151046",
+            "151983"
+          ],
+          "capacity": 36,
+          "enrolled": 9,
+          "seats_available": 27,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000260",
+          "section_ref": "FA26:E 00000260",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151047",
+            "151984"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000261",
+          "section_ref": "FA26:E 00000261",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151048",
+            "151985"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000262",
+          "section_ref": "FA26:E 00000262",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151049",
+            "151986"
+          ],
+          "capacity": 36,
+          "enrolled": 3,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2150",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000263",
+          "section_ref": "FA26:E 00000263",
+          "section_code": "001-005-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "150941",
+            "151050",
+            "151987"
+          ],
+          "capacity": 32,
+          "enrolled": 1,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1305",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1305 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000264",
+          "section_ref": "FA26:E 00000264",
+          "section_code": "001-006-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151051",
+            "151988"
+          ],
+          "capacity": 36,
+          "enrolled": 0,
+          "seats_available": 36,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Annika Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "023",
+      "module_code": "ANTH-023",
+      "module_name": "Debating Multiculturalism",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 192,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Alexander Stewart"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000265",
+          "section_ref": "FA26:E 00000265",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151053",
+            "151054",
+            "151055",
+            "151056",
+            "151057",
+            "151058",
+            "151989"
+          ],
+          "capacity": 196,
+          "enrolled": 4,
+          "seats_available": 192,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000266",
+          "section_ref": "FA26:E 00000266",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151053",
+            "151990"
+          ],
+          "capacity": 34,
+          "enrolled": 3,
+          "seats_available": 31,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000267",
+          "section_ref": "FA26:E 00000267",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151054",
+            "151991"
+          ],
+          "capacity": 34,
+          "enrolled": 1,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000268",
+          "section_ref": "FA26:E 00000268",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151055",
+            "151992"
+          ],
+          "capacity": 32,
+          "enrolled": 0,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0115",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0115 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000269",
+          "section_ref": "FA26:E 00000269",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151056",
+            "151993"
+          ],
+          "capacity": 32,
+          "enrolled": 0,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 1128A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1128A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000270",
+          "section_ref": "FA26:E 00000270",
+          "section_code": "001-005-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151057",
+            "151994"
+          ],
+          "capacity": 32,
+          "enrolled": 0,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1128A",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1128A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000271",
+          "section_ref": "FA26:E 00000271",
+          "section_code": "001-006-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151058",
+            "151995"
+          ],
+          "capacity": 32,
+          "enrolled": 0,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Stewart"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0115",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0115 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "030",
+      "module_code": "ANTH-030",
+      "module_name": "Decolonizing the Body",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Saiba Varma"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000272",
+          "section_ref": "FA26:E 00000272",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151059",
+            "151996"
+          ],
+          "capacity": 30,
+          "enrolled": 2,
+          "seats_available": 28,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Saiba Varma"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2150",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2150",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2150",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2150",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2150 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "087",
+      "module_code": "ANTH-087",
+      "module_name": "Freshman Seminar",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "David Jordan"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "LD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00000274",
+          "section_ref": "FA26:E 00000274",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151026",
+            "151998"
+          ],
+          "capacity": 15,
+          "enrolled": 0,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Jordan"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000275",
+          "section_ref": "FA26:E 00000275",
+          "section_code": "002-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151027",
+            "151999"
+          ],
+          "capacity": 15,
+          "enrolled": 0,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Jordan"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "SSB",
+              "room_code": "SSB 102",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "101",
+      "module_code": "ANTH-101",
+      "module_name": "Foundations/Social Complexity",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 84,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Paul Goldstein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 5,
+      "sections": [
+        {
+          "section_id": "E 00000292",
+          "section_ref": "FA26:E 00000292",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151028",
+            "151029",
+            "151030",
+            "151031",
+            "152016"
+          ],
+          "capacity": 120,
+          "enrolled": 36,
+          "seats_available": 84,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 216",
+              "building_name": "Center Hall",
+              "room_name": "Room 216 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000293",
+          "section_ref": "FA26:E 00000293",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151028",
+            "152017"
+          ],
+          "capacity": 30,
+          "enrolled": 14,
+          "seats_available": 16,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000294",
+          "section_ref": "FA26:E 00000294",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151029",
+            "152018"
+          ],
+          "capacity": 30,
+          "enrolled": 5,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000295",
+          "section_ref": "FA26:E 00000295",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151030",
+            "154853"
+          ],
+          "capacity": 30,
+          "enrolled": 9,
+          "seats_available": 21,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00000296",
+          "section_ref": "FA26:E 00000296",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "151031",
+            "154854"
+          ],
+          "capacity": 30,
+          "enrolled": 7,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Goldstein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 205",
+              "building_name": "Center Hall",
+              "room_name": "Room 205 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "105",
+      "module_code": "ANTH-105",
+      "module_name": "Climate Change, Race,& Inequal",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 76,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000297",
+          "section_ref": "FA26:E 00000297",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "150943",
+            "151060",
+            "154855"
+          ],
+          "capacity": 80,
+          "enrolled": 4,
+          "seats_available": 76,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "107",
+      "module_code": "ANTH-107",
+      "module_name": "Dsgn:Disasters,Emerg,Weather",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 25,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Steven Parish"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000298",
+          "section_ref": "FA26:E 00000298",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151063",
+            "154856"
+          ],
+          "capacity": 30,
+          "enrolled": 5,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Steven Parish"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "COA",
+              "room_code": "COA 124",
+              "building_name": "Coalition Building",
+              "room_name": "Room 124 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "108",
+      "module_code": "ANTH-108",
+      "module_name": "IndigPpls, Develop,& ClimChng",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 35,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Julia Sloane"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000299",
+          "section_ref": "FA26:E 00000299",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "150944",
+            "151064",
+            "154857"
+          ],
+          "capacity": 40,
+          "enrolled": 5,
+          "seats_available": 35,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Julia Sloane"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "COA",
+              "room_code": "COA B26",
+              "building_name": "Coalition Building",
+              "room_name": "Room B26 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "196A",
+      "module_code": "ANTH-196A",
+      "module_name": "Honors Studies in Anthropology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Geoffrey Braswell"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000300",
+          "section_ref": "FA26:E 00000300",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151032",
+            "154858"
+          ],
+          "capacity": 15,
+          "enrolled": 2,
+          "seats_available": 13,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Geoffrey Braswell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1190,
+              "start_time_display": "5:00pm",
+              "end_time_display": "7:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 223",
+              "building_name": "Center Hall",
+              "room_name": "Room 223 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "203",
+      "module_code": "ANTH-203",
+      "module_name": "Introduction to Anthropogeny",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 12,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Pascal Gagneux"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000301",
+          "section_ref": "FA26:E 00000301",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151065",
+            "154859"
+          ],
+          "capacity": 15,
+          "enrolled": 3,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Pascal Gagneux"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 990,
+              "start_time_display": "1:00pm",
+              "end_time_display": "4:30pm",
+              "building_code": "SSRB",
+              "room_code": "SSRB 310",
+              "building_name": "Social Sciences Research Building",
+              "room_name": "Room 310 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "S",
+              "day_name": "Saturday",
+              "specific_date": "2026-12-12",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "SSRB",
+              "room_code": "SSRB 310",
+              "building_name": "Social Sciences Research Building",
+              "room_name": "Room 310 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "212",
+      "module_code": "ANTH-212",
+      "module_name": "Earth Friendly Computation",
+      "course_title": "Earth Friendly Computation",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Keolu Fox"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004297",
+          "section_ref": "FA26:E 00004297",
+          "section_code": "002-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151024"
+          ],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Keolu Fox"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ANTH",
+      "course_code": "230",
+      "module_code": "ANTH-230",
+      "module_name": "Department Colloquium",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Pascal Gagneux"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Anthropology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004752",
+          "section_ref": "FA26:E 00004752",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "151066"
+          ],
+          "capacity": 20,
+          "enrolled": 2,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Pascal Gagneux"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 990,
+              "start_time_display": "3:00pm",
+              "end_time_display": "4:30pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

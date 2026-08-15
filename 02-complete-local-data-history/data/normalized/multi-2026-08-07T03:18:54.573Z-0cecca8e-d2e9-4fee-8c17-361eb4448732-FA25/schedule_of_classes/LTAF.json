@@ -1,0 +1,82 @@
+{
+  "subject": "LTAF",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "LTAF:120",
+      "subject": "LTAF",
+      "course_number": "120",
+      "title": "Lit & Film of Modern Africa",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltaf120",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925431",
+          "course_id": "LTAF:120",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Zhiri, Oumelbanine"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "MANDE",
+              "room": "B-104",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "MANDE B-104"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-12-12",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "MANDE",
+              "room": "B-104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "MANDE B-104"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTAF",
+            "raw_course_number": "120",
+            "raw_section_identifier": "925431",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "subject": "REV",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "REV:20",
+      "subject": "REV",
+      "course_number": "20",
+      "title": "Revelle Honors Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/REV.html#rev20",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:794904",
+          "course_id": "REV:20",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Pomeroy, Robert S."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "17:20",
+              "building": "TATA",
+              "room": "3301",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "3:30p-5:20p",
+              "raw_location": "TATA 3301"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "REV",
+            "raw_course_number": "20",
+            "raw_section_identifier": "794904",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "REV:87",
+      "subject": "REV",
+      "course_number": "87",
+      "title": "First-year Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/REV.html#rev87",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:794931",
+          "course_id": "REV:87",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Markman, Kristina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "REV",
+            "raw_course_number": "87",
+            "raw_section_identifier": "794931",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

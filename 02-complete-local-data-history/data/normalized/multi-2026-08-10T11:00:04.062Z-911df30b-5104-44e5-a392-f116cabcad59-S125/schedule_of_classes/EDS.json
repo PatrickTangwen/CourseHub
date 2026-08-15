@@ -1,0 +1,876 @@
+{
+  "subject": "EDS",
+  "term": "S125",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "EDS:40",
+      "subject": "EDS",
+      "course_number": "40",
+      "title": "Nature, Community & Education",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds40",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875606",
+          "course_id": "EDS:40",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Black, Alison Michelle"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RWAC",
+              "room": "0416",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RWAC 0416"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RWAC",
+              "room": "0416",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RWAC 0416"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RWAC",
+              "room": "0416",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RWAC 0416"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "40",
+            "raw_section_identifier": "875606",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:110R",
+      "subject": "EDS",
+      "course_number": "110R",
+      "title": "Early Learning Environments",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds110r",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875609",
+          "course_id": "EDS:110R",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Molgaard, Monica Newton"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "RCLAS R04"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "110R",
+            "raw_section_identifier": "875609",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:112",
+      "subject": "EDS",
+      "course_number": "112",
+      "title": "U.S. Urban Education",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds112",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875674",
+          "course_id": "EDS:112",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Chapman, Thandeka K"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "112",
+            "raw_section_identifier": "875674",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:113",
+      "subject": "EDS",
+      "course_number": "113",
+      "title": "Chicanas/os & Latinos in Edu",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds113",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875686",
+          "course_id": "EDS:113",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "113",
+            "raw_section_identifier": "875686",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:117",
+      "subject": "EDS",
+      "course_number": "117",
+      "title": "Language, Culture & Education",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds117",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875688",
+          "course_id": "EDS:117",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Love, Jenee"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R10"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 31,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "117",
+            "raw_section_identifier": "875688",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:118",
+      "subject": "EDS",
+      "course_number": "118",
+      "title": "Adolescent Devlp & Education",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds118",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875689",
+          "course_id": "EDS:118",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Warstadt, Melissa Fawn"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R21",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R21"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "118",
+            "raw_section_identifier": "875689",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:124AR",
+      "subject": "EDS",
+      "course_number": "124AR",
+      "title": "Teach Computation/DigitalWorld",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds124ar",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:906717",
+          "course_id": "EDS:124AR",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Tenney, Kristin"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 46,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "124AR",
+            "raw_section_identifier": "906717",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "S125:907469",
+          "course_id": "EDS:124AR",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Tenney, Kristin"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 37,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "124AR",
+            "raw_section_identifier": "907469",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:124BR",
+      "subject": "EDS",
+      "course_number": "124BR",
+      "title": "Teach Computational Thinking",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds124br",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875690",
+          "course_id": "EDS:124BR",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Eguchi, Emi"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "124BR",
+            "raw_section_identifier": "875690",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "S125:875691",
+          "course_id": "EDS:124BR",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Eguchi, Emi"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "124BR",
+            "raw_section_identifier": "875691",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:125",
+      "subject": "EDS",
+      "course_number": "125",
+      "title": "Hist,Polic&Theory/Bilingual Ed",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds125",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875692",
+          "course_id": "EDS:125",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lopez, Dolores De Los Angeles"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "HSS",
+              "room": "2152",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "HSS 2152"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "2152",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 2152"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "125",
+            "raw_section_identifier": "875692",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:126",
+      "subject": "EDS",
+      "course_number": "126",
+      "title": "Social Organization/Education",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds126",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875914",
+          "course_id": "EDS:126",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Jones, Makeba"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R12",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-11:50a",
+              "raw_location": "RCLAS R12"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R12",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R12"
+            }
+          ],
+          "enrolled": 28,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "126",
+            "raw_section_identifier": "875914",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "EDS:135",
+      "subject": "EDS",
+      "course_number": "135",
+      "title": "Newcomer Communities in SD",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/EDS.html#eds135",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:875919",
+          "course_id": "EDS:135",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Drake, Kristy Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "HSS",
+              "room": "2152",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "HSS 2152"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Practicum",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "HSS",
+              "room": "2152",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "HSS 2152"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "EDS",
+            "raw_course_number": "135",
+            "raw_section_identifier": "875919",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    }
+  ]
+}

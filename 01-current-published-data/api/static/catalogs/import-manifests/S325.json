@@ -1,0 +1,2208 @@
+{
+  "run_id": "multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325",
+  "generated_at": "2026-08-13T11:00:06.839Z",
+  "active_planning_term": "S325",
+  "term_label": "Special Summer Session 2025",
+  "configured_subjects": [
+    "AIP",
+    "AAS",
+    "ANAR",
+    "ANTH",
+    "AESE",
+    "ASTR",
+    "BENG",
+    "BISP",
+    "CHEM",
+    "CCS",
+    "CLRE",
+    "COGS",
+    "CSS",
+    "CSE",
+    "CAT",
+    "DSC",
+    "ECON",
+    "EAP",
+    "EDS",
+    "ECE",
+    "FMPH",
+    "LIGM",
+    "LIIT",
+    "LISP",
+    "LTWL",
+    "MMW",
+    "MATS",
+    "MATH",
+    "MAE",
+    "MCWP",
+    "MUS",
+    "NEU",
+    "NEUG",
+    "PATH",
+    "PHIL",
+    "PHYS",
+    "PSY",
+    "PSYC",
+    "PH",
+    "PHB",
+    "MGTF",
+    "MGT",
+    "MGTA",
+    "SIOC",
+    "SIO",
+    "SOCI",
+    "SE",
+    "USP",
+    "WES"
+  ],
+  "systemic_parser_failure_threshold": 0.5,
+  "cells": [
+    {
+      "term": "S325",
+      "subject": "AIP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 56,
+        "meetings": 56
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AIP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AIP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AIP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AAS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AAS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AAS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AAS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ANAR",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANAR.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANAR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANAR.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ANTH",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 4
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANTH.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANTH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ANTH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AESE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AESE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AESE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/AESE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ASTR",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ASTR.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ASTR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ASTR.json"
+    },
+    {
+      "term": "S325",
+      "subject": "BENG",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 5,
+        "sections": 5,
+        "meetings": 5
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BENG.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BENG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BENG.json"
+    },
+    {
+      "term": "S325",
+      "subject": "BISP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 26,
+        "meetings": 26
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BISP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/BISP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CHEM",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 4,
+        "meetings": 4
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CHEM.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CHEM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CHEM.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CCS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CCS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CCS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CCS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CLRE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 8,
+        "sections": 11,
+        "meetings": 22
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CLRE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CLRE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CLRE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "COGS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 11,
+        "meetings": 11
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/COGS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/COGS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/COGS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CSS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 6
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CSE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 6,
+        "sections": 8,
+        "meetings": 8
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CSE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CAT",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 4
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CAT.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CAT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/CAT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "DSC",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 7,
+        "meetings": 7
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/DSC.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/DSC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/DSC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ECON",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECON.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECON.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECON.json"
+    },
+    {
+      "term": "S325",
+      "subject": "EAP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EAP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EAP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EAP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "EDS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 23,
+        "sections": 28,
+        "meetings": 43
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EDS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EDS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/EDS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ECE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 7,
+        "sections": 18,
+        "meetings": 35
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/ECE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "FMPH",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/FMPH.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/FMPH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/FMPH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LIGM",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 6
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIGM.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIGM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIGM.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LIIT",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 6
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIIT.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIIT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LIIT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LISP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 9
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LISP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LISP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LTWL",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LTWL.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LTWL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/LTWL.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MMW",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 11,
+        "meetings": 22
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MMW.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MMW.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MMW.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MATS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 2
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MATH",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 4,
+        "sections": 5,
+        "meetings": 6
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATH.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MATH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MAE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 9,
+        "meetings": 9
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MAE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MAE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MAE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MCWP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 4,
+        "sections": 10,
+        "meetings": 10
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MCWP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MCWP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MCWP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MUS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 2
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MUS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MUS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MUS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "NEU",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEU.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEU.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEU.json"
+    },
+    {
+      "term": "S325",
+      "subject": "NEUG",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 3,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEUG.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEUG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/NEUG.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PATH",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PATH.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PATH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PHIL",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHIL.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHIL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHIL.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PHYS",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHYS.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHYS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PSY",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSY.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSY.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSY.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PSYC",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 6,
+        "meetings": 7
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSYC.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSYC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PSYC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PH",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PH.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PHB",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHB.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHB.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/PHB.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGTF",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTF.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTF.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTF.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGT",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 11,
+        "sections": 19,
+        "meetings": 21
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGT.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGTA",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 5,
+        "sections": 9,
+        "meetings": 10
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTA.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTA.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/MGTA.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SIOC",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 4,
+        "meetings": 16
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIOC.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIOC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIOC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SIO",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 3,
+        "sections": 7,
+        "meetings": 9
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIO.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIO.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SIO.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SOCI",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 3
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SOCI.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SOCI.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SOCI.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SE",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SE.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/SE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "USP",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/USP.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/USP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/USP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "WES",
+      "source": "schedule_of_classes",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/WES.subject-list.json",
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/WES.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/schedule_of_classes/WES.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AIP",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 5
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/AIP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/AIP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AAS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 20
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/AAS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/AAS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ANAR",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 41
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ANAR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ANAR.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ANTH",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 135
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ANTH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ANTH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AESE",
+      "source": "general_catalog",
+      "status": "failed",
+      "reason": "UCSD General Catalog courses not found for AESE",
+      "attempts": 1,
+      "row_counts": {},
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/AESE.html"
+      ],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ASTR",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 61
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ASTR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ASTR.json"
+    },
+    {
+      "term": "S325",
+      "subject": "BENG",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 116
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/BENG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/BENG.json"
+    },
+    {
+      "term": "S325",
+      "subject": "BISP",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 12
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/BISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/BISP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CHEM",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 172
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CHEM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CHEM.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CCS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 5
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CCS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CCS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CLRE",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 36
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CLRE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CLRE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "COGS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 138
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/COGS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/COGS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CSS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 11
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CSS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CSS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CSE",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 212
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CSE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "CAT",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 22
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CAT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/CAT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "DSC",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 89
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/DSC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/DSC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ECON",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 181
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ECON.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ECON.json"
+    },
+    {
+      "term": "S325",
+      "subject": "EAP",
+      "source": "general_catalog",
+      "status": "failed",
+      "reason": "UCSD General Catalog query failed for EAP: 404 Not Found",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "EDS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 192
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/EDS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/EDS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "ECE",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 206
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/ECE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "FMPH",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 52
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/FMPH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/FMPH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LIGM",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 10
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LIGM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LIGM.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LIIT",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 12
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LIIT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LIIT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LISP",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 11
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LISP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "LTWL",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 55
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LTWL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/LTWL.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MMW",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 16
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MMW.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MMW.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MATS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 25
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MATS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MATS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MATH",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 238
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MATH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MAE",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 188
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MAE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MAE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MCWP",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 8
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MCWP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MCWP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MUS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 151
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MUS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MUS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "NEU",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 19
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/NEU.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/NEU.json"
+    },
+    {
+      "term": "S325",
+      "subject": "NEUG",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 9
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/NEUG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/NEUG.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PATH",
+      "source": "general_catalog",
+      "status": "failed",
+      "reason": "UCSD General Catalog query failed for PATH: 404 Not Found",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PHIL",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 149
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHIL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHIL.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PHYS",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 141
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHYS.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PSY",
+      "source": "general_catalog",
+      "status": "failed",
+      "reason": "UCSD General Catalog query failed for PSY: 404 Not Found",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PSYC",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 178
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PSYC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PSYC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PH",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 98
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PH.json"
+    },
+    {
+      "term": "S325",
+      "subject": "PHB",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 19
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHB.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/PHB.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGTF",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 32
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGTF.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGTF.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGT",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 210
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGT.json"
+    },
+    {
+      "term": "S325",
+      "subject": "MGTA",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 26
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGTA.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/MGTA.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SIOC",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 64
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SIOC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SIOC.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SIO",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 121
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SIO.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SIO.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SOCI",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 146
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SOCI.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SOCI.json"
+    },
+    {
+      "term": "S325",
+      "subject": "SE",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 128
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/SE.json"
+    },
+    {
+      "term": "S325",
+      "subject": "USP",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 106
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/USP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/USP.json"
+    },
+    {
+      "term": "S325",
+      "subject": "WES",
+      "source": "general_catalog",
+      "status": "ok",
+      "reason": null,
+      "attempts": 1,
+      "row_counts": {
+        "courses": 9
+      },
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/WES.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-13T11:00:06.839Z-627ae920-7fa4-437a-9f6c-8d667cf69009-S325/general_catalog/WES.json"
+    },
+    {
+      "term": "S325",
+      "subject": "AIP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for AIP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "AAS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for AAS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ANAR",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for ANAR: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ANTH",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for ANTH: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "AESE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for AESE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ASTR",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for ASTR: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "BENG",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for BENG: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "BISP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for BISP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CHEM",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CHEM: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CCS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CCS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CLRE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CLRE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "COGS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for COGS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CSS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CSS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CSE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CSE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "CAT",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for CAT: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "DSC",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for DSC: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ECON",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for ECON: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "EAP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for EAP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "EDS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for EDS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "ECE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for ECE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "FMPH",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for FMPH: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "LIGM",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for LIGM: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "LIIT",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for LIIT: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "LISP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for LISP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "LTWL",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for LTWL: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MMW",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MMW: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MATS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MATS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MATH",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MATH: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MAE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MAE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MCWP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MCWP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MUS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MUS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "NEU",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for NEU: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "NEUG",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for NEUG: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PATH",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PATH: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PHIL",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PHIL: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PHYS",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PHYS: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PSY",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PSY: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PSYC",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PSYC: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PH",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PH: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "PHB",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for PHB: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MGTF",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MGTF: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MGT",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MGT: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "MGTA",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for MGTA: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "SIOC",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for SIOC: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "SIO",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for SIO: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "SOCI",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for SOCI: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "SE",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for SE: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "USP",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for USP: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    },
+    {
+      "term": "S325",
+      "subject": "WES",
+      "source": "instructor_grade_archive",
+      "status": "failed",
+      "reason": "Instructor Grade Archive query failed for WES: 500 Internal Server Error",
+      "attempts": 3,
+      "row_counts": {},
+      "raw_artifacts": [],
+      "normalized_artifact": null
+    }
+  ],
+  "summary": {
+    "ok": 94,
+    "empty": 0,
+    "failed": 53,
+    "partial": 0
+  }
+}

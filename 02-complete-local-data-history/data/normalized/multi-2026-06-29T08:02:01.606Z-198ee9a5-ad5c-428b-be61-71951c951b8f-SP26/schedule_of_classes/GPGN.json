@@ -1,0 +1,877 @@
+{
+  "subject": "GPGN",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "GPGN:490",
+      "subject": "GPGN",
+      "course_number": "490",
+      "title": "Special Topics Course",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/GPS.html#gpgn490",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:213842",
+          "course_id": "GPGN:490",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Mahadevan, Meera"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RBC",
+              "room": "3203",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RBC 3203"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RBC",
+              "room": "3203",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RBC 3203"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "490",
+            "raw_section_identifier": "213842",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "SP26:213932",
+          "course_id": "GPGN:490",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Handley, Kyle Lange"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "RBC",
+              "room": "3203",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "RBC 3203"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RBC",
+              "room": "3203",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RBC 3203"
+            }
+          ],
+          "enrolled": 21,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "490",
+            "raw_section_identifier": "213932",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "SP26:214292",
+          "course_id": "GPGN:490",
+          "section_code": "C00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Fernandez De Castr, Rafael"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RBC",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RBC 3201"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 80,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "490",
+            "raw_section_identifier": "214292",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "SP26:215105",
+          "course_id": "GPGN:490",
+          "section_code": "D00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Feuer, Anna Stagg"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RBC",
+              "room": "3203",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Th",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RBC 3203"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "490",
+            "raw_section_identifier": "215105",
+            "raw_section_code": "D00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "SP26:215111",
+          "course_id": "GPGN:490",
+          "section_code": "E00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lin, Yao"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "RBC",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "RBC 3201"
+            }
+          ],
+          "enrolled": 28,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "490",
+            "raw_section_identifier": "215111",
+            "raw_section_code": "E00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "GPGN:492",
+      "subject": "GPGN",
+      "course_number": "492",
+      "title": "Ind Consulting Research Proj",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://registrar.ucsd.edu/studentlink/cnd.html",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:274072",
+          "course_id": "GPGN:492",
+          "section_code": "A00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lyons, Elizabeth Deirdre"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "274072",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:274073",
+          "course_id": "GPGN:492",
+          "section_code": "B00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "274073",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:274074",
+          "course_id": "GPGN:492",
+          "section_code": "C00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "274074",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:274075",
+          "course_id": "GPGN:492",
+          "section_code": "D00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "274075",
+            "raw_section_code": "D00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:276597",
+          "course_id": "GPGN:492",
+          "section_code": "E00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "McCord, Gordon Carlos"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 5,
+          "capacity": 7,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "276597",
+            "raw_section_code": "E00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:277171",
+          "course_id": "GPGN:492",
+          "section_code": "F00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Handley, Kyle Lange"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 2,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "277171",
+            "raw_section_code": "F00",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:278343",
+          "course_id": "GPGN:492",
+          "section_code": "G00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Schaede, Ulrike"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "492",
+            "raw_section_identifier": "278343",
+            "raw_section_code": "G00",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "GPGN:495",
+      "subject": "GPGN",
+      "course_number": "495",
+      "title": "Adv Projects Energy Analytics",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/GPS.html#gpgn495",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:215135",
+          "course_id": "GPGN:495",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Victor, David Gardiner"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "RBC",
+              "room": "1401",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "RBC 1401"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 18,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "495",
+            "raw_section_identifier": "215135",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "GPGN:497",
+      "subject": "GPGN",
+      "course_number": "497",
+      "title": "Internship",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/GPS.html#gpgn497",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:215337",
+          "course_id": "GPGN:497",
+          "section_code": "001",
+          "meeting_type": null,
+          "instructors": [
+            "McCord, Gordon Carlos"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": null,
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "497",
+            "raw_section_identifier": "215337",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IT"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "GPGN:499",
+      "subject": "GPGN",
+      "course_number": "499",
+      "title": "Independent Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/GPS.html#gpgn499",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:269170",
+          "course_id": "GPGN:499",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Khanna, Gaurav"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "269170",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:269171",
+          "course_id": "GPGN:499",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Karmarkar, Uma R"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "269171",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:269173",
+          "course_id": "GPGN:499",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Appel, Benjamin Jay"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "269173",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:274907",
+          "course_id": "GPGN:499",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Samphantharak, Krislert"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "274907",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:275898",
+          "course_id": "GPGN:499",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Driscoll, Jesse R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "275898",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:276794",
+          "course_id": "GPGN:499",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shih, Victor Chung"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "GPGN",
+            "raw_course_number": "499",
+            "raw_section_identifier": "276794",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "validated_at": "2026-08-15T18:35:45.266Z",
+  "checks": {
+    "repository_and_production_metadata_timestamp_match": true,
+    "repository_and_production_term_sets_match": true,
+    "live_download_count_is_31": true,
+    "all_live_downloads_returned_200": true,
+    "all_terms_reconstruct_exactly": true,
+    "all_term_course_ids_match": true,
+    "all_manifests_match_snapshots": true,
+    "all_manifest_local_artifacts_are_packaged": true
+  },
+  "all_pass": true,
+  "term_results": [
+    {
+      "term": "FA24",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2352,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 867,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "FA25",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2384,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 873,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "FA26",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2142,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 494,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S125",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 507,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 401,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S126",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 424,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 372,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S224",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 411,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 358,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S225",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 507,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 431,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S226",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 397,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 386,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S324",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 128,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 214,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S325",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 144,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 238,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "S326",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 123,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 199,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "SP25",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2317,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 870,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "SP26",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2393,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 866,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "WI25",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2385,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 880,
+      "missing_local_artifacts": 0
+    },
+    {
+      "term": "WI26",
+      "generated_at": "2026-08-13T11:00:06.839Z",
+      "courses": 2427,
+      "list_detail_reconstructs_repository_snapshot": true,
+      "live_list_and_detail_course_ids_match": true,
+      "manifest_matches_snapshot": true,
+      "referenced_local_artifacts": 884,
+      "missing_local_artifacts": 0
+    }
+  ],
+  "missing_artifacts": []
+}

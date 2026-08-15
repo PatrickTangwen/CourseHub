@@ -1,0 +1,598 @@
+{
+  "subject": "MAE",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-07-22T21:02:15.288Z",
+  "source_timestamp": "07/22/2026, 03:20:00",
+  "courses": [
+    {
+      "course_id": "MAE:8",
+      "subject": "MAE",
+      "course_number": "8",
+      "title": "MATLAB Program for Engr Analys",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae8",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263081",
+          "course_id": "MAE:8",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Pham, Hieu Tan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "11:20",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "9:30a-11:20a",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "WLH 2111"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "8",
+            "raw_section_identifier": "263081",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:30B",
+      "subject": "MAE",
+      "course_number": "30B",
+      "title": "Dynamics and Vibrations",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae30b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263082",
+          "course_id": "MAE:30B",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Ghazinejad, Maziar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R111",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R111"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RCLAS R04"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MALK",
+              "room": "B91",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MALK B91"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 45,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "30B",
+            "raw_section_identifier": "263082",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:101B",
+      "subject": "MAE",
+      "course_number": "101B",
+      "title": "Advanced Fluid Mechanics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae101b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263083",
+          "course_id": "MAE:101B",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Saintillan, David"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R11"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R120",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "RCLAS R120"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R22",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R22"
+            }
+          ],
+          "enrolled": 42,
+          "capacity": 70,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "101B",
+            "raw_section_identifier": "263083",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:105",
+      "subject": "MAE",
+      "course_number": "105",
+      "title": "Intro to Mathematical Physics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae105",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263087",
+          "course_id": "MAE:105",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bandaru, Prabhakar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R11"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "RCLAS R101"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R21",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R21"
+            }
+          ],
+          "enrolled": 59,
+          "capacity": 70,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "105",
+            "raw_section_identifier": "263087",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:143B",
+      "subject": "MAE",
+      "course_number": "143B",
+      "title": "Linear Control",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae143b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263089",
+          "course_id": "MAE:143B",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bewley, Thomas R"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R11"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "9:00a-10:50a",
+              "raw_location": "RCLAS R101"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-08-22",
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "S",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1101"
+            }
+          ],
+          "enrolled": 53,
+          "capacity": 80,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "143B",
+            "raw_section_identifier": "263089",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:148",
+      "subject": "MAE",
+      "course_number": "148",
+      "title": "Intro to Autonomous Vehicles",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae148",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:263092",
+          "course_id": "MAE:148",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Silberman, Jack"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:30",
+              "end_time": "18:20",
+              "building": "DIB",
+              "room": "253",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:30p-6:20p",
+              "raw_location": "DIB 253"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "18:30",
+              "end_time": "21:20",
+              "building": "DIB",
+              "room": "253",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-9:20p",
+              "raw_location": "DIB 253"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 14,
+          "waitlist_count": 5,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "148",
+            "raw_section_identifier": "263092",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MAE:199",
+      "subject": "MAE",
+      "course_number": "199",
+      "title": "Independent Study/Undergrads",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAE.html#mae199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:280672",
+          "course_id": "MAE:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Bewley, Thomas R"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-07-22T21:02:15.288Z",
+            "raw_term": "S226",
+            "raw_subject": "MAE",
+            "raw_course_number": "199",
+            "raw_section_identifier": "280672",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

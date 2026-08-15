@@ -1,0 +1,816 @@
+{
+  "subject": "ANES",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "ANES:223",
+      "subject": "ANES",
+      "course_number": "223",
+      "title": "Intro/Health Care Policy",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:854864",
+          "course_id": "ANES:223",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Hertzka, Robert Ernest"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "223",
+            "raw_section_identifier": "854864",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:226",
+      "subject": "ANES",
+      "course_number": "226",
+      "title": "ClinicalPerspectives/GloblHlth",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:802579",
+          "course_id": "ANES:226",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Sanghvi, Reema I"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 6,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "226",
+            "raw_section_identifier": "802579",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:229",
+      "subject": "ANES",
+      "course_number": "229",
+      "title": "Prac Pharm&Phys/Anes&Crit Care",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:854899",
+          "course_id": "ANES:229",
+          "section_code": "A01",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Weinstein, Lawrence"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Practicum",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "229",
+            "raw_section_identifier": "854899",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:296",
+      "subject": "ANES",
+      "course_number": "296",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791559",
+          "course_id": "ANES:296",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Suresh, Preetham John"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "296",
+            "raw_section_identifier": "791559",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:791560",
+          "course_id": "ANES:296",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "296",
+            "raw_section_identifier": "791560",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:791561",
+          "course_id": "ANES:296",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "296",
+            "raw_section_identifier": "791561",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:299",
+      "subject": "ANES",
+      "course_number": "299",
+      "title": "Anes/Independent Study Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791562",
+          "course_id": "ANES:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Suresh, Preetham John"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "299",
+            "raw_section_identifier": "791562",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:791563",
+          "course_id": "ANES:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lerman, Imanuel Ruvin"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "299",
+            "raw_section_identifier": "791563",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:791564",
+          "course_id": "ANES:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "299",
+            "raw_section_identifier": "791564",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:858145",
+          "course_id": "ANES:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Gabriel, Rodney A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "299",
+            "raw_section_identifier": "858145",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:401",
+      "subject": "ANES",
+      "course_number": "401",
+      "title": "Anesthesiology Clerkship",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791565",
+          "course_id": "ANES:401",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Weinstein, Lawrence"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 16,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "401",
+            "raw_section_identifier": "791565",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:402",
+      "subject": "ANES",
+      "course_number": "402",
+      "title": "Pain Med Eval & Intervntnl Clk",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791567",
+          "course_id": "ANES:402",
+          "section_code": "A01",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Polston, Gregory Robert"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 12,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "402",
+            "raw_section_identifier": "791567",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:403",
+      "subject": "ANES",
+      "course_number": "403",
+      "title": "Critical Care Medicine Clerksp",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791568",
+          "course_id": "ANES:403",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Meier, Angela"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "403",
+            "raw_section_identifier": "791568",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:410",
+      "subject": "ANES",
+      "course_number": "410",
+      "title": "Introduction to Anesthesiology",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791569",
+          "course_id": "ANES:410",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Weinstein, Lawrence"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 5,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "410",
+            "raw_section_identifier": "791569",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANES:496",
+      "subject": "ANES",
+      "course_number": "496",
+      "title": "Clinical Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:791570",
+          "course_id": "ANES:496",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "496",
+            "raw_section_identifier": "791570",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:791571",
+          "course_id": "ANES:496",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "WI25",
+            "raw_subject": "ANES",
+            "raw_course_number": "496",
+            "raw_section_identifier": "791571",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+services:
+  course-data-db:
+    image: postgres:16-alpine
+    ports:
+      - ${COURSE_DATA_STORE_PORT:-55489}:5432
+    environment:
+      POSTGRES_DB: course_data
+      POSTGRES_PASSWORD: ${COURSE_DATA_STORE_PASSWORD?COURSE_DATA_STORE_PASSWORD}
+      POSTGRES_USER: course_data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U course_data -d course_data']
+      interval: 1s
+      timeout: 5s
+      retries: 60
+    volumes:
+      - course-data-postgres:/var/lib/postgresql/data
+
+  hasura:
+    image: hasura/graphql-engine:v2.48.5
+    ports:
+      - 127.0.0.1:${COURSE_DATA_HASURA_PORT:-18089}:8080
+    depends_on:
+      course-data-db:
+        condition: service_healthy
+    environment:
+      COURSE_DATA_STORE_DATABASE_URL: postgresql://course_data:${COURSE_DATA_STORE_PASSWORD?COURSE_DATA_STORE_PASSWORD}@course-data-db:5432/course_data
+      HASURA_GRAPHQL_ADMIN_SECRET: ${COURSE_DATA_HASURA_ADMIN_SECRET?COURSE_DATA_HASURA_ADMIN_SECRET}
+      HASURA_GRAPHQL_DATABASE_URL: postgresql://course_data:${COURSE_DATA_STORE_PASSWORD?COURSE_DATA_STORE_PASSWORD}@course-data-db:5432/course_data
+      HASURA_GRAPHQL_ENABLE_CONSOLE: 'false'
+      HASURA_GRAPHQL_UNAUTHORIZED_ROLE: anonymous
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:8080/healthz']
+      interval: 1s
+      timeout: 5s
+      retries: 60
+
+volumes:
+  course-data-postgres:

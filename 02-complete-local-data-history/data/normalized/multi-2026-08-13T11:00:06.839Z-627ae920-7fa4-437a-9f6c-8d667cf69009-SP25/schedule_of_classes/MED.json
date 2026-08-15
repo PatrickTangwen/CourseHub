@@ -1,0 +1,2784 @@
+{
+  "subject": "MED",
+  "term": "SP25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "10/06/2025, 02:01:00",
+  "courses": [
+    {
+      "course_id": "MED:199",
+      "subject": "MED",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:892365",
+          "course_id": "MED:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Beyhan, Sinem"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "199",
+            "raw_section_identifier": "892365",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:903913",
+          "course_id": "MED:199",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Calcutt, Nigel A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "199",
+            "raw_section_identifier": "903913",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:225",
+      "subject": "MED",
+      "course_number": "225",
+      "title": "Advances in Glycobiology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:872558",
+          "course_id": "MED:225",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Esko, Jeffrey D."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:30",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-1:30p",
+              "raw_location": "BRF2 5A03"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": "2025-06-09",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "BRF2 5A03"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "225",
+            "raw_section_identifier": "872558",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:235",
+      "subject": "MED",
+      "course_number": "235",
+      "title": "Tribal Ambulatory Healthcare",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:901213",
+          "course_id": "MED:235",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Allison, Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 3,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "235",
+            "raw_section_identifier": "901213",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:239",
+      "subject": "MED",
+      "course_number": "239",
+      "title": "Hlth Frontier/Tijuana Elective",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:901214",
+          "course_id": "MED:239",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Burgos, Jose L."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Practicum",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "239",
+            "raw_section_identifier": "901214",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:243",
+      "subject": "MED",
+      "course_number": "243",
+      "title": "Translational Resrch Jrl Club",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:901218",
+          "course_id": "MED:243",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lewinski, Mary Kathleen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 18,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "243",
+            "raw_section_identifier": "901218",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:246",
+      "subject": "MED",
+      "course_number": "246",
+      "title": "Current Literatre/Glycobiology",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:872562",
+          "course_id": "MED:246",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Lewis, Amanda Lark",
+            "Gordts, Philip",
+            "Godula, Kamil",
+            "Esko, Jeffrey D.",
+            "Gagneux, Pascal",
+            "Bode, Lars"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 5,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "246",
+            "raw_section_identifier": "872562",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:249",
+      "subject": "MED",
+      "course_number": "249",
+      "title": "Understd Applic Meditation-Med",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:901219",
+          "course_id": "MED:249",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lee, Daniel"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "249",
+            "raw_section_identifier": "901219",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:262",
+      "subject": "MED",
+      "course_number": "262",
+      "title": "Curr Trends/Biomed Informatics",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:883267",
+          "course_id": "MED:262",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Koola, Jejo David",
+            "Singh, Karandeep"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "BRF2 5A03"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "262",
+            "raw_section_identifier": "883267",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:265",
+      "subject": "MED",
+      "course_number": "265",
+      "title": "Informatics/Clinical Envirnmts",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:884437",
+          "course_id": "MED:265",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "El-Kareh, Robert E",
+            "Sitapati, Amy"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "MTF",
+              "room": "175",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Tu",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "MTF 175"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "BRF2",
+              "room": "2A03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Th",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "BRF2 2A03"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "265",
+            "raw_section_identifier": "884437",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:267",
+      "subject": "MED",
+      "course_number": "267",
+      "title": "Model Clinical Data Knowledge",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:883697",
+          "course_id": "MED:267",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Hogarth, Michael Andrew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:30",
+              "building": "MET",
+              "room": "307",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:30p",
+              "raw_location": "MET 307"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "267",
+            "raw_section_identifier": "883697",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:275",
+      "subject": "MED",
+      "course_number": "275",
+      "title": "Science Meets the Med Patient",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:872551",
+          "course_id": "MED:275",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Liu, George Yenhsi"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:30",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "3:00p-4:30p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "275",
+            "raw_section_identifier": "872551",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:278",
+      "subject": "MED",
+      "course_number": "278",
+      "title": "Cancer Genomics Journal Club",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:884420",
+          "course_id": "MED:278",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Carter, Hannah Kathryn",
+            "Mesirov, Jill P.",
+            "Curtius, Kathleen Mary"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "BRF2 5A03"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 16,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "278",
+            "raw_section_identifier": "884420",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:279",
+      "subject": "MED",
+      "course_number": "279",
+      "title": "Introduction to Geriatrics",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:901221",
+          "course_id": "MED:279",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Templeman, James Raymond"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 1,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "279",
+            "raw_section_identifier": "901221",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:296",
+      "subject": "MED",
+      "course_number": "296",
+      "title": "Independent Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866575",
+          "course_id": "MED:296",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Chi, Neil C."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "866575",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866576",
+          "course_id": "MED:296",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Castellanos, Luis R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "866576",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866585",
+          "course_id": "MED:296",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Jeong, Ah-Reum"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "866585",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866590",
+          "course_id": "MED:296",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ang, Lawrence William"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "866590",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866627",
+          "course_id": "MED:296",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Carter, Hannah Kathryn"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "296",
+            "raw_section_identifier": "866627",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:299",
+      "subject": "MED",
+      "course_number": "299",
+      "title": "Medicine Independnt Study Proj",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866628",
+          "course_id": "MED:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Malinak, David James"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866628",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866636",
+          "course_id": "MED:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shankar, Megha"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866636",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866637",
+          "course_id": "MED:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Crable, Erika Lynn"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866637",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866639",
+          "course_id": "MED:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Smith, Laramie Rae"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866639",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866640",
+          "course_id": "MED:299",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Urada, Lianne Akiko"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866640",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866643",
+          "course_id": "MED:299",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Skaathun, Britt Paige"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866643",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866644",
+          "course_id": "MED:299",
+          "section_code": "007",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Davidson, Peter John"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "866644",
+            "raw_section_code": "007",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:886926",
+          "course_id": "MED:299",
+          "section_code": "008",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Greenburg, Barry"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "886926",
+            "raw_section_code": "008",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:886927",
+          "course_id": "MED:299",
+          "section_code": "009",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "McKay, Rana"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "886927",
+            "raw_section_code": "009",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:957996",
+          "course_id": "MED:299",
+          "section_code": "010",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "957996",
+            "raw_section_code": "010",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:958134",
+          "course_id": "MED:299",
+          "section_code": "011",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tai-Seale, Ming"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "299",
+            "raw_section_identifier": "958134",
+            "raw_section_code": "011",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:401",
+      "subject": "MED",
+      "course_number": "401",
+      "title": "Medicine Core Clerkship",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866646",
+          "course_id": "MED:401",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Kwan, Brian K"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "401",
+            "raw_section_identifier": "866646",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:410",
+      "subject": "MED",
+      "course_number": "410",
+      "title": "Intro to Geriatric Medicine",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866647",
+          "course_id": "MED:410",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Neel, Ian Curtis"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "410",
+            "raw_section_identifier": "866647",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:426",
+      "subject": "MED",
+      "course_number": "426",
+      "title": "Coronary Care Unit Clerkship",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866648",
+          "course_id": "MED:426",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Castellanos, Luis R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "426",
+            "raw_section_identifier": "866648",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:429",
+      "subject": "MED",
+      "course_number": "429",
+      "title": "Intensive Clerkship/Ambul Med",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866650",
+          "course_id": "MED:429",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Hlavin, Patricia Suzanne"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 16,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "429",
+            "raw_section_identifier": "866650",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:430",
+      "subject": "MED",
+      "course_number": "430",
+      "title": "Clinical Cardiology",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866651",
+          "course_id": "MED:430",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Penny, William F."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "430",
+            "raw_section_identifier": "866651",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:431",
+      "subject": "MED",
+      "course_number": "431",
+      "title": "Clerkship/Infectious Diseases",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866652",
+          "course_id": "MED:431",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Tang, Michael E"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "431",
+            "raw_section_identifier": "866652",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:432",
+      "subject": "MED",
+      "course_number": "432",
+      "title": "Clin Hematolgy/Oncolgy Clrkshp",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866653",
+          "course_id": "MED:432",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Wong, Ida Ching-Yuen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "432",
+            "raw_section_identifier": "866653",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:433",
+      "subject": "MED",
+      "course_number": "433",
+      "title": "Clrkshp Clin Endocrinlgy-Metab",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866655",
+          "course_id": "MED:433",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Ekanayake, Preethika Subas"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "433",
+            "raw_section_identifier": "866655",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:434",
+      "subject": "MED",
+      "course_number": "434",
+      "title": "Intl Med Primary Care Clerkshp",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866679",
+          "course_id": "MED:434",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Diaz, Joseph David"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "434",
+            "raw_section_identifier": "866679",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:435",
+      "subject": "MED",
+      "course_number": "435",
+      "title": "Pulmonary Med Consul Clerkship",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866680",
+          "course_id": "MED:435",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Gupta, Naveen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "435",
+            "raw_section_identifier": "866680",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:438",
+      "subject": "MED",
+      "course_number": "438",
+      "title": "Clin Pulmonary Physiology Lab",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866713",
+          "course_id": "MED:438",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Morris, Timothy A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "438",
+            "raw_section_identifier": "866713",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:442",
+      "subject": "MED",
+      "course_number": "442",
+      "title": "LGBTQ+ Healthcare",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866714",
+          "course_id": "MED:442",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Blumenthal, Jill S"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "442",
+            "raw_section_identifier": "866714",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:444",
+      "subject": "MED",
+      "course_number": "444",
+      "title": "Critical Care Med-VA Hospital",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866715",
+          "course_id": "MED:444",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Lam, Michael Tun Yin"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "444",
+            "raw_section_identifier": "866715",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:452",
+      "subject": "MED",
+      "course_number": "452",
+      "title": "Clinical Geriatrics",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866717",
+          "course_id": "MED:452",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Gonzalez, Veronica Virgen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "452",
+            "raw_section_identifier": "866717",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:453",
+      "subject": "MED",
+      "course_number": "453",
+      "title": "Clerkship/Clinical Nephrology",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866718",
+          "course_id": "MED:453",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Park, Janice"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "453",
+            "raw_section_identifier": "866718",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:454",
+      "subject": "MED",
+      "course_number": "454",
+      "title": "Clrkshp/Blood Marrow Stem Cell",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866719",
+          "course_id": "MED:454",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Jeong, Ah-Reum"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "454",
+            "raw_section_identifier": "866719",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:455",
+      "subject": "MED",
+      "course_number": "455",
+      "title": "Clerkship in Gastroenterology",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866720",
+          "course_id": "MED:455",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Kalmaz, Denise"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "455",
+            "raw_section_identifier": "866720",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:457",
+      "subject": "MED",
+      "course_number": "457",
+      "title": "Rheumatology Clinical Clerkshp",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866721",
+          "course_id": "MED:457",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Middleton, Gregory D."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "457",
+            "raw_section_identifier": "866721",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:463",
+      "subject": "MED",
+      "course_number": "463",
+      "title": "Clrkshp/Crit Care/Internal Med",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866722",
+          "course_id": "MED:463",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Bellinghausen, Amy Lynn"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "463",
+            "raw_section_identifier": "866722",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:467",
+      "subject": "MED",
+      "course_number": "467",
+      "title": "Med Acting Internshp-VAMC/UCSD",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866724",
+          "course_id": "MED:467",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Abdelmalek, Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 16,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "467",
+            "raw_section_identifier": "866724",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:468",
+      "subject": "MED",
+      "course_number": "468",
+      "title": "Med Act Intnsp/Scrps/Mercy/Grn",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866725",
+          "course_id": "MED:468",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Abdelmalek, Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 4,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "468",
+            "raw_section_identifier": "866725",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MED:496",
+      "subject": "MED",
+      "course_number": "496",
+      "title": "Clinical Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:866726",
+          "course_id": "MED:496",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "496",
+            "raw_section_identifier": "866726",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866727",
+          "course_id": "MED:496",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "496",
+            "raw_section_identifier": "866727",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:866728",
+          "course_id": "MED:496",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "MED",
+            "raw_course_number": "496",
+            "raw_section_identifier": "866728",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

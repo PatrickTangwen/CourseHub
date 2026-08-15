@@ -1,0 +1,2998 @@
+{
+  "run_id": "multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325",
+  "generated_at": "2026-08-07T03:18:54.573Z",
+  "active_planning_term": "S325",
+  "term_label": "Special Summer Session 2025",
+  "configured_subjects": [
+    "AIP",
+    "AAS",
+    "ANAR",
+    "ANTH",
+    "AESE",
+    "ASTR",
+    "BENG",
+    "BISP",
+    "CHEM",
+    "CCS",
+    "CLRE",
+    "COGS",
+    "CSS",
+    "CSE",
+    "CAT",
+    "DSC",
+    "ECON",
+    "EAP",
+    "EDS",
+    "ECE",
+    "FMPH",
+    "LIGM",
+    "LIIT",
+    "LISP",
+    "LTWL",
+    "MMW",
+    "MATS",
+    "MATH",
+    "MAE",
+    "MCWP",
+    "MUS",
+    "NEU",
+    "NEUG",
+    "PATH",
+    "PHIL",
+    "PHYS",
+    "PSY",
+    "PSYC",
+    "PH",
+    "PHB",
+    "MGTF",
+    "MGT",
+    "MGTA",
+    "SIOC",
+    "SIO",
+    "SOCI",
+    "SE",
+    "USP",
+    "WES"
+  ],
+  "status": "published",
+  "source_timestamps": {
+    "schedule_of_classes": "11/04/2025, 03:07:00",
+    "general_catalog": "2026-08-07T03:18:54.573Z",
+    "instructor_grade_archive": "2026-08-07T03:18:54.573Z"
+  },
+  "sources": [
+    {
+      "source": "schedule_of_classes",
+      "subject": "AIP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 56,
+        "meetings": 56
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "AAS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ANAR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ANTH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 4
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "AESE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ASTR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "BENG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.json",
+      "row_counts": {
+        "courses": 5,
+        "sections": 5,
+        "meetings": 5
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "BISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 26,
+        "meetings": 26
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CHEM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 4,
+        "meetings": 4
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CCS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CLRE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.json",
+      "row_counts": {
+        "courses": 8,
+        "sections": 11,
+        "meetings": 22
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "COGS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 11,
+        "meetings": 11
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CSS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 6
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CSE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.json",
+      "row_counts": {
+        "courses": 6,
+        "sections": 8,
+        "meetings": 8
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "CAT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 4
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "DSC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 7,
+        "meetings": 7
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ECON",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "EAP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "EDS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.json",
+      "row_counts": {
+        "courses": 23,
+        "sections": 28,
+        "meetings": 43
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ECE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.json",
+      "row_counts": {
+        "courses": 7,
+        "sections": 18,
+        "meetings": 35
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "FMPH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "LIGM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 6
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "LIIT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 6
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "LISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 3,
+        "meetings": 9
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "LTWL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MMW",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 11,
+        "meetings": 22
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MATS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 2
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MATH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.json",
+      "row_counts": {
+        "courses": 4,
+        "sections": 5,
+        "meetings": 6
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MAE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 9,
+        "meetings": 9
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MCWP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.json",
+      "row_counts": {
+        "courses": 4,
+        "sections": 10,
+        "meetings": 10
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MUS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 2
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "NEU",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "NEUG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 3,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PATH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PHIL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PHYS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 3,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PSY",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PSYC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 6,
+        "meetings": 7
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PHB",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MGTF",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 2,
+        "meetings": 2
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MGT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.json",
+      "row_counts": {
+        "courses": 11,
+        "sections": 19,
+        "meetings": 21
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MGTA",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.json",
+      "row_counts": {
+        "courses": 5,
+        "sections": 9,
+        "meetings": 10
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "SIOC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 4,
+        "meetings": 16
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "SIO",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.json",
+      "row_counts": {
+        "courses": 3,
+        "sections": 7,
+        "meetings": 9
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "SOCI",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 2,
+        "meetings": 3
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "SE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "USP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "WES",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "11/04/2025, 03:07:00",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.subject-list.json",
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.json",
+      "row_counts": {
+        "courses": 1,
+        "sections": 1,
+        "meetings": 1
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "AIP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AIP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AIP.json",
+      "row_counts": {
+        "courses": 5
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "AAS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AAS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AAS.json",
+      "row_counts": {
+        "courses": 20
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ANAR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANAR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANAR.json",
+      "row_counts": {
+        "courses": 41
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ANTH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANTH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANTH.json",
+      "row_counts": {
+        "courses": 135
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ASTR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ASTR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ASTR.json",
+      "row_counts": {
+        "courses": 61
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "BENG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BENG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BENG.json",
+      "row_counts": {
+        "courses": 116
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "BISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BISP.json",
+      "row_counts": {
+        "courses": 12
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CHEM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CHEM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CHEM.json",
+      "row_counts": {
+        "courses": 172
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CCS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CCS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CCS.json",
+      "row_counts": {
+        "courses": 5
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CLRE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CLRE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CLRE.json",
+      "row_counts": {
+        "courses": 36
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "COGS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/COGS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/COGS.json",
+      "row_counts": {
+        "courses": 138
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CSS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSS.json",
+      "row_counts": {
+        "courses": 11
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CSE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSE.json",
+      "row_counts": {
+        "courses": 212
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CAT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CAT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CAT.json",
+      "row_counts": {
+        "courses": 22
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "DSC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/DSC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/DSC.json",
+      "row_counts": {
+        "courses": 89
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ECON",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECON.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECON.json",
+      "row_counts": {
+        "courses": 181
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "EDS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/EDS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/EDS.json",
+      "row_counts": {
+        "courses": 192
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ECE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECE.json",
+      "row_counts": {
+        "courses": 206
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "FMPH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/FMPH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/FMPH.json",
+      "row_counts": {
+        "courses": 52
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "LIGM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIGM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIGM.json",
+      "row_counts": {
+        "courses": 10
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "LIIT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIIT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIIT.json",
+      "row_counts": {
+        "courses": 12
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "LISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LISP.json",
+      "row_counts": {
+        "courses": 11
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "LTWL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LTWL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LTWL.json",
+      "row_counts": {
+        "courses": 55
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MMW",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MMW.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MMW.json",
+      "row_counts": {
+        "courses": 16
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MATS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATS.json",
+      "row_counts": {
+        "courses": 25
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MATH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATH.json",
+      "row_counts": {
+        "courses": 238
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MAE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MAE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MAE.json",
+      "row_counts": {
+        "courses": 188
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MCWP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MCWP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MCWP.json",
+      "row_counts": {
+        "courses": 8
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MUS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MUS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MUS.json",
+      "row_counts": {
+        "courses": 151
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "NEU",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEU.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEU.json",
+      "row_counts": {
+        "courses": 19
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "NEUG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEUG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEUG.json",
+      "row_counts": {
+        "courses": 9
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PHIL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHIL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHIL.json",
+      "row_counts": {
+        "courses": 149
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PHYS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHYS.json",
+      "row_counts": {
+        "courses": 141
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PSYC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PSYC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PSYC.json",
+      "row_counts": {
+        "courses": 178
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PH.json",
+      "row_counts": {
+        "courses": 98
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PHB",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHB.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHB.json",
+      "row_counts": {
+        "courses": 19
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MGTF",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTF.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTF.json",
+      "row_counts": {
+        "courses": 32
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MGT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGT.json",
+      "row_counts": {
+        "courses": 210
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MGTA",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTA.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTA.json",
+      "row_counts": {
+        "courses": 26
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "SIOC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIOC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIOC.json",
+      "row_counts": {
+        "courses": 64
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "SIO",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIO.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIO.json",
+      "row_counts": {
+        "courses": 121
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "SOCI",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SOCI.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SOCI.json",
+      "row_counts": {
+        "courses": 146
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "SE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SE.json",
+      "row_counts": {
+        "courses": 128
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "USP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/USP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/USP.json",
+      "row_counts": {
+        "courses": 106
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "WES",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/WES.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/WES.json",
+      "row_counts": {
+        "courses": 9
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "AIP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AIP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AIP.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "AAS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AAS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AAS.json",
+      "row_counts": {
+        "records": 30
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ANAR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANAR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANAR.json",
+      "row_counts": {
+        "records": 88
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ANTH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANTH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANTH.json",
+      "row_counts": {
+        "records": 210
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "AESE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AESE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AESE.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ASTR",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ASTR.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ASTR.json",
+      "row_counts": {
+        "records": 26
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "BENG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BENG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BENG.json",
+      "row_counts": {
+        "records": 402
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "BISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BISP.json",
+      "row_counts": {
+        "records": 67
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CHEM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CHEM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CHEM.json",
+      "row_counts": {
+        "records": 936
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CCS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CCS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CCS.json",
+      "row_counts": {
+        "records": 17
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CLRE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CLRE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CLRE.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "COGS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/COGS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/COGS.json",
+      "row_counts": {
+        "records": 742
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CSS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSS.json",
+      "row_counts": {
+        "records": 24
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CSE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSE.json",
+      "row_counts": {
+        "records": 1098
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CAT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CAT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CAT.json",
+      "row_counts": {
+        "records": 273
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "DSC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/DSC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/DSC.json",
+      "row_counts": {
+        "records": 271
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ECON",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECON.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECON.json",
+      "row_counts": {
+        "records": 725
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "EAP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EAP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EAP.json",
+      "row_counts": {
+        "records": 4
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "EDS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EDS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EDS.json",
+      "row_counts": {
+        "records": 519
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ECE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECE.json",
+      "row_counts": {
+        "records": 740
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "FMPH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/FMPH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/FMPH.json",
+      "row_counts": {
+        "records": 174
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "LIGM",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIGM.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIGM.json",
+      "row_counts": {
+        "records": 64
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "LIIT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIIT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIIT.json",
+      "row_counts": {
+        "records": 52
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "LISP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LISP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LISP.json",
+      "row_counts": {
+        "records": 170
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "LTWL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LTWL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LTWL.json",
+      "row_counts": {
+        "records": 149
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MMW",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MMW.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MMW.json",
+      "row_counts": {
+        "records": 153
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MATS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATS.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MATH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATH.json",
+      "row_counts": {
+        "records": 1718
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MAE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MAE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MAE.json",
+      "row_counts": {
+        "records": 787
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MCWP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MCWP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MCWP.json",
+      "row_counts": {
+        "records": 244
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MUS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MUS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MUS.json",
+      "row_counts": {
+        "records": 760
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "NEU",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEU.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEU.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "NEUG",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEUG.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEUG.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PATH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PATH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PATH.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PHIL",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHIL.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHIL.json",
+      "row_counts": {
+        "records": 508
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PHYS",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHYS.json",
+      "row_counts": {
+        "records": 661
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PSY",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSY.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSY.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PSYC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSYC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSYC.json",
+      "row_counts": {
+        "records": 880
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PH",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PH.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PH.json",
+      "row_counts": {
+        "records": 71
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PHB",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHB.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHB.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MGTF",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTF.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTF.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MGT",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGT.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGT.json",
+      "row_counts": {
+        "records": 1144
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MGTA",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTA.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTA.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "SIOC",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIOC.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIOC.json",
+      "row_counts": {
+        "records": 0
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "SIO",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIO.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIO.json",
+      "row_counts": {
+        "records": 565
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "SOCI",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SOCI.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SOCI.json",
+      "row_counts": {
+        "records": 774
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "SE",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SE.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SE.json",
+      "row_counts": {
+        "records": 343
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "USP",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/USP.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/USP.json",
+      "row_counts": {
+        "records": 557
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "WES",
+      "fetched_at": "2026-08-07T03:18:54.573Z",
+      "source_timestamp": "2026-08-07T03:18:54.573Z",
+      "raw_artifacts": [
+        "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/WES.html"
+      ],
+      "normalized_artifact": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/WES.json",
+      "row_counts": {
+        "records": 0
+      }
+    }
+  ],
+  "row_counts": {
+    "schedule_of_classes": {
+      "courses": 144,
+      "sections": 308,
+      "meetings": 403,
+      "by_subject": {
+        "AIP": {
+          "courses": 3,
+          "sections": 56,
+          "meetings": 56
+        },
+        "AAS": {
+          "courses": 2,
+          "sections": 3,
+          "meetings": 3
+        },
+        "ANAR": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "ANTH": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 4
+        },
+        "AESE": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "ASTR": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "BENG": {
+          "courses": 5,
+          "sections": 5,
+          "meetings": 5
+        },
+        "BISP": {
+          "courses": 2,
+          "sections": 26,
+          "meetings": 26
+        },
+        "CHEM": {
+          "courses": 2,
+          "sections": 4,
+          "meetings": 4
+        },
+        "CCS": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "CLRE": {
+          "courses": 8,
+          "sections": 11,
+          "meetings": 22
+        },
+        "COGS": {
+          "courses": 3,
+          "sections": 11,
+          "meetings": 11
+        },
+        "CSS": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 6
+        },
+        "CSE": {
+          "courses": 6,
+          "sections": 8,
+          "meetings": 8
+        },
+        "CAT": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 4
+        },
+        "DSC": {
+          "courses": 3,
+          "sections": 7,
+          "meetings": 7
+        },
+        "ECON": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 3
+        },
+        "EAP": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "EDS": {
+          "courses": 23,
+          "sections": 28,
+          "meetings": 43
+        },
+        "ECE": {
+          "courses": 7,
+          "sections": 18,
+          "meetings": 35
+        },
+        "FMPH": {
+          "courses": 2,
+          "sections": 3,
+          "meetings": 3
+        },
+        "LIGM": {
+          "courses": 3,
+          "sections": 3,
+          "meetings": 6
+        },
+        "LIIT": {
+          "courses": 3,
+          "sections": 3,
+          "meetings": 6
+        },
+        "LISP": {
+          "courses": 3,
+          "sections": 3,
+          "meetings": 9
+        },
+        "LTWL": {
+          "courses": 1,
+          "sections": 2,
+          "meetings": 2
+        },
+        "MMW": {
+          "courses": 3,
+          "sections": 11,
+          "meetings": 22
+        },
+        "MATS": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 2
+        },
+        "MATH": {
+          "courses": 4,
+          "sections": 5,
+          "meetings": 6
+        },
+        "MAE": {
+          "courses": 2,
+          "sections": 9,
+          "meetings": 9
+        },
+        "MCWP": {
+          "courses": 4,
+          "sections": 10,
+          "meetings": 10
+        },
+        "MUS": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 2
+        },
+        "NEU": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "NEUG": {
+          "courses": 1,
+          "sections": 3,
+          "meetings": 3
+        },
+        "PATH": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "PHIL": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "PHYS": {
+          "courses": 2,
+          "sections": 3,
+          "meetings": 3
+        },
+        "PSY": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "PSYC": {
+          "courses": 2,
+          "sections": 6,
+          "meetings": 7
+        },
+        "PH": {
+          "courses": 1,
+          "sections": 2,
+          "meetings": 2
+        },
+        "PHB": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "MGTF": {
+          "courses": 1,
+          "sections": 2,
+          "meetings": 2
+        },
+        "MGT": {
+          "courses": 11,
+          "sections": 19,
+          "meetings": 21
+        },
+        "MGTA": {
+          "courses": 5,
+          "sections": 9,
+          "meetings": 10
+        },
+        "SIOC": {
+          "courses": 2,
+          "sections": 4,
+          "meetings": 16
+        },
+        "SIO": {
+          "courses": 3,
+          "sections": 7,
+          "meetings": 9
+        },
+        "SOCI": {
+          "courses": 2,
+          "sections": 2,
+          "meetings": 3
+        },
+        "SE": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "USP": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        },
+        "WES": {
+          "courses": 1,
+          "sections": 1,
+          "meetings": 1
+        }
+      }
+    },
+    "general_catalog": {
+      "courses": 3875,
+      "by_subject": {
+        "AIP": {
+          "courses": 5
+        },
+        "AAS": {
+          "courses": 20
+        },
+        "ANAR": {
+          "courses": 41
+        },
+        "ANTH": {
+          "courses": 135
+        },
+        "ASTR": {
+          "courses": 61
+        },
+        "BENG": {
+          "courses": 116
+        },
+        "BISP": {
+          "courses": 12
+        },
+        "CHEM": {
+          "courses": 172
+        },
+        "CCS": {
+          "courses": 5
+        },
+        "CLRE": {
+          "courses": 36
+        },
+        "COGS": {
+          "courses": 138
+        },
+        "CSS": {
+          "courses": 11
+        },
+        "CSE": {
+          "courses": 212
+        },
+        "CAT": {
+          "courses": 22
+        },
+        "DSC": {
+          "courses": 89
+        },
+        "ECON": {
+          "courses": 181
+        },
+        "EDS": {
+          "courses": 192
+        },
+        "ECE": {
+          "courses": 206
+        },
+        "FMPH": {
+          "courses": 52
+        },
+        "LIGM": {
+          "courses": 10
+        },
+        "LIIT": {
+          "courses": 12
+        },
+        "LISP": {
+          "courses": 11
+        },
+        "LTWL": {
+          "courses": 55
+        },
+        "MMW": {
+          "courses": 16
+        },
+        "MATS": {
+          "courses": 25
+        },
+        "MATH": {
+          "courses": 238
+        },
+        "MAE": {
+          "courses": 188
+        },
+        "MCWP": {
+          "courses": 8
+        },
+        "MUS": {
+          "courses": 151
+        },
+        "NEU": {
+          "courses": 19
+        },
+        "NEUG": {
+          "courses": 9
+        },
+        "PHIL": {
+          "courses": 149
+        },
+        "PHYS": {
+          "courses": 141
+        },
+        "PSYC": {
+          "courses": 178
+        },
+        "PH": {
+          "courses": 98
+        },
+        "PHB": {
+          "courses": 19
+        },
+        "MGTF": {
+          "courses": 32
+        },
+        "MGT": {
+          "courses": 210
+        },
+        "MGTA": {
+          "courses": 26
+        },
+        "SIOC": {
+          "courses": 64
+        },
+        "SIO": {
+          "courses": 121
+        },
+        "SOCI": {
+          "courses": 146
+        },
+        "SE": {
+          "courses": 128
+        },
+        "USP": {
+          "courses": 106
+        },
+        "WES": {
+          "courses": 9
+        }
+      }
+    },
+    "instructor_grade_archive": {
+      "records": 15946,
+      "by_subject": {
+        "AIP": {
+          "records": 0
+        },
+        "AAS": {
+          "records": 30
+        },
+        "ANAR": {
+          "records": 88
+        },
+        "ANTH": {
+          "records": 210
+        },
+        "AESE": {
+          "records": 0
+        },
+        "ASTR": {
+          "records": 26
+        },
+        "BENG": {
+          "records": 402
+        },
+        "BISP": {
+          "records": 67
+        },
+        "CHEM": {
+          "records": 936
+        },
+        "CCS": {
+          "records": 17
+        },
+        "CLRE": {
+          "records": 0
+        },
+        "COGS": {
+          "records": 742
+        },
+        "CSS": {
+          "records": 24
+        },
+        "CSE": {
+          "records": 1098
+        },
+        "CAT": {
+          "records": 273
+        },
+        "DSC": {
+          "records": 271
+        },
+        "ECON": {
+          "records": 725
+        },
+        "EAP": {
+          "records": 4
+        },
+        "EDS": {
+          "records": 519
+        },
+        "ECE": {
+          "records": 740
+        },
+        "FMPH": {
+          "records": 174
+        },
+        "LIGM": {
+          "records": 64
+        },
+        "LIIT": {
+          "records": 52
+        },
+        "LISP": {
+          "records": 170
+        },
+        "LTWL": {
+          "records": 149
+        },
+        "MMW": {
+          "records": 153
+        },
+        "MATS": {
+          "records": 0
+        },
+        "MATH": {
+          "records": 1718
+        },
+        "MAE": {
+          "records": 787
+        },
+        "MCWP": {
+          "records": 244
+        },
+        "MUS": {
+          "records": 760
+        },
+        "NEU": {
+          "records": 0
+        },
+        "NEUG": {
+          "records": 0
+        },
+        "PATH": {
+          "records": 0
+        },
+        "PHIL": {
+          "records": 508
+        },
+        "PHYS": {
+          "records": 661
+        },
+        "PSY": {
+          "records": 0
+        },
+        "PSYC": {
+          "records": 880
+        },
+        "PH": {
+          "records": 71
+        },
+        "PHB": {
+          "records": 0
+        },
+        "MGTF": {
+          "records": 0
+        },
+        "MGT": {
+          "records": 1144
+        },
+        "MGTA": {
+          "records": 0
+        },
+        "SIOC": {
+          "records": 0
+        },
+        "SIO": {
+          "records": 565
+        },
+        "SOCI": {
+          "records": 774
+        },
+        "SE": {
+          "records": 343
+        },
+        "USP": {
+          "records": 557
+        },
+        "WES": {
+          "records": 0
+        }
+      }
+    },
+    "catalog_snapshot": {
+      "courses": 144,
+      "sections": 308
+    }
+  },
+  "validation": {
+    "success": true,
+    "errors": []
+  },
+  "errors": [
+    {
+      "source": "general_catalog",
+      "subject": "AESE",
+      "phase": "parse",
+      "message": "UCSD General Catalog courses not found for AESE"
+    },
+    {
+      "source": "general_catalog",
+      "subject": "EAP",
+      "phase": "fetch",
+      "message": "UCSD General Catalog query failed for EAP: 404 Not Found",
+      "attempts": 3
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PATH",
+      "phase": "fetch",
+      "message": "UCSD General Catalog query failed for PATH: 404 Not Found",
+      "attempts": 3
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PSY",
+      "phase": "fetch",
+      "message": "UCSD General Catalog query failed for PSY: 404 Not Found",
+      "attempts": 3
+    }
+  ],
+  "parser_errors": [],
+  "raw_artifacts": [
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.subject-list.json",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AIP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AAS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANAR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANTH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ASTR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BENG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CHEM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CCS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CLRE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/COGS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CAT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/DSC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECON.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/EDS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/FMPH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIGM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIIT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LTWL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MMW.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MAE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MCWP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MUS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEU.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEUG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHIL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHYS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PSYC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHB.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTF.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTA.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIOC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIO.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SOCI.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/USP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/WES.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AIP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AAS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANAR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANTH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AESE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ASTR.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BENG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CHEM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CCS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CLRE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/COGS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CAT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/DSC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECON.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EAP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EDS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/FMPH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIGM.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIIT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LISP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LTWL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MMW.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MAE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MCWP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MUS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEU.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEUG.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PATH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHIL.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHYS.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSY.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSYC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PH.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHB.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTF.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGT.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTA.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIOC.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIO.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SOCI.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SE.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/USP.html",
+    "data/raw/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/WES.html"
+  ],
+  "normalized_artifacts": [
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AIP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AAS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANAR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ANTH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/AESE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ASTR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BENG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/BISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CHEM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CCS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CLRE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/COGS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CSE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/CAT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/DSC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECON.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EAP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/EDS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/ECE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/FMPH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIGM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LIIT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/LTWL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MMW.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MATH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MAE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MCWP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MUS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEU.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/NEUG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PATH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHIL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHYS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSY.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PSYC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/PHB.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTF.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/MGTA.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIOC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SIO.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SOCI.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/SE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/USP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/schedule_of_classes/WES.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AIP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/AAS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANAR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ANTH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ASTR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BENG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/BISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CHEM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CCS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CLRE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/COGS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CSE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/CAT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/DSC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECON.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/EDS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/ECE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/FMPH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIGM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LIIT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/LTWL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MMW.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MATH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MAE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MCWP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MUS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEU.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/NEUG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHIL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHYS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PSYC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/PHB.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTF.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/MGTA.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIOC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SIO.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SOCI.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/SE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/USP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/general_catalog/WES.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AIP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AAS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANAR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ANTH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/AESE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ASTR.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BENG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/BISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CHEM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CCS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CLRE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/COGS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CSE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/CAT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/DSC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECON.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EAP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/EDS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/ECE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/FMPH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIGM.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LIIT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LISP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/LTWL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MMW.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MATH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MAE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MCWP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MUS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEU.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/NEUG.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PATH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHIL.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHYS.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSY.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PSYC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PH.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/PHB.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTF.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGT.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/MGTA.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIOC.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SIO.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SOCI.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/SE.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/USP.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/instructor_grade_archive/WES.json",
+    "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/catalog_snapshot.staging.json"
+  ],
+  "staging_snapshot_path": "data/normalized/multi-2026-08-07T03:18:54.573Z-0cecca8e-d2e9-4fee-8c17-361eb4448732-S325/catalog_snapshot.staging.json",
+  "published_snapshot_path": "api/static/catalogs/public/S325.json",
+  "metadata_path": null
+}

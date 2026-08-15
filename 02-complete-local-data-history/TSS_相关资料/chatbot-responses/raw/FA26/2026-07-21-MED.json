@@ -1,0 +1,1955 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "MED",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "262",
+      "course_title": null,
+      "tss_course_code": "MED-262",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00003787",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "2:00pm",
+                  "location_displayed": "BRF2 5A03",
+                  "instructor": "Jejo Koola",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "264",
+      "course_title": null,
+      "tss_course_code": "MED-264",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00004005",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": "BRF2 4103",
+                  "instructor": "Amy Sitapati",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:00pm",
+                  "end_time": "5:00pm",
+                  "location_displayed": "BRF2 4103",
+                  "instructor": "Amy Sitapati",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 37,
+                "seats_available": 37,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "271",
+      "course_title": null,
+      "tss_course_code": "MED-271",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004945",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "1:00pm",
+                  "end_time": "2:30pm",
+                  "location_displayed": "BRF2 5A03",
+                  "instructor": "Stephanie Cherqui",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            },
+            {
+              "type": "other additional meeting",
+              "section_code": "001-001-OT",
+              "event_id": "EL00003272",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Stephanie Cherqui",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 30,
+                "seats_available": 30,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "277",
+      "course_title": null,
+      "tss_course_code": "MED-277",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00003788",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "1:00pm",
+                  "end_time": "2:30pm",
+                  "location_displayed": "BRF2 4103",
+                  "instructor": "Michael Hogarth",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "1:00pm",
+                  "end_time": "2:30pm",
+                  "location_displayed": "BRF2 4103",
+                  "instructor": "Michael Hogarth",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 35,
+                "seats_available": 35,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "278",
+      "course_title": null,
+      "tss_course_code": "MED-278",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00004006",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:00pm",
+                  "location_displayed": "BRF2 5A03",
+                  "instructor": "Hannah Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "401",
+      "course_title": null,
+      "tss_course_code": "MED-401",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00001999",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Brian Kwan",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "410",
+      "course_title": null,
+      "tss_course_code": "MED-410",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002000",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ian Neel",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "426",
+      "course_title": null,
+      "tss_course_code": "MED-426",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002001",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Luis Castellanos",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "426T",
+      "course_title": null,
+      "tss_course_code": "MED-426T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002002",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Luis Castellanos",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "429",
+      "course_title": null,
+      "tss_course_code": "MED-429",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002003",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Patricia Hlavin",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "429T",
+      "course_title": null,
+      "tss_course_code": "MED-429T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002004",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Patricia Hlavin",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "430",
+      "course_title": null,
+      "tss_course_code": "MED-430",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002005",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "William Penny",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "430T",
+      "course_title": null,
+      "tss_course_code": "MED-430T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002006",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "William Penny",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "431",
+      "course_title": null,
+      "tss_course_code": "MED-431",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002007",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Elizabeth Hastie",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "431T",
+      "course_title": null,
+      "tss_course_code": "MED-431T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002008",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Elizabeth Hastie",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "432",
+      "course_title": null,
+      "tss_course_code": "MED-432",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002009",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ida Wong‑Sefidan",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "433",
+      "course_title": null,
+      "tss_course_code": "MED-433",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002010",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Preethika Ekanayake",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "433T",
+      "course_title": null,
+      "tss_course_code": "MED-433T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002011",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Preethika Ekanayake",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "434",
+      "course_title": null,
+      "tss_course_code": "MED-434",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002012",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joseph Diaz",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "434T",
+      "course_title": null,
+      "tss_course_code": "MED-434T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002013",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joseph Diaz",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "435",
+      "course_title": null,
+      "tss_course_code": "MED-435",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002014",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Naveen Gupta",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "435T",
+      "course_title": null,
+      "tss_course_code": "MED-435T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002015",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Naveen Gupta",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "438",
+      "course_title": null,
+      "tss_course_code": "MED-438",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002016",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Timothy Morris",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "438T",
+      "course_title": null,
+      "tss_course_code": "MED-438T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002017",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Timothy Morris",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "442",
+      "course_title": null,
+      "tss_course_code": "MED-442",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002018",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Jill Blumenthal",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "444",
+      "course_title": null,
+      "tss_course_code": "MED-444",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002019",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "William Penny",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "452",
+      "course_title": null,
+      "tss_course_code": "MED-452",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002020",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Veronica Gonzalez",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "453",
+      "course_title": null,
+      "tss_course_code": "MED-453",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002021",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Janice Park",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "453T",
+      "course_title": null,
+      "tss_course_code": "MED-453T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002022",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Janice Park",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "454",
+      "course_title": null,
+      "tss_course_code": "MED-454",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002023",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ah‑Reum Jeong",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 8,
+                "seats_available": 8,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "455",
+      "course_title": null,
+      "tss_course_code": "MED-455",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002024",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Fady Youssef",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "455T",
+      "course_title": null,
+      "tss_course_code": "MED-455T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002025",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Fady Youssef",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "457",
+      "course_title": null,
+      "tss_course_code": "MED-457",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002026",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Gregory Middleton",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "457T",
+      "course_title": null,
+      "tss_course_code": "MED-457T",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002027",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Gregory Middleton",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "463",
+      "course_title": null,
+      "tss_course_code": "MED-463",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002028",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Amy Bellinghausen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "467",
+      "course_title": null,
+      "tss_course_code": "MED-467",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002029",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joseph Abdelmalek",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "468",
+      "course_title": null,
+      "tss_course_code": "MED-468",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "clinical clerkship",
+              "section_code": "001-000-CL",
+              "event_id": "EL00002030",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joseph Abdelmalek",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}

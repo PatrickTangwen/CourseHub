@@ -1,0 +1,64 @@
+{
+  "run_id": "relationship-edge-zero-meeting",
+  "generated_at": "2026-07-11T00:00:00.000Z",
+  "active_planning_term": "RELATIONSHIP-EDGE",
+  "term_label": "Relationship Edge Fixture",
+  "term_date_range": null,
+  "configured_subjects": ["TEST"],
+  "source_timestamps": {
+    "schedule_of_classes": null,
+    "general_catalog": null,
+    "instructor_grade_archive": null
+  },
+  "courses": [
+    {
+      "course_id": "TEST:0",
+      "subject": "TEST",
+      "course_number": "0",
+      "title": "Zero Meeting Boundary",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": 3.5,
+      "archive_record_count": 1,
+      "grade_archive_records": [
+        {
+          "subject": "SOURCE",
+          "course": "0",
+          "year": "26",
+          "quarter": "FA",
+          "title": "Cross-listed provenance boundary",
+          "instructor": "Boundary Instructor",
+          "gpa": 3.5,
+          "a": 50,
+          "b": 50,
+          "c": 0,
+          "d": 0,
+          "f": 0,
+          "w": 0,
+          "p": 0,
+          "np": 0,
+          "raw": { "fixture": "cross-listed provenance" },
+          "matched_via": "cross_listed"
+        }
+      ],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "RELATIONSHIP-EDGE:0",
+          "course_id": "TEST:0",
+          "section_code": "000",
+          "meeting_type": null,
+          "instructors": [],
+          "meetings": [],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {}
+        }
+      ]
+    }
+  ]
+}

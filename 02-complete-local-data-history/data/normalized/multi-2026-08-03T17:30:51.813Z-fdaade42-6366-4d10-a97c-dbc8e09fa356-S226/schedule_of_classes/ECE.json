@@ -1,0 +1,309 @@
+{
+  "subject": "ECE",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "08/03/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "ECE:5",
+      "subject": "ECE",
+      "course_number": "5",
+      "title": "Intro to ECE",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece5",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:273419",
+          "course_id": "ECE:5",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Morris, Karcher William"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "10:20",
+              "building": "EBU1",
+              "room": "2315",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "8:30a-10:20a",
+              "raw_location": "EBU1 2315"
+            },
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Thursday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "10:20",
+              "building": "SME",
+              "room": "304",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MTuThF",
+              "raw_time": "8:30a-10:20a",
+              "raw_location": "SME 304"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 25,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S226",
+            "raw_subject": "ECE",
+            "raw_course_number": "5",
+            "raw_section_identifier": "273419",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "S226:273420",
+          "course_id": "ECE:5",
+          "section_code": "A02",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Morris, Karcher William"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "10:20",
+              "building": "EBU1",
+              "room": "2315",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "8:30a-10:20a",
+              "raw_location": "EBU1 2315"
+            },
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Thursday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "10:20",
+              "building": "SME",
+              "room": "306",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MTuThF",
+              "raw_time": "8:30a-10:20a",
+              "raw_location": "SME 306"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S226",
+            "raw_subject": "ECE",
+            "raw_course_number": "5",
+            "raw_section_identifier": "273420",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ECE:148",
+      "subject": "ECE",
+      "course_number": "148",
+      "title": "Intro to Autonomous Vehicles",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece148",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:266745",
+          "course_id": "ECE:148",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Silberman, Jack"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:30",
+              "end_time": "18:20",
+              "building": "DIB",
+              "room": "253",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:30p-6:20p",
+              "raw_location": "DIB 253"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "18:30",
+              "end_time": "21:20",
+              "building": "DIB",
+              "room": "253",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-9:20p",
+              "raw_location": "DIB 253"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 14,
+          "waitlist_count": 7,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S226",
+            "raw_subject": "ECE",
+            "raw_course_number": "148",
+            "raw_section_identifier": "266745",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ECE:299",
+      "subject": "ECE",
+      "course_number": "299",
+      "title": "Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ECE.html#ece299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:281438",
+          "course_id": "ECE:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Turakhia, Yatish Girish"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S226",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "281438",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S226:281489",
+          "course_id": "ECE:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Atanasov, Nikolay A."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S226",
+            "raw_subject": "ECE",
+            "raw_course_number": "299",
+            "raw_section_identifier": "281489",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "subject": "VIS",
+  "term": "S126",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "VIS:42",
+      "subject": "VIS",
+      "course_number": "42",
+      "title": "Intro to Creative Coding",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://registrar.ucsd.edu/studentlink/cnd.html",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S126:273034",
+          "course_id": "VIS:42",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Twomey, Robert Daniel"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "09:30",
+              "end_time": "12:20",
+              "building": "RCLAS",
+              "room": "R118",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-12:20p",
+              "raw_location": "RCLAS R118"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R04"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 75,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S126",
+            "raw_subject": "VIS",
+            "raw_course_number": "42",
+            "raw_section_identifier": "273034",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "VIS:103A",
+      "subject": "VIS",
+      "course_number": "103A",
+      "title": "Contemporary Arts in S. Korea",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/VIS.html#vis103a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S126:273039",
+          "course_id": "VIS:103A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lim, Jae Hwan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "PODEM",
+              "room": "1A23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "PODEM 1A23"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A23",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A23"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S126",
+            "raw_subject": "VIS",
+            "raw_course_number": "103A",
+            "raw_section_identifier": "273039",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "VIS:125GR",
+      "subject": "VIS",
+      "course_number": "125GR",
+      "title": "Hist. of Socially Engaged Art",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://registrar.ucsd.edu/studentlink/cnd.html",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S126:273036",
+          "course_id": "VIS:125GR",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Kester, Grant"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "RCLAS",
+              "room": "R115",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuWThF",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "RCLAS R115"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R92",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R92"
+            }
+          ],
+          "enrolled": 62,
+          "capacity": 75,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S126",
+            "raw_subject": "VIS",
+            "raw_course_number": "125GR",
+            "raw_section_identifier": "273036",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "VIS:149",
+      "subject": "VIS",
+      "course_number": "149",
+      "title": "Contemporary Computer Topics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/VIS.html#vis149",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S126:273038",
+          "course_id": "VIS:149",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Yoldas, Pinar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "SME",
+              "room": "149",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "MW",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "SME 149"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SME",
+              "room": "149",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SME 149"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S126",
+            "raw_subject": "VIS",
+            "raw_course_number": "149",
+            "raw_section_identifier": "273038",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "VIS:194S",
+      "subject": "VIS",
+      "course_number": "194S",
+      "title": "Fantasy In Film",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/VIS.html#vis194s",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S126:273033",
+          "course_id": "VIS:194S",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Roos, erika"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "SME",
+              "room": "149",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "SME 149"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SME",
+              "room": "149",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SME 149"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S126",
+            "raw_subject": "VIS",
+            "raw_course_number": "194S",
+            "raw_section_identifier": "273033",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

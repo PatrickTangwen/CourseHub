@@ -1,0 +1,6061 @@
+{
+  "subject": "BIPN",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "BIPN:100",
+      "subject": "BIPN",
+      "course_number": "100",
+      "title": "Human Physiology I",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:787002",
+          "course_id": "BIPN:100",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Maita, Isabella Vincenza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 63,
+          "capacity": 63,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787002",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787005",
+          "course_id": "BIPN:100",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Maita, Isabella Vincenza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "17:00",
+              "end_time": "17:50",
+              "building": "CNCB",
+              "room": "SEM",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "5:00p-5:50p",
+              "raw_location": "CNCB SEM"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 58,
+          "capacity": 64,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787005",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787008",
+          "course_id": "BIPN:100",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Maita, Isabella Vincenza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "8:00a-8:50a",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 59,
+          "capacity": 61,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787008",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787009",
+          "course_id": "BIPN:100",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Maita, Isabella Vincenza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "WLH",
+              "room": "2204",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "WLH 2204"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "19:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "6:00p-7:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 59,
+          "capacity": 62,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787009",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:786881",
+          "course_id": "BIPN:100",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 62,
+          "capacity": 62,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "786881",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:786882",
+          "course_id": "BIPN:100",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "17:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "5:00p-5:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 60,
+          "capacity": 62,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "786882",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:786883",
+          "course_id": "BIPN:100",
+          "section_code": "B03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "8:00a-8:50a",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 62,
+          "capacity": 63,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "786883",
+            "raw_section_code": "B03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:786884",
+          "course_id": "BIPN:100",
+          "section_code": "B04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "WLH",
+              "room": "2204",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "WLH 2204"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "20:00",
+              "end_time": "21:50",
+              "building": "CENTR",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "8:00p-9:50p",
+              "raw_location": "CENTR 101"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MOS",
+              "room": "0114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MOS 0114"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 63,
+          "capacity": 63,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "786884",
+            "raw_section_code": "B04",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787011",
+          "course_id": "BIPN:100",
+          "section_code": "C01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Marino, Marc J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "WLH",
+              "room": "2204",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "WLH 2204"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 54,
+          "capacity": 69,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787011",
+            "raw_section_code": "C01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787013",
+          "course_id": "BIPN:100",
+          "section_code": "C02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Marino, Marc J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2204",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2204"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 69,
+          "capacity": 69,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787013",
+            "raw_section_code": "C02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787014",
+          "course_id": "BIPN:100",
+          "section_code": "C03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Marino, Marc J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "RWAC",
+              "room": "0121",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "8:00a-8:50a",
+              "raw_location": "RWAC 0121"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 50,
+          "capacity": 68,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787014",
+            "raw_section_code": "C03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:787015",
+          "course_id": "BIPN:100",
+          "section_code": "C04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Marino, Marc J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "WLH",
+              "room": "2204",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "WLH 2204"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "PETER",
+              "room": "108",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "M",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "PETER 108"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "2722",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 2722"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 58,
+          "capacity": 69,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "787015",
+            "raw_section_code": "C04",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:794575",
+          "course_id": "BIPN:100",
+          "section_code": "D01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Yang, Mingyu"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "WLH",
+              "room": "2208",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "WLH 2208"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 33,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "794575",
+            "raw_section_code": "D01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:794600",
+          "course_id": "BIPN:100",
+          "section_code": "D02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Yang, Mingyu"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2208",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2208"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "794600",
+            "raw_section_code": "D02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:794576",
+          "course_id": "BIPN:100",
+          "section_code": "D03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Yang, Mingyu"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "WLH",
+              "room": "2208",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "WLH 2208"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "794576",
+            "raw_section_code": "D03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:794601",
+          "course_id": "BIPN:100",
+          "section_code": "D04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Yang, Mingyu"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2208",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2208"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "WLH",
+              "room": "2205",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Tu",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "WLH 2205"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "WLH",
+              "room": "2005",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "Th",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "WLH 2005"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "794601",
+            "raw_section_code": "D04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:102",
+      "subject": "BIPN",
+      "course_number": "102",
+      "title": "Human Physiology II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn102",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759131",
+          "course_id": "BIPN:102",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "PETER 110"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "PETER 110"
+            }
+          ],
+          "enrolled": 75,
+          "capacity": 75,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "102",
+            "raw_section_identifier": "759131",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759133",
+          "course_id": "BIPN:102",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "PETER 110"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "PETER 110"
+            }
+          ],
+          "enrolled": 71,
+          "capacity": 71,
+          "waitlist_count": 2,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "102",
+            "raw_section_identifier": "759133",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759134",
+          "course_id": "BIPN:102",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "PETER 110"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "PETER 110"
+            }
+          ],
+          "enrolled": 71,
+          "capacity": 71,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "102",
+            "raw_section_identifier": "759134",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759135",
+          "course_id": "BIPN:102",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Reyes Gonzalez, Catalina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "PETER 110"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "CTL",
+              "room": "0125",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "W",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "CTL 0125"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "PETER",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "PETER 110"
+            }
+          ],
+          "enrolled": 73,
+          "capacity": 73,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "102",
+            "raw_section_identifier": "759135",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:105",
+      "subject": "BIPN",
+      "course_number": "105",
+      "title": "Human Physiology Lab",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn105",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759139",
+          "course_id": "BIPN:105",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Armour, Jon Christopher"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R39",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R39"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "13:00",
+              "end_time": "17:50",
+              "building": "YORK",
+              "room": "2410",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "1:00p-5:50p",
+              "raw_location": "YORK 2410"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "105",
+            "raw_section_identifier": "759139",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:759140",
+          "course_id": "BIPN:105",
+          "section_code": "A02",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Armour, Jon Christopher"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R39",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R39"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "13:00",
+              "end_time": "17:50",
+              "building": "YORK",
+              "room": "2432",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "1:00p-5:50p",
+              "raw_location": "YORK 2432"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "105",
+            "raw_section_identifier": "759140",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:759144",
+          "course_id": "BIPN:105",
+          "section_code": "B01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Armour, Jon Christopher"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "12:30",
+              "end_time": "17:20",
+              "building": "YORK",
+              "room": "2410",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-5:20p",
+              "raw_location": "YORK 2410"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "105",
+            "raw_section_identifier": "759144",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:759147",
+          "course_id": "BIPN:105",
+          "section_code": "B02",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Armour, Jon Christopher"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "12:30",
+              "end_time": "17:20",
+              "building": "YORK",
+              "room": "2432",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-5:20p",
+              "raw_location": "YORK 2432"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "105",
+            "raw_section_identifier": "759147",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:140",
+      "subject": "BIPN",
+      "course_number": "140",
+      "title": "Cellular Neurobiology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn140",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759149",
+          "course_id": "BIPN:140",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lovett-Barron, Matthew Rod"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "CENTR 119"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 119"
+            }
+          ],
+          "enrolled": 45,
+          "capacity": 49,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "140",
+            "raw_section_identifier": "759149",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759150",
+          "course_id": "BIPN:140",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lovett-Barron, Matthew Rod"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "CENTR 119"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "RCLAS",
+              "room": "R38",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "RCLAS R38"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 119"
+            }
+          ],
+          "enrolled": 49,
+          "capacity": 49,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "140",
+            "raw_section_identifier": "759150",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759152",
+          "course_id": "BIPN:140",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lovett-Barron, Matthew Rod"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "CENTR 119"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R39",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R39"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 119"
+            }
+          ],
+          "enrolled": 45,
+          "capacity": 49,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "140",
+            "raw_section_identifier": "759152",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759154",
+          "course_id": "BIPN:140",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lovett-Barron, Matthew Rod"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "CENTR 119"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R39",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RCLAS R39"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "119",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 119"
+            }
+          ],
+          "enrolled": 47,
+          "capacity": 49,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "140",
+            "raw_section_identifier": "759154",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:145",
+      "subject": "BIPN",
+      "course_number": "145",
+      "title": "Neurobiology Laboratory",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn145",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759171",
+          "course_id": "BIPN:145",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Juavinett, Ashley Lauren"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "HSS",
+              "room": "1128A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "HSS 1128A"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "12:30",
+              "end_time": "15:50",
+              "building": "YORK",
+              "room": "1310",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "WF",
+              "raw_time": "12:30p-3:50p",
+              "raw_location": "YORK 1310"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "145",
+            "raw_section_identifier": "759171",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:759173",
+          "course_id": "BIPN:145",
+          "section_code": "B01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Maita, Isabella Vincenza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "PODEM",
+              "room": "0133",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "PODEM 0133"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "09:30",
+              "end_time": "12:50",
+              "building": "YORK",
+              "room": "1310",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-12:50p",
+              "raw_location": "YORK 1310"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "145",
+            "raw_section_identifier": "759173",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:759176",
+          "course_id": "BIPN:145",
+          "section_code": "C01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Marino, Marc J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "0132",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 0132"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "17:20",
+              "building": "YORK",
+              "room": "1310",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-5:20p",
+              "raw_location": "YORK 1310"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "145",
+            "raw_section_identifier": "759176",
+            "raw_section_code": "C01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:154",
+      "subject": "BIPN",
+      "course_number": "154",
+      "title": "Neuro Stress & Mental Disorder",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn154",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759178",
+          "course_id": "BIPN:154",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lim, Byungkook"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "7:00p-7:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "154",
+            "raw_section_identifier": "759178",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759179",
+          "course_id": "BIPN:154",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lim, Byungkook"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "19:00",
+              "end_time": "19:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "7:00p-7:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "154",
+            "raw_section_identifier": "759179",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759180",
+          "course_id": "BIPN:154",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lim, Byungkook"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "154",
+            "raw_section_identifier": "759180",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759181",
+          "course_id": "BIPN:154",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lim, Byungkook"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 24,
+          "capacity": 31,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "154",
+            "raw_section_identifier": "759181",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:160",
+      "subject": "BIPN",
+      "course_number": "160",
+      "title": "Neuroanatomy",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn160",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759183",
+          "course_id": "BIPN:160",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Root, Cory Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 73,
+          "capacity": 73,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "160",
+            "raw_section_identifier": "759183",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759186",
+          "course_id": "BIPN:160",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Root, Cory Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 71,
+          "capacity": 73,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "160",
+            "raw_section_identifier": "759186",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759187",
+          "course_id": "BIPN:160",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Root, Cory Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "8:00a-8:50a",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 67,
+          "capacity": 73,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "160",
+            "raw_section_identifier": "759187",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759188",
+          "course_id": "BIPN:160",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Root, Cory Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "SOLIS 107"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "18:00",
+              "end_time": "18:50",
+              "building": "RCLAS",
+              "room": "R40",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "6:00p-6:50p",
+              "raw_location": "RCLAS R40"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "107",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 107"
+            }
+          ],
+          "enrolled": 68,
+          "capacity": 72,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "160",
+            "raw_section_identifier": "759188",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:162",
+      "subject": "BIPN",
+      "course_number": "162",
+      "title": "Neural Data Science",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn162",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759190",
+          "course_id": "BIPN:162",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Benna, Marcus K"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "TATA 3201"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R41",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "RCLAS R41"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TATA 3201"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 7,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "162",
+            "raw_section_identifier": "759190",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759191",
+          "course_id": "BIPN:162",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Benna, Marcus K"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "TATA 3201"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R41",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R41"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TATA 3201"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 7,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "162",
+            "raw_section_identifier": "759191",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759192",
+          "course_id": "BIPN:162",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Benna, Marcus K"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "TATA 3201"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R41",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RCLAS R41"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TATA 3201"
+            }
+          ],
+          "enrolled": 7,
+          "capacity": 7,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "162",
+            "raw_section_identifier": "759192",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:759194",
+          "course_id": "BIPN:162",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Benna, Marcus K"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "TATA 3201"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R41",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RCLAS R41"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "TATA",
+              "room": "3201",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TATA 3201"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 9,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "162",
+            "raw_section_identifier": "759194",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIPN:194",
+      "subject": "BIPN",
+      "course_number": "194",
+      "title": "Adv Topics-Phys/Neuro",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bipn194",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:759195",
+          "course_id": "BIPN:194",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Ackerman, Susan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "YORK",
+              "room": "3010",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Tu",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "YORK 3010"
+            }
+          ],
+          "enrolled": 21,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "194",
+            "raw_section_identifier": "759195",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "WI25:759196",
+          "course_id": "BIPN:194",
+          "section_code": "B00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Leutgeb, Jill K."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "YORK",
+              "room": "3010",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Th",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "YORK 3010"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "194",
+            "raw_section_identifier": "759196",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "WI25:759197",
+          "course_id": "BIPN:194",
+          "section_code": "C00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Banghart, Matthew Ryan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "10:30",
+              "end_time": "11:50",
+              "building": "YORK",
+              "room": "3010",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "10:30a-11:50a",
+              "raw_location": "YORK 3010"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "194",
+            "raw_section_identifier": "759197",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "SE"
+          }
+        },
+        {
+          "section_id": "WI25:759201",
+          "course_id": "BIPN:194",
+          "section_code": "E00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Meharena, Hiruy Sibhatu"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "09:00",
+              "end_time": "10:20",
+              "building": "YORK",
+              "room": "3010",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "9:00a-10:20a",
+              "raw_location": "YORK 3010"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "BIPN",
+            "raw_course_number": "194",
+            "raw_section_identifier": "759201",
+            "raw_section_code": "E00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

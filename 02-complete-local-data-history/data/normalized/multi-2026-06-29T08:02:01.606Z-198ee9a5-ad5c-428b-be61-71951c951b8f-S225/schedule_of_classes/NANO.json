@@ -1,0 +1,296 @@
+{
+  "subject": "NANO",
+  "term": "S225",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "NANO:11",
+      "subject": "NANO",
+      "course_number": "11",
+      "title": "Intro to NanoEngineering",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NANO.html#nano11",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:886220",
+          "course_id": "NANO:11",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S225",
+            "raw_subject": "NANO",
+            "raw_course_number": "11",
+            "raw_section_identifier": "886220",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NANO:15",
+      "subject": "NANO",
+      "course_number": "15",
+      "title": "Engin. Comp Using MATLAB",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NANO.html#nano15",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:886222",
+          "course_id": "NANO:15",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Drews, Aaron"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "WLH",
+              "room": "2114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "WLH 2114"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "WLH",
+              "room": "2114",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "WLH 2114"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "WLH",
+              "room": "2114",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "WLH 2114"
+            }
+          ],
+          "enrolled": 11,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S225",
+            "raw_subject": "NANO",
+            "raw_course_number": "15",
+            "raw_section_identifier": "886222",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NANO:104",
+      "subject": "NANO",
+      "course_number": "104",
+      "title": "Foundatn NanoEng/Physical Prin",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NANO.html#nano104",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:886224",
+          "course_id": "NANO:104",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S225",
+            "raw_subject": "NANO",
+            "raw_course_number": "104",
+            "raw_section_identifier": "886224",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NANO:199",
+      "subject": "NANO",
+      "course_number": "199",
+      "title": "Independent Study/Undergrad",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NANO.html#nano199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:988769",
+          "course_id": "NANO:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Vecchio, Kenneth S"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S225",
+            "raw_subject": "NANO",
+            "raw_course_number": "199",
+            "raw_section_identifier": "988769",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "S225:988794",
+          "course_id": "NANO:199",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Vazquez Mena, Oscar"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S225",
+            "raw_subject": "NANO",
+            "raw_course_number": "199",
+            "raw_section_identifier": "988794",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

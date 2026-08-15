@@ -1,0 +1,3610 @@
+{
+  "subject": "MATS",
+  "term": "FA24",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "04/01/2025, 04:17:00",
+  "courses": [
+    {
+      "course_id": "MATS:200",
+      "subject": "MATS",
+      "course_number": "200",
+      "title": "Graduate Seminar",
+      "units": "0",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats200",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537723",
+          "course_id": "MATS:200",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Graeve, Olivia A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "200",
+            "raw_section_identifier": "537723",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATS:227",
+      "subject": "MATS",
+      "course_number": "227",
+      "title": "Structure & Analysis of Solids",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats227",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537724",
+          "course_id": "MATS:227",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Martinez Pallares, Fabian Martin"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-9:20a",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-9:20a",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-9:20a",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "FAH 1101"
+            }
+          ],
+          "enrolled": 52,
+          "capacity": 54,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "227",
+            "raw_section_identifier": "537724",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATS:251A",
+      "subject": "MATS",
+      "course_number": "251A",
+      "title": "Elect&Photon Props. Materials",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats251a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537739",
+          "course_id": "MATS:251A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bandaru, Prabhakar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "WLH",
+              "room": "2111",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "F",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "WLH 2111"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PODEM 1A19"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PODEM",
+              "room": "1A19",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PODEM 1A19"
+            }
+          ],
+          "enrolled": 44,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "251A",
+            "raw_section_identifier": "537739",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATS:257",
+      "subject": "MATS",
+      "course_number": "257",
+      "title": "PolymerScience&Engineering",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats257",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537743",
+          "course_id": "MATS:257",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "257",
+            "raw_section_identifier": "537743",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA24:781887",
+          "course_id": "MATS:257",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cai, Shengqiang"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 42,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "257",
+            "raw_section_identifier": "781887",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATS:295",
+      "subject": "MATS",
+      "course_number": "295",
+      "title": "Research Conference",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats295",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537744",
+          "course_id": "MATS:295",
+          "section_code": "A00",
+          "meeting_type": "Conference",
+          "instructors": [
+            "Graeve, Olivia A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Conference",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "295",
+            "raw_section_identifier": "537744",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CO"
+          }
+        },
+        {
+          "section_id": "FA24:537746",
+          "course_id": "MATS:295",
+          "section_code": "B00",
+          "meeting_type": "Conference",
+          "instructors": [
+            "Kummel, Andrew C"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Conference",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "295",
+            "raw_section_identifier": "537746",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "CO"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATS:299",
+      "subject": "MATS",
+      "course_number": "299",
+      "title": "Graduate Research",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATS.html#mats299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:537748",
+          "course_id": "MATS:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Graeve, Olivia A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537748",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537749",
+          "course_id": "MATS:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Allen, Monica T"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537749",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537750",
+          "course_id": "MATS:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Averitt, Richard Douglas"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537750",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537751",
+          "course_id": "MATS:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Bae, Jinhye"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537751",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537753",
+          "course_id": "MATS:299",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Boechler, Nicholas Sebastia"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537753",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537754",
+          "course_id": "MATS:299",
+          "section_code": "007",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Burkart, Michael D"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537754",
+            "raw_section_code": "007",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537755",
+          "course_id": "MATS:299",
+          "section_code": "008",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cai, Shengqiang"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537755",
+            "raw_section_code": "008",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537756",
+          "course_id": "MATS:299",
+          "section_code": "009",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Chen, Zheng"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537756",
+            "raw_section_code": "009",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537757",
+          "course_id": "MATS:299",
+          "section_code": "010",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Chen, Renkun"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537757",
+            "raw_section_code": "010",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537758",
+          "course_id": "MATS:299",
+          "section_code": "011",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Chen, Shaochen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537758",
+            "raw_section_code": "011",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537759",
+          "course_id": "MATS:299",
+          "section_code": "012",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Christman, Karen"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537759",
+            "raw_section_code": "012",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537760",
+          "course_id": "MATS:299",
+          "section_code": "013",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cohen, Seth M"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537760",
+            "raw_section_code": "013",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537761",
+          "course_id": "MATS:299",
+          "section_code": "014",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Dayeh, Shadi Ahmad"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537761",
+            "raw_section_code": "014",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537762",
+          "course_id": "MATS:299",
+          "section_code": "015",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Dynes, Robert C."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537762",
+            "raw_section_code": "015",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537766",
+          "course_id": "MATS:299",
+          "section_code": "016",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Engler, Adam J."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537766",
+            "raw_section_code": "016",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537767",
+          "course_id": "MATS:299",
+          "section_code": "017",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Fainman, Yeshaiahu"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537767",
+            "raw_section_code": "017",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537768",
+          "course_id": "MATS:299",
+          "section_code": "018",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Fenning, David"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537768",
+            "raw_section_code": "018",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537831",
+          "course_id": "MATS:299",
+          "section_code": "019",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Figueroa, Joshua"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537831",
+            "raw_section_code": "019",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537832",
+          "course_id": "MATS:299",
+          "section_code": "021",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Frano Pereira, Alex M"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537832",
+            "raw_section_code": "021",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537893",
+          "course_id": "MATS:299",
+          "section_code": "022",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Friend, James Robert"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537893",
+            "raw_section_code": "022",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:537894",
+          "course_id": "MATS:299",
+          "section_code": "023",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Fullerton, Eric E"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "537894",
+            "raw_section_code": "023",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538007",
+          "course_id": "MATS:299",
+          "section_code": "024",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Garay, Javier"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538007",
+            "raw_section_code": "024",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538008",
+          "course_id": "MATS:299",
+          "section_code": "025",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Godula, Kamil"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538008",
+            "raw_section_code": "025",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538013",
+          "course_id": "MATS:299",
+          "section_code": "026",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Hermann, Thomas"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538013",
+            "raw_section_code": "026",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538023",
+          "course_id": "MATS:299",
+          "section_code": "027",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Huang, Xiaohua"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538023",
+            "raw_section_code": "027",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538024",
+          "course_id": "MATS:299",
+          "section_code": "028",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Jokerst, Jesse Vincent"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538024",
+            "raw_section_code": "028",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538025",
+          "course_id": "MATS:299",
+          "section_code": "029",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kim, Hyonny"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538025",
+            "raw_section_code": "029",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538026",
+          "course_id": "MATS:299",
+          "section_code": "030",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kim, Hyunsun Alicia"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538026",
+            "raw_section_code": "030",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538027",
+          "course_id": "MATS:299",
+          "section_code": "031",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kubiak, Clifford Paul"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538027",
+            "raw_section_code": "031",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538028",
+          "course_id": "MATS:299",
+          "section_code": "032",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kummel, Andrew C"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538028",
+            "raw_section_code": "032",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538029",
+          "course_id": "MATS:299",
+          "section_code": "033",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Kwon, Ester Jihae"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538029",
+            "raw_section_code": "033",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538033",
+          "course_id": "MATS:299",
+          "section_code": "034",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lal, Ratnesh"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538033",
+            "raw_section_code": "034",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538034",
+          "course_id": "MATS:299",
+          "section_code": "035",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Li, Shaowei"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538034",
+            "raw_section_code": "035",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538035",
+          "course_id": "MATS:299",
+          "section_code": "036",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lipomi, Darren John"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538035",
+            "raw_section_code": "036",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538039",
+          "course_id": "MATS:299",
+          "section_code": "037",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Liu, Zhaowei"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538039",
+            "raw_section_code": "037",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538040",
+          "course_id": "MATS:299",
+          "section_code": "038",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Liu, Ping"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538040",
+            "raw_section_code": "038",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538041",
+          "course_id": "MATS:299",
+          "section_code": "039",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lo, Yu-Hwa"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538041",
+            "raw_section_code": "039",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538045",
+          "course_id": "MATS:299",
+          "section_code": "040",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Loh, Kenneth J. H."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538045",
+            "raw_section_code": "040",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538046",
+          "course_id": "MATS:299",
+          "section_code": "041",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lomakin, Vitaliy"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538046",
+            "raw_section_code": "041",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538047",
+          "course_id": "MATS:299",
+          "section_code": "042",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lubarda, Vlado"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538047",
+            "raw_section_code": "042",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538048",
+          "course_id": "MATS:299",
+          "section_code": "043",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Luo, Jian"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538048",
+            "raw_section_code": "043",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538049",
+          "course_id": "MATS:299",
+          "section_code": "044",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Maple, M. Brian"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538049",
+            "raw_section_code": "044",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538050",
+          "course_id": "MATS:299",
+          "section_code": "045",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Meyers, Marc"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538050",
+            "raw_section_code": "045",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538053",
+          "course_id": "MATS:299",
+          "section_code": "046",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ng, Tse Nga"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538053",
+            "raw_section_code": "046",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538054",
+          "course_id": "MATS:299",
+          "section_code": "047",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ong, Shyue Ping"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538054",
+            "raw_section_code": "047",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538061",
+          "course_id": "MATS:299",
+          "section_code": "048",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Pascal, Tod A"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538061",
+            "raw_section_code": "048",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538062",
+          "course_id": "MATS:299",
+          "section_code": "049",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Poulikakos, Lisa Voula"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538062",
+            "raw_section_code": "049",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538087",
+          "course_id": "MATS:299",
+          "section_code": "050",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Qiao, Yu"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538087",
+            "raw_section_code": "050",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538088",
+          "course_id": "MATS:299",
+          "section_code": "051",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Rinehart, Jeffrey Dennis"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538088",
+            "raw_section_code": "051",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538089",
+          "course_id": "MATS:299",
+          "section_code": "052",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Sailor, Michael Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538089",
+            "raw_section_code": "052",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538191",
+          "course_id": "MATS:299",
+          "section_code": "053",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Schimpf, Alina M"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538191",
+            "raw_section_code": "053",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538192",
+          "course_id": "MATS:299",
+          "section_code": "054",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Schuller, Ivan K"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538192",
+            "raw_section_code": "054",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538193",
+          "course_id": "MATS:299",
+          "section_code": "055",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Jandaghi Semnani, Shabnam"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538193",
+            "raw_section_code": "055",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538194",
+          "course_id": "MATS:299",
+          "section_code": "056",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shah, Nisarg"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538194",
+            "raw_section_code": "056",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538196",
+          "course_id": "MATS:299",
+          "section_code": "057",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shi, Lingyan"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538196",
+            "raw_section_code": "057",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538198",
+          "course_id": "MATS:299",
+          "section_code": "058",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Shpyrko, Oleg"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538198",
+            "raw_section_code": "058",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538200",
+          "course_id": "MATS:299",
+          "section_code": "059",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Sievenpiper, Daniel F."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538200",
+            "raw_section_code": "059",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538330",
+          "course_id": "MATS:299",
+          "section_code": "060",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Sirbuly, Donald"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538330",
+            "raw_section_code": "060",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538334",
+          "course_id": "MATS:299",
+          "section_code": "061",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Talke, Frank E"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538334",
+            "raw_section_code": "061",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538335",
+          "course_id": "MATS:299",
+          "section_code": "062",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tao, Andrea Rae"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538335",
+            "raw_section_code": "062",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538336",
+          "course_id": "MATS:299",
+          "section_code": "063",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tauber, Michael"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538336",
+            "raw_section_code": "063",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538341",
+          "course_id": "MATS:299",
+          "section_code": "064",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tehrani, Mehran"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538341",
+            "raw_section_code": "064",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538342",
+          "course_id": "MATS:299",
+          "section_code": "065",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tezcan, Faik"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538342",
+            "raw_section_code": "065",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538354",
+          "course_id": "MATS:299",
+          "section_code": "066",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Tolley, Michael Thomas"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538354",
+            "raw_section_code": "066",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538361",
+          "course_id": "MATS:299",
+          "section_code": "067",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Vazquez Mena, Oscar"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538361",
+            "raw_section_code": "067",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538362",
+          "course_id": "MATS:299",
+          "section_code": "068",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Vecchio, Kenneth S"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538362",
+            "raw_section_code": "068",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538363",
+          "course_id": "MATS:299",
+          "section_code": "069",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Wang, Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538363",
+            "raw_section_code": "069",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538364",
+          "course_id": "MATS:299",
+          "section_code": "070",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Xiong, Wei"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538364",
+            "raw_section_code": "070",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538365",
+          "course_id": "MATS:299",
+          "section_code": "071",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Xu, Sheng"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538365",
+            "raw_section_code": "071",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538368",
+          "course_id": "MATS:299",
+          "section_code": "072",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Yang, Jerry"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538368",
+            "raw_section_code": "072",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538373",
+          "course_id": "MATS:299",
+          "section_code": "073",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Yang, Kesong"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538373",
+            "raw_section_code": "073",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538374",
+          "course_id": "MATS:299",
+          "section_code": "074",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Yeo, Eugene Wei-Ming"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538374",
+            "raw_section_code": "074",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538375",
+          "course_id": "MATS:299",
+          "section_code": "075",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Yu, Paul K L"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538375",
+            "raw_section_code": "075",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538376",
+          "course_id": "MATS:299",
+          "section_code": "076",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Zhang, Liangfang"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538376",
+            "raw_section_code": "076",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538378",
+          "course_id": "MATS:299",
+          "section_code": "077",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Meng, Y.Shirley"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538378",
+            "raw_section_code": "077",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:538381",
+          "course_id": "MATS:299",
+          "section_code": "078",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Grassian, Vicki Helene"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "538381",
+            "raw_section_code": "078",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:777610",
+          "course_id": "MATS:299",
+          "section_code": "079",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Bandaru, Prabhakar"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "777610",
+            "raw_section_code": "079",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA24:786898",
+          "course_id": "MATS:299",
+          "section_code": "080",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Li, Wan-Lu"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "FA24",
+            "raw_subject": "MATS",
+            "raw_course_number": "299",
+            "raw_section_identifier": "786898",
+            "raw_section_code": "080",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

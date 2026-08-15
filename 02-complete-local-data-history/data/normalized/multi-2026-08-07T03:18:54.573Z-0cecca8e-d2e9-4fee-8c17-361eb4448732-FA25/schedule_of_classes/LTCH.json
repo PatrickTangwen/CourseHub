@@ -1,0 +1,82 @@
+{
+  "subject": "LTCH",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "LTCH:101",
+      "subject": "LTCH",
+      "course_number": "101",
+      "title": "Readings/Contemp Chinese Lit",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltch101",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:964372",
+          "course_id": "LTCH:101",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Liao, Ping H"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "1A22",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 1A22"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-12-10",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A22",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A22"
+            }
+          ],
+          "enrolled": 40,
+          "capacity": 40,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTCH",
+            "raw_course_number": "101",
+            "raw_section_identifier": "964372",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

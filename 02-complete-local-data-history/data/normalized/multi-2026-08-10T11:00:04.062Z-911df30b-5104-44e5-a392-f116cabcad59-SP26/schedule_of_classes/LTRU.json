@@ -1,0 +1,171 @@
+{
+  "subject": "LTRU",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "08/10/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "LTRU:1C",
+      "subject": "LTRU",
+      "course_number": "1C",
+      "title": "First Year Russian",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltru1c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:131112",
+          "course_id": "LTRU:1C",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Wells, Patricia Rebecca"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "COA",
+              "room": "121",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "COA 121"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RWAC",
+              "room": "0291",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RWAC 0291"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": "2026-06-08",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "COA",
+              "room": "121",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "COA 121"
+            }
+          ],
+          "enrolled": 16,
+          "capacity": 28,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "SP26",
+            "raw_subject": "LTRU",
+            "raw_course_number": "1C",
+            "raw_section_identifier": "131112",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTRU:104A",
+      "subject": "LTRU",
+      "course_number": "104A",
+      "title": "Advanced Practicum in Russian",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltru104a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:136565",
+          "course_id": "LTRU:104A",
+          "section_code": "A01",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Wells, Patricia Rebecca"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "RWAC",
+              "room": "0373",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "RWAC 0373"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "17:50",
+              "building": "RWAC",
+              "room": "0373",
+              "is_tba": false,
+              "meeting_type": "Practicum",
+              "raw_days": "Tu",
+              "raw_time": "5:00p-5:50p",
+              "raw_location": "RWAC 0373"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "SP26",
+            "raw_subject": "LTRU",
+            "raw_course_number": "104A",
+            "raw_section_identifier": "136565",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    }
+  ]
+}

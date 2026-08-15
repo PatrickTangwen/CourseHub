@@ -1,0 +1,126 @@
+{
+  "subject": "CMM",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "CMM:199",
+      "subject": "CMM",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:891165",
+          "course_id": "CMM:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Wilkinson, Miles Frome"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "CMM",
+            "raw_course_number": "199",
+            "raw_section_identifier": "891165",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CMM:246",
+      "subject": "CMM",
+      "course_number": "246",
+      "title": "Current Literature/Glycobiol",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:796595",
+          "course_id": "CMM:246",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Esko, Jeffrey D.",
+            "Gagneux, Pascal",
+            "Lewis, Amanda Lark",
+            "Bode, Lars",
+            "Gordts, Philip",
+            "Godula, Kamil"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": "BRF2",
+              "room": "4103",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "BRF2 4103"
+            }
+          ],
+          "enrolled": 2,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "CMM",
+            "raw_course_number": "246",
+            "raw_section_identifier": "796595",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

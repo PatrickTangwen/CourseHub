@@ -1,0 +1,3712 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2234,
+  "offset": 1680,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "102G",
+      "module_code": "POLI-102G",
+      "module_name": "Spec Topics/American Politics",
+      "course_title": "Spec Topics/American Politics",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 86,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "LaGina Gause"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002233",
+          "section_ref": "FA26:E 00002233",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152319",
+            "157190"
+          ],
+          "capacity": 104,
+          "enrolled": 18,
+          "seats_available": 86,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "LaGina Gause"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A20",
+              "building_name": "Podemos",
+              "room_name": "Room 1A20 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A20",
+              "building_name": "Podemos",
+              "room_name": "Room 1A20 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A20",
+              "building_name": "Podemos",
+              "room_name": "Room 1A20 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "104J",
+      "module_code": "POLI-104J",
+      "module_name": "Introduction/Legal Reasoning",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 250,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Maysa Nichter"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002234",
+          "section_ref": "FA26:E 00002234",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152458",
+            "157191"
+          ],
+          "capacity": 295,
+          "enrolled": 45,
+          "seats_available": 250,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maysa Nichter"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 107",
+              "building_name": "Solis Hall",
+              "room_name": "Room 107 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 107",
+              "building_name": "Solis Hall",
+              "room_name": "Room 107 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 107",
+              "building_name": "Solis Hall",
+              "room_name": "Room 107 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "104M",
+      "module_code": "POLI-104M",
+      "module_name": "Law and Sex",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 54,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Mattheus Stephens"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002235",
+          "section_ref": "FA26:E 00002235",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152461",
+            "157192"
+          ],
+          "capacity": 206,
+          "enrolled": 152,
+          "seats_available": 54,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mattheus Stephens"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1080,
+              "end_minutes": 1250,
+              "start_time_display": "6:00pm",
+              "end_time_display": "8:50pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "LEDDN",
+              "room_code": "LEDDN AUD",
+              "building_name": "Ledden Auditorium",
+              "room_name": "Ledden Auditorium (2250) - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "104U",
+      "module_code": "POLI-104U",
+      "module_name": "Introduction to Business Law",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 40,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Maysa Nichter"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004796",
+          "section_ref": "FA26:E 00004796",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152478"
+          ],
+          "capacity": 183,
+          "enrolled": 143,
+          "seats_available": 40,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maysa Nichter"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "111B",
+      "module_code": "POLI-111B",
+      "module_name": "Global Justice/Theory & Action",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 49,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Valerie Soon"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002456",
+          "section_ref": "FA26:E 00002456",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152622"
+          ],
+          "capacity": 68,
+          "enrolled": 19,
+          "seats_available": 49,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Valerie Soon"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "112B",
+      "module_code": "POLI-112B",
+      "module_name": "Game Theory/Political Science",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 101,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "David Wiens"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002236",
+          "section_ref": "FA26:E 00002236",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152679",
+            "157193"
+          ],
+          "capacity": 105,
+          "enrolled": 4,
+          "seats_available": 101,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Wiens"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "117R",
+      "module_code": "POLI-117R",
+      "module_name": "Bending/Curve: Climate Change",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 72,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Fonna Forman"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004097",
+          "section_ref": "FA26:E 00004097",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152674"
+          ],
+          "capacity": 200,
+          "enrolled": 128,
+          "seats_available": 72,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Fonna Forman"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "121D",
+      "module_code": "POLI-121D",
+      "module_name": "Digital Politics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 107,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Margaret Roberts"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002237",
+          "section_ref": "FA26:E 00002237",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152703",
+            "157194"
+          ],
+          "capacity": 147,
+          "enrolled": 40,
+          "seats_available": 107,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Margaret Roberts"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 109",
+              "building_name": "Center Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 109",
+              "building_name": "Center Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 109",
+              "building_name": "Center Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "124A",
+      "module_code": "POLI-124A",
+      "module_name": "Pol Conseq/Electoral Systems",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 39,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "David Fortunato"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002238",
+          "section_ref": "FA26:E 00002238",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152713",
+            "157195"
+          ],
+          "capacity": 70,
+          "enrolled": 31,
+          "seats_available": 39,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Fortunato"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2111",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2111 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "130B",
+      "module_code": "POLI-130B",
+      "module_name": "Politics/People's Rep of China",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 38,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Guoer Liu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002239",
+          "section_ref": "FA26:E 00002239",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152748",
+            "157196"
+          ],
+          "capacity": 75,
+          "enrolled": 37,
+          "seats_available": 38,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Guoer Liu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "142D",
+      "module_code": "POLI-142D",
+      "module_name": "Weapons of Mass Destruction",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 195,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Erik Gartzke"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004711",
+          "section_ref": "FA26:E 00004711",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152801"
+          ],
+          "capacity": 235,
+          "enrolled": 40,
+          "seats_available": 195,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Erik Gartzke"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "FAH",
+              "room_code": "FAH 1301",
+              "building_name": "Franklin Antonio Hall",
+              "room_name": "Room 1301 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1100,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:20pm",
+              "building_code": "FAH",
+              "room_code": "FAH 1301",
+              "building_name": "Franklin Antonio Hall",
+              "room_name": "Room 1301 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "FAH",
+              "room_code": "FAH 1301",
+              "building_name": "Franklin Antonio Hall",
+              "room_name": "Room 1301 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "142K",
+      "module_code": "POLI-142K",
+      "module_name": "Politics and Warfare",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 161,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002240",
+          "section_ref": "FA26:E 00002240",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152805",
+            "157197"
+          ],
+          "capacity": 196,
+          "enrolled": 35,
+          "seats_available": 161,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "142L",
+      "module_code": "POLI-142L",
+      "module_name": "Insurgency and Terrorism",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 131,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002241",
+          "section_ref": "FA26:E 00002241",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152808",
+            "157198"
+          ],
+          "capacity": 158,
+          "enrolled": 27,
+          "seats_available": 131,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "145C",
+      "module_code": "POLI-145C",
+      "module_name": "Interntnl Reltn After Cold War",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 157,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "David Fisk"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002243",
+          "section_ref": "FA26:E 00002243",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152828",
+            "157212"
+          ],
+          "capacity": 196,
+          "enrolled": 39,
+          "seats_available": 157,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Fisk"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "151",
+      "module_code": "POLI-151",
+      "module_name": "International Organizations",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 161,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Christina Schneider"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002244",
+          "section_ref": "FA26:E 00002244",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152861",
+            "157199"
+          ],
+          "capacity": 196,
+          "enrolled": 35,
+          "seats_available": 161,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christina Schneider"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 115",
+              "building_name": "Center Hall",
+              "room_name": "Room 115 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "154",
+      "module_code": "POLI-154",
+      "module_name": "Spec Topic/Internatnl Relation",
+      "course_title": "Spec Topic/Internatnl Relation",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 55,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "David Fisk"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002245",
+          "section_ref": "FA26:E 00002245",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152863",
+            "157200"
+          ],
+          "capacity": 104,
+          "enrolled": 49,
+          "seats_available": 55,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Fisk"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 113",
+              "building_name": "Center Hall",
+              "room_name": "Room 113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 113",
+              "building_name": "Center Hall",
+              "room_name": "Room 113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 113",
+              "building_name": "Center Hall",
+              "room_name": "Room 113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "172",
+      "module_code": "POLI-172",
+      "module_name": "Advanced Social Data Analytics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 46,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Soichiro Yamauchi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002246",
+          "section_ref": "FA26:E 00002246",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152890",
+            "157201",
+            "4632",
+            "4633"
+          ],
+          "capacity": 65,
+          "enrolled": 19,
+          "seats_available": 46,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soichiro Yamauchi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "MOS",
+              "room_code": "MOS 0204",
+              "building_name": "Mosaic",
+              "room_name": "Room 0204 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "174D",
+      "module_code": "POLI-174D",
+      "module_name": "Data Politics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 34,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Guoer Liu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00002247",
+          "section_ref": "FA26:E 00002247",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152298",
+            "152892",
+            "157202"
+          ],
+          "capacity": 65,
+          "enrolled": 31,
+          "seats_available": 34,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Guoer Liu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "191A",
+      "module_code": "POLI-191A",
+      "module_name": "Senr Hon Sem:Frontier/POLI I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Pamela Ban"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003776",
+          "section_ref": "FA26:E 00003776",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152896",
+            "157405"
+          ],
+          "capacity": 25,
+          "enrolled": 0,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Pamela Ban"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "194",
+      "module_code": "POLI-194",
+      "module_name": "Research Seminar/Washington DC",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Seth Hill"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002588",
+          "section_ref": "FA26:EL00002588",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Seth Hill"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "195",
+      "module_code": "POLI-195",
+      "module_name": "Apprentice Teaching",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Scott Desposato",
+        "Soichiro Yamauchi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "EL00002661",
+          "section_ref": "FA26:EL00002661",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 25,
+          "enrolled": 0,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Desposato"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00004201",
+          "section_ref": "FA26:EL00004201",
+          "section_code": "002-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soichiro Yamauchi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "197SD",
+      "module_code": "POLI-197SD",
+      "module_name": "Local Internship Pol Sci",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "it"
+      ],
+      "instructors": [
+        "Maysa Nichter"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00001803",
+          "section_ref": "FA26:EL00001803",
+          "section_code": "001-000-IT",
+          "instruction_type_name": "it",
+          "event_package_ids": [],
+          "capacity": 25,
+          "enrolled": 0,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maysa Nichter"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "204A",
+      "module_code": "POLI-204A",
+      "module_name": "Research Design",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Christina Schneider"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004626",
+          "section_ref": "FA26:E 00004626",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "1347",
+            "1348",
+            "152913"
+          ],
+          "capacity": 25,
+          "enrolled": 1,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christina Schneider"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "204B",
+      "module_code": "POLI-204B",
+      "module_name": "Quantitative Methods",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Scott Desposato"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003105",
+          "section_ref": "FA26:E 00003105",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152914",
+            "155117"
+          ],
+          "capacity": 25,
+          "enrolled": 3,
+          "seats_available": 22,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Desposato"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "240",
+      "module_code": "POLI-240",
+      "module_name": "International Relations Theory",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Erik Gartzke"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004665",
+          "section_ref": "FA26:E 00004665",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152969"
+          ],
+          "capacity": 25,
+          "enrolled": 3,
+          "seats_available": 22,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Erik Gartzke"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "256",
+      "module_code": "POLI-256",
+      "module_name": "RaceClassInstit/Amer Pol. Econ",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "LaGina Gause"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003106",
+          "section_ref": "FA26:E 00003106",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152994",
+            "155248"
+          ],
+          "capacity": 25,
+          "enrolled": 5,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "LaGina Gause"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "270",
+      "module_code": "POLI-270",
+      "module_name": "Math & Statistical Foundations",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Scott Desposato"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00004202",
+          "section_ref": "FA26:EL00004202",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 25,
+          "enrolled": 17,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Desposato"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "279",
+      "module_code": "POLI-279",
+      "module_name": "Special Topics in Methodology",
+      "course_title": "Special Topics in Methodology",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Soichiro Yamauchi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003107",
+          "section_ref": "FA26:E 00003107",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153027",
+            "155118"
+          ],
+          "capacity": 25,
+          "enrolled": 2,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Soichiro Yamauchi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 800,
+              "start_time_display": "12:00pm",
+              "end_time_display": "1:20pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 800,
+              "start_time_display": "12:00pm",
+              "end_time_display": "1:20pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "280",
+      "module_code": "POLI-280",
+      "module_name": "Wrkshp: Intl Law & Regulation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Emilie Hafner-Burton"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003108",
+          "section_ref": "FA26:E 00003108",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153028",
+            "155119"
+          ],
+          "capacity": 35,
+          "enrolled": 7,
+          "seats_available": 28,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Emilie Hafner-Burton"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "281",
+      "module_code": "POLI-281",
+      "module_name": "Workshop: American Politics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Benjamin Noble"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003109",
+          "section_ref": "FA26:E 00003109",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153029",
+            "155120"
+          ],
+          "capacity": 20,
+          "enrolled": 5,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Benjamin Noble"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 353",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 353 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "282",
+      "module_code": "POLI-282",
+      "module_name": "Workshop: Comparative Politics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Philip Roeder"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003110",
+          "section_ref": "FA26:E 00003110",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153034",
+            "155121"
+          ],
+          "capacity": 25,
+          "enrolled": 6,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Philip Roeder"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "283",
+      "module_code": "POLI-283",
+      "module_name": "Workshop:International Relatns",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Branislav Slantchev"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004666",
+          "section_ref": "FA26:E 00004666",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153042"
+          ],
+          "capacity": 25,
+          "enrolled": 9,
+          "seats_available": 16,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Branislav Slantchev"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "285",
+      "module_code": "POLI-285",
+      "module_name": "Workshop: Political Theory",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Valerie Soon"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003111",
+          "section_ref": "FA26:E 00003111",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153043",
+            "155223"
+          ],
+          "capacity": 25,
+          "enrolled": 0,
+          "seats_available": 25,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Valerie Soon"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 333",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 333 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "POLI",
+      "course_code": "286",
+      "module_code": "POLI-286",
+      "module_name": "Workshop: Methodology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Scott Desposato"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Political Science",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003112",
+          "section_ref": "FA26:E 00003112",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152718",
+            "152719",
+            "152720",
+            "152721",
+            "152722",
+            "152723",
+            "153044",
+            "155122"
+          ],
+          "capacity": 25,
+          "enrolled": 3,
+          "seats_available": 22,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Desposato"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SSB",
+              "room_code": "SSB 104",
+              "building_name": "Social Sciences Building",
+              "room_name": "Room 104 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "296",
+      "module_code": "PSY-296",
+      "module_name": "Independnt Readngs/Stdy in Psy",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002054",
+          "section_ref": "FA26:EL00002054",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "299",
+      "module_code": "PSY-299",
+      "module_name": "Psychiatry Independnt Stdy Pro",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "EL00002056",
+          "section_ref": "FA26:EL00002056",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002057",
+          "section_ref": "FA26:EL00002057",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "401",
+      "module_code": "PSY-401",
+      "module_name": "Psychiatry Core Clerkship",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Yash Joshi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002058",
+          "section_ref": "FA26:EL00002058",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 50,
+          "enrolled": 37,
+          "seats_available": 13,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Yash Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "403",
+      "module_code": "PSY-403",
+      "module_name": "Adv Clin Psy Outpatient Electv",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Paige Sutherland"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002059",
+          "section_ref": "FA26:EL00002059",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paige Sutherland"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "405",
+      "module_code": "PSY-405",
+      "module_name": "Sub-I in Interventional Psych",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Xia Li"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002060",
+          "section_ref": "FA26:EL00002060",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 4,
+          "seats_available": 6,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Xia Li"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "426T",
+      "module_code": "PSY-426T",
+      "module_name": "Geropsychiatry Selective",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Omar Ghosn"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002061",
+          "section_ref": "FA26:EL00002061",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Omar Ghosn"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "427",
+      "module_code": "PSY-427",
+      "module_name": "Psychiatric Crisis Evaluation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Michelle Singh"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002062",
+          "section_ref": "FA26:EL00002062",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 8,
+          "enrolled": 4,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michelle Singh"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "427T",
+      "module_code": "PSY-427T",
+      "module_name": "Psych Crisis Evaluation Sel",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Michelle Singh"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002063",
+          "section_ref": "FA26:EL00002063",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michelle Singh"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "429",
+      "module_code": "PSY-429",
+      "module_name": "Child Psychiatry",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Michelle Wu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002064",
+          "section_ref": "FA26:EL00002064",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 3,
+          "seats_available": 7,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michelle Wu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "429T",
+      "module_code": "PSY-429T",
+      "module_name": "Child Psychiatry Selective",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Michelle Wu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002065",
+          "section_ref": "FA26:EL00002065",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michelle Wu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "430",
+      "module_code": "PSY-430",
+      "module_name": "Consult/Liaison Psy Clerkship",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Alan Hsu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002066",
+          "section_ref": "FA26:EL00002066",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alan Hsu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "430T",
+      "module_code": "PSY-430T",
+      "module_name": "VA Consult Liaison Psych Sel",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Alan Hsu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002067",
+          "section_ref": "FA26:EL00002067",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alan Hsu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "431",
+      "module_code": "PSY-431",
+      "module_name": "Inpatient Psy Subinternship",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 8,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "se"
+      ],
+      "instructors": [
+        "Yash Joshi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "EL00002068",
+          "section_ref": "FA26:EL00002068",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 2,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Yash Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002069",
+          "section_ref": "FA26:EL00002069",
+          "section_code": "001-001-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 2,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Yash Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PSY",
+      "course_code": "431T",
+      "module_code": "PSY-431T",
+      "module_name": "Inpatient Psychiatry Selective",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Yash Joshi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Psychiatry",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "EL00002070",
+          "section_ref": "FA26:EL00002070",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Yash Joshi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "subject": "HIGL",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "HIGL:144",
+      "subject": "HIGL",
+      "course_number": "144",
+      "title": "Topics in Global History",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/HIST.html#higl144",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262802",
+          "course_id": "HIGL:144",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R122",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R122"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R122",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R122"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S226",
+            "raw_subject": "HIGL",
+            "raw_course_number": "144",
+            "raw_section_identifier": "262802",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

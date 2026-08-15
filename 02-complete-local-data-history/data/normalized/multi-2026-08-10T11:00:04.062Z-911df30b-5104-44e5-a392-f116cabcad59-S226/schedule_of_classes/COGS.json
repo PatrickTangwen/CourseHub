@@ -1,0 +1,1462 @@
+{
+  "subject": "COGS",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "08/10/2026, 02:01:00",
+  "courses": [
+    {
+      "course_id": "COGS:3",
+      "subject": "COGS",
+      "course_number": "3",
+      "title": "Introduction to Computing",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs3",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262075",
+          "course_id": "COGS:3",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Boyle, Mary E. T."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R113",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R113"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R106",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R106"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R104"
+            }
+          ],
+          "enrolled": 41,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "3",
+            "raw_section_identifier": "262075",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:9",
+      "subject": "COGS",
+      "course_number": "9",
+      "title": "Introduction to Data Science",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs9",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262077",
+          "course_id": "COGS:9",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Shannon, Kyle Michael"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R105",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "RCLAS R105"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:30",
+              "end_time": "15:20",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:30p-3:20p",
+              "raw_location": "RCLAS R06"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RCLAS R11"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "9",
+            "raw_section_identifier": "262077",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:10",
+      "subject": "COGS",
+      "course_number": "10",
+      "title": "Cognitv Consequence/Technology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs10",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:279627",
+          "course_id": "COGS:10",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Morgan, Eric"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "HSS",
+              "room": "2154",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "HSS 2154"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "HSS",
+              "room": "2154",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "HSS 2154"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "HSS",
+              "room": "2154",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "HSS 2154"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 37,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "10",
+            "raw_section_identifier": "279627",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:13",
+      "subject": "COGS",
+      "course_number": "13",
+      "title": "Fld Methods: Cognition in Wild",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs13",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262079",
+          "course_id": "COGS:13",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "13",
+            "raw_section_identifier": "262079",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S226:280651",
+          "course_id": "COGS:13",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Robles, Emily Kara"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "COA B23"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "COA B23"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "COA B23"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "13",
+            "raw_section_identifier": "280651",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:14A",
+      "subject": "COGS",
+      "course_number": "14A",
+      "title": "Intro. to Research Methods",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs14a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262081",
+          "course_id": "COGS:14A",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Buyruk, Parla"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R112",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R112"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R103",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R103"
+            }
+          ],
+          "enrolled": 53,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "14A",
+            "raw_section_identifier": "262081",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:14B",
+      "subject": "COGS",
+      "course_number": "14B",
+      "title": "Intro. to Statistical Analysis",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs14b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262122",
+          "course_id": "COGS:14B",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Hoffman, Drew Ellen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "09:20",
+              "building": "RCLAS",
+              "room": "R03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "8:00a-9:20a",
+              "raw_location": "RCLAS R03"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:20",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "9:30a-10:20a",
+              "raw_location": "RCLAS R09"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R01",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R01"
+            }
+          ],
+          "enrolled": 73,
+          "capacity": 80,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "14B",
+            "raw_section_identifier": "262122",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:17",
+      "subject": "COGS",
+      "course_number": "17",
+      "title": "Neurobiology of Cognition",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs17",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:279294",
+          "course_id": "COGS:17",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Lee, Davis Park Kwun"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "COA B23"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "COA B23"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "COA B23"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "17",
+            "raw_section_identifier": "279294",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:18",
+      "subject": "COGS",
+      "course_number": "18",
+      "title": "Introduction to Python",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs18",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:279292",
+          "course_id": "COGS:18",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Morgan, Eric"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "COA B23"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "CSB",
+              "room": "115",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "CSB 115"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "COA",
+              "room": "B23",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "COA B23"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "18",
+            "raw_section_identifier": "279292",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:101B",
+      "subject": "COGS",
+      "course_number": "101B",
+      "title": "Learning, Memory and Attention",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs101b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262126",
+          "course_id": "COGS:101B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Robles, Emily Kara"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R113",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R113"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R106",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RCLAS R106"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R08"
+            }
+          ],
+          "enrolled": 63,
+          "capacity": 65,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "101B",
+            "raw_section_identifier": "262126",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:102A",
+      "subject": "COGS",
+      "course_number": "102A",
+      "title": "Cognitive Perspectives",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs102a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262129",
+          "course_id": "COGS:102A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Johnson, Christine M."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RWAC",
+              "room": "0103",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RWAC 0103"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "17:50",
+              "building": "RWAC",
+              "room": "0103",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "5:00p-5:50p",
+              "raw_location": "RWAC 0103"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RWAC",
+              "room": "0103",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RWAC 0103"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "102A",
+            "raw_section_identifier": "262129",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:107B",
+      "subject": "COGS",
+      "course_number": "107B",
+      "title": "Systems Neuroscience",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs107b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:278372",
+          "course_id": "COGS:107B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mooshagian, Eric Frederick"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "CSB",
+              "room": "001",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "CSB 001"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CSB",
+              "room": "001",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CSB 001"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1450",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1450"
+            }
+          ],
+          "enrolled": 81,
+          "capacity": 120,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "107B",
+            "raw_section_identifier": "278372",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:150",
+      "subject": "COGS",
+      "course_number": "150",
+      "title": "Large Language Models/CogSci",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs150",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262133",
+          "course_id": "COGS:150",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Bergen, Benjamin"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "CSB",
+              "room": "004",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "CSB 004"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CSB",
+              "room": "004",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "MW",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CSB 004"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CSB",
+              "room": "004",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CSB 004"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 56,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "150",
+            "raw_section_identifier": "262133",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:153",
+      "subject": "COGS",
+      "course_number": "153",
+      "title": "Language Comprehension",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs153",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262136",
+          "course_id": "COGS:153",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Delgado, Tania"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "DIB",
+              "room": "122",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "DIB 122"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2026-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "DIB",
+              "room": "122",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "DIB 122"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "153",
+            "raw_section_identifier": "262136",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:154",
+      "subject": "COGS",
+      "course_number": "154",
+      "title": "Comm Disorders/Children&Adults",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs154",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:262251",
+          "course_id": "COGS:154",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Parra, Hilda"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "DIB",
+              "room": "122",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "DIB 122"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2026-09-04",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "DIB",
+              "room": "122",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "DIB 122"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "154",
+            "raw_section_identifier": "262251",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:177",
+      "subject": "COGS",
+      "course_number": "177",
+      "title": "Space and Time in the Brain",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs177",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:279104",
+          "course_id": "COGS:177",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "177",
+            "raw_section_identifier": "279104",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:187A",
+      "subject": "COGS",
+      "course_number": "187A",
+      "title": "Usability & Info. Architecture",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs187a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:279624",
+          "course_id": "COGS:187A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "187A",
+            "raw_section_identifier": "279624",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "COGS:199",
+      "subject": "COGS",
+      "course_number": "199",
+      "title": "Special Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/COGS.html#cogs199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:281431",
+          "course_id": "COGS:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Deak, Gedeon O."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S226",
+            "raw_subject": "COGS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "281431",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

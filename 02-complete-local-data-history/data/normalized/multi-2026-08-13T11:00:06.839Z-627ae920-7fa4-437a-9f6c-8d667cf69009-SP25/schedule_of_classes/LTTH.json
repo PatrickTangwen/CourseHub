@@ -1,0 +1,180 @@
+{
+  "subject": "LTTH",
+  "term": "SP25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "10/06/2025, 02:01:00",
+  "courses": [
+    {
+      "course_id": "LTTH:210C",
+      "subject": "LTTH",
+      "course_number": "210C",
+      "title": "Practicum/Contemp Lit Theory",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltth210c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:823163",
+          "course_id": "LTTH:210C",
+          "section_code": "A00",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Glaser, Amelia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RWAC",
+              "room": "0372",
+              "is_tba": false,
+              "meeting_type": "Practicum",
+              "raw_days": "M",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RWAC 0372"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "LTTH",
+            "raw_course_number": "210C",
+            "raw_section_identifier": "823163",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTTH:250",
+      "subject": "LTTH",
+      "course_number": "250",
+      "title": "Writing and Theory",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltth250",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:823180",
+          "course_id": "LTTH:250",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Carroll, Amy Sara"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RWAC",
+              "room": "0371",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "M",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RWAC 0371"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "LTTH",
+            "raw_course_number": "250",
+            "raw_section_identifier": "823180",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTTH:260",
+      "subject": "LTTH",
+      "course_number": "260",
+      "title": "Job Materials Workshop",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltth260",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:823181",
+          "course_id": "LTTH:260",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Mendoza, Andrea"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Th",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RWAC 0292"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "LTTH",
+            "raw_course_number": "260",
+            "raw_section_identifier": "823181",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5619 @@
+{
+  "schema_version": "tss-chatbot-v1",
+  "term": "FA26",
+  "requested_course": "MATS, MBC, MCWP",
+  "source_metadata": {
+    "last_refreshed_displayed": "2026-07-20T00:00:00-07:00"
+  },
+  "courses": [
+    {
+      "course_code": "201A",
+      "course_title": null,
+      "tss_course_code": "MATS-201A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002467",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "WLH 2204",
+                  "instructor": "Jian Luo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "6:30pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "WLH 2204",
+                  "instructor": "Jian Luo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "WLH 2204",
+                  "instructor": "Jian Luo",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "202",
+      "course_title": null,
+      "tss_course_code": "MATS-202",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00000806",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "WLH 2207",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "227",
+      "course_title": null,
+      "tss_course_code": "MATS-227",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-07",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002420",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "7:30am",
+                  "end_time": "8:50am",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "7:30am",
+                  "end_time": "8:50am",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-07",
+                  "days": "M",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "FAH 1101",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "236",
+      "course_title": null,
+      "tss_course_code": "MATS-236",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002453",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "5:00pm",
+                  "end_time": "7:50pm",
+                  "location_displayed": "WLH 2114",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "7:00pm",
+                  "end_time": "9:59pm",
+                  "location_displayed": "WLH 2114",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "251A",
+      "course_title": null,
+      "tss_course_code": "MATS-251A",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-10",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002455",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 222",
+                  "instructor": "Prabhakar Bandaru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "CENTR 222",
+                  "instructor": "Prabhakar Bandaru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-10",
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "CENTR 222",
+                  "instructor": "Prabhakar Bandaru",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 50,
+                "seats_available": 50,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "257",
+      "course_title": null,
+      "tss_course_code": "MATS-257",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-09",
+          "components": [
+            {
+              "type": "lecture",
+              "section_code": "001-000-LE",
+              "event_id": "E 00002408",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CSB 001",
+                  "instructor": "Shengqiang Cai",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CSB 001",
+                  "instructor": "Shengqiang Cai",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "CSB 001",
+                  "instructor": "Shengqiang Cai",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-09",
+                  "days": "W",
+                  "start_time": "8:00am",
+                  "end_time": "10:59am",
+                  "location_displayed": "CSB 001",
+                  "instructor": "Shengqiang Cai",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "295",
+      "course_title": null,
+      "tss_course_code": "MATS-295",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "conference",
+              "section_code": "001-000-CO",
+              "event_id": "EL00000688",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "conference",
+              "section_code": "002-000-CO",
+              "event_id": "EL00000689",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Andrew Kummel",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "299",
+      "course_title": null,
+      "tss_course_code": "MATS-299",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "001-000-IN",
+              "event_id": "EL00000690",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Monica Allen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "002-000-IN",
+              "event_id": "EL00000691",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Brian Aguado",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "003-000-IN",
+              "event_id": "EL00000692",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Richard Averitt",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "004-000-IN",
+              "event_id": "EL00000693",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Prabhakar Bandaru",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "005-000-IN",
+              "event_id": "EL00000694",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Michael Burkart",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "006-000-IN",
+              "event_id": "EL00000695",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Shengqiang Cai",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "007-000-IN",
+              "event_id": "EL00000696",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Zheng Chen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "008-000-IN",
+              "event_id": "EL00000697",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Renkun Chen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "009-000-IN",
+              "event_id": "EL00000698",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Shaochen Chen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "010-000-IN",
+              "event_id": "EL00000699",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Karen Christman",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "011-000-IN",
+              "event_id": "EL00000700",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Seth Cohen",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 12,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "012-000-IN",
+              "event_id": "EL00000701",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Shadi Dayeh",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 13,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "013-000-IN",
+              "event_id": "EL00000702",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Yeshaiahu Fainman",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 14,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "014-000-IN",
+              "event_id": "EL00000703",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "David Fenning",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 15,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "015-000-IN",
+              "event_id": "EL00000704",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joshua Figueroa",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 16,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "016-000-IN",
+              "event_id": "EL00000705",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Alex Frano",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 17,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "017-000-IN",
+              "event_id": "EL00000706",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Michael Frazier",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 18,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "018-000-IN",
+              "event_id": "EL00000707",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Eric Fullerton",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 19,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "019-000-IN",
+              "event_id": "EL00000708",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Javier Garay",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 20,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "020-000-IN",
+              "event_id": "EL00000709",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Olivia Graeve",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 21,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "021-000-IN",
+              "event_id": "EL00000710",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Kent Griffith",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 22,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "022-000-IN",
+              "event_id": "EL00000711",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Thomas Hermann",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 23,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "023-000-IN",
+              "event_id": "EL00000712",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Xiaohua Huang",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 24,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "024-000-IN",
+              "event_id": "EL00000713",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Jesse Jokerst",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 25,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "025-000-IN",
+              "event_id": "EL00000714",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "H Alicia Kim",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 26,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "026-000-IN",
+              "event_id": "EL00000715",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Andrew Kummel",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 27,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "027-000-IN",
+              "event_id": "EL00000716",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Wan-Lu Li",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 28,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "028-000-IN",
+              "event_id": "EL00000717",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Shaowei Li",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 29,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "029-000-IN",
+              "event_id": "EL00000718",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ping Liu",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 30,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "030-000-IN",
+              "event_id": "EL00000719",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Yu-Hwa Lo",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 31,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "031-000-IN",
+              "event_id": "EL00000720",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ken Loh",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 32,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "032-000-IN",
+              "event_id": "EL00000721",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Vitaliy Lomakin",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 33,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "033-000-IN",
+              "event_id": "EL00000722",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Haiwen Luan",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 34,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "034-000-IN",
+              "event_id": "EL00000723",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Jian Luo",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 35,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "035-000-IN",
+              "event_id": "EL00000724",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "M Maple",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 36,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "036-000-IN",
+              "event_id": "EL00000725",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Marc Meyers",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 37,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "037-000-IN",
+              "event_id": "EL00000726",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Machel Morrison",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 38,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "038-000-IN",
+              "event_id": "EL00000727",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Tod Pascal",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 39,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "039-000-IN",
+              "event_id": "EL00000728",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Lisa Poulikakos",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 40,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "040-000-IN",
+              "event_id": "EL00000729",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Yu Qiao",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 41,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "041-000-IN",
+              "event_id": "EL00000730",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Michael Sailor",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 42,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "042-000-IN",
+              "event_id": "EL00000731",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Ivan Schuller",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 43,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "043-000-IN",
+              "event_id": "EL00000732",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Shabnam Semnani",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 44,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "044-000-IN",
+              "event_id": "EL00000733",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Lingyan Shi",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 45,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "045-000-IN",
+              "event_id": "EL00000734",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Andrea Tao",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 46,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "046-000-IN",
+              "event_id": "EL00000735",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Mehran Tehrani",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 47,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "047-000-IN",
+              "event_id": "EL00000736",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "George Tynan",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 48,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "048-000-IN",
+              "event_id": "EL00000737",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Joseph Wang",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 49,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "049-000-IN",
+              "event_id": "EL00000738",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Wei Xiong",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 50,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "050-000-IN",
+              "event_id": "EL00000739",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Sheng Xu",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 51,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "051-000-IN",
+              "event_id": "EL00000740",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Eugene Yeo",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 52,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "independent study",
+              "section_code": "052-000-IN",
+              "event_id": "EL00000741",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": null,
+                  "start_time": "tba",
+                  "end_time": "tba",
+                  "location_displayed": "tba",
+                  "instructor": "Haiwang Yong",
+                  "is_tba": true,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 9999,
+                "seats_available": 9999,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "258",
+      "course_title": null,
+      "tss_course_code": "MBC-258",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": "2026-12-08",
+          "components": [
+            {
+              "type": "practicum",
+              "section_code": "001-000-PR",
+              "event_id": "E 00005327",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:30am",
+                  "end_time": "1:20pm",
+                  "location_displayed": "ECKRT 127",
+                  "instructor": "Samantha Murray",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "final",
+                  "specific_date": "2026-12-08",
+                  "days": "T",
+                  "start_time": "11:30am",
+                  "end_time": "2:29pm",
+                  "location_displayed": "ECKRT 127",
+                  "instructor": "Samantha Murray",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 25,
+                "seats_available": 25,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "040",
+      "course_title": null,
+      "tss_course_code": "MCWP-040",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001904",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 3,
+                "seats_available": 3,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001905",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 3,
+                "seats_available": 3,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00001906",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 3,
+                "seats_available": 3,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001907",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 3,
+                "seats_available": 3,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001908",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Jason Bartulis",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Jason Bartulis",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001909",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Jason Bartulis",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Jason Bartulis",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "007-000-TU",
+              "event_id": "E 00001910",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "008-000-TU",
+              "event_id": "E 00001911",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "009-000-TU",
+              "event_id": "E 00001912",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Jennifer Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "010-000-TU",
+              "event_id": "E 00001913",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "011-000-TU",
+              "event_id": "E 00001914",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 12,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "012-000-TU",
+              "event_id": "E 00001915",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Michael Morshed",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 13,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "013-000-TU",
+              "event_id": "E 00002968",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 14,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "014-000-TU",
+              "event_id": "E 00002969",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": null,
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 15,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "015-000-TU",
+              "event_id": "E 00001916",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Kelly Silva",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Kelly Silva",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 16,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "016-000-TU",
+              "event_id": "E 00001917",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Kelly Silva",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Kelly Silva",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 17,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "017-000-TU",
+              "event_id": "E 00001918",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 18,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "018-000-TU",
+              "event_id": "E 00001919",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 19,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "019-000-TU",
+              "event_id": "E 00001920",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2152",
+                  "instructor": "Vincent Pham",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "040C",
+      "course_title": null,
+      "tss_course_code": "MCWP-040C",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00001897",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "9:00am",
+                  "end_time": "9:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00001898",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "10:00am",
+                  "end_time": "10:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Carolina Montejo",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "004-000-TU",
+              "event_id": "E 00001900",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "005-000-TU",
+              "event_id": "E 00001901",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "006-000-TU",
+              "event_id": "E 00001902",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "MCGIL 2315",
+                  "instructor": "Andrea Carter",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "040R",
+      "course_title": null,
+      "tss_course_code": "MCWP-040R",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "001-000-TU",
+              "event_id": "E 00004576",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "002-000-TU",
+              "event_id": "E 00004577",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "tutorial",
+              "section_code": "003-000-TU",
+              "event_id": "E 00004578",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": null,
+                  "instructor": "Elizabeth Miller",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 4,
+                "seats_available": 4,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "050",
+      "course_title": null,
+      "tss_course_code": "MCWP-050",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00002973",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Carrie Wastal",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Carrie Wastal",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "002-000-SE",
+              "event_id": "E 00001924",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "003-000-SE",
+              "event_id": "E 00001925",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "004-000-SE",
+              "event_id": "E 00001926",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Jarrett Krone",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 20,
+                "seats_available": 20,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "125",
+      "course_title": null,
+      "tss_course_code": "MCWP-125",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00001927",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "2:00pm",
+                  "end_time": "3:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 2,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "002-000-SE",
+              "event_id": "E 00001928",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "3:30pm",
+                  "end_time": "4:50pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 3,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "003-000-SE",
+              "event_id": "E 00001929",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Haydee Smith",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 4,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "004-000-SE",
+              "event_id": "E 00001930",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 5,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "005-000-SE",
+              "event_id": "E 00001931",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 6,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "006-000-SE",
+              "event_id": "E 00001932",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 1106B",
+                  "instructor": "Sean Compas",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 7,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "007-000-SE",
+              "event_id": "E 00001933",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "8:00am",
+                  "end_time": "9:20am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 8,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "008-000-SE",
+              "event_id": "E 00001934",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "9:30am",
+                  "end_time": "10:50am",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 9,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "009-000-SE",
+              "event_id": "E 00001935",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "11:00am",
+                  "end_time": "12:20pm",
+                  "location_displayed": "HSS 1106A",
+                  "instructor": "Melinda Guillen",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 10,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "010-000-SE",
+              "event_id": "E 00001936",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "11:00am",
+                  "end_time": "11:50am",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 11,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "011-000-SE",
+              "event_id": "E 00001937",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "12:00pm",
+                  "end_time": "12:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 12,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "012-000-SE",
+              "event_id": "E 00001938",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "F",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "M",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "1:00pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2305A",
+                  "instructor": "Nur Duru",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        },
+        {
+          "booking_choice_ordinal": 13,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "013-000-SE",
+              "event_id": "E 00001939",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "R",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Pam Redela",
+                  "is_tba": false,
+                  "is_arranged": null
+                },
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "T",
+                  "start_time": "12:30pm",
+                  "end_time": "1:50pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "Pam Redela",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 5,
+                "seats_available": 5,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    },
+    {
+      "course_code": "500",
+      "course_title": null,
+      "tss_course_code": "MCWP-500",
+      "booking_choices": [
+        {
+          "booking_choice_ordinal": 1,
+          "displayed_package_section": null,
+          "displayed_package_id": null,
+          "final_exam_date": null,
+          "components": [
+            {
+              "type": "seminar",
+              "section_code": "001-000-SE",
+              "event_id": "E 00002974",
+              "requirement": "required",
+              "meetings": [
+                {
+                  "meeting_kind": "class",
+                  "specific_date": null,
+                  "days": "W",
+                  "start_time": "5:00pm",
+                  "end_time": "6:20pm",
+                  "location_displayed": "HSS 2346A",
+                  "instructor": "K Wayne Yang",
+                  "is_tba": false,
+                  "is_arranged": null
+                }
+              ],
+              "enrollment": {
+                "enrolled": 0,
+                "capacity": 10,
+                "seats_available": 10,
+                "waitlist": {
+                  "state": "available",
+                  "count": 0
+                },
+                "waitlist_only": null,
+                "approval_required": null,
+                "status_code": null,
+                "is_cancelled": false
+              }
+            }
+          ],
+          "package_meetings": [
+
+          ],
+          "package_enrollment": null
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "continuation_needed": true
+  }
+}
