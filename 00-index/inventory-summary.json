@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T18:35:46.713Z",
-  "package_root": "/Users/tangwenhua/Desktop/coursetable-ucsd/course-materials-package-2026-08-15",
+  "generated_at": "2026-08-15T20:45:58.050Z",
+  "package_root": "/Users/tangwenhua/Desktop/CourseHub",
   "current_published_data": {
     "source_branch": "origin/main",
     "source_commit": "009b922ff3cd87344c30f5923b3920619e50caf7",
@@ -14,13 +14,17 @@
     "unique_reference_urls": 5416
   },
   "groups": {
+    ".git": {
+      "files": 27,
+      "logical_bytes": 73533320
+    },
     ".gitignore": {
       "files": 1,
-      "logical_bytes": 101
+      "logical_bytes": 315
     },
     "00-index": {
-      "files": 8,
-      "logical_bytes": 2326239
+      "files": 9,
+      "logical_bytes": 2327307
     },
     "01-current-published-data": {
       "files": 66,
@@ -39,14 +43,18 @@
       "logical_bytes": 583493
     },
     "05-pipeline-and-schema": {
-      "files": 95,
-      "logical_bytes": 731747
+      "files": 97,
+      "logical_bytes": 732476
+    },
+    "Grades_With_Cutoff.csv": {
+      "files": 1,
+      "logical_bytes": 2969422
     },
     "README.md": {
       "files": 1,
       "logical_bytes": 6995
     }
   },
-  "file_manifest_rows": 54113,
+  "file_manifest_rows": 54144,
   "note": "Logical byte totals count APFS clone files at their full size; copy-on-write cloning keeps the package independent while initially consuming substantially less additional disk space on this filesystem."
 }

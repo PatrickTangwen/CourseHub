@@ -245,7 +245,7 @@ Planner Catalog Source section):
 ```bash
 bun tools/catalog-snapshot/generate-tss-published-snapshot.mts \
   --raw-dir data/raw/classplanner/FA26/<timestamp>/tss \
-  --metadata-dir data/normalized/multi-2026-06-29T08:02:01.606Z-198ee9a5-ad5c-428b-be61-71951c951b8f-SP26 \
+  --metadata-dir data/normalized/multi-2026-06-29T08-02-01.606Z-198ee9a5-ad5c-428b-be61-71951c951b8f-SP26 \
   --metadata-root data/normalized
 ```
 
@@ -656,7 +656,7 @@ bun tools/classplanner-scraper/convert-classplanner-to-tss.mts \
   --run-dir data/raw/classplanner/FA26/<timestamp>
 bun tools/catalog-snapshot/generate-tss-published-snapshot.mts \
   --raw-dir data/raw/classplanner/FA26/<timestamp>/tss \
-  --metadata-dir data/normalized/multi-2026-06-29T08:02:01.606Z-198ee9a5-ad5c-428b-be61-71951c951b8f-SP26 \
+  --metadata-dir data/normalized/multi-2026-06-29T08-02-01.606Z-198ee9a5-ad5c-428b-be61-71951c951b8f-SP26 \
   --metadata-root data/normalized
 ```
 

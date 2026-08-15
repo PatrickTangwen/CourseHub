@@ -1,4 +1,5 @@
 import type { CatalogSnapshot, CatalogSnapshotConfig } from './catalogSnapshot';
+import { filesystemSafeTimestamp } from './runId';
 
 type FetchAdapter = typeof fetch;
 type SnapshotCourse = CatalogSnapshot['courses'][number];
@@ -880,7 +881,8 @@ export function buildScheduleCatalogSnapshot(
   } = {},
 ): CatalogSnapshot {
   const generatedAt = options.generatedAt ?? new Date().toISOString();
-  const runId = options.runId ?? `schedule-${generatedAt}`;
+  const runId =
+    options.runId ?? `schedule-${filesystemSafeTimestamp(generatedAt)}`;
   const coursesById = new Map<string, SnapshotCourse>();
 
   for (const parsed of parsedSubjects) {

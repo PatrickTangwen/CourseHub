@@ -11,6 +11,7 @@ import {
   createFileSnapshotStorage,
   type SnapshotStorage,
 } from './snapshotStorage';
+import { filesystemSafeTimestamp } from './runId';
 
 const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/u);
 const termCodeSchema = z
@@ -402,7 +403,8 @@ export function buildTracerCatalogSnapshot(
   } = {},
 ): CatalogSnapshot {
   const generatedAt = options.generatedAt ?? new Date().toISOString();
-  const runId = options.runId ?? `tracer-${generatedAt}`;
+  const runId =
+    options.runId ?? `tracer-${filesystemSafeTimestamp(generatedAt)}`;
   const generalCatalogCourseBySubject = new Map<string, GeneralCatalogCourse>();
   for (const course of options.generalCatalogCourses ?? []) {
     if (generalCatalogCourseBySubject.has(course.subject)) continue;

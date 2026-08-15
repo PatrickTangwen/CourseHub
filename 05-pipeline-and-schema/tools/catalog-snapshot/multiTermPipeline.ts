@@ -20,6 +20,7 @@ import {
   type SupportedTermEntry,
   type SupportedTermRegistry,
 } from './supportedTermRegistry';
+import { filesystemSafeTimestamp } from './runId';
 import {
   discoverTermWindow,
   enumerateCandidateTerms,
@@ -99,7 +100,9 @@ export async function runMultiTermSnapshotPipeline(
   } = {},
 ): Promise<MultiTermSnapshotPipelineResult> {
   const generatedAt = options.generatedAt ?? new Date().toISOString();
-  const runId = options.runId ?? `multi-${generatedAt}-${randomUUID()}`;
+  const runId =
+    options.runId ??
+    `multi-${filesystemSafeTimestamp(generatedAt)}-${randomUUID()}`;
   const storage = options.storage ?? createFileSnapshotStorage();
 
   const terms =

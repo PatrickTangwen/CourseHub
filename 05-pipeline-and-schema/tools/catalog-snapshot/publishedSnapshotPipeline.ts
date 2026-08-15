@@ -31,6 +31,7 @@ import {
   createFileSnapshotStorage,
   type SnapshotStorage,
 } from './snapshotStorage';
+import { filesystemSafeTimestamp } from './runId';
 
 type FetchAdapter = typeof fetch;
 export type SourceKind =
@@ -199,8 +200,7 @@ type RunPaths = {
 };
 
 function defaultRunId(generatedAt: string): string {
-  const timestamp = generatedAt.replace(/[^\dA-Za-z]+/gu, '-');
-  return `published-${timestamp}-${randomUUID()}`;
+  return `published-${filesystemSafeTimestamp(generatedAt)}-${randomUUID()}`;
 }
 
 function safePathComponent(value: string): string {
