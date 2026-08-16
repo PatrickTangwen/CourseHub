@@ -39,7 +39,13 @@ interface ToolStat {
 interface MonitorSummary {
   agent_stats: Record<string, AgentStat>;
   tool_stats: Record<string, ToolStat>;
-  active_alerts: { severity: string; metric: string; message: string }[];
+  active_alerts: {
+    severity: string;
+    metric: string;
+    message: string;
+    /** 同一指标持续超标的累计触发次数(后端已去重,不再一次一条)。 */
+    count: number;
+  }[];
 }
 
 interface SkillsSummary {
@@ -272,16 +278,26 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
                 </tbody>
               </table>
               {monitor.active_alerts.length > 0 && (
-                <ul className="flex flex-col gap-1">
-                  {monitor.active_alerts.map((alert, i) => (
-                    <li
-                      key={i}
-                      className="rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-muted-foreground"
-                    >
-                      [{alert.severity}] {alert.message}
-                    </li>
-                  ))}
-                </ul>
+                <details
+                  data-testid="monitor-alerts"
+                  className="rounded-lg border border-border bg-muted/50"
+                >
+                  <summary className="cursor-pointer px-3 py-1.5 text-muted-foreground">
+                    {DEV_STRINGS.activeAlerts(monitor.active_alerts.length)}
+                  </summary>
+                  <ul className="flex flex-col gap-1 px-3 pb-2">
+                    {monitor.active_alerts.map((alert) => (
+                      <li key={alert.metric} className="text-muted-foreground">
+                        [{alert.severity}] {alert.message}
+                        {alert.count > 1 && (
+                          <span className="ml-1.5 tabular-nums">
+                            {DEV_STRINGS.alertRepeats(alert.count)}
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </details>
               )}
             </div>
           ) : (

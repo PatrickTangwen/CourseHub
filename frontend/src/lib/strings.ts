@@ -107,6 +107,10 @@ export const DEV_STRINGS = {
   uploadFailed: "Upload failed.",
   monitor: "Monitor",
   monitorUnavailable: "Monitor unavailable.",
+  /** 告警默认折叠:线上持续超标的指标会一直活跃,摊开就是刷屏。 */
+  activeAlerts: (count: number) =>
+    `${count} active alert${count === 1 ? "" : "s"}`,
+  alertRepeats: (count: number) => `×${count}`,
   agent: "Agent",
   runs: "Runs",
   success: "Success",

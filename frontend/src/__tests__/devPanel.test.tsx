@@ -15,7 +15,14 @@ const MONITOR = {
   tool_stats: {
     knowledge_search: { total: 12, success_rate: 1.0, avg_latency_ms: 61.6, consecutive_fails: 0, circuit_state: "closed" },
   },
-  active_alerts: [{ severity: "warning", metric: "agent_avg_ms:course_0", message: "course_0 latency high" }],
+  active_alerts: [
+    {
+      severity: "warning",
+      metric: "agent_avg_ms:course_0",
+      message: "course_0 latency high",
+      count: 12,
+    },
+  ],
 };
 const SKILLS = {
   root_dir: "/app/skills",
@@ -71,7 +78,13 @@ describe("developer panel", () => {
     expect(await screen.findByText("course_0")).toBeInTheDocument();
     expect(screen.getByText("knowledge_search")).toBeInTheDocument();
     expect(screen.getByText("closed")).toBeInTheDocument();
+    // 告警默认折叠(线上会持续超标,展开着就是刷屏),摘要行给出条数
+    const alerts = screen.getByTestId("monitor-alerts");
+    expect(alerts).not.toHaveAttribute("open");
+    expect(alerts).toHaveTextContent("1 active alert");
     expect(screen.getByText(/course_0 latency high/)).toBeInTheDocument();
+    // 重复触发次数收在同一条里,不再一条条堆
+    expect(screen.getByText(/×12/)).toBeInTheDocument();
     // skills 列表
     expect(screen.getByText("课程事实规范")).toBeInTheDocument();
 
