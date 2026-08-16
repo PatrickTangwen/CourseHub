@@ -17,10 +17,12 @@ import asyncio
 import hashlib
 import json
 import logging
+import os
 import re
 import time
 from dataclasses import dataclass, field
 from enum import Enum
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from anthropic import AsyncAnthropic
@@ -195,6 +197,45 @@ _INSTRUCTOR_PATTERNS = [
 ]
 _UNITS_RE = re.compile(r"(\d{1,2})\s*(?:个?\s*学分|units?|credits?)", re.I)
 
+# ── 课程词典（由 tools/build_course_data.py 产出，缺失时降级为纯模式抽取）────
+_DICTIONARIES_ENV = "COURSEHUB_DICTIONARIES_PATH"
+_dictionaries_loaded = False
+_INSTRUCTOR_LASTNAMES: Dict[str, str] = {}   # 小写姓氏 → 展示形
+_SUBJECT_CODES: set = set()
+# 词典姓氏匹配时跳过的常见英文句首/功能词（可能与真实姓氏同形）
+_NAME_STOPWORDS = {
+    "what", "when", "where", "which", "who", "whose", "should", "would", "could",
+    "there", "this", "that", "with", "from", "will", "does", "how", "take",
+    "course", "class", "section", "about", "tell", "professor", "prof", "the",
+    "and", "for", "are", "have", "many", "much", "left", "space", "units",
+}
+
+
+def _load_dictionaries() -> None:
+    """懒加载教授/科目词典（一次性），供实体抽取使用。"""
+    global _dictionaries_loaded, _INSTRUCTOR_LASTNAMES, _SUBJECT_CODES
+    if _dictionaries_loaded:
+        return
+    _dictionaries_loaded = True
+    path = Path(os.getenv(_DICTIONARIES_ENV, "data/coursehub/dictionaries.json"))
+    if not path.is_absolute():
+        path = Path(__file__).resolve().parent.parent / path
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        logger.info(f"课程词典不可用（{path}），实体抽取使用模式兜底")
+        return
+    _SUBJECT_CODES = {str(s).upper() for s in data.get("subjects", [])}
+    lastnames: Dict[str, str] = {}
+    for name in data.get("instructors", []):
+        name = str(name)
+        # "Butler, Elizabeth Annette" → Butler；"Libby Butler" → Butler
+        last = name.split(",")[0].strip() if "," in name else name.strip().rsplit(" ", 1)[-1]
+        if len(last) >= 4 and last.lower() not in _NAME_STOPWORDS:
+            lastnames.setdefault(last.lower(), last)
+    _INSTRUCTOR_LASTNAMES = lastnames
+    logger.info(f"课程词典已加载: {len(_SUBJECT_CODES)} 个科目, {len(lastnames)} 个教授姓氏")
+
 
 def _cosine(a: List[float], b: List[float]) -> float:
     """纯 Python 余弦相似度，不依赖 numpy。"""
@@ -339,7 +380,7 @@ class IntentRecognizer:
         try:
             resp = await self.client.messages.create(
                 model=self.model,
-                max_tokens=256,
+                max_tokens=2048,
                 temperature=0.1,
                 messages=[{"role": "user", "content": prompt}],
             )
@@ -483,12 +524,19 @@ class IntentRecognizer:
         由数据预处理产出后接入。
         """
         message = self._clean_text(message)
+        _load_dictionaries()
+        codes = self._extract_course_codes(message)
+        subjects = [code.split(" ")[0] for code in codes]
+        if _SUBJECT_CODES:
+            # 独立科目提及（"CSE 有哪些课"）：只认原文大写形式，避免普通英文单词误报
+            subjects.extend(
+                token for token in re.findall(r"\b[A-Z]{2,4}\b", message)
+                if token in _SUBJECT_CODES
+            )
         return {
-            "course_code": self._extract_course_codes(message),
+            "course_code": codes,
             "term": self._extract_terms(message),
-            "subject": self._unique(
-                code.split(" ")[0] for code in self._extract_course_codes(message)
-            ),
+            "subject": self._unique(subjects),
             "instructor": self._extract_instructors(message),
             "units": self._unique(_UNITS_RE.findall(message)),
         }
@@ -523,6 +571,14 @@ class IntentRecognizer:
         names = []
         for pattern in _INSTRUCTOR_PATTERNS:
             names.extend(pattern.findall(message))
+        # 词典姓氏匹配：只认原文首字母大写的词，姓氏长度 ≥4，排除常见功能词
+        if _INSTRUCTOR_LASTNAMES:
+            for word in re.findall(r"\b[A-Z][A-Za-z'’\-]{3,}\b", message):
+                if word.lower() in _NAME_STOPWORDS:
+                    continue
+                canonical = _INSTRUCTOR_LASTNAMES.get(word.lower())
+                if canonical:
+                    names.append(canonical)
         return self._unique(names)
 
     # ── 辅助 ──────────────────────────────────────────────────────────────────

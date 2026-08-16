@@ -61,7 +61,7 @@ class KnowledgeBase:
         # 本地模式时也不传，使用 ChromaDB 默认的（会触发模型下载）
         self._collection = self._client.get_or_create_collection(
             name=self.COLLECTION_NAME,
-            metadata={"description": "EchoMind RAG 知识库"},
+            metadata={"description": "CourseHub RAG 知识库"},
         )
 
         # 如果知识库为空，导入默认文档
@@ -70,25 +70,32 @@ class KnowledgeBase:
 
     # ── 文档管理 ──────────────────────────────────────────────────────────────
 
-    def add_documents(self, documents: List[Dict[str, str]]) -> int:
+    def add_documents(self, documents: List[Dict[str, Any]]) -> int:
         """
         批量导入文档到知识库。
 
-        documents 格式: [{"title": "...", "content": "..."}, ...]
-        长文档会自动切片（每片 500 字）。
+        documents 格式: [{"title": "...", "content": "...", "metadata": {...}}, ...]
+        metadata 可选，键值会并入每个片段的 ChromaDB metadata（值需为标量），
+        用于按学期/科目等维度过滤和排查。长文档会自动切片（每片 500 字）。
         """
         ids, docs, metas = [], [], []
 
         for doc in documents:
             title   = doc.get("title", "")
             content = doc.get("content", "")
+            extra   = doc.get("metadata") or {}
             chunks  = self._chunk_text(content, chunk_size=500)
 
             for i, chunk in enumerate(chunks):
                 doc_id = hashlib.md5(f"{title}_{i}_{chunk[:50]}".encode()).hexdigest()
                 ids.append(doc_id)
                 docs.append(chunk)
-                metas.append({"title": title, "chunk_index": i, "total_chunks": len(chunks)})
+                meta = {"title": title, "chunk_index": i, "total_chunks": len(chunks)}
+                meta.update({
+                    k: v for k, v in extra.items()
+                    if isinstance(v, (str, int, float, bool))
+                })
+                metas.append(meta)
 
         if ids:
             # ChromaDB 会自动生成 Embedding
@@ -184,75 +191,64 @@ class KnowledgeBase:
         return chunks
 
     def _load_default_docs(self) -> None:
-        """导入默认知识库文档（客服场景常见问题）。"""
+        """导入默认知识库文档（CourseHub 元信息）。
+
+        课程正文数据由 tools/build_course_data.py 渲染后批量导入；这里只放
+        描述系统自身的元文档，保证空库启动时 meta 类问题有据可答。
+        """
         default_docs = [
             {
-                "title": "退款政策",
+                "title": "CourseHub 数据来源与覆盖",
                 "content": (
-                    "退款政策说明。"
-                    "用户在购买后 7 天内可以申请无理由退款。"
-                    "退款申请提交后，系统会在 1-3 个工作日内审核。"
-                    "审核通过后，款项将在 5-7 个工作日内退回原支付账户。"
-                    "如果商品已发货，需要先完成退货流程才能退款。"
-                    "退货运费由用户承担，除非是商品质量问题。"
-                    "超过 7 天但未超过 30 天的订单，需要提供商品质量问题的证据才能退款。"
+                    "CourseHub 的数据来自 UCSD 课程目录快照（SunGrid 发布）。"
+                    "覆盖 FA24 至 FA26 共 15 个学期，包括秋冬春三个常规学季和夏季学期。"
+                    "数据为静态快照，生成时间为 2026-08-13；不是实时数据。"
+                    "包含：课程内容与学分、先修与限制、上课时间地点、名额快照、授课教授、成绩历史记录。"
                 ),
             },
             {
-                "title": "订单查询",
+                "title": "名额数据使用规则",
                 "content": (
-                    "订单查询指南。"
-                    "用户可以通过订单号查询订单状态。"
-                    "订单状态包括：待支付、已支付、已发货、运输中、已签收、已完成。"
-                    "如果订单显示已发货但超过 7 天未收到，可以联系客服申请查件。"
-                    "物流信息通常在发货后 24 小时内更新。"
-                    "如果订单显示异常，请提供订单号联系客服处理。"
+                    "名额、座位、waitlist 数字来自课程目录快照，附有快照时间戳。"
+                    "这些数字不是实时的，实际选课名额以 WebReg 为准。"
+                    "最新学期的名额覆盖完整；较早学期的名额覆盖不完整，缺失时会如实说明。"
                 ),
             },
             {
-                "title": "账户安全",
+                "title": "成绩历史数据的读法",
                 "content": (
-                    "账户安全说明。"
-                    "建议用户定期修改密码，密码长度至少 8 位，包含字母和数字。"
-                    "如果忘记密码，可以通过绑定的手机号或邮箱重置。"
-                    "发现账户异常登录时，系统会自动锁定账户并发送通知。"
-                    "用户可以在安全设置中开启两步验证，提高账户安全性。"
-                    "不要将密码分享给他人，客服人员不会索要用户密码。"
+                    "成绩参考来自 Instructor Grade Archive，按教授和学期逐条记录 GPA 与成绩分布。"
+                    "不同教授、不同学期的差异很大，因此不提供也不应合成单一的课程平均 GPA。"
+                    "CourseHub 没有 CAPE 或 SET 教评数据。"
+                    "成绩记录只覆盖部分课程和学期；没有记录不代表课程有问题。"
                 ),
             },
             {
-                "title": "技术故障排查",
+                "title": "CourseHub 能力边界",
                 "content": (
-                    "常见技术问题排查。"
-                    "应用崩溃：请尝试清除缓存后重启应用，如果问题持续请更新到最新版本。"
-                    "登录失败 401 错误：表示认证失败，请检查用户名密码是否正确，或尝试重置密码。"
-                    "页面加载慢：检查网络连接，尝试切换 WiFi 或移动数据。"
-                    "支付失败：确认银行卡余额充足，检查是否开启了网上支付功能。"
-                    "500 服务器错误：这是服务端问题，请稍后重试，如果持续出现请联系技术支持。"
+                    "CourseHub 可以回答：课程内容、学分、先修、上课时间地点、名额快照、授课教授、成绩历史，"
+                    "并提供非官方的选课规划参考。"
+                    "CourseHub 不能：代用户注册或退课、提供实时名额、提供 CAPE/SET 教评、出具官方 advising 结论。"
+                    "个案事务（enrollment hold、petition、prereq waiver、成绩申诉）需要通过官方渠道处理："
+                    "Virtual Advising Center、院系 advisor 或 WebReg 支持。"
                 ),
             },
             {
-                "title": "会员与积分",
+                "title": "UCSD 学期代码说明",
                 "content": (
-                    "会员积分规则。"
-                    "每消费 1 元累积 1 积分。"
-                    "积分可以在下次购物时抵扣，100 积分 = 1 元。"
-                    "会员等级分为：普通会员、银卡会员（累计消费 1000 元）、金卡会员（累计消费 5000 元）。"
-                    "银卡会员享受 95 折优惠，金卡会员享受 9 折优惠。"
-                    "积分有效期为 1 年，过期自动清零。"
-                    "生日当月消费可获得双倍积分。"
+                    "UCSD 学期代码：FA 表示秋季（Fall），WI 表示冬季（Winter），SP 表示春季（Spring），"
+                    "S1/S2/S3 表示夏季学期（Summer Session）。代码后两位是年份，例如 FA26 是 2026 年秋季。"
+                    "问课程信息时建议带上学期，例如 FA26 的 CSE 100；不指定学期时默认按最新学期回答。"
                 ),
             },
             {
-                "title": "配送说明",
+                "title": "如何问出更准确的答案",
                 "content": (
-                    "配送服务说明。"
-                    "标准配送：3-5 个工作日送达，免运费（订单满 99 元）。"
-                    "加急配送：1-2 个工作日送达，运费 15 元。"
-                    "同城配送：当日达或次日达，运费 10 元。"
-                    "偏远地区可能需要额外 2-3 天。"
-                    "配送时间为每天 9:00-18:00，节假日可能延迟。"
-                    "如果需要修改收货地址，请在发货前联系客服。"
+                    "提供课程号（例如 CSE 100、MATH 20C）可以获得精确的课程信息。"
+                    "课程号写法宽松：cse100、CSE-100、cse 100 都可以识别。"
+                    "学期可以用代码（FA26）或自然语言（Fall 2026、2026 秋）。"
+                    "问教授相关信息时给出姓氏即可，例如 Professor Kane。"
+                    "中文和英文提问都支持。"
                 ),
             },
         ]

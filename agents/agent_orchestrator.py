@@ -178,11 +178,15 @@ class BaseAgent:
 
         resp = await self._client.messages.create(
             model=self._model,
-            max_tokens=1024,
+            max_tokens=4096,
             system=self._build_system_prompt(req),
             messages=messages,
         )
-        return extract_text_content(resp.content)
+        content = extract_text_content(resp.content)
+        if not content.strip():
+            # 推理型模型可能只输出 thinking 块（如 max_tokens 耗尽），按失败处理走降级
+            raise RuntimeError(f"LLM 返回空文本 (stop_reason={getattr(resp, 'stop_reason', None)})")
+        return content
 
     def _build_system_prompt(self, req: Request) -> str:
         """把动态加载的 Skills 拼入 system prompt，让业务规则随请求生效。"""

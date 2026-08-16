@@ -5,6 +5,7 @@ EchoMind 智能客服系统 — FastAPI 入口
 所有核心组件在 lifespan 中初始化，通过环境变量配置。
 """
 import asyncio
+import json
 import logging
 import os
 import pathlib
@@ -133,7 +134,7 @@ async def lifespan(app: FastAPI):
         query = params.get("query", "")
         return [{
             "title": "知识库降级结果",
-            "content": f"知识库暂时不可用，未能完成对“{query}”的语义检索。请稍后重试，或转人工客服确认。",
+            "content": f"知识库暂时不可用，未能完成对“{query}”的语义检索。请稍后重试；课程信息也可以在 UCSD 官方目录和 WebReg 中确认。",
             "score": 0.0,
             "fallback": True,
             "error": error,
@@ -290,7 +291,9 @@ async def chat(req: ChatRequest):
     ] if mem_ctx.recent_messages else None
 
     intent_result = await _orchestrator.recognize_intent(req.message, history=history)
-    knowledge_text, knowledge_used = await _build_knowledge_context(req.message, intent=intent_result.intent)
+    knowledge_text, knowledge_used = await _build_knowledge_context(
+        req.message, intent=intent_result.intent, entities=intent_result.entities,
+    )
     context_parts = [mem_ctx.to_prompt_text()]
     if knowledge_text:
         context_parts.append(knowledge_text)
@@ -339,66 +342,123 @@ async def chat(req: ChatRequest):
     )
 
 
-async def _build_knowledge_context(message: str, intent=None, top_k: int = 3) -> tuple[str, bool]:
+async def _build_knowledge_context(
+    message: str, intent=None, entities=None, top_k: int = 3,
+) -> tuple[str, bool]:
     """
-    为 /chat 主链路构建 RAG 知识上下文。
+    为 /chat 主链路构建混合检索上下文（ADR-0001）。
 
-    这里复用 MCPToolManager 的查询改写、并行召回、重排、fallback 能力。
+    语义侧复用 MCPToolManager 的查询改写、并行召回、重排、fallback 能力；
+    结构化侧在实体命中 course_code/instructor 时并行调用 course_lookup。
+    两路结果共同拼进上下文，主链路形状不变。
     """
     if _tool_manager is None:
         return "", False
     if not _should_use_knowledge(message, intent=intent):
         return "", False
     try:
-        result = await _tool_manager.search_with_rewrite("knowledge_search", message, top_k=top_k)
-        if not result.success or not isinstance(result.data, list) or not result.data:
-            return "", False
+        semantic_task = _tool_manager.search_with_rewrite("knowledge_search", message, top_k=top_k)
+        lookup_task = _build_course_lookup_context(intent, entities)
+        result, lookup_text = await asyncio.gather(semantic_task, lookup_task)
 
-        parts = ["[知识库检索结果]"]
-        used = False
-        for i, item in enumerate(result.data[:top_k], start=1):
-            if not isinstance(item, dict):
-                continue
-            title = str(item.get("title", "未命名文档"))
-            content = str(item.get("content", "")).strip()
-            score = item.get("score", "")
-            if not content:
-                continue
-            used = True
-            parts.append(f"{i}. 标题: {title}\n   相关度: {score}\n   内容: {content[:600]}")
+        parts = []
+        semantic_parts = []
+        if result.success and isinstance(result.data, list):
+            for i, item in enumerate(result.data[:top_k], start=1):
+                if not isinstance(item, dict):
+                    continue
+                title = str(item.get("title", "未命名文档"))
+                content = str(item.get("content", "")).strip()
+                score = item.get("score", "")
+                if not content:
+                    continue
+                semantic_parts.append(f"{i}. 标题: {title}\n   相关度: {score}\n   内容: {content[:600]}")
+        if semantic_parts:
+            parts.append("[知识库检索结果]\n" + "\n".join(semantic_parts))
+        if lookup_text:
+            parts.append(lookup_text)
 
-        if not used:
+        if not parts:
             return "", False
-        parts.append("请优先依据以上知识库内容回答；如果知识库内容不足，再结合通用客服能力说明。")
-        return "\n".join(parts), True
+        parts.append(
+            "请优先依据以上检索内容回答。精确数字（名额、上课时间、GPA、学分）只能引用"
+            "[课程数据查询结果]中的数值；名额必须注明 availability_timestamp 或数据生成时间，"
+            "并说明非实时。检索内容不足时如实说明数据未覆盖。"
+        )
+        return "\n\n".join(parts), True
     except Exception as ex:
         logger.warning(f"构建知识库上下文失败: {ex}")
         return "", False
 
 
+async def _build_course_lookup_context(intent=None, entities=None) -> str:
+    """实体命中时调用 course_lookup（结构化 Course Index 查询），返回上下文文本块。"""
+    if _tool_manager is None or not entities:
+        return ""
+    codes = list(entities.get("course_code") or [])[:2]
+    instructors = list(entities.get("instructor") or [])[:1]
+    terms = list(entities.get("term") or [])
+    term = terms[0] if terms else None
+    intent_value = getattr(intent, "value", intent)
+
+    calls: List[Dict[str, Any]] = []
+    for code in codes:
+        params: Dict[str, Any] = {"action": "course", "course_code": code}
+        if term:
+            params["term"] = term
+        calls.append(params)
+        if intent_value in ("grades_history", "professor_choice"):
+            calls.append({"action": "grades", "course_code": code})
+    if not codes and instructors:
+        params = {"action": "instructor", "instructor": instructors[0]}
+        if term:
+            params["term"] = term
+        calls.append(params)
+    if not calls:
+        return ""
+
+    results = await asyncio.gather(
+        *[_tool_manager.call("course_lookup", p) for p in calls],
+        return_exceptions=True,
+    )
+    parts = []
+    for params, result in zip(calls, results):
+        if isinstance(result, Exception):
+            continue
+        if not getattr(result, "success", False) or not result.data:
+            continue
+        label = params.get("course_code") or params.get("instructor") or ""
+        payload = json.dumps(result.data, ensure_ascii=False, default=str)
+        parts.append(f"- {params['action']} {label}: {payload[:1800]}")
+    if not parts:
+        return ""
+    return "[课程数据查询结果]\n" + "\n".join(parts)
+
+
 def _should_use_knowledge(message: str, intent=None) -> bool:
-    """跳过纯寒暄，业务类问题才检索知识库，避免无关 RAG 干扰回复。"""
+    """跳过纯寒暄和转介类问题，课程类问题才检索知识库，避免无关 RAG 干扰回复。"""
     msg = (message or "").strip().lower()
     if not msg:
         return False
     intent_value = getattr(intent, "value", intent)
-    if intent_value in {"greeting", "feedback", "escalation", "human_handoff", "other"}:
+    if intent_value in {"greeting", "escalation", "advisor_referral", "other"}:
         return False
     if intent_value in {
-        "query", "request", "technical", "billing", "account", "complaint",
-        "order_status", "logistics", "refund", "invoice", "payment_issue",
-        "account_security", "technical_login", "technical_crash",
+        "facts", "planning", "meta_info",
+        "course_overview", "prerequisites", "schedule", "availability",
+        "instructor_lookup", "grades_history", "course_search",
+        "plan_sequence", "workload_advice", "professor_choice",
     }:
         return True
     greetings = {"你好", "您好", "嗨", "hi", "hello", "hey", "早上好", "晚上好"}
     if msg in greetings:
         return False
-    business_keywords = [
-        "退款", "订单", "物流", "配送", "发票", "扣款", "支付", "账单", "订阅",
-        "登录", "报错", "错误", "崩溃", "会员", "积分", "账户", "密码", "地址",
-        "refund", "order", "invoice", "payment", "error", "login",
+    course_keywords = [
+        "课", "先修", "学分", "名额", "教授", "老师", "成绩", "gpa", "选课",
+        "上课", "教室", "waitlist", "course", "class", "prereq", "units",
+        "professor", "instructor", "schedule", "seat", "grade",
     ]
-    return len(msg) >= 4 or any(kw in msg for kw in business_keywords)
+    return len(msg) >= 4 or any(kw in msg for kw in course_keywords)
 
 
 @app.get("/monitor")
