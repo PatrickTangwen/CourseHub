@@ -19,7 +19,7 @@ function stubSystemDark(matches: boolean) {
 
 beforeEach(() => {
   localStorage.clear();
-  document.documentElement.classList.remove("dark");
+  document.documentElement.classList.remove("dark", "light");
   vi.unstubAllGlobals();
 });
 
@@ -47,6 +47,20 @@ describe("theme", () => {
     setThemePreference("system");
     expect(localStorage.getItem("coursehub.theme")).toBeNull();
     expect(document.documentElement.classList.contains("dark")).toBe(true);
+  });
+
+  it("states the active theme explicitly, so 'no dark class' never has to mean light", () => {
+    // 第三方组件(thinking-orbs)按 dark/light class 判定主题,找不到就回落
+    // prefers-color-scheme——手动选 light 而系统偏好 dark 时会判反。
+    stubSystemDark(true);
+    setThemePreference("light");
+    const classes = document.documentElement.classList;
+    expect(classes.contains("light")).toBe(true);
+    expect(classes.contains("dark")).toBe(false);
+
+    setThemePreference("dark");
+    expect(classes.contains("dark")).toBe(true);
+    expect(classes.contains("light")).toBe(false);
   });
 
   it("cycles system → light → dark → system", () => {

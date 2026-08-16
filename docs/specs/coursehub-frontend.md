@@ -65,13 +65,17 @@
 |---|---|---|
 | `run_started` | Thinking… | — |
 | `memory_recalled` | Recalling conversation context | 命中层与条数 |
-| `intent_recognized` | Understanding the question | intent + 置信度 + **三路融合 source scores** |
+| `intent_recognized` | Understanding the question | intent + 置信度 + **三路融合信号**(见下) |
 | `routing_decided` | Routing to specialists | "Course Agent (lead) · Planning Agent (support)" + `routing_reason` |
 | `tool_call_*`(`course_lookup`) | Searching the course index | 耗时、成功状态 |
 | `tool_call_*`(语义检索) | Reading course materials | 同上 |
 | 未知工具名 | 原始 `tool_name` 兜底 | 同上 |
 
 映射表集中在一个模块维护,与 [CONTEXT.md](../../CONTEXT.md) 词汇对齐(遵守 Avoid 词表)。
+
+**进行中的步骤**用 [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs)(MIT,2D canvas)的 20px 动画球,每个阶段配语义贴合的状态:意图判定 `solving`(打乱的条带归位)、结构化索引查询 `searching`、语义检索 `weaving`(多子查询召回后重排)、路由 `connecting`、记忆 `listening`,未知工具与占位回落 `working`。只有进行中的步骤跑动画,完成后回落静态点(槽位宽度固定,切换不横跳)。
+
+**三路融合信号**不显示裸 key 与裸分数:`llm`/`embedding`/`pattern` 译为 LLM classifier / Embedding similarity / Keyword patterns,配强度条,最强的一路标 lead,**得分为 0 的一路显示 `no signal` 而不是 `0.00`**——embedding 在配了自定义 `base_url` 时根本不参与判定,`0.00` 会被读成"向量检索没匹配上"。未知信号名回落原始 key。
 
 ### 4.3 领域约束呈现
 

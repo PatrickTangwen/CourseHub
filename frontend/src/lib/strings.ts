@@ -58,7 +58,21 @@ export const PROCESS_STRINGS = {
     `profile ${available ? "available" : "unavailable"}`,
   summaryAvailability: (available: boolean) =>
     `summary ${available ? "available" : "unavailable"}`,
-  sourceScores: (scores: string) => `source scores: ${scores}`,
+  /**
+   * 三路意图信号:裸 key + 裸分数读不出信息量,尤其 0.00 会被读成
+   * "向量检索没匹配上",而它常常只是这一路没参与。改用人话标签 +
+   * "no signal" + 主导路标记。
+   */
+  intentSignals: "Intent signals",
+  signalLabels: {
+    llm: "LLM classifier",
+    embedding: "Embedding similarity",
+    pattern: "Keyword patterns",
+    refined_by_pattern: "Pattern refinement",
+  } as Record<string, string>,
+  signalLead: "lead",
+  signalNone: "no signal",
+  signalRefined: "refined the vote",
   leadAgent: (agent: string) => `${agent} (lead)`,
   supportingAgent: (agent: string) => `${agent} (support)`,
   toolCount: (count: number) => ` ×${count}`,

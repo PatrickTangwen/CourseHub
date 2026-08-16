@@ -160,8 +160,17 @@ describe("stage events (T2 placeholder display)", () => {
     expect(steps).toHaveTextContent("Course Agent (lead)");
     expect(steps).toHaveTextContent("Planning Agent (support)");
     expect(steps).toHaveTextContent("intent=course_overview, primary=course");
-    expect(steps).toHaveTextContent("llm 0.90");
-    expect(steps).toHaveTextContent("pattern 0.70");
+    // 三路信号用人话标签呈现;没出力的一路是 "no signal" 而不是误导性的 0.00
+    expect(steps).toHaveTextContent("Intent signals");
+    const llmSignal = within(steps).getByTestId("signal-llm");
+    expect(llmSignal).toHaveTextContent("LLM classifier");
+    expect(llmSignal).toHaveTextContent("0.90");
+    expect(llmSignal).toHaveTextContent("lead");
+    const embeddingSignal = within(steps).getByTestId("signal-embedding");
+    expect(embeddingSignal).toHaveTextContent("Embedding similarity");
+    expect(embeddingSignal).toHaveTextContent("no signal");
+    expect(within(steps).getByTestId("signal-pattern")).toHaveTextContent("0.70");
+    expect(steps).not.toHaveTextContent("embedding 0.00");
     expect(steps).toHaveTextContent("13ms");
     expect(steps).toHaveTextContent("(knowledge_search)");
     expect(steps).toHaveTextContent("(course_overview)");

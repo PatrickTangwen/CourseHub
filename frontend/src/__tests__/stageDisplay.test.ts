@@ -36,6 +36,127 @@ describe("buildTimeline", () => {
     expect(steps.some((s) => s.key.startsWith("tool:"))).toBe(false);
   });
 
+  it("turns raw intent source scores into named signals with a lead", () => {
+    const steps = buildTimeline(
+      [
+        stage("intent_recognized", {
+          intent: "plan_sequence",
+          intent_group: "planning",
+          intent_confidence: 0.91,
+          // embedding 这一路在配了自定义 base_url 时根本不跑,恒为 0——
+          // 显示成 "0.00" 会被读成"向量检索没匹配上",必须区分开。
+          intent_source_scores: { llm: 0.98, embedding: 0, pattern: 0.5 },
+        }),
+      ],
+      false,
+    );
+    const intent = steps.find((s) => s.key === "intent")!;
+    expect(intent.signals).toEqual([
+      { key: "llm", label: "LLM classifier", score: 0.98, lead: true },
+      { key: "embedding", label: "Embedding similarity", score: 0, lead: false },
+      { key: "pattern", label: "Keyword patterns", score: 0.5, lead: false },
+    ]);
+    // 旧的裸分数文案不再出现
+    expect(intent.expandedDetail).toBeUndefined();
+  });
+
+  it("folds refined_by_pattern into the pattern row instead of duplicating it", () => {
+    // 后端把 refined_by_pattern 设成 pattern 分数的副本(intent_recognizer.py),
+    // 单列一行会读成"两路独立信号都给了 0.55"。
+    const steps = buildTimeline(
+      [
+        stage("intent_recognized", {
+          intent: "professor_choice",
+          intent_group: "planning",
+          intent_confidence: 0.55,
+          intent_source_scores: {
+            llm: 0.4,
+            embedding: 0,
+            pattern: 0.55,
+            refined_by_pattern: 0.55,
+          },
+        }),
+      ],
+      false,
+    );
+    expect(steps[0].signals).toEqual([
+      { key: "llm", label: "LLM classifier", score: 0.4, lead: false },
+      { key: "embedding", label: "Embedding similarity", score: 0, lead: false },
+      { key: "pattern", label: "Keyword patterns", score: 0.55, lead: true, refined: true },
+    ]);
+  });
+
+  it("keeps a refinement signal standing alone when its base signal is absent", () => {
+    const steps = buildTimeline(
+      [
+        stage("intent_recognized", {
+          intent: "professor_choice",
+          intent_group: "planning",
+          intent_confidence: 0.55,
+          intent_source_scores: { refined_by_pattern: 0.55 },
+        }),
+      ],
+      false,
+    );
+    expect(steps[0].signals).toEqual([
+      { key: "refined_by_pattern", label: "Pattern refinement", score: 0.55, lead: true },
+    ]);
+  });
+
+  it("falls back to the raw key for unknown intent signals", () => {
+    const steps = buildTimeline(
+      [
+        stage("intent_recognized", {
+          intent: "greeting",
+          intent_group: "general",
+          intent_confidence: 1,
+          intent_source_scores: { mystery_source: 0.4 },
+        }),
+      ],
+      false,
+    );
+    expect(steps[0].signals).toEqual([
+      { key: "mystery_source", label: "mystery_source", score: 0.4, lead: true },
+    ]);
+  });
+
+  it("gives every step a thinking-orb state matching what it is doing", () => {
+    const steps = buildTimeline(
+      [
+        stage("memory_recalled", {
+          working_messages: 1,
+          episodic_hits: 0,
+          has_profile: true,
+          has_summary: false,
+        }),
+        stage("intent_recognized", {
+          intent: "course_overview",
+          intent_group: "facts",
+          intent_confidence: 0.9,
+          intent_source_scores: { llm: 0.9 },
+        }),
+        stage("tool_call_started", { tool_name: "course_lookup" }),
+        stage("tool_call_started", { tool_name: "knowledge_search" }),
+        stage("tool_call_started", { tool_name: "mystery_tool" }),
+        stage("routing_decided", {
+          primary_agent: "course",
+          supporting_agents: [],
+          routing_reason: "facts → course",
+          routing_confidence: 0.9,
+        }),
+      ],
+      false,
+    );
+    expect(Object.fromEntries(steps.map((s) => [s.key, s.orb]))).toEqual({
+      memory: "listening",
+      intent: "solving",
+      routing: "connecting",
+      "tool:course_lookup": "searching",
+      "tool:knowledge_search": "weaving",
+      "tool:mystery_tool": "working",
+    });
+  });
+
   it("aggregates repeated tool calls into one step with count and total duration", () => {
     const steps = buildTimeline(
       [
@@ -74,7 +195,9 @@ describe("buildTimeline", () => {
 
   it("shows a Thinking placeholder while only run_started has arrived", () => {
     const steps = buildTimeline([stage("run_started", { conv_id: "c" })], true);
-    expect(steps).toEqual([{ key: "thinking", label: "Thinking…", active: true }]);
+    expect(steps).toEqual([
+      { key: "thinking", label: "Thinking…", orb: "working", active: true },
+    ]);
     // 其余阶段到达后占位消失
     const later = buildTimeline(
       [
