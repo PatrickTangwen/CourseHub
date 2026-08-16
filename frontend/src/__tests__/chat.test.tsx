@@ -152,7 +152,7 @@ describe("stage events (T2 placeholder display)", () => {
     expect(toggle).toHaveAttribute("aria-expanded", "false");
     expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
     expect(toggle).toHaveTextContent("Course Agent");
-    expect(toggle).toHaveTextContent("1 lookup");
+    expect(toggle).toHaveTextContent("1 tool call");
 
     // 展开:详情含主/辅 Agent、路由理由、三路分数、工具耗时与原始标识
     await user.click(toggle);

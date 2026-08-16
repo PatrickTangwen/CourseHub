@@ -4,11 +4,12 @@ import {
   getThemePreference,
   type ThemePreference,
 } from "../lib/theme";
+import { STRINGS } from "../lib/strings";
 
 const LABELS: Record<ThemePreference, string> = {
-  system: "Theme: system",
-  light: "Theme: light",
-  dark: "Theme: dark",
+  system: STRINGS.themeSystem,
+  light: STRINGS.themeLight,
+  dark: STRINGS.themeDark,
 };
 
 const ICONS: Record<ThemePreference, string> = {

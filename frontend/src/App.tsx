@@ -27,7 +27,7 @@ export default function App() {
         <header className="flex items-center gap-2 border-b border-zinc-200 px-4 py-3 dark:border-zinc-800">
           <button
             type="button"
-            aria-label="Toggle conversation list"
+            aria-label={STRINGS.toggleConversationList}
             aria-expanded={drawerOpen}
             onClick={() => setDrawerOpen((open) => !open)}
             className="rounded-lg px-2 py-1 text-zinc-500 hover:bg-zinc-100 md:hidden dark:text-zinc-400 dark:hover:bg-zinc-800"

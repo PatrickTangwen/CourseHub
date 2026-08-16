@@ -69,6 +69,33 @@ describe("buildTimeline", () => {
     expect(steps[0].label).toBe("mystery_tool");
   });
 
+  it("shows a Thinking placeholder while only run_started has arrived", () => {
+    const steps = buildTimeline([stage("run_started", { conv_id: "c" })], true);
+    expect(steps).toEqual([{ key: "thinking", label: "Thinking…", active: true }]);
+    // 其余阶段到达后占位消失
+    const later = buildTimeline(
+      [
+        stage("run_started", { conv_id: "c" }),
+        stage("memory_recalled", { working_messages: 0, episodic_hits: 0 }),
+      ],
+      true,
+    );
+    expect(later.map((s) => s.key)).toEqual(["memory"]);
+  });
+
+  it("tolerates out-of-order tool frames (finished before started is ignored)", () => {
+    const steps = buildTimeline(
+      [
+        stage("tool_call_finished", { tool_name: "course_lookup", success: true, duration_ms: 5 }),
+        stage("tool_call_started", { tool_name: "course_lookup" }),
+      ],
+      false,
+    );
+    expect(steps).toHaveLength(1);
+    expect(steps[0].raw).toBe("course_lookup");
+    expect(steps[0].active).toBe(false); // started=1, 迟到的 finished 已被忽略 → 不悬挂
+  });
+
   it("reports failed calls in the tool detail", () => {
     const steps = buildTimeline(
       [
@@ -88,7 +115,7 @@ describe("summarizeTimeline", () => {
       stage("tool_call_started", { tool_name: "a" }),
       stage("tool_call_started", { tool_name: "b" }),
     ];
-    expect(summarizeTimeline(stages, answer)).toBe("Course Agent · 2 lookups · 8.6s");
+    expect(summarizeTimeline(stages, answer)).toBe("Course Agent · 2 tool calls · 8.6s");
   });
 
   it("falls back to a generic label when nothing is known", () => {

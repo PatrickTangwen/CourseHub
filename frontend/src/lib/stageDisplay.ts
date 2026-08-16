@@ -66,7 +66,7 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
     const data = asRecord(stage.data);
     switch (stage.event) {
       case "run_started":
-        break; // 由"最后一步 active"的旋转指示承担,不单列
+        break; // 后续阶段到达前由下方的 Thinking 占位步骤承担(spec §4.2)
       case "memory_recalled": {
         const working = Number(data.working_messages ?? 0);
         const episodic = Number(data.episodic_hits ?? 0);
@@ -145,7 +145,14 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
     if (agg.finished > 0) parts.push(`${Math.round(agg.totalMs)}ms`);
     if (agg.failed > 0) parts.push(`${agg.failed} failed`);
     agg.step.detail = parts.join(" · ") || undefined;
-    agg.step.active = agg.started > agg.finished;
+    // 只有运行中才标 active:完成后即使有乱序/缺失的 finished 帧也不悬挂脉冲点。
+    agg.step.active = isRunning && agg.started > agg.finished;
+  }
+
+  // run_started 已到、其余阶段未到:显示 "Thinking…" 占位步骤(spec §4.2)。
+  if (steps.length === 0 && stages.some((s) => s.event === "run_started")) {
+    steps.push({ key: "thinking", label: `${STAGE_LABELS.run_started}…`, active: isRunning });
+    return steps;
   }
 
   if (isRunning && steps.length > 0) {
@@ -162,8 +169,9 @@ export function summarizeTimeline(
 ): string {
   const parts: string[] = [];
   if (answer?.primary_agent) parts.push(agentLabel(answer.primary_agent));
+  // 中性措辞:含语义检索,不能落入 "lookup"(CONTEXT.md 词表边界)。
   const toolCalls = stages.filter((s) => s.event === "tool_call_started").length;
-  if (toolCalls > 0) parts.push(`${toolCalls} lookup${toolCalls > 1 ? "s" : ""}`);
+  if (toolCalls > 0) parts.push(`${toolCalls} tool call${toolCalls > 1 ? "s" : ""}`);
   if (typeof answer?.latency_ms === "number") {
     parts.push(`${(answer.latency_ms / 1000).toFixed(1)}s`);
   }

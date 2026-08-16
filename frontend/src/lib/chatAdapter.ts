@@ -55,10 +55,11 @@ async function fetchChatFallback(
 export function createChatAdapter(): ChatModelAdapter {
   return {
     async *run({ messages, abortSignal }) {
+      const convId = findConvId(messages);
       const body = JSON.stringify({
         message: lastUserText(messages),
         user_id: getBrowserUserId(),
-        ...(findConvId(messages) ? { conv_id: findConvId(messages) } : {}),
+        ...(convId ? { conv_id: convId } : {}),
       });
 
       let response: Response | null = null;
