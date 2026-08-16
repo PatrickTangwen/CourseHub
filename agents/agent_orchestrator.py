@@ -9,11 +9,11 @@
   3. 降级路由 —— 专属 Agent 不可用时，自动降级到 GeneralAgent
 
 并行协作：
-  - 复杂问题（如"技术问题 + 账单问题"）可同时派发给多个 Agent
+  - 复杂问题（如"课程事实 + 选课规划"）可同时派发给多个 Agent
   - 结果由 Orchestrator 合并后返回
 
 升级机制：
-  - Agent 置信度低于阈值 → 自动升级到更高级 Agent 或转人工
+  - 个案事务或 CRITICAL 紧急度 → 转介官方渠道（Advisor Referral）
 """
 import asyncio
 import json
@@ -35,10 +35,10 @@ logger = logging.getLogger(__name__)
 # ── 数据结构 ──────────────────────────────────────────────────────────────────
 
 class AgentType(Enum):
-    GENERAL   = "general"    # 通用客服
-    TECHNICAL = "technical"  # 技术支持
-    BILLING   = "billing"    # 账单/退款
-    ESCALATION = "escalation" # 人工升级（占位）
+    GENERAL   = "general"    # 接待/澄清/元信息
+    COURSE    = "course"     # 课程事实
+    PLANNING  = "planning"   # 选课规划建议
+    ESCALATION = "escalation" # 转介官方渠道（占位）
 
 
 @dataclass
@@ -194,33 +194,94 @@ class BaseAgent:
         return f"{self.system_prompt}\n\n[动态 Skills]\n{skill_prompt}"
 
     def _needs_escalation(self, content: str) -> bool:
-        """检测 Agent 是否建议升级（简单关键词检测）。"""
-        keywords = ["转人工", "人工客服", "escalate", "specialist", "无法处理"]
-        return any(kw in content for kw in keywords)
+        """检测 Agent 是否建议转介官方渠道（简单关键词检测）。
+
+        关键词刻意避开 Planning Agent 免责声明的措辞，防止每条规划建议都被
+        误判为升级。
+        """
+        keywords = ["官方渠道", "virtual advising center", "联系院系顾问", "无法处理"]
+        lowered = content.lower()
+        return any(kw in lowered for kw in keywords)
 
 
 class GeneralAgent(BaseAgent):
     agent_type    = AgentType.GENERAL
     system_prompt = (
-        "你是 EchoMind 智能客服。友好、简洁地回答用户问题。"
-        "如果问题超出你的能力范围，明确说明并建议转接专业客服。"
+        "你是 CourseHub 的接待助手。CourseHub 是回答 UCSD 课程问题的助手，"
+        "数据来自课程目录快照（课程内容、先修、时间地点、名额、教授、成绩历史）。"
+        "友好、简洁，用用户使用的语言（中文或英文）回答。"
+        "你负责问候、说明系统能力与数据范围、以及在问题不明确时澄清需求。"
+        "系统没有 CAPE/SET 教评数据，不能代用户注册选课，名额数据为静态快照而非实时。"
+        "遇到个案事务（enrollment hold、petition、prereq waiver、成绩申诉等），"
+        "说明这类事务需要通过官方渠道处理（Virtual Advising Center、院系 advisor 或 WebReg 支持）。"
     )
 
 
-class TechnicalAgent(BaseAgent):
-    agent_type    = AgentType.TECHNICAL
+class CourseAgent(BaseAgent):
+    agent_type    = AgentType.COURSE
     system_prompt = (
-        "你是技术支持专家。专注于：故障排查、错误诊断、系统配置。"
-        "提供清晰的步骤化解决方案。遇到需要后台操作的问题，说明需要升级处理。"
+        "你是 CourseHub 的课程事实专家，回答 UCSD 课程的客观信息："
+        "课程内容、学分、先修与限制、上课时间地点、名额、授课教授、成绩历史。"
+        "严格基于提供的检索结果和结构化数据回答；精确数字（名额、时间、GPA）"
+        "只能引用数据，绝不猜测或编造。名额/座位数字必须注明数据快照时间并说明非实时。"
+        "成绩历史按 教授 × 学期 逐条列出，不要合成单一课程 GPA。"
+        "课程没有官方描述就明说没有；数据未覆盖就如实说明。回答中标注所指学期。"
+        "用用户使用的语言（中文或英文）回答。"
     )
 
 
-class BillingAgent(BaseAgent):
-    agent_type    = AgentType.BILLING
+class PlanningAgent(BaseAgent):
+    agent_type    = AgentType.PLANNING
     system_prompt = (
-        "你是账单服务专家。专注于：账单查询、退款申请、发票问题、订阅管理。"
-        "对财务问题保持准确和专业。涉及实际退款操作时，说明需要人工审核。"
+        "你是 CourseHub 的选课规划顾问，基于课程数据给出有依据的倾向性建议："
+        "修课顺序、课程组合负担、教授/section 选择。"
+        "每条建议必须引用依据（先修链、时间安排、成绩历史记录等）；"
+        "成绩数据仅覆盖有限的快照范围，不要外推为长期规律。"
+        "每次回答末尾附一行免责声明：本建议为非官方参考，选课决策请咨询学校学业顾问。"
+        "（英文回答时用：Unofficial suggestion — please confirm with your academic counselor.）"
+        "遇到个案事务时说明需要通过官方渠道处理。用用户使用的语言回答。"
     )
+
+
+# ── 领域路由表（_domain_scores 与 _collaboration_targets 共用的单一来源）──────
+
+_COURSE_INTENTS = {
+    IntentCategory.FACTS,
+    IntentCategory.COURSE_OVERVIEW,
+    IntentCategory.PREREQUISITES,
+    IntentCategory.SCHEDULE,
+    IntentCategory.AVAILABILITY,
+    IntentCategory.INSTRUCTOR_LOOKUP,
+    IntentCategory.GRADES_HISTORY,
+    IntentCategory.COURSE_SEARCH,
+}
+_PLANNING_INTENTS = {
+    IntentCategory.PLANNING,
+    IntentCategory.PLAN_SEQUENCE,
+    IntentCategory.WORKLOAD_ADVICE,
+    IntentCategory.PROFESSOR_CHOICE,
+}
+_GENERAL_INTENTS = {
+    IntentCategory.GENERAL,
+    IntentCategory.GREETING,
+    IntentCategory.META_INFO,
+    IntentCategory.OTHER,
+}
+
+_DOMAIN_KEYWORDS: Dict[AgentType, List[str]] = {
+    AgentType.COURSE: [
+        "先修", "prerequisite", "prereq", "学分", "units", "名额", "位置", "seat",
+        "waitlist", "教授", "professor", "instructor", "gpa", "成绩", "给分", "grade",
+        "上课时间", "教室", "schedule", "开课", "什么时候上",
+    ],
+    AgentType.PLANNING: [
+        "建议", "推荐", "规划", "该不该", "怎么选", "选哪个", "顺序", "负担", "太累",
+        "先上", "一起上", "should i", "workload", "plan my", "which professor", "take first",
+    ],
+    AgentType.GENERAL: [
+        "你好", "hello", "hi", "数据来源", "能做什么", "能回答", "帮助", "help", "thanks", "谢谢",
+    ],
+}
 
 
 # ── 编排器 ────────────────────────────────────────────────────────────────────
@@ -237,17 +298,20 @@ class AgentOrchestrator:
 
     # 意图 → Agent 类型的静态映射（路由表）
     _INTENT_ROUTING: Dict[IntentCategory, AgentType] = {
-        IntentCategory.TECHNICAL:  AgentType.TECHNICAL,
-        IntentCategory.TECHNICAL_LOGIN: AgentType.TECHNICAL,
-        IntentCategory.TECHNICAL_CRASH: AgentType.TECHNICAL,
-        IntentCategory.BILLING:    AgentType.BILLING,
-        IntentCategory.REFUND:     AgentType.BILLING,
-        IntentCategory.INVOICE:    AgentType.BILLING,
-        IntentCategory.PAYMENT_ISSUE: AgentType.BILLING,
-        IntentCategory.ACCOUNT:    AgentType.BILLING,
-        IntentCategory.ACCOUNT_SECURITY: AgentType.BILLING,
-        IntentCategory.ESCALATION: AgentType.ESCALATION,
-        IntentCategory.HUMAN_HANDOFF: AgentType.ESCALATION,
+        IntentCategory.FACTS:             AgentType.COURSE,
+        IntentCategory.COURSE_OVERVIEW:   AgentType.COURSE,
+        IntentCategory.PREREQUISITES:     AgentType.COURSE,
+        IntentCategory.SCHEDULE:          AgentType.COURSE,
+        IntentCategory.AVAILABILITY:      AgentType.COURSE,
+        IntentCategory.INSTRUCTOR_LOOKUP: AgentType.COURSE,
+        IntentCategory.GRADES_HISTORY:    AgentType.COURSE,
+        IntentCategory.COURSE_SEARCH:     AgentType.COURSE,
+        IntentCategory.PLANNING:          AgentType.PLANNING,
+        IntentCategory.PLAN_SEQUENCE:     AgentType.PLANNING,
+        IntentCategory.WORKLOAD_ADVICE:   AgentType.PLANNING,
+        IntentCategory.PROFESSOR_CHOICE:  AgentType.PLANNING,
+        IntentCategory.ESCALATION:        AgentType.ESCALATION,
+        IntentCategory.ADVISOR_REFERRAL:  AgentType.ESCALATION,
         # 其余意图 → GENERAL（默认）
     }
 
@@ -268,9 +332,9 @@ class AgentOrchestrator:
 
         # Agent 池：每种类型可有多个实例（水平扩展）
         self._pool: Dict[AgentType, List[BaseAgent]] = {
-            AgentType.GENERAL:   [GeneralAgent(client, model, skill_manager)],
-            AgentType.TECHNICAL: [TechnicalAgent(client, model, skill_manager)],
-            AgentType.BILLING:   [BillingAgent(client, model, skill_manager)],
+            AgentType.GENERAL:  [GeneralAgent(client, model, skill_manager)],
+            AgentType.COURSE:   [CourseAgent(client, model, skill_manager)],
+            AgentType.PLANNING: [PlanningAgent(client, model, skill_manager)],
         }
 
     def set_skill_manager(self, skill_manager: Optional[Any]) -> None:
@@ -308,7 +372,10 @@ class AgentOrchestrator:
         if self._needs_clarification(req):
             return OrchestratorResult(
                 request_id=req.request_id,
-                response="我还不能确定您要处理的是哪类问题。请补充一下是订单物流、退款账单、账户资料，还是技术故障？",
+                response=(
+                    "我还不能确定您想了解哪类信息。请补充一下是课程内容、上课时间/名额、"
+                    "成绩历史，还是选课规划建议？(You can also ask me in English.)"
+                ),
                 agent_type=AgentType.GENERAL,
                 intent=req.intent,
                 escalated=False,
@@ -331,11 +398,11 @@ class AgentOrchestrator:
         escalated = False
         if response.escalate or req.urgency == UrgencyLevel.CRITICAL or req.intent in (
             IntentCategory.ESCALATION,
-            IntentCategory.HUMAN_HANDOFF,
+            IntentCategory.ADVISOR_REFERRAL,
         ):
             escalated = True
-            logger.warning(f"请求 {req.request_id} 触发升级: urgency={req.urgency}")
-            # 生产环境：此处创建工单、通知人工客服
+            logger.warning(f"请求 {req.request_id} 触发转介: urgency={req.urgency}")
+            # escalated=true 语义：已转介官方渠道（VAC / 院系 advisor / WebReg 支持）
 
         return OrchestratorResult(
             request_id=req.request_id,
@@ -422,10 +489,10 @@ class AgentOrchestrator:
                 confidence=1.0,
             )
 
-        if req.intent in (IntentCategory.ESCALATION, IntentCategory.HUMAN_HANDOFF):
+        if req.intent in (IntentCategory.ESCALATION, IntentCategory.ADVISOR_REFERRAL):
             return RoutingDecision(
                 primary_agent=AgentType.ESCALATION,
-                reason=f"意图为 {req.intent.value if req.intent else 'unknown'}，触发升级路由",
+                reason=f"意图为 {req.intent.value if req.intent else 'unknown'}，触发转介路由",
                 confidence=max(req.intent_confidence, 0.8),
             )
 
@@ -459,62 +526,39 @@ class AgentOrchestrator:
         )
 
     def _domain_scores(self, req: Request) -> Dict[AgentType, float]:
-        """按意图、关键词和实体为各领域 Agent 打分。"""
+        """按意图、关键词和实体为各领域 Agent 打分（词表与协作检测共用单一来源）。"""
         msg = req.message.lower()
         scores = {
             AgentType.GENERAL: 0.1,
-            AgentType.TECHNICAL: 0.0,
-            AgentType.BILLING: 0.0,
+            AgentType.COURSE: 0.0,
+            AgentType.PLANNING: 0.0,
         }
 
-        if req.intent in (
-            IntentCategory.QUERY,
-            IntentCategory.ORDER_STATUS,
-            IntentCategory.LOGISTICS,
-            IntentCategory.REQUEST,
-            IntentCategory.COMPLAINT,
-            IntentCategory.GREETING,
-            IntentCategory.FEEDBACK,
-            IntentCategory.OTHER,
-        ):
+        if req.intent in _GENERAL_INTENTS:
             scores[AgentType.GENERAL] += 0.55
+        if req.intent in _COURSE_INTENTS:
+            scores[AgentType.COURSE] += 0.75
+        if req.intent in _PLANNING_INTENTS:
+            scores[AgentType.PLANNING] += 0.75
 
-        if req.intent in (
-            IntentCategory.TECHNICAL,
-            IntentCategory.TECHNICAL_LOGIN,
-            IntentCategory.TECHNICAL_CRASH,
-        ):
-            scores[AgentType.TECHNICAL] += 0.75
+        course_hits = sum(1 for kw in _DOMAIN_KEYWORDS[AgentType.COURSE] if kw in msg)
+        planning_hits = sum(1 for kw in _DOMAIN_KEYWORDS[AgentType.PLANNING] if kw in msg)
+        general_hits = sum(1 for kw in _DOMAIN_KEYWORDS[AgentType.GENERAL] if kw in msg)
 
-        if req.intent in (
-            IntentCategory.BILLING,
-            IntentCategory.ACCOUNT,
-            IntentCategory.ACCOUNT_SECURITY,
-            IntentCategory.REFUND,
-            IntentCategory.INVOICE,
-            IntentCategory.PAYMENT_ISSUE,
-        ):
-            scores[AgentType.BILLING] += 0.75
-
-        technical_kws = ["崩溃", "报错", "error", "crash", "无法登录", "登录失败", "500", "401", "验证码"]
-        billing_kws = ["退款", "退货", "扣款", "发票", "账单", "支付", "订阅", "refund", "invoice", "多扣"]
-        general_kws = ["订单", "物流", "快递", "配送", "会员", "积分", "咨询", "帮助"]
-
-        technical_hits = sum(1 for kw in technical_kws if kw in msg)
-        billing_hits = sum(1 for kw in billing_kws if kw in msg)
-        general_hits = sum(1 for kw in general_kws if kw in msg)
-
-        scores[AgentType.TECHNICAL] += min(0.45, technical_hits * 0.18)
-        scores[AgentType.BILLING] += min(0.45, billing_hits * 0.18)
+        scores[AgentType.COURSE] += min(0.45, course_hits * 0.18)
+        scores[AgentType.PLANNING] += min(0.45, planning_hits * 0.18)
         scores[AgentType.GENERAL] += min(0.35, general_hits * 0.12)
 
         entities = req.entities or {}
-        if entities.get("error_code"):
-            scores[AgentType.TECHNICAL] += 0.2
-        if entities.get("amount"):
-            scores[AgentType.BILLING] += 0.15
-        if entities.get("order_id"):
-            scores[AgentType.GENERAL] += 0.1
+        if entities.get("course_code"):
+            scores[AgentType.COURSE] += 0.2
+        if entities.get("instructor"):
+            scores[AgentType.COURSE] += 0.15
+        if entities.get("term"):
+            scores[AgentType.COURSE] += 0.1
+        # 同一句提到多门课通常意味着比较/组合，是规划信号
+        if len(entities.get("course_code", [])) >= 2:
+            scores[AgentType.PLANNING] += 0.15
 
         return {agent_type: round(score, 3) for agent_type, score in scores.items()}
 
@@ -541,29 +585,20 @@ class AgentOrchestrator:
         判断是否需要多个 Agent 并行协作。
 
         意图识别通常只返回一个主意图；这里用领域关键词补充检测复合问题，
-        例如"登录报错且被重复扣款"需要技术和账单 Agent 同时处理。
+        例如"CSE 100 讲什么？另外我该先上它还是 CSE 101？"需要课程事实和
+        规划建议 Agent 同时处理。词表与 _domain_scores 共用单一来源。
         """
         msg = req.message.lower()
         targets: List[AgentType] = []
 
-        technical_kws = ["崩溃", "报错", "error", "crash", "无法登录", "登录失败", "500", "401"]
-        billing_kws = ["退款", "扣款", "发票", "账单", "支付", "订阅", "refund", "invoice"]
-
-        if req.intent in (
-            IntentCategory.TECHNICAL,
-            IntentCategory.TECHNICAL_LOGIN,
-            IntentCategory.TECHNICAL_CRASH,
-        ) or any(kw in msg for kw in technical_kws):
-            targets.append(AgentType.TECHNICAL)
-        if req.intent in (
-            IntentCategory.BILLING,
-            IntentCategory.ACCOUNT,
-            IntentCategory.ACCOUNT_SECURITY,
-            IntentCategory.REFUND,
-            IntentCategory.INVOICE,
-            IntentCategory.PAYMENT_ISSUE,
-        ) or any(kw in msg for kw in billing_kws):
-            targets.append(AgentType.BILLING)
+        if req.intent in _COURSE_INTENTS or any(
+            kw in msg for kw in _DOMAIN_KEYWORDS[AgentType.COURSE]
+        ):
+            targets.append(AgentType.COURSE)
+        if req.intent in _PLANNING_INTENTS or any(
+            kw in msg for kw in _DOMAIN_KEYWORDS[AgentType.PLANNING]
+        ):
+            targets.append(AgentType.PLANNING)
 
         # 保持顺序去重，并只返回当前有实例的 Agent 类型。
         deduped = list(dict.fromkeys(targets))

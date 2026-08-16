@@ -8,6 +8,10 @@
 
 三路结果通过加权投票合并，置信度低于阈值时降级为 OTHER。
 LLM 和 Embedding 并行调用，不串行等待。
+
+领域：UCSD 课程问答（CourseHub）。意图分为五个意图组：
+  facts（课程事实）/ planning（选课规划）/ general（接待与元信息）/
+  escalation（转介官方渠道）/ other。
 """
 import asyncio
 import hashlib
@@ -25,27 +29,34 @@ from core.llm_utils import extract_text_content
 
 logger = logging.getLogger(__name__)
 
+# 相对学期表述（"下学期"）默认解析到当前规划学期。
+ACTIVE_PLANNING_TERM = "FA26"
+
 
 class IntentCategory(Enum):
-    QUERY      = "query"       # 查询信息
-    COMPLAINT  = "complaint"   # 投诉不满
-    REQUEST    = "request"     # 请求操作
-    GREETING   = "greeting"    # 问候
-    ESCALATION = "escalation"  # 要求升级/转人工
-    TECHNICAL  = "technical"   # 技术问题
-    BILLING    = "billing"     # 账单/退款
-    ACCOUNT    = "account"     # 账户管理
-    FEEDBACK   = "feedback"    # 正面反馈
-    ORDER_STATUS = "order_status"        # 订单状态
-    LOGISTICS = "logistics"              # 物流配送
-    REFUND = "refund"                    # 退款/退货
-    INVOICE = "invoice"                  # 发票
-    PAYMENT_ISSUE = "payment_issue"      # 支付/扣款异常
-    ACCOUNT_SECURITY = "account_security" # 账户安全
-    TECHNICAL_LOGIN = "technical_login"  # 登录认证故障
-    TECHNICAL_CRASH = "technical_crash"  # 崩溃/错误码
-    HUMAN_HANDOFF = "human_handoff"      # 转人工
-    OTHER      = "other"
+    # ── 意图组（宽泛类，LLM 不确定细粒度时可直接返回）──
+    FACTS      = "facts"       # 课程事实查询
+    PLANNING   = "planning"    # 选课规划建议
+    GENERAL    = "general"     # 接待/元信息
+    ESCALATION = "escalation"  # 转介官方渠道
+    # ── facts 组细粒度 ──
+    COURSE_OVERVIEW   = "course_overview"    # 课程内容/学分
+    PREREQUISITES     = "prerequisites"      # 先修/选课限制
+    SCHEDULE          = "schedule"           # 上课时间/地点
+    AVAILABILITY      = "availability"       # 名额/waitlist
+    INSTRUCTOR_LOOKUP = "instructor_lookup"  # 授课教授
+    GRADES_HISTORY    = "grades_history"     # GPA/成绩分布
+    COURSE_SEARCH     = "course_search"      # 按条件找课
+    # ── planning 组细粒度 ──
+    PLAN_SEQUENCE    = "plan_sequence"       # 修课顺序
+    WORKLOAD_ADVICE  = "workload_advice"     # 课程组合负担
+    PROFESSOR_CHOICE = "professor_choice"    # 选教授/section
+    # ── general 组细粒度 ──
+    GREETING  = "greeting"                   # 问候
+    META_INFO = "meta_info"                  # 数据来源/能力边界
+    # ── escalation 组细粒度 ──
+    ADVISOR_REFERRAL = "advisor_referral"    # 个案事务转介
+    OTHER = "other"
 
 
 class UrgencyLevel(Enum):
@@ -67,66 +78,122 @@ class IntentResult:
     source_scores: Dict[str, float] = field(default_factory=dict)
 
 
-# ── Few-shot 模板（同时用于 LLM 示例和 Embedding 匹配）────────────────────────
+# ── Few-shot 模板（同时用于 LLM 示例和 Embedding 匹配，中英双语）──────────────
 _TEMPLATES: Dict[IntentCategory, List[str]] = {
-    IntentCategory.QUERY:      ["我的订单状态是什么？", "如何重置密码？", "快递什么时候到？"],
-    IntentCategory.COMPLAINT:  ["等了好几个小时！", "服务太差了！", "一直没人处理！"],
-    IntentCategory.REQUEST:    ["帮我取消订单", "我需要修改地址", "请协助退款"],
-    IntentCategory.GREETING:   ["你好", "嗨，有人吗", "早上好"],
-    IntentCategory.ESCALATION: ["我要投诉！", "转人工客服", "找你们经理"],
-    IntentCategory.TECHNICAL:  ["应用一直崩溃", "无法登录", "出现500错误"],
-    IntentCategory.BILLING:    ["为什么扣了两次款？", "申请退款", "发票问题"],
-    IntentCategory.ACCOUNT:    ["修改邮箱", "注销账户", "更新个人信息"],
-    IntentCategory.FEEDBACK:   ["服务很棒！", "非常满意", "给个好评"],
-    IntentCategory.ORDER_STATUS: ["我的订单现在是什么状态？", "订单有没有发货？", "订单处理到哪一步了？"],
-    IntentCategory.LOGISTICS: ["快递什么时候到？", "物流一直不更新", "配送要多久？"],
-    IntentCategory.REFUND: ["我要申请退款", "退货退款怎么处理？", "退款多久到账？"],
-    IntentCategory.INVOICE: ["帮我开发票", "发票抬头怎么改？", "电子发票在哪里？"],
-    IntentCategory.PAYMENT_ISSUE: ["为什么重复扣款？", "支付失败怎么办？", "这个月多扣了钱"],
-    IntentCategory.ACCOUNT_SECURITY: ["账户被盗了", "发现异常登录", "我要重置密码"],
-    IntentCategory.TECHNICAL_LOGIN: ["登录一直报401", "验证码收不到", "无法登录账号"],
-    IntentCategory.TECHNICAL_CRASH: ["应用一直崩溃", "页面报500错误", "系统闪退"],
-    IntentCategory.HUMAN_HANDOFF: ["转人工客服", "我要找人工", "请升级处理"],
+    IntentCategory.FACTS:      ["这门课的信息帮我查一下", "Tell me about this course"],
+    IntentCategory.PLANNING:   ["帮我参谋一下选课", "Help me plan my classes"],
+    IntentCategory.GENERAL:    ["麻烦帮我看一下", "Can you help me with something?"],
+    IntentCategory.ESCALATION: ["这事得找谁办？", "Who do I contact for this?"],
+    IntentCategory.COURSE_OVERVIEW: [
+        "CSE 100 讲什么？", "What is CSE 100 about?", "MATH 20C 有几个学分？",
+    ],
+    IntentCategory.PREREQUISITES: [
+        "CSE 101 有什么先修要求？", "What are the prerequisites for CSE 101?", "上这门课有什么限制？",
+    ],
+    IntentCategory.SCHEDULE: [
+        "FA26 的 MATH 20C 什么时候上课？", "When does CSE 100 meet?", "这门课在哪个教室上？",
+    ],
+    IntentCategory.AVAILABILITY: [
+        "CSE 100 还有位置吗？", "Is there space left in CSE 100?", "这门课 waitlist 多长？",
+    ],
+    IntentCategory.INSTRUCTOR_LOOKUP: [
+        "谁教 CSE 100？", "Who teaches CSE 100 in FA26?", "这门课的教授是谁？",
+    ],
+    IntentCategory.GRADES_HISTORY: [
+        "CSE 100 历年 GPA 怎么样？", "What's the grade distribution for CSE 100?", "这门课给分好吗？",
+    ],
+    IntentCategory.COURSE_SEARCH: [
+        "FA26 有哪些 4 学分的 CSE 课？", "What CSE courses are offered in FA26?", "帮我找找满足 GE 的课",
+    ],
+    IntentCategory.PLAN_SEQUENCE: [
+        "我该先修 CSE 100 还是 CSE 101？", "Should I take CSE 100 before CSE 101?", "这几门课按什么顺序修？",
+    ],
+    IntentCategory.WORKLOAD_ADVICE: [
+        "同时上 CSE 100 和 CSE 110 会不会太累？", "Is taking CSE 100 and CSE 110 together too much?",
+        "这学期排四门专业课负担重吗？",
+    ],
+    IntentCategory.PROFESSOR_CHOICE: [
+        "选 Kane 还是 Sahoo 的 section？", "Which professor should I take for CSE 100?", "哪个教授的 section 更好？",
+    ],
+    IntentCategory.GREETING: ["你好", "hi", "早上好"],
+    IntentCategory.META_INFO: [
+        "你的数据是什么时候更新的？", "How fresh is your data?", "你能回答哪些问题？",
+    ],
+    IntentCategory.ADVISOR_REFERRAL: [
+        "我的 enrollment hold 怎么解除？", "How do I get a prereq waiver?", "我要申诉成绩该找谁？",
+    ],
 }
 
 _SPECIFIC_INTENTS = {
-    IntentCategory.ORDER_STATUS,
-    IntentCategory.LOGISTICS,
-    IntentCategory.REFUND,
-    IntentCategory.INVOICE,
-    IntentCategory.PAYMENT_ISSUE,
-    IntentCategory.ACCOUNT_SECURITY,
-    IntentCategory.TECHNICAL_LOGIN,
-    IntentCategory.TECHNICAL_CRASH,
-    IntentCategory.HUMAN_HANDOFF,
+    IntentCategory.COURSE_OVERVIEW,
+    IntentCategory.PREREQUISITES,
+    IntentCategory.SCHEDULE,
+    IntentCategory.AVAILABILITY,
+    IntentCategory.INSTRUCTOR_LOOKUP,
+    IntentCategory.GRADES_HISTORY,
+    IntentCategory.COURSE_SEARCH,
+    IntentCategory.PLAN_SEQUENCE,
+    IntentCategory.WORKLOAD_ADVICE,
+    IntentCategory.PROFESSOR_CHOICE,
+    IntentCategory.GREETING,
+    IntentCategory.META_INFO,
+    IntentCategory.ADVISOR_REFERRAL,
 }
 
 _GENERIC_INTENTS = {
-    IntentCategory.QUERY,
-    IntentCategory.BILLING,
-    IntentCategory.TECHNICAL,
-    IntentCategory.ACCOUNT,
+    IntentCategory.FACTS,
+    IntentCategory.PLANNING,
+    IntentCategory.GENERAL,
     IntentCategory.ESCALATION,
 }
 
 _INTENT_GROUPS: Dict[IntentCategory, IntentCategory] = {
-    IntentCategory.ORDER_STATUS: IntentCategory.QUERY,
-    IntentCategory.LOGISTICS: IntentCategory.QUERY,
-    IntentCategory.REFUND: IntentCategory.BILLING,
-    IntentCategory.INVOICE: IntentCategory.BILLING,
-    IntentCategory.PAYMENT_ISSUE: IntentCategory.BILLING,
-    IntentCategory.ACCOUNT_SECURITY: IntentCategory.ACCOUNT,
-    IntentCategory.TECHNICAL_LOGIN: IntentCategory.TECHNICAL,
-    IntentCategory.TECHNICAL_CRASH: IntentCategory.TECHNICAL,
-    IntentCategory.HUMAN_HANDOFF: IntentCategory.ESCALATION,
+    IntentCategory.COURSE_OVERVIEW:   IntentCategory.FACTS,
+    IntentCategory.PREREQUISITES:     IntentCategory.FACTS,
+    IntentCategory.SCHEDULE:          IntentCategory.FACTS,
+    IntentCategory.AVAILABILITY:      IntentCategory.FACTS,
+    IntentCategory.INSTRUCTOR_LOOKUP: IntentCategory.FACTS,
+    IntentCategory.GRADES_HISTORY:    IntentCategory.FACTS,
+    IntentCategory.COURSE_SEARCH:     IntentCategory.FACTS,
+    IntentCategory.PLAN_SEQUENCE:     IntentCategory.PLANNING,
+    IntentCategory.WORKLOAD_ADVICE:   IntentCategory.PLANNING,
+    IntentCategory.PROFESSOR_CHOICE:  IntentCategory.PLANNING,
+    IntentCategory.GREETING:          IntentCategory.GENERAL,
+    IntentCategory.META_INFO:         IntentCategory.GENERAL,
+    IntentCategory.ADVISOR_REFERRAL:  IntentCategory.ESCALATION,
 }
 
-# 紧急关键词
+# 紧急关键词（课程场景：deadline 驱动）
 _URGENCY_KEYWORDS = {
-    UrgencyLevel.CRITICAL: ["紧急", "emergency", "urgent", "asap", "立刻"],
-    UrgencyLevel.HIGH:     ["今天", "马上", "尽快", "hurry", "now"],
-    UrgencyLevel.MEDIUM:   ["这周", "soon", "快点"],
+    UrgencyLevel.CRITICAL: ["紧急", "emergency", "urgent"],
+    UrgencyLevel.HIGH:     ["今天截止", "明天截止", "马上截止", "deadline", "last day to"],
+    UrgencyLevel.MEDIUM:   ["这周截止", "本周截止", "快截止", "closing soon"],
 }
+
+
+# ── 实体抽取（规则）──────────────────────────────────────────────────────────
+# 课号：cse100 / CSE-100 / cse 100 / CSE 8A / MATH 20C → "CSE 100" 规范形
+_COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})[\s\-_]*(\d{1,3}[A-Za-z]{0,2})\b")
+# 学期代码本身（FA26）会被课号正则误命中，需要排除；再加常见误报词。
+_NON_SUBJECT_WORDS = {"GPA", "THE", "AND", "FOR", "TOP", "GE", "VAC", "HOLD"}
+_TERM_CODE_RE   = re.compile(r"\b(FA|WI|SP)(\d{2})\b", re.I)
+_SUMMER_CODE_RE = re.compile(r"\bS([123])(\d{2})\b", re.I)
+_TERM_WORD_PATTERNS = [
+    (re.compile(r"\b(?:fall|autumn)\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "FA"),
+    (re.compile(r"\bwinter\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "WI"),
+    (re.compile(r"\bspring\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "SP"),
+    (re.compile(r"\bsummer\s*(?:session\s*)?1\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "S1"),
+    (re.compile(r"\bsummer\s*(?:session\s*)?2\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "S2"),
+    (re.compile(r"(?:20)?(\d{2})\s*年?\s*秋(?:季|天)?"), "FA"),
+    (re.compile(r"(?:20)?(\d{2})\s*年?\s*冬(?:季|天)?"), "WI"),
+    (re.compile(r"(?:20)?(\d{2})\s*年?\s*春(?:季|天)?"), "SP"),
+]
+_RELATIVE_TERM_WORDS = ["下学期", "下个学期", "next quarter", "next term", "next semester"]
+_INSTRUCTOR_PATTERNS = [
+    re.compile(r"(?:[Pp]rofessor|[Pp]rof\.?|[Dd]r\.?)\s+([A-Z][A-Za-z'’\-]+(?:\s+[A-Z][A-Za-z'’\-]+)?)"),
+    re.compile(r"([一-鿿A-Za-z'’\-]{2,20})\s*(?:教授|老师)"),
+]
+_UNITS_RE = re.compile(r"(\d{1,2})\s*(?:个?\s*学分|units?|credits?)", re.I)
 
 
 def _cosine(a: List[float], b: List[float]) -> float:
@@ -252,9 +319,10 @@ class IntentRecognizer:
                 for m in history[-3:]
             )
 
-        prompt = f"""你是客服意图分析专家。根据示例判断用户意图，返回 JSON。
-如果用户问题能匹配细粒度业务意图，请优先返回细粒度意图，而不是宽泛大类。
-例如退款优先返回 refund，发票优先返回 invoice，登录故障优先返回 technical_login。
+        prompt = f"""你是 UCSD 课程问答助手（CourseHub）的意图分析专家。根据示例判断用户意图，返回 JSON。
+用户可能用中文或英文提问。如果问题能匹配细粒度意图，请优先返回细粒度意图，而不是宽泛意图组。
+例如问先修优先返回 prerequisites，问名额优先返回 availability，问成绩分布优先返回 grades_history；
+个案事务（enrollment hold、petition、waiver、成绩申诉）返回 advisor_referral。
 
 示例:
 {examples}
@@ -305,28 +373,60 @@ class IntentRecognizer:
             return {"intent": IntentCategory.OTHER, "confidence": 0.0}
 
     def _pattern_recognize(self, message: str) -> Dict[str, Any]:
-        """策略 3：关键词模式匹配（同步，零延迟兜底）。"""
+        """策略 3：关键词模式匹配（同步，零延迟兜底，中英双语）。"""
         msg = message.lower()
         specific_patterns = {
-            IntentCategory.HUMAN_HANDOFF: ["转人工", "人工客服", "找人工"],
-            IntentCategory.ORDER_STATUS: ["订单状态", "发货了吗", "处理到哪", "order status"],
-            IntentCategory.LOGISTICS: ["物流", "快递", "配送", "运单", "delivery", "shipping"],
-            IntentCategory.REFUND: ["退款", "退货", "refund", "return"],
-            IntentCategory.INVOICE: ["发票", "抬头", "税号", "invoice"],
-            IntentCategory.PAYMENT_ISSUE: ["重复扣款", "多扣", "支付失败", "扣费", "payment failed"],
-            IntentCategory.ACCOUNT_SECURITY: ["被盗", "异常登录", "重置密码", "两步验证", "安全"],
-            IntentCategory.TECHNICAL_LOGIN: ["无法登录", "登录失败", "401", "验证码"],
-            IntentCategory.TECHNICAL_CRASH: ["崩溃", "闪退", "500", "报错", "crash"],
+            IntentCategory.ADVISOR_REFERRAL: [
+                "hold", "petition", "waiver", "申诉", "豁免", "accommodation",
+                "找谁办", "who do i contact", "找advisor", "找 advisor",
+            ],
+            IntentCategory.PREREQUISITES: [
+                "先修", "先决条件", "选课限制", "prerequisite", "prereq", "restriction",
+            ],
+            IntentCategory.AVAILABILITY: [
+                "还有位置", "有位置吗", "名额", "满了吗", "还能选", "waitlist",
+                "space left", "seats", "seat left", "is it full", "open spots",
+            ],
+            IntentCategory.SCHEDULE: [
+                "什么时候上", "几点上课", "上课时间", "教室", "哪个教学楼",
+                "when does", "what time", "meeting time", "where is the class",
+            ],
+            IntentCategory.INSTRUCTOR_LOOKUP: [
+                "谁教", "谁上", "教授是谁", "who teaches", "who is teaching", "taught by",
+            ],
+            IntentCategory.GRADES_HISTORY: [
+                "gpa", "成绩分布", "给分", "平均分", "grade distribution", "past grades",
+            ],
+            IntentCategory.COURSE_SEARCH: [
+                "有哪些", "哪些课", "找课", "找找", "what courses", "which courses",
+                "courses are offered", "满足 ge", "ge 课",
+            ],
+            IntentCategory.COURSE_OVERVIEW: [
+                "讲什么", "介绍一下", "是什么课", "课程内容", "几个学分", "几学分",
+                "what is", "about?", "how many units", "course description",
+            ],
+            IntentCategory.PLAN_SEQUENCE: [
+                "先修哪门", "该先修", "先上哪", "修课顺序", "什么顺序", "before or after",
+                "take first", "order should i take",
+            ],
+            IntentCategory.WORKLOAD_ADVICE: [
+                "会不会太累", "负担", "太重", "同时上", "一起上", "workload", "too much", "too heavy",
+            ],
+            IntentCategory.PROFESSOR_CHOICE: [
+                "哪个教授好", "选哪个教授", "section", "教得怎么样",
+                "which professor", "better professor",
+            ],
+            IntentCategory.META_INFO: [
+                "数据来源", "数据多新", "什么时候更新", "数据是什么时候", "能回答哪些", "能做什么",
+                "how fresh", "data source", "what can you do", "how recent",
+            ],
+            IntentCategory.GREETING: ["你好", "您好", "早上好", "下午好", "hello", "hi there"],
         }
         generic_patterns = {
-            IntentCategory.ESCALATION: ["投诉", "经理", "supervisor"],
-            IntentCategory.COMPLAINT:  ["太差", "糟糕", "horrible", "等了很久"],
-            IntentCategory.QUERY:      ["?", "？", "怎么", "什么", "status"],
-            IntentCategory.REQUEST:    ["帮我", "需要", "please", "help"],
-            IntentCategory.GREETING:   ["你好", "嗨", "hello", "hi"],
-            IntentCategory.BILLING:    ["退款", "扣款", "发票", "refund"],
-            IntentCategory.TECHNICAL:  ["崩溃", "报错", "error", "crash"],
-            IntentCategory.ACCOUNT:    ["密码", "邮箱", "账户", "password"],
+            IntentCategory.ESCALATION: ["advisor", "vac", "官方渠道", "找人工", "人工"],
+            IntentCategory.PLANNING:   ["建议", "推荐", "规划", "该不该", "怎么选", "should i", "plan my"],
+            IntentCategory.FACTS:      ["?", "？", "怎么", "什么", "哪", "when", "what", "who", "which"],
+            IntentCategory.GENERAL:    ["帮我", "谢谢", "thanks", "help", "please"],
         }
 
         best_cat, best_score = self._best_pattern_match(msg, specific_patterns)
@@ -376,15 +476,54 @@ class IntentRecognizer:
     # ── 实体提取 ──────────────────────────────────────────────────────────────
 
     def _extract_entities(self, message: str) -> Dict[str, List[str]]:
-        """用规则提取高价值实体，避免每次识别都额外调用 LLM。"""
+        """用规则提取高价值实体，避免每次识别都额外调用 LLM。
+
+        course_code / term 的归一化契约与结构化索引一致（如 "cse100" → "CSE 100"，
+        "Fall 2026" → "FA26"）。instructor 当前用称谓模式兜底，全量教授词典
+        由数据预处理产出后接入。
+        """
         message = self._clean_text(message)
         return {
-            "order_id": self._unique(re.findall(r"(?:订单号?|order(?:_id)?|#)\s*[:：#]?\s*([A-Za-z0-9_-]{4,32})", message, re.I)),
-            "product": [],
-            "date": self._unique(re.findall(r"(今天|明天|昨天|本周|这周|下周|\d{4}[-/.年]\d{1,2}[-/.月]\d{1,2}日?)", message)),
-            "amount": self._unique(re.findall(r"((?:¥|￥)\s*\d+(?:\.\d{1,2})?|\d+(?:\.\d{1,2})?\s*(?:元|块|rmb|cny|usd|美元))", message, re.I)),
-            "error_code": self._unique(re.findall(r"\b([45]\d{2}|[A-Z][A-Z0-9_-]{2,16})\b", message)),
+            "course_code": self._extract_course_codes(message),
+            "term": self._extract_terms(message),
+            "subject": self._unique(
+                code.split(" ")[0] for code in self._extract_course_codes(message)
+            ),
+            "instructor": self._extract_instructors(message),
+            "units": self._unique(_UNITS_RE.findall(message)),
         }
+
+    def _extract_course_codes(self, message: str) -> List[str]:
+        codes = []
+        for m in _COURSE_CODE_RE.finditer(message):
+            subject, number = m.group(1).upper(), m.group(2).upper()
+            # 排除学期代码（FA26/WI25/SP26）和常见非科目词
+            if subject in ("FA", "WI", "SP") and re.fullmatch(r"\d{2}", number):
+                continue
+            if subject in _NON_SUBJECT_WORDS:
+                continue
+            codes.append(f"{subject} {number}")
+        return self._unique(codes)
+
+    def _extract_terms(self, message: str) -> List[str]:
+        terms = []
+        for m in _TERM_CODE_RE.finditer(message):
+            terms.append(f"{m.group(1).upper()}{m.group(2)}")
+        for m in _SUMMER_CODE_RE.finditer(message):
+            terms.append(f"S{m.group(1)}{m.group(2)}")
+        for pattern, prefix in _TERM_WORD_PATTERNS:
+            for m in pattern.finditer(message):
+                terms.append(f"{prefix}{m.group(1)[-2:]}")
+        msg_lower = message.lower()
+        if any(word in msg_lower for word in _RELATIVE_TERM_WORDS):
+            terms.append(ACTIVE_PLANNING_TERM)
+        return self._unique(terms)
+
+    def _extract_instructors(self, message: str) -> List[str]:
+        names = []
+        for pattern in _INSTRUCTOR_PATTERNS:
+            names.extend(pattern.findall(message))
+        return self._unique(names)
 
     # ── 辅助 ──────────────────────────────────────────────────────────────────
 
@@ -444,10 +583,8 @@ class IntentRecognizer:
         for level, kws in _URGENCY_KEYWORDS.items():
             if any(kw in msg for kw in kws):
                 return level
-        if intent in (IntentCategory.ESCALATION, IntentCategory.HUMAN_HANDOFF):
+        if intent in (IntentCategory.ESCALATION, IntentCategory.ADVISOR_REFERRAL):
             return UrgencyLevel.HIGH
-        if intent == IntentCategory.COMPLAINT:
-            return UrgencyLevel.MEDIUM
         return UrgencyLevel.LOW
 
     def _cache_key(self, message: str, history: Optional[List[Dict[str, str]]] = None) -> str:
@@ -464,7 +601,7 @@ class IntentRecognizer:
         return hashlib.md5(raw.encode("utf-8")).hexdigest()
 
     @staticmethod
-    def _unique(values: List[str]) -> List[str]:
+    def _unique(values) -> List[str]:
         return list(dict.fromkeys(value.strip() for value in values if value and value.strip()))
 
     @staticmethod

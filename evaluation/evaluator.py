@@ -479,17 +479,20 @@ class EndToEndEvaluator:
 # ── 内置测试用例（开箱即用）──────────────────────────────────────────────────
 
 DEFAULT_INTENT_CASES: List[IntentTestCase] = [
-    IntentTestCase("我的订单什么时候到？",       "logistics"),
-    IntentTestCase("帮我取消订单",               "request"),
-    IntentTestCase("你们服务太差了！",            "complaint"),
-    IntentTestCase("应用一直报500错误",           "technical_crash"),
-    IntentTestCase("为什么扣了两次款？",          "payment_issue"),
-    IntentTestCase("我要投诉，转人工！",          "human_handoff"),
-    IntentTestCase("你好",                        "greeting"),
-    IntentTestCase("修改我的邮箱地址",            "account"),
-    IntentTestCase("帮我开发票",                  "invoice"),
-    IntentTestCase("退款多久到账？",              "refund"),
-    IntentTestCase("登录一直报401",               "technical_login"),
+    IntentTestCase("CSE 100 讲什么？",                            "course_overview"),
+    IntentTestCase("What are the prerequisites for CSE 101?",    "prerequisites"),
+    IntentTestCase("FA26 的 MATH 20C 什么时候上课？",             "schedule"),
+    IntentTestCase("Is there space left in CSE 100?",            "availability"),
+    IntentTestCase("谁教 CSE 100？",                              "instructor_lookup"),
+    IntentTestCase("CSE 100 历年 GPA 怎么样？",                   "grades_history"),
+    IntentTestCase("FA26 有哪些 4 学分的 CSE 课？",               "course_search"),
+    IntentTestCase("我该先修 CSE 100 还是 CSE 101？",             "plan_sequence"),
+    IntentTestCase("同时上 CSE 100 和 CSE 110 会不会太累？",       "workload_advice"),
+    IntentTestCase("选 Kane 还是 Sahoo 的 section？",             "professor_choice"),
+    IntentTestCase("你好",                                        "greeting"),
+    IntentTestCase("你的数据是什么时候更新的？",                   "meta_info"),
+    IntentTestCase("我的 enrollment hold 怎么解除？",              "advisor_referral"),
+    IntentTestCase("今天天气怎么样",                              "other"),
 ]
 
 DEFAULT_DIALOG_CASES: List[Dict[str, Any]] = [

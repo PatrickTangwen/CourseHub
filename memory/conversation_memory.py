@@ -173,7 +173,7 @@ class MemoryManager:
 对话:
 {text}
 
-返回格式: {{"preferences": ["..."], "entities": {{"产品": [], "问题类型": []}}}}"""
+返回格式: {{"preferences": ["..."], "entities": {{"课程": [], "科目": [], "学期": [], "问题类型": []}}}}"""
         prompt = self._safe_text(prompt)
 
         try:
