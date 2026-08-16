@@ -1,11 +1,14 @@
 import {
+  ActionBarPrimitive,
   ComposerPrimitive,
   ErrorPrimitive,
   MessagePrimitive,
   ThreadPrimitive,
+  useAuiState,
 } from "@assistant-ui/react";
 import { MarkdownText } from "./MarkdownText";
 import { ProcessTimeline } from "./ProcessTimeline";
+import { ReferralCard } from "./ReferralCard";
 import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 
 const Welcome = () => (
@@ -38,17 +41,29 @@ const UserMessage = () => (
   </MessagePrimitive.Root>
 );
 
-const MessageError = () => (
-  <ErrorPrimitive.Root>
-    {/* Message renders null when the message has no error. */}
-    <ErrorPrimitive.Message className="mt-1 inline-block w-fit rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700 dark:border-red-900 dark:bg-red-950 dark:text-red-300" />
-  </ErrorPrimitive.Root>
-);
+const MessageError = () => {
+  const hasError = useAuiState(
+    (s) =>
+      s.message.role === "assistant" &&
+      s.message.status?.type === "incomplete" &&
+      s.message.status.reason === "error",
+  );
+  if (!hasError) return null;
+  return (
+    <ErrorPrimitive.Root className="mt-1 flex w-fit items-center gap-2 rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700 dark:border-red-900 dark:bg-red-950 dark:text-red-300">
+      <ErrorPrimitive.Message />
+      <ActionBarPrimitive.Reload className="rounded-md border border-red-300 px-2 py-0.5 text-xs font-medium hover:bg-red-100 dark:border-red-800 dark:hover:bg-red-900">
+        {STRINGS.retry}
+      </ActionBarPrimitive.Reload>
+    </ErrorPrimitive.Root>
+  );
+};
 
 const AssistantMessage = () => (
   <MessagePrimitive.Root className="flex flex-col">
     <ProcessTimeline />
     <MessagePrimitive.Content components={{ Text: MarkdownText }} />
+    <ReferralCard />
     <MessageError />
   </MessagePrimitive.Root>
 );

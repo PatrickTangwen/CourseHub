@@ -14,7 +14,21 @@ export const STRINGS = {
   requestFailed: "The request failed. Please try again.",
   newChat: "New chat",
   deleteChat: "Delete chat",
+  retry: "Retry",
+  backendConnected: "Backend connected",
+  backendDisconnected: "Backend unreachable",
+  backendChecking: "Checking backend…",
+  referralTitle: "This needs an official channel",
+  referralIntro:
+    "Case-specific matters (holds, waivers, petitions, disputes, accommodations) are handled by UCSD's official channels:",
 } as const;
+
+/** Advisor Referral 的官方渠道(指路,不是报错;绝不使用"转人工"表述)。 */
+export const REFERRAL_CHANNELS = [
+  { name: "Virtual Advising Center (VAC)", url: "https://vac.ucsd.edu" },
+  { name: "Your department's advisors", url: "https://blink.ucsd.edu/instructors/advising/" },
+  { name: "WebReg support", url: "https://students.ucsd.edu/academics/enroll/" },
+] as const;
 
 /** 空态示例问题:中英各半,点击即发送,顺带展示双语自适应能力。 */
 export const EXAMPLE_PROMPTS = [

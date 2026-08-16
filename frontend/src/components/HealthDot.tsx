@@ -1,0 +1,54 @@
+import { useEffect, useState } from "react";
+import { API_BASE } from "../lib/chatApi";
+import { STRINGS } from "../lib/strings";
+
+type HealthState = "checking" | "ok" | "down";
+
+const POLL_INTERVAL_MS = 30_000;
+
+/** 顶栏连接指示器:轮询 /health。 */
+export const HealthDot = () => {
+  const [state, setState] = useState<HealthState>("checking");
+
+  useEffect(() => {
+    let cancelled = false;
+    const check = async () => {
+      try {
+        const res = await fetch(`${API_BASE}/health`);
+        if (!cancelled) setState(res.ok ? "ok" : "down");
+      } catch {
+        if (!cancelled) setState("down");
+      }
+    };
+    void check();
+    const timer = setInterval(check, POLL_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      clearInterval(timer);
+    };
+  }, []);
+
+  const label =
+    state === "ok"
+      ? STRINGS.backendConnected
+      : state === "down"
+        ? STRINGS.backendDisconnected
+        : STRINGS.backendChecking;
+  const color =
+    state === "ok"
+      ? "bg-emerald-500"
+      : state === "down"
+        ? "bg-red-500"
+        : "bg-zinc-400";
+
+  return (
+    <span
+      className="ml-auto flex items-center gap-1.5 text-xs text-zinc-500 dark:text-zinc-400"
+      role="status"
+      aria-label={label}
+      title={label}
+    >
+      <span aria-hidden className={`inline-block h-2 w-2 rounded-full ${color}`} />
+    </span>
+  );
+};

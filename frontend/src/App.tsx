@@ -5,6 +5,7 @@ import {
 } from "@assistant-ui/react";
 import { createChatAdapter } from "./lib/chatAdapter";
 import { useLocalThreadListAdapter } from "./lib/threadListAdapter";
+import { HealthDot } from "./components/HealthDot";
 import { Sidebar } from "./components/Sidebar";
 import { Thread } from "./components/Thread";
 import { STRINGS } from "./lib/strings";
@@ -24,6 +25,7 @@ export default function App() {
           <span className="text-xs text-zinc-500 dark:text-zinc-400">
             {STRINGS.tagline}
           </span>
+          <HealthDot />
         </header>
         <div className="flex min-h-0 flex-1">
           <Sidebar />

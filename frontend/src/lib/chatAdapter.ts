@@ -37,35 +37,60 @@ function findConvId(messages: readonly ThreadMessage[]): string | undefined {
   return undefined;
 }
 
+/** 流式建立失败时的一次性回退:非流式 POST /chat。 */
+async function fetchChatFallback(
+  body: string,
+  abortSignal: AbortSignal,
+): Promise<ChatAnswer> {
+  const response = await fetch(`${API_BASE}/chat`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body,
+    signal: abortSignal,
+  });
+  if (!response.ok) throw new Error(STRINGS.requestFailed);
+  return (await response.json()) as ChatAnswer;
+}
+
 export function createChatAdapter(): ChatModelAdapter {
   return {
     async *run({ messages, abortSignal }) {
-      const response = await fetch(`${API_BASE}/chat/stream`, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          message: lastUserText(messages),
-          user_id: getBrowserUserId(),
-          ...(findConvId(messages) ? { conv_id: findConvId(messages) } : {}),
-        }),
-        signal: abortSignal,
+      const body = JSON.stringify({
+        message: lastUserText(messages),
+        user_id: getBrowserUserId(),
+        ...(findConvId(messages) ? { conv_id: findConvId(messages) } : {}),
       });
-      if (!response.ok || !response.body) {
-        throw new Error(STRINGS.requestFailed);
+
+      let response: Response | null = null;
+      try {
+        response = await fetch(`${API_BASE}/chat/stream`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body,
+          signal: abortSignal,
+        });
+      } catch (err) {
+        if (abortSignal.aborted) throw err;
+        response = null; // 连接层失败 → 回退
       }
 
       let answer: ChatAnswer | null = null;
       const stages: StageRecord[] = [];
-      for await (const evt of parseSseStream(response.body)) {
-        if (evt.event === "answer") {
-          answer = evt.data as ChatAnswer;
-        } else if (evt.event === "error") {
-          const message = (evt.data as { message?: string } | null)?.message;
-          throw new Error(message || STRINGS.requestFailed);
-        } else if (isStageEventName(evt.event)) {
-          // 阶段事件实时透出:先于任何答案文本更新 metadata,驱动过程展示。
-          stages.push({ event: evt.event, data: evt.data });
-          yield { content: [], metadata: { custom: { stages: [...stages] } } };
+
+      if (response === null || !response.ok || !response.body) {
+        answer = await fetchChatFallback(body, abortSignal);
+      } else {
+        for await (const evt of parseSseStream(response.body)) {
+          if (evt.event === "answer") {
+            answer = evt.data as ChatAnswer;
+          } else if (evt.event === "error") {
+            const message = (evt.data as { message?: string } | null)?.message;
+            throw new Error(message || STRINGS.requestFailed);
+          } else if (isStageEventName(evt.event)) {
+            // 阶段事件实时透出:先于任何答案文本更新 metadata,驱动过程展示。
+            stages.push({ event: evt.event, data: evt.data });
+            yield { content: [], metadata: { custom: { stages: [...stages] } } };
+          }
         }
       }
       if (!answer) {

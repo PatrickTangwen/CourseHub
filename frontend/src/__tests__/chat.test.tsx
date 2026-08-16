@@ -57,8 +57,12 @@ beforeEach(() => {
   localStorage.clear();
 });
 
+/** 只统计聊天请求(排除 /health 轮询)。 */
+const chatCalls = (fetchMock: ReturnType<typeof vi.fn>) =>
+  fetchMock.mock.calls.filter(([url]) => String(url).includes("/chat"));
+
 const postedBodies = (fetchMock: ReturnType<typeof vi.fn>) =>
-  fetchMock.mock.calls.map(([, init]) =>
+  chatCalls(fetchMock).map(([, init]) =>
     JSON.parse(String((init as RequestInit).body)),
   );
 
@@ -78,9 +82,10 @@ describe("chat happy path", () => {
     expect(
       await screen.findByText(/CSE 100 covers advanced data structures/i),
     ).toBeInTheDocument();
+    expect(screen.queryByTestId("referral-card")).not.toBeInTheDocument();
 
-    expect(fetchMock).toHaveBeenCalledTimes(1);
-    const [url, init] = fetchMock.mock.calls[0] as [string, RequestInit];
+    expect(chatCalls(fetchMock)).toHaveLength(1);
+    const [url, init] = chatCalls(fetchMock)[0] as [string, RequestInit];
     expect(url).toBe("/api/chat/stream");
     const payload = JSON.parse(String(init.body));
     expect(payload.message).toBe("What does CSE 100 cover?");
@@ -197,7 +202,7 @@ describe("multi-conversation & browser identity (T4)", () => {
       "And the prerequisites?",
     );
     await user.click(screen.getByRole("button", { name: /send/i }));
-    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(2));
+    await vi.waitFor(() => expect(chatCalls(fetchMock)).toHaveLength(2));
 
     const [body1, body2] = postedBodies(fetchMock);
     expect(body1.conv_id).toBeUndefined();
@@ -214,7 +219,7 @@ describe("multi-conversation & browser identity (T4)", () => {
       "hello there",
     );
     await user.click(screen.getByRole("button", { name: /send/i }));
-    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(3));
+    await vi.waitFor(() => expect(chatCalls(fetchMock)).toHaveLength(3));
     expect(postedBodies(fetchMock)[2].conv_id).toBeUndefined();
     expect(
       await within(sidebar).findByText(/hello there/i),
@@ -225,12 +230,12 @@ describe("multi-conversation & browser identity (T4)", () => {
     render(<App />);
     const sidebar2 = screen.getByTestId("thread-sidebar");
     const restoredItem = await within(sidebar2).findByText(/what does cse 100 cover/i);
-    const callsBeforeRestore = fetchMock.mock.calls.length;
+    const callsBeforeRestore = chatCalls(fetchMock).length;
     await user.click(restoredItem);
     // 该会话有两轮问答,fixture 答案相同 → 恢复后同文出现两次
     const restored = await screen.findAllByText(/CSE 100 covers advanced data structures/i);
     expect(restored.length).toBeGreaterThanOrEqual(1);
-    expect(fetchMock.mock.calls.length).toBe(callsBeforeRestore);
+    expect(chatCalls(fetchMock).length).toBe(callsBeforeRestore);
   });
 
   it("deletes a conversation from the sidebar", async () => {
@@ -270,8 +275,167 @@ describe("multi-conversation & browser identity (T4)", () => {
     // 线程列表异步就绪后空态才渲染
     expect(await screen.findByText("CSE 100 有哪些先修要求?")).toBeInTheDocument();
     await user.click(screen.getByText("What does CSE 100 cover?"));
-    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+    await vi.waitFor(() => expect(chatCalls(fetchMock)).toHaveLength(1));
     expect(postedBodies(fetchMock)[0].message).toBe("What does CSE 100 cover?");
+  });
+});
+
+describe("domain constraints & resilience (T5)", () => {
+  const healthOk = { ok: true, status: 200 } as Response;
+
+  it("renders the Advisor Referral card on escalated answers, with official channels and no human-handoff wording", async () => {
+    const referralAnswer: ChatAnswer = {
+      ...ANSWER,
+      escalated: true,
+      intent: "advisor_referral",
+      intent_group: "escalation",
+      response:
+        "An enrollment hold is case-specific, so I can't resolve it here.",
+    };
+    const frames =
+      'event: run_started\ndata: {"conv_id":"c-1"}\n\n' +
+      `event: answer\ndata: ${JSON.stringify(referralAnswer)}\n\n` +
+      "event: done\ndata: {}\n\n";
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockImplementation((url: string) =>
+        Promise.resolve(
+          String(url).includes("/health") ? healthOk : okResponse(frames),
+        ),
+      ),
+    );
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "I have an enrollment hold, can you remove it?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+
+    const card = await screen.findByTestId("referral-card");
+    expect(card).toHaveTextContent(/official channel/i);
+    expect(card).toHaveTextContent("Virtual Advising Center (VAC)");
+    expect(card).toHaveTextContent(/department's advisors/i);
+    expect(card).toHaveTextContent(/webreg support/i);
+    expect(document.body.textContent).not.toMatch(/human handoff|转人工/);
+  });
+
+  it("keeps the planning disclaimer and snapshot timestamp visible in the rendered markdown", async () => {
+    const planningAnswer: ChatAnswer = {
+      ...ANSWER,
+      intent: "professor_choice",
+      intent_group: "planning",
+      primary_agent: "planning",
+      response:
+        "Historically stronger outcomes:\n\n" +
+        "| Term | Instructor | GPA |\n|---|---|---|\n| FA24 | Moshiri, Niema | 3.539 |\n\n" +
+        "Seats: 12 available as of the 2026-08-12T16:39:36Z snapshot (not real-time).\n\n" +
+        "本建议为非官方参考,选课决策请咨询学校学业顾问。",
+    };
+    const frames =
+      'event: run_started\ndata: {"conv_id":"c-1"}\n\n' +
+      `event: answer\ndata: ${JSON.stringify(planningAnswer)}\n\n` +
+      "event: done\ndata: {}\n\n";
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockImplementation((url: string) =>
+        Promise.resolve(
+          String(url).includes("/health") ? healthOk : okResponse(frames),
+        ),
+      ),
+    );
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "Which professor should I take?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+
+    expect(
+      await screen.findByText(/本建议为非官方参考/),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(/2026-08-12T16:39:36Z snapshot \(not real-time\)/),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("table")).toBeInTheDocument();
+    expect(screen.getByText("Moshiri, Niema")).toBeInTheDocument();
+  });
+
+  it("falls back to POST /chat once when the stream cannot be established", async () => {
+    const fetchMock = vi.fn().mockImplementation((url: string) => {
+      const u = String(url);
+      if (u.includes("/health")) return Promise.resolve(healthOk);
+      if (u.includes("/chat/stream")) return Promise.reject(new TypeError("network down"));
+      return Promise.resolve({
+        ok: true,
+        status: 200,
+        json: async () => ANSWER,
+      } as Response);
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "What does CSE 100 cover?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+
+    expect(
+      await screen.findByText(/CSE 100 covers advanced data structures/i),
+    ).toBeInTheDocument();
+    const urls = chatCalls(fetchMock).map(([url]) => String(url));
+    expect(urls).toEqual(["/api/chat/stream", "/api/chat"]);
+  });
+
+  it("shows an error bubble with Retry when both paths fail; Retry refires the run", async () => {
+    let healthy = false;
+    const fetchMock = vi.fn().mockImplementation((url: string) => {
+      const u = String(url);
+      if (u.includes("/health")) return Promise.resolve(healthOk);
+      if (!healthy) {
+        if (u.includes("/chat/stream")) return Promise.reject(new TypeError("down"));
+        return Promise.resolve({ ok: false, status: 503 } as Response);
+      }
+      return Promise.resolve(okResponse(OK_FRAMES));
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "hello",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+
+    expect(await screen.findByText(/request failed/i)).toBeInTheDocument();
+    const retry = screen.getByRole("button", { name: /retry/i });
+
+    healthy = true;
+    await user.click(retry);
+    expect(
+      await screen.findByText(/CSE 100 covers advanced data structures/i),
+    ).toBeInTheDocument();
+  });
+
+  it("reflects backend health in the header indicator", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockImplementation((url: string) =>
+        String(url).includes("/health")
+          ? Promise.resolve({ ok: false, status: 503 } as Response)
+          : Promise.resolve(okResponse(OK_FRAMES)),
+      ),
+    );
+    render(<App />);
+    expect(
+      await screen.findByRole("status", { name: /backend unreachable/i }),
+    ).toBeInTheDocument();
   });
 });
 
