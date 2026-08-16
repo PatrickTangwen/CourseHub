@@ -156,6 +156,17 @@ async def lifespan(app: FastAPI):
         fallback=knowledge_fallback,
     ))
 
+    # course_lookup：Course Index 结构化查询工具（索引文件存在时才注册）
+    course_index_path = pathlib.Path(os.getenv("COURSEHUB_INDEX_PATH", "data/coursehub/course_index.sqlite"))
+    if not course_index_path.is_absolute():
+        course_index_path = pathlib.Path(_ROOT) / course_index_path
+    if course_index_path.exists():
+        from mcp.course_lookup import register_course_lookup
+        register_course_lookup(_tool_manager, course_index_path)
+    else:
+        logger.warning(f"未找到课程索引 {course_index_path}，跳过 course_lookup 注册"
+                       "（先运行 tools/build_course_data.py）")
+
     # 性能监控（可选启动 Prometheus）
     prom_port = int(os.getenv("PROMETHEUS_PORT", "0")) or None
     _monitor = PerformanceMonitor(
