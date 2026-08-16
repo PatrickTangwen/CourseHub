@@ -1,13 +1,13 @@
-# EchoMind Skills 文档
+# CourseHub Skills 文档
 
-EchoMind 启动时会从 `ECHOMIND_SKILLS_DIR` 读取 Skills，并在匹配用户请求时注入到对应 Agent 的 system prompt。Skills 适合维护业务处理规范、客服话术、技术排障 SOP、账单审核边界、升级规则和禁止事项。
+CourseHub 启动时会从 `ECHOMIND_SKILLS_DIR` 读取 Skills，并在匹配用户请求时注入到对应 Agent 的 system prompt。Skills 适合维护回答规范、答案安全约束、转介规则和禁止事项。
 
 当前内置三类 Skills：
 
 ```text
-skills/general_customer_service/SKILL.md  # 通用客服：接待、澄清、分流、投诉和转人工
-skills/technical_support/SKILL.md         # 技术支持：故障排查、接口错误、部署配置和安全边界
-skills/billing_support/SKILL.md           # 账单服务：扣款、退款、发票、订阅和财务审核
+skills/general_reception/SKILL.md  # 接待分流：双语接待、需求澄清、能力边界、个案转介
+skills/course_facts/SKILL.md       # 课程事实：客观信息应答与五条回答安全约束
+skills/course_planning/SKILL.md    # 规划建议：有依据的倾向性建议与免责声明
 ```
 
 ## Skill 文件格式
@@ -22,10 +22,10 @@ skills/<skill_name>/SKILL.md
 
 ```markdown
 ---
-name: 技术支持处理规范
-description: 适用于 TechnicalAgent 的故障排查和升级处理规范
-keywords: 报错,错误,接口,API,部署,超时,500,401,日志
-agents: technical
+name: 课程事实规范
+description: 适用于 Course Agent 的课程客观信息应答规范
+keywords: 先修,学分,名额,教授,GPA,schedule,prerequisite
+agents: course
 enabled: true
 ---
 ```
@@ -35,17 +35,17 @@ enabled: true
 - `name`：Skill 展示名称，会出现在注入给模型的 prompt 中。
 - `description`：简短说明，方便 `/skills` 接口排查。
 - `keywords`：触发关键词，用户消息命中后才注入；多个关键词用英文逗号或中文逗号分隔均可。
-- `agents`：适用 Agent，可填 `general`、`technical`、`billing`，多个值用逗号分隔。
+- `agents`：适用 Agent，可填 `general`、`course`、`planning`，多个值用逗号分隔。
 - `enabled`：是否启用，支持 `true/false`。
 
 ## 编写要求
 
 - 重要规则放在文档前半部分，因为过长内容会按 prompt 预算截断。
-- 一类 Skill 只描述一类职责，不要把技术、账单、通用客服规则混在一个文件里。
-- 必须包含“角色定位”“处理流程”“升级条件”“禁止事项”等稳定章节。
-- 对用户隐私、支付、密码、验证码、API Key、Token 等敏感信息必须写明禁止收集或禁止公开。
-- 对无法保证的事项使用保守措辞，例如“通常”“预计”“需要核验后确认”。
-- 对需要人工、财务、二线技术处理的场景要明确写出升级条件。
+- 一类 Skill 只描述一类职责，不要把事实应答、规划建议、接待分流的规则混在一个文件里。
+- 必须包含"角色定位""禁止事项""示例表达"等稳定章节。
+- 回答安全约束（名额带快照时间戳、不合成课程 GPA、缺描述不编造、数据缺口如实声明、回答标注学期）写在课程事实规范中，措辞变更需同步评测用例。
+- 对无法保证的事项使用保守措辞，例如"在现有记录中""数据未覆盖"。
+- 个案事务（hold、petition、waiver、申诉）的转介渠道要写明确。
 
 ## 热加载
 
