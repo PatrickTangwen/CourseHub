@@ -1,0 +1,67 @@
+{
+  "subject": "TDPF",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "TDPF:160",
+      "subject": "TDPF",
+      "course_number": "160",
+      "title": "Studies/Perform-Fall Product",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/THEA.html#tdpf160",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:947264",
+          "course_id": "TDPF:160",
+          "section_code": "A00",
+          "meeting_type": "Studio",
+          "instructors": [
+            "Mack, Kara Shanai'"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "DANCE",
+              "room": "3",
+              "is_tba": false,
+              "meeting_type": "Studio",
+              "raw_days": "TuTh",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "DANCE 3"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "FA25",
+            "raw_subject": "TDPF",
+            "raw_course_number": "160",
+            "raw_section_identifier": "947264",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "ST"
+          }
+        }
+      ]
+    }
+  ]
+}

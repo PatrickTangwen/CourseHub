@@ -1,0 +1,69 @@
+{
+  "subject": "AESE",
+  "term": "S324",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "11/05/2024, 04:24:00",
+  "courses": [
+    {
+      "course_id": "AESE:279B",
+      "subject": "AESE",
+      "course_number": "279B",
+      "title": "AESE Capstone Team Project",
+      "units": "3",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MAS.html#aese279b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S324:494370",
+          "course_id": "AESE:279B",
+          "section_code": "A00",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Wade, Jon P"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "18:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TuWThF",
+              "raw_time": "9:00a-6:00p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 33,
+          "capacity": 33,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "S324",
+            "raw_subject": "AESE",
+            "raw_course_number": "279B",
+            "raw_section_identifier": "494370",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

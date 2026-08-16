@@ -1,0 +1,354 @@
+{
+  "source_url": "https://tritongpt.ucsd.edu/app?chatId=504c9287-fd1d-4d44-9a46-2ee1260ed031",
+  "chat_id": "504c9287-fd1d-4d44-9a46-2ee1260ed031",
+  "captured_at": "2026-07-22T19:06:00.000Z",
+  "input_mode": "transfer_json",
+  "term": "FA26",
+  "previous_snapshot": "api/static/catalogs/public/FA26.json",
+  "chunk_count": 49,
+  "chunks": [
+    {
+      "index": 1,
+      "file": "chunk-001.csv",
+      "bytes": 2250,
+      "lines": 14,
+      "sha256": "5ceb91e29ece825a25fa969e8ebb5dea4883459b68fd0b64517d93f8b7b78d08"
+    },
+    {
+      "index": 2,
+      "file": "chunk-002.csv",
+      "bytes": 30352,
+      "lines": 199,
+      "sha256": "e17d5bcaa815a5f003be0517753addbc599fe4597ab17ee3d2cf51b30d205b9e"
+    },
+    {
+      "index": 3,
+      "file": "chunk-003.csv",
+      "bytes": 37993,
+      "lines": 252,
+      "sha256": "e9e974f3e979f9acbcdc4a169d6983ef22c016a15bf07e695f54258c4ec1071c"
+    },
+    {
+      "index": 4,
+      "file": "chunk-004.csv",
+      "bytes": 36779,
+      "lines": 252,
+      "sha256": "1202ae0763dde2ade23215b5948dbe6babbea62cf22ee255b0adf84016a5b8cc"
+    },
+    {
+      "index": 5,
+      "file": "chunk-005.csv",
+      "bytes": 1871,
+      "lines": 13,
+      "sha256": "8cc6089c9bfb70c4ab63a5b57d85452e7a5a00cd78a38fe83c774f5b88e3e5db"
+    },
+    {
+      "index": 6,
+      "file": "chunk-006.csv",
+      "bytes": 6694,
+      "lines": 41,
+      "sha256": "813645e8a5a3f592eb31b5519c8ff84f7a929927da87ce823f0ddb21ded516ef"
+    },
+    {
+      "index": 7,
+      "file": "chunk-007.csv",
+      "bytes": 35446,
+      "lines": 216,
+      "sha256": "3b4db382e5bb0c112277fe15641835f924b1f86b495ebaa365d6e477cded849f"
+    },
+    {
+      "index": 8,
+      "file": "chunk-008.csv",
+      "bytes": 6679,
+      "lines": 42,
+      "sha256": "1a396825db5bb18a6aa4682ba54518ab3cfc6a87e0ede5cf5e6094c313ebfb46"
+    },
+    {
+      "index": 9,
+      "file": "chunk-009.csv",
+      "bytes": 6679,
+      "lines": 42,
+      "sha256": "1a396825db5bb18a6aa4682ba54518ab3cfc6a87e0ede5cf5e6094c313ebfb46"
+    },
+    {
+      "index": 10,
+      "file": "chunk-010.csv",
+      "bytes": 36776,
+      "lines": 252,
+      "sha256": "83655443db57571e3b1d1e83a719298dedaf98fe932503b5521f0d4dac6e0a46"
+    },
+    {
+      "index": 11,
+      "file": "chunk-011.csv",
+      "bytes": 42089,
+      "lines": 252,
+      "sha256": "d3b814b7322da85c8c79157314caaed0fba7e8dd118903fd8ba98ea69563df9d"
+    },
+    {
+      "index": 12,
+      "file": "chunk-012.csv",
+      "bytes": 21450,
+      "lines": 135,
+      "sha256": "31474cfe5e4673118a5afe12330082288bbf892673155af6c64307501e4d974b"
+    },
+    {
+      "index": 13,
+      "file": "chunk-013.csv",
+      "bytes": 40869,
+      "lines": 252,
+      "sha256": "1f388063ae6d4f6b91cfb87def80584645ad1fc6781d08e02e220e21f5439394"
+    },
+    {
+      "index": 14,
+      "file": "chunk-014.csv",
+      "bytes": 43097,
+      "lines": 252,
+      "sha256": "847157ead188cc09ccd056180752749070bdcfb80f20d9939c3ee59772658126"
+    },
+    {
+      "index": 15,
+      "file": "chunk-015.csv",
+      "bytes": 39501,
+      "lines": 252,
+      "sha256": "879880da17241822a8d6ccae4d89f7f5d49cf2d34ee26b0d64d73f5cc91e9ed7"
+    },
+    {
+      "index": 16,
+      "file": "chunk-016.csv",
+      "bytes": 40935,
+      "lines": 252,
+      "sha256": "91662dc544c2c75e4f75526b0a96000e6d4f78d4b30995318ee719ca3912e0a8"
+    },
+    {
+      "index": 17,
+      "file": "chunk-017.csv",
+      "bytes": 41618,
+      "lines": 252,
+      "sha256": "16356915b82527e46b2f550646615606cb2bf21ff5d1c2350cb9f433217f787b"
+    },
+    {
+      "index": 18,
+      "file": "chunk-018.csv",
+      "bytes": 38836,
+      "lines": 252,
+      "sha256": "5d9d533fa302bffbdd5713bba35520a3dbd9377b5a076ace0004405f8ce12a71"
+    },
+    {
+      "index": 19,
+      "file": "chunk-019.csv",
+      "bytes": 35772,
+      "lines": 252,
+      "sha256": "bc98fd527079048709e10c26a5e84e0db9929a278545c5e1923c3bdb64d3ee3a"
+    },
+    {
+      "index": 20,
+      "file": "chunk-020.csv",
+      "bytes": 41515,
+      "lines": 252,
+      "sha256": "877cb7397ca5bc562617c2d2d7f46339d345b2f6a5ddeab1f642e93030513fe6"
+    },
+    {
+      "index": 21,
+      "file": "chunk-021.csv",
+      "bytes": 37700,
+      "lines": 252,
+      "sha256": "22bddf1e0ee464655227de4bc0fa611a759530ad774ee31e431693c26f85b400"
+    },
+    {
+      "index": 22,
+      "file": "chunk-022.csv",
+      "bytes": 40838,
+      "lines": 252,
+      "sha256": "3e7e45a314527d57c8c58a30fc2ef44846a285aa3b4272fa773e342956d2b9f2"
+    },
+    {
+      "index": 23,
+      "file": "chunk-023.csv",
+      "bytes": 39410,
+      "lines": 252,
+      "sha256": "d910d2bdbc82759432582181e5c2701245363dd3983bf5ddd28494b164dceeb9"
+    },
+    {
+      "index": 24,
+      "file": "chunk-024.csv",
+      "bytes": 41352,
+      "lines": 252,
+      "sha256": "271f91b10ef829eebf1c91b0635c8c6067488ce27811548769827d136f5dafe9"
+    },
+    {
+      "index": 25,
+      "file": "chunk-025.csv",
+      "bytes": 41780,
+      "lines": 252,
+      "sha256": "7a43f7c124bc346aa22cdebb2fa2c7d3ea52843c26c3dbe12dbac8aff1f4ce83"
+    },
+    {
+      "index": 26,
+      "file": "chunk-026.csv",
+      "bytes": 40734,
+      "lines": 252,
+      "sha256": "95ff217318aa12ebc975611961288ae40edb45a950263526067d6dc1c3271238"
+    },
+    {
+      "index": 27,
+      "file": "chunk-027.csv",
+      "bytes": 39256,
+      "lines": 252,
+      "sha256": "0e733dab322fca0b7154b844681685b77def1d00973d5c747195382ed04e90d4"
+    },
+    {
+      "index": 28,
+      "file": "chunk-028.csv",
+      "bytes": 40651,
+      "lines": 252,
+      "sha256": "829cd0d4c57d1237bf743fec47e2da9a1c65eac2b4b9566be3a94fbf7e44af7b"
+    },
+    {
+      "index": 29,
+      "file": "chunk-029.csv",
+      "bytes": 42600,
+      "lines": 252,
+      "sha256": "8193570244c859113f032634fb53aeee4c39abb390aba94a53ca81ce8d334866"
+    },
+    {
+      "index": 30,
+      "file": "chunk-030.csv",
+      "bytes": 39876,
+      "lines": 252,
+      "sha256": "8d703c95f2ea56ea803a05375d9538184e4cef65603fbb6e4510bd856000e53c"
+    },
+    {
+      "index": 31,
+      "file": "chunk-031.csv",
+      "bytes": 41361,
+      "lines": 252,
+      "sha256": "fedaf581a494c617d3121c1e6bec89ba980f27f85473dd43ddc4a088c30fec7d"
+    },
+    {
+      "index": 32,
+      "file": "chunk-032.csv",
+      "bytes": 42859,
+      "lines": 252,
+      "sha256": "2deb0795ccb7db96ec3c88151807e7cfcf4e41fb728a0acdadf3c9e6a156e0d1"
+    },
+    {
+      "index": 33,
+      "file": "chunk-033.csv",
+      "bytes": 40213,
+      "lines": 252,
+      "sha256": "bdf464df5c0456354a25b1f8381819f7de785eb33b4378b4a585a56a1fa5588c"
+    },
+    {
+      "index": 34,
+      "file": "chunk-034.csv",
+      "bytes": 37575,
+      "lines": 252,
+      "sha256": "c95072cde25e791493c0c154eb97ddab06c9ee0dddf7c8b2025158ae9c7160f2"
+    },
+    {
+      "index": 35,
+      "file": "chunk-035.csv",
+      "bytes": 41283,
+      "lines": 252,
+      "sha256": "890fe6523642f6d106c79424aa8ae596f2ef484de8678648d1cc6cdaaa602c4c"
+    },
+    {
+      "index": 36,
+      "file": "chunk-036.csv",
+      "bytes": 40672,
+      "lines": 252,
+      "sha256": "f71d4102580a5b699a39635317acba5065b8b50fe803fe13ba6f1995fce92da7"
+    },
+    {
+      "index": 37,
+      "file": "chunk-037.csv",
+      "bytes": 37307,
+      "lines": 252,
+      "sha256": "461e28fad81f32f5a1c74c3d5cfafc7e5c31cc5e1ee8b8984e8e3264de0948c1"
+    },
+    {
+      "index": 38,
+      "file": "chunk-038.csv",
+      "bytes": 38989,
+      "lines": 252,
+      "sha256": "4b5aa03a4287d56a12c7bec9eef918778b1ae5e111e5cbb705feabb2f57571b8"
+    },
+    {
+      "index": 39,
+      "file": "chunk-039.csv",
+      "bytes": 38142,
+      "lines": 252,
+      "sha256": "d5afc7e49e8fecc2195f4b0d62595705d5a4f126e20f9d118b8802e189105050"
+    },
+    {
+      "index": 40,
+      "file": "chunk-040.csv",
+      "bytes": 40876,
+      "lines": 252,
+      "sha256": "b9d1318f854b8d202ff71d9d6d0d9225633580dd72285115edef70343a98f917"
+    },
+    {
+      "index": 41,
+      "file": "chunk-041.csv",
+      "bytes": 41273,
+      "lines": 252,
+      "sha256": "1f6d8e1d2fe6061a2f06c0584a2339f07fd43e7bd81e47e236fd534375851d43"
+    },
+    {
+      "index": 42,
+      "file": "chunk-042.csv",
+      "bytes": 38634,
+      "lines": 252,
+      "sha256": "d4c1f2a1e05315aedb1f2c4652df8029545b3510fd548a62b61a5b575a4b67b0"
+    },
+    {
+      "index": 43,
+      "file": "chunk-043.csv",
+      "bytes": 39052,
+      "lines": 252,
+      "sha256": "027e98b2a9f06e899b6e531d4268ba4fb8843dddbee63a021174d85e57707115"
+    },
+    {
+      "index": 44,
+      "file": "chunk-044.csv",
+      "bytes": 36123,
+      "lines": 252,
+      "sha256": "cb92e2646d1f5e3ca4599ed531abcc73389adb5a3c426544fe4ff5fe7073b7d2"
+    },
+    {
+      "index": 45,
+      "file": "chunk-045.csv",
+      "bytes": 37512,
+      "lines": 252,
+      "sha256": "b9e57d216ecb0c26a35853f9dd624b2b46a9ea159e133674c490e2d124f0bf99"
+    },
+    {
+      "index": 46,
+      "file": "chunk-046.csv",
+      "bytes": 37471,
+      "lines": 252,
+      "sha256": "0c45b0da96789762f96cdd132f609898bf4523b76d655d913abbb2b8e0d4f422"
+    },
+    {
+      "index": 47,
+      "file": "chunk-047.csv",
+      "bytes": 39406,
+      "lines": 252,
+      "sha256": "34eb4dfac245b00bdacfa05e6f2d32effd7ea1751953e8091ab5f6a7229c0dce"
+    },
+    {
+      "index": 48,
+      "file": "chunk-048.csv",
+      "bytes": 40942,
+      "lines": 252,
+      "sha256": "1c2b9748c90336b77d4936b761621e5ade2c91830086d846db360356a0b64007"
+    },
+    {
+      "index": 49,
+      "file": "chunk-049.csv",
+      "bytes": 9093,
+      "lines": 57,
+      "sha256": "05004f8f8cd9131177ba24400c3006061161c36645780c7c3b9e1c03652e8b9b"
+    }
+  ]
+}

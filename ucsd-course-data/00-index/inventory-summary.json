@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-08-15T20:45:58.050Z",
+  "package_root": "/Users/tangwenhua/Desktop/CourseHub",
+  "current_published_data": {
+    "source_branch": "origin/main",
+    "source_commit": "009b922ff3cd87344c30f5923b3920619e50caf7",
+    "metadata_last_update": "2026-08-13T11:00:06.839Z",
+    "terms": 15,
+    "courses": 19041,
+    "sections": 61496,
+    "meetings": 165447,
+    "grade_archive_records": 15138,
+    "catalog_link_rows": 16825,
+    "unique_reference_urls": 5416
+  },
+  "groups": {
+    ".git": {
+      "files": 27,
+      "logical_bytes": 73533320
+    },
+    ".gitignore": {
+      "files": 1,
+      "logical_bytes": 315
+    },
+    "00-index": {
+      "files": 9,
+      "logical_bytes": 2327307
+    },
+    "01-current-published-data": {
+      "files": 66,
+      "logical_bytes": 245697247
+    },
+    "02-complete-local-data-history": {
+      "files": 53837,
+      "logical_bytes": 8848954661
+    },
+    "03-links": {
+      "files": 1,
+      "logical_bytes": 16292
+    },
+    "04-documentation": {
+      "files": 104,
+      "logical_bytes": 583493
+    },
+    "05-pipeline-and-schema": {
+      "files": 97,
+      "logical_bytes": 732476
+    },
+    "Grades_With_Cutoff.csv": {
+      "files": 1,
+      "logical_bytes": 2969422
+    },
+    "README.md": {
+      "files": 1,
+      "logical_bytes": 6995
+    }
+  },
+  "file_manifest_rows": 54144,
+  "note": "Logical byte totals count APFS clone files at their full size; copy-on-write cloning keeps the package independent while initially consuming substantially less additional disk space on this filesystem."
+}

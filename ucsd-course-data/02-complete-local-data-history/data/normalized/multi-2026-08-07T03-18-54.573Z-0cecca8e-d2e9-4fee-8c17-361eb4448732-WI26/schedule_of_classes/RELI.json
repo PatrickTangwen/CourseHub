@@ -1,0 +1,82 @@
+{
+  "subject": "RELI",
+  "term": "WI26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "07/01/2026, 03:25:00",
+  "courses": [
+    {
+      "course_id": "RELI:101",
+      "subject": "RELI",
+      "course_number": "101",
+      "title": "Tools&Methods/Studyof Religion",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/RELI.html#reli101",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:997709",
+          "course_id": "RELI:101",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Rahimi, Babak"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "PODEM",
+              "room": "1A23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "PODEM 1A23"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2026-03-19",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "PODEM",
+              "room": "1A23",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "PODEM 1A23"
+            }
+          ],
+          "enrolled": 46,
+          "capacity": 46,
+          "waitlist_count": 3,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "WI26",
+            "raw_subject": "RELI",
+            "raw_course_number": "101",
+            "raw_section_identifier": "997709",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

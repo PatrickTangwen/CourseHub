@@ -1,0 +1,187 @@
+{
+  "subject": "DSGN",
+  "term": "S125",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "DSGN:1",
+      "subject": "DSGN",
+      "course_number": "1",
+      "title": "Design of Everyday Things",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn1",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:874674",
+          "course_id": "DSGN:1",
+          "section_code": "A01",
+          "meeting_type": "Studio",
+          "instructors": [
+            "Rosselli Del Turco, Emilia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Studio",
+              "raw_days": "MW",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HSS 1315"
+            }
+          ],
+          "enrolled": 36,
+          "capacity": 36,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S125",
+            "raw_subject": "DSGN",
+            "raw_course_number": "1",
+            "raw_section_identifier": "874674",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "ST"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "DSGN:100",
+      "subject": "DSGN",
+      "course_number": "100",
+      "title": "Prototyping",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:874685",
+          "course_id": "DSGN:100",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Rill, Bryan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R16"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 43,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S125",
+            "raw_subject": "DSGN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "874685",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    }
+  ]
+}

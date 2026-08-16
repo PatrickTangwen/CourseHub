@@ -1,0 +1,525 @@
+{
+  "subject": "AAS",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "AAS:10",
+      "subject": "AAS",
+      "course_number": "10",
+      "title": "Intro/African-American Studies",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas10",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:734476",
+          "course_id": "AAS:10",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "PCYNH",
+              "room": "240",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "PCYNH 240"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "20:00",
+              "end_time": "20:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "8:00p-8:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "20:00",
+              "end_time": "20:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "8:00p-8:50p",
+              "raw_location": "MANDE B-150"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 34,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "10",
+            "raw_section_identifier": "734476",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:734477",
+          "course_id": "AAS:10",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "18:30",
+              "end_time": "19:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "6:30p-7:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "PCYNH",
+              "room": "240",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "PCYNH 240"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "20:00",
+              "end_time": "20:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "8:00p-8:50p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "20:00",
+              "end_time": "20:50",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Review Session",
+              "raw_days": "W",
+              "raw_time": "8:00p-8:50p",
+              "raw_location": "MANDE B-150"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 34,
+          "waitlist_count": 3,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "10",
+            "raw_section_identifier": "734477",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:11",
+      "subject": "AAS",
+      "course_number": "11",
+      "title": "Intro Black Diasporic Studies",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas11",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:734479",
+          "course_id": "AAS:11",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R02"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "MANDE B-150"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 34,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "11",
+            "raw_section_identifier": "734479",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "WI25:734480",
+          "course_id": "AAS:11",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Elizabeth Annette"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "start_time": "17:00",
+              "end_time": "18:20",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "5:00p-6:20p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "M",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "RCLAS R02"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "MANDE B-150"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 34,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "11",
+            "raw_section_identifier": "734480",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:198",
+      "subject": "AAS",
+      "course_number": "198",
+      "title": "Directed Group Study",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas198",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:856246",
+          "course_id": "AAS:198",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Abdul-Mutakabbir, Jacinda"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 8,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "198",
+            "raw_section_identifier": "856246",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "AAS:199",
+      "subject": "AAS",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/AASM.html#aas199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:855684",
+          "course_id": "AAS:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Taylor-Garcia, Daphne"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "855684",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:866111",
+          "course_id": "AAS:199",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Childs, Dennis R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "866111",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:870772",
+          "course_id": "AAS:199",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Gause, LaGina"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI25",
+            "raw_subject": "AAS",
+            "raw_course_number": "199",
+            "raw_section_identifier": "870772",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

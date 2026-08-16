@@ -1,0 +1,321 @@
+{
+  "subject": "CMM",
+  "term": "SP25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "10/06/2025, 02:01:00",
+  "courses": [
+    {
+      "course_id": "CMM:199",
+      "subject": "CMM",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:898126",
+          "course_id": "CMM:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Esko, Jeffrey D."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP25",
+            "raw_subject": "CMM",
+            "raw_course_number": "199",
+            "raw_section_identifier": "898126",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP25:958046",
+          "course_id": "CMM:199",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Wilkinson, Miles Frome"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP25",
+            "raw_subject": "CMM",
+            "raw_course_number": "199",
+            "raw_section_identifier": "958046",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CMM:225",
+      "subject": "CMM",
+      "course_number": "225",
+      "title": "Advances in Glycobiology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:872556",
+          "course_id": "CMM:225",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Esko, Jeffrey D."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:30",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-1:30p",
+              "raw_location": "BRF2 5A03"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": "2025-06-09",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "BRF2",
+              "room": "5A03",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "BRF2 5A03"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 3,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP25",
+            "raw_subject": "CMM",
+            "raw_course_number": "225",
+            "raw_section_identifier": "872556",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CMM:246",
+      "subject": "CMM",
+      "course_number": "246",
+      "title": "Current Literature/Glycobiol",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:872560",
+          "course_id": "CMM:246",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Esko, Jeffrey D.",
+            "Gagneux, Pascal",
+            "Lewis, Amanda Lark",
+            "Bode, Lars",
+            "Gordts, Philip",
+            "Godula, Kamil"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP25",
+            "raw_subject": "CMM",
+            "raw_course_number": "246",
+            "raw_section_identifier": "872560",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "CMM:250",
+      "subject": "CMM",
+      "course_number": "250",
+      "title": "Core Course/Stem Cell Biology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:884466",
+          "course_id": "CMM:250",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Willert, Karl Heinrich"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "10:20",
+              "building": "SCRM",
+              "room": "1013A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "8:30a-10:20a",
+              "raw_location": "SCRM 1013A"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Discussion",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 31,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "SP25",
+            "raw_subject": "CMM",
+            "raw_course_number": "250",
+            "raw_section_identifier": "884466",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

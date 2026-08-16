@@ -1,0 +1,5703 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2241,
+  "offset": 1536,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "101",
+      "module_code": "PH-101",
+      "module_name": "Epidemiology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kimberly Brouwer"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)",
+        "COGS 14B (minimum grade D) or HDS 60 (minimum grade D) or MATH 11 (minimum grade D) or PSYC 60 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001036",
+          "section_ref": "FA26:E 00001036",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153762"
+          ],
+          "capacity": 60,
+          "enrolled": 60,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kimberly Brouwer"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "COA",
+              "room_code": "COA B27",
+              "building_name": "Coalition Building",
+              "room_name": "Room B27 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "102",
+      "module_code": "PH-102",
+      "module_name": "Biostatistics in Public Health",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Brinda Rana"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 3,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)",
+        "COGS 14B (minimum grade D) or HDS 60 (minimum grade D) or MATH 11 (minimum grade D) or PSYC 60 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001037",
+          "section_ref": "FA26:E 00001037",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153782",
+            "153783",
+            "3739",
+            "3740",
+            "3741",
+            "4475",
+            "4476"
+          ],
+          "capacity": 60,
+          "enrolled": 60,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brinda Rana"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A19",
+              "building_name": "Podemos",
+              "room_name": "Room 1A19 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001038",
+          "section_ref": "FA26:E 00001038",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "1526",
+            "1527",
+            "153782",
+            "3759",
+            "3760",
+            "3761"
+          ],
+          "capacity": 30,
+          "enrolled": 30,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brinda Rana"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001039",
+          "section_ref": "FA26:E 00001039",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "151119",
+            "151120",
+            "151121",
+            "151122",
+            "151123",
+            "151124",
+            "151125",
+            "151126",
+            "151127",
+            "151128",
+            "151129",
+            "151130",
+            "151131",
+            "151132",
+            "151133",
+            "151134",
+            "151135",
+            "151136",
+            "151137",
+            "151138",
+            "151139",
+            "151140",
+            "151141",
+            "151142",
+            "151143",
+            "151144",
+            "152672",
+            "152673",
+            "1528",
+            "1529",
+            "153783",
+            "3762",
+            "3763",
+            "3764"
+          ],
+          "capacity": 30,
+          "enrolled": 30,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brinda Rana"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "110",
+      "module_code": "PH-110",
+      "module_name": "HealthBehavior/Chronic Disease",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 42,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Sophomore, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001040",
+          "section_ref": "FA26:E 00001040",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "151145",
+            "153462",
+            "153790"
+          ],
+          "capacity": 60,
+          "enrolled": 18,
+          "seats_available": 42,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1110,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:30pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1110,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:30pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "120R",
+      "module_code": "PH-120R",
+      "module_name": "Health Policies/Lifestyles",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 80,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Sara Mcmenamin"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00005406",
+          "section_ref": "FA26:E 00005406",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153354",
+            "157865"
+          ],
+          "capacity": 80,
+          "enrolled": 41,
+          "seats_available": 39,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sara Mcmenamin"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "midterm",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-11-19",
+              "start_minutes": 1140,
+              "end_minutes": 1220,
+              "start_time_display": "7:00pm",
+              "end_time_display": "8:20pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004512",
+          "section_ref": "FA26:E 00004512",
+          "section_code": "002-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155753"
+          ],
+          "capacity": 80,
+          "enrolled": 39,
+          "seats_available": 41,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sara Mcmenamin"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "midterm",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-11-19",
+              "start_minutes": 1140,
+              "end_minutes": 1220,
+              "start_time_display": "7:00pm",
+              "end_time_display": "8:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "130",
+      "module_code": "PH-130",
+      "module_name": "Environment/OccupationalHealth",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Georgia Kayser"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)",
+        "PH 101 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001041",
+          "section_ref": "FA26:E 00001041",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153807",
+            "153848"
+          ],
+          "capacity": 80,
+          "enrolled": 80,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Georgia Kayser"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "157",
+      "module_code": "PH-157",
+      "module_name": "Intersectionality&PublicHealth",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 4,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001042",
+          "section_ref": "FA26:E 00001042",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153849",
+            "155756"
+          ],
+          "capacity": 15,
+          "enrolled": 11,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "161",
+      "module_code": "PH-161",
+      "module_name": "ClinicalNutrition/PublicHealth",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 21,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Sophomore, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001043",
+          "section_ref": "FA26:E 00001043",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153565",
+            "153629"
+          ],
+          "capacity": 60,
+          "enrolled": 39,
+          "seats_available": 21,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "191",
+      "module_code": "PH-191",
+      "module_name": "Health Access & Leadership",
+      "course_title": "Health Access & Leadership",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 39,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Ellen Beck"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Sophomore, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00005434",
+          "section_ref": "FA26:E 00005434",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "157897"
+          ],
+          "capacity": 40,
+          "enrolled": 1,
+          "seats_available": 39,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ellen Beck"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "193",
+      "module_code": "PH-193",
+      "module_name": "Public Health Capstone I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 110,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 40 (minimum grade D)",
+        "PH 45 (minimum grade D)",
+        "PH 101 (minimum grade D)",
+        "PH 102 (minimum grade D)",
+        "PH 110 (minimum grade D)",
+        "PH 120 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to class level: Junior, Senior",
+        "Limited to major: Public Health, PblHlth w/Con Biostatistics, PblHlth w/Con Clmt&EnvrnSci, PblHlth w/Con CmntyHlth Sci, PblHlth w/Con Epidemiology, PblHlth w/Con HlthPol&Mgmt, PblHlth w/Con Medicine Sci"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001046",
+          "section_ref": "FA26:E 00001046",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152385",
+            "157736"
+          ],
+          "capacity": 110,
+          "enrolled": 0,
+          "seats_available": 110,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "COA",
+              "room_code": "COA 125",
+              "building_name": "Coalition Building",
+              "room_name": "Room 125 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "200",
+      "module_code": "PH-200",
+      "module_name": "Foundations of Public Health",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 110,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Cheryl Anderson"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Behavior), MPH(Health Policy), MPH(Public Mental Health), MPH(Tech&Precision Health), MPH(Epidemiology), Biostatistics, Pub Hlth(Epidemiol)JT Doc SDSU, PubHlth(Health Behav)JtDocSDSU, PublHlth(Global Hlth)JtDocSDSU, PhD PbHl w/Con HlthSvcs&ImpSci"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00005527",
+          "section_ref": "FA26:E 00005527",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "159298"
+          ],
+          "capacity": 110,
+          "enrolled": 0,
+          "seats_available": 110,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Cheryl Anderson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 1010,
+              "start_time_display": "2:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "BSB",
+              "room_code": "BSB 1105",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 1105 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "BSB",
+              "room_code": "BSB 1105",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 1105 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "258",
+      "module_code": "PH-258",
+      "module_name": "Public Health Seminar",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Angela Bazzi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Pub Hlth(Epidemiol)JT Doc SDSU, PubHlth(Health Behav)JtDocSDSU, PublHlth(Global Hlth)JtDocSDSU"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004514",
+          "section_ref": "FA26:E 00004514",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152019"
+          ],
+          "capacity": 15,
+          "enrolled": 11,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Angela Bazzi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 890,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MTF",
+              "room_code": "MTF 175",
+              "building_name": "Medical Teaching Facility",
+              "room_name": "Room 175 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "259",
+      "module_code": "PH-259",
+      "module_name": "Epidemiology Practicum",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [
+        "Gretchen Bandoli"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Pub Hlth(Epidemiol)JT Doc SDSU"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004515",
+          "section_ref": "FA26:E 00004515",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [
+            "152020"
+          ],
+          "capacity": 10,
+          "enrolled": 2,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gretchen Bandoli"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "270",
+      "module_code": "PH-270",
+      "module_name": "Culturl Prcepts/Health&Disease",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 8,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jamila Stockman"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: PublHlth(Global Hlth)JtDocSDSU"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004516",
+          "section_ref": "FA26:E 00004516",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153697"
+          ],
+          "capacity": 10,
+          "enrolled": 2,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jamila Stockman"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "280",
+      "module_code": "PH-280",
+      "module_name": "GlobalHealth&BehaviorPracticum",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [
+        "David Strong"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: PubHlth(Health Behav)JtDocSDSU, PublHlth(Global Hlth)JtDocSDSU"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004518",
+          "section_ref": "FA26:E 00004518",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [
+            "153709"
+          ],
+          "capacity": 10,
+          "enrolled": 9,
+          "seats_available": 1,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Strong"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 950,
+              "start_time_display": "1:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "BRF2",
+              "room_code": "BRF2 1102",
+              "building_name": "Biomedical Research Facility II",
+              "room_name": "Room 1102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "299",
+      "module_code": "PH-299",
+      "module_name": "Dissertation Research PH",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "David Strong"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00004226",
+          "section_ref": "FA26:EL00004226",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 75,
+          "enrolled": 26,
+          "seats_available": 49,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Strong"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "400",
+      "module_code": "PH-400",
+      "module_name": "Introduction to Biostatistics",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 11,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Brinda Rana"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Behavior), MPH(Health Policy), MPH(Public Mental Health), MPH(Tech&Precision Health), MPH(Epidemiology)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004520",
+          "section_ref": "FA26:E 00004520",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153611"
+          ],
+          "capacity": 60,
+          "enrolled": 49,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brinda Rana"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004521",
+          "section_ref": "FA26:E 00004521",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "153611",
+            "159459"
+          ],
+          "capacity": 60,
+          "enrolled": 49,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brinda Rana"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 800,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "401",
+      "module_code": "PH-401",
+      "module_name": "Introduction to Epidemiology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 12,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Richard Garfein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Behavior), MPH(Health Policy), MPH(Public Mental Health), MPH(Tech&Precision Health), MPH(Epidemiology)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004522",
+          "section_ref": "FA26:E 00004522",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153623",
+            "159460"
+          ],
+          "capacity": 60,
+          "enrolled": 48,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Richard Garfein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "417R",
+      "module_code": "PH-417R",
+      "module_name": "CVD Epidemiology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Ryan Bradley"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Epidemiology)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004523",
+          "section_ref": "FA26:E 00004523",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155766"
+          ],
+          "capacity": 12,
+          "enrolled": 12,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ryan Bradley"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "427",
+      "module_code": "PH-427",
+      "module_name": "Mental Hlth Across/Life Course",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 6,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Kristen Duarte"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Public Mental Health)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004524",
+          "section_ref": "FA26:E 00004524",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153652",
+            "159455"
+          ],
+          "capacity": 18,
+          "enrolled": 12,
+          "seats_available": 6,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kristen Duarte"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "429",
+      "module_code": "PH-429",
+      "module_name": "Substance Use/Population Hlth",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 3,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Angela Bazzi"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Behavior), MPH(Public Mental Health)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004525",
+          "section_ref": "FA26:E 00004525",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155767"
+          ],
+          "capacity": 18,
+          "enrolled": 15,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Angela Bazzi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "433",
+      "module_code": "PH-433",
+      "module_name": "The Internet as Data",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 7,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Eric Leas"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Tech&Precision Health)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004526",
+          "section_ref": "FA26:E 00004526",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155769",
+            "159442"
+          ],
+          "capacity": 18,
+          "enrolled": 11,
+          "seats_available": 7,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eric Leas"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "441",
+      "module_code": "PH-441",
+      "module_name": "Org&Financing/US HealthcareSys",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 5,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Todd Gilmer"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PH 405 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Policy)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004527",
+          "section_ref": "FA26:E 00004527",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153654",
+            "159446"
+          ],
+          "capacity": 16,
+          "enrolled": 11,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Todd Gilmer"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "442",
+      "module_code": "PH-442",
+      "module_name": "Qualitative Research Methods",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 13,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "B S L Hurst"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Policy)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004528",
+          "section_ref": "FA26:E 00004528",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155770",
+            "159463"
+          ],
+          "capacity": 15,
+          "enrolled": 2,
+          "seats_available": 13,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "B S L Hurst"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 1010,
+              "start_time_display": "2:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "BRF2",
+              "room_code": "BRF2 1102",
+              "building_name": "Biomedical Research Facility II",
+              "room_name": "Room 1102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PH",
+      "course_code": "491",
+      "module_code": "PH-491",
+      "module_name": "Special Topics/Public Health",
+      "course_title": "Special Topics/Public Health",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Georgia Kayser"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Public Health",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Master of Public Health, MPH(Health Behavior), MPH(Health Policy), MPH(Public Mental Health), MPH(Tech&Precision Health), MPH(Epidemiology)"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001047",
+          "section_ref": "FA26:E 00001047",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152386",
+            "153686"
+          ],
+          "capacity": 12,
+          "enrolled": 5,
+          "seats_available": 7,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Georgia Kayser"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHAR",
+      "course_code": "236",
+      "module_code": "PHAR-236",
+      "module_name": "Pharmacokinetics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 15,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Shu-Juan Chen"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Pharmacology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002582",
+          "section_ref": "FA26:EL00002582",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 15,
+          "enrolled": 0,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Shu-Juan Chen"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "221",
+      "module_code": "PHB-221",
+      "module_name": "Biostatistical Methods I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 12,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jingjing Zou"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001048",
+          "section_ref": "FA26:E 00001048",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152405",
+            "153575"
+          ],
+          "capacity": 40,
+          "enrolled": 28,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jingjing Zou"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 109",
+              "building_name": "Solis Hall",
+              "room_name": "Room 109 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 109",
+              "building_name": "Solis Hall",
+              "room_name": "Room 109 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "224",
+      "module_code": "PHB-224",
+      "module_name": "Biostat Methods in Clin Trials",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Sonia Jain"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PHB 221 (minimum grade B-)",
+        "PHB 222 (minimum grade B-)",
+        "PHB 223 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics, Pub Hlth(Epidemiol)JT Doc SDSU, PubHlth(Health Behav)JtDocSDSU, PublHlth(Global Hlth)JtDocSDSU"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001049",
+          "section_ref": "FA26:E 00001049",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153874",
+            "157563"
+          ],
+          "capacity": 25,
+          "enrolled": 25,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sonia Jain"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "MET",
+              "room_code": "MET 315",
+              "building_name": "Medical Education and Telemedicine Cente",
+              "room_name": "Room 315 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "MET",
+              "room_code": "MET 315",
+              "building_name": "Medical Education and Telemedicine Cente",
+              "room_name": "Room 315 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "MET",
+              "room_code": "MET 315",
+              "building_name": "Medical Education and Telemedicine Cente",
+              "room_name": "Room 315 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "227",
+      "module_code": "PHB-227",
+      "module_name": "Stat Learn & Multivar Analysis",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 9,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Lin Liu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PHB 221 (minimum grade B-)",
+        "PHB 222 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001050",
+          "section_ref": "FA26:E 00001050",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153584"
+          ],
+          "capacity": 25,
+          "enrolled": 16,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Lin Liu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "243A",
+      "module_code": "PHB-243A",
+      "module_name": "PracticumBiostatistics A",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 8,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "pr"
+      ],
+      "instructors": [
+        "Xin Tu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PHB 221 (minimum grade B-)",
+        "PHB 222 (minimum grade B-)",
+        "PHB 223 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004529",
+          "section_ref": "FA26:E 00004529",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153589",
+            "159447"
+          ],
+          "capacity": 25,
+          "enrolled": 17,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Xin Tu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 240",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 240 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002529",
+          "section_ref": "FA26:EL00002529",
+          "section_code": "001-001-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 25,
+          "enrolled": 17,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Xin Tu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "244A",
+      "module_code": "PHB-244A",
+      "module_name": "Foundations in Biostatistics A",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 12,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Xinlian Zhang"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004530",
+          "section_ref": "FA26:E 00004530",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152969",
+            "153598",
+            "159449"
+          ],
+          "capacity": 40,
+          "enrolled": 28,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Xinlian Zhang"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "280",
+      "module_code": "PHB-280",
+      "module_name": "Biostat Journal Club",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Karen Messer"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004531",
+          "section_ref": "FA26:E 00004531",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "153605",
+            "159450"
+          ],
+          "capacity": 75,
+          "enrolled": 42,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Messer"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 1010,
+              "start_time_display": "2:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "BSB",
+              "room_code": "BSB 2100",
+              "building_name": "Biomedical Sciences Building",
+              "room_name": "Room 2100 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHB",
+      "course_code": "281",
+      "module_code": "PHB-281",
+      "module_name": "Biostatistics Seminar Series",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Jingjing Zou"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Public Health/ Biostatistics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [
+        "PHB 280 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Biostatistics"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004532",
+          "section_ref": "FA26:E 00004532",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152970",
+            "155803",
+            "159448"
+          ],
+          "capacity": 65,
+          "enrolled": 27,
+          "seats_available": 38,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jingjing Zou"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 840,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:00pm",
+              "building_code": null,
+              "room_code": null,
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "001",
+      "module_code": "PHIL-001",
+      "module_name": "Introduction to Philosophy",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 23,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Alexander Kocurek"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001941",
+          "section_ref": "FA26:E 00001941",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155805",
+            "156908"
+          ],
+          "capacity": 40,
+          "enrolled": 17,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexander Kocurek"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "CSB",
+              "room_code": "CSB 002",
+              "building_name": "Cognitive Science Building",
+              "room_name": "Room 002 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "010",
+      "module_code": "PHIL-010",
+      "module_name": "Introduction to Logic",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 118,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "J. Carr"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 5,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001947",
+          "section_ref": "FA26:E 00001947",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155806",
+            "155807",
+            "155808",
+            "155809",
+            "156929"
+          ],
+          "capacity": 180,
+          "enrolled": 62,
+          "seats_available": 118,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001948",
+          "section_ref": "FA26:E 00001948",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155806",
+            "156930"
+          ],
+          "capacity": 45,
+          "enrolled": 27,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "DIB",
+              "room_code": "DIB 122",
+              "building_name": "Design and Innovation Building",
+              "room_name": "Room 122 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001949",
+          "section_ref": "FA26:E 00001949",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "152020",
+            "155807",
+            "156931"
+          ],
+          "capacity": 45,
+          "enrolled": 8,
+          "seats_available": 37,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "DIB",
+              "room_code": "DIB 122",
+              "building_name": "Design and Innovation Building",
+              "room_name": "Room 122 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001950",
+          "section_ref": "FA26:E 00001950",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155808",
+            "156932"
+          ],
+          "capacity": 45,
+          "enrolled": 6,
+          "seats_available": 39,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0103",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0103 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001951",
+          "section_ref": "FA26:E 00001951",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155809",
+            "156933"
+          ],
+          "capacity": 45,
+          "enrolled": 21,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 960,
+              "start_time_display": "3:00pm",
+              "end_time_display": "4:00pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0103",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0103 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "013",
+      "module_code": "PHIL-013",
+      "module_name": "Intro to Philosophy:  Ethics",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 104,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Andy Lamey"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 5,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001942",
+          "section_ref": "FA26:E 00001942",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155810",
+            "155811",
+            "155812",
+            "155813",
+            "156924"
+          ],
+          "capacity": 132,
+          "enrolled": 28,
+          "seats_available": 104,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 212",
+              "building_name": "Center Hall",
+              "room_name": "Room 212 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001943",
+          "section_ref": "FA26:E 00001943",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155810",
+            "156925"
+          ],
+          "capacity": 33,
+          "enrolled": 9,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001944",
+          "section_ref": "FA26:E 00001944",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155811",
+            "156926"
+          ],
+          "capacity": 33,
+          "enrolled": 3,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001945",
+          "section_ref": "FA26:E 00001945",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155812",
+            "156927"
+          ],
+          "capacity": 33,
+          "enrolled": 13,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001946",
+          "section_ref": "FA26:E 00001946",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "152019",
+            "155813",
+            "156928"
+          ],
+          "capacity": 33,
+          "enrolled": 3,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217A",
+              "building_name": "Center Hall",
+              "room_name": "Room 217A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "027",
+      "module_code": "PHIL-027",
+      "module_name": "Ethics And Society",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 3,
+      "open_seat_count": 38,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Reuven Brandt"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 5,
+      "units_display": "4 units",
+      "prerequisites": [
+        "CAT 2 (minimum grade D) or CAT 2CE (minimum grade D) or CCE 1 (minimum grade D) or DOC 2 (minimum grade D) or HUM 1 (minimum grade D) or MCWP 40R (minimum grade D) or MMW 12 (minimum grade D) or MCWP 40 (minimum grade D) or SYN 1 (minimum grade D) or SYN 1R (minimum grade D) or WARR 11A (minimum grade D) or WCWP 10A (minimum grade D)",
+        "CAT 3 (minimum grade D) or CAT 3CE (minimum grade D) or CCE 2 (minimum grade D) or DOC 3 (minimum grade D) or HUM 2 (minimum grade D) or MCWP 50R (minimum grade D) or MMW 13 (minimum grade D) or MCWP 50 (minimum grade D) or SYN 2 (minimum grade D) or SYN 2R (minimum grade D) or WARR 11B (minimum grade D) or WCWP 10B (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Undergraduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001952",
+          "section_ref": "FA26:E 00001952",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155819",
+            "155820",
+            "155821",
+            "155822",
+            "156934"
+          ],
+          "capacity": 300,
+          "enrolled": 262,
+          "seats_available": 38,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Reuven Brandt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001953",
+          "section_ref": "FA26:E 00001953",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155819",
+            "156935"
+          ],
+          "capacity": 75,
+          "enrolled": 75,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Reuven Brandt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001954",
+          "section_ref": "FA26:E 00001954",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155820",
+            "157144"
+          ],
+          "capacity": 75,
+          "enrolled": 75,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Reuven Brandt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001955",
+          "section_ref": "FA26:E 00001955",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155821",
+            "157145"
+          ],
+          "capacity": 75,
+          "enrolled": 69,
+          "seats_available": 6,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Reuven Brandt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001956",
+          "section_ref": "FA26:E 00001956",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155822",
+            "157146"
+          ],
+          "capacity": 75,
+          "enrolled": 43,
+          "seats_available": 32,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Reuven Brandt"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1070,
+              "start_time_display": "5:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0121",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0121 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "028",
+      "module_code": "PHIL-028",
+      "module_name": "Ethics And Society II",
+      "course_title": null,
+      "section_count": 9,
+      "open_section_count": 8,
+      "open_seat_count": 133,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Andy Lamey"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 9,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PHIL 27 (minimum grade D) or POLI 27 (minimum grade D)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Undergraduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001957",
+          "section_ref": "FA26:E 00001957",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155824",
+            "155825",
+            "155826",
+            "155827",
+            "155828",
+            "155829",
+            "155830",
+            "155831",
+            "157147"
+          ],
+          "capacity": 264,
+          "enrolled": 131,
+          "seats_available": 133,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PETER",
+              "room_code": "PETER 110",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 110 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001958",
+          "section_ref": "FA26:E 00001958",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155824",
+            "157148"
+          ],
+          "capacity": 33,
+          "enrolled": 30,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 719,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:59am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001959",
+          "section_ref": "FA26:E 00001959",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155825",
+            "156990"
+          ],
+          "capacity": 33,
+          "enrolled": 9,
+          "seats_available": 24,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001960",
+          "section_ref": "FA26:E 00001960",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155826",
+            "157150"
+          ],
+          "capacity": 33,
+          "enrolled": 11,
+          "seats_available": 22,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001961",
+          "section_ref": "FA26:E 00001961",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155827",
+            "156991"
+          ],
+          "capacity": 33,
+          "enrolled": 6,
+          "seats_available": 27,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 2154",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2154 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001962",
+          "section_ref": "FA26:E 00001962",
+          "section_code": "001-005-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155828",
+            "156887",
+            "156888",
+            "157153",
+            "1980",
+            "1981",
+            "4058",
+            "4059",
+            "4060",
+            "4061",
+            "43",
+            "44"
+          ],
+          "capacity": 33,
+          "enrolled": 13,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 2154",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2154 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001963",
+          "section_ref": "FA26:E 00001963",
+          "section_code": "001-006-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155829",
+            "156889",
+            "156890",
+            "157154",
+            "159445",
+            "1998",
+            "1999"
+          ],
+          "capacity": 33,
+          "enrolled": 10,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217B",
+              "building_name": "Center Hall",
+              "room_name": "Room 217B - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001964",
+          "section_ref": "FA26:E 00001964",
+          "section_code": "001-007-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155830",
+            "156891"
+          ],
+          "capacity": 33,
+          "enrolled": 20,
+          "seats_available": 13,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2154",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2154 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001965",
+          "section_ref": "FA26:E 00001965",
+          "section_code": "001-008-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155831",
+            "156892",
+            "157032"
+          ],
+          "capacity": 33,
+          "enrolled": 33,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2154",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2154 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "035",
+      "module_code": "PHIL-035",
+      "module_name": "Philosophy in the Americas",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 60,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Manuel Vargas"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Freshman, Junior, Sophomore, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001966",
+          "section_ref": "FA26:E 00001966",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155834",
+            "157036"
+          ],
+          "capacity": 70,
+          "enrolled": 10,
+          "seats_available": 60,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Manuel Vargas"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "051",
+      "module_code": "PHIL-051",
+      "module_name": "Climate Ethics",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 103,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [
+        "Karen Kovaka"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 5,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Freshman, Junior, Sophomore, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001972",
+          "section_ref": "FA26:E 00001972",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155839",
+            "155840",
+            "155841",
+            "155842",
+            "157042"
+          ],
+          "capacity": 132,
+          "enrolled": 29,
+          "seats_available": 103,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "HSS",
+              "room_code": "HSS 1330",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 1330 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001973",
+          "section_ref": "FA26:E 00001973",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155839",
+            "157043"
+          ],
+          "capacity": 33,
+          "enrolled": 19,
+          "seats_available": 14,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2208",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2208 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001974",
+          "section_ref": "FA26:E 00001974",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155840",
+            "157044"
+          ],
+          "capacity": 33,
+          "enrolled": 10,
+          "seats_available": 23,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 830,
+              "start_time_display": "1:00pm",
+              "end_time_display": "1:50pm",
+              "building_code": "HSS",
+              "room_code": "HSS 2154",
+              "building_name": "Humanities and Social Sciences",
+              "room_name": "Room 2154 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001975",
+          "section_ref": "FA26:E 00001975",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155841",
+            "157035",
+            "157045",
+            "2272",
+            "2273"
+          ],
+          "capacity": 33,
+          "enrolled": 0,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 890,
+              "start_time_display": "2:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217A",
+              "building_name": "Center Hall",
+              "room_name": "Room 217A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00001976",
+          "section_ref": "FA26:E 00001976",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "152021",
+            "152022",
+            "152023",
+            "152024",
+            "155842",
+            "157046"
+          ],
+          "capacity": 33,
+          "enrolled": 0,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "CENTR",
+              "room_code": "CENTR 217A",
+              "building_name": "Center Hall",
+              "room_name": "Room 217A - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "087",
+      "module_code": "PHIL-087",
+      "module_name": "Freshman Seminar",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Karen Kovaka"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Freshman"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004574",
+          "section_ref": "FA26:E 00004574",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155843"
+          ],
+          "capacity": 20,
+          "enrolled": 0,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1010,
+              "start_time_display": "4:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0474",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0474 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "110",
+      "module_code": "PHIL-110",
+      "module_name": "History of Philosophy: Ancient",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 55,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Monte Johnson"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001977",
+          "section_ref": "FA26:E 00001977",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155868",
+            "157157"
+          ],
+          "capacity": 60,
+          "enrolled": 5,
+          "seats_available": 55,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Monte Johnson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "120",
+      "module_code": "PHIL-120",
+      "module_name": "Symbolic Logic",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "J. Carr"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PHIL 10 (minimum grade D)"
+      ],
+      "restrictions": [],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00004575",
+          "section_ref": "FA26:E 00004575",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155847"
+          ],
+          "capacity": 45,
+          "enrolled": 45,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "J. Carr"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1040,
+              "start_time_display": "4:00pm",
+              "end_time_display": "5:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 960,
+              "end_minutes": 1040,
+              "start_time_display": "4:00pm",
+              "end_time_display": "5:20pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "134",
+      "module_code": "PHIL-134",
+      "module_name": "Philosophy of Language",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 17,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jonathan Cohen"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001978",
+          "section_ref": "FA26:E 00001978",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152025",
+            "152026",
+            "155856",
+            "157158",
+            "3112",
+            "3113"
+          ],
+          "capacity": 40,
+          "enrolled": 23,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jonathan Cohen"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "136",
+      "module_code": "PHIL-136",
+      "module_name": "Philosophy of Mind",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Christopher Shields"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00003066",
+          "section_ref": "FA26:E 00003066",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152712",
+            "155859",
+            "4636",
+            "4637"
+          ],
+          "capacity": 40,
+          "enrolled": 40,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Christopher Shields"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 480,
+              "end_minutes": 560,
+              "start_time_display": "8:00am",
+              "end_time_display": "9:20am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": "2026-12-08",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "142",
+      "module_code": "PHIL-142",
+      "module_name": "Philosophy of Emotion",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 21,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Matthew Fulkerson"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001979",
+          "section_ref": "FA26:E 00001979",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155862",
+            "157159"
+          ],
+          "capacity": 40,
+          "enrolled": 19,
+          "seats_available": 21,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Matthew Fulkerson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 770,
+              "start_time_display": "12:00pm",
+              "end_time_display": "12:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "147",
+      "module_code": "PHIL-147",
+      "module_name": "Philosophy of Biology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 34,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Karen Kovaka"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001980",
+          "section_ref": "FA26:E 00001980",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152027",
+            "155887",
+            "157160"
+          ],
+          "capacity": 40,
+          "enrolled": 6,
+          "seats_available": 34,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Karen Kovaka"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 590,
+              "start_time_display": "9:00am",
+              "end_time_display": "9:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "153",
+      "module_code": "PHIL-153",
+      "module_name": "Philosophy and Animals",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 33,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Andy Lamey"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001981",
+          "section_ref": "FA26:E 00001981",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155866",
+            "157161"
+          ],
+          "capacity": 40,
+          "enrolled": 7,
+          "seats_available": 33,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Andy Lamey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PHIL",
+      "course_code": "159",
+      "module_code": "PHIL-159",
+      "module_name": "Metaethics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 35,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "David Brink"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Philosophy",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to class level: Junior, Senior"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00001982",
+          "section_ref": "FA26:E 00001982",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152028",
+            "155872",
+            "157162"
+          ],
+          "capacity": 40,
+          "enrolled": 5,
+          "seats_available": 35,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Brink"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "RWAC",
+              "room_code": "RWAC 0426",
+              "building_name": "Ridgewalk Academic Complex",
+              "room_name": "Room 0426 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

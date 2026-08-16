@@ -1,0 +1,211 @@
+[
+  {
+    "course_id": "PHB:221",
+    "subject": "PHB",
+    "course_number": "221",
+    "title": "Biostatistical Methods I",
+    "units": "4",
+    "description": "Introductory graduate course on applied statistical data analysis, focusing on multiple linear regression and using the R statistical software. The course addresses issues related to model interpretation, model assumptions, confounding, interactions, testing of coefficients and ANOVA, adjusting for multiple comparisons, heteroscedasticity, model diagnostics, variable selection, prediction error, cross-validation, and resampling via the bootstrap. Renumbered from FMPH 221. Students may not receive credit for PHB 221 and FMPH 221. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "biostatistics major or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb221"
+  },
+  {
+    "course_id": "PHB:222",
+    "subject": "PHB",
+    "course_number": "222",
+    "title": "Biostatistical Methods II",
+    "units": "4",
+    "description": "Intermediate-level graduate course in the analysis of categorical data. Topics include generalized linear models (logistic, Poisson, loglinear models); maximum likelihood and quasi likelihood approaches; model diagnostics, computational approaches and inferential strategies. Both theory and practice will be addressed. Renumbered from FMPH 222. Students may not receive credit for PHB 222 and FMPH 222. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221 and FMPH 244A or PHB 244A or MATH 281A or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb222"
+  },
+  {
+    "course_id": "PHB:223",
+    "subject": "PHB",
+    "course_number": "223",
+    "title": "Analysis of Longitudinal Data",
+    "units": "4",
+    "description": "Analysis of longitudinal data applied to biomedical research. Models for continuous, binary, and count outcomes include the general linear model, linear and generalized linear mixed-effects models, and generalized estimating equations (GEE). Other topics: model building and model selection strategies; types of missing data and dropout; power and sample size calculations. While the focus is on practical statistical modeling, the estimation methodology and computational aspects are explored. Renumbered from FMPH 223. Students may not receive credit for PHB 223 and FMPH 223. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 222 or PHB 222 and MATH 281A or MATH 282A or FMPH 244B or PHB 244B or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb223"
+  },
+  {
+    "course_id": "PHB:224",
+    "subject": "PHB",
+    "course_number": "224",
+    "title": "Biostatistical Methods in Clinical Trials",
+    "units": "4",
+    "description": "The graduate-level course will cover statistical aspects of clinical trial design, monitoring, analysis, and ethics of human subjects research. Design and computations will be emphasized. Renumbered from FMPH 224. Students may not receive credit for PHB 224 and FMPH 224. Must be taken for a letter grade if applied to biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 and FMPH 223 or PHB 223 or program approval. Restricted to PB76, PB77, PB79, PB80, PB81, or consent of instructor.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb224"
+  },
+  {
+    "course_id": "PHB:225",
+    "subject": "PHB",
+    "course_number": "225",
+    "title": "Topics in Non- and Semi-Parametric Statistics and Functional Data",
+    "units": "4",
+    "description": "The graduate-level course will cover modern statistical inference including non- and semi-parametric statistics, resampling methods, and topics from functional data analysis. Data analysis and computation will be emphasized. Examples of applications discussed include biomedical imaging and wearable device data and their usage in studying health outcomes. Renumbered from FMPH 225. Students may not receive credit for PHB 225 and FMPH 225. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb225"
+  },
+  {
+    "course_id": "PHB:226",
+    "subject": "PHB",
+    "course_number": "226",
+    "title": "Statistical Methods for Observational Studies",
+    "units": "4",
+    "description": "An introduction to inference and causal modeling for observational data, including propensity score adjustment, inverse probability weighting, instrumental variables, and sensitivity analysis. Data analysis and computation will be required. Must be taken for a letter grade to be applied to the biostatistics degree requirements. Renumbered from FMPH 226. Students may not receive credit for PHB 226 and FMPH 226.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221, FMPH 222 or PHB 222, and FMPH 223 or PHB 223 or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb226"
+  },
+  {
+    "course_id": "PHB:227",
+    "subject": "PHB",
+    "course_number": "227",
+    "title": "Statistical Learning and Multivariate Analysis",
+    "units": "4",
+    "description": "This graduate course introduces concepts, methods, and applications of statistical learning and multivariate data analysis, including prediction, classification, regularization, decision trees, principal components analysis, and clustering. Data analysis will be emphasized. Renumbered from FMPH 227. Students may not receive credit for PHB 227 and FMPH 227. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb227"
+  },
+  {
+    "course_id": "PHB:228",
+    "subject": "PHB",
+    "course_number": "228",
+    "title": "Statistical Computing",
+    "units": "4",
+    "description": "The goal of this course is to give students a useful toolkit for handling statistical computations in R. This includes being able to write legible and robust code, debug R functions, run computer simulations, find ways to speed up calculations, encapsulate code and documents in R packages, and have some sense of issues that impact real-world computation. Students may not receive credit for PHB 228 and the FMPH 291 taught with the same title.",
+    "prerequisites_text": "FMPH 221 or PHB 221, and FMPH 222 or PHB 222, and FMPH 244B or MATH 281A or PHB 244B. Restricted to biostatistics majors or department approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb228"
+  },
+  {
+    "course_id": "PHB:241",
+    "subject": "PHB",
+    "course_number": "241",
+    "title": "Biostatistics Rotation",
+    "units": "3",
+    "description": "This practicum provides hand-on experience with biomedical research and data analysis. Working within a specific biomedical domain (e.g., cancer, genomics, or physical activity research), students will conduct original data analysis and prepare or substantially contribute to a final project report. Renumbered from FMPH 241. PHB 241 and/or FMPH 241 may be taken for credit for a combined total of five times.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222; biostatistics major only.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb241"
+  },
+  {
+    "course_id": "PHB:242",
+    "subject": "PHB",
+    "course_number": "242",
+    "title": "Advanced Topics in Biostatistics",
+    "units": "4",
+    "description": "Biostatistics elective courses will be taught under this course heading. Courses will have a varying focus each year/quarter. Topics will include random field theory and image analysis, advanced statistical computing, Bayesian methods, and others. May be taken for credit up to three times. Renumbered from FMPH 242. PHB 242 and/or FMPH 242 may be taken for credit for a combined total of three times. Must be taken for a letter grade to be applied to the biostatistics degree requirements.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 221 and FMPH 222 or PHB 222 or program approval.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb242"
+  },
+  {
+    "course_id": "PHB:243A",
+    "subject": "PHB",
+    "course_number": "243A",
+    "title": "Practicum in Biostatistics A",
+    "units": "4",
+    "description": "This is the first in a sequence of two core courses for the MS degree in biostatistics. The course takes advantage of the extensive involvement of the program faculty in collaborative and interdisciplinary work within the life sciences. Didactic instruction on best practices in statistical collaboration. Under supervision, the students will participate in applied, real-life projects stemming from the research and collaborations of the faculty in the Division of Biostatistics. Renumbered from FMPH 243A. Students may not receive credit for PHB 243A and FMPH 243A.",
+    "prerequisites_text": "successful completion of FMPH 221 or PHB 222 and FMPH 223 or PHB 223. Restricted to major code PB76.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb243a"
+  },
+  {
+    "course_id": "PHB:243B",
+    "subject": "PHB",
+    "course_number": "243B",
+    "title": "Practicum in Biostatistics B",
+    "units": "4",
+    "description": "This is the second in a sequence of two core courses for the MS degree in biostatistics. The course takes advantage of the extensive involvement of the program faculty in collaborative and interdisciplinary work within the life sciences. Didactic instruction on best practices in statistical collaboration. Under supervision, the students will participate in applied, real-life projects stemming from the research and collaborations of the faculty in the Division of Biostatistics. Renumbered from FMPH 243B. Students may not receive credit for PHB 243B and FMPH 243B.",
+    "prerequisites_text": "successful completion of FMPH 243A or PHB 243B. Restricted to major code PB76.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb243b"
+  },
+  {
+    "course_id": "PHB:244A",
+    "subject": "PHB",
+    "course_number": "244A",
+    "title": "Foundations in Biostatistics A",
+    "units": "4",
+    "description": "This course will mainly focus on probability theory and mathematical statistics, which are essential building blocks for more advanced inference tools. Topics include probability theory, (multivariate) random variables, functions of random variables, expectations, variance and moments, common families of distributions, properties of a random sample, statistics and sampling distribution, convergence of a sequence of random variables. Renumbered from FMPH 244A. Students may not receive credit for PHB 244A and FMPH 244A. Must be taken for a letter grade to be applied to the biostatistics degree requirements. Restricted to major code PB76.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb244a"
+  },
+  {
+    "course_id": "PHB:244B",
+    "subject": "PHB",
+    "course_number": "244B",
+    "title": "Foundations in Biostatistics B",
+    "units": "4",
+    "description": "Continued overview of mathematical foundations in biostatistics. The second course in a two-course series. Maximum likelihood theory. Sufficiency, efficiency. Hypothesis testing and confidence intervals. Robustness and power. Large-sample properties of commonly-used estimators and tests. Renumbered from FMPH 244B. Students may not receive credit for PHB 244B and FMPH 244B. Must be taken for a letter grade if applied to biostatistics degree requirements.",
+    "prerequisites_text": "FMPH 244A or PHB 244A, restricted to major code PB76.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb244b"
+  },
+  {
+    "course_id": "PHB:248",
+    "subject": "PHB",
+    "course_number": "248",
+    "title": "Applied Survival Analysis",
+    "units": "4",
+    "description": "Survival analysis has applications in biomedicine, economics, and engineering. It deals with the analysis of time-to-events data with censoring and truncation. This course discusses concepts and methods, comparing survival distributions, proportional hazards and other regression models, competing risks data, and design of survival studies. The emphasis is on semiparametric approaches, and material is drawn from recent literature including machine learning methods.",
+    "prerequisites_text": "FMPH 244B or PHB 244B.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb248"
+  },
+  {
+    "course_id": "PHB:280",
+    "subject": "PHB",
+    "course_number": "280",
+    "title": "Biostatistics Journal Club",
+    "units": "1",
+    "description": "This is a biweekly, structured journal club. Students will critically read assigned articles. During meetings, students work in groups to discuss specific questions regarding the assigned article, and are asked to present their answers to the class. Renumbered from FMPH 290. PHB 280 and/or FMPH 290 may be taken for credit for a combined total of six times. Restricted to major codes PB76 or PB77.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb280"
+  },
+  {
+    "course_id": "PHB:281",
+    "subject": "PHB",
+    "course_number": "281",
+    "title": "Biostatistics Seminar Series",
+    "units": "1",
+    "description": "Through a combination of in-person and virtual seminars on Zoom, students will gain insight into current research projects presented by invited speakers. Additionally, students are provided with the opportunity to participate in lunch discussions and one-on-one meetings. All MS students in biostatistics, and biostatistics PhD students in their third year and above are highly encouraged to enroll quarterly (except for summer). May be taken for credit up to twelve times.",
+    "prerequisites_text": "FMPH 290 or PHB 280. Restricted to PB76 and PB77 majors.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb281"
+  },
+  {
+    "course_id": "PHB:298",
+    "subject": "PHB",
+    "course_number": "298",
+    "title": "Special Topics in Public Health",
+    "units": "1–12",
+    "description": "Independent study for biostatistics graduate students in the Herbert Wertheim School of Public Health and Human Longevity Science. Study of special topics for graduate students under the direction of a faculty member. Exact subject matter to be arranged in individual cases. Restricted to PB76 and PB77 majors. May be taken for credit up to twenty-one times.",
+    "prerequisites_text": "department approval required.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb298"
+  },
+  {
+    "course_id": "PHB:299",
+    "subject": "PHB",
+    "course_number": "299",
+    "title": "Dissertation Research",
+    "units": "1–12",
+    "description": "Dissertation research for students who are advancing or have advanced to candidacy. May be taken for credit up to twelve times. Renumbered from FMPH 299. PHB 299 and/or FMPH 299 may be taken for credit for a combined total of twelve times.",
+    "prerequisites_text": "department approval required.",
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/PH.html#phb299"
+  }
+]

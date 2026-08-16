@@ -1,0 +1,1070 @@
+{
+  "subject": "LTSP",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "LTSP:2A",
+      "subject": "LTSP",
+      "course_number": "2A",
+      "title": "Intermediate Spanish I",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp2a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925347",
+          "course_id": "LTSP:2A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lampell, Toni"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RWAC 0292"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "RWAC 0292"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 28,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "2A",
+            "raw_section_identifier": "925347",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "FA25:925349",
+          "course_id": "LTSP:2A",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lampell, Toni"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "CENTR",
+              "room": "218",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "CENTR 218"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RWAC 0292"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 28,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "2A",
+            "raw_section_identifier": "925349",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:2B",
+      "subject": "LTSP",
+      "course_number": "2B",
+      "title": "Intermediate Spanish II",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp2b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925351",
+          "course_id": "LTSP:2B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Lampell, Toni"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "CENTR",
+              "room": "218",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "CENTR 218"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RWAC",
+              "room": "0291",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RWAC 0291"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 28,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "2B",
+            "raw_section_identifier": "925351",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:2C",
+      "subject": "LTSP",
+      "course_number": "2C",
+      "title": "Intermediate Spanish III",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp2c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925353",
+          "course_id": "LTSP:2C",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Herrera Venegas, Carolina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "RWAC",
+              "room": "0291",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "RWAC 0291"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 28,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "2C",
+            "raw_section_identifier": "925353",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:2F",
+      "subject": "LTSP",
+      "course_number": "2F",
+      "title": "Spanish Heritage Learners II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp2f",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925354",
+          "course_id": "LTSP:2F",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Herrera Venegas, Carolina"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "CENTR",
+              "room": "203",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "CENTR 203"
+            }
+          ],
+          "enrolled": 11,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "2F",
+            "raw_section_identifier": "925354",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:3F",
+      "subject": "LTSP",
+      "course_number": "3F",
+      "title": "Spanish Heritage Learners III",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp3f",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925355",
+          "course_id": "LTSP:3F",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Dominguez, Noelia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "YORK",
+              "room": "4050A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "YORK 4050A"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 25,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "3F",
+            "raw_section_identifier": "925355",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:925356",
+          "course_id": "LTSP:3F",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Dominguez, Noelia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "YORK",
+              "room": "4050A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "YORK 4050A"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 25,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "3F",
+            "raw_section_identifier": "925356",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:87",
+      "subject": "LTSP",
+      "course_number": "87",
+      "title": "First-year Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp87",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925357",
+          "course_id": "LTSP:87",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "87",
+            "raw_section_identifier": "925357",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:100A",
+      "subject": "LTSP",
+      "course_number": "100A",
+      "title": "Adv Spanish Language & Culture",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp100a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925595",
+          "course_id": "LTSP:100A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Dominguez, Noelia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "YORK",
+              "room": "4050A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "YORK 4050A"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "100A",
+            "raw_section_identifier": "925595",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:100F",
+      "subject": "LTSP",
+      "course_number": "100F",
+      "title": "Adv Span Heritage Lang & Cult",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp100f",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925621",
+          "course_id": "LTSP:100F",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bessett, Ryan Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RWAC 0292"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "100F",
+            "raw_section_identifier": "925621",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:925623",
+          "course_id": "LTSP:100F",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Bessett, Ryan Matthew"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RWAC",
+              "room": "0371",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RWAC 0371"
+            }
+          ],
+          "enrolled": 7,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "100F",
+            "raw_section_identifier": "925623",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:925626",
+          "course_id": "LTSP:100F",
+          "section_code": "C00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Martin-Cabrera, Luis"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "RWAC",
+              "room": "0292",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "RWAC 0292"
+            }
+          ],
+          "enrolled": 24,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "100F",
+            "raw_section_identifier": "925626",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:116",
+      "subject": "LTSP",
+      "course_number": "116",
+      "title": "Representatns/Span Colonialism",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp116",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925629",
+          "course_id": "LTSP:116",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Villafuerte Vazquez, Nadia"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2114"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "116",
+            "raw_section_identifier": "925629",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:172",
+      "subject": "LTSP",
+      "course_number": "172",
+      "title": "Indigenista Themes/Latin-Amer",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp172",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925637",
+          "course_id": "LTSP:172",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Chacon, Gloria Elizabeth"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "WLH",
+              "room": "2209",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "WLH 2209"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "172",
+            "raw_section_identifier": "925637",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:174",
+      "subject": "LTSP",
+      "course_number": "174",
+      "title": "Topics in Culture and Politics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp174",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:925639",
+          "course_id": "LTSP:174",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Chacon, Gloria Elizabeth"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "WLH",
+              "room": "2114",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "WLH 2114"
+            }
+          ],
+          "enrolled": 24,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "174",
+            "raw_section_identifier": "925639",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:298",
+      "subject": "LTSP",
+      "course_number": "298",
+      "title": "Special Projects:Writng Course",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp298",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:981995",
+          "course_id": "LTSP:298",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Arcos Herrera, Carol"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "298",
+            "raw_section_identifier": "981995",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:988986",
+          "course_id": "LTSP:298",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Martin-Cabrera, Luis"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "298",
+            "raw_section_identifier": "988986",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTSP:299",
+      "subject": "LTSP",
+      "course_number": "299",
+      "title": "Dissertation",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltsp299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:983966",
+          "course_id": "LTSP:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Chacon, Gloria Elizabeth"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "299",
+            "raw_section_identifier": "983966",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:45996",
+          "course_id": "LTSP:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Arcos Herrera, Carol"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "LTSP",
+            "raw_course_number": "299",
+            "raw_section_identifier": "45996",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

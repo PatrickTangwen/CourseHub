@@ -1,0 +1,101 @@
+{
+  "subject": "CMM",
+  "term": "FA24",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "04/01/2025, 04:17:00",
+  "courses": [
+    {
+      "course_id": "CMM:246",
+      "subject": "CMM",
+      "course_number": "246",
+      "title": "Current Literature/Glycobiol",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA24:732426",
+          "course_id": "CMM:246",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Esko, Jeffrey D.",
+            "Gagneux, Pascal",
+            "Lewis, Amanda Lark",
+            "Bode, Lars",
+            "Gordts, Philip",
+            "Godula, Kamil"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": "BRF2",
+              "room": "4103",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "BRF2 4103"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": "BRF2",
+              "room": "4103",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "BRF2 4103"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:00",
+              "building": "BRF2",
+              "room": "4103",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:00p-1:00p",
+              "raw_location": "BRF2 4103"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "FA24",
+            "raw_subject": "CMM",
+            "raw_course_number": "246",
+            "raw_section_identifier": "732426",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

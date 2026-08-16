@@ -1,0 +1,5677 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2241,
+  "offset": 1440,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "NEUG",
+      "course_code": "221",
+      "module_code": "NEUG-221",
+      "module_name": "DeepLearning inNeuroscience",
+      "course_title": "DeepLearning inNeuroscience",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 10,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Neurosciences/ Graduate",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [
+        "NEUG 200A (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001463",
+          "section_ref": "FA26:EL00001463",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 12,
+          "enrolled": 2,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "NEUG",
+      "course_code": "265",
+      "module_code": "NEUG-265",
+      "module_name": "Mechanisms of Pain",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Tony Yaksh"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Neurosciences/ Graduate",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "E 00003065",
+          "section_ref": "FA26:E 00003065",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155000",
+            "155085"
+          ],
+          "capacity": 10,
+          "enrolled": 7,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Tony Yaksh"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 450,
+              "end_minutes": 570,
+              "start_time_display": "7:30am",
+              "end_time_display": "9:30am",
+              "building_code": "MTF",
+              "room_code": "MTF 175",
+              "building_name": "Medical Teaching Facility",
+              "room_name": "Room 175 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "MTF",
+              "room_code": "MTF 175",
+              "building_name": "Medical Teaching Facility",
+              "room_name": "Room 175 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "NEUG",
+      "course_code": "276",
+      "module_code": "NEUG-276",
+      "module_name": "Neurosciences Research Rounds",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 15,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Neurosciences/ Graduate",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Neurosciences, Neur/Spec Computational Neuro"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001464",
+          "section_ref": "FA26:EL00001464",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 23,
+          "enrolled": 8,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "NEUG",
+      "course_code": "299",
+      "module_code": "NEUG-299",
+      "module_name": "Affiliate Lab",
+      "course_title": "Affiliate Lab",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Brenda Bloodgood"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Neurosciences/ Graduate",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Neurosciences, Neur/Spec Computational Neuro"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001496",
+          "section_ref": "FA26:EL00001496",
+          "section_code": "032-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brenda Bloodgood"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "NEUG",
+      "course_code": "299",
+      "module_code": "NEUG-299",
+      "module_name": "Neurosciences Research",
+      "course_title": "Neurosciences Research",
+      "section_count": 56,
+      "open_section_count": 56,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Alex Chaim",
+        "Alysson Muotri",
+        "Axel Nimmerjahn",
+        "Bing Ren",
+        "Binhai Zheng",
+        "Bradley Voytek",
+        "Brenda Bloodgood",
+        "Cory Miller",
+        "Dhananjay Bambah-Mukku",
+        "Don Cleveland",
+        "Edward Callaway",
+        "Eiman Abdel-Azim",
+        "Eran Mukamel",
+        "Eric Courchesne",
+        "Eric Halgren",
+        "Eugene Yeo",
+        "Fred Gage",
+        "Gabriel Silva",
+        "Gal Mishne",
+        "Giordano De Guglielmo",
+        "Greg Appelbaum",
+        "Hector Gonzalez",
+        "Jared Young",
+        "Jerome Mertens",
+        "Jing Wang",
+        "John Serences",
+        "Johnatan Aljadeff",
+        "Justin Trotter",
+        "Kay Tye",
+        "Kuo Lee",
+        "Loren Looger",
+        "Maksim Bazhenov",
+        "Maria Margarita Behrens",
+        "Mark Bondi",
+        "Mark Tuszynski",
+        "Matthew Lovett-Barron",
+        "Monique Smith",
+        "Nick Hollon",
+        "Nicola Allen",
+        "Nicole Coufal",
+        "Pieter Dorrestein",
+        "Praveen Raju",
+        "Richard Daneman",
+        "Samuel Pfaff",
+        "Scott Sternson",
+        "Sreekanth Chalasani",
+        "Stefan Leutgeb",
+        "Susan Ackerman",
+        "Takaki Komiyama",
+        "Terry Jernigan",
+        "Thomas Hnasko",
+        "Timothy Gentner",
+        "Virginia De Sa",
+        "Vivian Hook",
+        "Xu Chen"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Neurosciences/ Graduate",
+      "academic_level": "GR",
+      "matching_section_count": 56,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Neurosciences, Neur/Spec Computational Neuro"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001465",
+          "section_ref": "FA26:EL00001465",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 1,
+          "seats_available": 9998,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eiman Abdel-Azim"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001466",
+          "section_ref": "FA26:EL00001466",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Susan Ackerman"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001467",
+          "section_ref": "FA26:EL00001467",
+          "section_code": "003-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Johnatan Aljadeff"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001468",
+          "section_ref": "FA26:EL00001468",
+          "section_code": "004-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nicola Allen"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001469",
+          "section_ref": "FA26:EL00001469",
+          "section_code": "005-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Greg Appelbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001470",
+          "section_ref": "FA26:EL00001470",
+          "section_code": "006-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Dhananjay Bambah-Mukku"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001471",
+          "section_ref": "FA26:EL00001471",
+          "section_code": "007-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maksim Bazhenov"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001472",
+          "section_ref": "FA26:EL00001472",
+          "section_code": "008-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Maria Margarita Behrens"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001473",
+          "section_ref": "FA26:EL00001473",
+          "section_code": "009-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mark Bondi"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001474",
+          "section_ref": "FA26:EL00001474",
+          "section_code": "010-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brenda Bloodgood"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001475",
+          "section_ref": "FA26:EL00001475",
+          "section_code": "011-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Edward Callaway"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001476",
+          "section_ref": "FA26:EL00001476",
+          "section_code": "012-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alex Chaim"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001477",
+          "section_ref": "FA26:EL00001477",
+          "section_code": "013-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Sreekanth Chalasani"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001478",
+          "section_ref": "FA26:EL00001478",
+          "section_code": "014-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Xu Chen"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001479",
+          "section_ref": "FA26:EL00001479",
+          "section_code": "015-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Don Cleveland"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001480",
+          "section_ref": "FA26:EL00001480",
+          "section_code": "016-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nicole Coufal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001481",
+          "section_ref": "FA26:EL00001481",
+          "section_code": "017-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eric Courchesne"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001482",
+          "section_ref": "FA26:EL00001482",
+          "section_code": "018-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Richard Daneman"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001483",
+          "section_ref": "FA26:EL00001483",
+          "section_code": "019-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Giordano De Guglielmo"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001484",
+          "section_ref": "FA26:EL00001484",
+          "section_code": "020-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Fred Gage"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001485",
+          "section_ref": "FA26:EL00001485",
+          "section_code": "021-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Timothy Gentner"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001486",
+          "section_ref": "FA26:EL00001486",
+          "section_code": "022-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Pieter Dorrestein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001487",
+          "section_ref": "FA26:EL00001487",
+          "section_code": "023-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Hector Gonzalez"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001488",
+          "section_ref": "FA26:EL00001488",
+          "section_code": "024-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nick Hollon"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001489",
+          "section_ref": "FA26:EL00001489",
+          "section_code": "025-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eric Halgren"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001490",
+          "section_ref": "FA26:EL00001490",
+          "section_code": "026-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Thomas Hnasko"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001491",
+          "section_ref": "FA26:EL00001491",
+          "section_code": "027-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Terry Jernigan"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001492",
+          "section_ref": "FA26:EL00001492",
+          "section_code": "028-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Vivian Hook"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001493",
+          "section_ref": "FA26:EL00001493",
+          "section_code": "029-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kuo Lee"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001494",
+          "section_ref": "FA26:EL00001494",
+          "section_code": "030-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 1,
+          "seats_available": 9998,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Takaki Komiyama"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001495",
+          "section_ref": "FA26:EL00001495",
+          "section_code": "031-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Stefan Leutgeb"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001497",
+          "section_ref": "FA26:EL00001497",
+          "section_code": "033-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001498",
+          "section_ref": "FA26:EL00001498",
+          "section_code": "034-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Loren Looger"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001499",
+          "section_ref": "FA26:EL00001499",
+          "section_code": "035-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Matthew Lovett-Barron"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001500",
+          "section_ref": "FA26:EL00001500",
+          "section_code": "036-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jerome Mertens"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001501",
+          "section_ref": "FA26:EL00001501",
+          "section_code": "037-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Cory Miller"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001502",
+          "section_ref": "FA26:EL00001502",
+          "section_code": "038-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gal Mishne"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001503",
+          "section_ref": "FA26:EL00001503",
+          "section_code": "039-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eran Mukamel"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001504",
+          "section_ref": "FA26:EL00001504",
+          "section_code": "040-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alysson Muotri"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001505",
+          "section_ref": "FA26:EL00001505",
+          "section_code": "041-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Axel Nimmerjahn"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001506",
+          "section_ref": "FA26:EL00001506",
+          "section_code": "042-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Praveen Raju"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001507",
+          "section_ref": "FA26:EL00001507",
+          "section_code": "043-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Samuel Pfaff"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001508",
+          "section_ref": "FA26:EL00001508",
+          "section_code": "044-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Bing Ren"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001509",
+          "section_ref": "FA26:EL00001509",
+          "section_code": "045-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Monique Smith"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001510",
+          "section_ref": "FA26:EL00001510",
+          "section_code": "046-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "John Serences"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001511",
+          "section_ref": "FA26:EL00001511",
+          "section_code": "047-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Sternson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001512",
+          "section_ref": "FA26:EL00001512",
+          "section_code": "048-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 0,
+          "seats_available": 9999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gabriel Silva"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001513",
+          "section_ref": "FA26:EL00001513",
+          "section_code": "049-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Kay Tye"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001514",
+          "section_ref": "FA26:EL00001514",
+          "section_code": "050-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Virginia De Sa"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001515",
+          "section_ref": "FA26:EL00001515",
+          "section_code": "051-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Bradley Voytek"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001516",
+          "section_ref": "FA26:EL00001516",
+          "section_code": "052-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jing Wang"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001517",
+          "section_ref": "FA26:EL00001517",
+          "section_code": "053-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eugene Yeo"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001518",
+          "section_ref": "FA26:EL00001518",
+          "section_code": "054-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jared Young"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001519",
+          "section_ref": "FA26:EL00001519",
+          "section_code": "055-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 999,
+          "enrolled": 0,
+          "seats_available": 999,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Binhai Zheng"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001520",
+          "section_ref": "FA26:EL00001520",
+          "section_code": "056-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 1,
+          "seats_available": 9998,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mark Tuszynski"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001521",
+          "section_ref": "FA26:EL00001521",
+          "section_code": "057-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 9999,
+          "enrolled": 1,
+          "seats_available": 9998,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Justin Trotter"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "296",
+      "module_code": "OBG-296",
+      "module_name": "OBGYN Research Proje",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002116",
+          "section_ref": "FA26:EL00002116",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002117",
+          "section_ref": "FA26:EL00002117",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "299",
+      "module_code": "OBG-299",
+      "module_name": "OBGYN Independent Study Proj.",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002118",
+          "section_ref": "FA26:EL00002118",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002119",
+          "section_ref": "FA26:EL00002119",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "401",
+      "module_code": "OBG-401",
+      "module_name": "Obstetrcs&Gyneclgy Cor Clrkshp",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "David Klein"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "6 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001078",
+          "section_ref": "FA26:EL00001078",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 50,
+          "enrolled": 41,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "David Klein"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "428",
+      "module_code": "OBG-428",
+      "module_name": "Subinternship In Perinatology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Gladys Ramos"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [
+        "OBG 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001079",
+          "section_ref": "FA26:EL00001079",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Gladys Ramos"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "429",
+      "module_code": "OBG-429",
+      "module_name": "Family Planning/Women's Health",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Jessica Kingston"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001080",
+          "section_ref": "FA26:EL00001080",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jessica Kingston"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "430",
+      "module_code": "OBG-430",
+      "module_name": "Subinternship/Gynecologc Oncol",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Michael Mchale"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [
+        "OBG 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001081",
+          "section_ref": "FA26:EL00001081",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Michael Mchale"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "432",
+      "module_code": "OBG-432",
+      "module_name": "Subintrnshp/Obstetrics&Gynecol",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Jerasimos Ballas"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [
+        "OBG 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001082",
+          "section_ref": "FA26:EL00001082",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jerasimos Ballas"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OBG",
+      "course_code": "496",
+      "module_code": "OBG-496",
+      "module_name": "Complex Family Planning",
+      "course_title": "Complex Family Planning",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Danielle Vachon"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": null,
+      "subject_name": "Obstetrics and Gynecology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001083",
+          "section_ref": "FA26:EL00001083",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 2,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Danielle Vachon"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "296",
+      "module_code": "OPTH-296",
+      "module_name": "Independent Study",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002033",
+          "section_ref": "FA26:EL00002033",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002034",
+          "section_ref": "FA26:EL00002034",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "299",
+      "module_code": "OPTH-299",
+      "module_name": "Ophthalmology Indepndnt Resrch",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002035",
+          "section_ref": "FA26:EL00002035",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002036",
+          "section_ref": "FA26:EL00002036",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "410",
+      "module_code": "OPTH-410",
+      "module_name": "Intro Ophthalmology Selective",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Catherine Yunxiang Liu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "6 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002037",
+          "section_ref": "FA26:EL00002037",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Catherine Yunxiang Liu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "412",
+      "module_code": "OPTH-412",
+      "module_name": "Intro to Ophthalmic Pathology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Cole Ferguson"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "6 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002550",
+          "section_ref": "FA26:EL00002550",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Cole Ferguson"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "425",
+      "module_code": "OPTH-425",
+      "module_name": "Subinternship in Ophthalmology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Catherine Yunxiang Liu"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [
+        "SURG 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002038",
+          "section_ref": "FA26:EL00002038",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Catherine Yunxiang Liu"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "426",
+      "module_code": "OPTH-426",
+      "module_name": "Ophthalmic Plast & Reconst Sur",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Don Kikkawa"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002039",
+          "section_ref": "FA26:EL00002039",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Don Kikkawa"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "427",
+      "module_code": "OPTH-427",
+      "module_name": "Ophthalmic Pathology",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002552",
+          "section_ref": "FA26:EL00002552",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "OPTH",
+      "course_code": "496",
+      "module_code": "OPTH-496",
+      "module_name": "Clinical Independent Study",
+      "course_title": null,
+      "section_count": 6,
+      "open_section_count": 6,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Derek Welsbie",
+        "Jeffrey Lee",
+        "Jolene Rudell",
+        "Natalie Afshari",
+        "Nathan Scott"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Ophthalmology",
+      "academic_level": "GR",
+      "matching_section_count": 6,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002040",
+          "section_ref": "FA26:EL00002040",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Natalie Afshari"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002041",
+          "section_ref": "FA26:EL00002041",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Nathan Scott"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00004151",
+          "section_ref": "FA26:EL00004151",
+          "section_code": "003-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jeffrey Lee"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00004204",
+          "section_ref": "FA26:EL00004204",
+          "section_code": "004-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jolene Rudell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00004205",
+          "section_ref": "FA26:EL00004205",
+          "section_code": "005-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jolene Rudell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00004257",
+          "section_ref": "FA26:EL00004257",
+          "section_code": "006-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 1,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Derek Welsbie"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "296",
+      "module_code": "ORTH-296",
+      "module_name": "Orthopaedics Independent Rsrch",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002101",
+          "section_ref": "FA26:EL00002101",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002102",
+          "section_ref": "FA26:EL00002102",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "299",
+      "module_code": "ORTH-299",
+      "module_name": "Independent Study Project(ISP)",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002103",
+          "section_ref": "FA26:EL00002103",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002104",
+          "section_ref": "FA26:EL00002104",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 0,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "425",
+      "module_code": "ORTH-425",
+      "module_name": "Subinternship/Trauma Orthopaed",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Alexandra Schwartz"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002105",
+          "section_ref": "FA26:EL00002105",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandra Schwartz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "426",
+      "module_code": "ORTH-426",
+      "module_name": "Subin/Ambulatory Orthopaedics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Alexandra Schwartz"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical",
+        "Limited to class level: Fourth Year Medicine"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002106",
+          "section_ref": "FA26:EL00002106",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandra Schwartz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "428",
+      "module_code": "ORTH-428",
+      "module_name": "Subin/Reconstrctv Orthopaedics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Scott Ball"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [
+        "SURG 401 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002107",
+          "section_ref": "FA26:EL00002107",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Scott Ball"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "429",
+      "module_code": "ORTH-429",
+      "module_name": "Subint/Orthopaedic Spine Surg",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Vinko Zlomislic"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical",
+        "Limited to class level: Fourth Year Medicine"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002108",
+          "section_ref": "FA26:EL00002108",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Vinko Zlomislic"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "430",
+      "module_code": "ORTH-430",
+      "module_name": "Subinternship in Hand Surgery",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Eric Hentzen"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002109",
+          "section_ref": "FA26:EL00002109",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 1,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Eric Hentzen"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "431",
+      "module_code": "ORTH-431",
+      "module_name": "Clrkshp/Pediatric Orthopaedics",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Matthew Schmitz"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002110",
+          "section_ref": "FA26:EL00002110",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Matthew Schmitz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "435",
+      "module_code": "ORTH-435",
+      "module_name": "Orthopaedic Sports Medicine",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Bryan Leek"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical",
+        "Limited to class level: Fourth Year Medicine"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002111",
+          "section_ref": "FA26:EL00002111",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Bryan Leek"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "436",
+      "module_code": "ORTH-436",
+      "module_name": "Adult Orthopaedics VA Sub-I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Paul Girard"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002112",
+          "section_ref": "FA26:EL00002112",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 0,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Girard"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "450",
+      "module_code": "ORTH-450",
+      "module_name": "Subint/Outpatient Physical Med",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "cl"
+      ],
+      "instructors": [
+        "Douglas Chang"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "7 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical",
+        "Limited to class level: Fourth Year Medicine"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002113",
+          "section_ref": "FA26:EL00002113",
+          "section_code": "001-000-CL",
+          "instruction_type_name": "cl",
+          "event_package_ids": [],
+          "capacity": 10,
+          "enrolled": 3,
+          "seats_available": 7,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Douglas Chang"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "ORTH",
+      "course_code": "496",
+      "module_code": "ORTH-496",
+      "module_name": "Clinical Independent Study",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [
+        "Alexandra Schwartz"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Orthopedics",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Medical"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00002114",
+          "section_ref": "FA26:EL00002114",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 5,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandra Schwartz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00002115",
+          "section_ref": "FA26:EL00002115",
+          "section_code": "002-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 5,
+          "enrolled": 2,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandra Schwartz"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "210",
+      "module_code": "PAE-210",
+      "module_name": "Professional Practice I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Elias Villarreal"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001931",
+          "section_ref": "FA26:EL00001931",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Elias Villarreal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "220",
+      "module_code": "PAE-220",
+      "module_name": "Professional Practice II",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001933",
+          "section_ref": "FA26:EL00001933",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "221",
+      "module_code": "PAE-221",
+      "module_name": "Clinical Medicine I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "6 units",
+      "prerequisites": [
+        "PAE 214 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001934",
+          "section_ref": "FA26:EL00001934",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "222",
+      "module_code": "PAE-222",
+      "module_name": "Pharmacotherapeutics I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "2 units",
+      "prerequisites": [
+        "PAE 214 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001935",
+          "section_ref": "FA26:EL00001935",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "223",
+      "module_code": "PAE-223",
+      "module_name": "Human Phys & Pathophys II",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 214 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001936",
+          "section_ref": "FA26:EL00001936",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "224",
+      "module_code": "PAE-224",
+      "module_name": "Patient Education",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Elias Villarreal"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "2 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001937",
+          "section_ref": "FA26:EL00001937",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Elias Villarreal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001938",
+          "section_ref": "FA26:EL00001938",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Elias Villarreal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "225",
+      "module_code": "PAE-225",
+      "module_name": "Clinical Reasoning I",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Elias Villarreal"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 2,
+      "units_display": "2 units",
+      "prerequisites": [
+        "PAE 212 (minimum grade B-)",
+        "PAE 215 (minimum grade B-)",
+        "PAE 216 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001939",
+          "section_ref": "FA26:EL00001939",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Elias Villarreal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        },
+        {
+          "section_id": "EL00001940",
+          "section_ref": "FA26:EL00001940",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Elias Villarreal"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "226",
+      "module_code": "PAE-226",
+      "module_name": "Diagnostic Studies I",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 30,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "3 units",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001941",
+          "section_ref": "FA26:EL00001941",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "400",
+      "module_code": "PAE-400",
+      "module_name": "Special Topics II",
+      "course_title": "Special Topics II",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "in"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "1 unit",
+      "prerequisites": [],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001932",
+          "section_ref": "FA26:EL00001932",
+          "section_code": "001-000-IN",
+          "instruction_type_name": "in",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "410",
+      "module_code": "PAE-410",
+      "module_name": "Family Medicine Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001942",
+          "section_ref": "FA26:EL00001942",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "411",
+      "module_code": "PAE-411",
+      "module_name": "Internal Medicine Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001943",
+          "section_ref": "FA26:EL00001943",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "412",
+      "module_code": "PAE-412",
+      "module_name": "Pediatric Medicine Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001944",
+          "section_ref": "FA26:EL00001944",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "420",
+      "module_code": "PAE-420",
+      "module_name": "Women's Health Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001945",
+          "section_ref": "FA26:EL00001945",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "430",
+      "module_code": "PAE-430",
+      "module_name": "Behavioral Health Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001946",
+          "section_ref": "FA26:EL00001946",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "PAE",
+      "course_code": "440",
+      "module_code": "PAE-440",
+      "module_name": "Surgery Rotation",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "pr"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Physician Assistant Education",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "units_display": "4 units",
+      "prerequisites": [
+        "PAE 290 (minimum grade B-)"
+      ],
+      "restrictions": [
+        "Limited to academic level: Graduate",
+        "Limited to major: Physician Assistant Studies"
+      ],
+      "metadata_source": "UC San Diego course catalog",
+      "sections": [
+        {
+          "section_id": "EL00001947",
+          "section_ref": "FA26:EL00001947",
+          "section_code": "001-000-PR",
+          "instruction_type_name": "pr",
+          "event_package_ids": [],
+          "capacity": 30,
+          "enrolled": 0,
+          "seats_available": 30,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

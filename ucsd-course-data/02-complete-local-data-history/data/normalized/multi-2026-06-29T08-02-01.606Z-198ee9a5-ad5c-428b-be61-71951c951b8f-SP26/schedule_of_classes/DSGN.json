@@ -1,0 +1,365 @@
+{
+  "subject": "DSGN",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "DSGN:100",
+      "subject": "DSGN",
+      "course_number": "100",
+      "title": "Prototyping",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:253200",
+          "course_id": "DSGN:100",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Klemmer, Scott R"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RWAC",
+              "room": "0115",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "W",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RWAC 0115"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1101"
+            }
+          ],
+          "enrolled": 47,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "253200",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "SP26:253201",
+          "course_id": "DSGN:100",
+          "section_code": "A02",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Klemmer, Scott R"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "FAH 1101"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "RWAC",
+              "room": "0115",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "W",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "RWAC 0115"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "FAH",
+              "room": "1101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "FAH 1101"
+            }
+          ],
+          "enrolled": 50,
+          "capacity": 50,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "100",
+            "raw_section_identifier": "253201",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "DSGN:119",
+      "subject": "DSGN",
+      "course_number": "119",
+      "title": "Design at Large",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn119",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:254892",
+          "course_id": "DSGN:119",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Weibel, Nadir"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 46,
+          "capacity": 100,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "119",
+            "raw_section_identifier": "254892",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "DSGN:199",
+      "subject": "DSGN",
+      "course_number": "199",
+      "title": "Independent Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:268148",
+          "course_id": "DSGN:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Weibel, Nadir"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "199",
+            "raw_section_identifier": "268148",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "SP26:274508",
+          "course_id": "DSGN:199",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Eikey, Elizabeth Victoria"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "199",
+            "raw_section_identifier": "274508",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "DSGN:219",
+      "subject": "DSGN",
+      "course_number": "219",
+      "title": "Design at Large",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/DSGN.html#dsgn219",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:75074",
+          "course_id": "DSGN:219",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Weibel, Nadir"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "DIB",
+              "room": "208",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "DIB 208"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "SP26",
+            "raw_subject": "DSGN",
+            "raw_course_number": "219",
+            "raw_section_identifier": "75074",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

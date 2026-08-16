@@ -1,0 +1,5282 @@
+{
+  "subject": "MATH",
+  "term": "S225",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "MATH:3C",
+      "subject": "MATH",
+      "course_number": "3C",
+      "title": "Precalculus",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math3c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889681",
+          "course_id": "MATH:3C",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Ho, Ching Wei"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "PETER 102"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "3C",
+            "raw_section_identifier": "889681",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:960048",
+          "course_id": "MATH:3C",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Ho, Ching Wei"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "PETER 102"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "3C",
+            "raw_section_identifier": "960048",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:10A",
+      "subject": "MATH",
+      "course_number": "10A",
+      "title": "Calculus I",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math10a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889760",
+          "course_id": "MATH:10A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Pal, Abhik"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MOS 0204"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10A",
+            "raw_section_identifier": "889760",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889783",
+          "course_id": "MATH:10A",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Pal, Abhik",
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MOS 0204"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10A",
+            "raw_section_identifier": "889783",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:10B",
+      "subject": "MATH",
+      "course_number": "10B",
+      "title": "Calculus II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math10b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889785",
+          "course_id": "MATH:10B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Verstraete, Jacques Allan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "RCLAS R11"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 36,
+          "capacity": 39,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10B",
+            "raw_section_identifier": "889785",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889795",
+          "course_id": "MATH:10B",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Verstraete, Jacques Allan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R11",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "RCLAS R11"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 39,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10B",
+            "raw_section_identifier": "889795",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889797",
+          "course_id": "MATH:10B",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Verstraete, Jacques Allan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-4:50p",
+              "raw_location": "RCLAS R03"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 39,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10B",
+            "raw_section_identifier": "889797",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889828",
+          "course_id": "MATH:10B",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Verstraete, Jacques Allan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "3:00p-4:50p",
+              "raw_location": "RCLAS R03"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "PETER",
+              "room": "102",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "PETER 102"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 39,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10B",
+            "raw_section_identifier": "889828",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:10C",
+      "subject": "MATH",
+      "course_number": "10C",
+      "title": "Calculus III",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math10c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889849",
+          "course_id": "MATH:10C",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Habib, Yousaf"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889849",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889852",
+          "course_id": "MATH:10C",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Habib, Yousaf"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 21,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889852",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889853",
+          "course_id": "MATH:10C",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Habib, Yousaf"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889853",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889858",
+          "course_id": "MATH:10C",
+          "section_code": "A04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Habib, Yousaf"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R16",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R16"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889858",
+            "raw_section_code": "A04",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889861",
+          "course_id": "MATH:10C",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Petrovic, Drazen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-23",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "S",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "SOLIS 104"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889861",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889862",
+          "course_id": "MATH:10C",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Petrovic, Drazen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-23",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "S",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "SOLIS 104"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889862",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889863",
+          "course_id": "MATH:10C",
+          "section_code": "B03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Petrovic, Drazen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-23",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "S",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "SOLIS 104"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889863",
+            "raw_section_code": "B03",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889967",
+          "course_id": "MATH:10C",
+          "section_code": "B04",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Petrovic, Drazen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-23",
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "S",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "SOLIS 104"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SOLIS",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SOLIS 104"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "10C",
+            "raw_section_identifier": "889967",
+            "raw_section_code": "B04",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:18",
+      "subject": "MATH",
+      "course_number": "18",
+      "title": "Linear Algebra",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math18",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889974",
+          "course_id": "MATH:18",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Choi, Jiyoung"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "CENTR 222"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "CENTR 222"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "18",
+            "raw_section_identifier": "889974",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889977",
+          "course_id": "MATH:18",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Choi, Jiyoung"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "CENTR 222"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "CENTR 222"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 31,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "18",
+            "raw_section_identifier": "889977",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889984",
+          "course_id": "MATH:18",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hardiman, Liam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "CENTR 222"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 222"
+            }
+          ],
+          "enrolled": 21,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "18",
+            "raw_section_identifier": "889984",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889985",
+          "course_id": "MATH:18",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hardiman, Liam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "CENTR 222"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "CENTR",
+              "room": "222",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "CENTR 222"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "18",
+            "raw_section_identifier": "889985",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:20A",
+      "subject": "MATH",
+      "course_number": "20A",
+      "title": "Calculus/Science & Engineering",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math20a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889990",
+          "course_id": "MATH:20A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20A",
+            "raw_section_identifier": "889990",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:20B",
+      "subject": "MATH",
+      "course_number": "20B",
+      "title": "Calculus/Science & Engineering",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math20b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889993",
+          "course_id": "MATH:20B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20B",
+            "raw_section_identifier": "889993",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889994",
+          "course_id": "MATH:20B",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20B",
+            "raw_section_identifier": "889994",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889996",
+          "course_id": "MATH:20B",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Suk, Andrew Hoon"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "RCLAS R04"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RWAC",
+              "room": "0121",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RWAC 0121"
+            }
+          ],
+          "enrolled": 36,
+          "capacity": 60,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20B",
+            "raw_section_identifier": "889996",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:889997",
+          "course_id": "MATH:20B",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Suk, Andrew Hoon",
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R04",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "RCLAS R04"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RWAC",
+              "room": "0121",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RWAC 0121"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20B",
+            "raw_section_identifier": "889997",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:20C",
+      "subject": "MATH",
+      "course_number": "20C",
+      "title": "Calculus&Analyt Geom/Sci&Engnr",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math20c",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:889999",
+          "course_id": "MATH:20C",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hammock, Frances H"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "RCLAS",
+              "room": "R18",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "8:00a-9:50a",
+              "raw_location": "RCLAS R18"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "08:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "8:00a-8:50a",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-29",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20C",
+            "raw_section_identifier": "889999",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890003",
+          "course_id": "MATH:20C",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hammock, Frances H"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "09:50",
+              "building": "RCLAS",
+              "room": "R18",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "8:00a-9:50a",
+              "raw_location": "RCLAS R18"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-29",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 1330"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "HSS",
+              "room": "1330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "HSS 1330"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20C",
+            "raw_section_identifier": "890003",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890006",
+          "course_id": "MATH:20C",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hammock, Frances H"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R23"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-29",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20C",
+            "raw_section_identifier": "890006",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890007",
+          "course_id": "MATH:20C",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Hammock, Frances H"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R23",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R23"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-29",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 32,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20C",
+            "raw_section_identifier": "890007",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:20D",
+      "subject": "MATH",
+      "course_number": "20D",
+      "title": "Intro/Differential Equations",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math20d",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890011",
+          "course_id": "MATH:20D",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cheng, Hsiao-Bing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "MANDE",
+              "room": "B-202",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "MANDE B-202"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20D",
+            "raw_section_identifier": "890011",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890012",
+          "course_id": "MATH:20D",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cheng, Hsiao-Bing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "MANDE",
+              "room": "B-202",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "MANDE B-202"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20D",
+            "raw_section_identifier": "890012",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890016",
+          "course_id": "MATH:20D",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cheng, Hsiao-Bing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 22,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20D",
+            "raw_section_identifier": "890016",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890017",
+          "course_id": "MATH:20D",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cheng, Hsiao-Bing"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "14:50",
+              "building": "MOS",
+              "room": "0204",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "1:00p-2:50p",
+              "raw_location": "MOS 0204"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20D",
+            "raw_section_identifier": "890017",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:20E",
+      "subject": "MATH",
+      "course_number": "20E",
+      "title": "Vector Calculus",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math20e",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890026",
+          "course_id": "MATH:20E",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Harel, Guershon"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:30",
+              "end_time": "13:20",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "10:30a-1:20p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MANDE",
+              "room": "B-202",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MANDE B-202"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20E",
+            "raw_section_identifier": "890026",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890029",
+          "course_id": "MATH:20E",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Harel, Guershon"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:30",
+              "end_time": "13:20",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "10:30a-1:20p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MANDE",
+              "room": "B-202",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MANDE B-202"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20E",
+            "raw_section_identifier": "890029",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890033",
+          "course_id": "MATH:20E",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Harel, Guershon"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "18:20",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-6:20p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 22,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20E",
+            "raw_section_identifier": "890033",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890101",
+          "course_id": "MATH:20E",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Harel, Guershon"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "18:20",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:30p-6:20p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "CENTR",
+              "room": "217A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "CENTR 217A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 8,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "20E",
+            "raw_section_identifier": "890101",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:102",
+      "subject": "MATH",
+      "course_number": "102",
+      "title": "Applied Linear Algebra",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math102",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890104",
+          "course_id": "MATH:102",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nandi, Achinta Kumar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "APM B402A"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "102",
+            "raw_section_identifier": "890104",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890105",
+          "course_id": "MATH:102",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nandi, Achinta Kumar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "13:50",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "12:00p-1:50p",
+              "raw_location": "APM B402A"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "CENTR",
+              "room": "207",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "CENTR 207"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "APM",
+              "room": "B402A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "APM B402A"
+            }
+          ],
+          "enrolled": 3,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "102",
+            "raw_section_identifier": "890105",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:103B",
+      "subject": "MATH",
+      "course_number": "103B",
+      "title": "Modern Algebra II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math103b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890116",
+          "course_id": "MATH:103B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Salehi Golsefidy, Alireza"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-10:50a",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "HSS 1315"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "HSS",
+              "room": "1315",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "HSS 1315"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 33,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "103B",
+            "raw_section_identifier": "890116",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890118",
+          "course_id": "MATH:103B",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mattheus, Sam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R24",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RCLAS R24"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "103B",
+            "raw_section_identifier": "890118",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:980574",
+          "course_id": "MATH:103B",
+          "section_code": "B02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mattheus, Sam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "RCLAS",
+              "room": "R24",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "RCLAS R24"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "12:00",
+              "end_time": "12:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "12:00p-12:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "103B",
+            "raw_section_identifier": "980574",
+            "raw_section_code": "B02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:109",
+      "subject": "MATH",
+      "course_number": "109",
+      "title": "Mathematical Reasoning",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math109",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890121",
+          "course_id": "MATH:109",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Aliabadi Sr., Mohsen"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 36,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "109",
+            "raw_section_identifier": "890121",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890124",
+          "course_id": "MATH:109",
+          "section_code": "B01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Upadrashta, Pranav Kumar"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R26",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R26"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "CENTR",
+              "room": "201",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "9:00a-10:50a",
+              "raw_location": "CENTR 201"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "CENTR",
+              "room": "201",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "CENTR 201"
+            }
+          ],
+          "enrolled": 23,
+          "capacity": 33,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "109",
+            "raw_section_identifier": "890124",
+            "raw_section_code": "B01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:120A",
+      "subject": "MATH",
+      "course_number": "120A",
+      "title": "Elements of Complex Analysis",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math120a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890126",
+          "course_id": "MATH:120A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Eggers, John Dietrich"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "CENTR",
+              "room": "217B",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "CENTR 217B"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "APM 2301"
+            }
+          ],
+          "enrolled": 16,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "120A",
+            "raw_section_identifier": "890126",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:142B",
+      "subject": "MATH",
+      "course_number": "142B",
+      "title": "Introduction to Analysis II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math142b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890128",
+          "course_id": "MATH:142B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Ioana, Adrian"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R26",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R26"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 1A18"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-22",
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 1A18"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A18"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "142B",
+            "raw_section_identifier": "890128",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890129",
+          "course_id": "MATH:142B",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Ioana, Adrian"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R26",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R26"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-15",
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 1A18"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-22",
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "F",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "PODEM 1A18"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A18"
+            }
+          ],
+          "enrolled": 7,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "142B",
+            "raw_section_identifier": "890129",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:154",
+      "subject": "MATH",
+      "course_number": "154",
+      "title": "Discrete Math & Graph Theory",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math154",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890174",
+          "course_id": "MATH:154",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mattheus, Sam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "PETER",
+              "room": "103",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "PETER 103"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "154",
+            "raw_section_identifier": "890174",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890182",
+          "course_id": "MATH:154",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mattheus, Sam"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "APM B412"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "PETER",
+              "room": "103",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "PETER 103"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "154",
+            "raw_section_identifier": "890182",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:168A",
+      "subject": "MATH",
+      "course_number": "168A",
+      "title": "Topics/Applied Math-Comp Sci",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math168a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890197",
+          "course_id": "MATH:168A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Dumitriu, Ioana"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "13:30",
+              "end_time": "14:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "1:30p-2:50p",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "15:50",
+              "building": "SOLIS",
+              "room": "111",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "3:00p-3:50p",
+              "raw_location": "SOLIS 111"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "APM",
+              "room": "7321",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "APM 7321"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "168A",
+            "raw_section_identifier": "890197",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:170A",
+      "subject": "MATH",
+      "course_number": "170A",
+      "title": "Intro Numerical Analys/Linear",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math170a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890240",
+          "course_id": "MATH:170A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nie, Jiawang"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R27",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R27"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A18"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "170A",
+            "raw_section_identifier": "890240",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890241",
+          "course_id": "MATH:170A",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nie, Jiawang"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R27",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R27"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A18"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "170A",
+            "raw_section_identifier": "890241",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890249",
+          "course_id": "MATH:170A",
+          "section_code": "A03",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nie, Jiawang"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R27",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R27"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PODEM",
+              "room": "1A18",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PODEM 1A18"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "170A",
+            "raw_section_identifier": "890249",
+            "raw_section_code": "A03",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:170B",
+      "subject": "MATH",
+      "course_number": "170B",
+      "title": "Intro/Numerical Analy/Approxim",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math170b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:957891",
+          "course_id": "MATH:170B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Nag, Panchali"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "18:50",
+              "building": "RCLAS",
+              "room": "R31",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "4:00p-6:50p",
+              "raw_location": "RCLAS R31"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2025-08-21",
+              "start_time": "19:00",
+              "end_time": "20:50",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "Th",
+              "raw_time": "7:00p-8:50p",
+              "raw_location": "APM 2301"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "APM",
+              "room": "2301",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "APM 2301"
+            }
+          ],
+          "enrolled": 29,
+          "capacity": 37,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "170B",
+            "raw_section_identifier": "957891",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:180A",
+      "subject": "MATH",
+      "course_number": "180A",
+      "title": "Introduction to Probability",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math180a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890262",
+          "course_id": "MATH:180A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "180A",
+            "raw_section_identifier": "890262",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:890263",
+          "course_id": "MATH:180A",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "180A",
+            "raw_section_identifier": "890263",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:181A",
+      "subject": "MATH",
+      "course_number": "181A",
+      "title": "Intro/Math Statistics I",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math181a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:908025",
+          "course_id": "MATH:181A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Arias-Castro, Ery"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "PETER 104"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "1128A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 1128A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PETER 104"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "181A",
+            "raw_section_identifier": "908025",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:960115",
+          "course_id": "MATH:181A",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Arias-Castro, Ery"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "PETER 104"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "HSS",
+              "room": "2154",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "HSS 2154"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "PETER 104"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "181A",
+            "raw_section_identifier": "960115",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:181B",
+      "subject": "MATH",
+      "course_number": "181B",
+      "title": "Intro/Math Statistics II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math181b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:959874",
+          "course_id": "MATH:181B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Zhang, Danna"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R103",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R103"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Tu",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2025-08-21",
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Midterm",
+              "raw_days": "Th",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "YORK 3000A"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-09-05",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 33,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "181B",
+            "raw_section_identifier": "959874",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:189",
+      "subject": "MATH",
+      "course_number": "189",
+      "title": "Data Analysis and Inference",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math189",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:983593",
+          "course_id": "MATH:189",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Arias-Castro, Ery"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "PETER 104"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PETER 104"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "189",
+            "raw_section_identifier": "983593",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:983594",
+          "course_id": "MATH:189",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Arias-Castro, Ery"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "PETER 104"
+            },
+            {
+              "days": [
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "APM",
+              "room": "2402",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "WF",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "APM 2402"
+            },
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "PETER",
+              "room": "104",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "PETER 104"
+            }
+          ],
+          "enrolled": 33,
+          "capacity": 35,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "189",
+            "raw_section_identifier": "983594",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "MATH:193B",
+      "subject": "MATH",
+      "course_number": "193B",
+      "title": "Actuarial Mathematics II",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MATH.html#math193b",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S225:890265",
+          "course_id": "MATH:193B",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Rotar, Vladimir"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R28",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R28"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "SOLIS",
+              "room": "111",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "SOLIS 111"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "APM B412"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "193B",
+            "raw_section_identifier": "890265",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S225:980587",
+          "course_id": "MATH:193B",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Rotar, Vladimir"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "11:50",
+              "building": "RCLAS",
+              "room": "R28",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "10:00a-11:50a",
+              "raw_location": "RCLAS R28"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "SOLIS",
+              "room": "110",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "SOLIS 110"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "APM",
+              "room": "B412",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "APM B412"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "S225",
+            "raw_subject": "MATH",
+            "raw_course_number": "193B",
+            "raw_section_identifier": "980587",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5171 @@
+{
+  "term_code": "FA26",
+  "query": "",
+  "total": 2219,
+  "offset": 2160,
+  "limit": 48,
+  "courses": [
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "042",
+      "module_code": "VIS-042",
+      "module_name": "Intro to Creative Coding",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 92,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "LD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000846",
+          "section_ref": "FA26:E 00000846",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154705"
+          ],
+          "capacity": 100,
+          "enrolled": 8,
+          "seats_available": 92,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 104",
+              "building_name": "Solis Hall",
+              "room_name": "Room 104 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "SOLIS",
+              "room_code": "SOLIS 104",
+              "building_name": "Solis Hall",
+              "room_name": "Room 104 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "060",
+      "module_code": "VIS-060",
+      "module_name": "Intro/Digital Photography",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 44,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Paul Sepuya"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "LD",
+      "matching_section_count": 5,
+      "sections": [
+        {
+          "section_id": "E 00000847",
+          "section_ref": "FA26:E 00000847",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154714",
+            "154715",
+            "154716",
+            "154717"
+          ],
+          "capacity": 48,
+          "enrolled": 4,
+          "seats_available": 44,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A20",
+              "building_name": "Podemos",
+              "room_name": "Room 1A20 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "PODEM",
+              "room_code": "PODEM 1A20",
+              "building_name": "Podemos",
+              "room_name": "Room 1A20 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003548",
+          "section_ref": "FA26:E 00003548",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154714",
+            "156775"
+          ],
+          "capacity": 12,
+          "enrolled": 3,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1040,
+              "start_time_display": "3:30pm",
+              "end_time_display": "5:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 228",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 228 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003549",
+          "section_ref": "FA26:E 00003549",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154715",
+            "156777"
+          ],
+          "capacity": 12,
+          "enrolled": 1,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 1050,
+              "end_minutes": 1160,
+              "start_time_display": "5:30pm",
+              "end_time_display": "7:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 228",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 228 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003550",
+          "section_ref": "FA26:E 00003550",
+          "section_code": "001-003-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154716",
+            "156778"
+          ],
+          "capacity": 12,
+          "enrolled": 0,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1040,
+              "start_time_display": "3:30pm",
+              "end_time_display": "5:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 228",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 228 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003551",
+          "section_ref": "FA26:E 00003551",
+          "section_code": "001-004-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154717",
+            "156779"
+          ],
+          "capacity": 12,
+          "enrolled": 0,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1050,
+              "end_minutes": 1160,
+              "start_time_display": "5:30pm",
+              "end_time_display": "7:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 228",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 228 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "070N",
+      "module_code": "VIS-070N",
+      "module_name": "Introduction to Media",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 51,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Alexandro Segade"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00004219",
+          "section_ref": "FA26:E 00004219",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154721",
+            "154722",
+            "154723",
+            "154724",
+            "154725",
+            "154726"
+          ],
+          "capacity": 66,
+          "enrolled": 15,
+          "seats_available": 51,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MOS",
+              "room_code": "MOS 0113",
+              "building_name": "Mosaic",
+              "room_name": "Room 0113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "MOS",
+              "room_code": "MOS 0113",
+              "building_name": "Mosaic",
+              "room_name": "Room 0113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003552",
+          "section_ref": "FA26:E 00003552",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154721",
+            "156781"
+          ],
+          "capacity": 11,
+          "enrolled": 5,
+          "seats_available": 6,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 510,
+              "end_minutes": 620,
+              "start_time_display": "8:30am",
+              "end_time_display": "10:20am",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003553",
+          "section_ref": "FA26:E 00003553",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154722"
+          ],
+          "capacity": 11,
+          "enrolled": 6,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 630,
+              "end_minutes": 740,
+              "start_time_display": "10:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003554",
+          "section_ref": "FA26:E 00003554",
+          "section_code": "001-003-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "1266",
+            "1267",
+            "152802",
+            "152803",
+            "152804",
+            "154723"
+          ],
+          "capacity": 11,
+          "enrolled": 0,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 510,
+              "end_minutes": 620,
+              "start_time_display": "8:30am",
+              "end_time_display": "10:20am",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003555",
+          "section_ref": "FA26:E 00003555",
+          "section_code": "001-004-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154724"
+          ],
+          "capacity": 11,
+          "enrolled": 1,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 630,
+              "end_minutes": 740,
+              "start_time_display": "10:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003556",
+          "section_ref": "FA26:E 00003556",
+          "section_code": "001-005-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154725"
+          ],
+          "capacity": 11,
+          "enrolled": 2,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 770,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:50pm",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003557",
+          "section_ref": "FA26:E 00003557",
+          "section_code": "001-006-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154726"
+          ],
+          "capacity": 11,
+          "enrolled": 1,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alexandro Segade"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 890,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MCC",
+              "room_code": "MCC 222",
+              "building_name": "Communication Building",
+              "room_name": "Room 222 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "080",
+      "module_code": "VIS-080",
+      "module_name": "Introduction to Studio Major",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 66,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture",
+        "st"
+      ],
+      "instructors": [
+        "Amy Adler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000848",
+          "section_ref": "FA26:E 00000848",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154762",
+            "154763",
+            "154764",
+            "154765",
+            "154766",
+            "154767"
+          ],
+          "capacity": 72,
+          "enrolled": 6,
+          "seats_available": 66,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1130,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-202",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-202 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003558",
+          "section_ref": "FA26:E 00003558",
+          "section_code": "001-001-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154762"
+          ],
+          "capacity": 12,
+          "enrolled": 0,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 980,
+              "start_time_display": "3:00pm",
+              "end_time_display": "4:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 980,
+              "start_time_display": "3:00pm",
+              "end_time_display": "4:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003559",
+          "section_ref": "FA26:E 00003559",
+          "section_code": "001-002-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154763"
+          ],
+          "capacity": 12,
+          "enrolled": 1,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 990,
+              "end_minutes": 1070,
+              "start_time_display": "4:30pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 990,
+              "end_minutes": 1070,
+              "start_time_display": "4:30pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003560",
+          "section_ref": "FA26:E 00003560",
+          "section_code": "001-003-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154764"
+          ],
+          "capacity": 12,
+          "enrolled": 1,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 650,
+              "start_time_display": "9:30am",
+              "end_time_display": "10:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003561",
+          "section_ref": "FA26:E 00003561",
+          "section_code": "001-004-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154765"
+          ],
+          "capacity": 12,
+          "enrolled": 2,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003562",
+          "section_ref": "FA26:E 00003562",
+          "section_code": "001-005-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "152805",
+            "154766"
+          ],
+          "capacity": 12,
+          "enrolled": 1,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 830,
+              "start_time_display": "12:30pm",
+              "end_time_display": "1:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003563",
+          "section_ref": "FA26:E 00003563",
+          "section_code": "001-006-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154767"
+          ],
+          "capacity": 12,
+          "enrolled": 1,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 840,
+              "end_minutes": 920,
+              "start_time_display": "2:00pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 219",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 219 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "085A",
+      "module_code": "VIS-085A",
+      "module_name": "Media History",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 104,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "LD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000849",
+          "section_ref": "FA26:E 00000849",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154777",
+            "154778",
+            "154779",
+            "154780",
+            "154781",
+            "154782"
+          ],
+          "capacity": 108,
+          "enrolled": 4,
+          "seats_available": 104,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 950,
+              "start_time_display": "3:00pm",
+              "end_time_display": "3:50pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "WLH",
+              "room_code": "WLH 2005",
+              "building_name": "Warren Lecture Hall",
+              "room_name": "Room 2005 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003564",
+          "section_ref": "FA26:E 00003564",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154777"
+          ],
+          "capacity": 18,
+          "enrolled": 1,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B111E",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B111E - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003565",
+          "section_ref": "FA26:E 00003565",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154778",
+            "157712"
+          ],
+          "capacity": 18,
+          "enrolled": 0,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B111E",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B111E - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003566",
+          "section_ref": "FA26:E 00003566",
+          "section_code": "001-003-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154779"
+          ],
+          "capacity": 18,
+          "enrolled": 0,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 810,
+              "end_minutes": 860,
+              "start_time_display": "1:30pm",
+              "end_time_display": "2:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003567",
+          "section_ref": "FA26:E 00003567",
+          "section_code": "001-004-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154780"
+          ],
+          "capacity": 18,
+          "enrolled": 2,
+          "seats_available": 16,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 870,
+              "end_minutes": 920,
+              "start_time_display": "2:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003568",
+          "section_ref": "FA26:E 00003568",
+          "section_code": "001-005-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154781"
+          ],
+          "capacity": 18,
+          "enrolled": 0,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003569",
+          "section_ref": "FA26:E 00003569",
+          "section_code": "001-006-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "154782"
+          ],
+          "capacity": 18,
+          "enrolled": 1,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "100",
+      "module_code": "VIS-100",
+      "module_name": "Introduction to Public Culture",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 121,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004220",
+          "section_ref": "FA26:E 00004220",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154786"
+          ],
+          "capacity": 146,
+          "enrolled": 25,
+          "seats_available": 121,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MOS",
+              "room_code": "MOS 0113",
+              "building_name": "Mosaic",
+              "room_name": "Room 0113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "MOS",
+              "room_code": "MOS 0113",
+              "building_name": "Mosaic",
+              "room_name": "Room 0113 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "100A",
+      "module_code": "VIS-100A",
+      "module_name": "Design of Public Culture",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003570",
+          "section_ref": "FA26:E 00003570",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152808",
+            "154787"
+          ],
+          "capacity": 15,
+          "enrolled": 0,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "103D",
+      "module_code": "VIS-103D",
+      "module_name": "History of Speculative Design",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 70,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Patricia Stone"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003571",
+          "section_ref": "FA26:E 00003571",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154794"
+          ],
+          "capacity": 75,
+          "enrolled": 5,
+          "seats_available": 70,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Patricia Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "105A",
+      "module_code": "VIS-105A",
+      "module_name": "Drawing: Representing/Subject",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 2,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [
+        "Joshua Tonies"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00003572",
+          "section_ref": "FA26:E 00003572",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154797"
+          ],
+          "capacity": 30,
+          "enrolled": 13,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Joshua Tonies"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003573",
+          "section_ref": "FA26:E 00003573",
+          "section_code": "002-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154798"
+          ],
+          "capacity": 30,
+          "enrolled": 3,
+          "seats_available": 27,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "105B",
+      "module_code": "VIS-105B",
+      "module_name": "Drawing: Practices and Genre",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003574",
+          "section_ref": "FA26:E 00003574",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154801"
+          ],
+          "capacity": 30,
+          "enrolled": 26,
+          "seats_available": 4,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "105C",
+      "module_code": "VIS-105C",
+      "module_name": "Drawing: Portfolio Projects",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [
+        "Amy Adler"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003575",
+          "section_ref": "FA26:E 00003575",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154804"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Amy Adler"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 220A",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 220A - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "106A",
+      "module_code": "VIS-106A",
+      "module_name": "Painting:  Image Making",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003576",
+          "section_ref": "FA26:E 00003576",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154806",
+            "156780"
+          ],
+          "capacity": 25,
+          "enrolled": 14,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201A",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201A - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201A",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201A - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "106B",
+      "module_code": "VIS-106B",
+      "module_name": "Painting: Practices and Genre",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003577",
+          "section_ref": "FA26:E 00003577",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154807"
+          ],
+          "capacity": 25,
+          "enrolled": 25,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201A",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201A - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201A",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201A - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "107A",
+      "module_code": "VIS-107A",
+      "module_name": "Sculpture: Making the Object",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003578",
+          "section_ref": "FA26:E 00003578",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154811"
+          ],
+          "capacity": 25,
+          "enrolled": 25,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B115B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B115B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B115B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B115B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "107C",
+      "module_code": "VIS-107C",
+      "module_name": "Sculpture: Portfolio Projects",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [
+        "Danielle Dean"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003579",
+          "section_ref": "FA26:E 00003579",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "152809",
+            "152810",
+            "152811",
+            "154820",
+            "786",
+            "787"
+          ],
+          "capacity": 15,
+          "enrolled": 5,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Danielle Dean"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B115B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B115B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "108",
+      "module_code": "VIS-108",
+      "module_name": "Advanced Projects in Art",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [
+        "Ricardo Dominguez"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00003580",
+          "section_ref": "FA26:E 00003580",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154825"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004718",
+          "section_ref": "FA26:E 00004718",
+          "section_code": "002-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154826"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Ricardo Dominguez"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "110E",
+      "module_code": "VIS-110E",
+      "module_name": "Art/Public Spaces/Site Specifc",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [
+        "Mathieu Gregoire"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003581",
+          "section_ref": "FA26:E 00003581",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "154823"
+          ],
+          "capacity": 15,
+          "enrolled": 9,
+          "seats_available": 6,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mathieu Gregoire"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 201B",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 201B - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "124E",
+      "module_code": "VIS-124E",
+      "module_name": "The Production of Nature",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 52,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Jordan Rose"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003582",
+          "section_ref": "FA26:E 00003582",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154915"
+          ],
+          "capacity": 75,
+          "enrolled": 23,
+          "seats_available": 52,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jordan Rose"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 740,
+              "start_time_display": "11:00am",
+              "end_time_display": "12:20pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": "2026-12-09",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "126P",
+      "module_code": "VIS-126P",
+      "module_name": "Latin American Art: 1890-1950",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 65,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Mariana Wardwell"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003583",
+          "section_ref": "FA26:E 00003583",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154996"
+          ],
+          "capacity": 75,
+          "enrolled": 10,
+          "seats_available": 65,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mariana Wardwell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 630,
+              "end_minutes": 710,
+              "start_time_display": "10:30am",
+              "end_time_display": "11:50am",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 630,
+              "end_minutes": 710,
+              "start_time_display": "10:30am",
+              "end_time_display": "11:50am",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 480,
+              "end_minutes": 659,
+              "start_time_display": "8:00am",
+              "end_time_display": "10:59am",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "128E",
+      "module_code": "VIS-128E",
+      "module_name": "Topics/Art History of Asia",
+      "course_title": "Topics/Art History of Asia",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 75,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00000850",
+          "section_ref": "FA26:E 00000850",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155004"
+          ],
+          "capacity": 75,
+          "enrolled": 0,
+          "seats_available": 75,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1010,
+              "start_time_display": "3:30pm",
+              "end_time_display": "4:50pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "PETER",
+              "room_code": "PETER 104",
+              "building_name": "Peterson Hall",
+              "room_name": "Room 104 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "129F",
+      "module_code": "VIS-129F",
+      "module_name": "Seminar/Art Theory & Criticism",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003584",
+          "section_ref": "FA26:E 00003584",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155005"
+          ],
+          "capacity": 15,
+          "enrolled": 6,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 212",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 212 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 690,
+              "end_minutes": 869,
+              "start_time_display": "11:30am",
+              "end_time_display": "2:29pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 212",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 212 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "131",
+      "module_code": "VIS-131",
+      "module_name": "Special Projects in Media",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 10,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Dino Dinco"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003586",
+          "section_ref": "FA26:E 00003586",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155017"
+          ],
+          "capacity": 15,
+          "enrolled": 5,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Dino Dinco"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 103",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 103 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "133A",
+      "module_code": "VIS-133A",
+      "module_name": "Studio Topics in Spec Design",
+      "course_title": "Studio Topics in Spec Design",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Jessica D'elena-Tweed"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003587",
+          "section_ref": "FA26:E 00003587",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155018"
+          ],
+          "capacity": 15,
+          "enrolled": 8,
+          "seats_available": 7,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jessica D'elena-Tweed"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "133A",
+      "module_code": "VIS-133A",
+      "module_name": "Studio Topics in Spec Design",
+      "course_title": "Studio Topics in Spec Design",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "002",
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003588",
+          "section_ref": "FA26:E 00003588",
+          "section_code": "002-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "1329",
+            "1330",
+            "155019"
+          ],
+          "capacity": 15,
+          "enrolled": 4,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "141A",
+      "module_code": "VIS-141A",
+      "module_name": "Computer Programming/Arts I",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 4,
+      "open_seat_count": 52,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Brett Stalbaum"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 5,
+      "sections": [
+        {
+          "section_id": "E 00000851",
+          "section_ref": "FA26:E 00000851",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "154684",
+            "154685",
+            "154686",
+            "154687",
+            "306",
+            "307"
+          ],
+          "capacity": 100,
+          "enrolled": 48,
+          "seats_available": 52,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1190,
+              "start_time_display": "5:00pm",
+              "end_time_display": "7:50pm",
+              "building_code": "COA",
+              "room_code": "COA 127",
+              "building_name": "Coalition Building",
+              "room_name": "Room 127 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": "2026-12-10",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "COA",
+              "room_code": "COA 127",
+              "building_name": "Coalition Building",
+              "room_name": "Room 127 - Classroom",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003589",
+          "section_ref": "FA26:E 00003589",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154684"
+          ],
+          "capacity": 25,
+          "enrolled": 25,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003590",
+          "section_ref": "FA26:E 00003590",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154685"
+          ],
+          "capacity": 25,
+          "enrolled": 13,
+          "seats_available": 12,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003591",
+          "section_ref": "FA26:E 00003591",
+          "section_code": "001-003-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154686"
+          ],
+          "capacity": 25,
+          "enrolled": 6,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003592",
+          "section_ref": "FA26:E 00003592",
+          "section_code": "001-004-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "154687"
+          ],
+          "capacity": 25,
+          "enrolled": 5,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "142",
+      "module_code": "VIS-142",
+      "module_name": "Practices in Computing Arts",
+      "course_title": null,
+      "section_count": 7,
+      "open_section_count": 7,
+      "open_seat_count": 57,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [
+        "Brett Stalbaum"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 7,
+      "sections": [
+        {
+          "section_id": "E 00000852",
+          "section_ref": "FA26:E 00000852",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155020",
+            "155021",
+            "155022",
+            "155023",
+            "155024",
+            "155025"
+          ],
+          "capacity": 90,
+          "enrolled": 33,
+          "seats_available": 57,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1190,
+              "start_time_display": "5:00pm",
+              "end_time_display": "7:50pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "PCYNH",
+              "room_code": "PCYNH 109",
+              "building_name": "Pepper Canyon Hall",
+              "room_name": "Room 109 - Lecture Hall",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003593",
+          "section_ref": "FA26:E 00003593",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155020"
+          ],
+          "capacity": 15,
+          "enrolled": 4,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003594",
+          "section_ref": "FA26:E 00003594",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155021"
+          ],
+          "capacity": 15,
+          "enrolled": 7,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 930,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:30pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003595",
+          "section_ref": "FA26:E 00003595",
+          "section_code": "001-003-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155022"
+          ],
+          "capacity": 15,
+          "enrolled": 13,
+          "seats_available": 2,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003596",
+          "section_ref": "FA26:E 00003596",
+          "section_code": "001-004-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155023"
+          ],
+          "capacity": 15,
+          "enrolled": 5,
+          "seats_available": 10,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003597",
+          "section_ref": "FA26:E 00003597",
+          "section_code": "001-005-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155024"
+          ],
+          "capacity": 15,
+          "enrolled": 4,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003598",
+          "section_ref": "FA26:E 00003598",
+          "section_code": "001-006-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155025"
+          ],
+          "capacity": 15,
+          "enrolled": 0,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brett Stalbaum"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "145B",
+      "module_code": "VIS-145B",
+      "module_name": "Time&Process Digital Media II",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003600",
+          "section_ref": "FA26:E 00003600",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155026"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-206",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-206 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "146B",
+      "module_code": "VIS-146B",
+      "module_name": "Comp Controlled Fab Art II",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 8,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Robert Twomey"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003601",
+          "section_ref": "FA26:E 00003601",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155033"
+          ],
+          "capacity": 15,
+          "enrolled": 7,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Robert Twomey"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "147A",
+      "module_code": "VIS-147A",
+      "module_name": "Electronic Technologies/Art I",
+      "course_title": null,
+      "section_count": 5,
+      "open_section_count": 5,
+      "open_seat_count": 64,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lab",
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 5,
+      "sections": [
+        {
+          "section_id": "E 00003602",
+          "section_ref": "FA26:E 00003602",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155034",
+            "155035",
+            "155036",
+            "155037"
+          ],
+          "capacity": 88,
+          "enrolled": 24,
+          "seats_available": 64,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 780,
+              "end_minutes": 890,
+              "start_time_display": "1:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003603",
+          "section_ref": "FA26:E 00003603",
+          "section_code": "001-001-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155034"
+          ],
+          "capacity": 22,
+          "enrolled": 6,
+          "seats_available": 16,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1010,
+              "start_time_display": "3:00pm",
+              "end_time_display": "4:50pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003604",
+          "section_ref": "FA26:E 00003604",
+          "section_code": "001-002-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155035"
+          ],
+          "capacity": 22,
+          "enrolled": 2,
+          "seats_available": 20,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1130,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:50pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003605",
+          "section_ref": "FA26:E 00003605",
+          "section_code": "001-003-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155036"
+          ],
+          "capacity": 22,
+          "enrolled": 11,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 860,
+              "start_time_display": "12:30pm",
+              "end_time_display": "2:20pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003606",
+          "section_ref": "FA26:E 00003606",
+          "section_code": "001-004-LA",
+          "instruction_type_name": "lab",
+          "event_package_ids": [
+            "155037"
+          ],
+          "capacity": 22,
+          "enrolled": 5,
+          "seats_available": 17,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 870,
+              "end_minutes": 980,
+              "start_time_display": "2:30pm",
+              "end_time_display": "4:20pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "147B",
+      "module_code": "VIS-147B",
+      "module_name": "Electronic Technologies/Art II",
+      "course_title": null,
+      "section_count": 2,
+      "open_section_count": 0,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 2,
+      "sections": [
+        {
+          "section_id": "E 00003607",
+          "section_ref": "FA26:E 00003607",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155044"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00003608",
+          "section_ref": "FA26:E 00003608",
+          "section_code": "002-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155045"
+          ],
+          "capacity": 15,
+          "enrolled": 15,
+          "seats_available": 0,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "149",
+      "module_code": "VIS-149",
+      "module_name": "Contemporary Computer Topics",
+      "course_title": "Contemporary Computer Topics",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Jordan Crandall"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "001",
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003609",
+          "section_ref": "FA26:E 00003609",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155263",
+            "5357",
+            "5358"
+          ],
+          "capacity": 15,
+          "enrolled": 4,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Jordan Crandall"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-113",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-113 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "149",
+      "module_code": "VIS-149",
+      "module_name": "Contemporary Computer Topics",
+      "course_title": "Contemporary Computer Topics",
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": true,
+      "section_family": "002",
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003610",
+          "section_ref": "FA26:E 00003610",
+          "section_code": "002-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155264"
+          ],
+          "capacity": 15,
+          "enrolled": 4,
+          "seats_available": 11,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "157D",
+      "module_code": "VIS-157D",
+      "module_name": "USCivilRights:Art&Media",
+      "course_title": null,
+      "section_count": 3,
+      "open_section_count": 3,
+      "open_seat_count": 37,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "discussion",
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 3,
+      "sections": [
+        {
+          "section_id": "E 00004802",
+          "section_ref": "FA26:E 00004802",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155273",
+            "155274"
+          ],
+          "capacity": 48,
+          "enrolled": 11,
+          "seats_available": 37,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 1020,
+              "end_minutes": 1130,
+              "start_time_display": "5:00pm",
+              "end_time_display": "6:50pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 1140,
+              "end_minutes": 1319,
+              "start_time_display": "7:00pm",
+              "end_time_display": "9:59pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004803",
+          "section_ref": "FA26:E 00004803",
+          "section_code": "001-001-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155273",
+            "157763"
+          ],
+          "capacity": 24,
+          "enrolled": 6,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 600,
+              "end_minutes": 650,
+              "start_time_display": "10:00am",
+              "end_time_display": "10:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B111E",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B111E - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        },
+        {
+          "section_id": "E 00004804",
+          "section_ref": "FA26:E 00004804",
+          "section_code": "001-002-DI",
+          "instruction_type_name": "discussion",
+          "event_package_ids": [
+            "155274"
+          ],
+          "capacity": 24,
+          "enrolled": 5,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": null,
+              "start_minutes": 660,
+              "end_minutes": 710,
+              "start_time_display": "11:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE B111E",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B111E - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "158B",
+      "module_code": "VIS-158B",
+      "module_name": "Photography After 1960",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 40,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00004801",
+          "section_ref": "FA26:E 00004801",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "153044",
+            "155275"
+          ],
+          "capacity": 50,
+          "enrolled": 10,
+          "seats_available": 40,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "F",
+              "day_name": "Friday",
+              "specific_date": "2026-12-11",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "162",
+      "module_code": "VIS-162",
+      "module_name": "Spec. Science&Design Invention",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "st"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00005361",
+          "section_ref": "FA26:E 00005361",
+          "section_code": "001-000-ST",
+          "instruction_type_name": "st",
+          "event_package_ids": [
+            "157853"
+          ],
+          "capacity": 15,
+          "enrolled": 12,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 570,
+              "end_minutes": 740,
+              "start_time_display": "9:30am",
+              "end_time_display": "12:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-114",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-114 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "163",
+      "module_code": "VIS-163",
+      "module_name": "Design Research & Criticism",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 72,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Patricia Stone"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003611",
+          "section_ref": "FA26:E 00003611",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "152812",
+            "152813",
+            "155282"
+          ],
+          "capacity": 75,
+          "enrolled": 3,
+          "seats_available": 72,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Patricia Stone"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "final",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": "2026-12-07",
+              "start_minutes": 900,
+              "end_minutes": 1079,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:59pm",
+              "building_code": "SME",
+              "room_code": "SME 149",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 149 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "164",
+      "module_code": "VIS-164",
+      "module_name": "Photographic Strategies",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 18,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Brian Cross"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003612",
+          "section_ref": "FA26:E 00003612",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155287"
+          ],
+          "capacity": 22,
+          "enrolled": 4,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brian Cross"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-113",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-113 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE B-113",
+              "building_name": "Mandeville Center",
+              "room_name": "Room B-113 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "165",
+      "module_code": "VIS-165",
+      "module_name": "Black and White Darkroom",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 3,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "dean erdmann"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003613",
+          "section_ref": "FA26:E 00003613",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155284"
+          ],
+          "capacity": 22,
+          "enrolled": 19,
+          "seats_available": 3,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "dean erdmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "VAF",
+              "room_code": "VAF 218",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 218 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "VAF",
+              "room_code": "VAF 218",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 218 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "167",
+      "module_code": "VIS-167",
+      "module_name": "Social Engagement&Photography",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 14,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003614",
+          "section_ref": "FA26:E 00003614",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155353"
+          ],
+          "capacity": 22,
+          "enrolled": 8,
+          "seats_available": 14,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": null,
+              "day_name": null,
+              "specific_date": null,
+              "start_minutes": null,
+              "end_minutes": null,
+              "start_time_display": "tba",
+              "end_time_display": "tba",
+              "building_code": "tba",
+              "room_code": "tba",
+              "building_name": null,
+              "room_name": null,
+              "is_remote": false,
+              "is_tba": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "174",
+      "module_code": "VIS-174",
+      "module_name": "Media Sketchbook",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 2,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Alison O'Daniel"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003615",
+          "section_ref": "FA26:E 00003615",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155365"
+          ],
+          "capacity": 22,
+          "enrolled": 20,
+          "seats_available": 2,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alison O'Daniel"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 103",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 103 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 103",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 103 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "175",
+      "module_code": "VIS-175",
+      "module_name": "Editing - Theory & Practice",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 9,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Alison O'Daniel"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003616",
+          "section_ref": "FA26:E 00003616",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155367"
+          ],
+          "capacity": 22,
+          "enrolled": 13,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Alison O'Daniel"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "179",
+      "module_code": "VIS-179",
+      "module_name": "Intermediate Projects in Media",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 19,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Mariah Garnett"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003617",
+          "section_ref": "FA26:E 00003617",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155383"
+          ],
+          "capacity": 22,
+          "enrolled": 3,
+          "seats_available": 19,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mariah Garnett"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "R",
+              "day_name": "Thursday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 203",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 203 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 203",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 203 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "180A",
+      "module_code": "VIS-180A",
+      "module_name": "Documentary Evidence/Media Pra",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 15,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "Brian Cross"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003618",
+          "section_ref": "FA26:E 00003618",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155543"
+          ],
+          "capacity": 22,
+          "enrolled": 7,
+          "seats_available": 15,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Brian Cross"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 103",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 103 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 900,
+              "end_minutes": 1070,
+              "start_time_display": "3:00pm",
+              "end_time_display": "5:50pm",
+              "building_code": "MANDE",
+              "room_code": "MANDE 103",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 103 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "180B",
+      "module_code": "VIS-180B",
+      "module_name": "Fic & Allegory/Curr Media Prac",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 18,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003619",
+          "section_ref": "FA26:E 00003619",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155545"
+          ],
+          "capacity": 22,
+          "enrolled": 4,
+          "seats_available": 18,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 540,
+              "end_minutes": 710,
+              "start_time_display": "9:00am",
+              "end_time_display": "11:50am",
+              "building_code": "MANDE",
+              "room_code": "MANDE 106",
+              "building_name": "Mandeville Center",
+              "room_name": "Room 106 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "183B",
+      "module_code": "VIS-183B",
+      "module_name": "Strategies of Alterity",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 5,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "lecture"
+      ],
+      "instructors": [
+        "dean erdmann"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "UD",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003620",
+          "section_ref": "FA26:E 00003620",
+          "section_code": "001-000-LE",
+          "instruction_type_name": "lecture",
+          "event_package_ids": [
+            "155566"
+          ],
+          "capacity": 22,
+          "enrolled": 17,
+          "seats_available": 5,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "dean erdmann"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            },
+            {
+              "meeting_kind": "class",
+              "day_code": "W",
+              "day_name": "Wednesday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "SME",
+              "room_code": "SME 102",
+              "building_name": "Structural and Materials Engineering Bui",
+              "room_name": "Room 102 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "200",
+      "module_code": "VIS-200",
+      "module_name": "Methods and Theories",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Mariana Wardwell"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003621",
+          "section_ref": "FA26:E 00003621",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "152814",
+            "152815",
+            "152816",
+            "152817",
+            "152818",
+            "152819",
+            "155587",
+            "743",
+            "744"
+          ],
+          "capacity": 15,
+          "enrolled": 6,
+          "seats_available": 9,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Mariana Wardwell"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 750,
+              "end_minutes": 920,
+              "start_time_display": "12:30pm",
+              "end_time_display": "3:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 366",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 366 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "203",
+      "module_code": "VIS-203",
+      "module_name": "Working Critique",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Danielle Dean"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003622",
+          "section_ref": "FA26:E 00003622",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155592"
+          ],
+          "capacity": 15,
+          "enrolled": 7,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Danielle Dean"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "M",
+              "day_name": "Monday",
+              "specific_date": null,
+              "start_minutes": 720,
+              "end_minutes": 890,
+              "start_time_display": "12:00pm",
+              "end_time_display": "2:50pm",
+              "building_code": "VAF",
+              "room_code": "VAF 366",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 366 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "term_code": "FA26",
+      "subject_code": "VIS",
+      "course_code": "205",
+      "module_code": "VIS-205",
+      "module_name": "Intro/Grad Studies/Art Practic",
+      "course_title": null,
+      "section_count": 1,
+      "open_section_count": 1,
+      "open_seat_count": 0,
+      "waitlist_available_count": 0,
+      "instruction_types": [
+        "se"
+      ],
+      "instructors": [
+        "Paul Sepuya"
+      ],
+      "availability_refresh_pending": false,
+      "is_topic_course": false,
+      "section_family": null,
+      "subject_name": "Visual Arts",
+      "academic_level": "GR",
+      "matching_section_count": 1,
+      "sections": [
+        {
+          "section_id": "E 00003623",
+          "section_ref": "FA26:E 00003623",
+          "section_code": "001-000-SE",
+          "instruction_type_name": "se",
+          "event_package_ids": [
+            "155593"
+          ],
+          "capacity": 15,
+          "enrolled": 7,
+          "seats_available": 8,
+          "waitlist_capacity": null,
+          "waitlist_enrolled": 0,
+          "waitlist_available": null,
+          "status": "AC",
+          "instructors": [
+            "Paul Sepuya"
+          ],
+          "meetings": [
+            {
+              "meeting_kind": "class",
+              "day_code": "T",
+              "day_name": "Tuesday",
+              "specific_date": null,
+              "start_minutes": 930,
+              "end_minutes": 1100,
+              "start_time_display": "3:30pm",
+              "end_time_display": "6:20pm",
+              "building_code": "VAF",
+              "room_code": "VAF 366",
+              "building_name": "Visual Arts Facility Building 2",
+              "room_name": "Room 366 - Department Space",
+              "is_remote": false,
+              "is_tba": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

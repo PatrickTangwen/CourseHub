@@ -1,0 +1,67 @@
+{
+  "subject": "HIGL",
+  "term": "SP25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-13T11:00:06.839Z",
+  "source_timestamp": "10/06/2025, 02:01:00",
+  "courses": [
+    {
+      "course_id": "HIGL:126",
+      "subject": "HIGL",
+      "course_number": "126",
+      "title": "Ecstasy: History Transcendence",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/HIST.html#higl126",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP25:841758",
+          "course_id": "HIGL:126",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Gerth, Karl G."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "YORK",
+              "room": "3000A",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "YORK 3000A"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 34,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-13T11:00:06.839Z",
+            "raw_term": "SP25",
+            "raw_subject": "HIGL",
+            "raw_course_number": "126",
+            "raw_section_identifier": "841758",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

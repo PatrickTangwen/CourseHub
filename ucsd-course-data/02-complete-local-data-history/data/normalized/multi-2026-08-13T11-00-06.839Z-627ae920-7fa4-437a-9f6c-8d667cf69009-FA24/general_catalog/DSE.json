@@ -1,0 +1,112 @@
+[
+  {
+    "course_id": "DSE:200",
+    "subject": "DSE",
+    "course_number": "200",
+    "title": "Python for Data Analysis",
+    "units": "4",
+    "description": "The goal of this course is to bring students with diverse backgrounds and experience to a common level of competency in programming in the context of complex and noisy data. Solid competency in Python programming provides its owner with autonomy and independence in their work. Introduction to object-oriented programming using Python. Regular expressions. NumPy and numerical processing. IPython and plotting. Data analysis using PANDAS. Web page scraping using Scrapy. The Twitter API. NLTK.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse200"
+  },
+  {
+    "course_id": "DSE:201",
+    "subject": "DSE",
+    "course_number": "201",
+    "title": "Database Management Systems",
+    "units": "4",
+    "description": "This course will provide an introduction to the management of structured data beginning with an introduction to database models including relational, hierarchical, and network approaches. It will also cover topics in database system implementation including query languages and system architectures; parallel, column-oriented, and array-based database systems; advanced SQL features including user-defined functions (UDFs), triggers, statistical functions; and support for spatial data.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse201"
+  },
+  {
+    "course_id": "DSE:203",
+    "subject": "DSE",
+    "course_number": "203",
+    "title": "Data Integration and ETL",
+    "units": "4",
+    "description": "The course is designed to provide students with the fundamentals of data integration and includes schema mapping and matching, entity disambiguation, ontology development and management, data provenance, and crowd sourcing and machine learning as strategies for integration. The course will also require hands-on projects in which students will work on a data integration problem requiring integration of two or more datasets taken from an application domain of their choice (e.g., geospatial data, healthcare, financial applications, bioinformatics, etc.).",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse203"
+  },
+  {
+    "course_id": "DSE:210",
+    "subject": "DSE",
+    "course_number": "210",
+    "title": "Statistics and Probability Using Python",
+    "units": "4",
+    "description": "Probability and statistics for data science. Distribution over the real line; independence, expectation, variance, correlation. Central limit theorem. Chernoff/Hoeffding bound. Statistical tests. Bonferroni correction.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse210"
+  },
+  {
+    "course_id": "DSE:220",
+    "subject": "DSE",
+    "course_number": "220",
+    "title": "Machine Learning",
+    "units": "4",
+    "description": "This course provides a broad introduction to the practical side of machine learning and data analysis. The topics covered in this class include topics in supervised learning, such as k-nearest neighbor classifiers, decision trees, boosting and perceptrons, and topics in unsupervised learning, such as k-means, PCA, and Gaussian mixture models.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse220"
+  },
+  {
+    "course_id": "DSE:230",
+    "subject": "DSE",
+    "course_number": "230",
+    "title": "Scalable Data Analysis",
+    "units": "4",
+    "description": "The course exercises the data scientist’s scalability toolbox, covering such concepts as map-reduce, streaming analysis, external memory algorithms, as well as their implementation options in popular frameworks (e.g., Hadoop and its ecosystem: HBase, Hive, Pig and Spark, etc.). The class will include assignments of analyzing large existing databases.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse230"
+  },
+  {
+    "course_id": "DSE:241",
+    "subject": "DSE",
+    "course_number": "241",
+    "title": "Data Visualization",
+    "units": "4",
+    "description": "The goal for the course is to use visualization as a tool to explore trends, relationships, confirm hypotheses, communicate findings, and gain insight about data. This course will focus on teaching students the principles and techniques for creating visual representation from raw data. The course exercises will be based on publicly available datasets and utilize freely available tools like D3.js and VisIt. The course will be modeled similar to Stanford’s visualization CS 448 course and will include an introduction to visualization, vis foundation review, color, interaction, dashboards and heat maps, introduction to D3.js, high dimensional data, network data, geographic data, text data, scientific visualization: isosurface, volume rendering, and introduction to VisIt.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse241"
+  },
+  {
+    "course_id": "DSE:250",
+    "subject": "DSE",
+    "course_number": "250",
+    "title": "Beyond Relational Data Models",
+    "units": "4",
+    "description": "The course covers data models, query languages, and models of computation beyond those employed in relational databases. It addresses new developments that have gained attention with the advent of the Web 2.0 and big data revolutions. The topics are presented in a unifying framework and include key-value pairs as data model, as used in Google’s Bigtable; object-oriented data model, with its practical support in relational databases via the object-relational mapping (involves ODMG standards ODL and OQL, and recent systems such as Ruby on Rails); semi-structured databases (data organized as graph with labels on nodes and edges), query languages based on reachability constraints between nodes: conjunctive regular path queries); XML databases, as special case of semi-structured databases in which the graph is a tree (this involves associated standards such as XML Schema, XPath, and XQuery); RDF databases (with associated OWL and SPARQL standard.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse250"
+  },
+  {
+    "course_id": "DSE:290",
+    "subject": "DSE",
+    "course_number": "290",
+    "title": "Case Studies in Data Science",
+    "units": "2",
+    "description": "Case studies discussed by speakers from industry, government, and academia expose students to the needs and uses of different technologies and their roles in model building.",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse290"
+  },
+  {
+    "course_id": "DSE:260",
+    "subject": "DSE",
+    "course_number": "260",
+    "title": "Data Science Capstone Design Project",
+    "units": "4",
+    "description": "A team design project in the final two quarters of the program culminates in a final report and an oral presentation of the capstone project. In addition, there might be a demonstration of the working prototype. The project will start by identifying a domain of interest and the available data sources that will be used to study the domain. From this starting point there will be two parallel and interdependent lines of work: data extraction, Transformation and Loading (ETL), and statistical analysis and model building. The ultimate goal will be to present a processing pipeline which transforms the raw data into more usable forms and models which separates between the predictable and the unpredictable aspects of the underlying system. Examples of previous capstone projects can be found here .",
+    "prerequisites_text": null,
+    "restrictions_text": null,
+    "catalog_url": "https://catalog.ucsd.edu/courses/MAS.html#dse260"
+  }
+]

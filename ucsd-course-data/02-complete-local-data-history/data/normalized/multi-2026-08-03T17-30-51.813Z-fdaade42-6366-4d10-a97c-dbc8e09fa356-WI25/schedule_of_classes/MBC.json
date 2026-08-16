@@ -1,0 +1,81 @@
+{
+  "subject": "MBC",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "MBC:259",
+      "subject": "MBC",
+      "course_number": "259",
+      "title": "Marine Consrv/Comm Practicum 2",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MBC.html#mbc259",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:799573",
+          "course_id": "MBC:259",
+          "section_code": "A00",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Garnett, Mariah J"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "14:20",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Practicum",
+              "raw_days": "F",
+              "raw_time": "12:30p-2:20p",
+              "raw_location": "ECKRT 127"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-03-19",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "ECKRT 127"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 26,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "WI25",
+            "raw_subject": "MBC",
+            "raw_course_number": "259",
+            "raw_section_identifier": "799573",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    }
+  ]
+}

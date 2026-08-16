@@ -1,0 +1,1040 @@
+{
+  "subject": "SIOC",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "SIOC:200A",
+      "subject": "SIOC",
+      "course_number": "200A",
+      "title": "Ocean Acoustics&Signal Proc I",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc200a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:939821",
+          "course_id": "SIOC:200A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Lin, Ying-Tsong"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:20",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-10:20a",
+              "raw_location": "ECKRT 127"
+            }
+          ],
+          "enrolled": 16,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "200A",
+            "raw_section_identifier": "939821",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:203A",
+      "subject": "SIOC",
+      "course_number": "203A",
+      "title": "Intro to Applied Mathematics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc203a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:939827",
+          "course_id": "SIOC:203A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Becker, Janet Maria"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "NIERN",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "NIERN 101"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-12-10",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "NIERN",
+              "room": "101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "NIERN 101"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "203A",
+            "raw_section_identifier": "939827",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:207A",
+      "subject": "SIOC",
+      "course_number": "207A",
+      "title": "Intr/Digital Signal Processing",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc207a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:939909",
+          "course_id": "SIOC:207A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Meyer, Florian"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "12:30",
+              "end_time": "13:50",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "12:30p-1:50p",
+              "raw_location": "SPIES 330"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "11:50",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "11:00a-11:50a",
+              "raw_location": "SPIES 330"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2025-12-11",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "SPIES 330"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "207A",
+            "raw_section_identifier": "939909",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:208",
+      "subject": "SIOC",
+      "course_number": "208",
+      "title": "Seminar/Applied Ocean Sciences",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc208",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:939913",
+          "course_id": "SIOC:208",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Merrifield, Mark A"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "Th",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "SPIES 330"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-12-13",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "SPIES 330"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 35,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "208",
+            "raw_section_identifier": "939913",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:209",
+      "subject": "SIOC",
+      "course_number": "209",
+      "title": "Special Topics",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc209",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:42178",
+          "course_id": "SIOC:209",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Giddings, Sarah Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "209",
+            "raw_section_identifier": "42178",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:210",
+      "subject": "SIOC",
+      "course_number": "210",
+      "title": "Physical Oceanography",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc210",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:939917",
+          "course_id": "SIOC:210",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Purkey, Sarah Michelle G."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "MCTF 210"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-12-10",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "MCTF 210"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 40,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "210",
+            "raw_section_identifier": "939917",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:939973",
+          "course_id": "SIOC:210",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Purkey, Sarah Michelle G."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:20",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-3:20p",
+              "raw_location": "MCTF 210"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2025-12-11",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "MCTF 210"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 45,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "210",
+            "raw_section_identifier": "939973",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:214A",
+      "subject": "SIOC",
+      "course_number": "214A",
+      "title": "Intro To Fluid Mechanics",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc214a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:982785",
+          "course_id": "SIOC:214A",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Giddings, Sarah Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "ECKRT 127"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "08:30",
+              "end_time": "09:20",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "W",
+              "raw_time": "8:30a-9:20a",
+              "raw_location": "ECKRT 127"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-12-10",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "ECKRT",
+              "room": "127",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "ECKRT 127"
+            }
+          ],
+          "enrolled": 11,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "214A",
+            "raw_section_identifier": "982785",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:217A",
+      "subject": "SIOC",
+      "course_number": "217A",
+      "title": "Atmospheric & Climate Sci I",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc217a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:940015",
+          "course_id": "SIOC:217A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "217A",
+            "raw_section_identifier": "940015",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:982914",
+          "course_id": "SIOC:217A",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Evan, Amato Tomas"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "ECKRT",
+              "room": "236",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "ECKRT 236"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": "2025-12-11",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "ECKRT",
+              "room": "236",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Th",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "ECKRT 236"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "217A",
+            "raw_section_identifier": "982914",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:221A",
+      "subject": "SIOC",
+      "course_number": "221A",
+      "title": "Anlys/Physicl Oceanograph Data",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc221a",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:940020",
+          "course_id": "SIOC:221A",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "221A",
+            "raw_section_identifier": "940020",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:980496",
+          "course_id": "SIOC:221A",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "221A",
+            "raw_section_identifier": "980496",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "FA25:982910",
+          "course_id": "SIOC:221A",
+          "section_code": "C00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Alford, Matthew Hudson"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "SPIES 330"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": "2025-12-09",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "SPIES",
+              "room": "330",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "SPIES 330"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "221A",
+            "raw_section_identifier": "982910",
+            "raw_section_code": "C00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOC:299",
+      "subject": "SIOC",
+      "course_number": "299",
+      "title": "CSP Capstone Project",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#sioc299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:940029",
+          "course_id": "SIOC:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Capaldi, Tomas"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "299",
+            "raw_section_identifier": "940029",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:940085",
+          "course_id": "SIOC:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Odlum, Margaret Larkin"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "299",
+            "raw_section_identifier": "940085",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:940086",
+          "course_id": "SIOC:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Arcila, Dahiana K"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "299",
+            "raw_section_identifier": "940086",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:940087",
+          "course_id": "SIOC:299",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Lukowski, April Lynn"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "299",
+            "raw_section_identifier": "940087",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "FA25:940289",
+          "course_id": "SIOC:299",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Betancur Rodriguez, Ricard"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "FA25",
+            "raw_subject": "SIOC",
+            "raw_course_number": "299",
+            "raw_section_identifier": "940289",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

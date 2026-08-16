@@ -1,0 +1,964 @@
+{
+  "subject": "NEU",
+  "term": "WI26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "NEU:199",
+      "subject": "NEU",
+      "course_number": "199",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NEU.html#neu199",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:249434",
+          "course_id": "NEU:199",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Trotter, Justin Howard"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "199",
+            "raw_section_identifier": "249434",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:234",
+      "subject": "NEU",
+      "course_number": "234",
+      "title": "Introduction/AerospaceMedicine",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:240476",
+          "course_id": "NEU:234",
+          "section_code": "A00",
+          "meeting_type": "Practicum",
+          "instructors": [
+            "Viirre, Erik"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Lecture",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            },
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Practicum",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "234",
+            "raw_section_identifier": "240476",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "PR"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:276",
+      "subject": "NEU",
+      "course_number": "276",
+      "title": "Neurosciences Research Rounds",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NEU.html#neu276",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:31037",
+          "course_id": "NEU:276",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mertens, Jerome Stefan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "01:00",
+              "end_time": "03:00",
+              "building": "CNCB",
+              "room": "SEM",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Th",
+              "raw_time": "1:00a-3:00a",
+              "raw_location": "CNCB SEM"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "start_time": "15:00",
+              "end_time": "16:00",
+              "building": "CNCB",
+              "room": "SEM",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "Th",
+              "raw_time": "3:00p-4:00p",
+              "raw_location": "CNCB SEM"
+            }
+          ],
+          "enrolled": 25,
+          "capacity": 25,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "276",
+            "raw_section_identifier": "31037",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:296",
+      "subject": "NEU",
+      "course_number": "296",
+      "title": "Neurosciences Resrch Rotation",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NEU.html#neu296",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55528",
+          "course_id": "NEU:296",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Evans, Sean Jeffrey"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55528",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55529",
+          "course_id": "NEU:296",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Santiago-Dieppa, David Raf"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55529",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55530",
+          "course_id": "NEU:296",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "296",
+            "raw_section_identifier": "55530",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:299",
+      "subject": "NEU",
+      "course_number": "299",
+      "title": "Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/NEU.html#neu299",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55531",
+          "course_id": "NEU:299",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Gold, Jeffrey Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55531",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55532",
+          "course_id": "NEU:299",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Jindal, Anuja Vora"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55532",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55533",
+          "course_id": "NEU:299",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Schorr, Emily"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55533",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55534",
+          "course_id": "NEU:299",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Evans, Sean Jeffrey"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "55534",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:61552",
+          "course_id": "NEU:299",
+          "section_code": "005",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "LaBuzetta, Jamie Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "61552",
+            "raw_section_code": "005",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:61554",
+          "course_id": "NEU:299",
+          "section_code": "006",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Frederick, Aliya L"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "61554",
+            "raw_section_code": "006",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:239975",
+          "course_id": "NEU:299",
+          "section_code": "007",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Ben-Haim, Sharona"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "299",
+            "raw_section_identifier": "239975",
+            "raw_section_code": "007",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:401",
+      "subject": "NEU",
+      "course_number": "401",
+      "title": "Neurology Core Clerkship",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55535",
+          "course_id": "NEU:401",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "LaBuzetta, Jamie Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 36,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "401",
+            "raw_section_identifier": "55535",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:426",
+      "subject": "NEU",
+      "course_number": "426",
+      "title": "Sub-Internship/Pediatric Neuro",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55536",
+          "course_id": "NEU:426",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Zimbric, Michael R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "426",
+            "raw_section_identifier": "55536",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:426T",
+      "subject": "NEU",
+      "course_number": "426T",
+      "title": "Pediatric Neurology Selective",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55537",
+          "course_id": "NEU:426T",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "Zimbric, Michael R."
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "426T",
+            "raw_section_identifier": "55537",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:427",
+      "subject": "NEU",
+      "course_number": "427",
+      "title": "Neurology Out-Patient",
+      "units": "7",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55538",
+          "course_id": "NEU:427",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "LaBuzetta, Jamie Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "427",
+            "raw_section_identifier": "55538",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:427T",
+      "subject": "NEU",
+      "course_number": "427T",
+      "title": "Neurology Outpatient Selective",
+      "units": "6",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55539",
+          "course_id": "NEU:427T",
+          "section_code": "A00",
+          "meeting_type": "Clinical Clerkship",
+          "instructors": [
+            "LaBuzetta, Jamie Nicole"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Clinical Clerkship",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 1,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "427T",
+            "raw_section_identifier": "55539",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "CL"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "NEU:496",
+      "subject": "NEU",
+      "course_number": "496",
+      "title": "Clinical Independent Study",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": null,
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI26:55540",
+          "course_id": "NEU:496",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "496",
+            "raw_section_identifier": "55540",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI26:55541",
+          "course_id": "NEU:496",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Staff"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 5,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "WI26",
+            "raw_subject": "NEU",
+            "raw_course_number": "496",
+            "raw_section_identifier": "55541",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "subject": "LTWR",
+  "term": "S224",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "11/05/2024, 04:24:00",
+  "courses": [
+    {
+      "course_id": "LTWR:100",
+      "subject": "LTWR",
+      "course_number": "100",
+      "title": "Short Fiction Workshop",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltwr100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:494571",
+          "course_id": "LTWR:100",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "To, Gin"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "17:00",
+              "end_time": "19:50",
+              "building": "HSS",
+              "room": "2305A",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "5:00p-7:50p",
+              "raw_location": "HSS 2305A"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2024-09-07",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "HSS",
+              "room": "2305A",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "HSS 2305A"
+            }
+          ],
+          "enrolled": 13,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S224",
+            "raw_subject": "LTWR",
+            "raw_course_number": "100",
+            "raw_section_identifier": "494571",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "LTWR:102",
+      "subject": "LTWR",
+      "course_number": "102",
+      "title": "Poetry Workshop",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LIT.html#ltwr102",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:494572",
+          "course_id": "LTWR:102",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Doller, Ben"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "MW",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R10"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2024-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R10"
+            }
+          ],
+          "enrolled": 15,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S224",
+            "raw_subject": "LTWR",
+            "raw_course_number": "102",
+            "raw_section_identifier": "494572",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "subject": "TDDM",
+  "term": "FA25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-03T17:30:51.813Z",
+  "source_timestamp": "04/01/2026, 05:27:00",
+  "courses": [
+    {
+      "course_id": "TDDM:1",
+      "subject": "TDDM",
+      "course_number": "1",
+      "title": "Introduction to Dance Making",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/THEA.html#tddm1",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:946800",
+          "course_id": "TDDM:1",
+          "section_code": "A00",
+          "meeting_type": "Studio",
+          "instructors": [
+            "Johnston, Holly"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "15:50",
+              "building": "DANCE",
+              "room": "2",
+              "is_tba": false,
+              "meeting_type": "Studio",
+              "raw_days": "MW",
+              "raw_time": "2:00p-3:50p",
+              "raw_location": "DANCE 2"
+            }
+          ],
+          "enrolled": 30,
+          "capacity": 30,
+          "waitlist_count": 4,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "FA25",
+            "raw_subject": "TDDM",
+            "raw_course_number": "1",
+            "raw_section_identifier": "946800",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "ST"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "TDDM:100",
+      "subject": "TDDM",
+      "course_number": "100",
+      "title": "Dance Making 1",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/THEA.html#tddm100",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "FA25:947098",
+          "course_id": "TDDM:100",
+          "section_code": "A00",
+          "meeting_type": "Studio",
+          "instructors": [
+            "Brown, Bernard Joseph"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "17:50",
+              "building": "DANCE",
+              "room": "2",
+              "is_tba": false,
+              "meeting_type": "Studio",
+              "raw_days": "MW",
+              "raw_time": "4:00p-5:50p",
+              "raw_location": "DANCE 2"
+            }
+          ],
+          "enrolled": 27,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-03T17:30:51.813Z",
+            "raw_term": "FA25",
+            "raw_subject": "TDDM",
+            "raw_course_number": "100",
+            "raw_section_identifier": "947098",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "ST"
+          }
+        }
+      ]
+    }
+  ]
+}

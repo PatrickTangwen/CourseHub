@@ -1,0 +1,156 @@
+{
+  "subject": "JWSP",
+  "term": "SP26",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "08/06/2026, 02:16:00",
+  "courses": [
+    {
+      "course_id": "JWSP:3",
+      "subject": "JWSP",
+      "course_number": "3",
+      "title": "Intermediate Hebrew Continued",
+      "units": "5",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/JWSP.html#jwsp3",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:121662",
+          "course_id": "JWSP:3",
+          "section_code": "A01",
+          "meeting_type": "Tutorial",
+          "instructors": [
+            "Shuster, Alana"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday",
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "09:50",
+              "building": "APM",
+              "room": "3402",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MWF",
+              "raw_time": "9:00a-9:50a",
+              "raw_location": "APM 3402"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:00",
+              "end_time": "16:50",
+              "building": "WLH",
+              "room": "2110",
+              "is_tba": false,
+              "meeting_type": "Tutorial",
+              "raw_days": "TuTh",
+              "raw_time": "4:00p-4:50p",
+              "raw_location": "WLH 2110"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2026-06-10",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "APM",
+              "room": "3402",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "APM 3402"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "SP26",
+            "raw_subject": "JWSP",
+            "raw_course_number": "3",
+            "raw_section_identifier": "121662",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "TU"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "JWSP:87",
+      "subject": "JWSP",
+      "course_number": "87",
+      "title": "First-year Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/JWSP.html#jwsp87",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "SP26:121670",
+          "course_id": "JWSP:87",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Havis, Allan"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:50",
+              "building": "MCC",
+              "room": "221",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "11:00a-12:50p",
+              "raw_location": "MCC 221"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "SP26",
+            "raw_subject": "JWSP",
+            "raw_course_number": "87",
+            "raw_section_identifier": "121670",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

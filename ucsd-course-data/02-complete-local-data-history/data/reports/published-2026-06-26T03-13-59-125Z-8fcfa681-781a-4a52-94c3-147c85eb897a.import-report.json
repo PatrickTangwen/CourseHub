@@ -1,0 +1,297 @@
+{
+  "run_id": "published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a",
+  "generated_at": "2026-06-26T03:13:59.125Z",
+  "active_planning_term": "SP26",
+  "term_label": "Spring 2026",
+  "configured_subjects": [
+    "CSE",
+    "MATH",
+    "PHYS",
+    "ECE"
+  ],
+  "status": "published",
+  "source_timestamps": {
+    "schedule_of_classes": "06/25/2026, 04:16:00",
+    "general_catalog": "2026-06-26T03:13:59.125Z",
+    "instructor_grade_archive": "2026-06-26T03:13:59.125Z"
+  },
+  "sources": [
+    {
+      "source": "schedule_of_classes",
+      "subject": "CSE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "06/25/2026, 04:16:00",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.subject-list.json",
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.json",
+      "row_counts": {
+        "courses": 8,
+        "sections": 18,
+        "meetings": 47
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "MATH",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "06/25/2026, 04:16:00",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.subject-list.json",
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.json",
+      "row_counts": {
+        "courses": 6,
+        "sections": 63,
+        "meetings": 126
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "PHYS",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "06/25/2026, 04:16:00",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.subject-list.json",
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.json",
+      "row_counts": {
+        "courses": 2,
+        "sections": 9,
+        "meetings": 9
+      }
+    },
+    {
+      "source": "schedule_of_classes",
+      "subject": "ECE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "06/25/2026, 04:16:00",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.subject-list.json",
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.json",
+      "row_counts": {
+        "courses": 9,
+        "sections": 28,
+        "meetings": 79
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "CSE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/CSE.json",
+      "row_counts": {
+        "courses": 212
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "MATH",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/MATH.json",
+      "row_counts": {
+        "courses": 224
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "PHYS",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/PHYS.json",
+      "row_counts": {
+        "courses": 130
+      }
+    },
+    {
+      "source": "general_catalog",
+      "subject": "ECE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/ECE.json",
+      "row_counts": {
+        "courses": 203
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "CSE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/CSE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/CSE.json",
+      "row_counts": {
+        "records": 1098
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "MATH",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/MATH.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/MATH.json",
+      "row_counts": {
+        "records": 1718
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "PHYS",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/PHYS.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/PHYS.json",
+      "row_counts": {
+        "records": 661
+      }
+    },
+    {
+      "source": "instructor_grade_archive",
+      "subject": "ECE",
+      "fetched_at": "2026-06-26T03:13:59.125Z",
+      "source_timestamp": "2026-06-26T03:13:59.125Z",
+      "raw_artifacts": [
+        "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/ECE.html"
+      ],
+      "normalized_artifact": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/ECE.json",
+      "row_counts": {
+        "records": 740
+      }
+    }
+  ],
+  "row_counts": {
+    "schedule_of_classes": {
+      "courses": 25,
+      "sections": 118,
+      "meetings": 261,
+      "by_subject": {
+        "CSE": {
+          "courses": 8,
+          "sections": 18,
+          "meetings": 47
+        },
+        "MATH": {
+          "courses": 6,
+          "sections": 63,
+          "meetings": 126
+        },
+        "PHYS": {
+          "courses": 2,
+          "sections": 9,
+          "meetings": 9
+        },
+        "ECE": {
+          "courses": 9,
+          "sections": 28,
+          "meetings": 79
+        }
+      }
+    },
+    "general_catalog": {
+      "courses": 769,
+      "by_subject": {
+        "CSE": {
+          "courses": 212
+        },
+        "MATH": {
+          "courses": 224
+        },
+        "PHYS": {
+          "courses": 130
+        },
+        "ECE": {
+          "courses": 203
+        }
+      }
+    },
+    "instructor_grade_archive": {
+      "records": 4217,
+      "by_subject": {
+        "CSE": {
+          "records": 1098
+        },
+        "MATH": {
+          "records": 1718
+        },
+        "PHYS": {
+          "records": 661
+        },
+        "ECE": {
+          "records": 740
+        }
+      }
+    },
+    "catalog_snapshot": {
+      "courses": 25,
+      "sections": 118
+    }
+  },
+  "validation": {
+    "success": true,
+    "errors": []
+  },
+  "errors": [],
+  "parser_errors": [],
+  "raw_artifacts": [
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.subject-list.json",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.subject-list.json",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.subject-list.json",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.subject-list.json",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/CSE.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/MATH.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/PHYS.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/ECE.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/CSE.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/MATH.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/PHYS.html",
+    "data/raw/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/ECE.html"
+  ],
+  "normalized_artifacts": [
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/CSE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/MATH.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/PHYS.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/schedule_of_classes/ECE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/CSE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/MATH.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/PHYS.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/general_catalog/ECE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/CSE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/MATH.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/PHYS.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/instructor_grade_archive/ECE.json",
+    "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/catalog_snapshot.staging.json"
+  ],
+  "staging_snapshot_path": "data/normalized/published-2026-06-26T03-13-59-125Z-8fcfa681-781a-4a52-94c3-147c85eb897a/catalog_snapshot.staging.json",
+  "published_snapshot_path": "api/static/catalogs/public/SP26.json",
+  "metadata_path": "api/static/metadata.json"
+}

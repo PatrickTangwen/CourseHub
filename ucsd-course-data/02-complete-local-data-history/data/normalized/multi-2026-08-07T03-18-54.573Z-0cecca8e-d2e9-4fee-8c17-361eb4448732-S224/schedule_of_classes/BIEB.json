@@ -1,0 +1,354 @@
+{
+  "subject": "BIEB",
+  "term": "S224",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "11/05/2024, 04:24:00",
+  "courses": [
+    {
+      "course_id": "BIEB:102",
+      "subject": "BIEB",
+      "course_number": "102",
+      "title": "Intro Eclgy/Organisms&Habitats",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bieb102",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:496819",
+          "course_id": "BIEB:102",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Butler, Shannon Rhey"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "YORK",
+              "room": "2622",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "YORK 2622"
+            },
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R33",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "MW",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RCLAS R33"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2024-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R07",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R07"
+            }
+          ],
+          "enrolled": 47,
+          "capacity": 176,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S224",
+            "raw_subject": "BIEB",
+            "raw_course_number": "102",
+            "raw_section_identifier": "496819",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIEB:134",
+      "subject": "BIEB",
+      "course_number": "134",
+      "title": "Intro/Biological Oceanography",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bieb134",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:496821",
+          "course_id": "BIEB:134",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Alksne, Michaela Noel"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "ECKRT 227"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "11:20",
+              "building": "VAUGN",
+              "room": "100",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "F",
+              "raw_time": "9:30a-11:20a",
+              "raw_location": "VAUGN 100"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2024-09-06",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "ECKRT 227"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S224",
+            "raw_subject": "BIEB",
+            "raw_course_number": "134",
+            "raw_section_identifier": "496821",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIEB:150",
+      "subject": "BIEB",
+      "course_number": "150",
+      "title": "Evolution",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bieb150",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:496823",
+          "course_id": "BIEB:150",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Wills, Christopher"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "11:00",
+              "end_time": "12:20",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "11:00a-12:20p",
+              "raw_location": "MANDE B-150"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R33",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R33"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2024-09-06",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "MANDE",
+              "room": "B-150",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "MANDE B-150"
+            }
+          ],
+          "enrolled": 34,
+          "capacity": 50,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S224",
+            "raw_subject": "BIEB",
+            "raw_course_number": "150",
+            "raw_section_identifier": "496823",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "BIEB:194",
+      "subject": "BIEB",
+      "course_number": "194",
+      "title": "Adv Topics-EBE",
+      "units": "2",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/BIOL.html#bieb194",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S224:517253",
+          "course_id": "BIEB:194",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Kurle, Carolyn M."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R09",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "TuTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R09"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2024-09-07",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R10",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R10"
+            }
+          ],
+          "enrolled": 18,
+          "capacity": 32,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S224",
+            "raw_subject": "BIEB",
+            "raw_course_number": "194",
+            "raw_section_identifier": "517253",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "subject": "SIOB",
+  "term": "WI25",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "07/01/2025, 03:27:00",
+  "courses": [
+    {
+      "course_id": "SIOB:262",
+      "subject": "SIOB",
+      "course_number": "262",
+      "title": "Marine Chemical Biology Seminr",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob262",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764791",
+          "course_id": "SIOB:262",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Moore, Bradley S."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "16:50",
+              "building": "VAUGN",
+              "room": "100",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "3:30p-4:50p",
+              "raw_location": "VAUGN 100"
+            }
+          ],
+          "enrolled": 16,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "262",
+            "raw_section_identifier": "764791",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:265",
+      "subject": "SIOB",
+      "course_number": "265",
+      "title": "Marine Chemical Ecology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob265",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764793",
+          "course_id": "SIOB:265",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Jensen, Paul R."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:20",
+              "building": "VAUGN",
+              "room": "300",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "3:00p-4:20p",
+              "raw_location": "VAUGN 300"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "16:30",
+              "end_time": "16:50",
+              "building": "VAUGN",
+              "room": "300",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "4:30p-4:50p",
+              "raw_location": "VAUGN 300"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 12,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "265",
+            "raw_section_identifier": "764793",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:272",
+      "subject": "SIOB",
+      "course_number": "272",
+      "title": "Advanced Statistical Technique",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob272",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764796",
+          "course_id": "SIOB:272",
+          "section_code": "A01",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Sandin, Stuart Adrian"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:20",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-10:20a",
+              "raw_location": "ECKRT 227"
+            },
+            {
+              "days": [
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "ECKRT",
+              "room": "225",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "Th",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "ECKRT 225"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": "2025-03-18",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "ECKRT 227"
+            }
+          ],
+          "enrolled": 17,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "272",
+            "raw_section_identifier": "764796",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "LA"
+          }
+        },
+        {
+          "section_id": "WI25:764797",
+          "course_id": "SIOB:272",
+          "section_code": "A02",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Sandin, Stuart Adrian"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:20",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "9:00a-10:20a",
+              "raw_location": "ECKRT 227"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "13:50",
+              "building": "ECKRT",
+              "room": "225",
+              "is_tba": false,
+              "meeting_type": "Laboratory",
+              "raw_days": "F",
+              "raw_time": "1:00p-1:50p",
+              "raw_location": "ECKRT 225"
+            },
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": "2025-03-18",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "ECKRT",
+              "room": "227",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "Tu",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "ECKRT 227"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "272",
+            "raw_section_identifier": "764797",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:276L",
+      "subject": "SIOB",
+      "course_number": "276L",
+      "title": "Quantitative Ecology Proj Lab",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob276l",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:856266",
+          "course_id": "SIOB:276L",
+          "section_code": "A00",
+          "meeting_type": "Laboratory",
+          "instructors": [
+            "Sugihara, George"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Laboratory",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 4,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "276L",
+            "raw_section_identifier": "856266",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LA"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:279",
+      "subject": "SIOB",
+      "course_number": "279",
+      "title": "Ecology Seminar/BO",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob279",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:794515",
+          "course_id": "SIOB:279",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Barton, Andrew David"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "12:15",
+              "end_time": "13:15",
+              "building": "HUBBS",
+              "room": "4500",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "12:15p-1:15p",
+              "raw_location": "HUBBS 4500"
+            },
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": "2025-03-19",
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "HUBBS",
+              "room": "4500",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "W",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "HUBBS 4500"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "279",
+            "raw_section_identifier": "794515",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:286",
+      "subject": "SIOB",
+      "course_number": "286",
+      "title": "Marine Sci, Econ & Policy",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob286",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764803",
+          "course_id": "SIOB:286",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Mesnick, Sarah",
+            "Smith, Jennifer"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "MCTF 210"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "15:00",
+              "end_time": "16:20",
+              "building": "MCTF",
+              "room": "210",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "3:00p-4:20p",
+              "raw_location": "MCTF 210"
+            }
+          ],
+          "enrolled": 19,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "286",
+            "raw_section_identifier": "764803",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:291",
+      "subject": "SIOB",
+      "course_number": "291",
+      "title": "Biology Graduate Research Pres",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob291",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764806",
+          "course_id": "SIOB:291",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Allen, Eric"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "15:30",
+              "end_time": "17:20",
+              "building": "VAUGN",
+              "room": "300",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "W",
+              "raw_time": "3:30p-5:20p",
+              "raw_location": "VAUGN 300"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "291",
+            "raw_section_identifier": "764806",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:296",
+      "subject": "SIOB",
+      "course_number": "296",
+      "title": "Special Topics/Ocean Bio",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob296",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:794530",
+          "course_id": "SIOB:296",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Batchelor, Heidi Ann"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "MCGIL",
+              "room": "2148",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "MCGIL 2148"
+            },
+            {
+              "days": [
+                "Monday"
+              ],
+              "date": "2025-03-17",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "MCGIL",
+              "room": "2148",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "M",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "MCGIL 2148"
+            }
+          ],
+          "enrolled": 20,
+          "capacity": 20,
+          "waitlist_count": 1,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "296",
+            "raw_section_identifier": "794530",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:297",
+      "subject": "SIOB",
+      "course_number": "297",
+      "title": "Marine Biology Seminar",
+      "units": "1",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob297",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:764807",
+          "course_id": "SIOB:297",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Allen, Eric"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": null,
+              "start_time": "12:15",
+              "end_time": "13:15",
+              "building": "HUBBS",
+              "room": "4500",
+              "is_tba": false,
+              "meeting_type": "Seminar",
+              "raw_days": "F",
+              "raw_time": "12:15p-1:15p",
+              "raw_location": "HUBBS 4500"
+            }
+          ],
+          "enrolled": 42,
+          "capacity": 65,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "297",
+            "raw_section_identifier": "764807",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "SIOB:298",
+      "subject": "SIOB",
+      "course_number": "298",
+      "title": "Spec Studies/Marine Sciences",
+      "units": null,
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/SIO.html#siob298",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "WI25:800997",
+          "course_id": "SIOB:298",
+          "section_code": "001",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "298",
+            "raw_section_identifier": "800997",
+            "raw_section_code": "001",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:801606",
+          "course_id": "SIOB:298",
+          "section_code": "002",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "298",
+            "raw_section_identifier": "801606",
+            "raw_section_code": "002",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:858464",
+          "course_id": "SIOB:298",
+          "section_code": "003",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Meyer, Florian"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Independent Study",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 20,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "298",
+            "raw_section_identifier": "858464",
+            "raw_section_code": "003",
+            "raw_meeting_type": "IN"
+          }
+        },
+        {
+          "section_id": "WI25:858932",
+          "course_id": "SIOB:298",
+          "section_code": "004",
+          "meeting_type": "Independent Study",
+          "instructors": [
+            "Rouse, Gregory W."
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "10:50",
+              "building": "ECKRT",
+              "room": "139",
+              "is_tba": false,
+              "meeting_type": "Independent Study",
+              "raw_days": "Tu",
+              "raw_time": "9:00a-10:50a",
+              "raw_location": "ECKRT 139"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 15,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "WI25",
+            "raw_subject": "SIOB",
+            "raw_course_number": "298",
+            "raw_section_identifier": "858932",
+            "raw_section_code": "004",
+            "raw_meeting_type": "IN"
+          }
+        }
+      ]
+    }
+  ]
+}

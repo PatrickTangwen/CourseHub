@@ -1,0 +1,614 @@
+{
+  "subject": "ANSC",
+  "term": "S125",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-10T11:00:04.062Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "ANSC:101",
+      "subject": "ANSC",
+      "course_number": "101",
+      "title": "Aging: Culture&Health/Hum Dev",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc101",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:907729",
+          "course_id": "ANSC:101",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Economou, Melina Anna"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "08:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R43",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "8:00a-10:50a",
+              "raw_location": "RCLAS R43"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R43",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R43"
+            }
+          ],
+          "enrolled": 10,
+          "capacity": 10,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "101",
+            "raw_section_identifier": "907729",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:109",
+      "subject": "ANSC",
+      "course_number": "109",
+      "title": "Capitalism and the State",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc109",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873172",
+          "course_id": "ANSC:109",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "109",
+            "raw_section_identifier": "873172",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:121",
+      "subject": "ANSC",
+      "course_number": "121",
+      "title": "Psychological Anthropology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc121",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873173",
+          "course_id": "ANSC:121",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Sloane, Julia Kathryn"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R01",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R01"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RCLAS",
+              "room": "R01",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RCLAS R01"
+            }
+          ],
+          "enrolled": 26,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "121",
+            "raw_section_identifier": "873173",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:124",
+      "subject": "ANSC",
+      "course_number": "124",
+      "title": "Cultural Anthropology",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc124",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873175",
+          "course_id": "ANSC:124",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Kanth, Mir Fatimah"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "14:00",
+              "end_time": "16:50",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "2:00p-4:50p",
+              "raw_location": "RCLAS R02"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "15:00",
+              "end_time": "17:59",
+              "building": "RCLAS",
+              "room": "R02",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "3:00p-5:59p",
+              "raw_location": "RCLAS R02"
+            }
+          ],
+          "enrolled": 6,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "124",
+            "raw_section_identifier": "873175",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:125",
+      "subject": "ANSC",
+      "course_number": "125",
+      "title": "Gender, Sexuality, & Society",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc125",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873176",
+          "course_id": "ANSC:125",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Brenner, Suzanne A"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "09:30",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R03",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MTuWTh",
+              "raw_time": "9:30a-10:50a",
+              "raw_location": "RCLAS R03"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "08:00",
+              "end_time": "10:59",
+              "building": "RCLAS",
+              "room": "R101",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "8:00a-10:59a",
+              "raw_location": "RCLAS R101"
+            }
+          ],
+          "enrolled": 0,
+          "capacity": 0,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "125",
+            "raw_section_identifier": "873176",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:148",
+      "subject": "ANSC",
+      "course_number": "148",
+      "title": "Global Health&Cultrl Diversity",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc148",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:906064",
+          "course_id": "ANSC:148",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Varma, Saiba"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Monday",
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "18:00",
+              "end_time": "20:50",
+              "building": "RCLAS",
+              "room": "R21",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "MW",
+              "raw_time": "6:00p-8:50p",
+              "raw_location": "RCLAS R21"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "date": "2025-08-01",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R21",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R21"
+            }
+          ],
+          "enrolled": 21,
+          "capacity": 25,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "148",
+            "raw_section_identifier": "906064",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:165",
+      "subject": "ANSC",
+      "course_number": "165",
+      "title": "Contemporary South Asia",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc165",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873177",
+          "course_id": "ANSC:165",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Cancelled"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": "Cancelled",
+              "room": "Cancelled",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "Cancelled",
+              "raw_time": "Cancelled",
+              "raw_location": "Cancelled"
+            }
+          ],
+          "enrolled": null,
+          "capacity": null,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "165",
+            "raw_section_identifier": "873177",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:166",
+      "subject": "ANSC",
+      "course_number": "166",
+      "title": "Film and Culture in Asia",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc166",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873178",
+          "course_id": "ANSC:166",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Hallingstad O'Brien, Dylan James"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "date": null,
+              "start_time": "18:00",
+              "end_time": "20:50",
+              "building": "RCLAS",
+              "room": "R01",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "6:00p-8:50p",
+              "raw_location": "RCLAS R01"
+            },
+            {
+              "days": [
+                "Saturday"
+              ],
+              "date": "2025-08-02",
+              "start_time": "19:00",
+              "end_time": "21:59",
+              "building": "RCLAS",
+              "room": "R01",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "S",
+              "raw_time": "7:00p-9:59p",
+              "raw_location": "RCLAS R01"
+            }
+          ],
+          "enrolled": 37,
+          "capacity": 100,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "166",
+            "raw_section_identifier": "873178",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    },
+    {
+      "course_id": "ANSC:190GS",
+      "subject": "ANSC",
+      "course_number": "190GS",
+      "title": "Medicine&Healing in South Asia",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/ANTH.html#ansc190gs",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S125:873179",
+          "course_id": "ANSC:190GS",
+          "section_code": "A00",
+          "meeting_type": "Seminar",
+          "instructors": [
+            "Lewis, Leslie R"
+          ],
+          "meetings": [
+            {
+              "days": [],
+              "date": null,
+              "start_time": null,
+              "end_time": null,
+              "building": null,
+              "room": null,
+              "is_tba": true,
+              "meeting_type": "Seminar",
+              "raw_days": "TBA",
+              "raw_time": "TBA",
+              "raw_location": "TBA"
+            }
+          ],
+          "enrolled": 14,
+          "capacity": 22,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-10T11:00:04.062Z",
+            "raw_term": "S125",
+            "raw_subject": "ANSC",
+            "raw_course_number": "190GS",
+            "raw_section_identifier": "873179",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "SE"
+          }
+        }
+      ]
+    }
+  ]
+}

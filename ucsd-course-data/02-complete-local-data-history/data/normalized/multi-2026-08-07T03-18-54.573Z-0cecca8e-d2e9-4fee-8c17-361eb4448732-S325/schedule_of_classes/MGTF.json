@@ -1,0 +1,108 @@
+{
+  "subject": "MGTF",
+  "term": "S325",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-08-07T03:18:54.573Z",
+  "source_timestamp": "11/04/2025, 03:07:00",
+  "courses": [
+    {
+      "course_id": "MGTF:490",
+      "subject": "MGTF",
+      "course_number": "490",
+      "title": "Capstone: Applied Finance Proj",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/MGT.html#mgtf490",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S325:907756",
+          "course_id": "MGTF:490",
+          "section_code": "A00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Girand, Christopher C",
+            "Padernacht, Susan B"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "09:00",
+              "end_time": "12:00",
+              "building": "WFH",
+              "room": "4N128",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "9:00a-12:00p",
+              "raw_location": "WFH 4N128"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 98,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S325",
+            "raw_subject": "MGTF",
+            "raw_course_number": "490",
+            "raw_section_identifier": "907756",
+            "raw_section_code": "A00",
+            "raw_meeting_type": "LE"
+          }
+        },
+        {
+          "section_id": "S325:907757",
+          "course_id": "MGTF:490",
+          "section_code": "B00",
+          "meeting_type": "Lecture",
+          "instructors": [
+            "Melvin, Michael T.",
+            "Padernacht, Susan B"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Wednesday"
+              ],
+              "date": null,
+              "start_time": "13:00",
+              "end_time": "16:00",
+              "building": "WFH",
+              "room": "4N128",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "W",
+              "raw_time": "1:00p-4:00p",
+              "raw_location": "WFH 4N128"
+            }
+          ],
+          "enrolled": 35,
+          "capacity": 98,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-08-07T03:18:54.573Z",
+            "raw_term": "S325",
+            "raw_subject": "MGTF",
+            "raw_course_number": "490",
+            "raw_section_identifier": "907757",
+            "raw_section_code": "B00",
+            "raw_meeting_type": "LE"
+          }
+        }
+      ]
+    }
+  ]
+}

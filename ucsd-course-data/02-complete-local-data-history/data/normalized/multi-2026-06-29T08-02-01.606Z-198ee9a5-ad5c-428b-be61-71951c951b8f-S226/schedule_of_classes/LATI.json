@@ -1,0 +1,164 @@
+{
+  "subject": "LATI",
+  "term": "S226",
+  "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+  "fetched_at": "2026-06-29T08:02:01.606Z",
+  "source_timestamp": "06/28/2026, 02:05:00",
+  "courses": [
+    {
+      "course_id": "LATI:50",
+      "subject": "LATI",
+      "course_number": "50",
+      "title": "Introduction to Latin America",
+      "units": "4",
+      "description": null,
+      "prerequisites_text": null,
+      "restrictions_text": null,
+      "catalog_url": "http://www.ucsd.edu/catalog/courses/LATI.html#lati50",
+      "archive_avg_gpa": null,
+      "archive_record_count": 0,
+      "grade_archive_records": [],
+      "ge_matches": [],
+      "sections": [
+        {
+          "section_id": "S226:273122",
+          "course_id": "LATI:50",
+          "section_code": "A01",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Martin-Cabrera, Luis"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R13",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R13"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "14:00",
+              "end_time": "14:50",
+              "building": "RCLAS",
+              "room": "R08",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "2:00p-2:50p",
+              "raw_location": "RCLAS R08"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R06"
+            }
+          ],
+          "enrolled": 9,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S226",
+            "raw_subject": "LATI",
+            "raw_course_number": "50",
+            "raw_section_identifier": "273122",
+            "raw_section_code": "A01",
+            "raw_meeting_type": "DI"
+          }
+        },
+        {
+          "section_id": "S226:273123",
+          "course_id": "LATI:50",
+          "section_code": "A02",
+          "meeting_type": "Discussion",
+          "instructors": [
+            "Martin-Cabrera, Luis"
+          ],
+          "meetings": [
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "11:00",
+              "end_time": "13:50",
+              "building": "RCLAS",
+              "room": "R13",
+              "is_tba": false,
+              "meeting_type": "Lecture",
+              "raw_days": "TuTh",
+              "raw_time": "11:00a-1:50p",
+              "raw_location": "RCLAS R13"
+            },
+            {
+              "days": [
+                "Tuesday",
+                "Thursday"
+              ],
+              "start_time": "10:00",
+              "end_time": "10:50",
+              "building": "RCLAS",
+              "room": "R12",
+              "is_tba": false,
+              "meeting_type": "Discussion",
+              "raw_days": "TuTh",
+              "raw_time": "10:00a-10:50a",
+              "raw_location": "RCLAS R12"
+            },
+            {
+              "days": [
+                "Friday"
+              ],
+              "start_time": "11:30",
+              "end_time": "14:29",
+              "building": "RCLAS",
+              "room": "R06",
+              "is_tba": false,
+              "meeting_type": "Final",
+              "raw_days": "F",
+              "raw_time": "11:30a-2:29p",
+              "raw_location": "RCLAS R06"
+            }
+          ],
+          "enrolled": 12,
+          "capacity": 30,
+          "waitlist_count": 0,
+          "raw": {
+            "source": "ucsd_schedule_of_classes",
+            "source_url": "https://act.ucsd.edu/scheduleOfClasses/scheduleOfClassesStudentResult.htm",
+            "fetched_at": "2026-06-29T08:02:01.606Z",
+            "raw_term": "S226",
+            "raw_subject": "LATI",
+            "raw_course_number": "50",
+            "raw_section_identifier": "273123",
+            "raw_section_code": "A02",
+            "raw_meeting_type": "DI"
+          }
+        }
+      ]
+    }
+  ]
+}
