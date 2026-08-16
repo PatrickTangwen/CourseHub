@@ -1,22 +1,22 @@
-# Prometheus 配置文件 — EchoMind 智能客服系统
+# Prometheus 配置文件 — CourseHub 课程问答系统
 
 global:
   scrape_interval: 15s
   evaluation_interval: 15s
   external_labels:
-    cluster: 'echomind'
+    cluster: 'coursehub'
     environment: 'production'
 
 rule_files:
   - "alerts/*.yml"
 
 scrape_configs:
-  # EchoMind 主应用指标
-  - job_name: 'echomind-app'
+  # CourseHub 主应用指标
+  - job_name: 'coursehub-app'
     static_configs:
-      - targets: ['echomind:8000']
+      - targets: ['coursehub:8000']
         labels:
-          service: 'echomind'
+          service: 'coursehub'
     scrape_interval: 10s
     metrics_path: '/metrics'
 

@@ -1,6 +1,6 @@
 # CourseHub Skills 文档
 
-CourseHub 启动时会从 `ECHOMIND_SKILLS_DIR` 读取 Skills，并在匹配用户请求时注入到对应 Agent 的 system prompt。Skills 适合维护回答规范、答案安全约束、转介规则和禁止事项。
+CourseHub 启动时会从 `COURSEHUB_SKILLS_DIR` 读取 Skills，并在匹配用户请求时注入到对应 Agent 的 system prompt。Skills 适合维护回答规范、答案安全约束、转介规则和禁止事项。
 
 当前内置三类 Skills：
 

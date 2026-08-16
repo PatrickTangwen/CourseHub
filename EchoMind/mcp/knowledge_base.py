@@ -13,9 +13,11 @@ ChromaDB 在这里的角色：
 """
 import asyncio
 import hashlib
+import json
 import logging
+import pathlib
 import re
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Union
 
 import chromadb
 
@@ -73,7 +75,12 @@ class KnowledgeBase:
 
     # ── 文档管理 ──────────────────────────────────────────────────────────────
 
-    def add_documents(self, documents: List[Dict[str, Any]]) -> int:
+    def add_documents(
+        self,
+        documents: List[Dict[str, Any]],
+        *,
+        dataset: str = "user",
+    ) -> int:
         """
         批量导入文档到知识库。
 
@@ -88,12 +95,21 @@ class KnowledgeBase:
             content = doc.get("content", "")
             extra   = doc.get("metadata") or {}
             chunks  = self._chunk_text(content, chunk_size=500)
+            document_id = str(extra.get("document_id") or hashlib.sha256(
+                f"{dataset}\0{title}\0{content}".encode("utf-8")
+            ).hexdigest())
 
             for i, chunk in enumerate(chunks):
-                doc_id = hashlib.md5(f"{title}_{i}_{chunk[:50]}".encode()).hexdigest()
+                doc_id = hashlib.sha256(f"{dataset}\0{document_id}\0{i}".encode("utf-8")).hexdigest()
                 ids.append(doc_id)
                 docs.append(chunk)
-                meta = {"title": title, "chunk_index": i, "total_chunks": len(chunks)}
+                meta = {
+                    "title": title,
+                    "chunk_index": i,
+                    "total_chunks": len(chunks),
+                    "dataset": dataset,
+                    "document_id": document_id,
+                }
                 meta.update({
                     k: v for k, v in extra.items()
                     if isinstance(v, (str, int, float, bool))
@@ -101,8 +117,16 @@ class KnowledgeBase:
                 metas.append(meta)
 
         if ids:
-            # ChromaDB 会自动生成 Embedding
-            self._collection.add(ids=ids, documents=docs, metadatas=metas)
+            # ChromaDB 会自动生成 Embedding。固定小批量避免超过不同后端的
+            # max_batch_size（完整课程库约 8k 片段）。
+            batch_size = 500
+            for start in range(0, len(ids), batch_size):
+                end = start + batch_size
+                self._collection.upsert(
+                    ids=ids[start:end],
+                    documents=docs[start:end],
+                    metadatas=metas[start:end],
+                )
             logger.info(f"知识库导入 {len(ids)} 个文档片段")
 
         return len(ids)
@@ -110,6 +134,90 @@ class KnowledgeBase:
     async def add_documents_async(self, documents: List[Dict[str, str]]) -> int:
         """异步导入文档；ChromaDB 客户端为同步实现，因此放入线程池执行。"""
         return await asyncio.to_thread(self.add_documents, documents)
+
+    def ensure_course_documents(
+        self,
+        docs_path: Union[str, pathlib.Path],
+        *,
+        force: bool = False,
+    ) -> int:
+        """Idempotently load the generated catalog documents into ChromaDB."""
+        docs_path = pathlib.Path(docs_path)
+        documents = json.loads(docs_path.read_text(encoding="utf-8"))
+        if not isinstance(documents, list) or not documents:
+            raise ValueError(f"课程知识文档为空或格式错误: {docs_path}")
+
+        prepared = []
+        expected_keys = set()
+        for doc in documents:
+            metadata = dict(doc.get("metadata") or {})
+            subject = str(metadata.get("subject", "")).upper()
+            course_number = str(metadata.get("course_number", "")).upper()
+            if not subject or not course_number:
+                raise ValueError(f"课程知识文档缺少 subject/course_number: {doc.get('title', '')}")
+            document_id = f"course:{subject}:{course_number}"
+            metadata["document_id"] = document_id
+            expected_keys.add(document_id)
+            prepared.append({**doc, "metadata": metadata})
+
+        current = self._collection.get(include=["metadatas"])
+        current_ids = current.get("ids") or []
+        current_metas = current.get("metadatas") or []
+        catalog_keys = {
+            meta.get("document_id")
+            for meta in current_metas
+            if meta and meta.get("dataset") == "coursehub_catalog"
+        }
+        if not force and catalog_keys == expected_keys:
+            return 0
+
+        stale_ids = [
+            item_id
+            for item_id, meta in zip(current_ids, current_metas)
+            if meta and (
+                meta.get("dataset") == "coursehub_catalog"
+                or (
+                    not meta.get("dataset")
+                    and meta.get("subject")
+                    and meta.get("course_number")
+                )
+            )
+        ]
+        if stale_ids:
+            self._collection.delete(ids=stale_ids)
+        return self.add_documents(prepared, dataset="coursehub_catalog")
+
+    async def ensure_course_documents_async(
+        self,
+        docs_path: Union[str, pathlib.Path],
+        *,
+        force: bool = False,
+    ) -> int:
+        """Async wrapper for startup course-document loading."""
+        return await asyncio.to_thread(self.ensure_course_documents, docs_path, force=force)
+
+    def stats(self) -> Dict[str, int]:
+        """Return chunk, logical-document, and catalog-document counts."""
+        result = self._collection.get(include=["metadatas"])
+        metadatas = [meta or {} for meta in result.get("metadatas") or []]
+        document_ids = {
+            str(meta.get("document_id") or meta.get("title") or f"chunk:{index}")
+            for index, meta in enumerate(metadatas)
+        }
+        course_documents = {
+            str(meta.get("document_id"))
+            for meta in metadatas
+            if meta.get("dataset") == "coursehub_catalog" and meta.get("document_id")
+        }
+        return {
+            "total_chunks": self._collection.count(),
+            "total_documents": len(document_ids),
+            "course_documents": len(course_documents),
+        }
+
+    async def stats_async(self) -> Dict[str, int]:
+        """Async wrapper for knowledge-base statistics."""
+        return await asyncio.to_thread(self.stats)
 
     def search(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
         """
@@ -290,5 +398,5 @@ class KnowledgeBase:
                 ),
             },
         ]
-        self.add_documents(default_docs)
+        self.add_documents(default_docs, dataset="coursehub_meta")
         logger.info(f"已导入默认知识库: {len(default_docs)} 篇文档")

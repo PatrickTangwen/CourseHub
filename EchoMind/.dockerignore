@@ -17,8 +17,7 @@ logs/
 .env.*
 !.env.example
 
-data/chroma/
-data/**/*.sqlite3
+data/
 data/.DS_Store
 
 config/grafana/

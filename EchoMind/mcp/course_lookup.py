@@ -9,16 +9,16 @@ Tool 数据类在 register_course_lookup 内部延迟导入 —— 调用方传�
 tool_manager 实例本身已加载了 mcp.tool_manager，不会引入新依赖。
 """
 import logging
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
-from coursedata.normalize import normalize_term
+from coursedata.normalize import ACTIVE_PLANNING_TERM, normalize_term
 from coursedata.query import CourseIndex
 
 logger = logging.getLogger(__name__)
 
 FALLBACK_MESSAGE = "课程数据索引暂不可用，请稍后重试 / Course index temporarily unavailable."
 
-_ACTIONS = ("course", "sections", "instructor", "grades", "search")
+_ACTIONS = ("course", "sections", "instructor", "instructor_grades", "grades", "search")
 
 _SCHEMA: Dict[str, Any] = {
     "type": "object",
@@ -26,7 +26,10 @@ _SCHEMA: Dict[str, Any] = {
         "action": {
             "type": "string",
             "enum": list(_ACTIONS),
-            "description": "course=课程+sections | sections=仅sections | instructor=按教授查 | grades=成绩历史 | search=按条件筛课",
+            "description": (
+                "course=课程+sections | sections=仅sections | instructor=按教授查开课 | "
+                "instructor_grades=按教授查成绩 | grades=按课程查成绩历史 | search=按条件筛课"
+            ),
         },
         "course_code": {"type": "string", "description": "课程代码，如 CSE 100 / cse100"},
         "term": {"type": "string", "description": "学期代码或自然语言，如 FA26 / Fall 2026 / 2026 秋"},
@@ -36,6 +39,61 @@ _SCHEMA: Dict[str, Any] = {
     },
     "required": ["action"],
 }
+
+
+def plan_course_lookup_calls(
+    intent: Any,
+    entities: Optional[Dict[str, List[str]]],
+) -> Tuple[List[Dict[str, Any]], bool]:
+    """把意图与实体转换为结构化查询计划，供 /chat 与评测共用。"""
+    entities = entities or {}
+    codes = list(entities.get("course_code") or [])[:2]
+    instructors = list(entities.get("instructor") or [])[:4]
+    subjects = list(entities.get("subject") or [])
+    units_list = list(entities.get("units") or [])
+    terms = list(entities.get("term") or [])
+    term = terms[0] if terms else ACTIVE_PLANNING_TERM
+    term_defaulted = not terms
+    intent_value = getattr(intent, "value", intent)
+
+    calls: List[Dict[str, Any]] = [
+        {"action": "course", "course_code": code, "term": term}
+        for code in codes
+    ]
+    if intent_value == "grades_history":
+        calls.extend({"action": "grades", "course_code": code} for code in codes)
+
+    if instructors:
+        course_filter = codes[0] if len(codes) == 1 else None
+        for instructor in instructors:
+            section_call: Dict[str, Any] = {
+                "action": "instructor",
+                "instructor": instructor,
+                "term": term,
+            }
+            if course_filter:
+                section_call["course_code"] = course_filter
+            calls.append(section_call)
+            if intent_value == "professor_choice":
+                grade_call: Dict[str, Any] = {
+                    "action": "instructor_grades",
+                    "instructor": instructor,
+                }
+                if course_filter:
+                    grade_call["course_code"] = course_filter
+                calls.append(grade_call)
+    elif intent_value == "professor_choice":
+        calls.extend({"action": "grades", "course_code": code} for code in codes)
+
+    if intent_value == "course_search" and not codes and (subjects or units_list):
+        params: Dict[str, Any] = {"action": "search", "term": term}
+        if subjects:
+            params["subject"] = subjects[0]
+        if units_list and str(units_list[0]).isdigit():
+            params["units"] = int(units_list[0])
+        calls.append(params)
+
+    return calls, term_defaulted
 
 
 def _require(params: Dict[str, Any], field: str, action: str) -> Any:
@@ -69,7 +127,17 @@ def register_course_lookup(tool_manager, index_path) -> None:
                 results = index.sections_for(code, term=term)
             elif action == "instructor":
                 name = _require(params, "instructor", action)
-                results = index.instructor_courses(name, term=term)
+                results = index.instructor_courses(
+                    name,
+                    term=term,
+                    course_code=params.get("course_code"),
+                )
+            elif action == "instructor_grades":
+                name = _require(params, "instructor", action)
+                results = index.instructor_grade_history(
+                    name,
+                    course_code=params.get("course_code"),
+                )
             elif action == "grades":
                 code = _require(params, "course_code", action)
                 results = index.grade_history(code)

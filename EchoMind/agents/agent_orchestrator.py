@@ -18,6 +18,7 @@
 import asyncio
 import json
 import logging
+import re
 import time
 import uuid
 from dataclasses import dataclass, field
@@ -38,7 +39,6 @@ class AgentType(Enum):
     GENERAL   = "general"    # 接待/澄清/元信息
     COURSE    = "course"     # 课程事实
     PLANNING  = "planning"   # 选课规划建议
-    ESCALATION = "escalation" # 转介官方渠道（占位）
 
 
 @dataclass
@@ -362,10 +362,7 @@ class AgentOrchestrator:
         if self._needs_clarification(req):
             return OrchestratorResult(
                 request_id=req.request_id,
-                response=(
-                    "我还不能确定您想了解哪类信息。请补充一下是课程内容、上课时间/名额、"
-                    "成绩历史，还是选课规划建议？(You can also ask me in English.)"
-                ),
+                response=self._clarification_message(req.message),
                 agent_type=AgentType.GENERAL,
                 intent=req.intent,
                 escalated=False,
@@ -376,7 +373,7 @@ class AgentOrchestrator:
                 routing_confidence=req.intent_confidence,
             )
 
-        # 复杂问题自动并行协作，例如同一句同时涉及登录故障和扣款/退款。
+        # 复杂问题自动并行协作，例如同一句同时涉及课程事实与选课规划。
         decision = self._route_decision(req)
         if decision.multi_agent:
             return await self.run_parallel(req, decision)
@@ -456,14 +453,14 @@ class AgentOrchestrator:
         """
         if req.urgency == UrgencyLevel.CRITICAL:
             return RoutingDecision(
-                primary_agent=AgentType.ESCALATION,
+                primary_agent=AgentType.GENERAL,
                 reason="紧急度为 CRITICAL，触发升级路由",
                 confidence=1.0,
             )
 
         if req.intent in (IntentCategory.ESCALATION, IntentCategory.ADVISOR_REFERRAL):
             return RoutingDecision(
-                primary_agent=AgentType.ESCALATION,
+                primary_agent=AgentType.GENERAL,
                 reason=f"意图为 {req.intent.value if req.intent else 'unknown'}，触发转介路由",
                 confidence=max(req.intent_confidence, 0.8),
             )
@@ -561,6 +558,18 @@ class AgentOrchestrator:
         if len(text) <= 2:
             return False
         return req.intent_confidence < 0.5
+
+    @staticmethod
+    def _clarification_message(message: str) -> str:
+        if re.search(r"[\u3400-\u9fff]", message or ""):
+            return (
+                "我还不能确定您想了解哪类信息。请补充一下是课程内容、上课时间/名额、"
+                "成绩历史，还是选课规划建议？"
+            )
+        return (
+            "I’m not yet sure what you’d like to know. Could you clarify whether you mean "
+            "course content, schedule or seats, grade history, or course planning?"
+        )
 
     def _best_agent(self, agent_type: AgentType) -> Optional[BaseAgent]:
         """

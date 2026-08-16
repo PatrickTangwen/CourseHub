@@ -27,6 +27,7 @@ PathLike = Union[str, pathlib.Path]
 
 NO_DESCRIPTION_PLACEHOLDER = "官方目录无课程描述 / No official catalog description."
 MAX_DOC_CHARS = 1800
+COURSE_INDEX_SCHEMA_VERSION = 2
 
 # ── meeting_type 归一化 ───────────────────────────────────────────────────────
 
@@ -139,20 +140,24 @@ CREATE TABLE sections (
 );
 
 CREATE TABLE grade_records (
-    term          TEXT NOT NULL,
-    subject       TEXT NOT NULL,
-    course_number TEXT NOT NULL,
-    year          TEXT,
-    quarter       TEXT,
-    instructor    TEXT,
-    gpa           REAL,
+    term                 TEXT NOT NULL,
+    target_subject       TEXT NOT NULL,
+    target_course_number TEXT NOT NULL,
+    subject              TEXT NOT NULL,
+    course_number        TEXT NOT NULL,
+    year                 TEXT,
+    quarter              TEXT,
+    instructor           TEXT,
+    gpa                  REAL,
     a REAL, b REAL, c REAL, d REAL, f REAL, w REAL, p REAL, np REAL,
-    title         TEXT
+    title                TEXT,
+    matched_via          TEXT
 );
 
 CREATE INDEX idx_courses_code   ON courses (subject, course_number);
 CREATE INDEX idx_sections_course ON sections (term, course_id);
-CREATE INDEX idx_grades_code    ON grade_records (subject, course_number);
+CREATE INDEX idx_grades_code    ON grade_records (target_subject, target_course_number);
+PRAGMA user_version = 2;
 """
 
 
@@ -228,9 +233,11 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
 
                 for rec in course.get("grade_archive_records") or []:
                     conn.execute(
-                        "INSERT INTO grade_records VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                        "INSERT INTO grade_records VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (
                             term,
+                            course["subject"],
+                            course["course_number"],
                             rec.get("subject") or course["subject"],
                             rec.get("course") or course["course_number"],
                             rec.get("year"),
@@ -240,6 +247,7 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
                             rec.get("a"), rec.get("b"), rec.get("c"), rec.get("d"),
                             rec.get("f"), rec.get("w"), rec.get("p"), rec.get("np"),
                             rec.get("title"),
+                            rec.get("matched_via"),
                         ),
                     )
                     counts["grade_records"] += 1

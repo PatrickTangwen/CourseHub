@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# EchoMind 镜像运行脚本
+# CourseHub 镜像运行脚本
 # 提供多种运行配置选项
 
 set -e
 
 # 配置
-IMAGE_NAME="echomind"
-CONTAINER_NAME="echomind-app"
+IMAGE_NAME="coursehub"
+CONTAINER_NAME="coursehub-app"
 VERSION=${VERSION:-latest}
 REGISTRY=""  # 如果镜像在私有仓库，设置为 registry.example.com/
 
@@ -40,7 +40,7 @@ print_error() {
 
 show_help() {
     cat << EOF
-EchoMind Docker 镜像运行工具
+CourseHub Docker 镜像运行工具
 
 用法: ./run-image.sh [命令] [选项]
 
@@ -150,7 +150,8 @@ run_container() {
     # 基础配置
     local image_tag="${REGISTRY}${IMAGE_NAME}:${VERSION}"
     local default_ports="-p ${API_PORT}:8000 -p ${PROMETHEUS_PORT}:9090"
-    local default_volumes="-v ${DATA_DIR}:/app/data -v ${LOGS_DIR}:/app/logs -v ${CONFIG_DIR}:/app/config"
+    local default_volumes="-v ${DATA_DIR}:/app/data -v ${LOGS_DIR}:/app/logs -v ${CONFIG_DIR}:/app/config -v $(pwd)/../ucsd-course-data/01-current-published-data/api/static/catalogs/public:/app/course-data:ro"
+    local course_data_env="-e COURSEHUB_SNAPSHOTS_DIR=/app/course-data"
 
     # 根据模式调整配置
     case $mode in
@@ -183,7 +184,7 @@ run_container() {
     run_cmd="$run_cmd --restart $restart_policy"
     run_cmd="$run_cmd $default_ports $custom_ports"
     run_cmd="$run_cmd $default_volumes $custom_volumes"
-    run_cmd="$run_cmd $env_file"
+    run_cmd="$run_cmd $env_file $course_data_env"
     run_cmd="$run_cmd $image_tag"
 
     print_info "启动容器: $container_name"

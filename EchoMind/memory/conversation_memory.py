@@ -265,8 +265,11 @@ class MemoryManager:
             if not summary:
                 # 推理型模型可能只输出 thinking 块；空摘要落库会静默丢失 15 轮上下文
                 raise RuntimeError("LLM 返回空摘要")
-        except Exception:
-            summary = f"对话包含 {len(to_compress)} 条消息（摘要生成失败）"
+        except Exception as ex:
+            # 压缩服务不可用时，宁可保存较长的抽取式摘要，也不能用一条计数信息
+            # 替换并删除原始对话。后续压缩成功时仍可把这段原文压成短摘要。
+            logger.warning(f"对话摘要生成失败，保留原始对话: {ex}")
+            summary = f"[摘要服务暂不可用，保留的原始对话]\n{text}"
 
         # 存摘要到 Redis
         skey = self._summary_key(user_id, conv_id)

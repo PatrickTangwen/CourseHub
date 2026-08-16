@@ -52,6 +52,7 @@ _tool_manager = None
 _monitor      = None
 _evaluator    = None
 _skill_manager = None
+_knowledge_base = None
 
 def _anthropic_cfg() -> Dict[str, Any]:
     key = os.getenv("ANTHROPIC_API_KEY", "")
@@ -69,12 +70,13 @@ def _anthropic_cfg() -> Dict[str, Any]:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    global _orchestrator, _memory, _tool_manager, _monitor, _evaluator, _skill_manager
+    global _orchestrator, _memory, _tool_manager, _monitor, _evaluator, _skill_manager, _knowledge_base
 
     print(BANNER, flush=True)
 
     from agents.agent_orchestrator import AgentOrchestrator, Request
     from core.intent_recognizer import IntentRecognizer
+    from coursedata.bootstrap import ensure_course_data_artifacts
     from evaluation.evaluator import EndToEndEvaluator
     from mcp.knowledge_base import KnowledgeBase
     from mcp.tool_manager import MCPToolManager, Tool
@@ -85,6 +87,39 @@ async def lifespan(app: FastAPI):
     cfg = _anthropic_cfg()
     logger.info(f"模型: {cfg['model']}  base_url: {cfg.get('base_url', '(官方)')}")
 
+    # Runtime artifacts are derived from the checked-in snapshots. A clean clone
+    # therefore reaches the same Course Index/knowledge state as a warm deployment.
+    course_data_dir = pathlib.Path(os.getenv(
+        "COURSEHUB_DATA_DIR",
+        str(pathlib.Path(_ROOT) / "data" / "coursehub"),
+    ))
+    snapshots_dir = pathlib.Path(os.getenv(
+        "COURSEHUB_SNAPSHOTS_DIR",
+        str(
+            pathlib.Path(_ROOT).parent
+            / "ucsd-course-data" / "01-current-published-data"
+            / "api" / "static" / "catalogs" / "public"
+        ),
+    ))
+    if not course_data_dir.is_absolute():
+        course_data_dir = pathlib.Path(_ROOT) / course_data_dir
+    if not snapshots_dir.is_absolute():
+        snapshots_dir = pathlib.Path(_ROOT) / snapshots_dir
+    bootstrap_result = await asyncio.to_thread(
+        ensure_course_data_artifacts,
+        snapshots_dir,
+        course_data_dir,
+    )
+    course_index_path = pathlib.Path(bootstrap_result["index_path"])
+    course_docs_path = pathlib.Path(bootstrap_result["docs_path"])
+    os.environ["COURSEHUB_DICTIONARIES_PATH"] = bootstrap_result["dictionaries_path"]
+    logger.info(
+        "课程数据已就绪: snapshots=%s rebuilt=%s index=%s",
+        bootstrap_result["snapshots"],
+        bootstrap_result["rebuilt"],
+        course_index_path,
+    )
+
     # 意图识别器（Orchestrator 内部也会创建，这里单独暴露给 Evaluator）
     recognizer = IntentRecognizer(
         api_key=cfg["api_key"],
@@ -93,10 +128,10 @@ async def lifespan(app: FastAPI):
     )
 
     # Skills：启动时从目录加载业务能力说明，并在 Agent 调用 LLM 时动态注入。
-    skills_dir = os.getenv("ECHOMIND_SKILLS_DIR", str(pathlib.Path(_ROOT) / "skills"))
+    skills_dir = os.getenv("COURSEHUB_SKILLS_DIR", str(pathlib.Path(_ROOT) / "skills"))
     _skill_manager = SkillManager(
         root_dir=skills_dir,
-        max_prompt_chars=int(os.getenv("ECHOMIND_SKILLS_MAX_PROMPT_CHARS", "5000")),
+        max_prompt_chars=int(os.getenv("COURSEHUB_SKILLS_MAX_PROMPT_CHARS", "5000")),
     )
     _skill_manager.load()
 
@@ -130,7 +165,13 @@ async def lifespan(app: FastAPI):
         chroma_port=int(os.getenv("CHROMA_PORT", "8000")),
         chroma_path=os.getenv("CHROMA_PERSIST_DIRECTORY", "/app/data/chroma"),
     )
-    logger.info(f"知识库已加载: {await kb.doc_count_async()} 个文档片段")
+    _knowledge_base = kb
+    imported_chunks = await kb.ensure_course_documents_async(
+        course_docs_path,
+        force=bool(bootstrap_result["rebuilt"]),
+    )
+    knowledge_stats = await kb.stats_async()
+    logger.info("知识库已加载: %s; 本次导入 %s 个课程片段", knowledge_stats, imported_chunks)
 
     def knowledge_fallback(params: Dict[str, Any], context: Optional[Dict[str, Any]], error: str):
         query = params.get("query", "")
@@ -159,16 +200,10 @@ async def lifespan(app: FastAPI):
         fallback=knowledge_fallback,
     ))
 
-    # course_lookup：Course Index 结构化查询工具（索引文件存在时才注册）
-    course_index_path = pathlib.Path(os.getenv("COURSEHUB_INDEX_PATH", "data/coursehub/course_index.sqlite"))
-    if not course_index_path.is_absolute():
-        course_index_path = pathlib.Path(_ROOT) / course_index_path
-    if course_index_path.exists():
-        from mcp.course_lookup import register_course_lookup
-        register_course_lookup(_tool_manager, course_index_path)
-    else:
-        logger.warning(f"未找到课程索引 {course_index_path}，跳过 course_lookup 注册"
-                       "（先运行 tools/build_course_data.py）")
+    # Course Index is a required runtime dependency; bootstrap above fails startup
+    # rather than allowing a superficially healthy service without course_lookup.
+    from mcp.course_lookup import register_course_lookup
+    register_course_lookup(_tool_manager, course_index_path)
 
     # 性能监控（可选启动 Prometheus）
     prom_port = int(os.getenv("PROMETHEUS_PORT", "0")) or None
@@ -250,9 +285,12 @@ class ChatResponse(BaseModel):
 # ── 路由 ──────────────────────────────────────────────────────────────────────
 @app.get("/health")
 async def health():
-    if _orchestrator is None:
+    if _orchestrator is None or _tool_manager is None or _knowledge_base is None:
         raise HTTPException(503, "服务未就绪")
-    return {"status": "ok", "agents": _orchestrator.get_stats()}
+    stats = await _knowledge_base.stats_async()
+    if "course_lookup" not in _tool_manager.get_stats() or stats["course_documents"] == 0:
+        raise HTTPException(503, "课程数据未就绪")
+    return {"status": "ok", "agents": _orchestrator.get_stats(), "knowledge": stats}
 
 
 @app.get("/skills", tags=["Skills"])
@@ -406,30 +444,9 @@ async def _build_course_lookup_context(intent=None, entities=None) -> str:
     """
     if _tool_manager is None or not entities:
         return ""
-    codes = list(entities.get("course_code") or [])[:2]
-    instructors = list(entities.get("instructor") or [])[:1]
-    subjects = list(entities.get("subject") or [])
-    units_list = list(entities.get("units") or [])
-    terms = list(entities.get("term") or [])
-    # 未指明学期时默认最新规划学期，避免拉全部 15 学期（实测可达 400KB）
-    term = terms[0] if terms else ACTIVE_PLANNING_TERM
-    term_defaulted = not terms
-    intent_value = getattr(intent, "value", intent)
+    from mcp.course_lookup import plan_course_lookup_calls
 
-    calls: List[Dict[str, Any]] = []
-    for code in codes:
-        calls.append({"action": "course", "course_code": code, "term": term})
-        if intent_value in ("grades_history", "professor_choice"):
-            calls.append({"action": "grades", "course_code": code})
-    if not codes and instructors:
-        calls.append({"action": "instructor", "instructor": instructors[0], "term": term})
-    if intent_value == "course_search" and not codes and (subjects or units_list):
-        params: Dict[str, Any] = {"action": "search", "term": term}
-        if subjects:
-            params["subject"] = subjects[0]
-        if units_list and str(units_list[0]).isdigit():
-            params["units"] = int(units_list[0])  # schema 声明 number
-        calls.append(params)
+    calls, term_defaulted = plan_course_lookup_calls(intent, entities)
     if not calls:
         return ""
 
@@ -584,16 +601,15 @@ async def add_knowledge(body: BatchDocInput):
     ```json
     {
       "documents": [
-        {"title": "退款政策", "content": "用户在购买后 7 天内可以申请无理由退款..."},
-        {"title": "配送说明", "content": "标准配送 3-5 个工作日..."}
+        {"title": "CSE 100 学习建议", "content": "建议先掌握数据结构与算法分析..."},
+        {"title": "选课准备", "content": "选课前请核对先修课、时间冲突和学分负担..."}
       ]
     }
     ```
     """
-    tool = _tool_manager._tools.get("knowledge_search") if _tool_manager else None
-    if tool is None:
+    if _knowledge_base is None:
         raise HTTPException(503, "知识库未初始化")
-    kb = tool.handler.__self__
+    kb = _knowledge_base
     count = await kb.add_documents_async([
         {"title": d.title, "content": d.content, "metadata": d.metadata or {}}
         for d in body.documents
@@ -613,10 +629,9 @@ async def upload_knowledge(file: UploadFile = File(...)):
 
     文件大小限制：10MB
     """
-    tool = _tool_manager._tools.get("knowledge_search") if _tool_manager else None
-    if tool is None:
+    if _knowledge_base is None:
         raise HTTPException(503, "知识库未初始化")
-    kb = tool.handler.__self__
+    kb = _knowledge_base
 
     content = await file.read()
     if len(content) > 10 * 1024 * 1024:
@@ -649,12 +664,10 @@ async def upload_knowledge(file: UploadFile = File(...)):
 
 @app.get("/knowledge/stats", tags=["知识库"])
 async def knowledge_stats():
-    """查看知识库统计信息（文档片段总数）。"""
-    tool = _tool_manager._tools.get("knowledge_search") if _tool_manager else None
-    if tool is None:
+    """查看知识库的片段、逻辑文档和课程文档统计。"""
+    if _knowledge_base is None:
         raise HTTPException(503, "知识库未初始化")
-    kb = tool.handler.__self__
-    return {"total_chunks": await kb.doc_count_async()}
+    return await _knowledge_base.stats_async()
 
 
 @app.post("/eval/run")
@@ -719,8 +732,8 @@ async def _cli():
 
     cfg = _anthropic_cfg()
     skill_manager = SkillManager(
-        root_dir=os.getenv("ECHOMIND_SKILLS_DIR", str(pathlib.Path(_ROOT) / "skills")),
-        max_prompt_chars=int(os.getenv("ECHOMIND_SKILLS_MAX_PROMPT_CHARS", "5000")),
+        root_dir=os.getenv("COURSEHUB_SKILLS_DIR", str(pathlib.Path(_ROOT) / "skills")),
+        max_prompt_chars=int(os.getenv("COURSEHUB_SKILLS_MAX_PROMPT_CHARS", "5000")),
     )
     skill_manager.load()
     orch = AgentOrchestrator(

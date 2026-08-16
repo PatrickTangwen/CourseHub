@@ -129,7 +129,12 @@ class CourseIndex:
         sections.sort(key=lambda s: term_sort_key(s["term"]), reverse=True)
         return sections
 
-    def instructor_courses(self, instructor_substring: str, term: Optional[str] = None) -> List[Dict[str, Any]]:
+    def instructor_courses(
+        self,
+        instructor_substring: str,
+        term: Optional[str] = None,
+        course_code: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
         """按教授名（大小写不敏感子串）查开课 section。
 
         返回 section 记录 + 课程信息（course_code / title / units），
@@ -137,6 +142,9 @@ class CourseIndex:
         """
         needle = (instructor_substring or "").strip().lower()
         if not needle:
+            return []
+        course_key = self._split_code(course_code) if course_code else None
+        if course_code and course_key is None:
             return []
         sql = (
             "SELECT s.*, c.subject AS subject, c.course_number AS course_number, "
@@ -149,6 +157,9 @@ class CourseIndex:
         if term:
             sql += " AND s.term = ?"
             params.append(term)
+        if course_key:
+            sql += " AND c.subject = ? AND c.course_number = ?"
+            params.extend(course_key)
         rows = self._conn.execute(sql, params).fetchall()
         hits = []
         for row in rows:
@@ -158,6 +169,28 @@ class CourseIndex:
         hits.sort(key=lambda h: (h["subject"], h["course_number"], h.get("section_code") or ""))
         hits.sort(key=lambda h: term_sort_key(h["term"]), reverse=True)
         return hits
+
+    def instructor_grade_history(
+        self,
+        instructor_substring: str,
+        course_code: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """按教授名查 Grade Archive Records，可选限定目标 Course ID。"""
+        needle = (instructor_substring or "").strip().lower()
+        if not needle:
+            return []
+        course_key = self._split_code(course_code) if course_code else None
+        if course_code and course_key is None:
+            return []
+
+        sql = "SELECT * FROM grade_records WHERE instr(lower(instructor), ?) > 0"
+        params: List[Any] = [needle]
+        if course_key:
+            sql += " AND target_subject = ? AND target_course_number = ?"
+            params.extend(course_key)
+        records = [dict(row) for row in self._conn.execute(sql, params).fetchall()]
+        records.sort(key=_grade_sort_key, reverse=True)
+        return records
 
     def grade_history(self, course_code: str) -> List[Dict[str, Any]]:
         """成绩档案记录（教授 × 学期粒度），按 年份/季度 降序。
@@ -169,7 +202,7 @@ class CourseIndex:
             return []
         subject, number = key
         rows = self._conn.execute(
-            "SELECT * FROM grade_records WHERE subject = ? AND course_number = ?",
+            "SELECT * FROM grade_records WHERE target_subject = ? AND target_course_number = ?",
             (subject, number),
         ).fetchall()
         records = [dict(r) for r in rows]

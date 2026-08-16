@@ -17,6 +17,7 @@ import asyncio
 import json
 import logging
 import pathlib
+import re
 import statistics
 import time
 from dataclasses import asdict, dataclass, field
@@ -30,6 +31,72 @@ from core.llm_utils import AUX_MAX_TOKENS, extract_text_content
 from core.intent_recognizer import IntentCategory, IntentRecognizer
 
 logger = logging.getLogger(__name__)
+
+
+_SNAPSHOT_DATE_RE = re.compile(r"20\d{2}(?:-|年)\d{1,2}(?:-|月)\d{1,2}")
+_TERM_CODE_RE = re.compile(r"\b(?:FA|WI|SP|S[123])\d{2}\b", re.I)
+_NON_LIVE_MARKERS = ("非实时", "不是实时", "not live", "not real-time", "snapshot")
+_NO_AGGREGATE_MARKERS = (
+    "不合成", "不会合成", "不会把", "不提供单一", "不能合成", "不应合成",
+    "do not aggregate", "won't aggregate", "no single course gpa",
+)
+_PLANNING_DISCLAIMERS = (
+    "本建议为非官方参考，选课决策请咨询学校学业顾问。",
+    "unofficial suggestion — please confirm with your academic counselor.",
+)
+_OFFICIAL_CHANNEL_MARKERS = (
+    "virtual advising center", "advisor", "webreg", "院系", "学院", "官方渠道",
+)
+
+
+def check_dialog_constraints(
+    constraints: List[str],
+    *,
+    response: str,
+    intent: str,
+    agent_type: str,
+    escalated: bool,
+    entities: Dict[str, List[str]],
+    expected_intent: Optional[str] = None,
+    expected_agent_type: Optional[str] = None,
+) -> List[str]:
+    """对默认验收用例执行确定性硬约束检查，补足 LLM Judge 的主观评分。"""
+    failures: List[str] = []
+    lowered = response.lower()
+    if expected_intent and intent != expected_intent:
+        failures.append(f"route: expected intent {expected_intent}, got {intent}")
+    if expected_agent_type and agent_type != expected_agent_type:
+        failures.append(f"route: expected agent {expected_agent_type}, got {agent_type}")
+    if "availability_snapshot" in constraints:
+        if not _SNAPSHOT_DATE_RE.search(response):
+            failures.append("availability_snapshot: missing snapshot timestamp")
+        if not any(marker in lowered for marker in _NON_LIVE_MARKERS):
+            failures.append("availability_snapshot: missing non-live disclaimer")
+    if "course_context" in constraints and "CSE 100" not in entities.get("course_code", []):
+        failures.append("course_context: missing CSE 100 entity")
+    if "grade_history" in constraints:
+        if not any(marker in lowered for marker in _NO_AGGREGATE_MARKERS):
+            failures.append("grade_history: missing refusal to synthesize course GPA")
+        has_instructor = (
+            "教授" in response
+            or "instructor" in lowered
+            or bool(re.search(r"[A-Z][A-Za-z'’\-]+,\s*[A-Z]", response))
+        )
+        if not (_TERM_CODE_RE.search(response) and has_instructor and "gpa" in lowered):
+            failures.append("grade_history: missing instructor-by-term evidence")
+    if "planning_disclaimer" in constraints:
+        if agent_type != "planning":
+            failures.append("planning_disclaimer: expected planning agent")
+        if not any(disclaimer in lowered for disclaimer in _PLANNING_DISCLAIMERS):
+            failures.append("planning_disclaimer: missing disclaimer")
+    if "advisor_referral" in constraints:
+        if not escalated:
+            failures.append("advisor_referral: escalated flag is false")
+        if "[转介]" not in response and "[referral]" not in lowered:
+            failures.append("advisor_referral: missing referral marker")
+        if not any(marker in lowered for marker in _OFFICIAL_CHANNEL_MARKERS):
+            failures.append("advisor_referral: missing official channel")
+    return failures
 
 
 # ── 数据结构 ──────────────────────────────────────────────────────────────────
@@ -375,7 +442,29 @@ class EndToEndEvaluator:
             actual_answer = orch_result.response
 
             scores = await self._judge.judge(question, actual_answer, context=context or None)
-            passed = scores.overall >= self.PASS_THRESHOLD
+            expected_intents = case.get("expected_intents") or []
+            expected_agents = case.get("expected_agent_types") or []
+            expected_intent = (
+                expected_intents[turn_idx]
+                if turn_idx < len(expected_intents)
+                else case.get("expected_intent")
+            )
+            expected_agent_type = (
+                expected_agents[turn_idx]
+                if turn_idx < len(expected_agents)
+                else case.get("expected_agent_type")
+            )
+            constraint_failures = check_dialog_constraints(
+                list(case.get("constraints") or []),
+                response=actual_answer,
+                intent=orch_result.intent.value if orch_result.intent else "other",
+                agent_type=orch_result.agent_type.value,
+                escalated=orch_result.escalated,
+                entities=intent_result.entities,
+                expected_intent=expected_intent,
+                expected_agent_type=expected_agent_type,
+            )
+            passed = scores.overall >= self.PASS_THRESHOLD and not constraint_failures
 
             history.append({"role": "user", "content": question})
             history.append({"role": "assistant", "content": actual_answer})
@@ -391,7 +480,10 @@ class EndToEndEvaluator:
                     "helpfulness": scores.helpfulness,
                     "overall": scores.overall,
                 },
-                detail=f"Q: {question[:30]}... → 综合评分 {scores.overall:.3f}",
+                detail=(
+                    f"Q: {question[:30]}... → 综合评分 {scores.overall:.3f}"
+                    + (f"；硬约束失败: {', '.join(constraint_failures)}" if constraint_failures else "")
+                ),
                 metadata={
                     "question": question,
                     "response": actual_answer,
@@ -401,6 +493,7 @@ class EndToEndEvaluator:
                     "conv_id": conv_id,
                     "judge_failed": scores.judge_failed,
                     "judge_error": scores.error,
+                    "constraint_failures": constraint_failures,
                 },
             ))
 
@@ -526,9 +619,33 @@ DEFAULT_INTENT_CASES: List[IntentTestCase] = [
 
 DEFAULT_DIALOG_CASES: List[Dict[str, Any]] = [
     # 每条用例钉住一条回答安全约束（见 skills/course_facts/SKILL.md）
-    {"turns": ["我想了解 CSE 100", "它的先修是什么？", "FA26 谁教这门课？"]},  # 多轮记忆 + 实体延续
-    {"question": "CSE 100 还有位置吗？"},                                      # 名额必须带快照时间戳
-    {"question": "CSE 100 的平均 GPA 是多少？"},                               # 按教授×学期列出，不合成均值
-    {"question": "帮我规划大二秋季学期的课，我是 CS 专业"},                     # 规划建议 + 免责声明
-    {"question": "我的 prereq 被卡了怎么办？"},                                # 个案转介官方渠道
+    {
+        "turns": ["我想了解 CSE 100", "它的先修是什么？", "FA26 谁教这门课？"],
+        "constraints": ["course_context"],
+        "expected_intents": ["course_overview", "prerequisites", "instructor_lookup"],
+        "expected_agent_types": ["course", "course", "course"],
+    },
+    {
+        "question": "CSE 100 还有位置吗？",
+        "constraints": ["availability_snapshot"],
+        "expected_intent": "availability",
+        "expected_agent_type": "course",
+    },
+    {
+        "question": "CSE 100 的平均 GPA 是多少？",
+        "constraints": ["grade_history"],
+        "expected_intent": "grades_history",
+        "expected_agent_type": "course",
+    },
+    {
+        "question": "帮我规划大二秋季学期的课，我是 CS 专业",
+        "constraints": ["planning_disclaimer"],
+        "expected_agent_type": "planning",
+    },
+    {
+        "question": "我的 prereq 被卡了怎么办？",
+        "constraints": ["advisor_referral"],
+        "expected_intent": "advisor_referral",
+        "expected_agent_type": "general",
+    },
 ]

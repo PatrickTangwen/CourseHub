@@ -215,6 +215,20 @@ def test_instructor_courses(index):
     # 学期过滤
     assert index.instructor_courses("karna", term="FA26") == []
 
+    # 教授比较可以限定到同一门课程，避免混入该教授的其他开课。
+    assert len(index.instructor_courses("cao", term="FA26", course_code="CSE 100")) == 1
+    assert index.instructor_courses("cao", term="FA26", course_code="ECE 111") == []
+
+
+def test_instructor_grade_history_can_be_scoped_to_course(index):
+    rows = index.instructor_grade_history("sahoo", course_code="CSE 100")
+
+    assert rows
+    assert all(row["target_subject"] == "CSE" for row in rows)
+    assert all(row["target_course_number"] == "100" for row in rows)
+    assert all("sahoo" in row["instructor"].lower() for row in rows)
+    assert index.instructor_grade_history("sahoo", course_code="ECE 111") == []
+
 
 def test_grade_history_exact_values(index):
     rows = index.grade_history("CSE 100")
@@ -238,6 +252,59 @@ def test_grade_history_exact_values(index):
 
     assert len(index.grade_history("ECE 111")) == 22
     assert index.grade_history("MGT 453") == []
+
+
+def test_grade_history_preserves_cross_listed_target_and_source(tmp_path):
+    """Inherited Past Grades remain queryable from the target Course ID."""
+    snapshot = {
+        "generated_at": "2026-08-13T00:00:00Z",
+        "term_label": "Fall 2026",
+        "term_date_range": {"start": "2026-09-24", "end": "2026-12-12"},
+        "courses": [
+            {
+                "course_id": "GLBH:129",
+                "subject": "GLBH",
+                "course_number": "129",
+                "grade_archive_records": [{
+                    "subject": "GLBH",
+                    "course": "129",
+                    "year": "21",
+                    "quarter": "WI",
+                    "instructor": "Csordas, Thomas J.",
+                    "gpa": 3.95,
+                }],
+            },
+            {
+                "course_id": "ANSC:129",
+                "subject": "ANSC",
+                "course_number": "129",
+                "grade_archive_records": [{
+                    "subject": "GLBH",
+                    "course": "129",
+                    "year": "21",
+                    "quarter": "WI",
+                    "instructor": "Csordas, Thomas J.",
+                    "gpa": 3.95,
+                    "matched_via": "cross_listed",
+                }],
+            },
+        ],
+    }
+    snapshot_path = tmp_path / "FA26-cross-listed.json"
+    snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
+    db_path = tmp_path / "course_index.sqlite"
+    build_index([snapshot_path], db_path)
+
+    with CourseIndex(db_path) as cross_listed_index:
+        target_rows = cross_listed_index.grade_history("ANSC 129")
+        source_rows = cross_listed_index.grade_history("GLBH 129")
+
+    assert len(target_rows) == 1
+    assert target_rows[0]["subject"] == "GLBH"
+    assert target_rows[0]["course_number"] == "129"
+    assert target_rows[0]["matched_via"] == "cross_listed"
+    assert len(source_rows) == 1
+    assert source_rows[0]["matched_via"] is None
 
 
 def test_search_courses(index):

@@ -2,7 +2,7 @@
 
 本文档说明 CourseHub 的部署、启动、API 调用、知识库使用、ChromaDB 数据查看、监控评测和常见排障。
 
-CourseHub 是一个回答 UCSD 课程问题的双语多 Agent 问答助手（由 EchoMind 客服后端换皮而来，主链路不变；容器/镜像等基础设施名暂仍为 echomind-*），核心链路为：
+CourseHub 是一个回答 UCSD 课程问题的双语多 Agent 问答助手，核心链路为：
 
 ```text
 用户请求
@@ -22,7 +22,7 @@ CourseHub 是一个回答 UCSD 课程问题的双语多 Agent 问答助手（由
 ## 1. 项目结构
 
 ```text
-EchoMind/
+EchoMind/  # 仓库中的后端目录名
 ├── api/main.py                    # FastAPI 入口，/chat /search /knowledge /monitor /eval
 ├── core/intent_recognizer.py      # 三路融合意图识别
 ├── agents/agent_orchestrator.py   # 多 Agent 路由编排
@@ -75,17 +75,19 @@ ANTHROPIC_API_KEY=your_deepseek_key
 Docker Compose 场景下，Redis 和 ChromaDB 的连接由 `docker-compose.yml` 覆盖为容器内地址。通常不需要手动改：
 
 ```env
-REDIS_PASSWORD=echomind123
+REDIS_PASSWORD=coursehub123
 CHROMA_HOST=localhost
 CHROMA_PORT=8001
 ```
 
-课程数据文件路径可以通过环境变量覆盖，默认指向 `data/coursehub/`：
+课程快照和派生产物路径可以通过环境变量覆盖：
 
 ```env
-COURSEHUB_INDEX_PATH=data/coursehub/course_index.sqlite
-COURSEHUB_DICTIONARIES_PATH=data/coursehub/dictionaries.json
+COURSEHUB_DATA_DIR=./data/coursehub
+COURSEHUB_SNAPSHOTS_DIR=../ucsd-course-data/01-current-published-data/api/static/catalogs/public
 ```
+
+启动时会校验 SQLite schema、快照新鲜度以及 Knowledge Docs/词典是否齐全；缺失或过期时自动从快照重建。
 
 ### 2.3 全栈部署和 run 开发模式的区别
 
@@ -93,10 +95,10 @@ CourseHub 常用两种 Docker 启动方式：`docker compose up` 全栈部署，
 
 | 对比项 | Docker Compose 全栈部署 | Docker run 开发模式 |
 |--------|--------------------------|----------------------|
-| 启动命令 | `docker compose up -d --build` | `docker run ... echomind ...` |
+| 启动命令 | `docker compose up -d --build` | `docker run ... coursehub ...` |
 | 启动内容 | CourseHub 应用、Redis、ChromaDB、Prometheus、Nginx | 只启动你指定的单个容器 |
 | Redis/ChromaDB | 自动启动并加入同一网络 | 必须先执行 `docker compose up -d redis chromadb` |
-| 容器网络 | Compose 自动创建并管理 | 需要手动指定 `--network echomind_echomind-network` |
+| 容器网络 | Compose 自动创建并管理 | 需要手动指定 `--network coursehub-network` |
 | 服务名解析 | 应用可直接访问 `redis`、`chromadb` | 只有加入同一网络后才可访问 `redis`、`chromadb` |
 | 代码更新 | 通常需要 rebuild 或重启服务 | 挂载 `-v "$(pwd):/workspace"` 后，代码修改可直接生效，重启容器即可 |
 | 适合场景 | 演示、联调、完整部署、HTTP API 服务 | 本地开发、调试 CLI、临时覆盖环境变量 |
@@ -106,7 +108,7 @@ CourseHub 常用两种 Docker 启动方式：`docker compose up` 全栈部署，
 
 - 想完整体验 HTTP API、Swagger、Nginx、Prometheus：用 **Docker Compose 全栈部署**。
 - 想调试源码或 CLI，并且希望本地改代码后快速重跑：用 **Docker run 开发模式**。
-- 如果只是跑 CLI，最省心的方式是 `docker compose run --rm echomind python api/main.py --cli`，它会自动使用 Compose 网络。
+- 如果只是跑 CLI，最省心的方式是 `docker compose run --rm coursehub python api/main.py --cli`，它会自动使用 Compose 网络。
 
 ## 3. Docker Compose 全栈部署
 
@@ -125,7 +127,7 @@ docker compose ps
 查看应用日志：
 
 ```bash
-docker compose logs -f echomind
+docker compose logs -f coursehub
 ```
 
 看到 CourseHub 启动日志并且健康检查通过后，服务可用。
@@ -134,13 +136,13 @@ docker compose logs -f echomind
 
 | 服务 | 容器名 | 宿主机端口 | 容器内端口 | 用途 |
 |------|--------|------------|------------|------|
-| CourseHub API | `echomind-app` | `8000` | `8000` | 主 API 服务 |
-| Nginx | `echomind-nginx` | `80` | `80` | 反向代理 |
-| ChromaDB | `echomind-chromadb` | `8001` | `8000` | 向量数据库 |
-| Redis | `echomind-redis` | `6379` | `6379` | 工作记忆 |
-| Prometheus | `echomind-prometheus` | `9090` | `9090` | 监控数据 |
+| CourseHub API | `coursehub-app` | `8000` | `8000` | 主 API 服务 |
+| Nginx | `coursehub-nginx` | `80` | `80` | 反向代理 |
+| ChromaDB | `coursehub-chromadb` | `8001` | `8000` | 向量数据库 |
+| Redis | `coursehub-redis` | `6379` | `6379` | 工作记忆 |
+| Prometheus | `coursehub-prometheus` | `9090` | `9090` | 监控数据 |
 
-API 的宿主机端口由 `.env` 中的 `ECHOMIND_HOST_PORT` 控制（`.env.example` 默认 8000，当前仓库 `.env` 设为 8003）。本文示例统一按 8000 书写，端口不同时请自行替换。
+API 的宿主机端口由 `.env` 中的 `COURSEHUB_HOST_PORT` 控制（`.env.example` 默认 8000）。本文示例统一按 8000 书写，端口不同时请自行替换。
 
 健康检查：
 
@@ -173,41 +175,45 @@ docker compose up -d redis chromadb
 构建镜像：
 
 ```bash
-docker compose build --no-cache echomind
+docker compose build --no-cache coursehub
 ```
 
 启动 HTTP 服务：
 
 ```bash
 docker run -it --rm \
-  --network echomind_echomind-network \
+  --network coursehub-network \
   -p 8000:8000 \
   -e ANTHROPIC_BASE_URL="https://api.deepseek.com/anthropic" \
   -e ANTHROPIC_API_KEY="your_key" \
   -e ANTHROPIC_MODEL="deepseek-v4-pro" \
-  -e REDIS_URL="redis://:echomind123@redis:6379/0" \
+  -e REDIS_URL="redis://:coursehub123@redis:6379/0" \
   -e CHROMA_HOST="chromadb" \
   -e CHROMA_PORT="8000" \
   -e CHROMA_PERSIST_DIRECTORY="/workspace/data/chroma" \
+  -e COURSEHUB_SNAPSHOTS_DIR="/course-data" \
+  -v "$(pwd)/../ucsd-course-data/01-current-published-data/api/static/catalogs/public:/course-data:ro" \
   -v "$(pwd):/workspace" \
   -w /workspace \
-  echomind
+  coursehub
 ```
 
 CLI 交互模式：
 
 ```bash
 docker run -it --rm \
-  --network echomind_echomind-network \
+  --network coursehub-network \
   -e ANTHROPIC_BASE_URL="https://api.deepseek.com/anthropic" \
   -e ANTHROPIC_API_KEY="your_key" \
   -e ANTHROPIC_MODEL="deepseek-v4-pro" \
-  -e REDIS_URL="redis://:echomind123@redis:6379/0" \
+  -e REDIS_URL="redis://:coursehub123@redis:6379/0" \
   -e CHROMA_HOST="chromadb" \
   -e CHROMA_PORT="8000" \
+  -e COURSEHUB_SNAPSHOTS_DIR="/course-data" \
+  -v "$(pwd)/../ucsd-course-data/01-current-published-data/api/static/catalogs/public:/course-data:ro" \
   -v "$(pwd):/workspace" \
   -w /workspace \
-  echomind \
+  coursehub \
   python api/main.py --cli
 ```
 
@@ -253,7 +259,7 @@ http://localhost/docs
 | `POST` | `/skills/reload` | 无 | 运行时重新扫描 Skill 目录 | 修改回答规范后热加载 |
 | `POST` | `/knowledge/add` | JSON Body | 批量导入文档到 ChromaDB 知识库 | 程序化导入文档 |
 | `POST` | `/knowledge/upload` | Form File | 上传 `.txt`、`.md`、`.json` 文件导入知识库 | 手动上传知识库文件 |
-| `GET` | `/knowledge/stats` | 无 | 查看知识库文档片段总数 | 确认知识库是否有数据 |
+| `GET` | `/knowledge/stats` | 无 | 查看总片段、总文档和课程文档数 | 确认课程知识库是否就绪 |
 | `POST` | `/eval/run` | 无 | 运行内置意图识别和端到端对话评测 | 演示 LLM-as-Judge 评测 |
 | `GET` | `/docs` | 浏览器访问 | Swagger UI | 浏览和调试所有接口 |
 
@@ -264,8 +270,8 @@ CourseHub 支持从目录加载 Skills，用来把回答规范、回答安全约
 默认配置：
 
 ```env
-ECHOMIND_SKILLS_DIR=./skills
-ECHOMIND_SKILLS_MAX_PROMPT_CHARS=5000
+COURSEHUB_SKILLS_DIR=./skills
+COURSEHUB_SKILLS_MAX_PROMPT_CHARS=5000
 ```
 
 当前内置三类 Skills：
@@ -605,21 +611,16 @@ CourseHub 的知识库由 `mcp/knowledge_base.py` 管理，底层使用 ChromaDB
 knowledge_base
 ```
 
-首次启动时，如果知识库为空，会自动导入 6 篇 CourseHub 元文档（数据来源与覆盖、名额数据使用规则、成绩历史数据的读法、能力边界、学期代码说明、提问技巧），保证空库启动时 `meta_info` 类问题有据可答。
+首次启动时会自动导入 6 篇 CourseHub 元文档（数据来源与覆盖、名额数据使用规则、成绩历史数据的读法、能力边界、学期代码说明、提问技巧），保证 `meta_info` 类问题有据可答。
 
-课程正文数据通过两步数据管线导入：
+课程正文数据会在服务启动时自动构建并幂等导入，不需要手工运行数据管线。也可以离线强制重建派生产物：
 
 ```bash
-# 第一步：从 ucsd-course-data 快照构建课程数据
 # 产出 data/coursehub/{course_index.sqlite, knowledge_docs.json, dictionaries.json}
 python tools/build_course_data.py
-
-# 第二步：服务启动后，通过 /knowledge/add 批量灌入 Knowledge Docs
-# --api 的端口与 .env 中的 ECHOMIND_HOST_PORT 保持一致
-python tools/ingest_knowledge_docs.py --api http://localhost:8003
 ```
 
-Knowledge Doc 的粒度是每门唯一课程（subject + number）一篇，共 5,968 篇（切块后 8,722 个片段）。
+Knowledge Doc 的粒度是每门唯一课程（subject + number）一篇，共 5,968 篇；当前 chunker 生成 8,362 个课程片段，加上 6 篇元文档后共 8,368 个片段。
 
 检索采用混合方案（ADR-0001）：ChromaDB 语义检索负责课程描述类内容；精确数字（名额、时间、GPA）由 `course_lookup` 工具查询 SQLite Course Index，实体命中 `course_code` 或 `instructor` 时与语义检索并行触发，两路结果一起拼进上下文。精确数字只来自 Course Index，绝不靠生成。
 
@@ -633,11 +634,13 @@ curl http://localhost:8000/knowledge/stats
 
 ```json
 {
-  "total_chunks": 8722
+  "total_chunks": 8368,
+  "total_documents": 5974,
+  "course_documents": 5968
 }
 ```
 
-只导入默认元文档时片段数为个位数；执行完两步数据管线后约为 8,722（对应 5,968 篇课程 Knowledge Doc）。
+`/health` 只有在 `course_lookup` 已注册且 `course_documents > 0` 时才返回 `status=ok`，因此不会把只有元文档的空课程库误报为健康。
 
 ### 7.2 批量导入文档
 
@@ -745,7 +748,7 @@ CourseHub 使用了三个 ChromaDB collection：
 Compose 中 ChromaDB 容器名是：
 
 ```text
-echomind-chromadb
+coursehub-chromadb
 ```
 
 宿主机访问端口是：
@@ -771,7 +774,7 @@ curl http://localhost:8001/api/v1/heartbeat
 容器内执行：
 
 ```bash
-docker exec -it echomind-chromadb curl http://localhost:8000/api/v1/heartbeat
+docker exec -it coursehub-chromadb curl http://localhost:8000/api/v1/heartbeat
 ```
 
 ### 9.2 查看所有 collection
@@ -787,7 +790,7 @@ curl http://localhost:8001/api/v1/collections
 进入应用容器：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 在容器里执行：
@@ -818,7 +821,7 @@ collections:
 ### 9.4 查看 `knowledge_base` 文档内容
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 执行：
@@ -842,7 +845,7 @@ PY
 ### 9.5 查询 `knowledge_base`
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 执行：
@@ -885,7 +888,7 @@ curl -X POST http://localhost:8000/chat \
 等待几秒后查看：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 ```bash
@@ -925,7 +928,7 @@ done
 查看情景记忆：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 ```bash
@@ -960,13 +963,13 @@ volumes:
 
 ```bash
 docker volume ls | grep chromadb
-docker volume inspect echomind_chromadb-data
+docker volume inspect coursehub_chromadb-data
 ```
 
 查看容器内数据目录：
 
 ```bash
-docker exec -it echomind-chromadb sh
+docker exec -it coursehub-chromadb sh
 ls -lah /chroma/chroma
 find /chroma/chroma -maxdepth 2 -type f | head
 ```
@@ -979,14 +982,14 @@ find /chroma/chroma -maxdepth 2 -type f | head
 
 ```bash
 docker compose down
-docker volume rm echomind_chromadb-data
+docker volume rm coursehub_chromadb-data
 docker compose up -d --build
 ```
 
 如果只想删除某个 collection，可以用 Python 客户端：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 ```bash
@@ -1006,13 +1009,13 @@ PY
 Redis 容器名：
 
 ```text
-echomind-redis
+coursehub-redis
 ```
 
 进入 Redis：
 
 ```bash
-docker exec -it echomind-redis redis-cli -a echomind123
+docker exec -it coursehub-redis redis-cli -a coursehub123
 ```
 
 查看 key：
@@ -1082,7 +1085,7 @@ conv_id = 5a076f2b-b607-4339-9e9f-f0399862d366
 进入 Redis：
 
 ```bash
-docker exec -it echomind-redis redis-cli -a echomind123
+docker exec -it coursehub-redis redis-cli -a coursehub123
 ```
 
 查询摘要：
@@ -1094,7 +1097,7 @@ GET summary:cli_user:5a076f2b-b607-4339-9e9f-f0399862d366
 一条命令快速查看：
 
 ```bash
-docker exec -it echomind-redis redis-cli -a echomind123 \
+docker exec -it coursehub-redis redis-cli -a coursehub123 \
   GET summary:cli_user:5a076f2b-b607-4339-9e9f-f0399862d366
 ```
 
@@ -1109,7 +1112,7 @@ LRANGE wm:cli_user:5a076f2b-b607-4339-9e9f-f0399862d366 0 -1
 一条命令快速查看：
 
 ```bash
-docker exec -it echomind-redis redis-cli -a echomind123 \
+docker exec -it coursehub-redis redis-cli -a coursehub123 \
   LRANGE wm:cli_user:5a076f2b-b607-4339-9e9f-f0399862d366 0 -1
 ```
 
@@ -1124,13 +1127,13 @@ docker exec -it echomind-redis redis-cli -a echomind123 \
 如果是全栈部署，应用容器名通常是：
 
 ```text
-echomind-app
+coursehub-app
 ```
 
 进入应用容器：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 如果你是用 `docker run --rm` 跑 CLI，容器名可能是随机的。先查看：
@@ -1185,7 +1188,7 @@ PY
 ### 11.4 如果只想看某个用户的所有情景记忆
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 ```
 
 ```bash
@@ -1326,7 +1329,7 @@ docker compose stop
 重启服务：
 
 ```bash
-docker compose restart echomind
+docker compose restart coursehub
 ```
 
 停止并删除容器，但保留数据卷：
@@ -1354,7 +1357,7 @@ docker compose up -d --build
 查看应用日志：
 
 ```bash
-docker compose logs -f echomind
+docker compose logs -f coursehub
 ```
 
 重点检查：
@@ -1377,7 +1380,7 @@ curl http://localhost:8001/api/v1/heartbeat
 应用容器内测试：
 
 ```bash
-docker exec -it echomind-app bash
+docker exec -it coursehub-app bash
 python - <<'PY'
 import chromadb
 client = chromadb.HttpClient(host="chromadb", port=8000)
@@ -1390,13 +1393,13 @@ PY
 确认 `.env` 和 `docker-compose.yml` 中使用的密码一致。默认密码是：
 
 ```text
-echomind123
+coursehub123
 ```
 
 测试连接：
 
 ```bash
-docker exec -it echomind-redis redis-cli -a echomind123 ping
+docker exec -it coursehub-redis redis-cli -a coursehub123 ping
 ```
 
 ### 15.4 `/search` 没有结果
@@ -1426,7 +1429,7 @@ curl -X POST "http://localhost:8000/search?query=数据结构课程&top_k=3"
 
 1. 先调用 `/chat`，使用固定 `user_id`
 2. 等待几秒
-3. 查看 `docker compose logs -f echomind` 是否出现 `用户画像已更新`
+3. 查看 `docker compose logs -f coursehub` 是否出现 `用户画像已更新`
 4. 使用第 8.6 节的 Python 脚本查询 `user_profile`
 
 ### 15.6 情景记忆查不到

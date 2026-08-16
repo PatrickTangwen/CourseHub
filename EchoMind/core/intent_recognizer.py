@@ -183,6 +183,11 @@ _INSTRUCTOR_PATTERNS = [
     re.compile(r"([A-Za-z'’\-]{2,20})\s*(?:教授|老师)"),
 ]
 _UNITS_RE = re.compile(r"(\d{1,2})\s*(?:个?\s*学分|units?|credits?)", re.I)
+_ENTITY_CONTEXT_HINTS = (
+    "它", "这门课", "那门课", "该课", "先修", "谁教", "教授", "名额", "位置",
+    "上课", "教室", "成绩", "gpa", "prereq", "teach", "instructor", "schedule",
+    "seat", "grade", "this course", "that course", "the course",
+)
 
 # ── 课程词典（由 tools/build_course_data.py 产出，缺失时降级为纯模式抽取）────
 _DICTIONARIES_ENV = "COURSEHUB_DICTIONARIES_PATH"
@@ -229,8 +234,9 @@ def _load_dictionaries() -> None:
         name = str(name)
         # "Butler, Elizabeth Annette" → Butler；"Libby Butler" → Butler
         last = name.split(",")[0].strip() if "," in name else name.strip().rsplit(" ", 1)[-1]
-        # 阈值 3：保住 Cao/Kim/Foo 这类真实短姓；2 字符姓（Ng/Wu/Li）误报率过高，仍排除
-        if len(last) >= 3 and last.lower() not in _NAME_STOPWORDS:
+        # 两字符姓氏（Ng/Wu/Li）也是真实教授；抽取阶段只在明确教授语境中接受，
+        # 避免把普通的两字符单词当成人名。
+        if len(last) >= 2 and last.lower() not in _NAME_STOPWORDS:
             lastnames.setdefault(last.lower(), last)
     _SUBJECT_CODES = subject_codes
     _INSTRUCTOR_LASTNAMES = lastnames
@@ -309,7 +315,7 @@ class IntentRecognizer:
             emb = {"intent": IntentCategory.OTHER, "confidence": 0.0}
 
         intent, confidence, source_scores = self._vote(llm, emb, pat)
-        entities = self._extract_entities(message)
+        entities = self.extract_entities(message, history=history)
         urgency  = self._urgency(message, intent)
 
         result = IntentResult(
@@ -520,6 +526,33 @@ class IntentRecognizer:
 
     # ── 实体提取 ──────────────────────────────────────────────────────────────
 
+    def extract_entities(
+        self,
+        message: str,
+        history: Optional[List[Dict[str, str]]] = None,
+    ) -> Dict[str, List[str]]:
+        """抽取本轮实体，并为明确的课程追问继承最近用户轮次的课程上下文。"""
+        entities = self._extract_entities(message)
+        lowered = self._clean_text(message).lower()
+        if not history or not any(hint in lowered for hint in _ENTITY_CONTEXT_HINTS):
+            return entities
+
+        # 当前轮明确写了课程号或独立科目时，不用旧课程覆盖新主题。
+        if entities["course_code"] or entities["subject"]:
+            return entities
+
+        for turn in reversed(history):
+            if str(turn.get("role", "")).lower() != "user":
+                continue
+            previous = self._extract_entities(turn.get("content", ""))
+            if previous["course_code"]:
+                entities["course_code"] = previous["course_code"]
+                entities["subject"] = previous["subject"]
+                if not entities["term"] and previous["term"]:
+                    entities["term"] = previous["term"]
+                break
+        return entities
+
     def _extract_entities(self, message: str) -> Dict[str, List[str]]:
         """用规则提取高价值实体，避免每次识别都额外调用 LLM。
 
@@ -564,13 +597,19 @@ class IntentRecognizer:
         names = []
         for pattern in _INSTRUCTOR_PATTERNS:
             names.extend(pattern.findall(message))
-        # 词典姓氏匹配：只认原文首字母大写的词，姓氏长度 ≥3，排除常见功能词
+        # 词典姓氏匹配：只认原文首字母大写的词，排除常见功能词。
+        # 两字符姓氏只在明确的教授/授课语境中启用，以兼顾 Li/Wu/Ng 与误报率。
         if _INSTRUCTOR_LASTNAMES:
-            for word in re.findall(r"\b[A-Z][A-Za-z'’\-]{2,}\b", message):
+            instructor_context = bool(re.search(
+                r"\b(?:professor|prof\.?|instructor|teach(?:es|ing)?)\b|教授|老师|谁教|授课",
+                message,
+                re.I,
+            ))
+            for word in re.findall(r"\b[A-Z][A-Za-z'’\-]+\b", message):
                 if word.lower() in _NAME_STOPWORDS:
                     continue
                 canonical = _INSTRUCTOR_LASTNAMES.get(word.lower())
-                if canonical:
+                if canonical and (len(word) >= 3 or instructor_context):
                     names.append(canonical)
         return self._unique(names)
 
@@ -637,12 +676,14 @@ class IntentRecognizer:
         return UrgencyLevel.LOW
 
     def _cache_key(self, message: str, history: Optional[List[Dict[str, str]]] = None) -> str:
-        payload = {"message": self._clean_text(message)[:200]}
+        # Hashing already bounds storage; truncating here makes distinct long prompts/history
+        # collide and can return a previous request's intent/entities.
+        payload = {"message": self._clean_text(message)}
         if history:
             payload["history"] = [
                 {
-                    "role": self._clean_text(item.get("role", ""))[:20],
-                    "content": self._clean_text(item.get("content", ""))[:160],
+                    "role": self._clean_text(item.get("role", "")),
+                    "content": self._clean_text(item.get("content", "")),
                 }
                 for item in history[-3:]
             ]
