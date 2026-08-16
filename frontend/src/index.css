@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Markdown answer styling (baseline; refined in the visual-polish ticket). */
+.aui-md {
+  line-height: 1.65;
+}
+
+.aui-md p + p,
+.aui-md ul,
+.aui-md ol {
+  margin-top: 0.6em;
+}
+
+.aui-md ul {
+  list-style: disc;
+  padding-left: 1.4em;
+}
+
+.aui-md ol {
+  list-style: decimal;
+  padding-left: 1.4em;
+}
+
+.aui-md a {
+  text-decoration: underline;
+}
+
+.aui-md table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.aui-md th,
+.aui-md td {
+  border: 1px solid rgb(228 228 231);
+  padding: 0.4em 0.7em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.aui-md code {
+  background: rgb(244 244 245);
+  padding: 0.15em 0.35em;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+.aui-md pre {
+  overflow-x: auto;
+  background: rgb(24 24 27);
+  color: rgb(250 250 250);
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  margin: 0.75em 0;
+}
+
+.aui-md pre code {
+  background: transparent;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .aui-md th,
+  .aui-md td {
+    border-color: rgb(63 63 70);
+  }
+
+  .aui-md code {
+    background: rgb(39 39 42);
+  }
+}

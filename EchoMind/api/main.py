@@ -23,6 +23,7 @@ import uvicorn
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Response, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 from pydantic import BaseModel, Field
 
@@ -312,19 +313,20 @@ async def reload_skills():
     return _skill_manager.summary()
 
 
-@app.post("/chat", response_model=ChatResponse)
-async def chat(req: ChatRequest):
+async def _run_chat_pipeline(req: ChatRequest, emit=None) -> ChatResponse:
     """
-    主对话接口。完整流程：
-      记忆读取 → 意图识别 → Agent 路由 → 执行 → 记忆写入
-    """
-    if _orchestrator is None or _memory is None:
-        raise HTTPException(503, "服务未就绪")
+    /chat 与 /chat/stream 共用的 pipeline 编排序列：
+      记忆读取 → 意图识别 → 知识检索 → Agent 执行 → 记忆写入
 
+    emit(event: str, payload: dict) 为可选异步回调，流式端点传入后在
+    关键节点之间发阶段事件（协议见 docs/specs/coursehub-frontend.md §3.1）。
+    """
     from agents.agent_orchestrator import Request as OrcReq
     from memory.conversation_memory import MsgRole
 
     conv_id = req.conv_id or str(uuid.uuid4())
+    if emit is not None:
+        await emit("run_started", {"conv_id": conv_id})
 
     # 1. 读取记忆上下文
     mem_ctx = await _memory.get_context(req.user_id, conv_id, query=req.message)
@@ -384,6 +386,59 @@ async def chat(req: ChatRequest):
         entities=intent_result.entities,
         intent_confidence=round(intent_result.confidence, 4),
         intent_source_scores=intent_result.source_scores,
+    )
+
+
+@app.post("/chat", response_model=ChatResponse)
+async def chat(req: ChatRequest):
+    """主对话接口（非流式）。保留为测试入口与流式建立失败时的回退。"""
+    if _orchestrator is None or _memory is None:
+        raise HTTPException(503, "服务未就绪")
+    return await _run_chat_pipeline(req)
+
+
+@app.post("/chat/stream")
+async def chat_stream(req: ChatRequest):
+    """
+    流式对话接口（SSE）。与 /chat 走同一编排序列，在阶段之间发事件；
+    最终 answer 事件与 /chat 响应同形，答案整段到达。
+    """
+    if _orchestrator is None or _memory is None:
+        raise HTTPException(503, "服务未就绪")
+
+    queue: asyncio.Queue = asyncio.Queue()
+
+    async def emit(event: str, payload: Dict[str, Any]) -> None:
+        await queue.put((event, payload))
+
+    async def _runner() -> None:
+        try:
+            resp = await _run_chat_pipeline(req, emit=emit)
+            await emit("answer", resp.model_dump())
+            await emit("done", {})
+        except Exception:
+            logger.exception("chat_stream pipeline 失败")
+            await emit("error", {"message": "The assistant hit an internal error. Please try again."})
+        finally:
+            await queue.put(None)
+
+    async def _sse():
+        runner = asyncio.create_task(_runner())
+        try:
+            while True:
+                item = await queue.get()
+                if item is None:
+                    break
+                event, payload = item
+                yield f"event: {event}\ndata: {json.dumps(payload, ensure_ascii=False)}\n\n"
+        finally:
+            if not runner.done():
+                runner.cancel()
+
+    return StreamingResponse(
+        _sse(),
+        media_type="text/event-stream",
+        headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
 
 
