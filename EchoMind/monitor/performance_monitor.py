@@ -45,6 +45,11 @@ class Alert:
     threshold:   float
     ts:          str = field(default_factory=lambda: datetime.now().isoformat())
     resolved:    bool = False
+    #: 采集每周期跑一次,持续超标的指标会反复触发。同一指标只保留一条活跃
+    #: 告警,重复触发累加这里而不是追加新条目——否则 summary 的窗口会被同一
+    #: 条刷满,把真正不同的告警挤出去。
+    count:       int = 1
+    last_ts:     str = field(default_factory=lambda: datetime.now().isoformat())
 
 
 @dataclass
@@ -256,19 +261,39 @@ class PerformanceMonitor:
         threshold, severity, operator = self.THRESHOLDS[metric]
         triggered = (operator == "less_than" and value < threshold) or \
                     (operator == "greater_than" and value > threshold)
-        if triggered:
-            alert = Alert(
-                severity=severity,
-                metric=f"{metric}:{label}",
-                message=f"{label} 的 {metric} = {value:.3f}，阈值 {threshold}",
-                value=value,
-                threshold=threshold,
-            )
-            self._alerts.append(alert)
-            logger.warning(f"[{severity.value.upper()}] {alert.message}")
-            # 异步发送 Webhook（不阻塞采集循环）
-            if self._webhook:
-                asyncio.create_task(self._send_webhook(alert))
+        key = f"{metric}:{label}"
+        existing = next(
+            (a for a in self._alerts if a.metric == key and not a.resolved), None
+        )
+
+        if not triggered:
+            # 指标回到阈值内:消解告警,不让它永久挂在面板上。
+            if existing:
+                existing.resolved = True
+            return
+
+        message = f"{label} 的 {metric} = {value:.3f}，阈值 {threshold}"
+        if existing:
+            # 同一指标持续超标:更新为最近一次的读数并累加次数,不追加新条目。
+            existing.value    = value
+            existing.message  = message
+            existing.severity = severity
+            existing.count   += 1
+            existing.last_ts  = datetime.now().isoformat()
+            return
+
+        alert = Alert(
+            severity=severity,
+            metric=key,
+            message=message,
+            value=value,
+            threshold=threshold,
+        )
+        self._alerts.append(alert)
+        logger.warning(f"[{severity.value.upper()}] {alert.message}")
+        # 异步发送 Webhook（不阻塞采集循环）；重复触发不重发，避免下游也被刷屏。
+        if self._webhook:
+            asyncio.create_task(self._send_webhook(alert))
 
     def _generate_routing_suggestions(self, agent_stats: Dict[str, Any]) -> None:
         """
@@ -309,7 +334,16 @@ class PerformanceMonitor:
         return {
             "agent_stats":   self._orchestrator.get_stats(),
             "tool_stats":    self._tool_manager.get_stats(),
-            "active_alerts": [asdict(a) for a in self._alerts if not a.resolved][-10:],
+            # 截断按"严重优先、其次最近"排序,而不是按插入顺序取尾部——
+            # 后者会让 error 被一串 warning 挤出窗口。
+            "active_alerts": [
+                asdict(a)
+                for a in sorted(
+                    (a for a in self._alerts if not a.resolved),
+                    key=lambda a: (a.severity is not Severity.ERROR, a.last_ts),
+                    reverse=False,
+                )
+            ][:10],
             "suggestions":   [
                 {"title": s.title, "action": s.action, "priority": s.priority}
                 for s in sorted(self._suggestions, key=lambda x: -x.priority)[:5]
