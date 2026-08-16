@@ -38,6 +38,6 @@ def test_bootstrap_builds_all_artifacts_and_rebuilds_stale_schema(tmp_path):
     assert repaired["rebuilt"] is True
     conn = sqlite3.connect(out_dir / "course_index.sqlite")
     try:
-        assert conn.execute("PRAGMA user_version").fetchone()[0] == 2
+        assert conn.execute("PRAGMA user_version").fetchone()[0] == 3
     finally:
         conn.close()

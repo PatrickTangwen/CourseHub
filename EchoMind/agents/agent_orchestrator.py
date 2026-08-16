@@ -408,7 +408,7 @@ class AgentOrchestrator:
     async def run_parallel(self, req: Request, decision: RoutingDecision) -> OrchestratorResult:
         """
         并行派发给多个 Agent，合并结果。
-        适用于复杂问题（如同时涉及技术和账单）。
+        适用于复杂问题（如同时涉及课程事实和选课规划）。
         """
         t0 = time.monotonic()
         agent_types = decision.agent_types
@@ -624,7 +624,7 @@ class AgentOrchestrator:
         """
         接收 Monitor 的在线表现反馈，动态调整路由惩罚项。
 
-        penalties 的 key 使用 get_stats() 中的 agent key，例如 technical_0。
+        penalties 的 key 使用 get_stats() 中的 agent key，例如 course_0。
         """
         for agent_type, agents in self._pool.items():
             for i, agent in enumerate(agents):

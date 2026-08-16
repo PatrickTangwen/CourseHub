@@ -39,6 +39,7 @@ EchoMind/  # 仓库中的后端目录名
 ├── docker-compose.yml             # Docker 全栈编排
 ├── Dockerfile
 ├── requirements.txt
+├── requirements-dev.txt           # 本地测试依赖（含 pytest）
 └── .env
 ```
 
@@ -49,6 +50,13 @@ EchoMind/  # 仓库中的后端目录名
 - Docker
 - Docker Compose
 - Anthropic API Key，或兼容 Anthropic 协议的第三方 API Key
+
+本地运行确定性测试时安装开发依赖：
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest tests -q
+```
 
 ### 2.2 配置 `.env`
 

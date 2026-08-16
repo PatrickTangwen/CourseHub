@@ -21,13 +21,14 @@ import re
 import sqlite3
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Union
 
+from coursedata.instructors import build_instructor_name_records
 from coursedata.normalize import term_sort_key
 
 PathLike = Union[str, pathlib.Path]
 
 NO_DESCRIPTION_PLACEHOLDER = "官方目录无课程描述 / No official catalog description."
 MAX_DOC_CHARS = 1800
-COURSE_INDEX_SCHEMA_VERSION = 2
+COURSE_INDEX_SCHEMA_VERSION = 3
 
 # ── meeting_type 归一化 ───────────────────────────────────────────────────────
 
@@ -95,6 +96,7 @@ DROP TABLE IF EXISTS terms;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS sections;
 DROP TABLE IF EXISTS grade_records;
+DROP TABLE IF EXISTS instructor_names;
 
 CREATE TABLE terms (
     term         TEXT PRIMARY KEY,
@@ -154,17 +156,26 @@ CREATE TABLE grade_records (
     matched_via          TEXT
 );
 
+CREATE TABLE instructor_names (
+    source_name    TEXT PRIMARY KEY,
+    source_key     TEXT NOT NULL,
+    canonical_full TEXT NOT NULL,
+    family_name    TEXT NOT NULL
+);
+
 CREATE INDEX idx_courses_code   ON courses (subject, course_number);
 CREATE INDEX idx_sections_course ON sections (term, course_id);
 CREATE INDEX idx_grades_code    ON grade_records (target_subject, target_course_number);
-PRAGMA user_version = 2;
+CREATE INDEX idx_instructor_full ON instructor_names (canonical_full);
+CREATE INDEX idx_instructor_family ON instructor_names (family_name);
+PRAGMA user_version = 3;
 """
 
 
 def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[str, int]:
     """从快照构建 SQLite Course Index。幂等：每次 DROP/CREATE 全量重建。
 
-    返回计数：{"terms", "courses", "sections", "grade_records"}。
+    返回计数：{"terms", "courses", "sections", "grade_records", "instructor_names"}。
     """
     db_path = pathlib.Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -173,6 +184,7 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
     try:
         conn.executescript(_SCHEMA)
         counts = {"terms": 0, "courses": 0, "sections": 0, "grade_records": 0}
+        instructor_names = set()
 
         for snap in _iter_snapshots(snapshot_paths):
             term = snap["_term"]
@@ -208,6 +220,11 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
                 counts["courses"] += 1
 
                 for sec in course.get("sections") or []:
+                    instructor_names.update(
+                        name.strip()
+                        for name in (sec.get("instructors") or [])
+                        if name and name.strip()
+                    )
                     verified = sec.get("availability_verified")
                     conn.execute(
                         "INSERT INTO sections VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
@@ -232,6 +249,8 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
                     counts["sections"] += 1
 
                 for rec in course.get("grade_archive_records") or []:
+                    if rec.get("instructor") and rec["instructor"].strip():
+                        instructor_names.add(rec["instructor"].strip())
                     conn.execute(
                         "INSERT INTO grade_records VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                         (
@@ -252,6 +271,15 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
                     )
                     counts["grade_records"] += 1
 
+        records = build_instructor_name_records(instructor_names)
+        conn.executemany(
+            "INSERT INTO instructor_names VALUES (?,?,?,?)",
+            [
+                (row["source_name"], row["source_key"], row["canonical_full"], row["family_name"])
+                for row in records
+            ],
+        )
+        counts["instructor_names"] = len(records)
         conn.commit()
         return counts
     finally:

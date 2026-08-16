@@ -287,10 +287,10 @@ class ChatResponse(BaseModel):
 async def health():
     if _orchestrator is None or _tool_manager is None or _knowledge_base is None:
         raise HTTPException(503, "服务未就绪")
-    stats = await _knowledge_base.stats_async()
-    if "course_lookup" not in _tool_manager.get_stats() or stats["course_documents"] == 0:
+    has_course_documents = await _knowledge_base.has_course_documents_async()
+    if "course_lookup" not in _tool_manager.get_stats() or not has_course_documents:
         raise HTTPException(503, "课程数据未就绪")
-    return {"status": "ok", "agents": _orchestrator.get_stats(), "knowledge": stats}
+    return {"status": "ok", "agents": _orchestrator.get_stats()}
 
 
 @app.get("/skills", tags=["Skills"])

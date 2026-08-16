@@ -685,7 +685,9 @@ class IntentRecognizer:
                     "role": self._clean_text(item.get("role", "")),
                     "content": self._clean_text(item.get("content", "")),
                 }
-                for item in history[-3:]
+                # Entity inheritance scans the full supplied history, so the cache
+                # identity must cover the same input even though the LLM sees only 3 turns.
+                for item in history
             ]
         raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
         return hashlib.md5(raw.encode("utf-8")).hexdigest()

@@ -244,14 +244,20 @@ class MemoryManager:
           1. 用 LLM 对旧消息生成摘要
           2. 摘要存 Redis（覆盖旧摘要）
           3. 旧消息存入情景记忆（ChromaDB）供跨会话检索
-          4. 工作记忆只保留最近 5 条
+          4. 正常批次保留最近 5 条；故障积压按后续写入分批排空
         """
-        messages = await self._get_working_memory(user_id, conv_id)
+        # Compression retries must see every retained item, including messages added
+        # during a previous summary outage. Normal prompt reads remain WORKING_MAX-bounded.
+        messages = await self._get_working_memory(user_id, conv_id, limit=None)
         if len(messages) < self.COMPRESS_AT:
             return
 
-        to_compress = messages[:-5]   # 保留最近 5 条
-        keep        = messages[-5:]
+        # Bound each retry prompt even if a long outage accumulated many messages.
+        # A normal 15-message list compresses 10 and keeps 5; a backlog is drained
+        # in 10-message batches on subsequent writes without dropping anything.
+        compress_count = self.COMPRESS_AT - 5
+        to_compress = messages[:compress_count]
+        keep = messages[compress_count:]
 
         # LLM 摘要
         text = self._safe_text("\n".join(f"{m.role.value}: {m.content}" for m in to_compress))
@@ -266,10 +272,10 @@ class MemoryManager:
                 # 推理型模型可能只输出 thinking 块；空摘要落库会静默丢失 15 轮上下文
                 raise RuntimeError("LLM 返回空摘要")
         except Exception as ex:
-            # 压缩服务不可用时，宁可保存较长的抽取式摘要，也不能用一条计数信息
-            # 替换并删除原始对话。后续压缩成功时仍可把这段原文压成短摘要。
-            logger.warning(f"对话摘要生成失败，保留原始对话: {ex}")
-            summary = f"[摘要服务暂不可用，保留的原始对话]\n{text}"
+            # Leave both the previous summary and working list untouched. The next
+            # message retries compression; prompt reads are independently bounded.
+            logger.warning(f"对话摘要生成失败，保留工作记忆并等待重试: {ex}")
+            return
 
         # 存摘要到 Redis
         skey = self._summary_key(user_id, conv_id)
@@ -293,9 +299,15 @@ class MemoryManager:
 
     # ── 内部辅助 ──────────────────────────────────────────────────────────────
 
-    async def _get_working_memory(self, user_id: str, conv_id: str) -> List[Message]:
+    async def _get_working_memory(
+        self,
+        user_id: str,
+        conv_id: str,
+        limit: Optional[int] = WORKING_MAX,
+    ) -> List[Message]:
         key  = self._wm_key(user_id, conv_id)
-        raws = await self._redis.lrange(key, 0, self.WORKING_MAX - 1)
+        end = -1 if limit is None else max(limit - 1, -1)
+        raws = await self._redis.lrange(key, 0, end)
         msgs = []
         for raw in reversed(raws):  # Redis lpush 最新在前，reversed 还原时序
             d = json.loads(raw)

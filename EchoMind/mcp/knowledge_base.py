@@ -219,6 +219,19 @@ class KnowledgeBase:
         """Async wrapper for knowledge-base statistics."""
         return await asyncio.to_thread(self.stats)
 
+    def has_course_documents(self) -> bool:
+        """Check catalog readiness without transferring the collection metadata."""
+        result = self._collection.get(
+            where={"dataset": "coursehub_catalog"},
+            limit=1,
+            include=[],
+        )
+        return bool(result.get("ids"))
+
+    async def has_course_documents_async(self) -> bool:
+        """Async wrapper for the lightweight catalog readiness check."""
+        return await asyncio.to_thread(self.has_course_documents)
+
     def search(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
         """
         语义检索：根据 query 返回最相关的文档片段。

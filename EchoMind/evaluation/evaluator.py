@@ -34,11 +34,19 @@ logger = logging.getLogger(__name__)
 
 
 _SNAPSHOT_DATE_RE = re.compile(r"20\d{2}(?:-|年)\d{1,2}(?:-|月)\d{1,2}")
-_TERM_CODE_RE = re.compile(r"\b(?:FA|WI|SP|S[123])\d{2}\b", re.I)
+_TERM_CODE_RE = re.compile(r"\b(?:FA|WI|SP|S[123])\s*(?:20)?\d{2}\b", re.I)
+_TERM_NAME_RE = re.compile(
+    r"\b(?:fall|winter|spring|summer)\s+20\d{2}\b"
+    r"|\b20\d{2}\s+(?:fall|winter|spring|summer)\b"
+    r"|20\d{2}\s*年?\s*(?:秋季|冬季|春季|夏季)",
+    re.I,
+)
 _NON_LIVE_MARKERS = ("非实时", "不是实时", "not live", "not real-time", "snapshot")
 _NO_AGGREGATE_MARKERS = (
     "不合成", "不会合成", "不会把", "不提供单一", "不能合成", "不应合成",
-    "do not aggregate", "won't aggregate", "no single course gpa",
+    "不计算课程整体", "无法提供课程整体", "不能提供课程整体", "不做课程平均",
+    "do not aggregate", "won't aggregate", "no single course gpa", "course-wide average",
+    "do not average", "won't average", "avoid aggregating",
 )
 _PLANNING_DISCLAIMERS = (
     "本建议为非官方参考，选课决策请咨询学校学业顾问。",
@@ -82,7 +90,8 @@ def check_dialog_constraints(
             or "instructor" in lowered
             or bool(re.search(r"[A-Z][A-Za-z'’\-]+,\s*[A-Z]", response))
         )
-        if not (_TERM_CODE_RE.search(response) and has_instructor and "gpa" in lowered):
+        has_term = bool(_TERM_CODE_RE.search(response) or _TERM_NAME_RE.search(response))
+        if not (has_term and has_instructor and "gpa" in lowered):
             failures.append("grade_history: missing instructor-by-term evidence")
     if "planning_disclaimer" in constraints:
         if agent_type != "planning":

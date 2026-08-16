@@ -205,19 +205,62 @@ def test_instructor_courses(index):
     assert hit["instructors"] == ["Farinaz Koushanfar"]
     assert hit["available_seats"] == 46
     assert hit["availability_timestamp"] == "2026-08-12T16:39:36.000Z"
+    assert len(index.instructor_courses("Koushanfar, Farinaz")) == 1
 
     # SoC 格式（"姓, 名"）也能命中，大小写不敏感
     hits = index.instructor_courses("KARNA")
     assert len(hits) == 1
     assert hits[0]["term"] == "S326"
     assert hits[0]["course_code"] == "ECE 111"
+    assert len(index.instructor_courses("Vishal Karna")) == 1
 
     # 学期过滤
     assert index.instructor_courses("karna", term="FA26") == []
+    # Instructor identity is exact (full name or surname), never an arbitrary substring.
+    assert index.instructor_courses("far") == []
 
     # 教授比较可以限定到同一门课程，避免混入该教授的其他开课。
     assert len(index.instructor_courses("cao", term="FA26", course_code="CSE 100")) == 1
     assert index.instructor_courses("cao", term="FA26", course_code="ECE 111") == []
+
+
+def test_instructor_courses_accepts_compound_family_name(tmp_path):
+    snapshot = json.loads((FIXTURES / "FA26-mini.json").read_text(encoding="utf-8"))
+    snapshot["courses"][0]["sections"][0]["instructors"] = ["Jose Aburto Oropeza"]
+    snapshot["courses"][0]["grade_archive_records"] = [
+        {"instructor": "Aburto Oropeza, Jose"},
+    ]
+    snapshot_path = tmp_path / "FA26-compound.json"
+    snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
+    db_path = tmp_path / "course_index.sqlite"
+    build_index([snapshot_path], db_path)
+
+    with CourseIndex(db_path) as compound_index:
+        assert len(compound_index.instructor_courses("Aburto Oropeza", term="FA26")) == 1
+        assert len(compound_index.instructor_courses("Jose Aburto Oropeza", term="FA26")) == 1
+
+
+def test_full_instructor_name_takes_precedence_over_compound_family_name(tmp_path):
+    snapshot = json.loads((FIXTURES / "FA26-mini.json").read_text(encoding="utf-8"))
+    snapshot["courses"][0]["grade_archive_records"] = [
+        {"instructor": "Moshiri, Niema"},
+        {"instructor": "Moshiri, Alexander Niema"},
+    ]
+    course_code = f"{snapshot['courses'][0]['subject']} {snapshot['courses'][0]['course_number']}"
+    snapshot_path = tmp_path / "FA26-name-ambiguity.json"
+    snapshot_path.write_text(json.dumps(snapshot), encoding="utf-8")
+    db_path = tmp_path / "course_index.sqlite"
+    build_index([snapshot_path], db_path)
+
+    with CourseIndex(db_path) as ambiguity_index:
+        full_name_rows = ambiguity_index.instructor_grade_history("Niema Moshiri", course_code=course_code)
+        family_rows = ambiguity_index.instructor_grade_history("Moshiri", course_code=course_code)
+
+    assert [row["instructor"] for row in full_name_rows] == ["Moshiri, Niema"]
+    assert {row["instructor"] for row in family_rows} == {
+        "Moshiri, Niema",
+        "Moshiri, Alexander Niema",
+    }
 
 
 def test_instructor_grade_history_can_be_scoped_to_course(index):
@@ -227,7 +270,9 @@ def test_instructor_grade_history_can_be_scoped_to_course(index):
     assert all(row["target_subject"] == "CSE" for row in rows)
     assert all(row["target_course_number"] == "100" for row in rows)
     assert all("sahoo" in row["instructor"].lower() for row in rows)
+    assert len(index.instructor_grade_history("Debashis Sahoo", course_code="CSE 100")) == len(rows)
     assert index.instructor_grade_history("sahoo", course_code="ECE 111") == []
+    assert index.instructor_grade_history("hoo") == []
 
 
 def test_grade_history_exact_values(index):

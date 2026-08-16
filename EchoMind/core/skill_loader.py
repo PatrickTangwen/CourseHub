@@ -69,8 +69,8 @@ class SkillManager:
     从目录中发现、解析并管理 Skills。
 
     支持两种常用结构：
-      1. skills/refund/SKILL.md
-      2. skills/refund.json / skills/refund.md / skills/refund.txt
+      1. skills/course_facts/SKILL.md
+      2. skills/course_facts.json / skills/course_facts.md / skills/course_facts.txt
     """
 
     SUPPORTED_SUFFIXES = {".md", ".txt", ".json"}

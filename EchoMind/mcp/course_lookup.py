@@ -33,7 +33,7 @@ _SCHEMA: Dict[str, Any] = {
         },
         "course_code": {"type": "string", "description": "课程代码，如 CSE 100 / cse100"},
         "term": {"type": "string", "description": "学期代码或自然语言，如 FA26 / Fall 2026 / 2026 秋"},
-        "instructor": {"type": "string", "description": "教授姓名（子串，大小写不敏感）"},
+        "instructor": {"type": "string", "description": "教授全名或姓氏（大小写不敏感）"},
         "subject": {"type": "string", "description": "科目代码，如 CSE"},
         "units": {"type": "number", "description": "学分数，如 4"},
     },

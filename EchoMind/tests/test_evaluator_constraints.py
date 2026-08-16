@@ -72,6 +72,14 @@ def test_grade_constraint_rejects_a_single_synthesized_course_gpa():
         escalated=False,
         entities={"course_code": ["CSE 100"], "term": []},
     ) == []
+    assert check_dialog_constraints(
+        ["grade_history"],
+        response="I can’t provide a course-wide average. Winter 2026 · Sahoo, Debashis · GPA 3.346.",
+        intent="grades_history",
+        agent_type="course",
+        escalated=False,
+        entities={"course_code": ["CSE 100"], "term": []},
+    ) == []
 
 
 def test_planning_constraint_requires_planning_agent_and_disclaimer():

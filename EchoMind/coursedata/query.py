@@ -10,6 +10,7 @@ import sqlite3
 import urllib.parse
 from typing import Any, Dict, List, Optional, Union
 
+from coursedata.instructors import build_instructor_name_records, normalize_instructor_name
 from coursedata.normalize import QUARTER_ORDER, normalize_course_code, term_sort_key
 
 PathLike = Union[str, pathlib.Path]
@@ -40,6 +41,7 @@ class CourseIndex:
         uri = "file:" + urllib.parse.quote(resolved.as_posix(), safe=":/") + "?mode=ro"
         self._conn = sqlite3.connect(uri, uri=True, check_same_thread=check_same_thread)
         self._conn.row_factory = sqlite3.Row
+        self._load_instructor_names()
 
     def close(self) -> None:
         self._conn.close()
@@ -80,6 +82,64 @@ class CourseIndex:
             (term, course_id),
         ).fetchall()
         return [self._section_dict(r) for r in rows]
+
+    def _load_instructor_names(self) -> None:
+        """Load persisted aliases, deriving them for pre-v3 indexes as a fallback."""
+        try:
+            records = [
+                dict(row)
+                for row in self._conn.execute(
+                    "SELECT source_name, source_key, canonical_full, family_name FROM instructor_names"
+                ).fetchall()
+            ]
+        except sqlite3.OperationalError:
+            names = set()
+            for row in self._conn.execute("SELECT instructors_json FROM sections").fetchall():
+                names.update(json.loads(row["instructors_json"] or "[]"))
+            names.update(
+                row["instructor"]
+                for row in self._conn.execute(
+                    "SELECT DISTINCT instructor FROM grade_records WHERE instructor IS NOT NULL"
+                ).fetchall()
+                if row["instructor"]
+            )
+            records = build_instructor_name_records(names)
+
+        self._instructor_names = {
+            row["source_key"]: (row["canonical_full"], row["family_name"])
+            for row in records
+        }
+        self._known_instructor_full_names = {
+            full_name for full_name, _ in self._instructor_names.values()
+        }
+        self._known_instructor_family_names = {
+            family_name for _, family_name in self._instructor_names.values()
+        }
+
+    def _resolve_instructor_query(self, value: str) -> Optional[tuple]:
+        records = build_instructor_name_records([value])
+        if not records:
+            return None
+        canonical_full = records[0]["canonical_full"]
+        normalized_query = normalize_instructor_name(value)
+        if " " not in normalized_query and "," not in normalized_query:
+            if canonical_full in self._known_instructor_family_names:
+                return "family", canonical_full
+        if canonical_full in self._known_instructor_full_names:
+            return "full", canonical_full
+        if canonical_full in self._known_instructor_family_names:
+            return "family", canonical_full
+        return None
+
+    def _instructor_matches(self, mode: str, expected: str, indexed_name: str) -> bool:
+        parts = self._instructor_names.get(normalize_instructor_name(indexed_name))
+        if parts is None:
+            fallback = build_instructor_name_records([indexed_name])
+            if not fallback:
+                return False
+            parts = (fallback[0]["canonical_full"], fallback[0]["family_name"])
+        canonical_full, family_name = parts
+        return canonical_full == expected if mode == "full" else family_name == expected
 
     # ── 查询 API ──────────────────────────────────────────────────────────────
 
@@ -135,14 +195,15 @@ class CourseIndex:
         term: Optional[str] = None,
         course_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
-        """按教授名（大小写不敏感子串）查开课 section。
+        """按教授全名或姓氏（大小写不敏感、精确边界）查开课 section。
 
         返回 section 记录 + 课程信息（course_code / title / units），
         名额字段与 availability_timestamp 原样带出。
         """
-        needle = (instructor_substring or "").strip().lower()
-        if not needle:
+        instructor_query = self._resolve_instructor_query(instructor_substring)
+        if instructor_query is None:
             return []
+        match_mode, expected_name = instructor_query
         course_key = self._split_code(course_code) if course_code else None
         if course_code and course_key is None:
             return []
@@ -151,9 +212,9 @@ class CourseIndex:
             "c.title AS title, c.units AS units "
             "FROM sections s "
             "JOIN courses c ON c.term = s.term AND c.course_id = s.course_id "
-            "WHERE instr(lower(s.instructors_json), ?) > 0"
+            "WHERE 1=1"
         )
-        params: List[Any] = [needle]
+        params: List[Any] = []
         if term:
             sql += " AND s.term = ?"
             params.append(term)
@@ -164,6 +225,8 @@ class CourseIndex:
         hits = []
         for row in rows:
             d = self._section_dict(row)
+            if not any(self._instructor_matches(match_mode, expected_name, name) for name in d["instructors"]):
+                continue
             d["course_code"] = f"{d['subject']} {d['course_number']}"
             hits.append(d)
         hits.sort(key=lambda h: (h["subject"], h["course_number"], h.get("section_code") or ""))
@@ -176,19 +239,24 @@ class CourseIndex:
         course_code: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """按教授名查 Grade Archive Records，可选限定目标 Course ID。"""
-        needle = (instructor_substring or "").strip().lower()
-        if not needle:
+        instructor_query = self._resolve_instructor_query(instructor_substring)
+        if instructor_query is None:
             return []
+        match_mode, expected_name = instructor_query
         course_key = self._split_code(course_code) if course_code else None
         if course_code and course_key is None:
             return []
 
-        sql = "SELECT * FROM grade_records WHERE instr(lower(instructor), ?) > 0"
-        params: List[Any] = [needle]
+        sql = "SELECT * FROM grade_records WHERE 1=1"
+        params: List[Any] = []
         if course_key:
             sql += " AND target_subject = ? AND target_course_number = ?"
             params.extend(course_key)
-        records = [dict(row) for row in self._conn.execute(sql, params).fetchall()]
+        records = [
+            dict(row)
+            for row in self._conn.execute(sql, params).fetchall()
+            if self._instructor_matches(match_mode, expected_name, row["instructor"])
+        ]
         records.sort(key=_grade_sort_key, reverse=True)
         return records
 
