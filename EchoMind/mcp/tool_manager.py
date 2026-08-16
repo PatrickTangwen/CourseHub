@@ -163,6 +163,39 @@ class MCPToolManager:
         use_cache: bool = True,
         rerank_top_k: int = 0,          # >0 时对结果重排，取 Top-K
     ) -> ToolResult:
+        """调用工具(对外入口)。执行前后经 core.stage_events 透出
+        tool_call_started / tool_call_finished 阶段事件(未安装 sink 时零开销)。"""
+        from core.stage_events import emit_stage
+
+        await emit_stage("tool_call_started", {"tool_name": name})
+        t0 = time.monotonic()
+        try:
+            result = await self._call_impl(
+                name, params, context, use_cache=use_cache, rerank_top_k=rerank_top_k,
+            )
+        except Exception:
+            await emit_stage("tool_call_finished", {
+                "tool_name": name,
+                "success": False,
+                "duration_ms": round((time.monotonic() - t0) * 1000, 1),
+            })
+            raise
+        await emit_stage("tool_call_finished", {
+            "tool_name": name,
+            "success": bool(getattr(result, "success", False)),
+            "duration_ms": round((time.monotonic() - t0) * 1000, 1),
+        })
+        return result
+
+    async def _call_impl(
+        self,
+        name: str,
+        params: Dict[str, Any],
+        context: Optional[Dict[str, Any]] = None,
+        *,
+        use_cache: bool = True,
+        rerank_top_k: int = 0,
+    ) -> ToolResult:
         """
         调用工具，完整执行链：
           缓存检查 → 熔断检查 → 参数校验 → 执行（含超时）→ 可选重排 → 缓存写入

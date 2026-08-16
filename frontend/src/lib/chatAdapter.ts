@@ -1,6 +1,7 @@
 import type { ChatModelAdapter, ThreadMessage } from "@assistant-ui/react";
 import { parseSseStream } from "./sse";
 import { API_BASE, type ChatAnswer } from "./chatApi";
+import { isStageEventName, type StageRecord } from "./stages";
 import { STRINGS } from "./strings";
 
 /** Typewriter presentation: the answer arrives whole; reveal is cosmetic. */
@@ -39,12 +40,17 @@ export function createChatAdapter(): ChatModelAdapter {
       }
 
       let answer: ChatAnswer | null = null;
+      const stages: StageRecord[] = [];
       for await (const evt of parseSseStream(response.body)) {
         if (evt.event === "answer") {
           answer = evt.data as ChatAnswer;
         } else if (evt.event === "error") {
           const message = (evt.data as { message?: string } | null)?.message;
           throw new Error(message || STRINGS.requestFailed);
+        } else if (isStageEventName(evt.event)) {
+          // 阶段事件实时透出:先于任何答案文本更新 metadata,驱动过程展示。
+          stages.push({ event: evt.event, data: evt.data });
+          yield { content: [], metadata: { custom: { stages: [...stages] } } };
         }
       }
       if (!answer) {
@@ -52,14 +58,18 @@ export function createChatAdapter(): ChatModelAdapter {
       }
 
       const full = answer.response;
+      const stagesSnapshot = [...stages];
       for (let end = TYPEWRITER_CHUNK_CHARS; end < full.length; end += TYPEWRITER_CHUNK_CHARS) {
         if (abortSignal.aborted) return;
-        yield { content: [{ type: "text" as const, text: full.slice(0, end) }] };
+        yield {
+          content: [{ type: "text" as const, text: full.slice(0, end) }],
+          metadata: { custom: { stages: stagesSnapshot } },
+        };
         if (TYPEWRITER_DELAY_MS > 0) await sleep(TYPEWRITER_DELAY_MS);
       }
       yield {
         content: [{ type: "text" as const, text: full }],
-        metadata: { custom: { answer } },
+        metadata: { custom: { stages: stagesSnapshot, answer } },
       };
     },
   };

@@ -28,6 +28,7 @@ from typing import Any, Dict, List, Optional
 from anthropic import AsyncAnthropic
 
 from core.intent_recognizer import IntentCategory, IntentRecognizer, UrgencyLevel
+from core.stage_events import emit_stage
 from core.llm_utils import AGENT_MAX_TOKENS, extract_text_content
 
 logger = logging.getLogger(__name__)
@@ -375,6 +376,12 @@ class AgentOrchestrator:
 
         # 复杂问题自动并行协作，例如同一句同时涉及课程事实与选课规划。
         decision = self._route_decision(req)
+        await emit_stage("routing_decided", {
+            "primary_agent": decision.primary_agent.value,
+            "supporting_agents": [a.value for a in decision.supporting_agents],
+            "routing_reason": decision.reason,
+            "routing_confidence": decision.confidence,
+        })
         if decision.multi_agent:
             return await self.run_parallel(req, decision)
 

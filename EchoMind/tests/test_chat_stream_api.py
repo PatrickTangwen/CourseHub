@@ -63,7 +63,15 @@ class FakeOrchestrator:
 
 
 class _FakeMemoryCtx:
-    recent_messages = []
+    """形状对齐 MemoryContext:工作记忆 1 条、情景记忆 2 条、有画像、无摘要。"""
+
+    def __init__(self):
+        self.recent_messages = [
+            types.SimpleNamespace(role=_V("user"), content="earlier question")
+        ]
+        self.relevant_history = ["h1", "h2"]
+        self.user_profile = {"preferred_subject": "CSE"}
+        self.summary = ""
 
     def to_prompt_text(self):
         return ""
@@ -127,12 +135,28 @@ def test_stream_happy_path_event_order(api):
 
     events = _parse_sse(resp.text)
     names = [name for name, _ in events]
-    assert names == ["run_started", "answer", "done"]
+    # 伪 orchestrator 不发 routing_decided(那是真 orchestrator 的钩子,
+    # 见 test_stage_events_hooks.py);API 层事件按编排序出现。
+    assert names == ["run_started", "memory_recalled", "intent_recognized", "answer", "done"]
 
-    run_started = events[0][1]
-    assert run_started["conv_id"] == "c-1"
+    payloads = dict(events)
+    assert payloads["run_started"]["conv_id"] == "c-1"
 
-    answer = events[1][1]
+    memory = payloads["memory_recalled"]
+    assert memory == {
+        "working_messages": 1,
+        "episodic_hits": 2,
+        "has_profile": True,
+        "has_summary": False,
+    }
+
+    intent = payloads["intent_recognized"]
+    assert intent["intent"] == "course_overview"
+    assert intent["intent_group"] == "facts"
+    assert intent["intent_confidence"] == 0.93
+    assert intent["intent_source_scores"] == {"llm": 0.9, "embedding": 0.0, "pattern": 0.7}
+
+    answer = payloads["answer"]
     assert answer["conv_id"] == "c-1"
     assert answer["response"] == "CSE 100 covers advanced data structures."
     assert answer["escalated"] is False
@@ -178,6 +202,79 @@ def test_stream_503_when_service_not_ready(api):
         assert resp.status_code == 503
     finally:
         pass  # monkeypatch 会在 teardown 恢复
+
+
+def test_stream_course_question_emits_tool_events(api, monkeypatch):
+    """课程问题走真实 tool_manager(假 handler):工具事件出现在
+    intent_recognized 之后、routing_decided 之前(检索先于路由是本仓库
+    真实架构顺序,见 ADR-0001);问候类无工具事件由伪 orchestrator 流保证。"""
+    client, main, orchestrator = api
+
+    from agents.agent_orchestrator import AgentOrchestrator, AgentResponse, AgentType
+    from core.intent_recognizer import IntentCategory
+    from mcp.tool_manager import MCPToolManager, Tool
+
+    # 真实 orchestrator,意图识别与执行为伪件
+    real_orchestrator = AgentOrchestrator(api_key="test-key")
+    intent_result = types.SimpleNamespace(
+        intent=IntentCategory.COURSE_OVERVIEW,
+        intent_group="facts",
+        urgency=None,
+        confidence=0.95,
+        entities={},
+        source_scores={"llm": 0.95, "embedding": 0.0, "pattern": 0.6},
+    )
+
+    async def fake_recognize(message, history=None):
+        return intent_result
+
+    async def fake_execute(req, agent_type):
+        return AgentResponse(agent_type=AgentType.COURSE, content="CSE 100 is about data structures.", success=True)
+
+    monkeypatch.setattr(real_orchestrator, "recognize_intent", fake_recognize)
+    monkeypatch.setattr(real_orchestrator, "_execute", fake_execute)
+    monkeypatch.setattr(main, "_orchestrator", real_orchestrator)
+
+    # 真实 tool_manager,注册假 knowledge_search;绕过 LLM 改写,直走 call()
+    manager = MCPToolManager(api_key="test-key")
+
+    async def knowledge_handler(params, context=None):
+        return [{"title": "CSE 100", "content": "Advanced data structures.", "score": 0.92}]
+
+    manager.register(Tool(
+        name="knowledge_search",
+        description="fake",
+        handler=knowledge_handler,
+        schema={"type": "object", "properties": {"query": {"type": "string"}, "top_k": {"type": "integer"}}},
+    ))
+
+    async def fake_search_with_rewrite(tool_name, query, top_k=3, **kwargs):
+        return await manager.call(tool_name, {"query": query, "top_k": top_k}, use_cache=False)
+
+    monkeypatch.setattr(manager, "search_with_rewrite", fake_search_with_rewrite)
+    monkeypatch.setattr(main, "_tool_manager", manager)
+
+    resp = client.post("/chat/stream", json=BODY)
+    assert resp.status_code == 200
+    events = _parse_sse(resp.text)
+    names = [name for name, _ in events]
+
+    assert names[0] == "run_started"
+    assert "tool_call_started" in names
+    assert "tool_call_finished" in names
+    assert "routing_decided" in names
+    assert names[-2:] == ["answer", "done"]
+    assert names.index("intent_recognized") < names.index("tool_call_started")
+    assert names.index("tool_call_started") < names.index("tool_call_finished")
+    assert names.index("tool_call_finished") < names.index("routing_decided")
+
+    payloads = dict(events)
+    assert payloads["tool_call_started"]["tool_name"] == "knowledge_search"
+    finished = payloads["tool_call_finished"]
+    assert finished["success"] is True
+    assert isinstance(finished["duration_ms"], float)
+    assert payloads["routing_decided"]["primary_agent"] == "course"
+    assert payloads["answer"]["knowledge_used"] is True
 
 
 def test_chat_behaviour_unchanged(api):
