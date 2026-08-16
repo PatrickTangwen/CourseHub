@@ -34,7 +34,7 @@ export const ProcessTimeline = () => {
   return (
     <div
       data-testid="process-timeline"
-      className="mb-2 w-fit min-w-64 max-w-full rounded-xl border border-zinc-200 bg-zinc-50 text-xs dark:border-zinc-800 dark:bg-zinc-900"
+      className="mb-2 w-fit min-w-64 max-w-full rounded-xl border border-border bg-muted/50 text-xs"
     >
       {!running && (
         <button
@@ -42,7 +42,7 @@ export const ProcessTimeline = () => {
           data-testid="process-toggle"
           aria-expanded={expanded}
           onClick={() => setUserExpanded(!expanded)}
-          className="flex w-full items-center gap-1.5 px-3 py-2 text-left text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
+          className="flex w-full items-center gap-1.5 px-3 py-2 text-left text-muted-foreground hover:text-foreground"
         >
           <span
             aria-hidden
@@ -64,26 +64,26 @@ export const ProcessTimeline = () => {
                 aria-hidden
                 className={
                   step.active
-                    ? "inline-block h-1.5 w-1.5 shrink-0 translate-y-[-1px] animate-pulse rounded-full bg-zinc-500 dark:bg-zinc-300"
-                    : "inline-block h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full bg-zinc-300 dark:bg-zinc-600"
+                    ? "inline-block h-1.5 w-1.5 shrink-0 translate-y-[-1px] animate-pulse rounded-full bg-muted-foreground"
+                    : "inline-block h-1.5 w-1.5 shrink-0 translate-y-[-1px] rounded-full bg-muted-foreground/40"
                 }
               />
               <span className="flex flex-col">
-                <span className="text-zinc-600 dark:text-zinc-300">
+                <span className="text-foreground/80">
                   {step.label}
                   {step.raw && (
-                    <code className="ml-1.5 font-mono text-[10px] text-zinc-400 dark:text-zinc-500">
+                    <code className="ml-1.5 font-mono text-[10px] text-muted-foreground">
                       ({step.raw})
                     </code>
                   )}
                   {step.detail && (
-                    <span className="ml-1.5 text-zinc-400 dark:text-zinc-500">
+                    <span className="ml-1.5 text-muted-foreground">
                       {step.detail}
                     </span>
                   )}
                 </span>
                 {step.expandedDetail && (
-                  <span className="text-[10px] text-zinc-400 dark:text-zinc-500">
+                  <span className="text-[10px] text-muted-foreground">
                     {step.expandedDetail}
                   </span>
                 )}

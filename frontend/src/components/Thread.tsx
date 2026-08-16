@@ -14,7 +14,7 @@ import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 const Welcome = () => (
   <div className="flex flex-col items-center gap-2 py-16 text-center">
     <h2 className="text-2xl font-semibold">{STRINGS.welcomeTitle}</h2>
-    <p className="max-w-md text-sm text-zinc-500 dark:text-zinc-400">
+    <p className="max-w-md text-sm text-muted-foreground">
       {STRINGS.welcomeSubtitle}
     </p>
     <div className="mt-4 flex max-w-lg flex-wrap justify-center gap-2">
@@ -24,7 +24,7 @@ const Welcome = () => (
           prompt={prompt}
           method="replace"
           autoSend
-          className="rounded-full border border-zinc-300 px-3.5 py-1.5 text-sm text-zinc-600 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+          className="rounded-full border border-border px-3.5 py-1.5 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
         >
           {prompt}
         </ThreadPrimitive.Suggestion>
@@ -35,7 +35,7 @@ const Welcome = () => (
 
 const UserMessage = () => (
   <MessagePrimitive.Root className="flex justify-end">
-    <div className="max-w-[80%] whitespace-pre-wrap rounded-2xl bg-zinc-100 px-4 py-2.5 dark:bg-zinc-800">
+    <div className="max-w-[80%] whitespace-pre-wrap rounded-2xl bg-muted px-4 py-2.5">
       <MessagePrimitive.Content />
     </div>
   </MessagePrimitive.Root>
@@ -50,9 +50,9 @@ const MessageError = () => {
   );
   if (!hasError) return null;
   return (
-    <ErrorPrimitive.Root className="mt-1 flex w-fit items-center gap-2 rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700 dark:border-red-900 dark:bg-red-950 dark:text-red-300">
+    <ErrorPrimitive.Root className="mt-1 flex w-fit items-center gap-2 rounded-lg border border-destructive/40 bg-destructive/10 px-3 py-2 text-sm text-destructive">
       <ErrorPrimitive.Message />
-      <ActionBarPrimitive.Reload className="rounded-md border border-red-300 px-2 py-0.5 text-xs font-medium hover:bg-red-100 dark:border-red-800 dark:hover:bg-red-900">
+      <ActionBarPrimitive.Reload className="rounded-md border border-destructive/40 px-2 py-0.5 text-xs font-medium hover:bg-destructive/20">
         {STRINGS.retry}
       </ActionBarPrimitive.Reload>
     </ErrorPrimitive.Root>
@@ -69,16 +69,16 @@ const AssistantMessage = () => (
 );
 
 const Composer = () => (
-  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl items-end gap-2 rounded-2xl border border-zinc-300 bg-white px-2 py-1.5 focus-within:border-zinc-500 dark:border-zinc-700 dark:bg-zinc-900 dark:focus-within:border-zinc-400">
+  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl items-end gap-2 rounded-2xl border border-input bg-background px-2 py-1.5 focus-within:border-ring">
     <ComposerPrimitive.Input
       rows={1}
       autoFocus
       placeholder={STRINGS.composerPlaceholder}
-      className="max-h-40 flex-1 resize-none bg-transparent px-2 py-2 outline-none placeholder:text-zinc-400"
+      className="max-h-40 flex-1 resize-none bg-transparent px-2 py-2 outline-none placeholder:text-muted-foreground"
     />
     <ComposerPrimitive.Send
       aria-label={STRINGS.send}
-      className="mb-0.5 rounded-xl bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition-opacity disabled:opacity-40 dark:bg-zinc-100 dark:text-zinc-900"
+      className="mb-0.5 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity disabled:opacity-40"
     >
       {STRINGS.send}
     </ComposerPrimitive.Send>
@@ -97,7 +97,7 @@ export const Thread = () => (
         />
       </div>
     </ThreadPrimitive.Viewport>
-    <div className="border-t border-zinc-200 px-4 py-3 dark:border-zinc-800">
+    <div className="border-t border-border px-4 py-3">
       <Composer />
     </div>
   </ThreadPrimitive.Root>

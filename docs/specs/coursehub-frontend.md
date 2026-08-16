@@ -16,7 +16,7 @@
 - **纯聊天形态**:不做独立课程搜索/详情页;结构化内容(课表、教授×学期成绩)由回答文本的 markdown 渲染呈现,**不引入结构化证据卡协议**(避免不必要的前端投入)。
 - **目录**:新前端位于 `frontend/`;`EchoMindFrontend/` 删除(git 历史留档)。
 - **界面语言**:chrome 文案英文,集中管理便于将来 i18n;回答内容双语自适应是后端行为。
-- **主题**:深浅色双主题,默认跟随系统;视觉直接采用 assistant-ui 官方 base 主题(shadcn 中性风格),不做品牌点缀色,不使用校徽/字标;自定义组件(时间线、转介卡、dev 面板)沿用其设计 token。
+- **主题**:深浅色双主题,默认跟随系统;视觉严格采用 assistant-ui 官方 base 主题——`@assistant-ui/styles` 为 token 准绳,其 Default 主题变量(HSL CSS variables + Tailwind `@theme` 映射)逐字取为全局 `:root`/`.dark`(该包按嵌入式场景将作用域限定在 thread 根内,本应用为整页形态故全局采纳,升级时以包内文件重新同步);全部组件(含时间线、转介卡、侧边栏、dev 面板)只消费语义 token(background/foreground/muted/primary/destructive/sidebar/chart 等),无平行手写色板,不做品牌点缀色,不使用校徽/字标。
 
 ## 2. 技术栈
 
@@ -24,7 +24,7 @@
 |---|---|---|
 | 框架 | React + Vite SPA | 纯静态产物,无 SSR 需求,nginx 直接服务 |
 | 聊天运行时/组件 | [assistant-ui](https://github.com/assistant-ui/assistant-ui)(MIT) | `LocalRuntime` + 自定义 `ChatModelAdapter` 对后端协议零侵入;`ToolFallback`/`ToolGroup` 可折叠工具条;`ThreadList` 多会话;详见 ADR-0002 |
-| 样式 | Tailwind + shadcn 体系,直接用 assistant-ui base 主题 | 深浅色开箱即得,零品牌定制成本 |
+| 样式 | Tailwind v4 + `@assistant-ui/styles` 官方 base 主题 token | 官方 Default 主题变量全局采纳,语义 token 驱动全部组件 |
 | 测试 | Vitest + React Testing Library | 见 §8 |
 
 ## 3. 后端新增(仅 API 层,不动 pipeline 内核)
@@ -38,7 +38,7 @@
 | 事件 | 载荷 |
 |---|---|
 | `run_started` | `conv_id` |
-| `memory_recalled` | 命中的记忆层与条数(工作记忆/情景记忆;不含内容) |
+| `memory_recalled` | 命中的记忆层与条数(工作记忆/情景记忆条数,有无画像/摘要的布尔;不含内容) |
 | `intent_recognized` | `intent`、`intent_group`、`intent_confidence`、`intent_source_scores` |
 | `routing_decided` | `primary_agent`、`supporting_agents`、`routing_reason`、`routing_confidence` |
 | `tool_call_started` | `tool_name` |

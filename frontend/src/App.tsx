@@ -23,19 +23,19 @@ export default function App() {
 
   return (
     <AssistantRuntimeProvider runtime={runtime}>
-      <div className="flex h-dvh flex-col bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
-        <header className="flex items-center gap-2 border-b border-zinc-200 px-4 py-3 dark:border-zinc-800">
+      <div className="flex h-dvh flex-col bg-background text-foreground">
+        <header className="flex items-center gap-2 border-b border-border px-4 py-3">
           <button
             type="button"
             aria-label={STRINGS.toggleConversationList}
             aria-expanded={drawerOpen}
             onClick={() => setDrawerOpen((open) => !open)}
-            className="rounded-lg px-2 py-1 text-zinc-500 hover:bg-zinc-100 md:hidden dark:text-zinc-400 dark:hover:bg-zinc-800"
+            className="rounded-lg px-2 py-1 text-muted-foreground hover:bg-accent hover:text-accent-foreground md:hidden"
           >
             <span aria-hidden>☰</span>
           </button>
           <span className="text-base font-semibold">{STRINGS.appName}</span>
-          <span className="hidden text-xs text-zinc-500 sm:inline dark:text-zinc-400">
+          <span className="hidden text-xs text-muted-foreground sm:inline">
             {STRINGS.tagline}
           </span>
           <span className="ml-auto flex items-center gap-1">

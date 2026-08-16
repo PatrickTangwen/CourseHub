@@ -17,20 +17,18 @@ export const ReferralCard = () => {
   return (
     <div
       data-testid="referral-card"
-      className="mt-2 w-fit max-w-full rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm dark:border-amber-700 dark:bg-amber-950"
+      className="mt-2 w-fit max-w-full rounded-xl border border-border bg-muted/50 px-4 py-3 text-sm"
     >
-      <p className="font-medium text-amber-900 dark:text-amber-200">
-        {STRINGS.referralTitle}
-      </p>
-      <p className="mt-1 text-amber-800 dark:text-amber-300">{STRINGS.referralIntro}</p>
-      <ul className="mt-1.5 list-disc pl-5 text-amber-800 dark:text-amber-300">
+      <p className="font-medium text-foreground">{STRINGS.referralTitle}</p>
+      <p className="mt-1 text-muted-foreground">{STRINGS.referralIntro}</p>
+      <ul className="mt-1.5 list-disc pl-5 text-muted-foreground">
         {REFERRAL_CHANNELS.map((channel) => (
           <li key={channel.name}>
             <a
               href={channel.url}
               target="_blank"
               rel="noreferrer"
-              className="underline underline-offset-2"
+              className="underline underline-offset-2 hover:text-foreground"
             >
               {channel.name}
             </a>

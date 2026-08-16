@@ -36,14 +36,14 @@ export const HealthDot = () => {
         : STRINGS.backendChecking;
   const color =
     state === "ok"
-      ? "bg-emerald-500"
+      ? "bg-chart-2"
       : state === "down"
-        ? "bg-red-500"
-        : "bg-zinc-400";
+        ? "bg-destructive"
+        : "bg-muted-foreground";
 
   return (
     <span
-      className="ml-auto flex items-center gap-1.5 text-xs text-zinc-500 dark:text-zinc-400"
+      className="ml-auto flex items-center gap-1.5 text-xs text-muted-foreground"
       role="status"
       aria-label={label}
       title={label}

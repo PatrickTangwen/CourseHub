@@ -9,7 +9,7 @@ interface SidebarProps {
 
 const makeThreadListItem = (onNavigate?: () => void) => {
   const ThreadListItem = () => (
-    <ThreadListItemPrimitive.Root className="group flex items-center gap-1 rounded-lg hover:bg-zinc-100 data-active:bg-zinc-100 dark:hover:bg-zinc-800 dark:data-active:bg-zinc-800">
+    <ThreadListItemPrimitive.Root className="group flex items-center gap-1 rounded-lg hover:bg-sidebar-accent hover:text-sidebar-accent-foreground data-active:bg-sidebar-accent data-active:text-sidebar-accent-foreground">
       <ThreadListItemPrimitive.Trigger
         onClick={onNavigate}
         className="min-w-0 flex-1 truncate px-2.5 py-2 text-left text-sm"
@@ -18,7 +18,7 @@ const makeThreadListItem = (onNavigate?: () => void) => {
       </ThreadListItemPrimitive.Trigger>
       <ThreadListItemPrimitive.Delete
         aria-label={STRINGS.deleteChat}
-        className="mr-1 rounded px-1.5 py-0.5 text-zinc-400 opacity-0 transition-opacity hover:text-red-600 group-hover:opacity-100 dark:hover:text-red-400"
+        className="mr-1 rounded px-1.5 py-0.5 text-muted-foreground opacity-0 transition-opacity hover:text-destructive group-hover:opacity-100"
       >
         ×
       </ThreadListItemPrimitive.Delete>
@@ -32,12 +32,12 @@ export const Sidebar = ({ onNavigate }: SidebarProps) => {
   return (
     <aside
       data-testid="thread-sidebar"
-      className="flex h-full w-64 shrink-0 flex-col border-r border-zinc-200 bg-zinc-50 md:bg-zinc-50/50 dark:border-zinc-800 dark:bg-zinc-900 md:dark:bg-zinc-900/50"
+      className="flex h-full w-64 shrink-0 flex-col border-r border-sidebar-border bg-sidebar text-sidebar-foreground"
     >
       <div className="p-3">
         <ThreadListPrimitive.New
           onClick={onNavigate}
-          className="w-full rounded-xl border border-zinc-300 px-3 py-2 text-left text-sm hover:bg-zinc-100 dark:border-zinc-700 dark:hover:bg-zinc-800"
+          className="w-full rounded-xl border border-sidebar-border px-3 py-2 text-left text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
         >
           + {STRINGS.newChat}
         </ThreadListPrimitive.New>

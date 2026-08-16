@@ -26,7 +26,7 @@ export const ThemeToggle = () => {
       aria-label={LABELS[pref]}
       title={LABELS[pref]}
       onClick={() => setPref(cycleThemePreference())}
-      className="rounded-lg px-2 py-1 text-sm text-zinc-500 hover:bg-zinc-100 hover:text-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-200"
+      className="rounded-lg px-2 py-1 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
     >
       <span aria-hidden>{ICONS[pref]}</span>
     </button>

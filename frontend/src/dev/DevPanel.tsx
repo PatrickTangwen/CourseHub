@@ -40,12 +40,11 @@ interface SkillsSummary {
   skills: { name: string; description: string; keywords: string[] }[];
 }
 
-const card =
-  "rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900";
-const th = "px-2 py-1.5 text-left font-medium text-zinc-500 dark:text-zinc-400";
+const card = "rounded-xl border border-border bg-card p-4 text-card-foreground";
+const th = "px-2 py-1.5 text-left font-medium text-muted-foreground";
 const td = "px-2 py-1.5";
 const button =
-  "rounded-lg border border-zinc-300 px-3 py-1.5 text-sm hover:bg-zinc-100 dark:border-zinc-700 dark:hover:bg-zinc-800";
+  "rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-accent hover:text-accent-foreground";
 
 export const DevPanel = () => {
   const [stats, setStats] = useState<KnowledgeStats | null>(null);
@@ -126,11 +125,11 @@ export const DevPanel = () => {
   const pct = (v: number) => `${Math.round(v * 100)}%`;
 
   return (
-    <div className="min-h-dvh bg-zinc-50 p-6 text-sm text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+    <div className="min-h-dvh bg-background p-6 text-sm text-foreground">
       <div className="mx-auto flex max-w-5xl flex-col gap-5">
         <header className="flex items-baseline gap-3">
           <h1 className="text-xl font-semibold">CourseHub Developer Panel</h1>
-          <a href="/" className="text-xs text-zinc-500 underline">
+          <a href="/" className="text-xs text-muted-foreground underline">
             back to chat
           </a>
           <button type="button" onClick={() => void loadAll()} className={`${button} ml-auto`}>
@@ -141,7 +140,7 @@ export const DevPanel = () => {
         {notice && (
           <p
             role="status"
-            className="rounded-lg border border-emerald-300 bg-emerald-50 px-3 py-2 text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950 dark:text-emerald-300"
+            className="rounded-lg border border-border bg-muted px-3 py-2 text-foreground"
           >
             {notice}
           </p>
@@ -150,12 +149,12 @@ export const DevPanel = () => {
         <section className={card} aria-label="Knowledge base">
           <h2 className="mb-3 font-semibold">Knowledge base</h2>
           {stats ? (
-            <p className="mb-3 text-zinc-600 dark:text-zinc-300">
+            <p className="mb-3 text-muted-foreground">
               {stats.total_chunks} chunks · {stats.total_documents} documents ·{" "}
               {stats.course_documents} course documents
             </p>
           ) : (
-            <p className="mb-3 text-zinc-400">Stats unavailable.</p>
+            <p className="mb-3 text-muted-foreground">Stats unavailable.</p>
           )}
           <form onSubmit={addDocument} className="flex flex-col gap-2">
             <input
@@ -163,7 +162,7 @@ export const DevPanel = () => {
               onChange={(e) => setTitle(e.target.value)}
               placeholder="Document title"
               required
-              className="rounded-lg border border-zinc-300 bg-transparent px-3 py-1.5 dark:border-zinc-700"
+              className="rounded-lg border border-input bg-transparent px-3 py-1.5"
             />
             <textarea
               value={content}
@@ -171,7 +170,7 @@ export const DevPanel = () => {
               placeholder="Document content"
               required
               rows={3}
-              className="rounded-lg border border-zinc-300 bg-transparent px-3 py-1.5 dark:border-zinc-700"
+              className="rounded-lg border border-input bg-transparent px-3 py-1.5"
             />
             <div className="flex items-center gap-3">
               <button type="submit" className={button}>
@@ -196,7 +195,7 @@ export const DevPanel = () => {
             <div className="flex flex-col gap-4">
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="border-b border-zinc-200 dark:border-zinc-800">
+                  <tr className="border-b border-border">
                     <th className={th}>Agent</th>
                     <th className={th}>Runs</th>
                     <th className={th}>Success</th>
@@ -207,7 +206,7 @@ export const DevPanel = () => {
                 </thead>
                 <tbody>
                   {Object.entries(monitor.agent_stats).map(([name, s]) => (
-                    <tr key={name} className="border-b border-zinc-100 dark:border-zinc-900">
+                    <tr key={name} className="border-b border-border/50">
                       <td className={td}>{name}</td>
                       <td className={td}>{s.total}</td>
                       <td className={td}>{pct(s.success_rate)}</td>
@@ -220,7 +219,7 @@ export const DevPanel = () => {
               </table>
               <table className="w-full border-collapse">
                 <thead>
-                  <tr className="border-b border-zinc-200 dark:border-zinc-800">
+                  <tr className="border-b border-border">
                     <th className={th}>Tool</th>
                     <th className={th}>Calls</th>
                     <th className={th}>Success</th>
@@ -230,7 +229,7 @@ export const DevPanel = () => {
                 </thead>
                 <tbody>
                   {Object.entries(monitor.tool_stats).map(([name, s]) => (
-                    <tr key={name} className="border-b border-zinc-100 dark:border-zinc-900">
+                    <tr key={name} className="border-b border-border/50">
                       <td className={td}>{name}</td>
                       <td className={td}>{s.total}</td>
                       <td className={td}>{pct(s.success_rate)}</td>
@@ -245,7 +244,7 @@ export const DevPanel = () => {
                   {monitor.active_alerts.map((alert, i) => (
                     <li
                       key={i}
-                      className="rounded-lg border border-amber-300 bg-amber-50 px-3 py-1.5 text-amber-800 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300"
+                      className="rounded-lg border border-border bg-muted/50 px-3 py-1.5 text-muted-foreground"
                     >
                       [{alert.severity}] {alert.message}
                     </li>
@@ -254,7 +253,7 @@ export const DevPanel = () => {
               )}
             </div>
           ) : (
-            <p className="text-zinc-400">Monitor unavailable.</p>
+            <p className="text-muted-foreground">Monitor unavailable.</p>
           )}
         </section>
 
@@ -270,17 +269,17 @@ export const DevPanel = () => {
               {skills.skills.map((skill) => (
                 <li key={skill.name}>
                   <span className="font-medium">{skill.name}</span>
-                  <span className="ml-2 text-zinc-500 dark:text-zinc-400">
+                  <span className="ml-2 text-muted-foreground">
                     {skill.description}
                   </span>
-                  <span className="ml-2 text-xs text-zinc-400">
+                  <span className="ml-2 text-xs text-muted-foreground">
                     {skill.keywords.length} keywords
                   </span>
                 </li>
               ))}
             </ul>
           ) : (
-            <p className="text-zinc-400">Skills unavailable.</p>
+            <p className="text-muted-foreground">Skills unavailable.</p>
           )}
         </section>
       </div>
