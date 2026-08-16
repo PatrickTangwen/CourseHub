@@ -145,12 +145,14 @@ docker compose logs -f coursehub
 | 服务 | 容器名 | 宿主机端口 | 容器内端口 | 用途 |
 |------|--------|------------|------------|------|
 | CourseHub API | `coursehub-app` | `8000` | `8000` | 主 API 服务 |
-| Nginx | `coursehub-nginx` | `80` | `80` | 反向代理 |
+| Nginx | `coursehub-nginx` | `80` | `80` | **前端界面** + API/SSE 反向代理 |
 | ChromaDB | `coursehub-chromadb` | `8001` | `8000` | 向量数据库 |
 | Redis | `coursehub-redis` | `6379` | `6379` | 工作记忆 |
 | Prometheus | `coursehub-prometheus` | `9090` | `9090` | 监控数据 |
 
 API 的宿主机端口由 `.env` 中的 `COURSEHUB_HOST_PORT` 控制（`.env.example` 默认 8000）。本文示例统一按 8000 书写，端口不同时请自行替换。
+
+**前端**:`http://localhost/` 即 ChatGPT 式聊天界面(仓库 `frontend/`,React + assistant-ui,构建进 nginx 镜像);`http://localhost/dev` 是隐藏的开发者面板(知识库/monitor/skills)。前端经 `/api/*` 前缀访问后端,其中 `/api/chat/stream` 为阶段事件 SSE(nginx 已关闭缓冲)。前端开发流程见 `frontend/README.md`。
 
 健康检查：
 

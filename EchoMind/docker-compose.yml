@@ -112,9 +112,11 @@ services:
       retries: 3
       start_period: 300s
 
-  # ── Nginx 反向代理 ──────────────────────────────────────────────────────────
+  # ── Nginx:前端静态产物 + API/SSE 反向代理 ──────────────────────────────────
   nginx:
-    image: nginx:alpine
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
     container_name: coursehub-nginx
     ports:
       - "80:80"
