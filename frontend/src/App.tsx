@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   AssistantRuntimeProvider,
   useLocalRuntime,
@@ -6,6 +6,7 @@ import {
 } from "@assistant-ui/react";
 import { createChatAdapter } from "./lib/chatAdapter";
 import { useLocalThreadListAdapter } from "./lib/threadListAdapter";
+import { DevPanel } from "./dev/DevPanel";
 import { Sidebar } from "./components/Sidebar";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { Thread } from "./components/Thread";
@@ -14,11 +15,31 @@ import { STRINGS } from "./lib/strings";
 const chatAdapter = createChatAdapter();
 const useRuntime = () => useLocalRuntime(chatAdapter);
 
+type View = "chat" | "dev";
+
+/** /dev 仍是可直达的深链(nginx 已做 SPA 回退),但只决定主区显示什么。 */
+const viewFromPath = (): View =>
+  window.location.pathname === "/dev" ? "dev" : "chat";
+
 export default function App() {
   const adapter = useLocalThreadListAdapter();
   const runtime = useRemoteThreadListRuntime({ runtimeHook: useRuntime, adapter });
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
+  const [view, setView] = useState(viewFromPath);
+
+  useEffect(() => {
+    const syncFromUrl = () => setView(viewFromPath());
+    window.addEventListener("popstate", syncFromUrl);
+    return () => window.removeEventListener("popstate", syncFromUrl);
+  }, []);
+
+  const go = useCallback((next: View) => {
+    window.history.pushState(null, "", next === "dev" ? "/dev" : "/");
+    setView(next);
+    setDrawerOpen(false);
+  }, []);
+  const goChat = useCallback(() => go("chat"), [go]);
+  const goDev = useCallback(() => go("dev"), [go]);
 
   return (
     <AssistantRuntimeProvider runtime={runtime}>
@@ -55,10 +76,14 @@ export default function App() {
               drawerOpen ? "" : "max-md:hidden"
             }`}
           >
-            <Sidebar onNavigate={closeDrawer} />
+            <Sidebar
+              onNavigate={goChat}
+              devActive={view === "dev"}
+              onOpenDev={goDev}
+            />
           </div>
           <main className="min-h-0 min-w-0 flex-1">
-            <Thread />
+            {view === "dev" ? <DevPanel /> : <Thread />}
           </main>
         </div>
       </div>

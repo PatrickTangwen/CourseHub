@@ -3,8 +3,9 @@ import { API_BASE } from "../lib/chatApi";
 import { DEV_STRINGS } from "../lib/strings";
 
 /**
- * 开发者面板(/dev 隐藏路由,不入导航、无鉴权):
- * 知识库管理 + monitor 摘要 + skills 热重载。学生主流程零调试污染。
+ * 开发者面板(侧边栏底部入口 / /dev 深链,无鉴权):
+ * 知识库管理 + monitor 摘要 + skills 热重载。占据主区,聊天区不受污染。
+ * 生产环境要屏蔽的是它依赖的后端端点(见 nginx.conf 注释),不是这个入口。
  */
 
 interface KnowledgeStats {
@@ -139,13 +140,10 @@ export const DevPanel = () => {
   const pct = (v: number) => `${Math.round(v * 100)}%`;
 
   return (
-    <div className="min-h-dvh bg-background p-6 text-sm text-foreground">
+    <div className="h-full overflow-y-auto bg-background p-6 text-sm text-foreground">
       <div className="mx-auto flex max-w-5xl flex-col gap-5">
         <header className="flex items-baseline gap-3">
           <h1 className="text-xl font-semibold">{DEV_STRINGS.title}</h1>
-          <a href="/" className="text-xs text-muted-foreground underline">
-            {DEV_STRINGS.backToChat}
-          </a>
           <button type="button" onClick={() => void loadAll()} className={`${button} ml-auto`}>
             {DEV_STRINGS.refresh}
           </button>

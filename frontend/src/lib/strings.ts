@@ -25,6 +25,7 @@ export const STRINGS = {
   healthOk: "Connected",
   healthDown: "Offline",
   healthChecking: "Checking…",
+  developerPanel: "Developer",
   referralTitle: "This needs an official channel",
   referralIntro:
     "Case-specific matters (holds, waivers, petitions, disputes, accommodations) are handled by UCSD's official channels:",
@@ -86,7 +87,6 @@ export const PROCESS_STRINGS = {
 /** 隐藏开发者面板 chrome 与状态消息的单一事实来源。 */
 export const DEV_STRINGS = {
   title: "CourseHub Developer Panel",
-  backToChat: "Back to chat",
   refresh: "Refresh",
   knowledgeBase: "Knowledge base",
   stats: (chunks: number, documents: number, courseDocuments: number) =>

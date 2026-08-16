@@ -25,6 +25,12 @@ export const ArrowUpIcon = () => (
   </svg>
 );
 
+export const CodeIcon = () => (
+  <svg {...ICON}>
+    <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+  </svg>
+);
+
 export const BookIcon = () => (
   <svg {...ICON}>
     <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />

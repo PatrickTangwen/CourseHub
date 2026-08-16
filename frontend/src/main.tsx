@@ -2,16 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { DevPanel } from './dev/DevPanel.tsx'
 import { initTheme } from './lib/theme.ts'
 
 initTheme()
 
-// /dev 是隐藏的开发者面板路由(导航不提供入口);其余路径都是聊天主界面。
-const Root = window.location.pathname === '/dev' ? DevPanel : App
-
+// 单一入口:开发者面板已并入 App 的主区,由侧边栏底部入口或 /dev 深链切换。
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Root />
+    <App />
   </StrictMode>,
 )

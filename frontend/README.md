@@ -10,7 +10,7 @@ ChatGPT 式的 UCSD 课程问答界面。React + Vite + TypeScript + Tailwind v4
 - 多会话侧边栏,localStorage 持久化;浏览器持久 UUID 作 `user_id`,服务端跨会话画像生效;同会话 `conv_id` 自动延续
 - Advisor Referral 转介卡(`escalated=true`)、双语空态示例、深浅色主题(跟随系统 + 手动切换)、移动端抽屉布局
 - SSE 建立失败或在答案前断连时自动回退一次非流式 `/chat`;错误气泡可重试;输入框工具条上的 `/health` 连接指示
-- `/dev` 隐藏开发者面板:知识库导入/上传/统计、monitor 摘要、skills 热重载
+- 开发者面板与聊天同处一个界面:侧边栏底部入口(或 `/dev` 深链)把主区换成知识库导入/上传/统计、monitor 摘要、skills 热重载
 
 ## 开发
 
@@ -52,6 +52,6 @@ src/
 │   ├── theme.ts            # 主题(系统默认 + 手动)
 │   └── strings.ts          # 全部界面文案(集中管理)
 ├── components/             # Thread / ProcessTimeline / ReferralCard / Sidebar …
-├── dev/DevPanel.tsx        # /dev 开发者面板
+├── dev/DevPanel.tsx        # 开发者面板(侧边栏入口 / /dev 深链,占据主区)
 └── __tests__/              # seam 测试:整树渲染 + fixture SSE 流
 ```

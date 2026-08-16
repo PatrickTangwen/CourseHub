@@ -1,10 +1,14 @@
 import { useMemo } from "react";
 import { ThreadListItemPrimitive, ThreadListPrimitive } from "@assistant-ui/react";
+import { CodeIcon } from "./icons";
 import { STRINGS } from "../lib/strings";
 
 interface SidebarProps {
-  /** 移动端抽屉:选择会话后收起。 */
+  /** 移动端抽屉:选择会话后收起;同时把主区切回聊天。 */
   onNavigate?: () => void;
+  /** 开发者面板是否正占据主区。 */
+  devActive?: boolean;
+  onOpenDev?: () => void;
 }
 
 const makeThreadListItem = (onNavigate?: () => void) => {
@@ -27,7 +31,7 @@ const makeThreadListItem = (onNavigate?: () => void) => {
   return ThreadListItem;
 };
 
-export const Sidebar = ({ onNavigate }: SidebarProps) => {
+export const Sidebar = ({ onNavigate, devActive, onOpenDev }: SidebarProps) => {
   const ThreadListItem = useMemo(() => makeThreadListItem(onNavigate), [onNavigate]);
   return (
     <aside
@@ -45,6 +49,21 @@ export const Sidebar = ({ onNavigate }: SidebarProps) => {
       <ThreadListPrimitive.Root className="flex-1 overflow-y-auto px-3 pb-3">
         <ThreadListPrimitive.Items components={{ ThreadListItem }} />
       </ThreadListPrimitive.Root>
+      <div className="border-t border-sidebar-border p-3">
+        <button
+          type="button"
+          onClick={onOpenDev}
+          aria-current={devActive ? "page" : undefined}
+          className={`flex w-full items-center gap-2 rounded-lg px-2.5 py-2 text-left text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground ${
+            devActive
+              ? "bg-sidebar-accent text-sidebar-accent-foreground"
+              : "text-muted-foreground"
+          }`}
+        >
+          <CodeIcon />
+          {STRINGS.developerPanel}
+        </button>
+      </div>
     </aside>
   );
 };

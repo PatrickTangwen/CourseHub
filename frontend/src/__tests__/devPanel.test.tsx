@@ -2,7 +2,7 @@
  * 开发者面板 seam 测试:整树渲染 + 按 URL 分流的 mock fetch。
  */
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { DevPanel } from "../dev/DevPanel";
 import App from "../App";
@@ -91,14 +91,37 @@ describe("developer panel", () => {
     expect(JSON.parse(String(addCall?.[1]?.body)).documents[0].content).toBe("Practice B-trees.");
   });
 
-  it("has no navigation entry to the hidden /dev route", async () => {
+  it("takes over the main area from the sidebar entry, and hands it back to chat", async () => {
     vi.stubGlobal("fetch", makeFetchMock());
     render(<App />);
+    const user = userEvent.setup();
+
+    // 默认主区是聊天
     expect(
       await screen.findByPlaceholderText(/ask about ucsd courses/i),
     ).toBeInTheDocument();
-    expect(screen.queryByRole("button", { name: /developer/i })).not.toBeInTheDocument();
-    expect(document.querySelector('a[href="/dev"]')).toBeNull();
+
+    await user.click(screen.getByRole("button", { name: /developer/i }));
+    expect(await screen.findByText(/8368 chunks/)).toBeInTheDocument();
+    expect(
+      screen.queryByPlaceholderText(/ask about ucsd courses/i),
+    ).not.toBeInTheDocument();
+    expect(window.location.pathname).toBe("/dev");
+
+    // 会话列表始终在侧边栏;新建会话把主区交回聊天
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await user.click(within(sidebar).getByRole("button", { name: /new chat/i }));
+    expect(
+      await screen.findByPlaceholderText(/ask about ucsd courses/i),
+    ).toBeInTheDocument();
+    expect(window.location.pathname).toBe("/");
+  });
+
+  it("still honours the /dev deep link (nginx SPA fallback contract)", async () => {
+    window.history.pushState(null, "", "/dev");
+    vi.stubGlobal("fetch", makeFetchMock());
+    render(<App />);
+    expect(await screen.findByText(/8368 chunks/)).toBeInTheDocument();
   });
 
   it("shows a visible failure notice when a mutation loses the network", async () => {
