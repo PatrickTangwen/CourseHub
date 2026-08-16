@@ -24,7 +24,7 @@
 |---|---|---|
 | 框架 | React + Vite SPA | 纯静态产物,无 SSR 需求,nginx 直接服务 |
 | 聊天运行时/组件 | [assistant-ui](https://github.com/assistant-ui/assistant-ui)(MIT) | `LocalRuntime` + 自定义 `ChatModelAdapter` 对后端协议零侵入;`ToolFallback`/`ToolGroup` 可折叠工具条;`ThreadList` 多会话;详见 ADR-0002 |
-| 样式 | Tailwind v4 + `@assistant-ui/styles` 官方 base 主题 token | 官方 Default 主题变量全局采纳,语义 token 驱动全部组件 |
+| 样式 | Tailwind v4 + `@assistant-ui/styles` 官方主题与 styled 类 | 官方 Default token 全局采纳;聊天区直接挂官方 `aui-*` styled 类(预编译 `index.css`),外观即官方 demo 形态 |
 | 测试 | Vitest + React Testing Library | 见 §8 |
 
 ## 3. 后端新增(仅 API 层,不动 pipeline 内核)
