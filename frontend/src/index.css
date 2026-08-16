@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* 手动主题切换用 class 策略;system 偏好由 src/lib/theme.ts 施加 .dark。 */
+@custom-variant dark (&:where(.dark, .dark *));
+
 html,
 body,
 #root {
@@ -72,13 +75,11 @@ body {
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .aui-md th,
-  .aui-md td {
-    border-color: rgb(63 63 70);
-  }
+.dark .aui-md th,
+.dark .aui-md td {
+  border-color: rgb(63 63 70);
+}
 
-  .aui-md code {
-    background: rgb(39 39 42);
-  }
+.dark .aui-md code {
+  background: rgb(39 39 42);
 }
