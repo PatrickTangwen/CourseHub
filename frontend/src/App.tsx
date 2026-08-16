@@ -43,7 +43,8 @@ export default function App() {
 
   return (
     <AssistantRuntimeProvider runtime={runtime}>
-      <div className="flex h-dvh flex-col bg-background text-foreground">
+      {/* 不锁视口高度:滚动交给浏览器窗口,页面里不再出现自己的滚动条。 */}
+      <div className="flex min-h-dvh flex-col bg-background text-foreground">
         <header className="flex items-center gap-2 border-b border-border px-4 py-3">
           <button
             type="button"
@@ -62,7 +63,7 @@ export default function App() {
             <ThemeToggle />
           </span>
         </header>
-        <div className="relative flex min-h-0 flex-1">
+        <div className="relative flex flex-1">
           {drawerOpen && (
             <div
               aria-hidden
@@ -72,7 +73,7 @@ export default function App() {
           )}
           <div
             data-state={drawerOpen ? "open" : "closed"}
-            className={`z-40 h-full max-md:absolute max-md:inset-y-0 max-md:left-0 max-md:shadow-xl ${
+            className={`z-40 max-md:absolute max-md:inset-y-0 max-md:left-0 max-md:shadow-xl md:sticky md:top-0 md:h-dvh ${
               drawerOpen ? "" : "max-md:hidden"
             }`}
           >
@@ -82,7 +83,7 @@ export default function App() {
               onOpenDev={goDev}
             />
           </div>
-          <main className="min-h-0 min-w-0 flex-1">
+          <main className="flex min-w-0 flex-1 flex-col">
             {view === "dev" ? <DevPanel onBackToChat={goChat} /> : <Thread />}
           </main>
         </div>

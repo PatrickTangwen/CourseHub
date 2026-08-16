@@ -19,6 +19,7 @@ import {
   PersonIcon,
   PlusIcon,
 } from "./icons";
+import { useStickToBottom } from "../lib/stickToBottom";
 import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 
 const PROMPT_ICONS = {
@@ -128,14 +129,17 @@ export const Thread = () => {
   // 空态照 ChatGPT 的样子把输入框放到屏幕中央;有消息后落回底部。
   // 输入框在两种布局里是同一个节点(位置不变,只换 class),不会重挂。
   const isEmpty = useAuiState((s) => s.thread.isEmpty);
+  // 滚动归浏览器窗口,所以 Viewport 的自动滚动关掉,由窗口级跟随接管。
+  useStickToBottom();
   return (
     <ThreadPrimitive.Root
-      className={`flex h-full flex-col ${isEmpty ? "justify-center" : ""}`}
+      className={`flex flex-1 flex-col ${isEmpty ? "justify-center" : ""}`}
     >
       {isEmpty && <Welcome />}
-      {/* both-edges:滚动条只占右侧会把居中列往左推,与下方输入框错开半个滚动条宽。 */}
+      {/* Viewport 的 flex-1:内容不足时也吃掉剩余高度,把输入框自然推到视口
+          底部(sticky 只在元素将被滚出时才粘住,不会自己下沉)。 */}
       {!isEmpty && (
-        <ThreadPrimitive.Viewport className="flex-1 overflow-y-auto px-4 py-6 [scrollbar-gutter:stable_both-edges]">
+        <ThreadPrimitive.Viewport autoScroll={false} className="flex-1 px-4 py-6">
           <div className="mx-auto flex max-w-3xl flex-col gap-6 px-4">
             <ThreadPrimitive.Messages
               components={{ UserMessage, AssistantMessage }}
@@ -143,7 +147,12 @@ export const Thread = () => {
           </div>
         </ThreadPrimitive.Viewport>
       )}
-      <div className={`px-4 ${isEmpty ? "pb-12" : "py-3"}`}>
+      {/* 贴底:整页滚动时输入框始终可见,背景挡住从下方滚过的消息。 */}
+      <div
+        className={`px-4 ${
+          isEmpty ? "pb-12" : "sticky bottom-0 bg-background py-3"
+        }`}
+      >
         <Composer />
         {isEmpty && <Suggestions />}
       </div>

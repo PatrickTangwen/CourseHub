@@ -19,6 +19,9 @@ if (!HTMLElement.prototype.scrollTo) {
   HTMLElement.prototype.scrollTo = () => {};
 }
 
+/* jsdom 不实现窗口滚动:保持同样的空操作语义,只去掉 "Not implemented" 噪音。 */
+window.scrollTo = () => {};
+
 /*
  * jsdom 没有 canvas 实现:getContext 本就返回 null(thinking-orbs 见 null 即
  * 早退,不画帧),但每次调用都会打印 "Not implemented" 噪音。这里保持同样的

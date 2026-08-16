@@ -152,7 +152,7 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
   const pct = (v: number) => `${Math.round(v * 100)}%`;
 
   return (
-    <div className="h-full overflow-y-auto bg-background p-6 text-sm text-foreground">
+    <div className="flex-1 bg-background p-6 text-sm text-foreground">
       <div className="mx-auto flex max-w-5xl flex-col gap-5">
         <header className="flex items-center gap-3">
           {onBackToChat && (
