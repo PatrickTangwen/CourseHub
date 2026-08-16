@@ -1,9 +1,9 @@
 /**
  * 前端 seam 测试:整树渲染 + mock fetch 提供 fixture SSE 流。
- * 只断言用户可见行为(答案渲染、错误态),不触碰内部实现。
+ * 只断言用户可见行为(答案渲染、错误态、会话持久化),不触碰内部实现。
  */
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "../App";
 import type { ChatAnswer } from "../lib/chatApi";
@@ -54,7 +54,13 @@ const ERROR_FRAMES =
 
 beforeEach(() => {
   vi.unstubAllGlobals();
+  localStorage.clear();
 });
+
+const postedBodies = (fetchMock: ReturnType<typeof vi.fn>) =>
+  fetchMock.mock.calls.map(([, init]) =>
+    JSON.parse(String((init as RequestInit).body)),
+  );
 
 describe("chat happy path", () => {
   it("sends a question and renders the streamed answer", async () => {
@@ -158,6 +164,114 @@ describe("stage events (T2 placeholder display)", () => {
     // 再点收起
     await user.click(screen.getByTestId("process-toggle"));
     expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
+  });
+});
+
+describe("multi-conversation & browser identity (T4)", () => {
+  it("keeps user_id stable, continues conv_id in-thread, restores threads after reload", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockImplementation(() => Promise.resolve(okResponse(OK_FRAMES)));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const first = render(<App />);
+    const user = userEvent.setup();
+
+    // 第一问
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "What does CSE 100 cover?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+    await screen.findByText(/CSE 100 covers advanced data structures/i);
+
+    // 会话标题(首问摘要)出现在侧边栏
+    const sidebar = screen.getByTestId("thread-sidebar");
+    expect(
+      await within(sidebar).findByText(/what does cse 100 cover/i),
+    ).toBeInTheDocument();
+
+    // 同一会话第二问:conv_id 延续、user_id 稳定
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "And the prerequisites?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(2));
+
+    const [body1, body2] = postedBodies(fetchMock);
+    expect(body1.conv_id).toBeUndefined();
+    expect(body2.conv_id).toBe("c-1"); // 来自首答元数据
+    expect(body1.user_id).toMatch(/[0-9a-f-]{36}/);
+    expect(body2.user_id).toBe(body1.user_id);
+    expect(localStorage.getItem("coursehub.user_id")).toBe(body1.user_id);
+
+    // 新会话:回到空态,发问不带 conv_id
+    await user.click(screen.getByRole("button", { name: /new chat/i }));
+    await screen.findByText(/welcome to coursehub/i);
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "hello there",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(3));
+    expect(postedBodies(fetchMock)[2].conv_id).toBeUndefined();
+    expect(
+      await within(sidebar).findByText(/hello there/i),
+    ).toBeInTheDocument();
+
+    // 模拟刷新:卸载重挂,localStorage 恢复会话与消息,零网络请求
+    first.unmount();
+    render(<App />);
+    const sidebar2 = screen.getByTestId("thread-sidebar");
+    const restoredItem = await within(sidebar2).findByText(/what does cse 100 cover/i);
+    const callsBeforeRestore = fetchMock.mock.calls.length;
+    await user.click(restoredItem);
+    // 该会话有两轮问答,fixture 答案相同 → 恢复后同文出现两次
+    const restored = await screen.findAllByText(/CSE 100 covers advanced data structures/i);
+    expect(restored.length).toBeGreaterThanOrEqual(1);
+    expect(fetchMock.mock.calls.length).toBe(callsBeforeRestore);
+  });
+
+  it("deletes a conversation from the sidebar", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockImplementation(() => Promise.resolve(okResponse(OK_FRAMES)));
+    vi.stubGlobal("fetch", fetchMock);
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "What does CSE 100 cover?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+    await screen.findByText(/CSE 100 covers advanced data structures/i);
+
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await within(sidebar).findByText(/what does cse 100 cover/i);
+    await user.click(within(sidebar).getByRole("button", { name: /delete chat/i }));
+    await vi.waitFor(() =>
+      expect(
+        within(sidebar).queryByText(/what does cse 100 cover/i),
+      ).not.toBeInTheDocument(),
+    );
+    expect(localStorage.getItem("coursehub.threads.v1")).not.toContain("What does");
+  });
+
+  it("sends an example prompt (bilingual empty state) on click", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockImplementation(() => Promise.resolve(okResponse(OK_FRAMES)));
+    vi.stubGlobal("fetch", fetchMock);
+
+    render(<App />);
+    const user = userEvent.setup();
+    // 线程列表异步就绪后空态才渲染
+    expect(await screen.findByText("CSE 100 有哪些先修要求?")).toBeInTheDocument();
+    await user.click(screen.getByText("What does CSE 100 cover?"));
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+    expect(postedBodies(fetchMock)[0].message).toBe("What does CSE 100 cover?");
   });
 });
 

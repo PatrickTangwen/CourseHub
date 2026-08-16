@@ -6,7 +6,7 @@ import {
 } from "@assistant-ui/react";
 import { MarkdownText } from "./MarkdownText";
 import { ProcessTimeline } from "./ProcessTimeline";
-import { STRINGS } from "../lib/strings";
+import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 
 const Welcome = () => (
   <div className="flex flex-col items-center gap-2 py-16 text-center">
@@ -14,6 +14,19 @@ const Welcome = () => (
     <p className="max-w-md text-sm text-zinc-500 dark:text-zinc-400">
       {STRINGS.welcomeSubtitle}
     </p>
+    <div className="mt-4 flex max-w-lg flex-wrap justify-center gap-2">
+      {EXAMPLE_PROMPTS.map((prompt) => (
+        <ThreadPrimitive.Suggestion
+          key={prompt}
+          prompt={prompt}
+          method="replace"
+          autoSend
+          className="rounded-full border border-zinc-300 px-3.5 py-1.5 text-sm text-zinc-600 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800"
+        >
+          {prompt}
+        </ThreadPrimitive.Suggestion>
+      ))}
+    </div>
   </div>
 );
 

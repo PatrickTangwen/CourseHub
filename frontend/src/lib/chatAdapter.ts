@@ -1,7 +1,8 @@
 import type { ChatModelAdapter, ThreadMessage } from "@assistant-ui/react";
 import { parseSseStream } from "./sse";
 import { API_BASE, type ChatAnswer } from "./chatApi";
-import { isStageEventName, type StageRecord } from "./stages";
+import { getBrowserUserId } from "./identity";
+import { isStageEventName, type ChatMessageCustom, type StageRecord } from "./stages";
 import { STRINGS } from "./strings";
 
 /** Typewriter presentation: the answer arrives whole; reveal is cosmetic. */
@@ -23,6 +24,19 @@ function lastUserText(messages: readonly ThreadMessage[]): string {
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
+/** 同一会话的 conv_id 单一事实来源:最近一条 assistant 消息的 answer 元数据。 */
+function findConvId(messages: readonly ThreadMessage[]): string | undefined {
+  for (let i = messages.length - 1; i >= 0; i--) {
+    const message = messages[i];
+    if (message.role === "assistant") {
+      const custom = message.metadata?.custom as ChatMessageCustom | undefined;
+      const convId = (custom?.answer as ChatAnswer | undefined)?.conv_id;
+      if (convId) return convId;
+    }
+  }
+  return undefined;
+}
+
 export function createChatAdapter(): ChatModelAdapter {
   return {
     async *run({ messages, abortSignal }) {
@@ -31,7 +45,8 @@ export function createChatAdapter(): ChatModelAdapter {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           message: lastUserText(messages),
-          user_id: "anonymous",
+          user_id: getBrowserUserId(),
+          ...(findConvId(messages) ? { conv_id: findConvId(messages) } : {}),
         }),
         signal: abortSignal,
       });

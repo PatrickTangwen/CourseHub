@@ -12,4 +12,14 @@ export const STRINGS = {
     "Ask about courses, prerequisites, schedules, seats, professors, grade history, or planning advice.",
   streamEndedUnexpectedly: "The stream ended unexpectedly. Please try again.",
   requestFailed: "The request failed. Please try again.",
+  newChat: "New chat",
+  deleteChat: "Delete chat",
 } as const;
+
+/** 空态示例问题:中英各半,点击即发送,顺带展示双语自适应能力。 */
+export const EXAMPLE_PROMPTS = [
+  "What does CSE 100 cover?",
+  "Who teaches CSE 101 in FA26?",
+  "CSE 100 有哪些先修要求?",
+  "帮我规划 CSE 100 和 CSE 110 的修课顺序",
+] as const;

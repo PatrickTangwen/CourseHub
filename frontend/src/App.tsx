@@ -1,12 +1,20 @@
-import { useMemo } from "react";
-import { AssistantRuntimeProvider, useLocalRuntime } from "@assistant-ui/react";
+import {
+  AssistantRuntimeProvider,
+  useLocalRuntime,
+  useRemoteThreadListRuntime,
+} from "@assistant-ui/react";
 import { createChatAdapter } from "./lib/chatAdapter";
+import { useLocalThreadListAdapter } from "./lib/threadListAdapter";
+import { Sidebar } from "./components/Sidebar";
 import { Thread } from "./components/Thread";
 import { STRINGS } from "./lib/strings";
 
+const chatAdapter = createChatAdapter();
+const runtimeHook = () => useLocalRuntime(chatAdapter);
+
 export default function App() {
-  const adapter = useMemo(() => createChatAdapter(), []);
-  const runtime = useLocalRuntime(adapter);
+  const adapter = useLocalThreadListAdapter();
+  const runtime = useRemoteThreadListRuntime({ runtimeHook, adapter });
 
   return (
     <AssistantRuntimeProvider runtime={runtime}>
@@ -17,9 +25,12 @@ export default function App() {
             {STRINGS.tagline}
           </span>
         </header>
-        <main className="min-h-0 flex-1">
-          <Thread />
-        </main>
+        <div className="flex min-h-0 flex-1">
+          <Sidebar />
+          <main className="min-h-0 min-w-0 flex-1">
+            <Thread />
+          </main>
+        </div>
       </div>
     </AssistantRuntimeProvider>
   );
