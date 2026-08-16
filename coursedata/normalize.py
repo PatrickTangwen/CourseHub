@@ -108,10 +108,53 @@ def normalize_term(text: str) -> Optional[str]:
     return None
 
 
+# ── 学期抽取（自由文本）───────────────────────────────────────────────────────
+
+# 代码形（FA26 / s126）：lookaround 容忍相邻中文；排除 CS126 这类课号内嵌。
+_TERM_CODE_FIND_RE = re.compile(r"(?i)(?<![A-Za-z0-9])(FA|WI|SP|S[123])(\d{2})(?![A-Za-z0-9])")
+_EN_QUARTER_FIND_RE = re.compile(
+    r"(?i)(?<![A-Za-z])(fall|autumn|winter|spring)(?![A-Za-z])[\s,]*(?:of\s*)?((?:20)?\d{2})(?!\d)"
+)
+_EN_SUMMER_FIND_RE = re.compile(
+    r"(?i)(?<![A-Za-z])summer\s*(?:session\s*)?([123])\s*(?:of\s*)?((?:20)?\d{2})(?!\d)"
+)
+# 左侧 (?<!\d) 防止课号尾数字被吞（"CSE 100秋季" 不得解析出 FA00）。
+_CN_QUARTER_FIND_RE = re.compile(r"(?<!\d)(?:20)?(\d{2})\s*年?\s*(秋|冬|春)(?:季|天)?")
+_EN_QUARTER_PREFIX = {"fall": "FA", "autumn": "FA", "winter": "WI", "spring": "SP"}
+_CN_QUARTER_PREFIX = {"秋": "FA", "冬": "WI", "春": "SP"}
+
+
+def find_terms(text: str) -> List[str]:
+    """从自由文本中提取全部学期代码（canonical 形式，按出现顺序去重）。
+
+    覆盖代码形（FA26 / s126，容忍相邻中文）、英文季节+年份（Fall 2026 /
+    summer session 1 2026）、中文年份+季节（2026 秋 / 26秋季）。
+    相对表述（"下学期"）由调用方解析为 ACTIVE_PLANNING_TERM，本函数不处理。
+    """
+    if not text:
+        return []
+    found: List[str] = []
+
+    def _add(code: str) -> None:
+        if code not in found:
+            found.append(code)
+
+    for m in _TERM_CODE_FIND_RE.finditer(text):
+        _add((m.group(1) + m.group(2)).upper())
+    for m in _EN_QUARTER_FIND_RE.finditer(text):
+        _add(_EN_QUARTER_PREFIX[m.group(1).lower()] + m.group(2)[-2:])
+    for m in _EN_SUMMER_FIND_RE.finditer(text):
+        _add(f"S{m.group(1)}{m.group(2)[-2:]}")
+    for m in _CN_QUARTER_FIND_RE.finditer(text):
+        _add(_CN_QUARTER_PREFIX[m.group(2)] + m.group(1))
+    return found
+
+
 # ── 学期排序 ──────────────────────────────────────────────────────────────────
 
 # 同一年内的时间顺序：WI < SP < S1 < S2 < S3 < FA
-_QUARTER_ORDER = {"WI": 0, "SP": 1, "S1": 2, "S2": 3, "S3": 4, "FA": 5}
+QUARTER_ORDER = {"WI": 0, "SP": 1, "S1": 2, "S2": 3, "S3": 4, "FA": 5}
+_QUARTER_ORDER = QUARTER_ORDER  # 兼容旧名
 
 
 def term_sort_key(term: str) -> Tuple[int, int]:

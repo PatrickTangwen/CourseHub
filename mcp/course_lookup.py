@@ -74,9 +74,19 @@ def register_course_lookup(tool_manager, index_path) -> None:
                 code = _require(params, "course_code", action)
                 results = index.grade_history(code)
             else:  # search
+                subject = params.get("subject")
+                units = params.get("units")
+                # 防御：schema 声明 number，但字符串数字也宽容接受
+                if isinstance(units, str) and units.strip().isdigit():
+                    units = int(units.strip())
+                if not any([subject, units, term]):
+                    raise ValueError(
+                        "action=search 至少需要 subject / units / term 之一，"
+                        "避免全库扫描 / requires at least one filter"
+                    )
                 results = index.search_courses(
-                    subject=params.get("subject"),
-                    units=params.get("units"),
+                    subject=subject,
+                    units=units,
                     term=term,
                     limit=50,
                 )
@@ -90,7 +100,16 @@ def register_course_lookup(tool_manager, index_path) -> None:
         }
 
     def fallback(params: Dict[str, Any], context: Optional[Dict[str, Any]], error: str) -> Dict[str, Any]:
-        return {"fallback": True, "message": FALLBACK_MESSAGE, "error": error}
+        # 形状与成功结果一致；原始异常只进日志，绝不进 LLM 上下文。
+        logger.warning(f"course_lookup 降级: {error}")
+        return {
+            "action": params.get("action"),
+            "term": params.get("term"),
+            "count": 0,
+            "results": [],
+            "fallback": True,
+            "note": FALLBACK_MESSAGE,
+        }
 
     tool_manager.register(Tool(
         name="course_lookup",

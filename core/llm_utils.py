@@ -1,5 +1,11 @@
 """LLM response helpers shared by Anthropic-compatible providers."""
+import os
 from typing import Any, Iterable, List
+
+# 推理型模型（如 DeepSeek v4）会先输出 thinking 块并消耗输出预算；
+# 预算过小时 text 块为空。所有调用点共用这两个预算，环境变量可覆盖。
+AGENT_MAX_TOKENS = int(os.getenv("COURSEHUB_AGENT_MAX_TOKENS", "4096"))
+AUX_MAX_TOKENS = int(os.getenv("COURSEHUB_AUX_MAX_TOKENS", "2048"))
 
 
 def extract_text_content(content: Iterable[Any]) -> str:

@@ -12,6 +12,7 @@ Python 上，因此这里绝不能 import 后端框架模块。
 from coursedata.normalize import (  # noqa: F401
     ACTIVE_PLANNING_TERM,
     find_course_codes,
+    find_terms,
     normalize_course_code,
     normalize_term,
     term_sort_key,

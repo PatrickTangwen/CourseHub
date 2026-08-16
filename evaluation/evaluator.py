@@ -25,7 +25,7 @@ from typing import Any, Dict, List, Optional
 
 from anthropic import AsyncAnthropic
 
-from core.llm_utils import extract_text_content
+from core.llm_utils import AUX_MAX_TOKENS, extract_text_content
 
 from core.intent_recognizer import IntentCategory, IntentRecognizer
 
@@ -130,7 +130,7 @@ Agent 响应: {response}
         prompt = self._clean_text(prompt)
         try:
             resp = await self._client.messages.create(
-                model=self._model, max_tokens=2048, temperature=0.0,
+                model=self._model, max_tokens=AUX_MAX_TOKENS, temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
             )
             raw = extract_text_content(resp.content)
@@ -237,6 +237,7 @@ class EndToEndEvaluator:
         base_url: Optional[str] = None,
         model:    str = "claude-3-5-sonnet-20241022",
         baseline_path: Optional[str] = None,
+        context_builder=None,
     ):
         kwargs: Dict[str, Any] = {"api_key": api_key}
         if base_url:
@@ -244,8 +245,12 @@ class EndToEndEvaluator:
         client = AsyncAnthropic(**kwargs)
 
         self._orchestrator     = orchestrator
+        self._recognizer       = recognizer
         self._judge            = LLMJudge(client, model)
         self._intent_evaluator = IntentEvaluator(recognizer)
+        # 与 /chat 相同的检索上下文构建器（async (message, intent, entities) -> str）。
+        # 不传则对话评测在无检索状态下运行，评测的就不是生产管线。
+        self._context_builder  = context_builder
         self._history:         List[EvalReport] = []
         self._baseline_path = pathlib.Path(baseline_path) if baseline_path else None
         self._baseline: Optional[EvalReport] = self._load_baseline()
@@ -339,13 +344,32 @@ class EndToEndEvaluator:
         results: List[EvalResult] = []
 
         for turn_idx, question in enumerate(questions):
-            context = self._history_context(history)
+            turn_history = history[-6:] if history else None
+            # 与 /chat 主链路同构：先识别意图/实体，再构建混合检索上下文，
+            # 否则评测的是一条没有数据接入的假管线。
+            intent_result = await self._recognizer.recognize(question, history=turn_history)
+            knowledge_text = ""
+            if self._context_builder is not None:
+                try:
+                    built = await self._context_builder(
+                        question, intent_result.intent, intent_result.entities,
+                    )
+                    knowledge_text = built[0] if isinstance(built, tuple) else (built or "")
+                except Exception as ex:
+                    logger.warning(f"评测检索上下文构建失败: {ex}")
+            context_parts = [p for p in (self._history_context(history), knowledge_text) if p]
+            context = "\n\n".join(context_parts)
             orch_req = OrcReq(
                 message=question,
                 user_id=user_id,
                 conv_id=conv_id,
                 context=context,
-                history=history[-6:] if history else None,
+                history=turn_history,
+                entities=intent_result.entities,
+                intent=intent_result.intent,
+                intent_group=intent_result.intent_group,
+                urgency=intent_result.urgency,
+                intent_confidence=intent_result.confidence,
             )
             orch_result = await self._orchestrator.run(orch_req)
             actual_answer = orch_result.response

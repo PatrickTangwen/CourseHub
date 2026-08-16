@@ -27,12 +27,12 @@ from typing import Any, Dict, List, Optional
 
 from anthropic import AsyncAnthropic
 
-from core.llm_utils import extract_text_content
+from core.llm_utils import AUX_MAX_TOKENS, extract_text_content
+# 课号/学期抽取与归一化的唯一实现在 coursedata.normalize（stdlib-only，带测试）；
+# 这里绝不重写正则——中文相邻等边界情况只在那里处理一次。
+from coursedata.normalize import ACTIVE_PLANNING_TERM, find_course_codes, find_terms
 
 logger = logging.getLogger(__name__)
-
-# 相对学期表述（"下学期"）默认解析到当前规划学期。
-ACTIVE_PLANNING_TERM = "FA26"
 
 
 class IntentCategory(Enum):
@@ -174,32 +174,20 @@ _URGENCY_KEYWORDS = {
 
 
 # ── 实体抽取（规则）──────────────────────────────────────────────────────────
-# 课号：cse100 / CSE-100 / cse 100 / CSE 8A / MATH 20C → "CSE 100" 规范形
-_COURSE_CODE_RE = re.compile(r"\b([A-Za-z]{2,4})[\s\-_]*(\d{1,3}[A-Za-z]{0,2})\b")
-# 学期代码本身（FA26）会被课号正则误命中，需要排除；再加常见误报词。
-_NON_SUBJECT_WORDS = {"GPA", "THE", "AND", "FOR", "TOP", "GE", "VAC", "HOLD"}
-_TERM_CODE_RE   = re.compile(r"\b(FA|WI|SP)(\d{2})\b", re.I)
-_SUMMER_CODE_RE = re.compile(r"\bS([123])(\d{2})\b", re.I)
-_TERM_WORD_PATTERNS = [
-    (re.compile(r"\b(?:fall|autumn)\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "FA"),
-    (re.compile(r"\bwinter\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "WI"),
-    (re.compile(r"\bspring\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "SP"),
-    (re.compile(r"\bsummer\s*(?:session\s*)?1\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "S1"),
-    (re.compile(r"\bsummer\s*(?:session\s*)?2\s*(?:of\s*)?(?:20)?(\d{2})\b", re.I), "S2"),
-    (re.compile(r"(?:20)?(\d{2})\s*年?\s*秋(?:季|天)?"), "FA"),
-    (re.compile(r"(?:20)?(\d{2})\s*年?\s*冬(?:季|天)?"), "WI"),
-    (re.compile(r"(?:20)?(\d{2})\s*年?\s*春(?:季|天)?"), "SP"),
-]
+# 课号/学期抽取直接使用 coursedata.normalize 的 find_course_codes / find_terms。
 _RELATIVE_TERM_WORDS = ["下学期", "下个学期", "next quarter", "next term", "next semester"]
 _INSTRUCTOR_PATTERNS = [
     re.compile(r"(?:[Pp]rofessor|[Pp]rof\.?|[Dd]r\.?)\s+([A-Z][A-Za-z'’\-]+(?:\s+[A-Z][A-Za-z'’\-]+)?)"),
-    re.compile(r"([一-鿿A-Za-z'’\-]{2,20})\s*(?:教授|老师)"),
+    # 中文称谓只接受罗马化姓名：索引里的教授名全部是英文字符串，
+    # 抓取称谓前的中文子串（"这门课的教授"）只会产出查询不到的垃圾实体。
+    re.compile(r"([A-Za-z'’\-]{2,20})\s*(?:教授|老师)"),
 ]
 _UNITS_RE = re.compile(r"(\d{1,2})\s*(?:个?\s*学分|units?|credits?)", re.I)
 
 # ── 课程词典（由 tools/build_course_data.py 产出，缺失时降级为纯模式抽取）────
 _DICTIONARIES_ENV = "COURSEHUB_DICTIONARIES_PATH"
 _dictionaries_loaded = False
+_dict_warned = False
 _INSTRUCTOR_LASTNAMES: Dict[str, str] = {}   # 小写姓氏 → 展示形
 _SUBJECT_CODES: set = set()
 # 词典姓氏匹配时跳过的常见英文句首/功能词（可能与真实姓氏同形）
@@ -212,28 +200,41 @@ _NAME_STOPWORDS = {
 
 
 def _load_dictionaries() -> None:
-    """懒加载教授/科目词典（一次性），供实体抽取使用。"""
-    global _dictionaries_loaded, _INSTRUCTOR_LASTNAMES, _SUBJECT_CODES
+    """懒加载教授/科目词典，供实体抽取使用。
+
+    只有加载成功才置位哨兵：服务可能先于数据构建启动，文件出现后
+    下一条请求即可启用词典，不需要重启（缺失时每次只多一次 stat）。
+    """
+    global _dictionaries_loaded, _dict_warned, _INSTRUCTOR_LASTNAMES, _SUBJECT_CODES
     if _dictionaries_loaded:
         return
-    _dictionaries_loaded = True
     path = Path(os.getenv(_DICTIONARIES_ENV, "data/coursehub/dictionaries.json"))
     if not path.is_absolute():
         path = Path(__file__).resolve().parent.parent / path
+    if not path.exists():
+        if not _dict_warned:
+            _dict_warned = True
+            logger.warning(f"课程词典不存在（{path}），实体抽取暂用模式兜底；文件出现后自动启用")
+        return
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        logger.info(f"课程词典不可用（{path}），实体抽取使用模式兜底")
+    except Exception as ex:
+        if not _dict_warned:
+            _dict_warned = True
+            logger.warning(f"课程词典解析失败（{path}）: {ex}；实体抽取暂用模式兜底")
         return
-    _SUBJECT_CODES = {str(s).upper() for s in data.get("subjects", [])}
+    subject_codes = {str(s).upper() for s in data.get("subjects", [])}
     lastnames: Dict[str, str] = {}
     for name in data.get("instructors", []):
         name = str(name)
         # "Butler, Elizabeth Annette" → Butler；"Libby Butler" → Butler
         last = name.split(",")[0].strip() if "," in name else name.strip().rsplit(" ", 1)[-1]
-        if len(last) >= 4 and last.lower() not in _NAME_STOPWORDS:
+        # 阈值 3：保住 Cao/Kim/Foo 这类真实短姓；2 字符姓（Ng/Wu/Li）误报率过高，仍排除
+        if len(last) >= 3 and last.lower() not in _NAME_STOPWORDS:
             lastnames.setdefault(last.lower(), last)
+    _SUBJECT_CODES = subject_codes
     _INSTRUCTOR_LASTNAMES = lastnames
+    _dictionaries_loaded = True
     logger.info(f"课程词典已加载: {len(_SUBJECT_CODES)} 个科目, {len(lastnames)} 个教授姓氏")
 
 
@@ -380,7 +381,7 @@ class IntentRecognizer:
         try:
             resp = await self.client.messages.create(
                 model=self.model,
-                max_tokens=2048,
+                max_tokens=AUX_MAX_TOKENS,
                 temperature=0.1,
                 messages=[{"role": "user", "content": prompt}],
             )
@@ -418,8 +419,10 @@ class IntentRecognizer:
         msg = message.lower()
         specific_patterns = {
             IntentCategory.ADVISOR_REFERRAL: [
-                "hold", "petition", "waiver", "申诉", "豁免", "accommodation",
-                "找谁办", "who do i contact", "找advisor", "找 advisor",
+                # 注意：不要放 "hold"/"vac" 这类短子串——它们会命中
+                # threshold/household/vacancy/vacation，把课程问题劫持到转介。
+                "enrollment hold", "注册 hold", "petition", "waiver", "申诉", "豁免",
+                "accommodation", "找谁办", "who do i contact", "找advisor", "找 advisor",
             ],
             IntentCategory.PREREQUISITES: [
                 "先修", "先决条件", "选课限制", "prerequisite", "prereq", "restriction",
@@ -464,7 +467,8 @@ class IntentRecognizer:
             IntentCategory.GREETING: ["你好", "您好", "早上好", "下午好", "hello", "hi there"],
         }
         generic_patterns = {
-            IntentCategory.ESCALATION: ["advisor", "vac", "官方渠道", "找人工", "人工"],
+            # "vac"/"人工" 这类短子串禁入（vacancy / 人工智能 会被误伤）
+            IntentCategory.ESCALATION: ["advisor", "官方渠道", "转人工", "找人工"],
             IntentCategory.PLANNING:   ["建议", "推荐", "规划", "该不该", "怎么选", "should i", "plan my"],
             IntentCategory.FACTS:      ["?", "？", "怎么", "什么", "哪", "when", "what", "who", "which"],
             IntentCategory.GENERAL:    ["帮我", "谢谢", "thanks", "help", "please"],
@@ -542,26 +546,15 @@ class IntentRecognizer:
         }
 
     def _extract_course_codes(self, message: str) -> List[str]:
-        codes = []
-        for m in _COURSE_CODE_RE.finditer(message):
-            subject, number = m.group(1).upper(), m.group(2).upper()
-            # 排除学期代码（FA26/WI25/SP26）和常见非科目词
-            if subject in ("FA", "WI", "SP") and re.fullmatch(r"\d{2}", number):
-                continue
-            if subject in _NON_SUBJECT_WORDS:
-                continue
-            codes.append(f"{subject} {number}")
+        codes = find_course_codes(message)
+        # 词典可用时按真实科目码校验，过滤 "TAKE 4" / "FALL 26" 这类
+        # 结构上合法但并不存在的伪课号，避免触发无意义的结构化查询。
+        if _SUBJECT_CODES:
+            codes = [c for c in codes if c.split(" ")[0] in _SUBJECT_CODES]
         return self._unique(codes)
 
     def _extract_terms(self, message: str) -> List[str]:
-        terms = []
-        for m in _TERM_CODE_RE.finditer(message):
-            terms.append(f"{m.group(1).upper()}{m.group(2)}")
-        for m in _SUMMER_CODE_RE.finditer(message):
-            terms.append(f"S{m.group(1)}{m.group(2)}")
-        for pattern, prefix in _TERM_WORD_PATTERNS:
-            for m in pattern.finditer(message):
-                terms.append(f"{prefix}{m.group(1)[-2:]}")
+        terms = list(find_terms(message))
         msg_lower = message.lower()
         if any(word in msg_lower for word in _RELATIVE_TERM_WORDS):
             terms.append(ACTIVE_PLANNING_TERM)
@@ -571,9 +564,9 @@ class IntentRecognizer:
         names = []
         for pattern in _INSTRUCTOR_PATTERNS:
             names.extend(pattern.findall(message))
-        # 词典姓氏匹配：只认原文首字母大写的词，姓氏长度 ≥4，排除常见功能词
+        # 词典姓氏匹配：只认原文首字母大写的词，姓氏长度 ≥3，排除常见功能词
         if _INSTRUCTOR_LASTNAMES:
-            for word in re.findall(r"\b[A-Z][A-Za-z'’\-]{3,}\b", message):
+            for word in re.findall(r"\b[A-Z][A-Za-z'’\-]{2,}\b", message):
                 if word.lower() in _NAME_STOPWORDS:
                     continue
                 canonical = _INSTRUCTOR_LASTNAMES.get(word.lower())

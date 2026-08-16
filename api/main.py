@@ -28,6 +28,8 @@ from pydantic import BaseModel, Field
 
 load_dotenv()
 
+from coursedata.normalize import ACTIVE_PLANNING_TERM  # noqa: E402
+
 logging.basicConfig(
     level=getattr(logging, os.getenv("LOG_LEVEL", "INFO")),
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
@@ -179,7 +181,11 @@ async def lifespan(app: FastAPI):
     )
     await _monitor.start()
 
-    # 评测器
+    # 评测器（context_builder 让对话评测走与 /chat 相同的混合检索管线）
+    async def _eval_context_builder(message: str, intent, entities) -> str:
+        text, _ = await _build_knowledge_context(message, intent=intent, entities=entities)
+        return text
+
     _evaluator = EndToEndEvaluator(
         orchestrator=_orchestrator,
         recognizer=recognizer,
@@ -187,6 +193,7 @@ async def lifespan(app: FastAPI):
         base_url=cfg.get("base_url"),
         model=cfg["model"],
         baseline_path=os.getenv("EVAL_BASELINE_PATH", "/app/data/eval/baseline.json"),
+        context_builder=_eval_context_builder,
     )
 
     logger.info("CourseHub 已就绪")
@@ -392,27 +399,36 @@ async def _build_knowledge_context(
 
 
 async def _build_course_lookup_context(intent=None, entities=None) -> str:
-    """实体命中时调用 course_lookup（结构化 Course Index 查询），返回上下文文本块。"""
+    """实体命中时调用 course_lookup（结构化 Course Index 查询），返回上下文文本块。
+
+    截断只做结构级（丢弃整条记录并标注省略数），绝不按字符切 JSON——
+    被切坏的数字比没有数字更危险（ADR-0001）。
+    """
     if _tool_manager is None or not entities:
         return ""
     codes = list(entities.get("course_code") or [])[:2]
     instructors = list(entities.get("instructor") or [])[:1]
+    subjects = list(entities.get("subject") or [])
+    units_list = list(entities.get("units") or [])
     terms = list(entities.get("term") or [])
-    term = terms[0] if terms else None
+    # 未指明学期时默认最新规划学期，避免拉全部 15 学期（实测可达 400KB）
+    term = terms[0] if terms else ACTIVE_PLANNING_TERM
+    term_defaulted = not terms
     intent_value = getattr(intent, "value", intent)
 
     calls: List[Dict[str, Any]] = []
     for code in codes:
-        params: Dict[str, Any] = {"action": "course", "course_code": code}
-        if term:
-            params["term"] = term
-        calls.append(params)
+        calls.append({"action": "course", "course_code": code, "term": term})
         if intent_value in ("grades_history", "professor_choice"):
             calls.append({"action": "grades", "course_code": code})
     if not codes and instructors:
-        params = {"action": "instructor", "instructor": instructors[0]}
-        if term:
-            params["term"] = term
+        calls.append({"action": "instructor", "instructor": instructors[0], "term": term})
+    if intent_value == "course_search" and not codes and (subjects or units_list):
+        params: Dict[str, Any] = {"action": "search", "term": term}
+        if subjects:
+            params["subject"] = subjects[0]
+        if units_list and str(units_list[0]).isdigit():
+            params["units"] = int(units_list[0])  # schema 声明 number
         calls.append(params)
     if not calls:
         return ""
@@ -425,14 +441,51 @@ async def _build_course_lookup_context(intent=None, entities=None) -> str:
     for params, result in zip(calls, results):
         if isinstance(result, Exception):
             continue
-        if not getattr(result, "success", False) or not result.data:
+        if not getattr(result, "success", False) or not isinstance(result.data, dict):
             continue
-        label = params.get("course_code") or params.get("instructor") or ""
-        payload = json.dumps(result.data, ensure_ascii=False, default=str)
-        parts.append(f"- {params['action']} {label}: {payload[:1800]}")
+        if result.data.get("fallback"):
+            continue  # 降级结果不能冒充权威数据
+        label = params.get("course_code") or params.get("instructor") or params.get("subject") or ""
+        payload = json.dumps(_compact_lookup_data(result.data), ensure_ascii=False, default=str)
+        parts.append(f"- {params['action']} {label}: {payload}")
     if not parts:
         return ""
-    return "[课程数据查询结果]\n" + "\n".join(parts)
+    header = "[课程数据查询结果]"
+    if term_defaulted:
+        header += f"（用户未指定学期，默认查询 {ACTIVE_PLANNING_TERM}）"
+    return header + "\n" + "\n".join(parts)
+
+
+def _compact_lookup_data(data: Dict[str, Any]) -> Dict[str, Any]:
+    """结构级压缩 course_lookup 结果：整条丢弃并标注省略数，不切字符。"""
+    MAX_RESULTS = 12       # grades/instructor/search 行数上限
+    MAX_SECTIONS = 8       # 每门课程保留的 section 数上限
+    MAX_DESCRIPTION = 300  # description 由语义检索承载，这里只留摘要
+
+    compact = dict(data)
+    results = list(compact.get("results") or [])
+    omitted = max(0, len(results) - MAX_RESULTS)
+    results = results[:MAX_RESULTS]
+
+    slimmed = []
+    for item in results:
+        if not isinstance(item, dict):
+            slimmed.append(item)
+            continue
+        item = dict(item)
+        desc = item.get("description")
+        if isinstance(desc, str) and len(desc) > MAX_DESCRIPTION:
+            item["description"] = desc[:MAX_DESCRIPTION] + "…"
+        sections = item.get("sections")
+        if isinstance(sections, list) and len(sections) > MAX_SECTIONS:
+            item["sections"] = sections[:MAX_SECTIONS]
+            item["sections_omitted"] = len(sections) - MAX_SECTIONS
+        slimmed.append(item)
+
+    compact["results"] = slimmed
+    if omitted:
+        compact["results_omitted"] = omitted
+    return compact
 
 
 def _should_use_knowledge(message: str, intent=None) -> bool:
@@ -488,9 +541,10 @@ async def search(query: str, top_k: int = 5):
 
 
 class DocInput(BaseModel):
-    """单篇文档输入。"""
+    """单篇文档输入。metadata 可选（如 subject/terms_offered），随片段写入向量库。"""
     title:   str
     content: str
+    metadata: Optional[Dict[str, Any]] = None
 
 
 class BatchDocInput(BaseModel):
@@ -540,7 +594,10 @@ async def add_knowledge(body: BatchDocInput):
     if tool is None:
         raise HTTPException(503, "知识库未初始化")
     kb = tool.handler.__self__
-    count = await kb.add_documents_async([{"title": d.title, "content": d.content} for d in body.documents])
+    count = await kb.add_documents_async([
+        {"title": d.title, "content": d.content, "metadata": d.metadata or {}}
+        for d in body.documents
+    ])
     total = await kb.doc_count_async()
     return {"message": f"成功导入 {count} 个文档片段", "added_chunks": count, "total_chunks": total}
 

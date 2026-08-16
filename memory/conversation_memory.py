@@ -25,7 +25,7 @@ import chromadb
 import redis.asyncio as redis
 from anthropic import AsyncAnthropic
 
-from core.llm_utils import extract_text_content
+from core.llm_utils import AUX_MAX_TOKENS, extract_text_content
 
 logger = logging.getLogger(__name__)
 
@@ -178,7 +178,7 @@ class MemoryManager:
 
         try:
             resp = await self._client.messages.create(
-                model=self._model, max_tokens=2048, temperature=0.0,
+                model=self._model, max_tokens=AUX_MAX_TOKENS, temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
             )
             raw = extract_text_content(resp.content)
@@ -258,10 +258,13 @@ class MemoryManager:
         prompt = self._safe_text(f"用 2-3 句话总结以下对话的关键信息：\n{text}")
         try:
             resp = await self._client.messages.create(
-                model=self._model, max_tokens=2048, temperature=0.0,
+                model=self._model, max_tokens=AUX_MAX_TOKENS, temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
             )
             summary = self._safe_text(extract_text_content(resp.content)).strip()
+            if not summary:
+                # 推理型模型可能只输出 thinking 块；空摘要落库会静默丢失 15 轮上下文
+                raise RuntimeError("LLM 返回空摘要")
         except Exception:
             summary = f"对话包含 {len(to_compress)} 条消息（摘要生成失败）"
 

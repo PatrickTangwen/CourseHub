@@ -7,17 +7,15 @@
 import json
 import pathlib
 import sqlite3
+import urllib.parse
 from typing import Any, Dict, List, Optional, Union
 
-from coursedata.normalize import normalize_course_code, term_sort_key
+from coursedata.normalize import QUARTER_ORDER, normalize_course_code, term_sort_key
 
 PathLike = Union[str, pathlib.Path]
 
 # 成绩档案年份是两位数（"16" → 2016）；<50 视为 2000 年代。
 _YEAR_PIVOT = 50
-
-# 成绩档案季度顺序（同 normalize._QUARTER_ORDER，含夏季小学期以防万一）
-_QUARTER_ORDER = {"WI": 0, "SP": 1, "S1": 2, "S2": 3, "S3": 4, "FA": 5}
 
 
 def _grade_sort_key(row: Dict[str, Any]):
@@ -29,14 +27,18 @@ def _grade_sort_key(row: Dict[str, Any]):
         year += 2000
     elif year >= _YEAR_PIVOT:
         year += 1900
-    return (year, _QUARTER_ORDER.get(row.get("quarter"), -1))
+    return (year, QUARTER_ORDER.get(row.get("quarter"), -1))
 
 
 class CourseIndex:
     """打开 course_index.sqlite 的只读查询接口。所有方法返回普通 dict/list。"""
 
     def __init__(self, db_path: PathLike, check_same_thread: bool = True):
-        self._conn = sqlite3.connect(str(db_path), check_same_thread=check_same_thread)
+        # 只读 URI 打开：索引文件缺失时直接报错，而不是静默创建一个空库
+        # 让"索引不可用"变成永久状态。
+        resolved = pathlib.Path(db_path).resolve()
+        uri = "file:" + urllib.parse.quote(resolved.as_posix(), safe=":/") + "?mode=ro"
+        self._conn = sqlite3.connect(uri, uri=True, check_same_thread=check_same_thread)
         self._conn.row_factory = sqlite3.Row
 
     def close(self) -> None:

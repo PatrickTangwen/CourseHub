@@ -14,6 +14,7 @@ ChromaDB 在这里的角色：
 import asyncio
 import hashlib
 import logging
+import re
 from typing import Any, Dict, List, Optional
 
 import chromadb
@@ -67,6 +68,8 @@ class KnowledgeBase:
         # 如果知识库为空，导入默认文档
         if self._collection.count() == 0:
             self._load_default_docs()
+        else:
+            self._warn_if_stale_theme()
 
     # ── 文档管理 ──────────────────────────────────────────────────────────────
 
@@ -166,29 +169,64 @@ class KnowledgeBase:
     # ── 内部方法 ──────────────────────────────────────────────────────────────
 
     def _chunk_text(self, text: str, chunk_size: int = 500) -> List[str]:
-        """将长文本按 chunk_size 切片，保留语义完整性（按句号/换行切分）。"""
+        """将长文本按 chunk_size 切片，保留语义完整性。
+
+        先按换行切段（Knowledge Doc 渲染器以短行为契约），超长段落再按
+        中/英文句号切句；单句仍超长时按字符硬切，保证没有超限 chunk。
+        """
         if len(text) <= chunk_size:
             return [text] if text.strip() else []
 
-        chunks = []
-        current = ""
-        # 按句子切分
-        sentences = text.replace("\n", "。").split("。")
-        for sent in sentences:
-            sent = sent.strip()
-            if not sent:
+        segments: List[str] = []
+        for line in text.split("\n"):
+            line = line.strip()
+            if not line:
                 continue
-            if len(current) + len(sent) + 1 > chunk_size:
+            if len(line) <= chunk_size:
+                segments.append(line)
+                continue
+            # 超长行：按句子切（中文句号或英文句号+空格），仍超长则硬切
+            for sent in re.split(r"(?<=。)|(?<=\.)\s+", line):
+                sent = sent.strip()
+                if not sent:
+                    continue
+                while len(sent) > chunk_size:
+                    segments.append(sent[:chunk_size])
+                    sent = sent[chunk_size:]
+                if sent:
+                    segments.append(sent)
+
+        chunks: List[str] = []
+        current = ""
+        for seg in segments:
+            if len(current) + len(seg) + 1 > chunk_size:
                 if current:
                     chunks.append(current)
-                current = sent
+                current = seg
             else:
-                current = f"{current}。{sent}" if current else sent
-
+                current = f"{current}\n{seg}" if current else seg
         if current:
             chunks.append(current)
-
         return chunks
+
+    def _warn_if_stale_theme(self) -> None:
+        """非空库启动时检查是否还是旧客服主题的数据（就地升级场景）。
+
+        collection 名称未变，旧部署的向量数据会原样保留；这里不自动删除
+        用户数据，只在检测到旧主题文档时给出明确的重建指引。
+        """
+        try:
+            probe = self._collection.get(limit=50, include=["metadatas"])
+            titles = {m.get("title", "") for m in probe.get("metadatas") or [] if m}
+        except Exception:
+            return
+        stale_titles = {"退款政策", "订单查询", "账户安全", "技术故障排查", "会员与积分", "配送说明"}
+        if titles & stale_titles:
+            logger.warning(
+                "知识库中检测到旧客服主题文档（如 退款政策）。建议清空 collection 后"
+                "重新导入课程数据：删除 ChromaDB volume 或用 Python 客户端 "
+                "delete_collection('knowledge_base')，重启后运行 tools/ingest_knowledge_docs.py"
+            )
 
     def _load_default_docs(self) -> None:
         """导入默认知识库文档（CourseHub 元信息）。

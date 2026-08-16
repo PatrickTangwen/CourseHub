@@ -4,7 +4,7 @@
 核心问题：多 Agent 情况下如何做 Routing？
 
 路由策略（三层决策）：
-  1. 意图路由 —— 根据 IntentCategory 直接映射到专属 Agent
+  1. 领域路由 —— 按意图组、领域关键词和实体打分，选出主/辅 Agent
   2. 性能路由 —— 同类 Agent 有多个时，选成功率最高、延迟最低的
   3. 降级路由 —— 专属 Agent 不可用时，自动降级到 GeneralAgent
 
@@ -27,7 +27,7 @@ from typing import Any, Dict, List, Optional
 from anthropic import AsyncAnthropic
 
 from core.intent_recognizer import IntentCategory, IntentRecognizer, UrgencyLevel
-from core.llm_utils import extract_text_content
+from core.llm_utils import AGENT_MAX_TOKENS, extract_text_content
 
 logger = logging.getLogger(__name__)
 
@@ -178,7 +178,7 @@ class BaseAgent:
 
         resp = await self._client.messages.create(
             model=self._model,
-            max_tokens=4096,
+            max_tokens=AGENT_MAX_TOKENS,
             system=self._build_system_prompt(req),
             messages=messages,
         )
@@ -198,14 +198,14 @@ class BaseAgent:
         return f"{self.system_prompt}\n\n[动态 Skills]\n{skill_prompt}"
 
     def _needs_escalation(self, content: str) -> bool:
-        """检测 Agent 是否建议转介官方渠道（简单关键词检测）。
+        """检测 Agent 是否真的把用户转介到了官方渠道。
 
-        关键词刻意避开 Planning Agent 免责声明的措辞，防止每条规划建议都被
-        误判为升级。
+        只认显式标记 [转介]/[referral]（persona 指示 Agent 在实际转介时输出）。
+        不能用"官方渠道"等措辞做关键词：那是 Agent 被指示在说明能力边界时
+        也会正常使用的短语，会把日常问答误报为转介。
         """
-        keywords = ["官方渠道", "virtual advising center", "联系院系顾问", "无法处理"]
         lowered = content.lower()
-        return any(kw in lowered for kw in keywords)
+        return "[转介]" in content or "[referral]" in lowered
 
 
 class GeneralAgent(BaseAgent):
@@ -217,7 +217,9 @@ class GeneralAgent(BaseAgent):
         "你负责问候、说明系统能力与数据范围、以及在问题不明确时澄清需求。"
         "系统没有 CAPE/SET 教评数据，不能代用户注册选课，名额数据为静态快照而非实时。"
         "遇到个案事务（enrollment hold、petition、prereq waiver、成绩申诉等），"
-        "说明这类事务需要通过官方渠道处理（Virtual Advising Center、院系 advisor 或 WebReg 支持）。"
+        "说明这类事务需要通过官方渠道处理（Virtual Advising Center、院系 advisor 或 WebReg 支持），"
+        "并且仅在这种实际转介的回复末尾单独一行输出标记 [转介]（英文回复用 [Referral]）；"
+        "介绍自身能力边界时不要输出该标记。"
     )
 
 
@@ -243,11 +245,12 @@ class PlanningAgent(BaseAgent):
         "成绩数据仅覆盖有限的快照范围，不要外推为长期规律。"
         "每次回答末尾附一行免责声明：本建议为非官方参考，选课决策请咨询学校学业顾问。"
         "（英文回答时用：Unofficial suggestion — please confirm with your academic counselor.）"
-        "遇到个案事务时说明需要通过官方渠道处理。用用户使用的语言回答。"
+        "遇到个案事务时说明需要通过官方渠道处理，并仅在这种实际转介的回复末尾"
+        "单独一行输出标记 [转介]（英文回复用 [Referral]）。用用户使用的语言回答。"
     )
 
 
-# ── 领域路由表（_domain_scores 与 _collaboration_targets 共用的单一来源）──────
+# ── 领域路由表（_domain_scores 的单一词表来源）────────────────────────────────
 
 _COURSE_INTENTS = {
     IntentCategory.FACTS,
@@ -283,7 +286,7 @@ _DOMAIN_KEYWORDS: Dict[AgentType, List[str]] = {
         "先上", "一起上", "should i", "workload", "plan my", "which professor", "take first",
     ],
     AgentType.GENERAL: [
-        "你好", "hello", "hi", "数据来源", "能做什么", "能回答", "帮助", "help", "thanks", "谢谢",
+        "你好", "hello", "数据来源", "能做什么", "能回答", "帮助", "help", "thanks", "谢谢",
     ],
 }
 
@@ -295,29 +298,10 @@ class AgentOrchestrator:
     多 Agent 编排器。
 
     路由逻辑（三层）：
-      1. 意图 → Agent 类型映射
+      1. 领域打分（_route_decision / _domain_scores）选出主/辅 Agent
       2. 同类多实例时按 routing_score() 选最优
       3. 专属 Agent 失败时降级到 GeneralAgent
     """
-
-    # 意图 → Agent 类型的静态映射（路由表）
-    _INTENT_ROUTING: Dict[IntentCategory, AgentType] = {
-        IntentCategory.FACTS:             AgentType.COURSE,
-        IntentCategory.COURSE_OVERVIEW:   AgentType.COURSE,
-        IntentCategory.PREREQUISITES:     AgentType.COURSE,
-        IntentCategory.SCHEDULE:          AgentType.COURSE,
-        IntentCategory.AVAILABILITY:      AgentType.COURSE,
-        IntentCategory.INSTRUCTOR_LOOKUP: AgentType.COURSE,
-        IntentCategory.GRADES_HISTORY:    AgentType.COURSE,
-        IntentCategory.COURSE_SEARCH:     AgentType.COURSE,
-        IntentCategory.PLANNING:          AgentType.PLANNING,
-        IntentCategory.PLAN_SEQUENCE:     AgentType.PLANNING,
-        IntentCategory.WORKLOAD_ADVICE:   AgentType.PLANNING,
-        IntentCategory.PROFESSOR_CHOICE:  AgentType.PLANNING,
-        IntentCategory.ESCALATION:        AgentType.ESCALATION,
-        IntentCategory.ADVISOR_REFERRAL:  AgentType.ESCALATION,
-        # 其余意图 → GENERAL（默认）
-    }
 
     def __init__(
         self,
@@ -372,6 +356,8 @@ class AgentOrchestrator:
             req.intent_group = intent_result.intent_group
             req.urgency = intent_result.urgency
             req.intent_confidence = intent_result.confidence
+            if not req.entities:
+                req.entities = intent_result.entities  # 实体驱动领域加成与 [结构化实体] 注入
 
         if self._needs_clarification(req):
             return OrchestratorResult(
@@ -460,24 +446,6 @@ class AgentOrchestrator:
         )
 
     # ── 路由逻辑 ──────────────────────────────────────────────────────────────
-
-    def _route(self, intent: Optional[IntentCategory], urgency: Optional[UrgencyLevel]) -> AgentType:
-        """
-        三层路由决策：
-          1. 意图映射
-          2. 紧急度覆盖（CRITICAL 直接升级）
-          3. 默认 GENERAL
-        """
-        if urgency == UrgencyLevel.CRITICAL:
-            return AgentType.ESCALATION
-
-        if intent and intent in self._INTENT_ROUTING:
-            target = self._INTENT_ROUTING[intent]
-            # 如果目标类型有可用实例则使用，否则降级
-            if target in self._pool and self._pool[target]:
-                return target
-
-        return AgentType.GENERAL
 
     def _route_decision(self, req: Request) -> RoutingDecision:
         """
@@ -583,30 +551,6 @@ class AgentOrchestrator:
             f"intent={intent}, group={req.intent_group or 'unknown'}, "
             f"primary={primary_agent.value}, supporting={support_text}, scores=[{score_text}]"
         )
-
-    def _collaboration_targets(self, req: Request) -> List[AgentType]:
-        """
-        判断是否需要多个 Agent 并行协作。
-
-        意图识别通常只返回一个主意图；这里用领域关键词补充检测复合问题，
-        例如"CSE 100 讲什么？另外我该先上它还是 CSE 101？"需要课程事实和
-        规划建议 Agent 同时处理。词表与 _domain_scores 共用单一来源。
-        """
-        msg = req.message.lower()
-        targets: List[AgentType] = []
-
-        if req.intent in _COURSE_INTENTS or any(
-            kw in msg for kw in _DOMAIN_KEYWORDS[AgentType.COURSE]
-        ):
-            targets.append(AgentType.COURSE)
-        if req.intent in _PLANNING_INTENTS or any(
-            kw in msg for kw in _DOMAIN_KEYWORDS[AgentType.PLANNING]
-        ):
-            targets.append(AgentType.PLANNING)
-
-        # 保持顺序去重，并只返回当前有实例的 Agent 类型。
-        deduped = list(dict.fromkeys(targets))
-        return [agent_type for agent_type in deduped if self._pool.get(agent_type)]
 
     @staticmethod
     def _needs_clarification(req: Request) -> bool:

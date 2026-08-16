@@ -172,8 +172,10 @@ def build_index(snapshot_paths: Sequence[PathLike], db_path: PathLike) -> Dict[s
         for snap in _iter_snapshots(snapshot_paths):
             term = snap["_term"]
             date_range = snap.get("term_date_range") or {}
+            # OR REPLACE：同名学期文件（如 FA26.json 与 FA26-mini.json 同目录）
+            # 不应让构建带着半成品库崩溃，后写者覆盖并继续。
             conn.execute(
-                "INSERT INTO terms VALUES (?,?,?,?,?)",
+                "INSERT OR REPLACE INTO terms VALUES (?,?,?,?,?)",
                 (term, snap.get("term_label"), snap.get("generated_at"),
                  date_range.get("start"), date_range.get("end")),
             )
@@ -333,6 +335,9 @@ def render_knowledge_docs(snapshot_paths: Sequence[PathLike]) -> List[Dict[str, 
             keep = max(len(description) - overflow - 1, 0)
             lines[desc_index] = description[:keep].rstrip() + "…"
             content = "\n".join(lines)
+        if len(content) > MAX_DOC_CHARS:
+            # 描述以外的字段（如超长先修文本）导致压缩饱和时的最终硬上限
+            content = content[: MAX_DOC_CHARS - 1].rstrip() + "…"
 
         docs.append({
             "title": title_line,
