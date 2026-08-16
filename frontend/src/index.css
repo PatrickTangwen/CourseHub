@@ -1,8 +1,4 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-/* 官方 styled 组件样式(aui-* 类,预编译产物;exports 映射 ./* → dist/styles/*)。
-   挂在我们的 primitives 上得到官方成品外观。 */
-@import "@assistant-ui/styles/index.css";
 
 /* 手动主题切换用 class 策略;system 偏好由 src/lib/theme.ts 施加 .dark。 */
 @custom-variant dark (&:where(.dark, .dark *));
@@ -121,11 +117,6 @@
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
   --radius-sm: calc(var(--radius) - 4px);
-}
-
-/* 官方 styled 组件消费的布局变量(包内由其 Thread 组件内联设置)。 */
-.aui-thread-root {
-  --thread-max-width: 46rem;
 }
 
 html,

@@ -9,10 +9,10 @@ interface SidebarProps {
 
 const makeThreadListItem = (onNavigate?: () => void) => {
   const ThreadListItem = () => (
-    <ThreadListItemPrimitive.Root className="aui-thread-list-item group hover:bg-sidebar-accent hover:text-sidebar-accent-foreground data-active:bg-sidebar-accent data-active:text-sidebar-accent-foreground">
+    <ThreadListItemPrimitive.Root className="group flex items-center gap-1 rounded-lg hover:bg-sidebar-accent hover:text-sidebar-accent-foreground data-active:bg-sidebar-accent data-active:text-sidebar-accent-foreground">
       <ThreadListItemPrimitive.Trigger
         onClick={onNavigate}
-        className="aui-thread-list-item-trigger"
+        className="min-w-0 flex-1 truncate px-2.5 py-2 text-left text-sm"
       >
         <ThreadListItemPrimitive.Title fallback={STRINGS.newChat} />
       </ThreadListItemPrimitive.Trigger>
@@ -37,12 +37,12 @@ export const Sidebar = ({ onNavigate }: SidebarProps) => {
       <div className="p-3">
         <ThreadListPrimitive.New
           onClick={onNavigate}
-          className="aui-thread-list-new flex w-full items-center bg-sidebar-accent/70 text-sidebar-foreground hover:bg-sidebar-accent"
+          className="w-full rounded-xl border border-sidebar-border px-3 py-2 text-left text-sm hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
         >
-          <span aria-hidden>+</span> {STRINGS.newChat}
+          + {STRINGS.newChat}
         </ThreadListPrimitive.New>
       </div>
-      <ThreadListPrimitive.Root className="flex flex-1 flex-col gap-1 overflow-y-auto px-3 pb-3">
+      <ThreadListPrimitive.Root className="flex-1 overflow-y-auto px-3 pb-3">
         <ThreadListPrimitive.Items components={{ ThreadListItem }} />
       </ThreadListPrimitive.Root>
     </aside>

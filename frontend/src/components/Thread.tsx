@@ -11,43 +11,32 @@ import { ProcessTimeline } from "./ProcessTimeline";
 import { ReferralCard } from "./ReferralCard";
 import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 
-/* 官方 demo 形态:aui-* styled 类挂在 primitives 上(@assistant-ui/styles)。 */
-
 const Welcome = () => (
-  <div className="aui-thread-welcome-root">
-    <div className="aui-thread-welcome-center px-4 text-center">
-      <h2 className="animate-in fade-in slide-in-from-bottom-1 text-2xl font-semibold duration-200">
-        {STRINGS.welcomeTitle}
-      </h2>
-      <p className="animate-in fade-in slide-in-from-bottom-1 mt-1.5 max-w-md text-base text-muted-foreground delay-75 duration-200">
-        {STRINGS.welcomeSubtitle}
-      </p>
+  <div className="flex flex-col items-center gap-2 py-16 text-center">
+    <h2 className="text-2xl font-semibold">{STRINGS.welcomeTitle}</h2>
+    <p className="max-w-md text-sm text-muted-foreground">
+      {STRINGS.welcomeSubtitle}
+    </p>
+    <div className="mt-4 flex max-w-lg flex-wrap justify-center gap-2">
+      {EXAMPLE_PROMPTS.map((prompt) => (
+        <ThreadPrimitive.Suggestion
+          key={prompt}
+          prompt={prompt}
+          method="replace"
+          autoSend
+          className="rounded-full border border-border px-3.5 py-1.5 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+        >
+          {prompt}
+        </ThreadPrimitive.Suggestion>
+      ))}
     </div>
   </div>
 );
 
-const WelcomeSuggestions = () => (
-  <div className="flex flex-wrap justify-center gap-2">
-    {EXAMPLE_PROMPTS.map((prompt) => (
-      <ThreadPrimitive.Suggestion
-        key={prompt}
-        prompt={prompt}
-        method="replace"
-        autoSend
-        className="aui-thread-followup-suggestion border-border"
-      >
-        {prompt}
-      </ThreadPrimitive.Suggestion>
-    ))}
-  </div>
-);
-
 const UserMessage = () => (
-  <MessagePrimitive.Root className="aui-user-message-root">
-    <div className="aui-user-message-content-wrapper">
-      <div className="aui-user-message-content whitespace-pre-wrap">
-        <MessagePrimitive.Content />
-      </div>
+  <MessagePrimitive.Root className="flex justify-end">
+    <div className="max-w-[80%] whitespace-pre-wrap rounded-2xl bg-muted px-4 py-2.5">
+      <MessagePrimitive.Content />
     </div>
   </MessagePrimitive.Root>
 );
@@ -61,7 +50,7 @@ const MessageError = () => {
   );
   if (!hasError) return null;
   return (
-    <ErrorPrimitive.Root className="mx-2 mt-1 flex w-fit items-center gap-2 rounded-lg border border-destructive/40 bg-destructive/10 px-3 py-2 text-sm text-destructive">
+    <ErrorPrimitive.Root className="mt-1 flex w-fit items-center gap-2 rounded-lg border border-destructive/40 bg-destructive/10 px-3 py-2 text-sm text-destructive">
       <ErrorPrimitive.Message />
       <ActionBarPrimitive.Reload className="rounded-md border border-destructive/40 px-2 py-0.5 text-xs font-medium hover:bg-destructive/20">
         {STRINGS.retry}
@@ -71,69 +60,45 @@ const MessageError = () => {
 };
 
 const AssistantMessage = () => (
-  <MessagePrimitive.Root className="aui-assistant-message-root">
-    <div className="mx-2">
-      <ProcessTimeline />
-    </div>
-    <div className="aui-assistant-message-content">
-      <MessagePrimitive.Content components={{ Text: MarkdownText }} />
-    </div>
-    <div className="mx-2">
-      <ReferralCard />
-    </div>
+  <MessagePrimitive.Root className="flex flex-col">
+    <ProcessTimeline />
+    <MessagePrimitive.Content components={{ Text: MarkdownText }} />
+    <ReferralCard />
     <MessageError />
   </MessagePrimitive.Root>
 );
 
-const ArrowUpIcon = () => (
-  <svg
-    aria-hidden
-    className="aui-composer-send-icon"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="M12 19V5" />
-    <path d="M5 12l7-7 7 7" />
-  </svg>
-);
-
 const Composer = () => (
-  <ComposerPrimitive.Root className="aui-composer-root rounded-3xl border border-border bg-muted/30 focus-within:border-ring/40 dark:bg-muted/20">
+  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl items-end gap-2 rounded-2xl border border-input bg-background px-2 py-1.5 focus-within:border-ring">
     <ComposerPrimitive.Input
       rows={1}
       autoFocus
       placeholder={STRINGS.composerPlaceholder}
-      className="aui-composer-input"
+      className="max-h-40 flex-1 resize-none bg-transparent px-2 py-2 outline-none placeholder:text-muted-foreground"
     />
-    <div className="aui-composer-action-wrapper">
-      <span className="px-2 text-xs text-muted-foreground">{STRINGS.tagline}</span>
-      <ComposerPrimitive.Send
-        aria-label={STRINGS.send}
-        className="aui-composer-send flex items-center justify-center bg-primary text-primary-foreground transition-opacity disabled:opacity-40"
-      >
-        <ArrowUpIcon />
-      </ComposerPrimitive.Send>
-    </div>
+    <ComposerPrimitive.Send
+      aria-label={STRINGS.send}
+      className="mb-0.5 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity disabled:opacity-40"
+    >
+      {STRINGS.send}
+    </ComposerPrimitive.Send>
   </ComposerPrimitive.Root>
 );
 
 export const Thread = () => (
-  <ThreadPrimitive.Root className="aui-thread-root @container flex h-full flex-col bg-background">
-    <ThreadPrimitive.Viewport className="aui-thread-viewport">
-      <ThreadPrimitive.Empty>
-        <Welcome />
-      </ThreadPrimitive.Empty>
-      <ThreadPrimitive.Messages components={{ UserMessage, AssistantMessage }} />
-      <ThreadPrimitive.ViewportFooter className="aui-thread-viewport-footer">
-        <Composer />
+  <ThreadPrimitive.Root className="flex h-full flex-col">
+    <ThreadPrimitive.Viewport className="flex-1 overflow-y-auto px-4 py-6">
+      <div className="mx-auto flex max-w-3xl flex-col gap-6">
         <ThreadPrimitive.Empty>
-          <WelcomeSuggestions />
+          <Welcome />
         </ThreadPrimitive.Empty>
-      </ThreadPrimitive.ViewportFooter>
+        <ThreadPrimitive.Messages
+          components={{ UserMessage, AssistantMessage }}
+        />
+      </div>
     </ThreadPrimitive.Viewport>
+    <div className="border-t border-border px-4 py-3">
+      <Composer />
+    </div>
   </ThreadPrimitive.Root>
 );
