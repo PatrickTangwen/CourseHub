@@ -1,5 +1,5 @@
 """
-EchoMind 智能客服系统 — FastAPI 入口
+CourseHub · UCSD 课程问答助手 — FastAPI 入口
 
 启动时打印小熊饼干图案。
 所有核心组件在 lifespan 中初始化，通过环境变量配置。
@@ -36,10 +36,10 @@ logger = logging.getLogger(__name__)
 
 BANNER = r"""
     ʕ•ᴥ•ʔ  ʕ•ᴥ•ʔ  ʕ•ᴥ•ʔ
-   ╔══════════════════════╗
-   ║   EchoMind  v2.0     ║
-   ║   智能客服 AI 系统    ║
-   ╚══════════════════════╝
+   ╔══════════════════════════╗
+   ║   CourseHub  v1.0        ║
+   ║   UCSD 课程问答 AI 助手   ║
+   ╚══════════════════════════╝
     ʕ•ᴥ•ʔ  ʕ•ᴥ•ʔ  ʕ•ᴥ•ʔ
 """
 
@@ -189,19 +189,19 @@ async def lifespan(app: FastAPI):
         baseline_path=os.getenv("EVAL_BASELINE_PATH", "/app/data/eval/baseline.json"),
     )
 
-    logger.info("EchoMind 已就绪")
+    logger.info("CourseHub 已就绪")
     yield
 
     await _monitor.stop()
     if _memory is not None:
         await _memory.close()
-    logger.info("EchoMind 已关闭")
+    logger.info("CourseHub 已关闭")
 
 
 # ── FastAPI ───────────────────────────────────────────────────────────────────
 app = FastAPI(
-    title="EchoMind 智能客服",
-    version="2.0.0",
+    title="CourseHub · UCSD 课程问答助手",
+    version="1.0.0",
     lifespan=lifespan,
     docs_url="/docs",
 )
@@ -654,7 +654,7 @@ async def run_eval(body: Optional[EvalRunInput] = None):
 # ── 交互式 CLI ────────────────────────────────────────────────────────────────
 async def _cli():
     print(BANNER)
-    print("EchoMind CLI — 输入 quit 退出\n")
+    print("CourseHub CLI — 输入 quit 退出\n")
 
     from agents.agent_orchestrator import AgentOrchestrator, Request
     from memory.conversation_memory import MemoryManager, MsgRole
@@ -705,7 +705,7 @@ async def _cli():
         await mem.add_message(user_id, conv_id, MsgRole.USER, msg)
         await mem.add_message(user_id, conv_id, MsgRole.ASSISTANT, result.response)
 
-        print(f"\nEchoMind [{result.agent_type.value}]: {result.response}\n")
+        print(f"\nCourseHub [{result.agent_type.value}]: {result.response}\n")
 
     await mem.close()
 

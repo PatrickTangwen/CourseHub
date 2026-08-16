@@ -1,18 +1,23 @@
-# EchoMind 完整使用指南
+# CourseHub 完整使用指南
 
-本文档说明 EchoMind 的部署、启动、API 调用、知识库使用、ChromaDB 数据查看、监控评测和常见排障。
+本文档说明 CourseHub 的部署、启动、API 调用、知识库使用、ChromaDB 数据查看、监控评测和常见排障。
 
-EchoMind 是一个企业级智能客服系统，核心链路为：
+CourseHub 是一个回答 UCSD 课程问题的双语多 Agent 问答助手（由 EchoMind 客服后端换皮而来，主链路不变；容器/镜像等基础设施名暂仍为 echomind-*），核心链路为：
 
 ```text
 用户请求
   -> FastAPI /chat
   -> MemoryManager 读取 Redis 工作记忆 + ChromaDB 情景记忆 + 用户画像
-  -> IntentRecognizer 识别意图
-  -> AgentOrchestrator 路由到 General/Technical/Billing Agent
+  -> IntentRecognizer 识别意图与实体（course_code/term/subject/instructor/units）
+  -> 混合检索拼上下文（ADR-0001）：ChromaDB 语义检索 + course_lookup 查询 Course Index
+  -> AgentOrchestrator 路由到 General/Course/Planning Agent
   -> LLM 生成回复
   -> 写入 Redis，并异步更新 ChromaDB 用户画像
 ```
+
+三个 Agent 的分工：General Agent 负责接待、需求澄清和元信息问题；Course Agent 负责课程事实（内容、先修、时间地点、名额、授课教授、成绩历史），严格依据目录数据；Planning Agent 负责选课规划建议（选课顺序、负担评估、教授选择），每次建议附免责声明。升级语义为 **Advisor Referral**：`escalated=true` 表示"已转介官方渠道"（VAC / 院系 advisor / WebReg 支持），不是转人工客服。用户用中文提问答中文，用英文提问答英文。
+
+数据来自 SunGrid 发布的 UCSD 课程目录静态快照（FA24–FA26 共 15 个学期，19,041 门课次、61,496 个 section、15,138 条成绩记录，快照生成于 2026-08-13），非实时数据。
 
 ## 1. 项目结构
 
@@ -24,8 +29,12 @@ EchoMind/
 ├── memory/conversation_memory.py  # Redis + ChromaDB 记忆管理
 ├── mcp/tool_manager.py            # MCP 工具调用、查询改写、重排、熔断、缓存、降级
 ├── mcp/knowledge_base.py          # ChromaDB RAG 知识库
+├── mcp/course_lookup.py           # course_lookup 工具：查询 SQLite Course Index
 ├── monitor/performance_monitor.py # Agent/工具在线监控
 ├── evaluation/evaluator.py        # 端到端评测
+├── tools/build_course_data.py     # 从课程快照构建 Course Index / Knowledge Docs / 词典
+├── tools/ingest_knowledge_docs.py # 把 Knowledge Docs 批量灌入知识库
+├── data/coursehub/                # course_index.sqlite、knowledge_docs.json、dictionaries.json
 ├── data/demo_docs/                # 演示知识库文档
 ├── docker-compose.yml             # Docker 全栈编排
 ├── Dockerfile
@@ -71,14 +80,21 @@ CHROMA_HOST=localhost
 CHROMA_PORT=8001
 ```
 
+课程数据文件路径可以通过环境变量覆盖，默认指向 `data/coursehub/`：
+
+```env
+COURSEHUB_INDEX_PATH=data/coursehub/course_index.sqlite
+COURSEHUB_DICTIONARIES_PATH=data/coursehub/dictionaries.json
+```
+
 ### 2.3 全栈部署和 run 开发模式的区别
 
-EchoMind 常用两种 Docker 启动方式：`docker compose up` 全栈部署，以及 `docker run` 开发模式。两者最大的区别是：**全栈部署会同时启动应用和依赖服务；run 开发模式通常只手动运行一个应用容器，依赖服务需要提前启动**。
+CourseHub 常用两种 Docker 启动方式：`docker compose up` 全栈部署，以及 `docker run` 开发模式。两者最大的区别是：**全栈部署会同时启动应用和依赖服务；run 开发模式通常只手动运行一个应用容器，依赖服务需要提前启动**。
 
 | 对比项 | Docker Compose 全栈部署 | Docker run 开发模式 |
 |--------|--------------------------|----------------------|
 | 启动命令 | `docker compose up -d --build` | `docker run ... echomind ...` |
-| 启动内容 | EchoMind、Redis、ChromaDB、Prometheus、Nginx | 只启动你指定的单个容器 |
+| 启动内容 | CourseHub 应用、Redis、ChromaDB、Prometheus、Nginx | 只启动你指定的单个容器 |
 | Redis/ChromaDB | 自动启动并加入同一网络 | 必须先执行 `docker compose up -d redis chromadb` |
 | 容器网络 | Compose 自动创建并管理 | 需要手动指定 `--network echomind_echomind-network` |
 | 服务名解析 | 应用可直接访问 `redis`、`chromadb` | 只有加入同一网络后才可访问 `redis`、`chromadb` |
@@ -112,17 +128,19 @@ docker compose ps
 docker compose logs -f echomind
 ```
 
-看到 EchoMind 启动日志并且健康检查通过后，服务可用。
+看到 CourseHub 启动日志并且健康检查通过后，服务可用。
 
 启动后的端口：
 
 | 服务 | 容器名 | 宿主机端口 | 容器内端口 | 用途 |
 |------|--------|------------|------------|------|
-| EchoMind API | `echomind-app` | `8000` | `8000` | 主 API 服务 |
+| CourseHub API | `echomind-app` | `8000` | `8000` | 主 API 服务 |
 | Nginx | `echomind-nginx` | `80` | `80` | 反向代理 |
 | ChromaDB | `echomind-chromadb` | `8001` | `8000` | 向量数据库 |
 | Redis | `echomind-redis` | `6379` | `6379` | 工作记忆 |
 | Prometheus | `echomind-prometheus` | `9090` | `9090` | 监控数据 |
+
+API 的宿主机端口由 `.env` 中的 `ECHOMIND_HOST_PORT` 控制（`.env.example` 默认 8000，当前仓库 `.env` 设为 8003）。本文示例统一按 8000 书写，端口不同时请自行替换。
 
 健康检查：
 
@@ -195,7 +213,7 @@ docker run -it --rm \
 
 ## 5. Swagger 和接口总览
 
-EchoMind 基于 FastAPI 构建，启动 HTTP 服务后可以直接在浏览器访问 Swagger UI 调用接口。
+CourseHub 基于 FastAPI 构建，启动 HTTP 服务后可以直接在浏览器访问 Swagger UI 调用接口。
 
 本地 Swagger 地址：
 
@@ -228,11 +246,11 @@ http://localhost/docs
 | 方法 | 路径 | 参数位置 | 作用 | 适合场景 |
 |------|------|----------|------|----------|
 | `GET` | `/health` | 无 | 健康检查，返回服务状态和 Agent 统计 | 启动后确认服务可用 |
-| `POST` | `/chat` | JSON Body | 主对话接口，完成记忆读取、意图识别、Agent 路由、回复生成、记忆写入 | 业务主链路 |
+| `POST` | `/chat` | JSON Body | 主对话接口，完成记忆读取、意图识别、Agent 路由、回复生成、记忆写入 | 问答主链路 |
 | `GET` | `/monitor` | 无 | 查看 Agent/工具统计、告警和优化建议 | 观察在线表现 |
 | `POST` | `/search` | Query 参数 | 执行知识库检索优化链路：查询改写、并行召回、合并去重、LLM 重排 | 测试 RAG 检索 |
 | `GET` | `/skills` | 无 | 查看当前加载的 Skills、匹配关键词和解析错误 | 确认动态能力是否生效 |
-| `POST` | `/skills/reload` | 无 | 运行时重新扫描 Skill 目录 | 修改业务规则后热加载 |
+| `POST` | `/skills/reload` | 无 | 运行时重新扫描 Skill 目录 | 修改回答规范后热加载 |
 | `POST` | `/knowledge/add` | JSON Body | 批量导入文档到 ChromaDB 知识库 | 程序化导入文档 |
 | `POST` | `/knowledge/upload` | Form File | 上传 `.txt`、`.md`、`.json` 文件导入知识库 | 手动上传知识库文件 |
 | `GET` | `/knowledge/stats` | 无 | 查看知识库文档片段总数 | 确认知识库是否有数据 |
@@ -241,7 +259,7 @@ http://localhost/docs
 
 ### 5.2 Skills 动态能力加载
 
-EchoMind 支持从目录加载 Skills，用来把业务流程、客服话术、排障 SOP 等规则动态注入 Agent。
+CourseHub 支持从目录加载 Skills，用来把回答规范、回答安全约束、转介规则等动态注入 Agent。
 
 默认配置：
 
@@ -250,28 +268,29 @@ ECHOMIND_SKILLS_DIR=./skills
 ECHOMIND_SKILLS_MAX_PROMPT_CHARS=5000
 ```
 
-推荐结构：
+当前内置三类 Skills：
 
 ```text
-skills/refund/SKILL.md
-skills/customer_support/SKILL.md
+skills/general_reception/SKILL.md  # 接待分流：双语接待、需求澄清、能力边界、个案转介
+skills/course_facts/SKILL.md       # 课程事实：客观信息应答与五条回答安全约束
+skills/course_planning/SKILL.md    # 规划建议：有依据的倾向性建议与免责声明
 ```
 
 `SKILL.md` 示例：
 
 ```markdown
 ---
-name: 退款处理流程
-description: 退款场景的客服处理规则
-keywords: 退款,退费,refund
-agents: billing,general
+name: 课程事实规范
+description: 适用于 Course Agent 的课程客观信息应答规范
+keywords: 先修,学分,名额,教授,GPA,schedule,prerequisite
+agents: course
 enabled: true
 ---
 
-# 退款处理流程
+# 课程事实规范
 
-- 先确认订单号和支付方式。
-- 涉及实际退款操作时转人工审核。
+- 名额、时间等精确数字只引用 Course Index 查询结果，并注明快照时间。
+- 个案事务（hold、petition、waiver、申诉）转介官方渠道。
 ```
 
 查看加载结果：
@@ -319,7 +338,7 @@ curl http://localhost:8000/health
 
 ```json
 {
-  "message": "我要退款",
+  "message": "谁教 CSE 100？",
   "user_id": "user_001",
   "conv_id": "session_001"
 }
@@ -339,10 +358,17 @@ curl http://localhost:8000/health
 |------|------|
 | `conv_id` | 会话 ID |
 | `response` | Agent 回复 |
-| `intent` | 意图识别结果 |
-| `agent_type` | 实际处理请求的 Agent |
-| `escalated` | 是否触发升级 |
+| `intent` | 细粒度意图，14 种之一（如 `availability`、`instructor_lookup`） |
+| `intent_group` | 意图组：`facts` / `planning` / `general` / `escalation` / `other` |
+| `agent_type` | 实际处理请求的 Agent：`general` / `course` / `planning` |
+| `agent_types` | 参与本次请求的全部 Agent |
+| `primary_agent` / `supporting_agents` | 多 Agent 协作时的主 Agent 与辅助 Agent |
+| `routing_reason` / `routing_confidence` | 路由依据与置信度 |
+| `escalated` | 是否已转介官方渠道（Advisor Referral） |
 | `latency_ms` | 端到端耗时 |
+| `knowledge_used` | 本次回复是否用到了检索结果 |
+| `entities` | 抽取的实体：`course_code` / `term` / `subject` / `instructor` / `units` |
+| `intent_confidence` / `intent_source_scores` | 意图置信度与各识别路（llm/pattern 等）得分 |
 
 ### 5.5 `/search`
 
@@ -358,7 +384,7 @@ Query 参数：
 示例：
 
 ```bash
-curl -X POST "http://localhost:8000/search?query=退款多久到账&top_k=3"
+curl -X POST "http://localhost:8000/search?query=数据结构课程&top_k=3"
 ```
 
 ### 5.6 `/knowledge/add`
@@ -371,12 +397,15 @@ curl -X POST "http://localhost:8000/search?query=退款多久到账&top_k=3"
 {
   "documents": [
     {
-      "title": "退款政策",
-      "content": "用户在购买后 7 天内可以申请无理由退款..."
+      "title": "CSE 100: Advanced Data Structures",
+      "content": "课程内容：高级数据结构与相关算法...\n学分：4\n先修：CSE 21 或 MATH 154...\n开课学期：FA24 ... FA26",
+      "metadata": {"subject": "CSE", "course_number": "100"}
     }
   ]
 }
 ```
+
+`metadata` 为可选字段，键值（标量）会并入每个片段的 ChromaDB metadata，课程文档用它携带 `subject` / `course_number` / `terms_offered`。
 
 ### 5.7 `/knowledge/upload`
 
@@ -452,7 +481,7 @@ curl -X POST http://localhost:8000/eval/run
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
-    "message": "我的订单什么时候到？",
+    "message": "Is there space left in CSE 100?",
     "user_id": "user_001",
     "conv_id": "session_001"
   }'
@@ -463,11 +492,21 @@ curl -X POST http://localhost:8000/chat \
 ```json
 {
   "conv_id": "session_001",
-  "response": "请提供订单号，我可以帮您查询订单状态和物流进度。",
-  "intent": "query",
-  "agent_type": "general",
+  "response": "As of the 2026-08-12 catalog snapshot, CSE 100 (FA26) shows 100/100 seats taken and 0 available. Seat counts are a static snapshot, not real-time — please check WebReg for current availability.",
+  "intent": "availability",
+  "intent_group": "facts",
+  "agent_type": "course",
+  "agent_types": ["course"],
+  "primary_agent": "course",
+  "supporting_agents": [],
+  "routing_reason": "意图 availability 属于 facts 组，路由到 Course Agent",
+  "routing_confidence": 0.92,
   "escalated": false,
-  "latency_ms": 1234.5
+  "latency_ms": 1234.5,
+  "knowledge_used": true,
+  "entities": {"course_code": ["CSE 100"]},
+  "intent_confidence": 0.91,
+  "intent_source_scores": {"llm": 0.9, "pattern": 1.0}
 }
 ```
 
@@ -475,13 +514,16 @@ curl -X POST http://localhost:8000/chat \
 
 | 字段 | 含义 |
 |------|------|
-| `message` | 用户输入 |
+| `message` | 用户输入（英文提问得英文回答，中文提问得中文回答） |
 | `user_id` | 用户唯一标识，用于隔离记忆和用户画像 |
 | `conv_id` | 会话 ID，相同 `conv_id` 表示同一轮多轮对话 |
-| `intent` | 识别出的意图 |
-| `agent_type` | 实际处理请求的 Agent |
-| `escalated` | 是否触发升级/转人工 |
+| `intent` / `intent_group` | 细粒度意图及其意图组 |
+| `agent_type` | 实际处理请求的 Agent（`general` / `course` / `planning`） |
+| `entities` | 抽取出的课程实体，命中 `course_code` / `instructor` 时会触发 `course_lookup` 精确查询 |
+| `escalated` | 是否已转介官方渠道（Advisor Referral） |
 | `latency_ms` | 端到端延迟 |
+
+注意示例回复中的名额数字带有快照时间戳：这是回答安全约束之一，名额永远按静态快照口径表述，不是实时数据。
 
 ### 6.2 多轮对话
 
@@ -491,41 +533,55 @@ curl -X POST http://localhost:8000/chat \
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
-    "message": "订单号是 A123456",
+    "message": "它的先修是什么？",
     "user_id": "user_001",
     "conv_id": "session_001"
   }'
 ```
 
-系统会从 Redis 读取当前会话最近消息，并从 ChromaDB 读取相关历史和用户画像，拼成上下文传给 Agent。
+系统会从 Redis 读取当前会话最近消息，并从 ChromaDB 读取相关历史和用户画像，拼成上下文传给 Agent。上面这句依赖上一轮提到的课程实体（如 CSE 100）延续对话。
 
-### 6.3 技术问题示例
-
-```bash
-curl -X POST http://localhost:8000/chat \
-  -H "Content-Type: application/json" \
-  -d '{
-    "message": "应用登录一直报 401 错误",
-    "user_id": "user_tech",
-    "conv_id": "tech_001"
-  }'
-```
-
-预期会路由到 `technical` Agent。
-
-### 6.4 账单问题示例
+### 6.3 课程事实示例
 
 ```bash
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
-    "message": "为什么这个月重复扣款了？我要退款",
-    "user_id": "user_bill",
-    "conv_id": "bill_001"
+    "message": "谁教 CSE 100？",
+    "user_id": "user_facts",
+    "conv_id": "facts_001"
   }'
 ```
 
-预期会路由到 `billing` Agent。
+预期识别为 `instructor_lookup` 意图并路由到 `course` Agent，回答引用 Course Index 中 FA26 的授课教授（Paul Cao）。
+
+再试一个时间地点问题：
+
+```bash
+curl -X POST http://localhost:8000/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "message": "FA26 的 MATH 20C 什么时候上课？",
+    "user_id": "user_facts",
+    "conv_id": "facts_002"
+  }'
+```
+
+预期识别为 `schedule` 意图，回答给出 FA26 快照中的上课安排（如 MWF 8:00–8:50，WLH 2005，instructor Michael Holst），并注明学期。
+
+### 6.4 规划建议示例
+
+```bash
+curl -X POST http://localhost:8000/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "message": "同时上 CSE 100 和 CSE 110 会不会太累？",
+    "user_id": "user_plan",
+    "conv_id": "plan_001"
+  }'
+```
+
+预期识别为 `workload_advice` 意图并路由到 `planning` Agent。回答会给出有依据的倾向性建议，并附规划免责声明（非官方 advising 建议，选课决策请咨询 advisor）。
 
 ### 6.5 复合问题示例
 
@@ -533,23 +589,39 @@ curl -X POST http://localhost:8000/chat \
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
-    "message": "登录报错 401，而且这个月还重复扣款了",
+    "message": "CSE 100 还有位置吗？另外我下学期同时上 CSE 100 和 CSE 110 会不会太累？",
     "user_id": "user_mix",
     "conv_id": "mix_001"
   }'
 ```
 
-这类问题会触发多 Agent 并行协作，由技术 Agent 和账单 Agent 分别处理后合并回复。
+这类问题会触发多 Agent 并行协作，由 Course Agent 和 Planning Agent 分别处理后合并回复（响应中的 `primary_agent` / `supporting_agents` 会体现协作关系）。
 
 ## 7. 知识库使用
 
-EchoMind 的知识库由 `mcp/knowledge_base.py` 管理，底层使用 ChromaDB collection：
+CourseHub 的知识库由 `mcp/knowledge_base.py` 管理，底层使用 ChromaDB collection：
 
 ```text
 knowledge_base
 ```
 
-首次启动时，如果知识库为空，会自动导入默认客服文档，包括退款政策、订单查询、账户安全、技术故障排查、会员积分、配送说明。
+首次启动时，如果知识库为空，会自动导入 6 篇 CourseHub 元文档（数据来源与覆盖、名额数据使用规则、成绩历史数据的读法、能力边界、学期代码说明、提问技巧），保证空库启动时 `meta_info` 类问题有据可答。
+
+课程正文数据通过两步数据管线导入：
+
+```bash
+# 第一步：从 ucsd-course-data 快照构建课程数据
+# 产出 data/coursehub/{course_index.sqlite, knowledge_docs.json, dictionaries.json}
+python tools/build_course_data.py
+
+# 第二步：服务启动后，通过 /knowledge/add 批量灌入 Knowledge Docs
+# --api 的端口与 .env 中的 ECHOMIND_HOST_PORT 保持一致
+python tools/ingest_knowledge_docs.py --api http://localhost:8003
+```
+
+Knowledge Doc 的粒度是每门唯一课程（subject + number）一篇，共 5,968 篇（切块后 8,722 个片段）。
+
+检索采用混合方案（ADR-0001）：ChromaDB 语义检索负责课程描述类内容；精确数字（名额、时间、GPA）由 `course_lookup` 工具查询 SQLite Course Index，实体命中 `course_code` 或 `instructor` 时与语义检索并行触发，两路结果一起拼进上下文。精确数字只来自 Course Index，绝不靠生成。
 
 ### 7.1 查看知识库统计
 
@@ -561,9 +633,11 @@ curl http://localhost:8000/knowledge/stats
 
 ```json
 {
-  "total_chunks": 18
+  "total_chunks": 8722
 }
 ```
+
+只导入默认元文档时片段数为个位数；执行完两步数据管线后约为 8,722（对应 5,968 篇课程 Knowledge Doc）。
 
 ### 7.2 批量导入文档
 
@@ -573,18 +647,19 @@ curl -X POST http://localhost:8000/knowledge/add \
   -d '{
     "documents": [
       {
-        "title": "退换货政策",
-        "content": "用户在购买后 7 天内可以申请无理由退货，审核通过后 5-7 个工作日退款。"
+        "title": "CSE 100: Advanced Data Structures",
+        "content": "课程内容：高级数据结构与相关算法...\n学分：4\n开课学期：FA24 ... FA26",
+        "metadata": {"subject": "CSE", "course_number": "100"}
       },
       {
-        "title": "会员权益",
-        "content": "金卡会员享受 9 折优惠，生日当月可获得双倍积分。"
+        "title": "选课时间线小贴士",
+        "content": "UCSD 每学期按 first pass / second pass 分批开放选课，热门课程建议第一时间注册。"
       }
     ]
   }'
 ```
 
-系统会把长文档切成 500 字左右的片段，并写入 ChromaDB。
+系统会把长文档切成 500 字左右的片段，并写入 ChromaDB。`metadata` 为可选字段，键值会并入每个片段的 ChromaDB metadata。
 
 ### 7.3 上传文件导入知识库
 
@@ -616,18 +691,18 @@ JSON 格式必须是数组：
 ### 7.4 检索知识库
 
 ```bash
-curl -X POST "http://localhost:8000/search?query=退款需要多久到账&top_k=3"
+curl -X POST "http://localhost:8000/search?query=数据结构课程&top_k=3"
 ```
 
 响应示例：
 
 ```json
 {
-  "query": "退款需要多久到账",
+  "query": "数据结构课程",
   "results": [
     {
-      "title": "退款政策",
-      "content": "审核通过后，款项将在 5-7 个工作日内退回原支付账户。",
+      "title": "CSE 100: Advanced Data Structures",
+      "content": "课程内容：高级数据结构与相关算法...\n学分：4\n开课学期：FA24 ... FA26",
       "score": 0.82,
       "chunk": 0
     }
@@ -649,7 +724,7 @@ curl -X POST "http://localhost:8000/search?query=退款需要多久到账&top_k=
 
 ## 8. ChromaDB 在项目中的用途
 
-EchoMind 使用了三个 ChromaDB collection：
+CourseHub 使用了三个 ChromaDB collection：
 
 | Collection | 模块 | 作用 |
 |------------|------|------|
@@ -780,7 +855,7 @@ client = chromadb.HttpClient(host="chromadb", port=8000)
 col = client.get_collection("knowledge_base")
 
 result = col.query(
-    query_texts=["退款多久到账"],
+    query_texts=["数据结构课程"],
     n_results=3,
     include=["documents", "metadatas", "distances"],
 )
@@ -804,7 +879,7 @@ PY
 ```bash
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "我经常咨询会员积分和退款问题，回答请简洁一点", "user_id": "profile_user", "conv_id": "profile_session"}'
+  -d '{"message": "我主要关注 CSE 和 MATH 的课程，回答请简洁一点", "user_id": "profile_user", "conv_id": "profile_session"}'
 ```
 
 等待几秒后查看：
@@ -843,7 +918,7 @@ PY
 for i in $(seq 1 16); do
   curl -s -X POST http://localhost:8000/chat \
     -H "Content-Type: application/json" \
-    -d "{\"message\": \"这是第 $i 条测试消息，我想咨询退款和订单问题\", \"user_id\": \"episodic_user\", \"conv_id\": \"episodic_session\"}" > /dev/null
+    -d "{\"message\": \"这是第 $i 条测试消息，我想了解 CSE 100 的先修和名额\", \"user_id\": \"episodic_user\", \"conv_id\": \"episodic_session\"}" > /dev/null
 done
 ```
 
@@ -1170,6 +1245,13 @@ curl http://localhost:8000/monitor
       "avg_latency_ms": 80.2,
       "consecutive_fails": 0,
       "circuit_state": "closed"
+    },
+    "course_lookup": {
+      "total": 3,
+      "success_rate": 1.0,
+      "avg_latency_ms": 12.4,
+      "consecutive_fails": 0,
+      "circuit_state": "closed"
     }
   },
   "active_alerts": [],
@@ -1203,21 +1285,23 @@ curl -X POST http://localhost:8000/eval/run
 
 评测内容：
 
-1. 意图识别准确率和 Macro-F1
-2. 调用 Orchestrator 生成真实回复
+1. 意图识别准确率和 Macro-F1（内置 14 条中英混合意图用例，覆盖全部 14 个细粒度意图）
+2. 调用 Orchestrator 对 5 条对话用例生成真实回复。每条用例钉住一条回答安全约束：多轮记忆与实体延续、名额带快照时间戳、不合成课程 GPA（按教授 × 学期列出）、规划免责声明、个案转介官方渠道
 3. LLM-as-Judge 从相关性、准确性、完整性、有用性打分
 4. 与上一次评测结果做回归检测
 5. 生成优化建议
+
+通过阈值为 0.75（意图准确率与单条对话综合分均按此判定）。
 
 响应示例：
 
 ```json
 {
-  "pass_rate": 0.83,
-  "total": 5,
-  "passed": 4,
+  "pass_rate": 0.875,
+  "total": 8,
+  "passed": 7,
   "avg_scores": {
-    "intent_accuracy": 0.875,
+    "intent_accuracy": 0.857,
     "relevance": 0.88,
     "accuracy": 0.82,
     "completeness": 0.79,
@@ -1330,10 +1414,10 @@ curl -X POST http://localhost:8000/knowledge/upload \
   -F "file=@data/demo_docs/sample_knowledge.json"
 ```
 
-再测试：
+完整课程数据未导入时，先执行第 7 节的两步数据管线。再测试：
 
 ```bash
-curl -X POST "http://localhost:8000/search?query=API如何接入&top_k=3"
+curl -X POST "http://localhost:8000/search?query=数据结构课程&top_k=3"
 ```
 
 ### 15.5 用户画像查不到
@@ -1355,6 +1439,10 @@ MemoryManager.COMPRESS_AT = 15
 
 连续发 16 条以上消息后再查看 `episodic`。
 
+### 15.7 自定义模型返回空回复
+
+推理型模型（如 DeepSeek v4）会先输出 thinking 块，已在代码里调大 max_tokens；若自定义模型出现空回复，检查 max_tokens 是否被 thinking 消耗。
+
 ## 16. 推荐验证流程
 
 完整验证可以按这个顺序执行：
@@ -1369,17 +1457,17 @@ curl http://localhost:8000/health
 # 3. 主对话
 curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
-  -d '{"message": "你好，我想了解退款政策", "user_id": "demo_user", "conv_id": "demo_conv"}'
+  -d '{"message": "你好，我想了解 CSE 100", "user_id": "demo_user", "conv_id": "demo_conv"}'
 
 # 4. 知识库统计
 curl http://localhost:8000/knowledge/stats
 
-# 5. 导入演示知识库
+# 5. 导入演示知识库（完整课程数据见第 7 节的两步数据管线）
 curl -X POST http://localhost:8000/knowledge/upload \
   -F "file=@data/demo_docs/sample_knowledge.json"
 
 # 6. 检索
-curl -X POST "http://localhost:8000/search?query=EchoMind如何接入API&top_k=3"
+curl -X POST "http://localhost:8000/search?query=数据结构课程&top_k=3"
 
 # 7. 监控
 curl http://localhost:8000/monitor
