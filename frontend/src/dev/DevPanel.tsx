@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { API_BASE } from "../lib/chatApi";
+import { DEV_STRINGS } from "../lib/strings";
 
 /**
  * 开发者面板(/dev 隐藏路由,不入导航、无鉴权):
@@ -53,6 +54,7 @@ export const DevPanel = () => {
   const [notice, setNotice] = useState<string>("");
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
+  const [pending, setPending] = useState<"reload" | "add" | "upload" | null>(null);
 
   const loadAll = useCallback(async () => {
     const grab = async <T,>(path: string): Promise<T | null> => {
@@ -78,47 +80,59 @@ export const DevPanel = () => {
   }, [loadAll]);
 
   const reloadSkills = async () => {
-    const res = await fetch(`${API_BASE}/skills/reload`, { method: "POST" });
-    if (res.ok) {
+    setPending("reload");
+    try {
+      const res = await fetch(`${API_BASE}/skills/reload`, { method: "POST" });
+      if (!res.ok) throw new Error("reload failed");
       setSkills((await res.json()) as SkillsSummary);
-      setNotice("Skills reloaded.");
-    } else {
-      setNotice("Skills reload failed.");
+      setNotice(DEV_STRINGS.skillsReloaded);
+    } catch {
+      setNotice(DEV_STRINGS.skillsReloadFailed);
+    } finally {
+      setPending(null);
     }
   };
 
   const addDocument = async (e: React.FormEvent) => {
     e.preventDefault();
-    const res = await fetch(`${API_BASE}/knowledge/add`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ documents: [{ title, content }] }),
-    });
-    if (res.ok) {
-      const data = (await res.json()) as { message: string };
-      setNotice(data.message);
+    setPending("add");
+    try {
+      const res = await fetch(`${API_BASE}/knowledge/add`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ documents: [{ title, content }] }),
+      });
+      if (!res.ok) throw new Error("import failed");
+      const data = (await res.json()) as { added_chunks: number };
+      setNotice(DEV_STRINGS.importSucceeded(data.added_chunks));
       setTitle("");
       setContent("");
       void loadAll();
-    } else {
-      setNotice("Import failed.");
+    } catch {
+      setNotice(DEV_STRINGS.importFailed);
+    } finally {
+      setPending(null);
     }
   };
 
   const uploadFile = async (file: File | undefined) => {
     if (!file) return;
-    const form = new FormData();
-    form.append("file", file);
-    const res = await fetch(`${API_BASE}/knowledge/upload`, {
-      method: "POST",
-      body: form,
-    });
-    if (res.ok) {
-      const data = (await res.json()) as { message: string };
-      setNotice(data.message);
+    setPending("upload");
+    try {
+      const form = new FormData();
+      form.append("file", file);
+      const res = await fetch(`${API_BASE}/knowledge/upload`, {
+        method: "POST",
+        body: form,
+      });
+      if (!res.ok) throw new Error("upload failed");
+      const data = (await res.json()) as { added_chunks: number };
+      setNotice(DEV_STRINGS.uploadSucceeded(file.name, data.added_chunks));
       void loadAll();
-    } else {
-      setNotice("Upload failed.");
+    } catch {
+      setNotice(DEV_STRINGS.uploadFailed);
+    } finally {
+      setPending(null);
     }
   };
 
@@ -128,12 +142,12 @@ export const DevPanel = () => {
     <div className="min-h-dvh bg-background p-6 text-sm text-foreground">
       <div className="mx-auto flex max-w-5xl flex-col gap-5">
         <header className="flex items-baseline gap-3">
-          <h1 className="text-xl font-semibold">CourseHub Developer Panel</h1>
+          <h1 className="text-xl font-semibold">{DEV_STRINGS.title}</h1>
           <a href="/" className="text-xs text-muted-foreground underline">
-            back to chat
+            {DEV_STRINGS.backToChat}
           </a>
           <button type="button" onClick={() => void loadAll()} className={`${button} ml-auto`}>
-            Refresh
+            {DEV_STRINGS.refresh}
           </button>
         </header>
 
@@ -146,42 +160,46 @@ export const DevPanel = () => {
           </p>
         )}
 
-        <section className={card} aria-label="Knowledge base">
-          <h2 className="mb-3 font-semibold">Knowledge base</h2>
+        <section className={card} aria-label={DEV_STRINGS.knowledgeBase}>
+          <h2 className="mb-3 font-semibold">{DEV_STRINGS.knowledgeBase}</h2>
           {stats ? (
             <p className="mb-3 text-muted-foreground">
-              {stats.total_chunks} chunks · {stats.total_documents} documents ·{" "}
-              {stats.course_documents} course documents
+              {DEV_STRINGS.stats(
+                stats.total_chunks,
+                stats.total_documents,
+                stats.course_documents,
+              )}
             </p>
           ) : (
-            <p className="mb-3 text-muted-foreground">Stats unavailable.</p>
+            <p className="mb-3 text-muted-foreground">{DEV_STRINGS.statsUnavailable}</p>
           )}
           <form onSubmit={addDocument} className="flex flex-col gap-2">
             <input
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              placeholder="Document title"
+              placeholder={DEV_STRINGS.documentTitle}
               required
               className="rounded-lg border border-input bg-transparent px-3 py-1.5"
             />
             <textarea
               value={content}
               onChange={(e) => setContent(e.target.value)}
-              placeholder="Document content"
+              placeholder={DEV_STRINGS.documentContent}
               required
               rows={3}
               className="rounded-lg border border-input bg-transparent px-3 py-1.5"
             />
             <div className="flex items-center gap-3">
-              <button type="submit" className={button}>
-                Add document
+              <button type="submit" disabled={pending !== null} className={button}>
+                {pending === "add" ? DEV_STRINGS.addingDocument : DEV_STRINGS.addDocument}
               </button>
               <label className={`${button} cursor-pointer`}>
-                Upload file (.txt / .md / .json)
+                {pending === "upload" ? DEV_STRINGS.uploadingFile : DEV_STRINGS.uploadFile}
                 <input
                   type="file"
                   accept=".txt,.md,.json"
                   className="hidden"
+                  disabled={pending !== null}
                   onChange={(e) => void uploadFile(e.target.files?.[0])}
                 />
               </label>
@@ -189,19 +207,19 @@ export const DevPanel = () => {
           </form>
         </section>
 
-        <section className={card} aria-label="Monitor">
-          <h2 className="mb-3 font-semibold">Monitor</h2>
+        <section className={card} aria-label={DEV_STRINGS.monitor}>
+          <h2 className="mb-3 font-semibold">{DEV_STRINGS.monitor}</h2>
           {monitor ? (
             <div className="flex flex-col gap-4">
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="border-b border-border">
-                    <th className={th}>Agent</th>
-                    <th className={th}>Runs</th>
-                    <th className={th}>Success</th>
-                    <th className={th}>Avg ms</th>
-                    <th className={th}>Penalty</th>
-                    <th className={th}>Routing score</th>
+                    <th className={th}>{DEV_STRINGS.agent}</th>
+                    <th className={th}>{DEV_STRINGS.runs}</th>
+                    <th className={th}>{DEV_STRINGS.success}</th>
+                    <th className={th}>{DEV_STRINGS.averageMs}</th>
+                    <th className={th}>{DEV_STRINGS.penalty}</th>
+                    <th className={th}>{DEV_STRINGS.routingScore}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -220,11 +238,11 @@ export const DevPanel = () => {
               <table className="w-full border-collapse">
                 <thead>
                   <tr className="border-b border-border">
-                    <th className={th}>Tool</th>
-                    <th className={th}>Calls</th>
-                    <th className={th}>Success</th>
-                    <th className={th}>Avg latency ms</th>
-                    <th className={th}>Circuit</th>
+                    <th className={th}>{DEV_STRINGS.tool}</th>
+                    <th className={th}>{DEV_STRINGS.calls}</th>
+                    <th className={th}>{DEV_STRINGS.success}</th>
+                    <th className={th}>{DEV_STRINGS.averageLatencyMs}</th>
+                    <th className={th}>{DEV_STRINGS.circuit}</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -253,15 +271,20 @@ export const DevPanel = () => {
               )}
             </div>
           ) : (
-            <p className="text-muted-foreground">Monitor unavailable.</p>
+            <p className="text-muted-foreground">{DEV_STRINGS.monitorUnavailable}</p>
           )}
         </section>
 
-        <section className={card} aria-label="Skills">
+        <section className={card} aria-label={DEV_STRINGS.skills}>
           <div className="mb-3 flex items-center gap-3">
-            <h2 className="font-semibold">Skills</h2>
-            <button type="button" onClick={() => void reloadSkills()} className={button}>
-              Reload skills
+            <h2 className="font-semibold">{DEV_STRINGS.skills}</h2>
+            <button
+              type="button"
+              disabled={pending !== null}
+              onClick={() => void reloadSkills()}
+              className={button}
+            >
+              {pending === "reload" ? DEV_STRINGS.reloadingSkills : DEV_STRINGS.reloadSkills}
             </button>
           </div>
           {skills ? (
@@ -273,13 +296,13 @@ export const DevPanel = () => {
                     {skill.description}
                   </span>
                   <span className="ml-2 text-xs text-muted-foreground">
-                    {skill.keywords.length} keywords
+                    {DEV_STRINGS.keywords(skill.keywords.length)}
                   </span>
                 </li>
               ))}
             </ul>
           ) : (
-            <p className="text-muted-foreground">Skills unavailable.</p>
+            <p className="text-muted-foreground">{DEV_STRINGS.skillsUnavailable}</p>
           )}
         </section>
       </div>

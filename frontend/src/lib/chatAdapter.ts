@@ -2,7 +2,12 @@ import type { ChatModelAdapter, ThreadMessage } from "@assistant-ui/react";
 import { parseSseStream } from "./sse";
 import { API_BASE, type ChatAnswer } from "./chatApi";
 import { getBrowserUserId } from "./identity";
-import { isStageEventName, type ChatMessageCustom, type StageRecord } from "./stages";
+import {
+  decodeStageEvent,
+  isStageEventName,
+  type ChatMessageCustom,
+  type StageRecord,
+} from "./stages";
 import { STRINGS } from "./strings";
 
 /** Typewriter presentation: the answer arrives whole; reveal is cosmetic. */
@@ -24,13 +29,15 @@ function lastUserText(messages: readonly ThreadMessage[]): string {
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
+class BackendStreamError extends Error {}
+
 /** 同一会话的 conv_id 单一事实来源:最近一条 assistant 消息的 answer 元数据。 */
 function findConvId(messages: readonly ThreadMessage[]): string | undefined {
   for (let i = messages.length - 1; i >= 0; i--) {
     const message = messages[i];
     if (message.role === "assistant") {
       const custom = message.metadata?.custom as ChatMessageCustom | undefined;
-      const convId = (custom?.answer as ChatAnswer | undefined)?.conv_id;
+      const convId = custom?.answer?.conv_id;
       if (convId) return convId;
     }
   }
@@ -81,21 +88,31 @@ export function createChatAdapter(): ChatModelAdapter {
       if (response === null || !response.ok || !response.body) {
         answer = await fetchChatFallback(body, abortSignal);
       } else {
-        for await (const evt of parseSseStream(response.body)) {
-          if (evt.event === "answer") {
-            answer = evt.data as ChatAnswer;
-          } else if (evt.event === "error") {
-            const message = (evt.data as { message?: string } | null)?.message;
-            throw new Error(message || STRINGS.requestFailed);
-          } else if (isStageEventName(evt.event)) {
-            // 阶段事件实时透出:先于任何答案文本更新 metadata,驱动过程展示。
-            stages.push({ event: evt.event, data: evt.data });
-            yield { content: [], metadata: { custom: { stages: [...stages] } } };
+        let streamFailure: unknown = null;
+        try {
+          for await (const evt of parseSseStream(response.body)) {
+            if (evt.event === "answer") {
+              answer = evt.data as ChatAnswer;
+            } else if (evt.event === "error") {
+              const message = (evt.data as { message?: string } | null)?.message;
+              throw new BackendStreamError(message || STRINGS.requestFailed);
+            } else if (isStageEventName(evt.event)) {
+              // 阶段事件实时透出:先于任何答案文本更新 metadata,驱动过程展示。
+              stages.push(decodeStageEvent(evt.event, evt.data));
+              yield { content: [], metadata: { custom: { stages: [...stages] } } };
+            }
           }
+        } catch (err) {
+          if (abortSignal.aborted) throw err;
+          streamFailure = err;
         }
-      }
-      if (!answer) {
-        throw new Error(STRINGS.streamEndedUnexpectedly);
+
+        if (!answer) {
+          if (streamFailure instanceof BackendStreamError) throw streamFailure;
+          // 回退会重新执行请求；不能把失败 attempt 的阶段附到第二次请求的答案。
+          stages.length = 0;
+          answer = await fetchChatFallback(body, abortSignal);
+        }
       }
 
       const full = answer.response;

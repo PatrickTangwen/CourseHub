@@ -1,5 +1,4 @@
 import { useAuiState } from "@assistant-ui/react";
-import type { ChatAnswer } from "../lib/chatApi";
 import type { ChatMessageCustom } from "../lib/stages";
 import { REFERRAL_CHANNELS, STRINGS } from "../lib/strings";
 
@@ -11,7 +10,7 @@ export const ReferralCard = () => {
   const escalated = useAuiState((s) => {
     if (s.message.role !== "assistant") return false;
     const custom = s.message.metadata?.custom as ChatMessageCustom | undefined;
-    return Boolean((custom?.answer as ChatAnswer | undefined)?.escalated);
+    return Boolean(custom?.answer?.escalated);
   });
   if (!escalated) return null;
   return (

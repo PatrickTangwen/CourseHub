@@ -9,24 +9,21 @@
  */
 import type { ChatAnswer } from "./chatApi";
 import type { StageRecord } from "./stages";
+import { PROCESS_STRINGS } from "./strings";
 
 export const STAGE_LABELS = {
-  run_started: "Thinking",
-  memory_recalled: "Recalling conversation context",
-  intent_recognized: "Understanding the question",
-  routing_decided: "Routing to specialists",
+  run_started: PROCESS_STRINGS.thinking,
+  memory_recalled: PROCESS_STRINGS.recallingContext,
+  intent_recognized: PROCESS_STRINGS.understandingQuestion,
+  routing_decided: PROCESS_STRINGS.routingToSpecialists,
 } as const;
 
 export const TOOL_LABELS: Record<string, string> = {
-  course_lookup: "Searching the course index",
-  knowledge_search: "Reading course materials",
+  course_lookup: PROCESS_STRINGS.searchingCourseIndex,
+  knowledge_search: PROCESS_STRINGS.readingCourseMaterials,
 };
 
-export const AGENT_LABELS: Record<string, string> = {
-  general: "General Agent",
-  course: "Course Agent",
-  planning: "Planning Agent",
-};
+export const AGENT_LABELS: Record<string, string> = PROCESS_STRINGS.agentLabels;
 
 export const toolLabel = (name: string): string => TOOL_LABELS[name] ?? name;
 export const agentLabel = (name: string): string => AGENT_LABELS[name] ?? name;
@@ -51,86 +48,91 @@ interface ToolAgg {
   failed: number;
 }
 
-const asRecord = (data: unknown): Record<string, unknown> =>
-  data != null && typeof data === "object" ? (data as Record<string, unknown>) : {};
-
-const pct = (value: unknown): string =>
-  typeof value === "number" ? `${Math.round(value * 100)}%` : "";
+const pct = (value: number): string => `${Math.round(value * 100)}%`;
 
 /** 把阶段事件流折算成显示步骤:同名工具聚合为一步(含调用次数与总耗时)。 */
 export function buildTimeline(stages: StageRecord[], isRunning: boolean): TimelineStep[] {
   const steps: TimelineStep[] = [];
   const tools = new Map<string, ToolAgg>();
 
+  const getOrCreateTool = (name: string): ToolAgg => {
+    let agg = tools.get(name);
+    if (!agg) {
+      agg = {
+        step: { key: `tool:${name}`, label: toolLabel(name), raw: name, active: false },
+        started: 0,
+        finished: 0,
+        totalMs: 0,
+        failed: 0,
+      };
+      tools.set(name, agg);
+      steps.push(agg.step);
+    }
+    return agg;
+  };
+
   for (const stage of stages) {
-    const data = asRecord(stage.data);
     switch (stage.event) {
       case "run_started":
         break; // 后续阶段到达前由下方的 Thinking 占位步骤承担(spec §4.2)
       case "memory_recalled": {
-        const working = Number(data.working_messages ?? 0);
-        const episodic = Number(data.episodic_hits ?? 0);
+        const data = stage.data;
         steps.push({
           key: "memory",
           label: STAGE_LABELS.memory_recalled,
-          detail: `${working} recent · ${episodic} related`,
+          detail: [
+            PROCESS_STRINGS.recentMessages(data.working_messages),
+            PROCESS_STRINGS.relatedMemories(data.episodic_hits),
+          ].join(" · "),
+          expandedDetail: [
+            PROCESS_STRINGS.profileAvailability(data.has_profile),
+            PROCESS_STRINGS.summaryAvailability(data.has_summary),
+          ].join(" · "),
           active: false,
         });
         break;
       }
       case "intent_recognized": {
-        const intent = String(data.intent ?? "");
-        const scores = asRecord(data.intent_source_scores);
-        const scoreText = Object.entries(scores)
-          .map(([source, score]) => `${source} ${typeof score === "number" ? score.toFixed(2) : score}`)
+        const data = stage.data;
+        const scoreText = Object.entries(data.intent_source_scores)
+          .map(([source, score]) => `${source} ${score.toFixed(2)}`)
           .join(" · ");
         steps.push({
           key: "intent",
           label: STAGE_LABELS.intent_recognized,
-          raw: intent,
-          detail: `${intent} · ${pct(data.intent_confidence)}`,
-          expandedDetail: scoreText ? `source scores: ${scoreText}` : undefined,
+          raw: data.intent,
+          detail: `${data.intent} · ${pct(data.intent_confidence)}`,
+          expandedDetail: scoreText ? PROCESS_STRINGS.sourceScores(scoreText) : undefined,
           active: false,
         });
         break;
       }
       case "tool_call_started": {
-        const name = String(data.tool_name ?? "tool");
-        let agg = tools.get(name);
-        if (!agg) {
-          agg = {
-            step: { key: `tool:${name}`, label: toolLabel(name), raw: name, active: false },
-            started: 0,
-            finished: 0,
-            totalMs: 0,
-            failed: 0,
-          };
-          tools.set(name, agg);
-          steps.push(agg.step);
-        }
+        const name = stage.data.tool_name;
+        const agg = getOrCreateTool(name);
         agg.started += 1;
         break;
       }
       case "tool_call_finished": {
-        const name = String(data.tool_name ?? "tool");
-        const agg = tools.get(name);
-        if (!agg) break;
+        const data = stage.data;
+        const name = data.tool_name;
+        const agg = getOrCreateTool(name);
         agg.finished += 1;
-        if (typeof data.duration_ms === "number") agg.totalMs += data.duration_ms;
+        agg.totalMs += data.duration_ms;
         if (data.success === false) agg.failed += 1;
         break;
       }
       case "routing_decided": {
-        const primary = agentLabel(String(data.primary_agent ?? ""));
-        const supporting = Array.isArray(data.supporting_agents)
-          ? data.supporting_agents.map((a) => `${agentLabel(String(a))} (support)`)
-          : [];
-        const reason = String(data.routing_reason ?? "");
+        const data = stage.data;
+        const primary = agentLabel(data.primary_agent);
+        const supporting = data.supporting_agents.map((agent) =>
+          PROCESS_STRINGS.supportingAgent(agentLabel(agent)),
+        );
         steps.push({
           key: "routing",
           label: STAGE_LABELS.routing_decided,
-          detail: [`${primary} (lead)`, ...supporting].join(" · "),
-          expandedDetail: reason || undefined,
+          detail: [PROCESS_STRINGS.leadAgent(primary), ...supporting].join(" · "),
+          expandedDetail: data.routing_reason || undefined,
           active: false,
         });
         break;
@@ -139,11 +141,15 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
   }
 
   for (const agg of tools.values()) {
-    const calls = agg.started > 1 ? ` ×${agg.started}` : "";
+    const calls = agg.started > 1 ? PROCESS_STRINGS.toolCount(agg.started) : "";
     agg.step.label = `${toolLabel(agg.step.raw ?? "")}${calls}`;
     const parts: string[] = [];
-    if (agg.finished > 0) parts.push(`${Math.round(agg.totalMs)}ms`);
-    if (agg.failed > 0) parts.push(`${agg.failed} failed`);
+    if (agg.finished > 0) {
+      parts.push(PROCESS_STRINGS.duration(agg.totalMs));
+      const succeeded = agg.finished - agg.failed;
+      if (succeeded > 0) parts.push(PROCESS_STRINGS.succeeded(succeeded));
+    }
+    if (agg.failed > 0) parts.push(PROCESS_STRINGS.failed(agg.failed));
     agg.step.detail = parts.join(" · ") || undefined;
     // 只有运行中才标 active:完成后即使有乱序/缺失的 finished 帧也不悬挂脉冲点。
     agg.step.active = isRunning && agg.started > agg.finished;
@@ -151,7 +157,7 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
 
   // run_started 已到、其余阶段未到:显示 "Thinking…" 占位步骤(spec §4.2)。
   if (steps.length === 0 && stages.some((s) => s.event === "run_started")) {
-    steps.push({ key: "thinking", label: `${STAGE_LABELS.run_started}…`, active: isRunning });
+    steps.push({ key: "thinking", label: PROCESS_STRINGS.thinkingActive, active: isRunning });
     return steps;
   }
 
@@ -171,9 +177,9 @@ export function summarizeTimeline(
   if (answer?.primary_agent) parts.push(agentLabel(answer.primary_agent));
   // 中性措辞:含语义检索,不能落入 "lookup"(CONTEXT.md 词表边界)。
   const toolCalls = stages.filter((s) => s.event === "tool_call_started").length;
-  if (toolCalls > 0) parts.push(`${toolCalls} tool call${toolCalls > 1 ? "s" : ""}`);
+  if (toolCalls > 0) parts.push(PROCESS_STRINGS.toolCalls(toolCalls));
   if (typeof answer?.latency_ms === "number") {
-    parts.push(`${(answer.latency_ms / 1000).toFixed(1)}s`);
+    parts.push(PROCESS_STRINGS.seconds(answer.latency_ms));
   }
-  return parts.join(" · ") || "Process";
+  return parts.join(" · ") || PROCESS_STRINGS.process;
 }

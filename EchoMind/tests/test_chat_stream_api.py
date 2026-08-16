@@ -50,6 +50,15 @@ def _make_run_result():
     )
 
 
+def _make_route_decision():
+    return types.SimpleNamespace(
+        primary_agent=_V("course"),
+        supporting_agents=[],
+        reason="intent=course_overview, primary=course",
+        confidence=0.88,
+    )
+
+
 class FakeOrchestrator:
     def __init__(self):
         self.intent_result = _make_intent_result()
@@ -58,7 +67,10 @@ class FakeOrchestrator:
     async def recognize_intent(self, message, history=None):
         return self.intent_result
 
-    async def run(self, req):
+    def route(self, req):
+        return _make_route_decision()
+
+    async def run(self, req, decision=None):
         return self.run_result
 
 
@@ -135,9 +147,11 @@ def test_stream_happy_path_event_order(api):
 
     events = _parse_sse(resp.text)
     names = [name for name, _ in events]
-    # 伪 orchestrator 不发 routing_decided(那是真 orchestrator 的钩子,
-    # 见 test_stage_events_hooks.py);API 层事件按编排序出现。
-    assert names == ["run_started", "memory_recalled", "intent_recognized", "answer", "done"]
+    # API adapter 统一发 run/memory/intent/routing，内核只发布 typed telemetry。
+    assert names == [
+        "run_started", "memory_recalled", "intent_recognized",
+        "routing_decided", "answer", "done",
+    ]
 
     payloads = dict(events)
     assert payloads["run_started"]["conv_id"] == "c-1"
@@ -206,8 +220,7 @@ def test_stream_503_when_service_not_ready(api):
 
 def test_stream_course_question_emits_tool_events(api, monkeypatch):
     """课程问题走真实 tool_manager(假 handler):工具事件出现在
-    intent_recognized 之后、routing_decided 之前(检索先于路由是本仓库
-    真实架构顺序,见 ADR-0001);问候类无工具事件由伪 orchestrator 流保证。"""
+    routing_decided 之后;问候类无工具事件由伪 orchestrator 流保证。"""
     client, main, orchestrator = api
 
     from agents.agent_orchestrator import AgentOrchestrator, AgentResponse, AgentType
@@ -264,9 +277,9 @@ def test_stream_course_question_emits_tool_events(api, monkeypatch):
     assert "tool_call_finished" in names
     assert "routing_decided" in names
     assert names[-2:] == ["answer", "done"]
-    assert names.index("intent_recognized") < names.index("tool_call_started")
+    assert names.index("intent_recognized") < names.index("routing_decided")
+    assert names.index("routing_decided") < names.index("tool_call_started")
     assert names.index("tool_call_started") < names.index("tool_call_finished")
-    assert names.index("tool_call_finished") < names.index("routing_decided")
 
     payloads = dict(events)
     assert payloads["tool_call_started"]["tool_name"] == "knowledge_search"
@@ -275,6 +288,58 @@ def test_stream_course_question_emits_tool_events(api, monkeypatch):
     assert isinstance(finished["duration_ms"], float)
     assert payloads["routing_decided"]["primary_agent"] == "course"
     assert payloads["answer"]["knowledge_used"] is True
+
+
+def test_stream_greeting_emits_no_tool_events(api, monkeypatch):
+    """问候类请求不触发检索 → 全事件序列里没有任何工具事件(#21 AC)。
+    真实 orchestrator + 已注册工具的真实 tool_manager,确保"没有工具事件"
+    是按意图跳过检索的结果,而不是没有工具可调。"""
+    client, main, _ = api
+
+    from agents.agent_orchestrator import AgentOrchestrator, AgentResponse, AgentType
+    from core.intent_recognizer import IntentCategory
+    from mcp.tool_manager import MCPToolManager, Tool
+
+    real_orchestrator = AgentOrchestrator(api_key="test-key")
+    intent_result = types.SimpleNamespace(
+        intent=IntentCategory.GREETING,
+        intent_group="general",
+        urgency=None,
+        confidence=0.99,
+        entities={},
+        source_scores={"llm": 1.0},
+    )
+
+    async def fake_recognize(message, history=None):
+        return intent_result
+
+    async def fake_execute(req, agent_type):
+        return AgentResponse(agent_type=AgentType.GENERAL, content="Hello!", success=True)
+
+    monkeypatch.setattr(real_orchestrator, "recognize_intent", fake_recognize)
+    monkeypatch.setattr(real_orchestrator, "_execute", fake_execute)
+    monkeypatch.setattr(main, "_orchestrator", real_orchestrator)
+
+    manager = MCPToolManager(api_key="test-key")
+
+    async def knowledge_handler(params, context=None):
+        return [{"title": "t", "content": "c", "score": 1.0}]
+
+    manager.register(Tool(
+        name="knowledge_search",
+        description="fake",
+        handler=knowledge_handler,
+        schema={"type": "object", "properties": {"query": {"type": "string"}}},
+    ))
+    monkeypatch.setattr(main, "_tool_manager", manager)
+
+    resp = client.post("/chat/stream", json={"message": "hi", "user_id": "u-1", "conv_id": "c-9"})
+    assert resp.status_code == 200
+    names = [name for name, _ in _parse_sse(resp.text)]
+    assert names == [
+        "run_started", "memory_recalled", "intent_recognized",
+        "routing_decided", "answer", "done",
+    ]
 
 
 def test_chat_behaviour_unchanged(api):

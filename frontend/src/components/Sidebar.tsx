@@ -18,7 +18,7 @@ const makeThreadListItem = (onNavigate?: () => void) => {
       </ThreadListItemPrimitive.Trigger>
       <ThreadListItemPrimitive.Delete
         aria-label={STRINGS.deleteChat}
-        className="mr-1 rounded px-1.5 py-0.5 text-muted-foreground opacity-0 transition-opacity hover:text-destructive group-hover:opacity-100"
+        className="mr-1 rounded px-1.5 py-0.5 text-muted-foreground opacity-0 transition-opacity hover:text-destructive focus-visible:opacity-100 group-focus-within:opacity-100 group-hover:opacity-100 max-md:opacity-100"
       >
         ×
       </ThreadListItemPrimitive.Delete>

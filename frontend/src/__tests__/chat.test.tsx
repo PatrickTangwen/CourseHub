@@ -127,6 +127,7 @@ describe("stage events (T2 placeholder display)", () => {
     sse.push('event: run_started\ndata: {"conv_id":"c-1"}\n\n');
     sse.push('event: memory_recalled\ndata: {"working_messages":1,"episodic_hits":2,"has_profile":true,"has_summary":false}\n\n');
     sse.push('event: intent_recognized\ndata: {"intent":"course_overview","intent_group":"facts","intent_confidence":0.93,"intent_source_scores":{"llm":0.9,"embedding":0,"pattern":0.7}}\n\n');
+    sse.push('event: routing_decided\ndata: {"primary_agent":"course","supporting_agents":["planning"],"routing_reason":"intent=course_overview, primary=course","routing_confidence":0.9}\n\n');
     sse.push('event: tool_call_started\ndata: {"tool_name":"knowledge_search"}\n\n');
 
     const liveSteps = await screen.findByTestId("process-steps");
@@ -139,7 +140,6 @@ describe("stage events (T2 placeholder display)", () => {
 
     // 完成:答案渲染,时间线收起为一行摘要
     sse.push('event: tool_call_finished\ndata: {"tool_name":"knowledge_search","success":true,"duration_ms":12.5}\n\n');
-    sse.push('event: routing_decided\ndata: {"primary_agent":"course","supporting_agents":["planning"],"routing_reason":"intent=course_overview, primary=course","routing_confidence":0.9}\n\n');
     sse.push(`event: answer\ndata: ${JSON.stringify(ANSWER)}\n\n`);
     sse.push("event: done\ndata: {}\n\n");
     sse.close();
@@ -169,6 +169,35 @@ describe("stage events (T2 placeholder display)", () => {
     // 再点收起
     await user.click(screen.getByTestId("process-toggle"));
     expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
+  });
+
+  it("preserves out-of-order tool results and shows complete memory and tool status", async () => {
+    const frames =
+      'event: run_started\ndata: {"conv_id":"c-1"}\n\n' +
+      'event: memory_recalled\ndata: {"working_messages":2,"episodic_hits":1,"has_profile":true,"has_summary":true}\n\n' +
+      'event: intent_recognized\ndata: {"intent":"course_overview","intent_group":"facts","intent_confidence":0.93,"intent_source_scores":{"llm":0.9,"embedding":0,"pattern":0.7}}\n\n' +
+      'event: routing_decided\ndata: {"primary_agent":"course","supporting_agents":[],"routing_reason":"facts → course","routing_confidence":0.9}\n\n' +
+      'event: tool_call_finished\ndata: {"tool_name":"course_lookup","success":true,"duration_ms":8.4}\n\n' +
+      'event: tool_call_started\ndata: {"tool_name":"course_lookup"}\n\n' +
+      `event: answer\ndata: ${JSON.stringify(ANSWER)}\n\n` +
+      "event: done\ndata: {}\n\n";
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(okResponse(frames)));
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "What does CSE 100 cover?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+    await screen.findByText(/CSE 100 covers advanced data structures/i);
+
+    await user.click(await screen.findByTestId("process-toggle"));
+    const steps = screen.getByTestId("process-steps");
+    expect(steps).toHaveTextContent("profile available");
+    expect(steps).toHaveTextContent("summary available");
+    expect(steps).toHaveTextContent("8ms");
+    expect(steps).toHaveTextContent("succeeded");
   });
 });
 
@@ -211,8 +240,8 @@ describe("multi-conversation & browser identity (T4)", () => {
     expect(body2.user_id).toBe(body1.user_id);
     expect(localStorage.getItem("coursehub.user_id")).toBe(body1.user_id);
 
-    // 新会话:回到空态,发问不带 conv_id
-    await user.click(screen.getByRole("button", { name: /new chat/i }));
+    // 新会话:回到空态,发问不带 conv_id(输入框工具条上也有一个同名按钮,故限定侧边栏)
+    await user.click(within(sidebar).getByRole("button", { name: /new chat/i }));
     await screen.findByText(/welcome to coursehub/i);
     await user.type(
       screen.getByPlaceholderText(/ask about ucsd courses/i),
@@ -392,6 +421,40 @@ describe("domain constraints & resilience (T5)", () => {
     expect(urls).toEqual(["/api/chat/stream", "/api/chat"]);
   });
 
+  it("falls back to POST /chat once when an established stream disconnects before answer", async () => {
+    const interruptedFrames =
+      'event: run_started\ndata: {"conv_id":"c-1"}\n\n' +
+      'event: memory_recalled\ndata: {"working_messages":0,"episodic_hits":0,"has_profile":false,"has_summary":false}\n\n';
+    const fetchMock = vi.fn().mockImplementation((url: string) => {
+      const u = String(url);
+      if (u.includes("/health")) return Promise.resolve(healthOk);
+      if (u.includes("/chat/stream")) {
+        return Promise.resolve(okResponse(interruptedFrames));
+      }
+      return Promise.resolve({
+        ok: true,
+        status: 200,
+        json: async () => ANSWER,
+      } as Response);
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    render(<App />);
+    const user = userEvent.setup();
+    await user.type(
+      screen.getByPlaceholderText(/ask about ucsd courses/i),
+      "What does CSE 100 cover?",
+    );
+    await user.click(screen.getByRole("button", { name: /send/i }));
+
+    expect(
+      await screen.findByText(/CSE 100 covers advanced data structures/i),
+    ).toBeInTheDocument();
+    expect(screen.queryByTestId("process-timeline")).not.toBeInTheDocument();
+    const urls = chatCalls(fetchMock).map(([url]) => String(url));
+    expect(urls).toEqual(["/api/chat/stream", "/api/chat"]);
+  });
+
   it("shows an error bubble with Retry when both paths fail; Retry refires the run", async () => {
     let healthy = false;
     const fetchMock = vi.fn().mockImplementation((url: string) => {
@@ -423,7 +486,7 @@ describe("domain constraints & resilience (T5)", () => {
     ).toBeInTheDocument();
   });
 
-  it("reflects backend health in the header indicator", async () => {
+  it("reflects backend health in the composer indicator", async () => {
     vi.stubGlobal(
       "fetch",
       vi.fn().mockImplementation((url: string) =>

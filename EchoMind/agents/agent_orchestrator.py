@@ -28,7 +28,6 @@ from typing import Any, Dict, List, Optional
 from anthropic import AsyncAnthropic
 
 from core.intent_recognizer import IntentCategory, IntentRecognizer, UrgencyLevel
-from core.stage_events import emit_stage
 from core.llm_utils import AGENT_MAX_TOKENS, extract_text_content
 
 logger = logging.getLogger(__name__)
@@ -341,9 +340,23 @@ class AgentOrchestrator:
         """对外暴露意图识别，供 API 层先判断是否需要 RAG 等前置能力。"""
         return await self._intent_recognizer.recognize(message, history=history)
 
+    def route(self, req: Request) -> RoutingDecision:
+        """生成可复用的结构化路由决策，不执行 Agent。"""
+        if self._needs_clarification(req):
+            return RoutingDecision(
+                primary_agent=AgentType.GENERAL,
+                reason="低置信度 OTHER 意图，先澄清用户需求",
+                confidence=req.intent_confidence,
+            )
+        return self._route_decision(req)
+
     # ── 主入口 ────────────────────────────────────────────────────────────────
 
-    async def run(self, req: Request) -> OrchestratorResult:
+    async def run(
+        self,
+        req: Request,
+        decision: Optional[RoutingDecision] = None,
+    ) -> OrchestratorResult:
         """
         处理一次请求的完整流程：
           意图识别 → 路由选 Agent → 执行 → 检查升级 → 返回结果
@@ -360,28 +373,22 @@ class AgentOrchestrator:
             if not req.entities:
                 req.entities = intent_result.entities  # 实体驱动领域加成与 [结构化实体] 注入
 
+        decision = decision or self.route(req)
         if self._needs_clarification(req):
             return OrchestratorResult(
                 request_id=req.request_id,
                 response=self._clarification_message(req.message),
-                agent_type=AgentType.GENERAL,
+                agent_type=decision.primary_agent,
                 intent=req.intent,
                 escalated=False,
                 latency_ms=(time.monotonic() - t0) * 1000,
-                agent_types=[AgentType.GENERAL],
-                primary_agent=AgentType.GENERAL,
-                routing_reason="低置信度 OTHER 意图，先澄清用户需求",
-                routing_confidence=req.intent_confidence,
+                agent_types=[decision.primary_agent],
+                primary_agent=decision.primary_agent,
+                routing_reason=decision.reason,
+                routing_confidence=decision.confidence,
             )
 
         # 复杂问题自动并行协作，例如同一句同时涉及课程事实与选课规划。
-        decision = self._route_decision(req)
-        await emit_stage("routing_decided", {
-            "primary_agent": decision.primary_agent.value,
-            "supporting_agents": [a.value for a in decision.supporting_agents],
-            "routing_reason": decision.reason,
-            "routing_confidence": decision.confidence,
-        })
         if decision.multi_agent:
             return await self.run_parallel(req, decision)
 

@@ -10,7 +10,6 @@ export const STRINGS = {
   welcomeTitle: "Welcome to CourseHub",
   welcomeSubtitle:
     "Ask about courses, prerequisites, schedules, seats, professors, grade history, or planning advice.",
-  streamEndedUnexpectedly: "The stream ended unexpectedly. Please try again.",
   requestFailed: "The request failed. Please try again.",
   newChat: "New chat",
   deleteChat: "Delete chat",
@@ -22,6 +21,10 @@ export const STRINGS = {
   backendConnected: "Backend connected",
   backendDisconnected: "Backend unreachable",
   backendChecking: "Checking backend…",
+  /** 输入框内状态胶囊的短标签;完整语义留给 aria-label。 */
+  healthOk: "Connected",
+  healthDown: "Offline",
+  healthChecking: "Checking…",
   referralTitle: "This needs an official channel",
   referralIntro:
     "Case-specific matters (holds, waivers, petitions, disputes, accommodations) are handled by UCSD's official channels:",
@@ -34,10 +37,84 @@ export const REFERRAL_CHANNELS = [
   { name: "WebReg support", url: "https://students.ucsd.edu/academics/enroll/" },
 ] as const;
 
-/** 空态示例问题:中英各半,点击即发送,顺带展示双语自适应能力。 */
+/** 过程时间线 chrome 与动态模板的单一事实来源。 */
+export const PROCESS_STRINGS = {
+  thinking: "Thinking",
+  thinkingActive: "Thinking…",
+  recallingContext: "Recalling conversation context",
+  understandingQuestion: "Understanding the question",
+  routingToSpecialists: "Routing to specialists",
+  searchingCourseIndex: "Searching the course index",
+  readingCourseMaterials: "Reading course materials",
+  process: "Process",
+  agentLabels: {
+    general: "General Agent",
+    course: "Course Agent",
+    planning: "Planning Agent",
+  },
+  recentMessages: (count: number) => `${count} recent`,
+  relatedMemories: (count: number) => `${count} related`,
+  profileAvailability: (available: boolean) =>
+    `profile ${available ? "available" : "unavailable"}`,
+  summaryAvailability: (available: boolean) =>
+    `summary ${available ? "available" : "unavailable"}`,
+  sourceScores: (scores: string) => `source scores: ${scores}`,
+  leadAgent: (agent: string) => `${agent} (lead)`,
+  supportingAgent: (agent: string) => `${agent} (support)`,
+  toolCount: (count: number) => ` ×${count}`,
+  duration: (milliseconds: number) => `${Math.round(milliseconds)}ms`,
+  succeeded: (count: number) => (count === 1 ? "succeeded" : `${count} succeeded`),
+  failed: (count: number) => `${count} failed`,
+  toolCalls: (count: number) => `${count} tool call${count === 1 ? "" : "s"}`,
+  seconds: (milliseconds: number) => `${(milliseconds / 1000).toFixed(1)}s`,
+} as const;
+
+/** 隐藏开发者面板 chrome 与状态消息的单一事实来源。 */
+export const DEV_STRINGS = {
+  title: "CourseHub Developer Panel",
+  backToChat: "Back to chat",
+  refresh: "Refresh",
+  knowledgeBase: "Knowledge base",
+  stats: (chunks: number, documents: number, courseDocuments: number) =>
+    `${chunks} chunks · ${documents} documents · ${courseDocuments} course documents`,
+  statsUnavailable: "Stats unavailable.",
+  documentTitle: "Document title",
+  documentContent: "Document content",
+  addDocument: "Add document",
+  addingDocument: "Adding…",
+  uploadFile: "Upload file (.txt / .md / .json)",
+  uploadingFile: "Uploading…",
+  importSucceeded: (chunks: number) =>
+    `Imported ${chunks} document chunk${chunks === 1 ? "" : "s"}.`,
+  importFailed: "Import failed.",
+  uploadSucceeded: (filename: string, chunks: number) =>
+    `Uploaded ${filename} (${chunks} chunk${chunks === 1 ? "" : "s"}).`,
+  uploadFailed: "Upload failed.",
+  monitor: "Monitor",
+  monitorUnavailable: "Monitor unavailable.",
+  agent: "Agent",
+  runs: "Runs",
+  success: "Success",
+  averageMs: "Avg ms",
+  penalty: "Penalty",
+  routingScore: "Routing score",
+  tool: "Tool",
+  calls: "Calls",
+  averageLatencyMs: "Avg latency ms",
+  circuit: "Circuit",
+  skills: "Skills",
+  reloadSkills: "Reload skills",
+  reloadingSkills: "Reloading…",
+  skillsReloaded: "Skills reloaded.",
+  skillsReloadFailed: "Skills reload failed.",
+  skillsUnavailable: "Skills unavailable.",
+  keywords: (count: number) => `${count} keyword${count === 1 ? "" : "s"}`,
+} as const;
+
+/** 空态示例问题:中英各半,点击即发送,顺带展示双语自适应能力。icon 只是视觉分类。 */
 export const EXAMPLE_PROMPTS = [
-  "What does CSE 100 cover?",
-  "Who teaches CSE 101 in FA26?",
-  "CSE 100 有哪些先修要求?",
-  "帮我规划 CSE 100 和 CSE 110 的修课顺序",
+  { icon: "course", prompt: "What does CSE 100 cover?" },
+  { icon: "professor", prompt: "Who teaches CSE 101 in FA26?" },
+  { icon: "prereq", prompt: "CSE 100 有哪些先修要求?" },
+  { icon: "planning", prompt: "帮我规划 CSE 100 和 CSE 110 的修课顺序" },
 ] as const;

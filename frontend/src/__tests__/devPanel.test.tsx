@@ -34,24 +34,33 @@ const jsonResponse = (data: unknown) =>
 beforeEach(() => {
   vi.unstubAllGlobals();
   localStorage.clear();
+  window.history.pushState(null, "", "/");
 });
+
+const makeFetchMock = () =>
+  vi.fn().mockImplementation((url: string, init?: RequestInit) => {
+    const u = String(url);
+    if (u.includes("/knowledge/stats")) return Promise.resolve(jsonResponse(STATS));
+    if (u.includes("/monitor")) return Promise.resolve(jsonResponse(MONITOR));
+    if (u.includes("/skills/reload")) return Promise.resolve(jsonResponse(SKILLS_AFTER_RELOAD));
+    if (u.includes("/skills")) return Promise.resolve(jsonResponse(SKILLS));
+    if (u.includes("/health")) return Promise.resolve({ ok: true, status: 200 } as Response);
+    if (u.includes("/knowledge/add")) {
+      const body = JSON.parse(String(init?.body));
+      return Promise.resolve(
+        jsonResponse({
+          added_chunks: 1,
+          total_chunks: STATS.total_chunks + 1,
+          title: body.documents[0].title,
+        }),
+      );
+    }
+    return Promise.resolve({ ok: false, status: 404 } as Response);
+  });
 
 describe("developer panel", () => {
   it("renders knowledge stats, monitor tables and skills; reload updates skills", async () => {
-    const fetchMock = vi.fn().mockImplementation((url: string, init?: RequestInit) => {
-      const u = String(url);
-      if (u.includes("/knowledge/stats")) return Promise.resolve(jsonResponse(STATS));
-      if (u.includes("/monitor")) return Promise.resolve(jsonResponse(MONITOR));
-      if (u.includes("/skills/reload")) return Promise.resolve(jsonResponse(SKILLS_AFTER_RELOAD));
-      if (u.includes("/skills")) return Promise.resolve(jsonResponse(SKILLS));
-      if (u.includes("/knowledge/add")) {
-        const body = JSON.parse(String(init?.body));
-        return Promise.resolve(
-          jsonResponse({ message: `成功导入 1 个文档片段: ${body.documents[0].title}` }),
-        );
-      }
-      return Promise.resolve({ ok: false, status: 404 } as Response);
-    });
+    const fetchMock = makeFetchMock();
     vi.stubGlobal("fetch", fetchMock);
 
     render(<DevPanel />);
@@ -77,17 +86,35 @@ describe("developer panel", () => {
     await user.type(screen.getByPlaceholderText(/document title/i), "CSE 100 tips");
     await user.type(screen.getByPlaceholderText(/document content/i), "Practice B-trees.");
     await user.click(screen.getByRole("button", { name: /add document/i }));
-    expect(await screen.findByText(/成功导入 1 个文档片段: CSE 100 tips/)).toBeInTheDocument();
+    expect(await screen.findByText(/imported 1 document chunk/i)).toBeInTheDocument();
     const addCall = fetchMock.mock.calls.find(([u]) => String(u).includes("/knowledge/add"));
     expect(JSON.parse(String(addCall?.[1]?.body)).documents[0].content).toBe("Practice B-trees.");
   });
 
-  it("has no navigation entry to /dev in the chat UI", async () => {
+  it("has no navigation entry to the hidden /dev route", async () => {
+    vi.stubGlobal("fetch", makeFetchMock());
+    render(<App />);
+    expect(
+      await screen.findByPlaceholderText(/ask about ucsd courses/i),
+    ).toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /developer/i })).not.toBeInTheDocument();
+    expect(document.querySelector('a[href="/dev"]')).toBeNull();
+  });
+
+  it("shows a visible failure notice when a mutation loses the network", async () => {
+    const baseFetch = makeFetchMock();
     vi.stubGlobal(
       "fetch",
-      vi.fn().mockResolvedValue({ ok: true, status: 200 } as Response),
+      vi.fn().mockImplementation((url: string, init?: RequestInit) =>
+        String(url).includes("/skills/reload")
+          ? Promise.reject(new TypeError("network down"))
+          : baseFetch(url, init),
+      ),
     );
-    render(<App />);
-    expect(document.querySelector('a[href="/dev"]')).toBeNull();
+    render(<DevPanel />);
+    const user = userEvent.setup();
+
+    await user.click(await screen.findByRole("button", { name: /reload skills/i }));
+    expect(await screen.findByText(/skills reload failed/i)).toBeInTheDocument();
   });
 });

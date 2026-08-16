@@ -1,21 +1,24 @@
 import { describe, expect, it } from "vitest";
 import { buildTimeline, summarizeTimeline, toolLabel } from "../lib/stageDisplay";
-import type { StageRecord } from "../lib/stages";
+import { decodeStageEvent, type StageEventName } from "../lib/stages";
 import type { ChatAnswer } from "../lib/chatApi";
 
-const stage = (event: StageRecord["event"], data: unknown): StageRecord => ({
-  event,
-  data,
-});
+const stage = (event: StageEventName, data: unknown) => decodeStageEvent(event, data);
 
 describe("buildTimeline", () => {
   it("maps a greeting flow to domain steps with no tool steps", () => {
     const steps = buildTimeline(
       [
         stage("run_started", { conv_id: "c" }),
-        stage("memory_recalled", { working_messages: 0, episodic_hits: 0 }),
+        stage("memory_recalled", {
+          working_messages: 0,
+          episodic_hits: 0,
+          has_profile: false,
+          has_summary: false,
+        }),
         stage("intent_recognized", {
           intent: "greeting",
+          intent_group: "general",
           intent_confidence: 1,
           intent_source_scores: { llm: 1.0 },
         }),
@@ -46,7 +49,7 @@ describe("buildTimeline", () => {
     expect(steps).toHaveLength(1);
     expect(steps[0].label).toBe("Reading course materials ×2");
     expect(steps[0].raw).toBe("knowledge_search");
-    expect(steps[0].detail).toBe("15ms");
+    expect(steps[0].detail).toBe("15ms · 2 succeeded");
     expect(steps[0].active).toBe(false);
   });
 
@@ -76,14 +79,19 @@ describe("buildTimeline", () => {
     const later = buildTimeline(
       [
         stage("run_started", { conv_id: "c" }),
-        stage("memory_recalled", { working_messages: 0, episodic_hits: 0 }),
+        stage("memory_recalled", {
+          working_messages: 0,
+          episodic_hits: 0,
+          has_profile: false,
+          has_summary: false,
+        }),
       ],
       true,
     );
     expect(later.map((s) => s.key)).toEqual(["memory"]);
   });
 
-  it("tolerates out-of-order tool frames (finished before started is ignored)", () => {
+  it("preserves out-of-order tool frames", () => {
     const steps = buildTimeline(
       [
         stage("tool_call_finished", { tool_name: "course_lookup", success: true, duration_ms: 5 }),
@@ -93,7 +101,8 @@ describe("buildTimeline", () => {
     );
     expect(steps).toHaveLength(1);
     expect(steps[0].raw).toBe("course_lookup");
-    expect(steps[0].active).toBe(false); // started=1, 迟到的 finished 已被忽略 → 不悬挂
+    expect(steps[0].detail).toBe("5ms · succeeded");
+    expect(steps[0].active).toBe(false);
   });
 
   it("reports failed calls in the tool detail", () => {

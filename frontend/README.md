@@ -9,7 +9,7 @@ ChatGPT 式的 UCSD 课程问答界面。React + Vite + TypeScript + Tailwind v4
 - 流式过程时间线:意图识别(三路融合分数)→ 多 Agent 路由(主/辅)→ 工具调用(course_lookup / knowledge_search,含耗时)→ 打字机答案;完成后收起为一行摘要,可展开
 - 多会话侧边栏,localStorage 持久化;浏览器持久 UUID 作 `user_id`,服务端跨会话画像生效;同会话 `conv_id` 自动延续
 - Advisor Referral 转介卡(`escalated=true`)、双语空态示例、深浅色主题(跟随系统 + 手动切换)、移动端抽屉布局
-- SSE 建立失败自动回退非流式 `/chat`;错误气泡可重试;顶栏 `/health` 连接指示
+- SSE 建立失败或在答案前断连时自动回退一次非流式 `/chat`;错误气泡可重试;输入框工具条上的 `/health` 连接指示
 - `/dev` 隐藏开发者面板:知识库导入/上传/统计、monitor 摘要、skills 热重载
 
 ## 开发

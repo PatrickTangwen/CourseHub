@@ -6,18 +6,17 @@ import {
 } from "@assistant-ui/react";
 import { createChatAdapter } from "./lib/chatAdapter";
 import { useLocalThreadListAdapter } from "./lib/threadListAdapter";
-import { HealthDot } from "./components/HealthDot";
 import { Sidebar } from "./components/Sidebar";
 import { ThemeToggle } from "./components/ThemeToggle";
 import { Thread } from "./components/Thread";
 import { STRINGS } from "./lib/strings";
 
 const chatAdapter = createChatAdapter();
-const runtimeHook = () => useLocalRuntime(chatAdapter);
+const useRuntime = () => useLocalRuntime(chatAdapter);
 
 export default function App() {
   const adapter = useLocalThreadListAdapter();
-  const runtime = useRemoteThreadListRuntime({ runtimeHook, adapter });
+  const runtime = useRemoteThreadListRuntime({ runtimeHook: useRuntime, adapter });
   const [drawerOpen, setDrawerOpen] = useState(false);
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
@@ -40,7 +39,6 @@ export default function App() {
           </span>
           <span className="ml-auto flex items-center gap-1">
             <ThemeToggle />
-            <HealthDot />
           </span>
         </header>
         <div className="relative flex min-h-0 flex-1">
@@ -48,7 +46,7 @@ export default function App() {
             <div
               aria-hidden
               onClick={() => setDrawerOpen(false)}
-              className="absolute inset-0 z-30 bg-black/30 md:hidden"
+              className="absolute inset-0 z-30 bg-foreground/30 md:hidden"
             />
           )}
           <div

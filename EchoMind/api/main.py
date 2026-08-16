@@ -316,105 +316,107 @@ async def reload_skills():
 async def _run_chat_pipeline(req: ChatRequest, emit=None) -> ChatResponse:
     """
     /chat 与 /chat/stream 共用的 pipeline 编排序列：
-      记忆读取 → 意图识别 → 知识检索 → Agent 执行 → 记忆写入
+      记忆读取 → 意图识别 → 路由 → 知识检索 → Agent 执行 → 记忆写入
 
-    emit(event: str, payload: dict) 为可选异步回调，流式端点传入后在
-    关键节点之间发阶段事件（协议见 docs/specs/coursehub-frontend.md §3.1）。
+    ``emit`` 是 API 层可选的阶段事件 adapter；非流式调用不安装它。
+    pipeline 内核只发布协议无关 telemetry，由流式端点映射成 SSE。
     """
     from agents.agent_orchestrator import Request as OrcReq
-    from core.stage_events import reset_stage_sink, set_stage_sink
     from memory.conversation_memory import MsgRole
 
     conv_id = req.conv_id or str(uuid.uuid4())
-    # 安装阶段事件槽:orchestrator 的路由决策与 tool_manager 的工具调用
-    # 经它透出事件;非流式路径(emit=None)不安装,行为与历史一致。
-    sink_token = set_stage_sink(emit) if emit is not None else None
-    try:
-        if emit is not None:
-            await emit("run_started", {"conv_id": conv_id})
+    if emit is not None:
+        await emit("run_started", {"conv_id": conv_id})
 
-        # 1. 读取记忆上下文
-        mem_ctx = await _memory.get_context(req.user_id, conv_id, query=req.message)
-        if emit is not None:
-            await emit("memory_recalled", {
-                "working_messages": len(mem_ctx.recent_messages or []),
-                "episodic_hits": len(getattr(mem_ctx, "relevant_history", None) or []),
-                "has_profile": bool(getattr(mem_ctx, "user_profile", None)),
-                "has_summary": bool(getattr(mem_ctx, "summary", "")),
-            })
+    # 1. 读取记忆上下文
+    mem_ctx = await _memory.get_context(req.user_id, conv_id, query=req.message)
+    if emit is not None:
+        await emit("memory_recalled", {
+            "working_messages": len(mem_ctx.recent_messages or []),
+            "episodic_hits": len(getattr(mem_ctx, "relevant_history", None) or []),
+            "has_profile": bool(getattr(mem_ctx, "user_profile", None)),
+            "has_summary": bool(getattr(mem_ctx, "summary", "")),
+        })
 
-        # 2. 构建编排请求（含对话历史，用于意图识别上下文）
-        history = [
-            {"role": m.role.value, "content": m.content}
-            for m in mem_ctx.recent_messages[-5:]
-        ] if mem_ctx.recent_messages else None
+    # 2. 构建编排请求（含对话历史，用于意图识别上下文）
+    history = [
+        {"role": m.role.value, "content": m.content}
+        for m in mem_ctx.recent_messages[-5:]
+    ] if mem_ctx.recent_messages else None
 
-        intent_result = await _orchestrator.recognize_intent(req.message, history=history)
-        if emit is not None:
-            await emit("intent_recognized", {
-                "intent": getattr(intent_result.intent, "value", str(intent_result.intent)),
-                "intent_group": intent_result.intent_group,
-                "intent_confidence": round(float(intent_result.confidence), 4),
-                "intent_source_scores": intent_result.source_scores,
-            })
+    intent_result = await _orchestrator.recognize_intent(req.message, history=history)
+    if emit is not None:
+        await emit("intent_recognized", {
+            "intent": getattr(intent_result.intent, "value", str(intent_result.intent)),
+            "intent_group": intent_result.intent_group,
+            "intent_confidence": round(float(intent_result.confidence), 4),
+            "intent_source_scores": intent_result.source_scores,
+        })
 
-        knowledge_text, knowledge_used = await _build_knowledge_context(
-            req.message, intent=intent_result.intent, entities=intent_result.entities,
-        )
-        context_parts = [mem_ctx.to_prompt_text()]
-        if knowledge_text:
-            context_parts.append(knowledge_text)
-        full_context = "\n\n".join(part for part in context_parts if part)
+    orch_req = OrcReq(
+        message=req.message,
+        user_id=req.user_id,
+        conv_id=conv_id,
+        context=mem_ctx.to_prompt_text(),
+        history=history,
+        entities=intent_result.entities,
+        intent=intent_result.intent,
+        intent_group=intent_result.intent_group,
+        urgency=intent_result.urgency,
+        intent_confidence=intent_result.confidence,
+    )
+    decision = _orchestrator.route(orch_req)
+    if emit is not None:
+        await emit("routing_decided", {
+            "primary_agent": decision.primary_agent.value,
+            "supporting_agents": [a.value for a in decision.supporting_agents],
+            "routing_reason": decision.reason,
+            "routing_confidence": decision.confidence,
+        })
 
-        orch_req = OrcReq(
-            message=req.message,
-            user_id=req.user_id,
-            conv_id=conv_id,
-            context=full_context,
-            history=history,
-            entities=intent_result.entities,
-            intent=intent_result.intent,
-            intent_group=intent_result.intent_group,
-            urgency=intent_result.urgency,
-            intent_confidence=intent_result.confidence,
-        )
+    knowledge_text, knowledge_used = await _build_knowledge_context(
+        req.message, intent=intent_result.intent, entities=intent_result.entities,
+    )
+    context_parts = [mem_ctx.to_prompt_text()]
+    if knowledge_text:
+        context_parts.append(knowledge_text)
+    full_context = "\n\n".join(part for part in context_parts if part)
 
-        # 3. 执行（routing_decided 事件由 orchestrator 在路由决策处透出）
-        result = await _orchestrator.run(orch_req)
+    orch_req.context = full_context
 
-        # 4. 写入记忆
-        await _memory.add_message(req.user_id, conv_id, MsgRole.USER, req.message)
-        await _memory.add_message(req.user_id, conv_id, MsgRole.ASSISTANT, result.response)
+    # 3. 使用同一份路由决策执行，避免检索前后重复路由。
+    result = await _orchestrator.run(orch_req, decision=decision)
 
-        # 5. 异步更新用户画像（不阻塞响应）
-        asyncio.create_task(_memory.update_profile(req.user_id, conv_id))
+    # 4. 写入记忆
+    await _memory.add_message(req.user_id, conv_id, MsgRole.USER, req.message)
+    await _memory.add_message(req.user_id, conv_id, MsgRole.ASSISTANT, result.response)
 
-        return ChatResponse(
-            conv_id=conv_id,
-            response=result.response,
-            intent=result.intent.value if result.intent else "other",
-            intent_group=intent_result.intent_group,
-            agent_type=result.agent_type.value,
-            agent_types=[agent_type.value for agent_type in result.agent_types],
-            primary_agent=result.primary_agent.value if result.primary_agent else result.agent_type.value,
-            supporting_agents=[agent_type.value for agent_type in result.supporting_agents],
-            routing_reason=result.routing_reason,
-            routing_confidence=result.routing_confidence,
-            escalated=result.escalated,
-            latency_ms=round(result.latency_ms, 1),
-            knowledge_used=knowledge_used,
-            entities=intent_result.entities,
-            intent_confidence=round(intent_result.confidence, 4),
-            intent_source_scores=intent_result.source_scores,
-        )
-    finally:
-        if sink_token is not None:
-            reset_stage_sink(sink_token)
+    # 5. 异步更新用户画像（不阻塞响应）
+    asyncio.create_task(_memory.update_profile(req.user_id, conv_id))
+
+    return ChatResponse(
+        conv_id=conv_id,
+        response=result.response,
+        intent=result.intent.value if result.intent else "other",
+        intent_group=intent_result.intent_group,
+        agent_type=result.agent_type.value,
+        agent_types=[agent_type.value for agent_type in result.agent_types],
+        primary_agent=result.primary_agent.value if result.primary_agent else result.agent_type.value,
+        supporting_agents=[agent_type.value for agent_type in result.supporting_agents],
+        routing_reason=result.routing_reason,
+        routing_confidence=result.routing_confidence,
+        escalated=result.escalated,
+        latency_ms=round(result.latency_ms, 1),
+        knowledge_used=knowledge_used,
+        entities=intent_result.entities,
+        intent_confidence=round(intent_result.confidence, 4),
+        intent_source_scores=intent_result.source_scores,
+    )
 
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest):
-    """主对话接口（非流式）。保留为测试入口与流式建立失败时的回退。"""
+    """主对话接口（非流式）。保留为测试入口与流式失败时的一次回退。"""
     if _orchestrator is None or _memory is None:
         raise HTTPException(503, "服务未就绪")
     return await _run_chat_pipeline(req)
@@ -429,12 +431,30 @@ async def chat_stream(req: ChatRequest):
     if _orchestrator is None or _memory is None:
         raise HTTPException(503, "服务未就绪")
 
+    from core.telemetry import (
+        ToolCallFinished,
+        ToolCallStarted,
+        reset_telemetry_sink,
+        set_telemetry_sink,
+    )
+
     queue: asyncio.Queue = asyncio.Queue()
 
     async def emit(event: str, payload: Dict[str, Any]) -> None:
         await queue.put((event, payload))
 
+    async def forward_telemetry(signal) -> None:
+        if isinstance(signal, ToolCallStarted):
+            await emit("tool_call_started", {"tool_name": signal.tool_name})
+        elif isinstance(signal, ToolCallFinished):
+            await emit("tool_call_finished", {
+                "tool_name": signal.tool_name,
+                "success": signal.success,
+                "duration_ms": signal.duration_ms,
+            })
+
     async def _runner() -> None:
+        token = set_telemetry_sink(forward_telemetry)
         try:
             resp = await _run_chat_pipeline(req, emit=emit)
             await emit("answer", resp.model_dump())
@@ -443,6 +463,7 @@ async def chat_stream(req: ChatRequest):
             logger.exception("chat_stream pipeline 失败")
             await emit("error", {"message": "The assistant hit an internal error. Please try again."})
         finally:
+            reset_telemetry_sink(token)
             await queue.put(None)
 
     async def _sse():

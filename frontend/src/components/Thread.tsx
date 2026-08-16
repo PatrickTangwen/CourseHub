@@ -3,33 +3,57 @@ import {
   ComposerPrimitive,
   ErrorPrimitive,
   MessagePrimitive,
+  ThreadListPrimitive,
   ThreadPrimitive,
   useAuiState,
 } from "@assistant-ui/react";
+import { HealthDot } from "./HealthDot";
 import { MarkdownText } from "./MarkdownText";
 import { ProcessTimeline } from "./ProcessTimeline";
 import { ReferralCard } from "./ReferralCard";
+import {
+  ArrowUpIcon,
+  BookIcon,
+  CalendarIcon,
+  ListIcon,
+  PersonIcon,
+  PlusIcon,
+} from "./icons";
 import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
 
+const PROMPT_ICONS = {
+  course: BookIcon,
+  professor: PersonIcon,
+  prereq: ListIcon,
+  planning: CalendarIcon,
+};
+
 const Welcome = () => (
-  <div className="flex flex-col items-center gap-2 py-16 text-center">
-    <h2 className="text-2xl font-semibold">{STRINGS.welcomeTitle}</h2>
+  <div className="mb-8 flex flex-col items-center gap-2 px-4 text-center">
+    <h2 className="text-3xl font-semibold">{STRINGS.welcomeTitle}</h2>
     <p className="max-w-md text-sm text-muted-foreground">
       {STRINGS.welcomeSubtitle}
     </p>
-    <div className="mt-4 flex max-w-lg flex-wrap justify-center gap-2">
-      {EXAMPLE_PROMPTS.map((prompt) => (
+  </div>
+);
+
+const Suggestions = () => (
+  <div className="mx-auto mt-3 flex max-w-3xl flex-wrap justify-center gap-2">
+    {EXAMPLE_PROMPTS.map(({ icon, prompt }) => {
+      const Icon = PROMPT_ICONS[icon];
+      return (
         <ThreadPrimitive.Suggestion
           key={prompt}
           prompt={prompt}
           method="replace"
           autoSend
-          className="rounded-full border border-border px-3.5 py-1.5 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+          className="flex items-center gap-1.5 rounded-full border border-border px-3.5 py-1.5 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
         >
+          <Icon />
           {prompt}
         </ThreadPrimitive.Suggestion>
-      ))}
-    </div>
+      );
+    })}
   </div>
 );
 
@@ -68,37 +92,61 @@ const AssistantMessage = () => (
   </MessagePrimitive.Root>
 );
 
+/**
+ * 输入框:上行文本区 + 下行工具条,同一个圆角容器。
+ * 工具条上只放真实能力——新建会话、后端连接状态、发送。
+ */
 const Composer = () => (
-  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl items-end gap-2 rounded-2xl border border-input bg-background px-2 py-1.5 focus-within:border-ring">
+  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl flex-col gap-2 rounded-3xl border border-input bg-muted/50 px-4 py-3 focus-within:border-ring">
+    {/* w-full 必需:autosize 在 flex-col 里没有显式宽度时首帧会量出错误高度。 */}
     <ComposerPrimitive.Input
       rows={1}
       autoFocus
       placeholder={STRINGS.composerPlaceholder}
-      className="max-h-40 flex-1 resize-none bg-transparent px-2 py-2 outline-none placeholder:text-muted-foreground"
+      className="max-h-40 w-full resize-none bg-transparent pt-1 outline-none placeholder:text-muted-foreground"
     />
-    <ComposerPrimitive.Send
-      aria-label={STRINGS.send}
-      className="mb-0.5 rounded-xl bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity disabled:opacity-40"
-    >
-      {STRINGS.send}
-    </ComposerPrimitive.Send>
+    <div className="flex items-center gap-2">
+      <ThreadListPrimitive.New
+        aria-label={STRINGS.newChat}
+        title={STRINGS.newChat}
+        className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+      >
+        <PlusIcon />
+      </ThreadListPrimitive.New>
+      <HealthDot />
+      <ComposerPrimitive.Send
+        aria-label={STRINGS.send}
+        className="ml-auto flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground transition-opacity disabled:opacity-40"
+      >
+        <ArrowUpIcon />
+      </ComposerPrimitive.Send>
+    </div>
   </ComposerPrimitive.Root>
 );
 
-export const Thread = () => (
-  <ThreadPrimitive.Root className="flex h-full flex-col">
-    <ThreadPrimitive.Viewport className="flex-1 overflow-y-auto px-4 py-6">
-      <div className="mx-auto flex max-w-3xl flex-col gap-6">
-        <ThreadPrimitive.Empty>
-          <Welcome />
-        </ThreadPrimitive.Empty>
-        <ThreadPrimitive.Messages
-          components={{ UserMessage, AssistantMessage }}
-        />
+export const Thread = () => {
+  // 空态照 ChatGPT 的样子把输入框放到屏幕中央;有消息后落回底部。
+  // 输入框在两种布局里是同一个节点(位置不变,只换 class),不会重挂。
+  const isEmpty = useAuiState((s) => s.thread.isEmpty);
+  return (
+    <ThreadPrimitive.Root
+      className={`flex h-full flex-col ${isEmpty ? "justify-center" : ""}`}
+    >
+      {isEmpty && <Welcome />}
+      {/* both-edges:滚动条只占右侧会把居中列往左推,与下方输入框错开半个滚动条宽。 */}
+      {!isEmpty && (
+        <ThreadPrimitive.Viewport className="flex-1 overflow-y-auto px-4 py-6 [scrollbar-gutter:stable_both-edges]">
+          <div className="mx-auto flex max-w-3xl flex-col gap-6 px-4">
+            <ThreadPrimitive.Messages
+              components={{ UserMessage, AssistantMessage }}
+            />
+          </div>
+        </ThreadPrimitive.Viewport>
+      )}
+      <div className={`px-4 ${isEmpty ? "pb-12" : "py-3"}`}>
+        <Composer />
+        {isEmpty && <Suggestions />}
       </div>
-    </ThreadPrimitive.Viewport>
-    <div className="border-t border-border px-4 py-3">
-      <Composer />
-    </div>
-  </ThreadPrimitive.Root>
-);
+    </ThreadPrimitive.Root>
+  );
+};

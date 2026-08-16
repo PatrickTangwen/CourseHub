@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| 状态 | 已达成共识,待实施 |
+| 状态 | 已实施,自动化验证通过,待运行态验收 |
 | 日期 | 2026-08-16 |
 | 来源 | grilling 设计会话(23 项决策)+ 开源 WebUI 选型调研 |
 | 关联 | [CONTEXT.md](../../CONTEXT.md) · [ADR-0001 混合检索](../adr/0001-hybrid-retrieval.md) · [ADR-0002 自定义 SSE 协议 + assistant-ui](../adr/0002-custom-sse-protocol-with-assistant-ui.md) · [后端换皮 Spec](coursehub-retheme.md) |
@@ -29,7 +29,7 @@
 
 ## 3. 后端新增(仅 API 层,不动 pipeline 内核)
 
-新增 `POST /chat/stream`(SSE):请求体同 `POST /chat`;在 orchestrator 关键节点发阶段事件,最终答案整段到达。`POST /chat` 原样保留,作为测试入口与流式建立失败时的一次性回退。**已有 127 个后端测试覆盖的逻辑不改**;新端点按现有 pytest 惯例补测试。
+新增 `POST /chat/stream`(SSE):请求体同 `POST /chat`;API 层把 pipeline 的协议无关 typed telemetry 映射为阶段事件,最终答案整段到达。`POST /chat` 原样保留,作为测试入口与流式建立失败或 `answer` 前断连时的一次性回退。已有后端测试覆盖的业务逻辑不改;新端点按现有 pytest 惯例补测试。
 
 ### 3.1 SSE 事件协议
 
@@ -80,7 +80,7 @@
 
 ### 4.4 错误与空态
 
-SSE 建立失败 → 自动回退一次 `POST /chat`;仍失败 → 错误气泡 + 重试按钮。`/health` 驱动顶部连接状态指示器。空会话给引导示例问题(中英各若干,展示双语能力)。
+SSE 建立失败或在 `answer` 前断连 → 自动回退一次 `POST /chat`;仍失败 → 错误气泡 + 重试按钮。`/health` 驱动输入框工具条上的连接状态胶囊。空会话把输入框居中,上方欢迎语、下方引导示例问题(中英各若干,展示双语能力)。
 
 ## 5. Dev 面板(`/dev` 隐藏路由)
 
