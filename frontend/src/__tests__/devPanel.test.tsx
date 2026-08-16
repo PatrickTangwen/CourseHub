@@ -117,6 +117,25 @@ describe("developer panel", () => {
     expect(window.location.pathname).toBe("/");
   });
 
+  it("returns to chat from the panel header without reloading the page", async () => {
+    vi.stubGlobal("fetch", makeFetchMock());
+    render(<App />);
+    const user = userEvent.setup();
+
+    await user.click(screen.getByRole("button", { name: /developer/i }));
+    expect(await screen.findByText(/8368 chunks/)).toBeInTheDocument();
+
+    // 面板自己的返回按钮:走同一套视图切换,不是 <a href="/"> 整页刷新
+    const panel = screen.getByRole("heading", { name: /developer panel/i }).parentElement!;
+    await user.click(within(panel).getByRole("button", { name: /back to chat/i }));
+
+    expect(
+      await screen.findByPlaceholderText(/ask about ucsd courses/i),
+    ).toBeInTheDocument();
+    expect(window.location.pathname).toBe("/");
+    expect(document.querySelector('a[href="/"]')).toBeNull();
+  });
+
   it("still honours the /dev deep link (nginx SPA fallback contract)", async () => {
     window.history.pushState(null, "", "/dev");
     vi.stubGlobal("fetch", makeFetchMock());

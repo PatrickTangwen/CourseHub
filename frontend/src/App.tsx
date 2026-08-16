@@ -83,7 +83,7 @@ export default function App() {
             />
           </div>
           <main className="min-h-0 min-w-0 flex-1">
-            {view === "dev" ? <DevPanel /> : <Thread />}
+            {view === "dev" ? <DevPanel onBackToChat={goChat} /> : <Thread />}
           </main>
         </div>
       </div>

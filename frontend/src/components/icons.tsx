@@ -25,6 +25,12 @@ export const ArrowUpIcon = () => (
   </svg>
 );
 
+export const ArrowLeftIcon = () => (
+  <svg {...ICON}>
+    <path d="M19 12H5m7-7-7 7 7 7" />
+  </svg>
+);
+
 export const CodeIcon = () => (
   <svg {...ICON}>
     <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />

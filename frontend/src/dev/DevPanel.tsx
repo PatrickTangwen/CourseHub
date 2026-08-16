@@ -1,6 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
 import { API_BASE } from "../lib/chatApi";
+import { ArrowLeftIcon } from "../components/icons";
 import { DEV_STRINGS } from "../lib/strings";
+
+interface DevPanelProps {
+  /** 把主区交回聊天;独立渲染(无宿主视图)时不给,按钮就不出现。 */
+  onBackToChat?: () => void;
+}
 
 /**
  * 开发者面板(侧边栏底部入口 / /dev 深链,无鉴权):
@@ -48,7 +54,7 @@ const td = "px-2 py-1.5";
 const button =
   "rounded-lg border border-border px-3 py-1.5 text-sm hover:bg-accent hover:text-accent-foreground";
 
-export const DevPanel = () => {
+export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
   const [stats, setStats] = useState<KnowledgeStats | null>(null);
   const [monitor, setMonitor] = useState<MonitorSummary | null>(null);
   const [skills, setSkills] = useState<SkillsSummary | null>(null);
@@ -142,7 +148,17 @@ export const DevPanel = () => {
   return (
     <div className="h-full overflow-y-auto bg-background p-6 text-sm text-foreground">
       <div className="mx-auto flex max-w-5xl flex-col gap-5">
-        <header className="flex items-baseline gap-3">
+        <header className="flex items-center gap-3">
+          {onBackToChat && (
+            <button
+              type="button"
+              onClick={onBackToChat}
+              className={`${button} flex items-center gap-1.5`}
+            >
+              <ArrowLeftIcon />
+              {DEV_STRINGS.backToChat}
+            </button>
+          )}
           <h1 className="text-xl font-semibold">{DEV_STRINGS.title}</h1>
           <button type="button" onClick={() => void loadAll()} className={`${button} ml-auto`}>
             {DEV_STRINGS.refresh}
