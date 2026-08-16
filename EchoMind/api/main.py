@@ -573,15 +573,22 @@ async def _build_course_lookup_context(intent=None, entities=None) -> str:
 
 
 def _compact_lookup_data(data: Dict[str, Any]) -> Dict[str, Any]:
-    """结构级压缩 course_lookup 结果：整条丢弃并标注省略数，不切字符。"""
-    MAX_RESULTS = 12       # grades/instructor/search 行数上限
-    MAX_SECTIONS = 8       # 每门课程保留的 section 数上限
-    MAX_DESCRIPTION = 300  # description 由语义检索承载，这里只留摘要
+    """结构级压缩 course_lookup 结果：整条丢弃并标注省略数，不切字符。
+
+    description 也按这条原则处理:它是完整语义单元,切一半会被模型照抄成半句
+    (曾把 CSE 100 的 "Uses C++ and STL." 截成 "Uses…")。所以要么给全,要么
+    整条省略并标注去哪儿取——半截描述比没有描述更糟。
+    """
+    MAX_RESULTS = 12          # grades/instructor/search 行数上限
+    MAX_SECTIONS = 8          # 每门课程保留的 section 数上限
+    DESCRIPTION_RESULTS = 2   # 结果多于此数即列表类查询,描述交给语义检索
+    DESCRIPTION_HARD_CAP = 2000  # 异常长的描述整条省略(全库最长 1016)
 
     compact = dict(data)
     results = list(compact.get("results") or [])
     omitted = max(0, len(results) - MAX_RESULTS)
     results = results[:MAX_RESULTS]
+    focused = len(results) <= DESCRIPTION_RESULTS
 
     slimmed = []
     for item in results:
@@ -590,8 +597,11 @@ def _compact_lookup_data(data: Dict[str, Any]) -> Dict[str, Any]:
             continue
         item = dict(item)
         desc = item.get("description")
-        if isinstance(desc, str) and len(desc) > MAX_DESCRIPTION:
-            item["description"] = desc[:MAX_DESCRIPTION] + "…"
+        if isinstance(desc, str) and desc and (
+            not focused or len(desc) > DESCRIPTION_HARD_CAP
+        ):
+            item.pop("description")
+            item["description_omitted"] = "见[知识库检索结果]中的完整课程描述"
         sections = item.get("sections")
         if isinstance(sections, list) and len(sections) > MAX_SECTIONS:
             item["sections"] = sections[:MAX_SECTIONS]
