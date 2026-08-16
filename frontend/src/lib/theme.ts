@@ -36,10 +36,11 @@ export function setThemePreference(pref: ThemePreference): void {
   applyTheme(pref);
 }
 
-/** system → light → dark → system */
-export function cycleThemePreference(): ThemePreference {
-  const order: ThemePreference[] = ["system", "light", "dark"];
-  const next = order[(order.indexOf(getThemePreference()) + 1) % order.length];
+/** Toggle the currently rendered theme in one click and persist that choice. */
+export function toggleThemePreference(): ThemePreference {
+  const next: ThemePreference = effectiveDark(getThemePreference())
+    ? "light"
+    : "dark";
   setThemePreference(next);
   return next;
 }

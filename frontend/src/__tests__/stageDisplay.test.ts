@@ -157,7 +157,7 @@ describe("buildTimeline", () => {
     });
   });
 
-  it("aggregates repeated tool calls into one step with count and total duration", () => {
+  it("aggregates repeated tool calls without exposing latency", () => {
     const steps = buildTimeline(
       [
         stage("tool_call_started", { tool_name: "knowledge_search" }),
@@ -170,7 +170,7 @@ describe("buildTimeline", () => {
     expect(steps).toHaveLength(1);
     expect(steps[0].label).toBe("Reading course materials ×2");
     expect(steps[0].raw).toBe("knowledge_search");
-    expect(steps[0].detail).toBe("15ms · 2 succeeded");
+    expect(steps[0].detail).toBe("2 succeeded");
     expect(steps[0].active).toBe(false);
   });
 
@@ -224,7 +224,7 @@ describe("buildTimeline", () => {
     );
     expect(steps).toHaveLength(1);
     expect(steps[0].raw).toBe("course_lookup");
-    expect(steps[0].detail).toBe("5ms · succeeded");
+    expect(steps[0].detail).toBe("succeeded");
     expect(steps[0].active).toBe(false);
   });
 
@@ -241,13 +241,13 @@ describe("buildTimeline", () => {
 });
 
 describe("summarizeTimeline", () => {
-  it("combines agent, lookup count and latency", () => {
+  it("combines agent and lookup count without exposing latency", () => {
     const answer = { primary_agent: "course", latency_ms: 8639.1 } as ChatAnswer;
     const stages = [
       stage("tool_call_started", { tool_name: "a" }),
       stage("tool_call_started", { tool_name: "b" }),
     ];
-    expect(summarizeTimeline(stages, answer)).toBe("Course Agent · 2 tool calls · 8.6s");
+    expect(summarizeTimeline(stages, answer)).toBe("Course Agent · 2 tool calls");
   });
 
   it("falls back to a generic label when nothing is known", () => {

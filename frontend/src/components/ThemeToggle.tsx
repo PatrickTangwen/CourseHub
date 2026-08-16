@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
-  cycleThemePreference,
   getThemePreference,
+  toggleThemePreference,
   type ThemePreference,
 } from "../lib/theme";
 import { STRINGS } from "../lib/strings";
@@ -25,7 +25,7 @@ export const ThemeToggle = () => {
       type="button"
       aria-label={LABELS[pref]}
       title={LABELS[pref]}
-      onClick={() => setPref(cycleThemePreference())}
+      onClick={() => setPref(toggleThemePreference())}
       className="rounded-lg px-2 py-1 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground"
     >
       <span aria-hidden>{ICONS[pref]}</span>

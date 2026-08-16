@@ -82,7 +82,6 @@ interface ToolAgg {
   step: TimelineStep;
   started: number;
   finished: number;
-  totalMs: number;
   failed: number;
 }
 
@@ -137,7 +136,6 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
         },
         started: 0,
         finished: 0,
-        totalMs: 0,
         failed: 0,
       };
       tools.set(name, agg);
@@ -193,7 +191,6 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
         const name = data.tool_name;
         const agg = getOrCreateTool(name);
         agg.finished += 1;
-        agg.totalMs += data.duration_ms;
         if (data.success === false) agg.failed += 1;
         break;
       }
@@ -221,7 +218,6 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
     agg.step.label = `${toolLabel(agg.step.raw ?? "")}${calls}`;
     const parts: string[] = [];
     if (agg.finished > 0) {
-      parts.push(PROCESS_STRINGS.duration(agg.totalMs));
       const succeeded = agg.finished - agg.failed;
       if (succeeded > 0) parts.push(PROCESS_STRINGS.succeeded(succeeded));
     }
@@ -249,7 +245,7 @@ export function buildTimeline(stages: StageRecord[], isRunning: boolean): Timeli
   return steps;
 }
 
-/** 完成后的一行摘要:主 Agent · 工具调用次数 · 耗时。 */
+/** 完成后的一行摘要:主 Agent · 工具调用次数。 */
 export function summarizeTimeline(
   stages: StageRecord[],
   answer: ChatAnswer | undefined,
@@ -259,8 +255,5 @@ export function summarizeTimeline(
   // 中性措辞:含语义检索,不能落入 "lookup"(CONTEXT.md 词表边界)。
   const toolCalls = stages.filter((s) => s.event === "tool_call_started").length;
   if (toolCalls > 0) parts.push(PROCESS_STRINGS.toolCalls(toolCalls));
-  if (typeof answer?.latency_ms === "number") {
-    parts.push(PROCESS_STRINGS.seconds(answer.latency_ms));
-  }
   return parts.join(" · ") || PROCESS_STRINGS.process;
 }

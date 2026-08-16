@@ -117,15 +117,27 @@ export const ProcessTimeline = () => {
                 )}
               </span>
               <span className="flex flex-col">
-                <span className="leading-5 text-foreground/80">
+                <span
+                  className={`leading-5 ${
+                    step.active ? "process-step-shimmer" : "text-foreground/80"
+                  }`}
+                >
                   {step.label}
                   {step.raw && (
-                    <code className="ml-1.5 font-mono text-[10px] text-muted-foreground">
+                    <code
+                      className={`ml-1.5 font-mono text-[10px] ${
+                        step.active ? "" : "text-muted-foreground"
+                      }`}
+                    >
                       ({step.raw})
                     </code>
                   )}
                   {step.detail && (
-                    <span className="ml-1.5 text-muted-foreground">
+                    <span
+                      className={`ml-1.5 ${
+                        step.active ? "" : "text-muted-foreground"
+                      }`}
+                    >
                       {step.detail}
                     </span>
                   )}

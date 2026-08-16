@@ -295,22 +295,22 @@ async def health():
 
 
 @app.get("/skills", tags=["Skills"])
-async def skills_summary():
+async def skills_summary(include_content: bool = False):
     """查看当前已加载的 Skills，便于确认热加载结果和排查解析错误。"""
     if _skill_manager is None:
         raise HTTPException(503, "Skills 未初始化")
-    return _skill_manager.summary()
+    return _skill_manager.summary(include_content=include_content)
 
 
 @app.post("/skills/reload", tags=["Skills"])
-async def reload_skills():
+async def reload_skills(include_content: bool = False):
     """运行时重新扫描 Skill 目录，不需要重启服务。"""
     if _skill_manager is None:
         raise HTTPException(503, "Skills 未初始化")
     _skill_manager.reload()
     if _orchestrator is not None:
         _orchestrator.set_skill_manager(_skill_manager)
-    return _skill_manager.summary()
+    return _skill_manager.summary(include_content=include_content)
 
 
 async def _run_chat_pipeline(req: ChatRequest, emit=None) -> ChatResponse:

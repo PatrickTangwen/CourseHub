@@ -265,8 +265,8 @@ http://localhost/docs
 | `POST` | `/chat` | JSON Body | 主对话接口，完成记忆读取、意图识别、Agent 路由、回复生成、记忆写入 | 问答主链路 |
 | `GET` | `/monitor` | 无 | 查看 Agent/工具统计、告警和优化建议 | 观察在线表现 |
 | `POST` | `/search` | Query 参数 | 执行知识库检索优化链路：查询改写、并行召回、合并去重、LLM 重排 | 测试 RAG 检索 |
-| `GET` | `/skills` | 无 | 查看当前加载的 Skills、匹配关键词和解析错误 | 确认动态能力是否生效 |
-| `POST` | `/skills/reload` | 无 | 运行时重新扫描 Skill 目录 | 修改回答规范后热加载 |
+| `GET` | `/skills` | Query 参数 | 查看当前加载的 Skills、匹配关键词和解析错误；`include_content=true` 时附带规则正文 | 确认动态能力是否生效 |
+| `POST` | `/skills/reload` | Query 参数 | 运行时重新扫描 Skill 目录；`include_content=true` 时附带规则正文 | 修改回答规范后热加载 |
 | `POST` | `/knowledge/add` | JSON Body | 批量导入文档到 ChromaDB 知识库 | 程序化导入文档 |
 | `POST` | `/knowledge/upload` | Form File | 上传 `.txt`、`.md`、`.json` 文件导入知识库 | 手动上传知识库文件 |
 | `GET` | `/knowledge/stats` | 无 | 查看总片段、总文档和课程文档数 | 确认课程知识库是否就绪 |

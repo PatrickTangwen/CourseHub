@@ -98,7 +98,7 @@ const AssistantMessage = () => (
  * 工具条上只放真实能力——新建会话、后端连接状态、发送。
  */
 const Composer = () => (
-  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl flex-col gap-2 rounded-3xl border border-input bg-muted/50 px-4 py-3 focus-within:border-ring">
+  <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl flex-col gap-2 rounded-3xl border border-input bg-muted/50 px-4 py-3">
     {/* w-full 必需:autosize 在 flex-col 里没有显式宽度时首帧会量出错误高度。 */}
     <ComposerPrimitive.Input
       rows={1}

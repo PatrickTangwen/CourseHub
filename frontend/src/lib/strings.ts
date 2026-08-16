@@ -77,11 +77,9 @@ export const PROCESS_STRINGS = {
   leadAgent: (agent: string) => `${agent} (lead)`,
   supportingAgent: (agent: string) => `${agent} (support)`,
   toolCount: (count: number) => ` ×${count}`,
-  duration: (milliseconds: number) => `${Math.round(milliseconds)}ms`,
   succeeded: (count: number) => (count === 1 ? "succeeded" : `${count} succeeded`),
   failed: (count: number) => `${count} failed`,
   toolCalls: (count: number) => `${count} tool call${count === 1 ? "" : "s"}`,
-  seconds: (milliseconds: number) => `${(milliseconds / 1000).toFixed(1)}s`,
 } as const;
 
 /** 隐藏开发者面板 chrome 与状态消息的单一事实来源。 */
@@ -128,6 +126,14 @@ export const DEV_STRINGS = {
   skillsReloadFailed: "Skills reload failed.",
   skillsUnavailable: "Skills unavailable.",
   keywords: (count: number) => `${count} keyword${count === 1 ? "" : "s"}`,
+  skillAgents: "Agents",
+  skillStatus: "Status",
+  skillEnabled: "Enabled",
+  skillDisabled: "Disabled",
+  skillSource: "Source",
+  skillTriggerKeywords: "Trigger keywords",
+  skillRules: "Rules",
+  skillContentUnavailable: "Rule content unavailable.",
 } as const;
 
 /** 空态示例问题:中英各半,点击即发送,顺带展示双语自适应能力。icon 只是视觉分类。 */

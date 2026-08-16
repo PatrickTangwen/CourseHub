@@ -1,9 +1,9 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   applyTheme,
-  cycleThemePreference,
   getThemePreference,
   setThemePreference,
+  toggleThemePreference,
 } from "../lib/theme";
 
 function stubSystemDark(matches: boolean) {
@@ -63,10 +63,13 @@ describe("theme", () => {
     expect(classes.contains("light")).toBe(false);
   });
 
-  it("cycles system → light → dark → system", () => {
+  it("toggles the effective light/dark theme in one click", () => {
     stubSystemDark(false);
-    expect(cycleThemePreference()).toBe("light");
-    expect(cycleThemePreference()).toBe("dark");
-    expect(cycleThemePreference()).toBe("system");
+    expect(toggleThemePreference()).toBe("dark");
+    expect(toggleThemePreference()).toBe("light");
+
+    localStorage.clear();
+    stubSystemDark(true);
+    expect(toggleThemePreference()).toBe("light");
   });
 });

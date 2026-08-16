@@ -27,12 +27,35 @@ const MONITOR = {
 const SKILLS = {
   root_dir: "/app/skills",
   count: 1,
-  skills: [{ name: "课程事实规范", description: "回答安全约束", keywords: ["先修", "gpa"] }],
+  skills: [
+    {
+      name: "课程事实规范",
+      description: "回答安全约束",
+      path: "/app/skills/course_facts/SKILL.md",
+      keywords: ["先修", "gpa"],
+      agents: ["course"],
+      enabled: true,
+      content_chars: 34,
+      content: "## 回答安全约束\n\n名额必须注明快照时间。",
+    },
+  ],
 };
 const SKILLS_AFTER_RELOAD = {
   ...SKILLS,
   count: 2,
-  skills: [...SKILLS.skills, { name: "新技能", description: "热重载新增", keywords: [] }],
+  skills: [
+    ...SKILLS.skills,
+    {
+      name: "新技能",
+      description: "热重载新增",
+      path: "/app/skills/new/SKILL.md",
+      keywords: [],
+      agents: [],
+      enabled: true,
+      content_chars: 5,
+      content: "新规则。",
+    },
+  ],
 };
 
 const jsonResponse = (data: unknown) =>
@@ -87,9 +110,21 @@ describe("developer panel", () => {
     expect(screen.getByText(/×12/)).toBeInTheDocument();
     // skills 列表
     expect(screen.getByText("课程事实规范")).toBeInTheDocument();
+    expect(screen.queryByText(/名额必须注明快照时间/)).not.toBeInTheDocument();
+
+    // 整行可点击展开详情,再次点击收起
+    const skillToggle = screen.getByRole("button", { name: /课程事实规范/ });
+    expect(skillToggle).toHaveAttribute("aria-expanded", "false");
+    const user = userEvent.setup();
+    await user.click(skillToggle);
+    expect(skillToggle).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByText(/名额必须注明快照时间/)).toBeInTheDocument();
+    expect(screen.getByText("course")).toBeInTheDocument();
+    expect(screen.getByText("先修")).toBeInTheDocument();
+    await user.click(skillToggle);
+    expect(screen.queryByText(/名额必须注明快照时间/)).not.toBeInTheDocument();
 
     // skills 热重载
-    const user = userEvent.setup();
     await user.click(screen.getByRole("button", { name: /reload skills/i }));
     expect(await screen.findByText("新技能")).toBeInTheDocument();
     const reloadCall = fetchMock.mock.calls.find(([u]) => String(u).includes("/skills/reload"));

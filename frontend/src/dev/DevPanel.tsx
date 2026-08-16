@@ -51,7 +51,16 @@ interface MonitorSummary {
 interface SkillsSummary {
   root_dir: string;
   count: number;
-  skills: { name: string; description: string; keywords: string[] }[];
+  skills: {
+    name: string;
+    description: string;
+    path: string;
+    keywords: string[];
+    agents: string[];
+    enabled: boolean;
+    content_chars: number;
+    content?: string;
+  }[];
 }
 
 const card = "rounded-xl border border-border bg-card p-4 text-card-foreground";
@@ -64,6 +73,7 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
   const [stats, setStats] = useState<KnowledgeStats | null>(null);
   const [monitor, setMonitor] = useState<MonitorSummary | null>(null);
   const [skills, setSkills] = useState<SkillsSummary | null>(null);
+  const [expandedSkill, setExpandedSkill] = useState<string | null>(null);
   const [notice, setNotice] = useState<string>("");
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
@@ -81,7 +91,7 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
     const [s, m, k] = await Promise.all([
       grab<KnowledgeStats>("/knowledge/stats"),
       grab<MonitorSummary>("/monitor"),
-      grab<SkillsSummary>("/skills"),
+      grab<SkillsSummary>("/skills?include_content=true"),
     ]);
     setStats(s);
     setMonitor(m);
@@ -95,7 +105,9 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
   const reloadSkills = async () => {
     setPending("reload");
     try {
-      const res = await fetch(`${API_BASE}/skills/reload`, { method: "POST" });
+      const res = await fetch(`${API_BASE}/skills/reload?include_content=true`, {
+        method: "POST",
+      });
       if (!res.ok) throw new Error("reload failed");
       setSkills((await res.json()) as SkillsSummary);
       setNotice(DEV_STRINGS.skillsReloaded);
@@ -319,17 +331,108 @@ export const DevPanel = ({ onBackToChat }: DevPanelProps) => {
           </div>
           {skills ? (
             <ul className="flex flex-col gap-2">
-              {skills.skills.map((skill) => (
-                <li key={skill.name}>
-                  <span className="font-medium">{skill.name}</span>
-                  <span className="ml-2 text-muted-foreground">
-                    {skill.description}
-                  </span>
-                  <span className="ml-2 text-xs text-muted-foreground">
-                    {DEV_STRINGS.keywords(skill.keywords.length)}
-                  </span>
-                </li>
-              ))}
+              {skills.skills.map((skill, index) => {
+                const skillKey = skill.path || skill.name;
+                const isExpanded = expandedSkill === skillKey;
+                const panelId = `skill-details-${index}`;
+                return (
+                  <li
+                    key={skillKey}
+                    className="overflow-hidden rounded-lg border border-transparent hover:border-border hover:bg-muted/40"
+                  >
+                    <button
+                      type="button"
+                      aria-expanded={isExpanded}
+                      aria-controls={panelId}
+                      onClick={() =>
+                        setExpandedSkill(isExpanded ? null : skillKey)
+                      }
+                      className="flex w-full items-center gap-3 px-3 py-2 text-left"
+                    >
+                      <span className="min-w-0 flex-1">
+                        <span className="font-medium">{skill.name}</span>
+                        <span className="ml-2 text-muted-foreground">
+                          {skill.description}
+                        </span>
+                        <span className="ml-2 text-xs text-muted-foreground">
+                          {DEV_STRINGS.keywords(skill.keywords.length)}
+                        </span>
+                      </span>
+                      <span
+                        aria-hidden
+                        className={`text-lg leading-none text-muted-foreground transition-transform ${
+                          isExpanded ? "rotate-90" : ""
+                        }`}
+                      >
+                        ›
+                      </span>
+                    </button>
+                    {isExpanded && (
+                      <div
+                        id={panelId}
+                        className="border-t border-border bg-muted/30 px-3 py-3"
+                      >
+                        <dl className="grid gap-3 text-xs sm:grid-cols-2">
+                          <div>
+                            <dt className="text-muted-foreground">
+                              {DEV_STRINGS.skillAgents}
+                            </dt>
+                            <dd className="mt-1 font-medium">
+                              {skill.agents.length > 0
+                                ? skill.agents.join(", ")
+                                : "all"}
+                            </dd>
+                          </div>
+                          <div>
+                            <dt className="text-muted-foreground">
+                              {DEV_STRINGS.skillStatus}
+                            </dt>
+                            <dd className="mt-1 font-medium">
+                              {skill.enabled
+                                ? DEV_STRINGS.skillEnabled
+                                : DEV_STRINGS.skillDisabled}
+                            </dd>
+                          </div>
+                          <div className="min-w-0 sm:col-span-2">
+                            <dt className="text-muted-foreground">
+                              {DEV_STRINGS.skillSource}
+                            </dt>
+                            <dd className="mt-1 break-all font-mono">
+                              {skill.path}
+                            </dd>
+                          </div>
+                        </dl>
+                        <div className="mt-3">
+                          <p className="text-xs text-muted-foreground">
+                            {DEV_STRINGS.skillTriggerKeywords}
+                          </p>
+                          <div className="mt-1.5 flex flex-wrap gap-1.5">
+                            {(skill.keywords.length > 0
+                              ? skill.keywords
+                              : ["all"]
+                            ).map((keyword) => (
+                              <span
+                                key={keyword}
+                                className="rounded-full border border-border bg-background px-2 py-0.5 text-xs"
+                              >
+                                {keyword}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                        <div className="mt-3">
+                          <p className="text-xs text-muted-foreground">
+                            {DEV_STRINGS.skillRules}
+                          </p>
+                          <pre className="mt-1.5 max-h-96 overflow-auto whitespace-pre-wrap rounded-lg border border-border bg-background p-3 font-mono text-xs leading-5">
+                            {skill.content || DEV_STRINGS.skillContentUnavailable}
+                          </pre>
+                        </div>
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           ) : (
             <p className="text-muted-foreground">{DEV_STRINGS.skillsUnavailable}</p>

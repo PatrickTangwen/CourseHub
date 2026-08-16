@@ -51,9 +51,9 @@ class Skill:
         description = f"\n说明: {self.description}" if self.description else ""
         return f"### {self.name}{description}\n{body}"
 
-    def to_summary(self) -> Dict[str, Any]:
-        """返回 API 可序列化摘要，避免把完整长文本默认暴露给健康检查。"""
-        return {
+    def to_summary(self, include_content: bool = False) -> Dict[str, Any]:
+        """返回 API 可序列化摘要；详情视图可显式请求完整正文。"""
+        summary = {
             "name": self.name,
             "description": self.description,
             "path": self.path,
@@ -62,6 +62,9 @@ class Skill:
             "enabled": self.enabled,
             "content_chars": len(self.content),
         }
+        if include_content:
+            summary["content"] = self.content
+        return summary
 
 
 class SkillManager:
@@ -171,12 +174,15 @@ class SkillManager:
             + "\n\n".join(blocks)
         )
 
-    def summary(self) -> Dict[str, Any]:
+    def summary(self, include_content: bool = False) -> Dict[str, Any]:
         """返回 Skill 管理器状态，用于 /skills 接口和排障。"""
         return {
             "root_dir": str(self.root_dir),
             "count": len(self._skills),
-            "skills": [skill.to_summary() for skill in self._skills],
+            "skills": [
+                skill.to_summary(include_content=include_content)
+                for skill in self._skills
+            ],
             "errors": self.errors,
         }
 

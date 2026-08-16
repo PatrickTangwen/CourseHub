@@ -133,7 +133,8 @@ describe("stage events (T2 placeholder display)", () => {
     const liveSteps = await screen.findByTestId("process-steps");
     expect(liveSteps).toHaveTextContent("Recalling conversation context");
     expect(liveSteps).toHaveTextContent("Understanding the question");
-    expect(liveSteps).toHaveTextContent("Reading course materials");
+    const activeToolLabel = within(liveSteps).getByText(/Reading course materials/);
+    expect(activeToolLabel).toHaveClass("process-step-shimmer");
     expect(
       screen.queryByText(/CSE 100 covers advanced data structures/i),
     ).not.toBeInTheDocument();
@@ -157,6 +158,9 @@ describe("stage events (T2 placeholder display)", () => {
     // 展开:详情含主/辅 Agent、路由理由、三路分数、工具耗时与原始标识
     await user.click(toggle);
     const steps = screen.getByTestId("process-steps");
+    expect(within(steps).getByText(/Reading course materials/)).not.toHaveClass(
+      "process-step-shimmer",
+    );
     expect(steps).toHaveTextContent("Course Agent (lead)");
     expect(steps).toHaveTextContent("Planning Agent (support)");
     expect(steps).toHaveTextContent("intent=course_overview, primary=course");
@@ -171,7 +175,7 @@ describe("stage events (T2 placeholder display)", () => {
     expect(embeddingSignal).toHaveTextContent("no signal");
     expect(within(steps).getByTestId("signal-pattern")).toHaveTextContent("0.70");
     expect(steps).not.toHaveTextContent("embedding 0.00");
-    expect(steps).toHaveTextContent("13ms");
+    expect(steps).not.toHaveTextContent("13ms");
     expect(steps).toHaveTextContent("(knowledge_search)");
     expect(steps).toHaveTextContent("(course_overview)");
 
@@ -205,7 +209,7 @@ describe("stage events (T2 placeholder display)", () => {
     const steps = screen.getByTestId("process-steps");
     expect(steps).toHaveTextContent("profile available");
     expect(steps).toHaveTextContent("summary available");
-    expect(steps).toHaveTextContent("8ms");
+    expect(steps).not.toHaveTextContent("8ms");
     expect(steps).toHaveTextContent("succeeded");
   });
 });
