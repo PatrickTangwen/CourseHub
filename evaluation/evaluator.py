@@ -92,16 +92,21 @@ class LLMJudge:
     注意：LLM Judge 本身也有偏差，建议定期用人工标注校准。
     """
 
-    JUDGE_PROMPT = """你是一个客服质量评估专家。请对以下客服响应进行评分。
+    JUDGE_PROMPT = """你是课程问答质量评估专家。CourseHub 是回答 UCSD 课程问题的助手。请对以下响应评分。
 
 用户问题: {question}
 Agent 响应: {response}
 {context_section}
 
+评分时注意 CourseHub 的回答安全约束：名额/座位数字应带数据快照时间并说明非实时；
+成绩历史应按 教授 × 学期 列出而不是合成单一课程 GPA；数据没有覆盖时应如实说明而不是编造；
+选课规划建议应附非官方免责声明。违反这些约束应在 accuracy/helpfulness 上扣分；
+如实说明"数据未覆盖"不应因为没给出具体数字而在 completeness 上被重罚。
+
 请从以下四个维度评分（0.0-1.0），返回 JSON：
 - relevance: 响应是否直接针对用户问题（0=完全无关，1=完全相关）
-- accuracy: 信息是否准确无误（0=明显错误，1=完全正确）
-- completeness: 是否完整解决了用户需求（0=完全没解决，1=完全解决）
+- accuracy: 信息是否准确、是否遵守回答安全约束（0=明显错误或编造，1=完全正确）
+- completeness: 是否完整回应了用户需求（0=完全没回应，1=完全回应）
 - helpfulness: 用户能否据此采取行动（0=毫无帮助，1=非常有帮助）
 
 只返回 JSON，例如: {{"relevance": 0.9, "accuracy": 0.8, "completeness": 0.7, "helpfulness": 0.85}}"""
@@ -125,7 +130,7 @@ Agent 响应: {response}
         prompt = self._clean_text(prompt)
         try:
             resp = await self._client.messages.create(
-                model=self._model, max_tokens=256, temperature=0.0,
+                model=self._model, max_tokens=2048, temperature=0.0,
                 messages=[{"role": "user", "content": prompt}],
             )
             raw = extract_text_content(resp.content)
@@ -496,9 +501,10 @@ DEFAULT_INTENT_CASES: List[IntentTestCase] = [
 ]
 
 DEFAULT_DIALOG_CASES: List[Dict[str, Any]] = [
-    {"question": "我的订单 #12345 还没到，已经超时了"},
-    {"question": "应用登录一直报错 401"},
-    {"question": "为什么这个月多扣了 50 块钱？"},
-    {"question": "帮我把收货地址改成北京市朝阳区"},
-    {"turns": ["你好，我想退款", "订单号是 #12345", "退款多久能到账？"]},
+    # 每条用例钉住一条回答安全约束（见 skills/course_facts/SKILL.md）
+    {"turns": ["我想了解 CSE 100", "它的先修是什么？", "FA26 谁教这门课？"]},  # 多轮记忆 + 实体延续
+    {"question": "CSE 100 还有位置吗？"},                                      # 名额必须带快照时间戳
+    {"question": "CSE 100 的平均 GPA 是多少？"},                               # 按教授×学期列出，不合成均值
+    {"question": "帮我规划大二秋季学期的课，我是 CS 专业"},                     # 规划建议 + 免责声明
+    {"question": "我的 prereq 被卡了怎么办？"},                                # 个案转介官方渠道
 ]
