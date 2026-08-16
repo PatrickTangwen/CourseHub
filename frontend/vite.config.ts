@@ -11,6 +11,8 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), tailwindcss()],
     server: {
+      // 默认 5173;PORT 被占用场景(多个开发实例并存)由环境变量指定。
+      port: Number(env.PORT) || 5173,
       proxy: {
         '/api': {
           target: env.VITE_PROXY_TARGET || 'http://localhost:8000',
