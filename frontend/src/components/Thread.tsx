@@ -5,7 +5,7 @@ import {
   ThreadPrimitive,
 } from "@assistant-ui/react";
 import { MarkdownText } from "./MarkdownText";
-import { StageList } from "./StageList";
+import { ProcessTimeline } from "./ProcessTimeline";
 import { STRINGS } from "../lib/strings";
 
 const Welcome = () => (
@@ -34,7 +34,7 @@ const MessageError = () => (
 
 const AssistantMessage = () => (
   <MessagePrimitive.Root className="flex flex-col">
-    <StageList />
+    <ProcessTimeline />
     <MessagePrimitive.Content components={{ Text: MarkdownText }} />
     <MessageError />
   </MessagePrimitive.Root>

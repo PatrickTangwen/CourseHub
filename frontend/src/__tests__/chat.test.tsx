@@ -97,7 +97,7 @@ describe("stage events (T2 placeholder display)", () => {
     };
   }
 
-  it("shows stage events live during streaming and keeps them after完成", async () => {
+  it("shows the live timeline during streaming, collapses on completion, expands on toggle", async () => {
     const sse = controllableSse();
     vi.stubGlobal(
       "fetch",
@@ -112,23 +112,23 @@ describe("stage events (T2 placeholder display)", () => {
     );
     await user.click(screen.getByRole("button", { name: /send/i }));
 
-    // 流式进行中:阶段事件实时出现,答案尚未到达
+    // 流式进行中:时间线实时展开,领域友好术语,答案尚未到达
     sse.push('event: run_started\ndata: {"conv_id":"c-1"}\n\n');
     sse.push('event: memory_recalled\ndata: {"working_messages":1,"episodic_hits":2,"has_profile":true,"has_summary":false}\n\n');
-    sse.push('event: intent_recognized\ndata: {"intent":"course_overview","intent_group":"facts","intent_confidence":0.93,"intent_source_scores":{"llm":0.9}}\n\n');
+    sse.push('event: intent_recognized\ndata: {"intent":"course_overview","intent_group":"facts","intent_confidence":0.93,"intent_source_scores":{"llm":0.9,"embedding":0,"pattern":0.7}}\n\n');
     sse.push('event: tool_call_started\ndata: {"tool_name":"knowledge_search"}\n\n');
 
-    const stageList = await screen.findByTestId("stage-list");
-    expect(stageList).toHaveTextContent("memory_recalled");
-    expect(stageList).toHaveTextContent("intent_recognized");
-    expect(stageList).toHaveTextContent("tool_call_started: knowledge_search");
+    const liveSteps = await screen.findByTestId("process-steps");
+    expect(liveSteps).toHaveTextContent("Recalling conversation context");
+    expect(liveSteps).toHaveTextContent("Understanding the question");
+    expect(liveSteps).toHaveTextContent("Reading course materials");
     expect(
       screen.queryByText(/CSE 100 covers advanced data structures/i),
     ).not.toBeInTheDocument();
 
-    // 完成:答案打字机渲染,阶段列表保留
+    // 完成:答案渲染,时间线收起为一行摘要
     sse.push('event: tool_call_finished\ndata: {"tool_name":"knowledge_search","success":true,"duration_ms":12.5}\n\n');
-    sse.push('event: routing_decided\ndata: {"primary_agent":"course","supporting_agents":["planning"],"routing_reason":"r","routing_confidence":0.9}\n\n');
+    sse.push('event: routing_decided\ndata: {"primary_agent":"course","supporting_agents":["planning"],"routing_reason":"intent=course_overview, primary=course","routing_confidence":0.9}\n\n');
     sse.push(`event: answer\ndata: ${JSON.stringify(ANSWER)}\n\n`);
     sse.push("event: done\ndata: {}\n\n");
     sse.close();
@@ -136,9 +136,28 @@ describe("stage events (T2 placeholder display)", () => {
     expect(
       await screen.findByText(/CSE 100 covers advanced data structures/i),
     ).toBeInTheDocument();
-    const finalList = screen.getByTestId("stage-list");
-    expect(finalList).toHaveTextContent("routing_decided");
-    expect(finalList).toHaveTextContent("tool_call_finished: knowledge_search");
+
+    const toggle = await screen.findByTestId("process-toggle");
+    expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
+    expect(toggle).toHaveTextContent("Course Agent");
+    expect(toggle).toHaveTextContent("1 lookup");
+
+    // 展开:详情含主/辅 Agent、路由理由、三路分数、工具耗时与原始标识
+    await user.click(toggle);
+    const steps = screen.getByTestId("process-steps");
+    expect(steps).toHaveTextContent("Course Agent (lead)");
+    expect(steps).toHaveTextContent("Planning Agent (support)");
+    expect(steps).toHaveTextContent("intent=course_overview, primary=course");
+    expect(steps).toHaveTextContent("llm 0.90");
+    expect(steps).toHaveTextContent("pattern 0.70");
+    expect(steps).toHaveTextContent("13ms");
+    expect(steps).toHaveTextContent("(knowledge_search)");
+    expect(steps).toHaveTextContent("(course_overview)");
+
+    // 再点收起
+    await user.click(screen.getByTestId("process-toggle"));
+    expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
   });
 });
 
