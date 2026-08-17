@@ -9,6 +9,14 @@ export const askHref = (question: string) => `#ask=${encodeURIComponent(question
 const questionList = (questions: string[]) =>
   questions.map((q) => `- [${q}](${askHref(q)})`).join("\n");
 
+/** 诚实横幅:应用壳外的一条细横幅,说明本页为实录回放。 */
+export const DEMO_BANNER = {
+  text: "Scripted demo — responses replay sessions pre-recorded from a real local deployment · 本页回放实录会话",
+  linkLabel: "GitHub",
+  repoUrl: "https://github.com/PatrickTangwen/CourseHub",
+  dismiss: "Dismiss demo banner",
+} as const;
+
 /** Demo Notice:对脚本库外的自由输入的固定说明,按输入语言单语回复。 */
 export const DEMO_NOTICE = {
   en: (questions: string[]) =>
