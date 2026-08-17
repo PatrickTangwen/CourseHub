@@ -8,8 +8,26 @@ import tailwindcss from '@tailwindcss/vite'
 // (对应后端 compose 的 COURSEHUB_HOST_PORT)。
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
+  const demo = mode === 'demo'
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [
+      react(),
+      tailwindcss(),
+      // Demo Mode(vite --mode demo):同一 index.html,入口换成 src/demo/main.tsx,
+      // 网络边界由实录回放接管(ADR-0003)。正常构建的模块图不含 demo 代码。
+      demo && {
+        name: 'coursehub-demo-entry',
+        // order: 'pre' — 必须在 Vite 解析 HTML 入口之前替换 script src。
+        transformIndexHtml: {
+          order: 'pre' as const,
+          handler: (html: string) =>
+            html.replace('/src/main.tsx', '/src/demo/main.tsx'),
+        },
+      },
+    ],
+    build: {
+      outDir: demo ? 'dist-demo' : 'dist',
+    },
     server: {
       // 默认 5173;PORT 被占用场景(多个开发实例并存)由环境变量指定。
       port: Number(env.PORT) || 5173,

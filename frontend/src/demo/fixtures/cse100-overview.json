@@ -1,0 +1,176 @@
+{
+  "id": "cse100-overview",
+  "recorded_at": "2026-08-17T03:47:39.058Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "What does CSE 100 cover?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "54b350b7-55b7-413d-abff-b57788f3dc91"
+          },
+          "at_ms": 115
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 761
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "course_overview",
+            "intent_group": "facts",
+            "intent_confidence": 0.85,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 2552
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=course_overview, group=facts, primary=course, supporting=none, scores=[course=0.95, general=0.10, planning=0.00]",
+            "routing_confidence": 0.95
+          },
+          "at_ms": 2552
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 2553
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 46.1
+          },
+          "at_ms": 2598
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5110
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5110
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5110
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5110
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 70.7
+          },
+          "at_ms": 5173
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 92.9
+          },
+          "at_ms": 5195
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 94.4
+          },
+          "at_ms": 5196
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 95.9
+          },
+          "at_ms": 5197
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "54b350b7-55b7-413d-abff-b57788f3dc91",
+            "response": "For the **FA26** term, **CSE 100** is **\"Advanced Data Structures\"** (4 units). Its official catalog description is:\n\n> High-performance data structures and supporting algorithms. Use and implementation of data structures like (un)balanced trees, graphs, priority queues, and hash tables. Also, memory management, pointers, recursion. Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL. Recommended preparation: background in C or C++ programming.\n\n**Prerequisites / restrictions** (from the FA26 data):\n> CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 12 and CSE 15L or CSE 29 or ECE 15; restricted to undergraduates. Graduate students will be allowed as space permits. Students may not receive credit for both CSE 100R and CSE 100.\n\n**Instructor and meetings (FA26):**\n- Instructor: **Paul Cao**\n- Lecture: MWF 9:00–9:50, JEANN AUD\n- Discussion: M 5:00–5:50, GH 242\n- Final exam: Wednesday, 2026-12-09, 8:00–10:59, JEANN AUD\n\n**Enrollment snapshot (FA26):**\n- The package section shows **100 enrolled / 100 capacity / 0 available seats**, based on the availability timestamp **2026-08-12T16:39:36Z** — this is a static snapshot, not real-time.\n\n**Grade history / GPA:** No grade history or GPA data for this course appears in the retrieved data.",
+            "intent": "course_overview",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=course_overview, group=facts, primary=course, supporting=none, scores=[course=0.95, general=0.10, planning=0.00]",
+            "routing_confidence": 0.95,
+            "escalated": false,
+            "latency_ms": 13548.7,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 100"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.85,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 35130
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 35130
+        }
+      ]
+    }
+  ]
+}

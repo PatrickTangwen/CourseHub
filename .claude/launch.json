@@ -7,6 +7,13 @@
       "runtimeArgs": ["run", "dev", "--prefix", "frontend"],
       "port": 5173,
       "autoPort": true
+    },
+    {
+      "name": "coursehub-demo-preview",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview:demo", "--prefix", "frontend"],
+      "port": 4173,
+      "autoPort": true
     }
   ]
 }
