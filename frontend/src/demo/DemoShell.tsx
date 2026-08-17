@@ -5,9 +5,7 @@
 import { useCallback, useRef, useState } from "react";
 import type { AssistantRuntime } from "@assistant-ui/react";
 import App from "../App";
-import { DEMO_BANNER } from "./demoStrings";
-
-const ASK_PREFIX = "#ask=";
+import { ASK_PREFIX, DEMO_BANNER } from "./demoStrings";
 
 export function DemoShell() {
   const runtimeRef = useRef<AssistantRuntime | null>(null);

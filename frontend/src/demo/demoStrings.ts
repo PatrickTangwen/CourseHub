@@ -3,8 +3,11 @@
  * 全部文案遵守 CONTEXT.md 的 Avoid 词表。
  */
 
-/** 建议问题渲染为 markdown 链接,demo 壳的委托点击监听接管(#ask=)。 */
-export const askHref = (question: string) => `#ask=${encodeURIComponent(question)}`;
+/** 建议问题渲染为 markdown 链接,demo 壳的委托点击监听按此前缀接管。 */
+export const ASK_PREFIX = "#ask=";
+
+export const askHref = (question: string) =>
+  `${ASK_PREFIX}${encodeURIComponent(question)}`;
 
 const questionList = (questions: string[]) =>
   questions.map((q) => `- [${q}](${askHref(q)})`).join("\n");

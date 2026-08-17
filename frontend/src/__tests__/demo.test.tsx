@@ -22,6 +22,16 @@ beforeEach(() => {
   window.history.pushState(null, "", "/");
 });
 
+/** 安装 demo 后端,并让任何真实网络调用立即炸掉(返回的 mock 用于断言零调用)。 */
+function installDemoTestBackend() {
+  const realFetch = vi.fn(() => {
+    throw new Error("real network was hit in demo mode");
+  });
+  vi.stubGlobal("fetch", realFetch);
+  installDemoBackend();
+  return realFetch;
+}
+
 describe("recorded fixtures (admission gate)", () => {
   it("contains at least one session, each turn ending in answer + done", () => {
     expect(DEMO_SESSIONS.length).toBeGreaterThan(0);
@@ -122,11 +132,7 @@ describe("recorded session inventory (T2 acceptance)", () => {
 
 describe("Demo Notice for free input (T3)", () => {
   function setup() {
-    const realFetch = vi.fn(() => {
-      throw new Error("real network was hit in demo mode");
-    });
-    vi.stubGlobal("fetch", realFetch);
-    installDemoBackend();
+    const realFetch = installDemoTestBackend();
     render(<DemoShell />);
     return { user: userEvent.setup(), realFetch };
   }
@@ -188,11 +194,7 @@ describe("Demo Notice for free input (T3)", () => {
 
 describe("first-visit seeding (T4)", () => {
   function setupSeeded() {
-    const realFetch = vi.fn(() => {
-      throw new Error("real network was hit in demo mode");
-    });
-    vi.stubGlobal("fetch", realFetch);
-    installDemoBackend();
+    installDemoTestBackend();
     seedDemoThreads();
     return render(<DemoShell />);
   }
@@ -251,11 +253,7 @@ describe("first-visit seeding (T4)", () => {
 
 describe("dev panel demo data source (T5)", () => {
   async function openDevPanel() {
-    const realFetch = vi.fn(() => {
-      throw new Error("real network was hit in demo mode");
-    });
-    vi.stubGlobal("fetch", realFetch);
-    installDemoBackend();
+    const realFetch = installDemoTestBackend();
     render(<DemoShell />);
     const user = userEvent.setup();
     const sidebar = await screen.findByTestId("thread-sidebar");
@@ -322,13 +320,7 @@ describe("dev panel demo data source (T5)", () => {
 
 describe("honesty banner (T6)", () => {
   it("renders a dismissible banner outside the app shell with a repo link", async () => {
-    vi.stubGlobal(
-      "fetch",
-      vi.fn(() => {
-        throw new Error("real network was hit in demo mode");
-      }),
-    );
-    installDemoBackend();
+    installDemoTestBackend();
     render(<DemoShell />);
     const user = userEvent.setup();
 
@@ -357,11 +349,7 @@ describe("honesty banner (T6)", () => {
 
 describe("demo replay through the real frontend", () => {
   it("replays the recorded CSE 100 session with zero real network requests", async () => {
-    const realFetch = vi.fn(() => {
-      throw new Error("real network was hit in demo mode");
-    });
-    vi.stubGlobal("fetch", realFetch);
-    installDemoBackend();
+    const realFetch = installDemoTestBackend();
 
     render(<App />);
     const user = userEvent.setup();
