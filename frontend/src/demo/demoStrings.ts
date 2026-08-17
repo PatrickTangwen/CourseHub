@@ -1,0 +1,24 @@
+/**
+ * Demo Mode 专属文案(与生产 chrome 的 strings.ts 分离,不进正常构建)。
+ * 全部文案遵守 CONTEXT.md 的 Avoid 词表。
+ */
+
+/** 建议问题渲染为 markdown 链接,demo 壳的委托点击监听接管(#ask=)。 */
+export const askHref = (question: string) => `#ask=${encodeURIComponent(question)}`;
+
+const questionList = (questions: string[]) =>
+  questions.map((q) => `- [${q}](${askHref(q)})`).join("\n");
+
+/** Demo Notice:对脚本库外的自由输入的固定说明,按输入语言单语回复。 */
+export const DEMO_NOTICE = {
+  en: (questions: string[]) =>
+    "**This is a scripted demo.** Answers here replay sessions pre-recorded " +
+    "from a real local CourseHub deployment, so free-form questions are not " +
+    "answered live. Try one of the recorded questions:\n\n" +
+    questionList(questions),
+  // 注意:闭合 ** 紧邻全角句号会破坏 CommonMark 的右侧翼判定,句号须在加粗之外。
+  zh: (questions: string[]) =>
+    "**这是一个脚本化演示页**。这里的回答回放实录自真实本地部署的会话," +
+    "自由提问不会得到实时回答。试试下面这些已实录的问题:\n\n" +
+    questionList(questions),
+} as const;

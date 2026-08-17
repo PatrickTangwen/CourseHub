@@ -3,8 +3,9 @@
  * 应用代码(chatAdapter/HealthDot/DevPanel)原样运行——回放重建为真正的
  * SSE 字节流,由生产解析器与严格 decoder 消费。取舍见 ADR-0003。
  */
-import { API_BASE } from "../lib/chatApi";
+import { API_BASE, type ChatAnswer } from "../lib/chatApi";
 import { DEMO_SESSIONS, type RecordedTurn } from "./sessions";
+import { DEMO_NOTICE } from "./demoStrings";
 
 /** 阶段流回放总时长:等比压缩,各事件相对节奏保持实录比例。测试下瞬时。 */
 const REPLAY_TOTAL_MS = import.meta.env.MODE === "test" ? 0 : 2500;
@@ -52,6 +53,39 @@ function answerFor(turn: RecordedTurn): unknown {
   return turn.events.find((evt) => evt.event === "answer")?.data;
 }
 
+const hasCJK = (text: string) => /[㐀-䶿一-鿿]/.test(text);
+
+/** Demo Notice:脚本库外的输入得到按输入语言的固定说明,不伪造任何阶段。 */
+function noticeTurn(message: string): RecordedTurn {
+  const questions = DEMO_SESSIONS.map((s) => s.turns[0].question);
+  const notice = (hasCJK(message) ? DEMO_NOTICE.zh : DEMO_NOTICE.en)(questions);
+  const answer: ChatAnswer = {
+    conv_id: "demo-notice",
+    response: notice,
+    intent: "meta_info",
+    intent_group: "general",
+    agent_type: "general",
+    agent_types: ["general"],
+    primary_agent: "general",
+    supporting_agents: [],
+    routing_reason: "Demo Mode notice for unscripted input",
+    routing_confidence: 1,
+    escalated: false,
+    latency_ms: 0,
+    knowledge_used: false,
+    entities: {},
+    intent_confidence: 1,
+    intent_source_scores: {},
+  };
+  return {
+    question: message,
+    events: [
+      { event: "answer", data: answer, at_ms: 0 },
+      { event: "done", data: {}, at_ms: 0 },
+    ],
+  };
+}
+
 function requestUrl(input: RequestInfo | URL): string {
   if (typeof input === "string") return input;
   if (input instanceof URL) return input.toString();
@@ -68,14 +102,14 @@ export function installDemoBackend(): void {
     const path = requestUrl(input).split("?")[0];
 
     if (path === `${API_BASE}/chat/stream`) {
-      const turn = findTurn(chatMessage(init));
-      if (!turn) return new Response(null, { status: 404 });
+      const message = chatMessage(init);
+      const turn = findTurn(message) ?? noticeTurn(message);
       return new Response(replayStream(turn, init?.signal), { status: 200 });
     }
 
     if (path === `${API_BASE}/chat`) {
-      const turn = findTurn(chatMessage(init));
-      if (!turn) return new Response(null, { status: 404 });
+      const message = chatMessage(init);
+      const turn = findTurn(message) ?? noticeTurn(message);
       return Response.json(answerFor(turn));
     }
 

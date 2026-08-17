@@ -3,6 +3,7 @@ import {
   AssistantRuntimeProvider,
   useLocalRuntime,
   useRemoteThreadListRuntime,
+  type AssistantRuntime,
 } from "@assistant-ui/react";
 import { createChatAdapter } from "./lib/chatAdapter";
 import { useLocalThreadListAdapter } from "./lib/threadListAdapter";
@@ -21,11 +22,20 @@ type View = "chat" | "dev";
 const viewFromPath = (): View =>
   window.location.pathname === "/dev" ? "dev" : "chat";
 
-export default function App() {
+interface AppProps {
+  /** 运行时就绪回调:外层宿主(如 demo 壳)用它驱动线程。 */
+  onRuntimeReady?: (runtime: AssistantRuntime) => void;
+}
+
+export default function App({ onRuntimeReady }: AppProps = {}) {
   const adapter = useLocalThreadListAdapter();
   const runtime = useRemoteThreadListRuntime({ runtimeHook: useRuntime, adapter });
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [view, setView] = useState(viewFromPath);
+
+  useEffect(() => {
+    onRuntimeReady?.(runtime);
+  }, [onRuntimeReady, runtime]);
 
   useEffect(() => {
     const syncFromUrl = () => setView(viewFromPath());

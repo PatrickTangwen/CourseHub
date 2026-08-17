@@ -10,6 +10,7 @@ import App from "../App";
 import { decodeStageEvent, isStageEventName } from "../lib/stages";
 import { DEMO_SESSIONS } from "../demo/sessions";
 import { installDemoBackend } from "../demo/demoBackend";
+import { DemoShell } from "../demo/DemoShell";
 import panelSnapshots from "../demo/fixtures/panel-snapshots.json";
 import type { ChatAnswer } from "../lib/chatApi";
 
@@ -116,6 +117,72 @@ describe("recorded session inventory (T2 acceptance)", () => {
   });
 });
 
+describe("Demo Notice for free input (T3)", () => {
+  function setup() {
+    const realFetch = vi.fn(() => {
+      throw new Error("real network was hit in demo mode");
+    });
+    vi.stubGlobal("fetch", realFetch);
+    installDemoBackend();
+    render(<DemoShell />);
+    return { user: userEvent.setup(), realFetch };
+  }
+  async function send(user: ReturnType<typeof userEvent.setup>, text: string) {
+    await user.type(screen.getByPlaceholderText(/ask about ucsd courses/i), text);
+    await user.click(screen.getByRole("button", { name: /send/i }));
+  }
+
+  it("answers unscripted English input with the English notice and no timeline", async () => {
+    const { user, realFetch } = setup();
+    await screen.findByText("What does CSE 100 cover?");
+    await send(user, "tell me a joke");
+    expect(
+      await screen.findByText(/this is a scripted demo/i),
+    ).toBeInTheDocument();
+    expect(screen.queryByTestId("process-toggle")).not.toBeInTheDocument();
+    expect(screen.queryByTestId("process-steps")).not.toBeInTheDocument();
+    expect(realFetch).not.toHaveBeenCalled();
+  });
+
+  it("answers input containing CJK with the Chinese notice, no forbidden wording", async () => {
+    const { user } = setup();
+    await screen.findByText("What does CSE 100 cover?");
+    await send(user, "给我讲个笑话");
+    const hits = await screen.findAllByText(/这是一个脚本化演示页/);
+    expect(hits.length).toBeGreaterThan(0);
+    // 加粗必须真的渲染成 <strong>(CJK 标点紧邻 ** 会破坏 CommonMark 解析)
+    expect(hits.some((el) => el.tagName === "STRONG")).toBe(true);
+    expect(document.body.textContent).not.toMatch(/human handoff|转人工/);
+    expect(document.body.textContent).not.toContain("**");
+  });
+
+  it("replays a recorded session when typed input matches after normalization", async () => {
+    const { user } = setup();
+    await screen.findByText("What does CSE 100 cover?");
+    await send(user, "  WHAT DOES cse 100 cover?  ");
+    // findAll:短语出现在行内加粗里,<strong> 与外层 <p> 会同时命中
+    const hits = await screen.findAllByText(/advanced data structures/i, undefined, {
+      timeout: 8000,
+    });
+    expect(hits.length).toBeGreaterThan(0);
+    expect(screen.queryByText(/this is a scripted demo/i)).not.toBeInTheDocument();
+  }, 15000);
+
+  it("clicking a suggested question inside the notice replays that session", async () => {
+    const { user } = setup();
+    await screen.findByText("What does CSE 100 cover?");
+    await send(user, "hello");
+    await screen.findByText(/this is a scripted demo/i);
+    await user.click(
+      screen.getByRole("link", { name: "Who teaches CSE 101 in FA26?" }),
+    );
+    const hits = await screen.findAllByText(/miles jones/i, undefined, {
+      timeout: 8000,
+    });
+    expect(hits.length).toBeGreaterThan(0);
+  }, 15000);
+});
+
 describe("demo replay through the real frontend", () => {
   it("replays the recorded CSE 100 session with zero real network requests", async () => {
     const realFetch = vi.fn(() => {
@@ -130,12 +197,13 @@ describe("demo replay through the real frontend", () => {
     // 空态就绪后点击示例提问,触发实录回放
     await user.click(await screen.findByText("What does CSE 100 cover?"));
 
-    // 实录答案经打字机完整渲染(fixture 中的真实课程内容)
-    expect(
-      await screen.findByText(/advanced data structures/i, undefined, {
-        timeout: 5000,
-      }),
-    ).toBeInTheDocument();
+    // 实录答案经打字机完整渲染;findAll 因 <strong> 与外层 <p> 会同时命中
+    const answerHits = await screen.findAllByText(
+      /advanced data structures/i,
+      undefined,
+      { timeout: 8000 },
+    );
+    expect(answerHits.length).toBeGreaterThan(0);
 
     // 时间线收起为一行摘要:实录里是 Course Agent + 5 次工具调用
     const toggle = await screen.findByTestId("process-toggle");
