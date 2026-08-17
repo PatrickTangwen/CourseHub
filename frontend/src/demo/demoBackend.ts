@@ -6,6 +6,7 @@
 import { API_BASE, type ChatAnswer } from "../lib/chatApi";
 import { DEMO_SESSIONS, type RecordedTurn } from "./sessions";
 import { DEMO_NOTICE } from "./demoStrings";
+import panelSnapshots from "./fixtures/panel-snapshots.json";
 
 /** 阶段流回放总时长:等比压缩,各事件相对节奏保持实录比例。测试下瞬时。 */
 const REPLAY_TOTAL_MS = import.meta.env.MODE === "test" ? 0 : 2500;
@@ -97,9 +98,17 @@ function chatMessage(init: RequestInit | undefined): string {
   return (JSON.parse(body) as { message?: string }).message ?? "";
 }
 
+/** 面板写操作的假成功:作用于内存统计,页面刷新(重新 install)即复位到快照。 */
+function createKnowledgeStats() {
+  return { ...panelSnapshots.knowledge_stats };
+}
+
 export function installDemoBackend(): void {
+  const knowledgeStats = createKnowledgeStats();
+
   const demoFetch: typeof fetch = async (input, init) => {
     const path = requestUrl(input).split("?")[0];
+    const method = (init?.method ?? "GET").toUpperCase();
 
     if (path === `${API_BASE}/chat/stream`) {
       const message = chatMessage(init);
@@ -115,6 +124,33 @@ export function installDemoBackend(): void {
 
     if (path === `${API_BASE}/health`) {
       return Response.json({ status: "ok" });
+    }
+
+    if (path === `${API_BASE}/knowledge/stats`) {
+      return Response.json(knowledgeStats);
+    }
+
+    if (path === `${API_BASE}/monitor`) {
+      return Response.json(panelSnapshots.monitor);
+    }
+
+    if (path === `${API_BASE}/skills` || path === `${API_BASE}/skills/reload`) {
+      return Response.json(panelSnapshots.skills);
+    }
+
+    if (path === `${API_BASE}/knowledge/add` && method === "POST") {
+      const body = typeof init?.body === "string" ? init.body : "{}";
+      const documents =
+        (JSON.parse(body) as { documents?: unknown[] }).documents ?? [];
+      knowledgeStats.total_chunks += documents.length;
+      knowledgeStats.total_documents += documents.length;
+      return Response.json({ added_chunks: documents.length });
+    }
+
+    if (path === `${API_BASE}/knowledge/upload` && method === "POST") {
+      knowledgeStats.total_chunks += 1;
+      knowledgeStats.total_documents += 1;
+      return Response.json({ added_chunks: 1 });
     }
 
     throw new Error(`Demo Mode has no route for ${path}`);

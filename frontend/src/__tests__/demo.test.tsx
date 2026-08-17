@@ -18,6 +18,8 @@ import type { ChatAnswer } from "../lib/chatApi";
 beforeEach(() => {
   vi.unstubAllGlobals();
   localStorage.clear();
+  // jsdom 的 URL 跨用例残留;/dev 导航过的用例会污染后续的视图判断
+  window.history.pushState(null, "", "/");
 });
 
 describe("recorded fixtures (admission gate)", () => {
@@ -245,6 +247,77 @@ describe("first-visit seeding (T4)", () => {
       await screen.findByText(/welcome to coursehub/i),
     ).toBeInTheDocument();
   }, 15000);
+});
+
+describe("dev panel demo data source (T5)", () => {
+  async function openDevPanel() {
+    const realFetch = vi.fn(() => {
+      throw new Error("real network was hit in demo mode");
+    });
+    vi.stubGlobal("fetch", realFetch);
+    installDemoBackend();
+    render(<DemoShell />);
+    const user = userEvent.setup();
+    const sidebar = await screen.findByTestId("thread-sidebar");
+    await user.click(within(sidebar).getByRole("button", { name: /developer/i }));
+    return { user, realFetch };
+  }
+
+  const snapshotStatsLine = new RegExp(
+    `${panelSnapshots.knowledge_stats.total_chunks} chunks`,
+  );
+
+  it("renders knowledge stats, monitor tables and skills from the snapshot", async () => {
+    const { realFetch } = await openDevPanel();
+    expect(await screen.findByText(snapshotStatsLine)).toBeInTheDocument();
+    const firstAgent = Object.keys(panelSnapshots.monitor.agent_stats)[0];
+    expect(await screen.findByText(firstAgent)).toBeInTheDocument();
+    const firstSkill = panelSnapshots.skills.skills[0].name;
+    expect(await screen.findByText(firstSkill)).toBeInTheDocument();
+    expect(realFetch).not.toHaveBeenCalled();
+  });
+
+  it("fake-succeeds add-document: notice appears, chunk count grows, Refresh keeps it", async () => {
+    const { user } = await openDevPanel();
+    await screen.findByText(snapshotStatsLine);
+    await user.type(screen.getByPlaceholderText(/document title/i), "Demo note");
+    await user.type(
+      screen.getByPlaceholderText(/document content/i),
+      "Some content",
+    );
+    await user.click(screen.getByRole("button", { name: /add document/i }));
+    expect(
+      await screen.findByText(/imported 1 document chunk/i),
+    ).toBeInTheDocument();
+    const grown = new RegExp(
+      `${panelSnapshots.knowledge_stats.total_chunks + 1} chunks`,
+    );
+    expect(await screen.findByText(grown)).toBeInTheDocument();
+    // Refresh 重新拉内存态,不复位(复位发生在页面刷新)
+    await user.click(screen.getByRole("button", { name: /refresh/i }));
+    expect(await screen.findByText(grown)).toBeInTheDocument();
+  });
+
+  it("fake-succeeds skills reload", async () => {
+    const { user } = await openDevPanel();
+    await screen.findByText(snapshotStatsLine);
+    await user.click(screen.getByRole("button", { name: /reload skills/i }));
+    expect(await screen.findByText(/skills reloaded/i)).toBeInTheDocument();
+  });
+
+  it("in-memory state resets on a fresh install (page reload semantics)", async () => {
+    const { user } = await openDevPanel();
+    await screen.findByText(snapshotStatsLine);
+    await user.type(screen.getByPlaceholderText(/document title/i), "T");
+    await user.type(screen.getByPlaceholderText(/document content/i), "C");
+    await user.click(screen.getByRole("button", { name: /add document/i }));
+    await screen.findByText(/imported 1 document chunk/i);
+    // 重新 install(相当于刷新页面)后,统计回到快照初值
+    installDemoBackend();
+    const res = await fetch("/api/knowledge/stats");
+    const stats = (await res.json()) as { total_chunks: number };
+    expect(stats.total_chunks).toBe(panelSnapshots.knowledge_stats.total_chunks);
+  });
 });
 
 describe("demo replay through the real frontend", () => {
