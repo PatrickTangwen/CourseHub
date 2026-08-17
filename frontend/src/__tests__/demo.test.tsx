@@ -4,13 +4,14 @@
  * 断言:实录事件全部通过严格 decoder;回放全程零真实网络请求。
  */
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "../App";
 import { decodeStageEvent, isStageEventName } from "../lib/stages";
 import { DEMO_SESSIONS } from "../demo/sessions";
 import { installDemoBackend } from "../demo/demoBackend";
 import { DemoShell } from "../demo/DemoShell";
+import { seedDemoThreads } from "../demo/seed";
 import panelSnapshots from "../demo/fixtures/panel-snapshots.json";
 import type { ChatAnswer } from "../lib/chatApi";
 
@@ -180,6 +181,69 @@ describe("Demo Notice for free input (T3)", () => {
       timeout: 8000,
     });
     expect(hits.length).toBeGreaterThan(0);
+  }, 15000);
+});
+
+describe("first-visit seeding (T4)", () => {
+  function setupSeeded() {
+    const realFetch = vi.fn(() => {
+      throw new Error("real network was hit in demo mode");
+    });
+    vi.stubGlobal("fetch", realFetch);
+    installDemoBackend();
+    seedDemoThreads();
+    return render(<DemoShell />);
+  }
+
+  it("lands on the planning thread: table, disclaimer, six threads in sidebar", async () => {
+    setupSeeded();
+    // 落地即最新会话(修课规划),含 GFM 表格与免责声明,无需任何点击
+    expect(
+      await screen.findByRole("table", undefined, { timeout: 5000 }),
+    ).toBeInTheDocument();
+    expect(
+      await screen.findByText(/本建议为非官方参考/),
+    ).toBeInTheDocument();
+    const sidebar = screen.getByTestId("thread-sidebar");
+    expect(
+      within(sidebar).getAllByRole("button", { name: /delete chat/i }),
+    ).toHaveLength(6);
+  }, 15000);
+
+  it("seeds only once: a deleted thread stays deleted after reload", async () => {
+    const first = setupSeeded();
+    await screen.findByRole("table", undefined, { timeout: 5000 });
+    const sidebar = screen.getByTestId("thread-sidebar");
+    const user = userEvent.setup();
+    await user.click(
+      within(sidebar).getAllByRole("button", { name: /delete chat/i })[0],
+    );
+    await vi.waitFor(() =>
+      expect(
+        within(sidebar).getAllByRole("button", { name: /delete chat/i }),
+      ).toHaveLength(5),
+    );
+    // 模拟刷新:重新走 demo 入口的播种 + 挂载
+    first.unmount();
+    seedDemoThreads();
+    render(<DemoShell />);
+    const sidebar2 = screen.getByTestId("thread-sidebar");
+    await vi.waitFor(() =>
+      expect(
+        within(sidebar2).getAllByRole("button", { name: /delete chat/i }),
+      ).toHaveLength(5),
+    );
+  }, 15000);
+
+  it("new chat still reaches the welcome state", async () => {
+    setupSeeded();
+    await screen.findByRole("table", undefined, { timeout: 5000 });
+    const user = userEvent.setup();
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await user.click(within(sidebar).getByRole("button", { name: /new chat/i }));
+    expect(
+      await screen.findByText(/welcome to coursehub/i),
+    ).toBeInTheDocument();
   }, 15000);
 });
 

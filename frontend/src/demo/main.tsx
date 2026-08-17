@@ -3,10 +3,13 @@ import { createRoot } from 'react-dom/client'
 import '../index.css'
 import { initTheme } from '../lib/theme.ts'
 import { installDemoBackend } from './demoBackend.ts'
+import { seedDemoThreads } from './seed.ts'
 import { DemoShell } from './DemoShell.tsx'
 
-// Demo Mode 入口:先把网络边界接到实录回放上,再渲染与生产完全相同的应用。
+// Demo Mode 入口:先把网络边界接到实录回放上、播种首访会话,
+// 再渲染与生产完全相同的应用。
 installDemoBackend()
+seedDemoThreads()
 initTheme()
 
 createRoot(document.getElementById('root')!).render(
