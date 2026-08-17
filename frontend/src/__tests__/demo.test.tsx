@@ -62,8 +62,8 @@ describe("recorded session inventory (T2 acceptance)", () => {
     return session!;
   };
   const answerOf = (sessionId: string, turn: number) =>
-    byId(sessionId).turns[turn].events.find((e) => e.event === "answer")
-      ?.data as ChatAnswer;
+    byId(sessionId).turns[turn].events.find((e) => e.event === "answer")!
+      .data as ChatAnswer;
 
   it("covers all six confirmed sessions", () => {
     expect(DEMO_SESSIONS.map((s) => s.id).sort()).toEqual(
@@ -89,7 +89,7 @@ describe("recorded session inventory (T2 acceptance)", () => {
   it("planning session carries a GFM table and the planning disclaimer", () => {
     const responses = byId("planning-sequence-zh").turns.map(
       (turn) =>
-        (turn.events.find((e) => e.event === "answer")?.data as ChatAnswer)
+        (turn.events.find((e) => e.event === "answer")!.data as ChatAnswer)
           .response,
     );
     expect(responses.some((r) => /\|.+\|\n\|[-\s|:]+\|/.test(r))).toBe(true);
@@ -105,7 +105,7 @@ describe("recorded session inventory (T2 acceptance)", () => {
     expect(session.turns.length).toBeGreaterThanOrEqual(2);
     const convIds = session.turns.map(
       (turn) =>
-        (turn.events.find((e) => e.event === "answer")?.data as ChatAnswer)
+        (turn.events.find((e) => e.event === "answer")!.data as ChatAnswer)
           .conv_id,
     );
     expect(new Set(convIds).size).toBe(1);
@@ -317,6 +317,41 @@ describe("dev panel demo data source (T5)", () => {
     const res = await fetch("/api/knowledge/stats");
     const stats = (await res.json()) as { total_chunks: number };
     expect(stats.total_chunks).toBe(panelSnapshots.knowledge_stats.total_chunks);
+  });
+});
+
+describe("honesty banner (T6)", () => {
+  it("renders a dismissible banner outside the app shell with a repo link", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(() => {
+        throw new Error("real network was hit in demo mode");
+      }),
+    );
+    installDemoBackend();
+    render(<DemoShell />);
+    const user = userEvent.setup();
+
+    const banner = await screen.findByTestId("demo-banner");
+    expect(banner).toHaveTextContent(/scripted demo/i);
+    expect(banner).toHaveTextContent(/pre-recorded/i);
+    expect(banner).toHaveTextContent(/回放实录会话/);
+    const repoLink = within(banner).getByRole("link");
+    expect(repoLink).toHaveAttribute(
+      "href",
+      "https://github.com/PatrickTangwen/CourseHub",
+    );
+
+    // 横幅在应用壳之外:不在 <header>(role=banner)或其父容器(壳根)内部
+    const appHeader = screen.getByRole("banner");
+    expect(appHeader.contains(banner)).toBe(false);
+    expect(appHeader.parentElement!.contains(banner)).toBe(false);
+    expect(document.body.textContent).not.toMatch(/human handoff|转人工/);
+
+    await user.click(
+      within(banner).getByRole("button", { name: /dismiss/i }),
+    );
+    expect(screen.queryByTestId("demo-banner")).not.toBeInTheDocument();
   });
 });
 
