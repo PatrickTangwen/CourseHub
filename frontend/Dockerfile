@@ -1,6 +1,6 @@
 # CourseHub 前端 → nginx 静态产物镜像
-# 由 EchoMind/docker-compose.yml 的 nginx 服务构建;
-# nginx.conf 仍由 EchoMind/config/nginx/nginx.conf 卷挂载提供。
+# 由 backend/docker-compose.yml 的 nginx 服务构建;
+# nginx.conf 仍由 backend/config/nginx/nginx.conf 卷挂载提供。
 
 FROM node:24-alpine AS build
 WORKDIR /app

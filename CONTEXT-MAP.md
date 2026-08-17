@@ -2,7 +2,7 @@
 
 ## Contexts
 
-- [CourseHub Assistant](./CONTEXT.md) — multi-agent Q&A assistant that answers UCSD course questions (backend in `EchoMind/`)
+- [CourseHub Assistant](./CONTEXT.md) — multi-agent Q&A assistant that answers UCSD course questions (backend in `backend/`)
 - [SunGrid Course Data](./ucsd-course-data/04-documentation/repository-root/CONTEXT.md) — the UCSD course-data platform whose published catalog snapshots CourseHub consumes
 
 ## Relationships

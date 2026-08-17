@@ -1,6 +1,6 @@
 # CourseHub Assistant
 
-CourseHub is a multi-agent Q&A assistant that answers UCSD course questions (course facts and planning advice) from SunGrid catalog snapshots. It is a re-theme of the EchoMind customer-service backend: the pipeline (intent fusion → agent routing → retrieval-augmented generation → memory) is unchanged; only the domain content is swapped.
+CourseHub is a multi-agent Q&A assistant that answers UCSD course questions (course facts and planning advice) from SunGrid catalog snapshots. It evolved from an earlier customer-service backend: the pipeline (intent fusion → agent routing → retrieval-augmented generation → memory) is unchanged; only the domain content is swapped.
 
 ## Language
 

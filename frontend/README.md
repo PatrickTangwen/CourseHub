@@ -32,7 +32,7 @@ VITE_PROXY_TARGET=http://localhost:8010
 
 ## 部署
 
-由 `EchoMind/docker-compose.yml` 统一编排:nginx 服务用本目录的多阶段 `Dockerfile` 构建(node 构建 → 静态产物进 nginx 镜像),配置在 `EchoMind/config/nginx/nginx.conf`(`/` 静态 + SPA 回退,`/api/` 代理,`/api/chat/stream` 关缓冲)。在 `EchoMind/` 下一条命令起全套:
+由 `backend/docker-compose.yml` 统一编排:nginx 服务用本目录的多阶段 `Dockerfile` 构建(node 构建 → 静态产物进 nginx 镜像),配置在 `backend/config/nginx/nginx.conf`(`/` 静态 + SPA 回退,`/api/` 代理,`/api/chat/stream` 关缓冲)。在 `backend/` 下一条命令起全套:
 
 ```bash
 docker compose up -d --build

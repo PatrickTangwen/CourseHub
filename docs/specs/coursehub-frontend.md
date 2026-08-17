@@ -9,12 +9,12 @@
 
 ## 1. 定位与范围
 
-把 `EchoMindFrontend/`(旧 EchoMind 调试控制台,Vue 3)完全重构为面向学生的 **ChatGPT/Claude 式课程问答界面**,同时以"真实过程透明度"承载作品集演示价值。
+把旧版 Vue 3 调试控制台完全重构为面向学生的 **ChatGPT/Claude 式课程问答界面**,同时以"真实过程透明度"承载作品集演示价值。
 
 - **单一界面**:面向学生的干净聊天为主,pipeline 过程展示做成可折叠组件,不做用户/调试双模式。
 - **Python-only**:彻底删除 Java 后端切换、旧代理路径与全部客服领域残留。
 - **纯聊天形态**:不做独立课程搜索/详情页;结构化内容(课表、教授×学期成绩)由回答文本的 markdown 渲染呈现,**不引入结构化证据卡协议**(避免不必要的前端投入)。
-- **目录**:新前端位于 `frontend/`;`EchoMindFrontend/` 删除(git 历史留档)。
+- **目录**:新前端位于 `frontend/`;旧版前端目录删除(git 历史留档)。
 - **界面语言**:chrome 文案英文,集中管理便于将来 i18n;回答内容双语自适应是后端行为。
 - **主题**:深浅色双主题,默认跟随系统;视觉严格采用 assistant-ui 官方 base 主题——`@assistant-ui/styles` 为 token 准绳,其 Default 主题变量(HSL CSS variables + Tailwind `@theme` 映射)逐字取为全局 `:root`/`.dark`(该包按嵌入式场景将作用域限定在 thread 根内,本应用为整页形态故全局采纳,升级时以包内文件重新同步);全部组件(含时间线、转介卡、侧边栏、dev 面板)只消费语义 token(background/foreground/muted/primary/destructive/sidebar/chart 等),无平行手写色板,不做品牌点缀色,不使用校徽/字标。
 
@@ -92,7 +92,7 @@ SSE 建立失败或在 `answer` 前断连 → 自动回退一次 `POST /chat`;�
 
 ## 6. 技术亮点 → UI 落点
 
-「EchoMind 定位与技术亮点」8 项亮点的呈现位置(CourseHub 域对应):
+「定位与技术亮点」8 项亮点的呈现位置(CourseHub 域对应):
 
 | 亮点 | 落点 |
 |---|---|
@@ -107,8 +107,8 @@ SSE 建立失败或在 `answer` 前断连 → 自动回退一次 `POST /chat`;�
 
 ## 7. 部署
 
-- 前端并入 `EchoMind/docker-compose.yml`:多阶段构建产出静态 `dist`,由现有 nginx 容器服务,并代理 API 与 SSE(`proxy_buffering off`、加长 `proxy_read_timeout`)。
-- 从 `EchoMind/` 一条 `docker compose up` 起完整演示;删除 `EchoMindFrontend/` 独立 Dockerfile/Compose 及 `host.docker.internal` 旧姿势。
+- 前端并入 `backend/docker-compose.yml`:多阶段构建产出静态 `dist`,由现有 nginx 容器服务,并代理 API 与 SSE(`proxy_buffering off`、加长 `proxy_read_timeout`)。
+- 从 `backend/` 一条 `docker compose up` 起完整演示;删除旧版前端的独立 Dockerfile/Compose 及 `host.docker.internal` 旧姿势。
 - 本地开发:`npm run dev`,Vite 代理到 `localhost:8000`。
 
 ## 8. 测试
@@ -119,8 +119,8 @@ SSE 建立失败或在 `answer` 前断连 → 自动回退一次 `POST /chat`;�
 
 ## 9. 验收标准
 
-1. `EchoMind/` 下 `docker compose up` 后,`:80` 提供新前端,真实后端联通可聊。
-2. 课程问题触发时间线依序实时显示各阶段,答案打字机呈现;完成后时间线收起,可展开看意图分数、路由理由、工具耗时。
+1. `backend/` 下 `docker compose up` 后,`:80` 提供新前端,真实后端联通可聊。
+2. 课程问题触发时间线依序实时显示各阶段,答案打字机呈现;完成后时间线收起,可展开看意图分数、路由理由和工具状态。
 3. 命中多 Agent 的问题显示主/辅 Agent。
 4. `escalated=true` 显示 Advisor Referral 卡及官方渠道。
 5. Planning 回答的免责声明、名额回答的快照时间在渲染中完整可见。

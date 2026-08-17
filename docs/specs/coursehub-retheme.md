@@ -9,11 +9,11 @@
 
 ## 1. 背景与目标
 
-把 EchoMind(面向复杂客服任务的多 Agent 客服系统,Python/FastAPI,位于 `EchoMind/`)换皮为 **CourseHub**——回答 UCSD 课程问答的多 Agent 助手,知识源为 SunGrid 发布的课程目录快照(`ucsd-course-data/`)。
+把原有的多 Agent 客服系统(Python/FastAPI；现有实现位于 `backend/`)重构为 **CourseHub**——回答 UCSD 课程问答的多 Agent 助手,知识源为 SunGrid 发布的课程目录快照(`ucsd-course-data/`)。
 
 - **定位**:作品集项目。重点是展示多 Agent 架构能力,数据够真实即可。
 - **语言**:双语自适应——用户用中文答中文,用英文答英文。
-- **范围**:仅后端。`EchoMindFrontend/` 本次不动。
+- **范围**:仅后端。旧版前端目录本次不动。
 - **改动预算**:内容 + 领域常量随便换;允许小的结构性扩展(新增 MCP 工具、`add_documents` 加 metadata 参数);主链路形状(意图 → 路由 → 检索拼上下文 → 生成)不动。
 
 ## 2. 不变项(框架层)
@@ -103,11 +103,11 @@
 | `data/chroma/` | 删除已提交的旧客服索引(sqlite + HNSW 段),并修 `.gitignore` 使 `data/` 真正生效 |
 | `data/eval/baseline.json` | 删除(旧客服基线,且已与用例集脱节),新用例首跑重建 |
 | `data/demo_docs/` | 客服演示文档换为课程域示例 |
-| `docker-compose.yml`、`Dockerfile`、`*.sh`、`.env`、`README.md` | 品牌 EchoMind → CourseHub(容器/镜像名、env 前缀、banner);README 定向更新(见 §9) |
+| `docker-compose.yml`、`Dockerfile`、`*.sh`、`.env`、`README.md` | 品牌统一为 CourseHub(容器/镜像名、env 前缀、banner);README 定向更新(见 §9) |
 
 ## 6. 新增组件
 
-1. **预处理脚本**(独立目录,不进后端框架;建议 `EchoMind/tools/build_course_data.py`):读 15 个快照 JSON,产出 ① Knowledge Docs(经 `/knowledge/add` 或直调 KB 灌库)② Course Index SQLite ③ 教授名单词典 ④ 科目代码词典。
+1. **预处理脚本**(独立目录,不进后端框架;位于 `backend/tools/build_course_data.py`):读 15 个快照 JSON,产出 ① Knowledge Docs(经 `/knowledge/add` 或直调 KB 灌库)② Course Index SQLite ③ 教授名单词典 ④ 科目代码词典。
 2. **`course_lookup` 工具**(见 §4.2)。
 3. **`add_documents` metadata 参数**(见 §4.1)。
 
@@ -127,7 +127,7 @@
 
 ## 9. 品牌与文档
 
-- 全部可见面 EchoMind → **CourseHub**:banner、FastAPI title、容器/镜像名、脚本内 IMAGE_NAME、env 前缀(`ECHOMIND_*` → `COURSEHUB_*`,compose 与代码同步改)。
+- 全部可见面统一为 **CourseHub**:banner、FastAPI title、容器/镜像名、脚本内 IMAGE_NAME、env 前缀统一为 `COURSEHUB_*`(compose 与代码同步改)。
 - `README.md`(1392 行)定向更新:品牌、架构描述、示例请求/响应、知识库与工具章节换课程域;部署/排障章节仅改名。`wiki/` 与使用指南 PDF 不动。
 
 ## 10. 顺手修复
@@ -151,7 +151,7 @@
 2. `POST /eval/run` pass_rate ≥ 0.75,新基线落盘。
 3. `/knowledge/stats` 显示约 4–6 千篇文档;`/search` 对课程语义查询返回相关结果。
 4. `course_lookup` 出现在 `/monitor` 的 tool_stats 中,熔断状态 closed。
-5. `/chat` 响应中 `agent_type` ∈ {general, course, planning};API 表面无任何 EchoMind/客服残留字符串。
+5. `/chat` 响应中 `agent_type` ∈ {general, course, planning};API 表面无任何旧品牌/客服残留字符串。
 6. 中文问题得中文回答,英文问题得英文回答。
 
 ## 13. 二期展望(明确不做)

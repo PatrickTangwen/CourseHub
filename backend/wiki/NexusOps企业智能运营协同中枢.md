@@ -1,6 +1,6 @@
 # NexusOps 企业智能运营协同中枢
 
-> NexusOps 是 EchoMind 在企业运营协同方向上的产品化表达：它不是一个单轮智能客服机器人，而是一个支持 RAG、记忆增强、结构化多 Agent 路由、动态 Skills 和评测闭环的企业运营 Agent 平台。
+> NexusOps 是 CourseHub 核心 Agent 架构在企业运营协同方向上的产品化延伸：它不是一个单轮智能客服机器人，而是一个支持 RAG、记忆增强、结构化多 Agent 路由、动态 Skills 和评测闭环的企业运营 Agent 平台。
 
 ## 1. 定位概述
 
