@@ -1,4 +1,5 @@
 /// <reference types="vitest/config" />
+import { copyFile } from 'node:fs/promises'
 import { defineConfig, loadEnv } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -24,7 +25,16 @@ export default defineConfig(({ mode }) => {
             html.replace('/src/main.tsx', '/src/demo/main.tsx'),
         },
       },
+      // GitHub Pages 对未知路径回 404.html;复制 index.html 使 /dev 深链走 SPA 回退。
+      demo && {
+        name: 'coursehub-demo-404',
+        closeBundle: async () => {
+          await copyFile('dist-demo/index.html', 'dist-demo/404.html')
+        },
+      },
     ],
+    // Pages project site 部署在 /CourseHub/ 之下。
+    base: demo ? '/CourseHub/' : '/',
     build: {
       outDir: demo ? 'dist-demo' : 'dist',
     },

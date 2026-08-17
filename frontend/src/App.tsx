@@ -18,9 +18,12 @@ const useRuntime = () => useLocalRuntime(chatAdapter);
 
 type View = "chat" | "dev";
 
-/** /dev 仍是可直达的深链(nginx 已做 SPA 回退),但只决定主区显示什么。 */
+/** Vite base 感知(正常构建 "/",demo 构建 "/CourseHub/"),路径判断与跳转共用。 */
+const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+/** /dev 仍是可直达的深链(nginx/Pages 已做 SPA 回退),但只决定主区显示什么。 */
 const viewFromPath = (): View =>
-  window.location.pathname === "/dev" ? "dev" : "chat";
+  window.location.pathname === `${BASE_PATH}/dev` ? "dev" : "chat";
 
 interface AppProps {
   /** 运行时就绪回调:外层宿主(如 demo 壳)用它驱动线程。 */
@@ -44,7 +47,11 @@ export default function App({ onRuntimeReady }: AppProps = {}) {
   }, []);
 
   const go = useCallback((next: View) => {
-    window.history.pushState(null, "", next === "dev" ? "/dev" : "/");
+    window.history.pushState(
+      null,
+      "",
+      next === "dev" ? `${BASE_PATH}/dev` : `${BASE_PATH}/`,
+    );
     setView(next);
     setDrawerOpen(false);
   }, []);

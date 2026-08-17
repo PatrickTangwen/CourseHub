@@ -11,6 +11,11 @@
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white">
   <img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=0B1220">
   <img alt="Docker Compose" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white">
+  <a href="https://patricktangwen.github.io/CourseHub/"><img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-GitHub_Pages-2EA44F?logo=github&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <strong><a href="https://patricktangwen.github.io/CourseHub/">▶ Try the live demo</a></strong> — the full interface replaying sessions pre-recorded from a real local deployment, no backend required.
 </p>
 
 CourseHub turns published UCSD catalog snapshots into bilingual course answers and planning guidance. Students can ask about course content, prerequisites, schedules, seats, instructors, grade history, and course sequencing in one chat interface.
