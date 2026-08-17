@@ -231,6 +231,44 @@ describe("first-visit seeding (T4)", () => {
     expect(await screen.findByText(/welcome to coursehub/i)).toBeInTheDocument();
   }, 15000);
 
+  it("replaying a seeded question does not duplicate it in the sidebar", async () => {
+    setupSeeded();
+    await screen.findByText(/welcome to coursehub/i);
+    const user = userEvent.setup();
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await vi.waitFor(() =>
+      expect(
+        within(sidebar).getAllByRole("button", { name: /delete chat/i }),
+      ).toHaveLength(6),
+    );
+    // 从欢迎页点击示例提问,回放一条与播种线程同名的会话
+    await user.click(
+      within(screen.getByRole("main")).getByText("What does CSE 100 cover?"),
+    );
+    const answerHits = await screen.findAllByText(
+      /advanced data structures/i,
+      undefined,
+      { timeout: 8000 },
+    );
+    expect(answerHits.length).toBeGreaterThan(0);
+    // 同名去重:旧的播种线程被移除,侧边栏仍 6 条,该标题只出现一次
+    await vi.waitFor(() => {
+      expect(
+        within(sidebar).getAllByRole("button", {
+          name: "What does CSE 100 cover?",
+        }),
+      ).toHaveLength(1);
+    });
+    expect(
+      within(sidebar).getAllByRole("button", { name: /delete chat/i }),
+    ).toHaveLength(6);
+    // 被删的是旧线程:访客刚看完的回放必须还在屏幕上,不能弹回欢迎页
+    expect(screen.queryByText(/welcome to coursehub/i)).not.toBeInTheDocument();
+    expect(
+      screen.getAllByText(/advanced data structures/i).length,
+    ).toBeGreaterThan(0);
+  }, 15000);
+
   it("seeds only once: a deleted thread stays deleted after reload", async () => {
     const first = setupSeeded();
     await screen.findByText(/welcome to coursehub/i);
