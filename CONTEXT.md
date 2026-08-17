@@ -73,3 +73,17 @@ A rule inherited from SunGrid that binds reply wording: availability numbers alw
 
 **Planning Disclaimer**:
 The standing notice on every Planning Agent recommendation: unofficial, not academic advising; consult an advisor for decisions.
+
+### Demo
+
+**Demo Mode**:
+The publicly hosted static showcase of CourseHub in which every backend interaction is served from recorded material instead of a live backend, while the visitor-facing UI stays identical to a real deployment.
+_Avoid_: sandbox, mock site
+
+**Recorded Session**:
+A real conversation captured from a local deployment — its full stage-event stream with timing and the final answer — replayed as-is in Demo Mode.
+_Avoid_: scripted session, canned conversation
+
+**Demo Notice**:
+The fixed reply Demo Mode gives to visitor input it has no recording for, written in the input's language and pointing to Recorded Sessions the visitor can trigger.
+_Avoid_: fallback reply (that term is reserved for the live app's one-shot `/chat` retry)
