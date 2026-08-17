@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "build:demo": "tsc -b && vite build --mode demo",
+    "build:demo:zh": "vite build --mode demo-zh",
+    "build:demo:site": "tsc -b && vite build --mode demo && vite build --mode demo-zh",
     "preview:demo": "vite preview --mode demo",
     "lint": "oxlint",
     "preview": "vite preview",

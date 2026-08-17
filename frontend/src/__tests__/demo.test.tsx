@@ -370,6 +370,47 @@ describe("dev panel demo data source (T5)", () => {
   });
 });
 
+describe("Chinese chrome strings (strings.zh)", () => {
+  it("mirrors the English module shape exactly", async () => {
+    const en = await import("../lib/strings");
+    const zh = await import("../lib/strings.zh");
+    expect(Object.keys(zh.STRINGS).sort()).toEqual(
+      Object.keys(en.STRINGS).sort(),
+    );
+    expect(Object.keys(zh.PROCESS_STRINGS).sort()).toEqual(
+      Object.keys(en.PROCESS_STRINGS).sort(),
+    );
+    expect(Object.keys(zh.DEV_STRINGS).sort()).toEqual(
+      Object.keys(en.DEV_STRINGS).sort(),
+    );
+    expect(zh.REFERRAL_CHANNELS.map((c) => c.url)).toEqual(
+      en.REFERRAL_CHANNELS.map((c) => c.url),
+    );
+  });
+
+  it("keeps example prompts verbatim (they must match the recordings)", async () => {
+    const en = await import("../lib/strings");
+    const zh = await import("../lib/strings.zh");
+    expect(zh.EXAMPLE_PROMPTS.map((p) => p.prompt)).toEqual(
+      en.EXAMPLE_PROMPTS.map((p) => p.prompt),
+    );
+  });
+
+  it("renders template functions and avoids forbidden wording", async () => {
+    const zh = await import("../lib/strings.zh");
+    expect(zh.PROCESS_STRINGS.toolCalls(3)).toBe("3 次工具调用");
+    expect(zh.PROCESS_STRINGS.leadAgent("课程 Agent")).toContain("主");
+    expect(zh.DEV_STRINGS.stats(1, 2, 3)).toContain("分块");
+    const allText =
+      JSON.stringify(zh.STRINGS) +
+      JSON.stringify(zh.DEV_STRINGS) +
+      JSON.stringify(zh.REFERRAL_CHANNELS) +
+      zh.STRINGS.referralTitle +
+      zh.STRINGS.referralIntro;
+    expect(allText).not.toMatch(/转人工|human handoff/);
+  });
+});
+
 describe("honesty banner (T6)", () => {
   it("renders a dismissible banner outside the app shell with a repo link", async () => {
     installDemoTestBackend();
@@ -391,6 +432,11 @@ describe("honesty banner (T6)", () => {
     expect(appHeader.contains(banner)).toBe(false);
     expect(appHeader.parentElement!.contains(banner)).toBe(false);
     expect(document.body.textContent).not.toMatch(/human handoff|转人工/);
+
+    // 语言切换按钮:英文页显示"中文",指向 /zh/ 子树
+    expect(
+      within(banner).getByRole("button", { name: /切换到中文界面/ }),
+    ).toHaveTextContent("中文");
 
     await user.click(
       within(banner).getByRole("button", { name: /dismiss/i }),

@@ -32,9 +32,9 @@ jobs:
       - name: Test
         working-directory: frontend
         run: npm test
-      - name: Build demo bundle
+      - name: Build demo bundles (en + zh)
         working-directory: frontend
-        run: npm run build:demo
+        run: npm run build:demo:site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist-demo

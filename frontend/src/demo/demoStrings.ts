@@ -3,6 +3,10 @@
  * 全部文案遵守 CONTEXT.md 的 Avoid 词表。
  */
 
+/** 当前 demo 构建的界面语言:'en'(/CourseHub/)或 'zh'(/CourseHub/zh/)。 */
+export const DEMO_LOCALE: "en" | "zh" =
+  import.meta.env.VITE_DEMO_LOCALE === "zh" ? "zh" : "en";
+
 /** 建议问题渲染为 markdown 链接,demo 壳的委托点击监听按此前缀接管。 */
 export const ASK_PREFIX = "#ask=";
 
@@ -39,13 +43,27 @@ export const ALERT_MESSAGES_EN: Record<string, string> = {
     "course_0 agent_avg_ms = 13548.600, threshold 3000",
 };
 
-/** 诚实横幅:应用壳外的一条细横幅,说明本页为实录回放。 */
-export const DEMO_BANNER = {
-  text: "Scripted demo — responses replay sessions pre-recorded from a real local deployment · 本页回放实录会话",
-  linkLabel: "GitHub",
-  repoUrl: "https://github.com/PatrickTangwen/CourseHub",
-  dismiss: "Dismiss demo banner",
+/** 诚实横幅:应用壳外的一条细横幅,说明本页为实录回放。按构建语言取文案。 */
+const DEMO_BANNER_BY_LOCALE = {
+  en: {
+    text: "Scripted demo — responses replay sessions pre-recorded from a real local deployment · 本页回放实录会话",
+    linkLabel: "GitHub",
+    repoUrl: "https://github.com/PatrickTangwen/CourseHub",
+    dismiss: "Dismiss demo banner",
+    localeSwitch: "中文",
+    localeSwitchLabel: "切换到中文界面",
+  },
+  zh: {
+    text: "脚本化演示页 — 回放实录自真实本地部署的会话 · Replaying pre-recorded sessions",
+    linkLabel: "GitHub",
+    repoUrl: "https://github.com/PatrickTangwen/CourseHub",
+    dismiss: "关闭演示横幅",
+    localeSwitch: "English",
+    localeSwitchLabel: "Switch to the English interface",
+  },
 } as const;
+
+export const DEMO_BANNER = DEMO_BANNER_BY_LOCALE[DEMO_LOCALE];
 
 /** Demo Notice:对脚本库外的自由输入的固定说明,按输入语言单语回复。 */
 export const DEMO_NOTICE = {

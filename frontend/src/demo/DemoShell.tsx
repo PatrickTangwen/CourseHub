@@ -6,7 +6,16 @@ import { useCallback, useRef, useState } from "react";
 import type { AssistantRuntime } from "@assistant-ui/react";
 import App from "../App";
 import { listThreads } from "../lib/threadStore";
-import { ASK_PREFIX, DEMO_BANNER } from "./demoStrings";
+import { ASK_PREFIX, DEMO_BANNER, DEMO_LOCALE } from "./demoStrings";
+
+/** 另一语言页面的对应地址:保留当前子路径(如 /dev),在两个 base 间互换。 */
+function otherLocaleUrl(): string {
+  const base = import.meta.env.BASE_URL;
+  const otherBase =
+    DEMO_LOCALE === "zh" ? base.replace(/zh\/$/, "") : `${base}zh/`;
+  const subPath = window.location.pathname.slice(base.length);
+  return `${otherBase}${subPath}`;
+}
 
 export function DemoShell() {
   const runtimeRef = useRef<AssistantRuntime | null>(null);
@@ -89,6 +98,14 @@ export function DemoShell() {
           >
             {DEMO_BANNER.linkLabel}
           </a>
+          <button
+            type="button"
+            aria-label={DEMO_BANNER.localeSwitchLabel}
+            onClick={() => window.location.assign(otherLocaleUrl())}
+            className="rounded border border-border px-2 py-0.5 hover:bg-accent hover:text-accent-foreground"
+          >
+            {DEMO_BANNER.localeSwitch}
+          </button>
           <button
             type="button"
             aria-label={DEMO_BANNER.dismiss}

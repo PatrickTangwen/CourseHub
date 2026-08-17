@@ -5,7 +5,12 @@
  */
 import { API_BASE, type ChatAnswer } from "../lib/chatApi";
 import { DEMO_SESSIONS, type RecordedTurn } from "./sessions";
-import { ALERT_MESSAGES_EN, DEMO_NOTICE, SKILL_LABELS_EN } from "./demoStrings";
+import {
+  ALERT_MESSAGES_EN,
+  DEMO_LOCALE,
+  DEMO_NOTICE,
+  SKILL_LABELS_EN,
+} from "./demoStrings";
 import panelSnapshots from "./fixtures/panel-snapshots.json";
 
 /** 阶段流回放总时长:等比压缩,各事件相对节奏保持实录比例。测试下瞬时。 */
@@ -103,8 +108,9 @@ function createKnowledgeStats() {
   return { ...panelSnapshots.knowledge_stats };
 }
 
-/** 仅 Demo:skills 名称/描述显示英文标注,规则正文保持实录原文。 */
+/** 英文 demo 页:skills 名称/描述显示英文标注;中文页保持实录原文。 */
 function labeledSkills() {
+  if (DEMO_LOCALE === "zh") return panelSnapshots.skills;
   return {
     ...panelSnapshots.skills,
     skills: panelSnapshots.skills.skills.map((skill) => ({
@@ -115,6 +121,7 @@ function labeledSkills() {
 }
 
 function labeledMonitor() {
+  if (DEMO_LOCALE === "zh") return panelSnapshots.monitor;
   return {
     ...panelSnapshots.monitor,
     active_alerts: panelSnapshots.monitor.active_alerts.map((alert) => ({
