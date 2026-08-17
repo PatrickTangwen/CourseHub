@@ -11,11 +11,11 @@
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white">
   <img alt="React 19" src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=0B1220">
   <img alt="Docker Compose" src="https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white">
-  <a href="https://patricktangwen.github.io/CourseHub/"><img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-GitHub_Pages-2EA44F?logo=github&logoColor=white"></a>
+  <a href="https://patricktangwen.github.io/CourseHub/zh/"><img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-GitHub_Pages-2EA44F?logo=github&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <strong><a href="https://patricktangwen.github.io/CourseHub/">▶ 在线体验 Demo</a></strong> —— 完整界面回放实录自真实本地部署的会话，无需启动后端。
+  <strong><a href="https://patricktangwen.github.io/CourseHub/zh/">▶ 在线体验 Demo(中文界面)</a></strong> —— 完整界面回放实录自真实本地部署的会话，无需启动后端。也可访问 <a href="https://patricktangwen.github.io/CourseHub/">English 界面版</a>。
 </p>
 
 CourseHub 把 UCSD 已发布的课程目录快照变成双语课程问答与规划建议。学生可以在同一个聊天界面询问课程内容、先修要求、上课时间、名额、授课教授、历史成绩和修课顺序。

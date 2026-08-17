@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <strong><a href="https://patricktangwen.github.io/CourseHub/">▶ Try the live demo</a></strong> — the full interface replaying sessions pre-recorded from a real local deployment, no backend required.
+  <strong><a href="https://patricktangwen.github.io/CourseHub/">▶ Try the live demo</a></strong> — the full interface replaying sessions pre-recorded from a real local deployment, no backend required. Prefer Chinese? Use the <a href="https://patricktangwen.github.io/CourseHub/zh/">中文界面版</a>.
 </p>
 
 CourseHub turns published UCSD catalog snapshots into bilingual course answers and planning guidance. Students can ask about course content, prerequisites, schedules, seats, instructors, grade history, and course sequencing in one chat interface.
