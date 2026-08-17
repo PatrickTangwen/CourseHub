@@ -3,130 +3,126 @@
   <desc id="desc">A bilingual, source-grounded UCSD course assistant with a transparent multi-agent pipeline.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070B14"/>
-      <stop offset="0.58" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#101C2E"/>
+      <stop offset="0" stop-color="#0B0D0E"/>
+      <stop offset="0.58" stop-color="#111516"/>
+      <stop offset="1" stop-color="#1A2020"/>
     </linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFD166"/>
-      <stop offset="1" stop-color="#F5A524"/>
-    </linearGradient>
-    <linearGradient id="aqua" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5EEAD4"/>
-      <stop offset="1" stop-color="#38BDF8"/>
+      <stop offset="0" stop-color="#C8A66F"/>
+      <stop offset="1" stop-color="#A98655"/>
     </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7DD3FC" stroke-opacity="0.055" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D6C8AF" stroke-opacity="0.035" stroke-width="1"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#020617" flood-opacity="0.55"/>
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.38"/>
     </filter>
   </defs>
 
   <rect width="1200" height="560" rx="30" fill="url(#bg)"/>
   <rect width="1200" height="560" rx="30" fill="url(#grid)"/>
-  <path d="M0 475 C250 420 480 530 720 468 C915 418 1035 431 1200 386 V560 H0 Z" fill="#38BDF8" opacity="0.035"/>
+  <path d="M0 475 C250 420 480 530 720 468 C915 418 1035 431 1200 386 V560 H0 Z" fill="#C8A66F" opacity="0.025"/>
 
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
     <g transform="translate(66 58)">
-      <rect width="52" height="52" rx="14" fill="#FFD166"/>
-      <path d="M13 19 H39 M18 11 V20 M34 11 V20 M14 18 V39 H38 V18" fill="none" stroke="#111827" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M21 27 H31 M21 34 H28" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
-      <text x="69" y="20" fill="#94A3B8" font-size="17" font-weight="700" letter-spacing="2.2">UCSD COURSE INTELLIGENCE</text>
-      <text x="69" y="44" fill="#64748B" font-size="16">grounded answers · visible process</text>
+      <rect width="52" height="52" rx="14" fill="#C8A66F"/>
+      <path d="M13 19 H39 M18 11 V20 M34 11 V20 M14 18 V39 H38 V18" fill="none" stroke="#171717" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M21 27 H31 M21 34 H28" stroke="#171717" stroke-width="3" stroke-linecap="round"/>
+      <text x="69" y="20" fill="#A9A69E" font-size="17" font-weight="700" letter-spacing="2.2">UCSD COURSE INTELLIGENCE</text>
+      <text x="69" y="44" fill="#858A89" font-size="16">grounded answers · visible process</text>
     </g>
 
-    <text x="64" y="214" fill="#F8FAFC" font-size="86" font-weight="780" letter-spacing="-4">CourseHub</text>
+    <text x="64" y="214" fill="#F2EEE5" font-size="86" font-weight="780" letter-spacing="-4">CourseHub</text>
     <rect x="66" y="239" width="92" height="5" rx="3" fill="url(#gold)"/>
-    <text x="66" y="282" fill="#E2E8F0" font-size="29" font-weight="650">Ask about classes.</text>
-    <text x="66" y="318" fill="#94A3B8" font-size="29">See how the answer is built.</text>
+    <text x="66" y="282" fill="#D9D5CC" font-size="29" font-weight="650">Ask about classes.</text>
+    <text x="66" y="318" fill="#A09F99" font-size="29">See how the answer is built.</text>
 
     <g font-size="16" font-weight="650">
-      <rect x="66" y="354" width="118" height="38" rx="19" fill="#122334" stroke="#2DD4BF" stroke-opacity="0.45"/>
-      <circle cx="86" cy="373" r="4" fill="#5EEAD4"/>
-      <text x="99" y="379" fill="#CCFBF1">Bilingual</text>
-      <rect x="194" y="354" width="170" height="38" rx="19" fill="#122334" stroke="#38BDF8" stroke-opacity="0.38"/>
-      <circle cx="214" cy="373" r="4" fill="#38BDF8"/>
-      <text x="227" y="379" fill="#E0F2FE">Source-grounded</text>
-      <rect x="374" y="354" width="126" height="38" rx="19" fill="#122334" stroke="#FFD166" stroke-opacity="0.38"/>
-      <circle cx="394" cy="373" r="4" fill="#FFD166"/>
-      <text x="407" y="379" fill="#FEF3C7">Self-hosted</text>
+      <rect x="66" y="354" width="118" height="38" rx="19" fill="#171C1D" stroke="#465052" stroke-opacity="0.9"/>
+      <circle cx="86" cy="373" r="4" fill="#8FA18F"/>
+      <text x="99" y="379" fill="#DAD6CD">Bilingual</text>
+      <rect x="194" y="354" width="170" height="38" rx="19" fill="#171C1D" stroke="#465052" stroke-opacity="0.9"/>
+      <circle cx="214" cy="373" r="4" fill="#9AA7AA"/>
+      <text x="227" y="379" fill="#DAD6CD">Source-grounded</text>
+      <rect x="374" y="354" width="126" height="38" rx="19" fill="#171C1D" stroke="#465052" stroke-opacity="0.9"/>
+      <circle cx="394" cy="373" r="4" fill="#C8A66F"/>
+      <text x="407" y="379" fill="#DAD6CD">Self-hosted</text>
     </g>
 
     <g transform="translate(64 438)">
       <g>
-        <text y="0" fill="#F8FAFC" font-size="28" font-weight="760">15</text>
-        <text y="25" fill="#64748B" font-size="14" font-weight="700" letter-spacing="1.4">TERMS</text>
+        <text y="0" fill="#F2EEE5" font-size="28" font-weight="760">15</text>
+        <text y="25" fill="#858A89" font-size="14" font-weight="700" letter-spacing="1.4">TERMS</text>
       </g>
-      <line x1="83" y1="-18" x2="83" y2="32" stroke="#334155"/>
+      <line x1="83" y1="-18" x2="83" y2="32" stroke="#343B3C"/>
       <g transform="translate(108)">
-        <text y="0" fill="#F8FAFC" font-size="28" font-weight="760">19K</text>
-        <text y="25" fill="#64748B" font-size="14" font-weight="700" letter-spacing="1.1">COURSE-TERMS</text>
+        <text y="0" fill="#F2EEE5" font-size="28" font-weight="760">19K</text>
+        <text y="25" fill="#858A89" font-size="14" font-weight="700" letter-spacing="1.1">COURSE-TERMS</text>
       </g>
-      <line x1="250" y1="-18" x2="250" y2="32" stroke="#334155"/>
+      <line x1="250" y1="-18" x2="250" y2="32" stroke="#343B3C"/>
       <g transform="translate(276)">
-        <text y="0" fill="#F8FAFC" font-size="28" font-weight="760">61K</text>
-        <text y="25" fill="#64748B" font-size="14" font-weight="700" letter-spacing="1.4">SECTIONS</text>
+        <text y="0" fill="#F2EEE5" font-size="28" font-weight="760">61K</text>
+        <text y="25" fill="#858A89" font-size="14" font-weight="700" letter-spacing="1.4">SECTIONS</text>
       </g>
-      <line x1="375" y1="-18" x2="375" y2="32" stroke="#334155"/>
+      <line x1="375" y1="-18" x2="375" y2="32" stroke="#343B3C"/>
       <g transform="translate(401)">
-        <text y="0" fill="#F8FAFC" font-size="28" font-weight="760">15K</text>
-        <text y="25" fill="#64748B" font-size="14" font-weight="700" letter-spacing="1.4">GRADE RECORDS</text>
+        <text y="0" fill="#F2EEE5" font-size="28" font-weight="760">15K</text>
+        <text y="25" fill="#858A89" font-size="14" font-weight="700" letter-spacing="1.4">GRADE RECORDS</text>
       </g>
     </g>
 
     <g transform="translate(678 46)" filter="url(#shadow)">
-      <rect width="458" height="468" rx="24" fill="#0B1322" stroke="#23324A" stroke-width="1.5"/>
-      <rect x="1" y="1" width="456" height="58" rx="23" fill="#101B2D"/>
-      <circle cx="26" cy="29" r="5" fill="#34D399"/>
-      <text x="42" y="35" fill="#CBD5E1" font-size="16" font-weight="700" letter-spacing="1.3">LIVE ANSWER PIPELINE</text>
-      <rect x="353" y="18" width="80" height="25" rx="12.5" fill="#0B2A29"/>
-      <text x="372" y="35" fill="#5EEAD4" font-size="13" font-weight="700">running</text>
+      <rect width="458" height="468" rx="24" fill="#111617" stroke="#394243" stroke-width="1.5"/>
+      <rect x="1" y="1" width="456" height="58" rx="23" fill="#171D1E"/>
+      <circle cx="26" cy="29" r="5" fill="#7C927F"/>
+      <text x="42" y="35" fill="#C8C5BD" font-size="16" font-weight="700" letter-spacing="1.3">LIVE ANSWER PIPELINE</text>
+      <rect x="353" y="18" width="80" height="25" rx="12.5" fill="#19211D"/>
+      <text x="372" y="35" fill="#9FB1A2" font-size="13" font-weight="700">running</text>
 
       <g transform="translate(22 78)">
-        <rect width="414" height="64" rx="16" fill="#141F31" stroke="#2A3A52"/>
-        <text x="18" y="25" fill="#64748B" font-size="13" font-weight="700" letter-spacing="1">QUESTION</text>
-        <text x="18" y="49" fill="#F1F5F9" font-size="18" font-weight="600">Who teaches CSE 101 in FA26?</text>
+        <rect width="414" height="64" rx="16" fill="#1A2021" stroke="#3A4344"/>
+        <text x="18" y="25" fill="#858A89" font-size="13" font-weight="700" letter-spacing="1">QUESTION</text>
+        <text x="18" y="49" fill="#E7E3DA" font-size="18" font-weight="600">Who teaches CSE 101 in FA26?</text>
       </g>
 
-      <path d="M49 159 V388" fill="none" stroke="#27364B" stroke-width="2"/>
+      <path d="M49 159 V388" fill="none" stroke="#323A3B" stroke-width="2"/>
 
       <g transform="translate(30 166)">
-        <circle cx="19" cy="19" r="19" fill="#102F31" stroke="#2DD4BF"/>
-        <path d="M12 19 C16 13 22 13 26 19 C22 25 16 25 12 19 Z" fill="none" stroke="#5EEAD4" stroke-width="2"/>
-        <circle cx="19" cy="19" r="3" fill="#5EEAD4"/>
-        <text x="56" y="15" fill="#F1F5F9" font-size="17" font-weight="700">Recall context</text>
-        <text x="56" y="36" fill="#64748B" font-size="14">working · episodic · profile</text>
+        <circle cx="19" cy="19" r="19" fill="#1B201E" stroke="#718477"/>
+        <path d="M12 19 C16 13 22 13 26 19 C22 25 16 25 12 19 Z" fill="none" stroke="#9AAD9F" stroke-width="2"/>
+        <circle cx="19" cy="19" r="3" fill="#9AAD9F"/>
+        <text x="56" y="15" fill="#E7E3DA" font-size="17" font-weight="700">Recall context</text>
+        <text x="56" y="36" fill="#858A89" font-size="14">working · episodic · profile</text>
       </g>
 
       <g transform="translate(30 226)">
-        <circle cx="19" cy="19" r="19" fill="#10263A" stroke="#38BDF8"/>
-        <path d="M11 14 H27 M11 19 H24 M11 24 H21" stroke="#7DD3FC" stroke-width="2" stroke-linecap="round"/>
-        <text x="56" y="15" fill="#F1F5F9" font-size="17" font-weight="700">Fuse intent signals</text>
-        <text x="56" y="36" fill="#64748B" font-size="14">LLM · embedding · keyword patterns</text>
+        <circle cx="19" cy="19" r="19" fill="#182022" stroke="#6F7D82"/>
+        <path d="M11 14 H27 M11 19 H24 M11 24 H21" stroke="#A4B0B2" stroke-width="2" stroke-linecap="round"/>
+        <text x="56" y="15" fill="#E7E3DA" font-size="17" font-weight="700">Fuse intent signals</text>
+        <text x="56" y="36" fill="#858A89" font-size="14">LLM · embedding · keyword patterns</text>
       </g>
 
       <g transform="translate(30 286)">
-        <circle cx="19" cy="19" r="19" fill="#302817" stroke="#FBBF24"/>
-        <circle cx="13" cy="15" r="3" fill="#FFD166"/>
-        <circle cx="25" cy="15" r="3" fill="#FFD166"/>
-        <circle cx="19" cy="25" r="3" fill="#FFD166"/>
-        <path d="M15 17 L18 22 M23 17 L20 22" stroke="#FFD166" stroke-width="2"/>
-        <text x="56" y="15" fill="#F1F5F9" font-size="17" font-weight="700">Route specialists</text>
-        <text x="56" y="36" fill="#64748B" font-size="14">Course Agent leads · support on demand</text>
+        <circle cx="19" cy="19" r="19" fill="#221F19" stroke="#A98755"/>
+        <circle cx="13" cy="15" r="3" fill="#C8A66F"/>
+        <circle cx="25" cy="15" r="3" fill="#C8A66F"/>
+        <circle cx="19" cy="25" r="3" fill="#C8A66F"/>
+        <path d="M15 17 L18 22 M23 17 L20 22" stroke="#C8A66F" stroke-width="2"/>
+        <text x="56" y="15" fill="#E7E3DA" font-size="17" font-weight="700">Route specialists</text>
+        <text x="56" y="36" fill="#858A89" font-size="14">Course Agent leads · support on demand</text>
       </g>
 
       <g transform="translate(30 346)">
-        <circle cx="19" cy="19" r="19" fill="#1B2440" stroke="#818CF8"/>
-        <path d="M11 13 H27 V25 H11 Z M14 17 H24 M14 21 H21" fill="none" stroke="#A5B4FC" stroke-width="2" stroke-linejoin="round"/>
-        <text x="56" y="15" fill="#F1F5F9" font-size="17" font-weight="700">Retrieve exact + semantic evidence</text>
-        <text x="56" y="36" fill="#64748B" font-size="14">Course Index · Knowledge Docs</text>
+        <circle cx="19" cy="19" r="19" fill="#1D2020" stroke="#777C76"/>
+        <path d="M11 13 H27 V25 H11 Z M14 17 H24 M14 21 H21" fill="none" stroke="#B9B6AB" stroke-width="2" stroke-linejoin="round"/>
+        <text x="56" y="15" fill="#E7E3DA" font-size="17" font-weight="700">Retrieve exact + semantic evidence</text>
+        <text x="56" y="36" fill="#858A89" font-size="14">Course Index · Knowledge Docs</text>
       </g>
 
       <g transform="translate(22 412)">
-        <rect width="414" height="38" rx="12" fill="#102A28" stroke="#285B55"/>
-        <circle cx="20" cy="19" r="5" fill="#5EEAD4"/>
-        <text x="35" y="24" fill="#CCFBF1" font-size="15" font-weight="650">Answer constrained by snapshot + advising rules</text>
+        <rect width="414" height="38" rx="12" fill="#1A211D" stroke="#56695B"/>
+        <circle cx="20" cy="19" r="5" fill="#8FA18F"/>
+        <text x="35" y="24" fill="#C8D0C5" font-size="15" font-weight="650">Answer constrained by snapshot + advising rules</text>
       </g>
     </g>
   </g>
