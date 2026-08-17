@@ -114,8 +114,7 @@
     <g transform="translate(54 368)">
       <rect width="1092" height="40" rx="20" fill="#0F172A"/>
       <circle cx="23" cy="20" r="5" fill="#5EEAD4"/>
-      <text x="40" y="26" fill="#E2E8F0" font-size="15" font-weight="650">Transparent telemetry, not hidden reasoning:</text>
-      <text x="310" y="26" fill="#94A3B8" font-size="15">stage names, routing decisions, tool status, duration, and safe counts only.</text>
+      <text id="telemetry-summary" x="40" y="26" font-size="15"><tspan fill="#E2E8F0" font-weight="650">Transparent telemetry, not hidden reasoning:</tspan><tspan dx="12" fill="#94A3B8">stage names, routing decisions, tool status, duration, and safe counts only.</tspan></text>
     </g>
   </g>
 </svg>
