@@ -1,0 +1,176 @@
+{
+  "id": "cse100-prereqs-zh",
+  "recorded_at": "2026-08-17T03:55:58.174Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "CSE 100 有哪些先修要求?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "7c51fd4d-f582-4847-ac40-2eff4f9cfa5a"
+          },
+          "at_ms": 33
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 69
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "intent_confidence": 0.925,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 1468
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.13, general=0.10, planning=0.00]",
+            "routing_confidence": 1
+          },
+          "at_ms": 1468
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 1468
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 1468
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5156
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5156
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5156
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 5156
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 52.6
+          },
+          "at_ms": 5208
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 56.3
+          },
+          "at_ms": 5212
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 56.1
+          },
+          "at_ms": 5212
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 56.2
+          },
+          "at_ms": 5212
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "7c51fd4d-f582-4847-ac40-2eff4f9cfa5a",
+            "response": "根据 FA26 的课程数据，CSE 100（Advanced Data Structures）的先修与限制如下：\n\n- **先修要求**（prerequisites_text）：CSE 21 或 MATH 154 或 MATH 158 或 MATH 184 或 MATH 188，以及 CSE 12 和 CSE 15L 或 CSE 29 或 ECE 15；限本科生。研究生在有名额的情况下允许选修。\n- **学分互认限制**：学生不能同时获得 CSE 100R 和 CSE 100 两门课的学分。\n\n以上信息来自课程目录数据（FA26），建议以 UCSD 官方目录（catalog.ucsd.edu）为准。",
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.13, general=0.10, planning=0.00]",
+            "routing_confidence": 1,
+            "escalated": false,
+            "latency_ms": 4181.7,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 100"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.925,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 26010
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 26010
+        }
+      ]
+    }
+  ]
+}

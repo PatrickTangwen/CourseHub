@@ -1,0 +1,345 @@
+{
+  "id": "cse110-multiturn",
+  "recorded_at": "2026-08-17T04:00:59.697Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "What is CSE 110 about?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "e1c2d5d8-16be-42ed-8a91-4328aa5e1554"
+          },
+          "at_ms": 32
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 70
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "course_overview",
+            "intent_group": "facts",
+            "intent_confidence": 0.9625,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 70
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=course_overview, group=facts, primary=course, supporting=none, scores=[course=0.95, general=0.10, planning=0.00]",
+            "routing_confidence": 0.95
+          },
+          "at_ms": 70
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 74
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 74
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2462
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 2462
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2462
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2462
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2462
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 37.6
+          },
+          "at_ms": 2499
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 41.2
+          },
+          "at_ms": 2503
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 50
+          },
+          "at_ms": 2511
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "e1c2d5d8-16be-42ed-8a91-4328aa5e1554",
+            "response": "CSE 110 is a **4-unit** course titled **Software Engineering**. According to the official course description, it provides an:\n\n> Introduction to software development and engineering methods, including specification, design, implementation, testing, and process. An emphasis on team development, agile methods, and use of tools such as IDE’s, version control, and test harnesses.\n\n**Prerequisites:** CSE 100 or CSE 100R; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. Other students are allowed as space permits.\n\nFor the default-queried term **FA26**, the course is offered with instructor **Michael Coblenz**. If you need specific meeting times, lab sections, or seat availability for FA26, let me know and I can pull those details.",
+            "intent": "course_overview",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=course_overview, group=facts, primary=course, supporting=none, scores=[course=0.95, general=0.10, planning=0.00]",
+            "routing_confidence": 0.95,
+            "escalated": false,
+            "latency_ms": 7542.2,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 110"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.9625,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 28210
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 28210
+        }
+      ]
+    },
+    {
+      "question": "And what are its prerequisites?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "e1c2d5d8-16be-42ed-8a91-4328aa5e1554"
+          },
+          "at_ms": 3
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 2,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 30
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "intent_confidence": 0.9625,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 1454
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.31, general=0.10, planning=0.00]",
+            "routing_confidence": 1
+          },
+          "at_ms": 1454
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 1454
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0.1
+          },
+          "at_ms": 1454
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4796
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 4796
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4796
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4796
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4796
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 45.9
+          },
+          "at_ms": 4846
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 50.1
+          },
+          "at_ms": 4846
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 50.3
+          },
+          "at_ms": 4846
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "e1c2d5d8-16be-42ed-8a91-4328aa5e1554",
+            "response": "For **CSE 110** (default term **FA26**), the official prerequisites are:\n\n> **CSE 100 or CSE 100R**; restricted to students within the **CS25, CS26, CS27, CS29, and EC26** majors. All other students will be allowed as space permits.\n\nThis comes directly from the course catalog data for FA26. Note that there is no additional prerequisites field listed beyond this text.",
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.31, general=0.10, planning=0.00]",
+            "routing_confidence": 1,
+            "escalated": false,
+            "latency_ms": 7081.1,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 110"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.9625,
+            "intent_source_scores": {
+              "llm": 1,
+              "embedding": 0,
+              "pattern": 0.75
+            }
+          },
+          "at_ms": 25785
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 25785
+        }
+      ]
+    }
+  ]
+}

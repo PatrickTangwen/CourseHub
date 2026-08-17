@@ -10,6 +10,7 @@ import App from "../App";
 import { decodeStageEvent, isStageEventName } from "../lib/stages";
 import { DEMO_SESSIONS } from "../demo/sessions";
 import { installDemoBackend } from "../demo/demoBackend";
+import panelSnapshots from "../demo/fixtures/panel-snapshots.json";
 import type { ChatAnswer } from "../lib/chatApi";
 
 beforeEach(() => {
@@ -47,6 +48,71 @@ describe("recorded fixtures (admission gate)", () => {
         expect(data.response.length).toBeGreaterThan(0);
       }
     }
+  });
+});
+
+describe("recorded session inventory (T2 acceptance)", () => {
+  const byId = (id: string) => {
+    const session = DEMO_SESSIONS.find((s) => s.id === id);
+    expect(session, `missing session ${id}`).toBeDefined();
+    return session!;
+  };
+  const answerOf = (sessionId: string, turn: number) =>
+    byId(sessionId).turns[turn].events.find((e) => e.event === "answer")
+      ?.data as ChatAnswer;
+
+  it("covers all six confirmed sessions", () => {
+    expect(DEMO_SESSIONS.map((s) => s.id).sort()).toEqual(
+      [
+        "advisor-referral",
+        "cse100-overview",
+        "cse100-prereqs-zh",
+        "cse101-instructor",
+        "cse110-multiturn",
+        "planning-sequence-zh",
+      ].sort(),
+    );
+  });
+
+  it("answers Chinese questions in Chinese and English questions in English", () => {
+    const hasCJK = (text: string) => /[一-鿿]/.test(text);
+    expect(hasCJK(answerOf("cse100-prereqs-zh", 0).response)).toBe(true);
+    expect(hasCJK(answerOf("planning-sequence-zh", 0).response)).toBe(true);
+    expect(hasCJK(answerOf("cse100-overview", 0).response)).toBe(false);
+    expect(hasCJK(answerOf("cse101-instructor", 0).response)).toBe(false);
+  });
+
+  it("planning session carries a GFM table and the planning disclaimer", () => {
+    const responses = byId("planning-sequence-zh").turns.map(
+      (turn) =>
+        (turn.events.find((e) => e.event === "answer")?.data as ChatAnswer)
+          .response,
+    );
+    expect(responses.some((r) => /\|.+\|\n\|[-\s|:]+\|/.test(r))).toBe(true);
+    expect(responses.some((r) => /非官方/.test(r))).toBe(true);
+  });
+
+  it("advisor-referral session is escalated", () => {
+    expect(answerOf("advisor-referral", 0).escalated).toBe(true);
+  });
+
+  it("multi-turn session chains conv_id across turns", () => {
+    const session = byId("cse110-multiturn");
+    expect(session.turns.length).toBeGreaterThanOrEqual(2);
+    const convIds = session.turns.map(
+      (turn) =>
+        (turn.events.find((e) => e.event === "answer")?.data as ChatAnswer)
+          .conv_id,
+    );
+    expect(new Set(convIds).size).toBe(1);
+  });
+
+  it("panel snapshots carry the three dev-panel endpoints", () => {
+    expect(panelSnapshots.knowledge_stats.total_chunks).toBeGreaterThan(0);
+    expect(
+      Object.keys(panelSnapshots.monitor.agent_stats).length,
+    ).toBeGreaterThan(0);
+    expect(panelSnapshots.skills.count).toBe(panelSnapshots.skills.skills.length);
   });
 });
 

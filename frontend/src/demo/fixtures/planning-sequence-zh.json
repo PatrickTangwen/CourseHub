@@ -1,0 +1,381 @@
+{
+  "id": "planning-sequence-zh",
+  "recorded_at": "2026-08-17T04:00:05.540Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "帮我规划 CSE 100 和 CSE 110 的修课顺序",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "b307e735-4508-494a-9548-702b8f736d0b"
+          },
+          "at_ms": 33
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "plan_sequence",
+            "intent_group": "planning",
+            "intent_confidence": 0.8825,
+            "intent_source_scores": {
+              "llm": 0.95,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "planning",
+            "supporting_agents": [],
+            "routing_reason": "intent=plan_sequence, group=planning, primary=planning, supporting=none, scores=[planning=1.26, course=0.20, general=0.10]",
+            "routing_confidence": 1
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 54
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 22.4
+          },
+          "at_ms": 76
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2817
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 2817
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2817
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2817
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 2817
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 46.3
+          },
+          "at_ms": 2864
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 47.6
+          },
+          "at_ms": 2865
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 50.3
+          },
+          "at_ms": 2867
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "b307e735-4508-494a-9548-702b8f736d0b",
+            "response": "我倾向于**先修 CSE 100，再修 CSE 110**。\n\n依据来自课程目录的先修链：\n\n- CSE 110 的 prerequisites 明确写著 **\"CSE 100 or CSE 100R\"**，也就是说 CSE 110 直接以 CSE 100（或 CSE 100R）为先修；而 CSE 100 本身不依赖 CSE 110。\n- 因此修课顺序不能反过来，也不建议同一学期同时修（除非你已有 waiver 等个案处理，但那是需要通过官方渠道确认的事）。\n\n另外，如果你想在 FA26 修 CSE 100，需要先满足它自己的先修条件：**CSE 21 或 MATH 154/158/184/188，以及 CSE 12 和 CSE 15L（或 CSE 29、ECE 15）**。这些在 CSE 100 的目录描述中都有列出。\n\n从负担角度看，两门都是 4 学分：CSE 100 在 FA26 是 lecture（MWF 9:00-9:50）+ discussion（M 17:00-17:50）；CSE 110 是 lecture（时间 TBA）+ lab（Th 10:00-12:50 或 14:00-16:50）。如果之后学期一起修，时间上不直接冲突，但 lab 占一个整块时段，搭配其他课程时要注意负担。\n\n顺带一提，快照中 CSE 100 的 FA26 名额已满（availability_timestamp 2026-08-12，非实时），CSE 110 尚有席位；这不影响顺序，但你实际选课时以 WebReg 为准。\n\n本建议为非官方参考，选课决策请咨询学校学业顾问。",
+            "intent": "plan_sequence",
+            "intent_group": "planning",
+            "agent_type": "planning",
+            "agent_types": [
+              "planning"
+            ],
+            "primary_agent": "planning",
+            "supporting_agents": [],
+            "routing_reason": "intent=plan_sequence, group=planning, primary=planning, supporting=none, scores=[planning=1.26, course=0.20, general=0.10]",
+            "routing_confidence": 1,
+            "escalated": false,
+            "latency_ms": 15846.1,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 100",
+                "CSE 110"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.8825,
+            "intent_source_scores": {
+              "llm": 0.95,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 35967
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 35967
+        }
+      ]
+    },
+    {
+      "question": "请用表格对比这两门课的先修要求、学分和时间安排",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "b307e735-4508-494a-9548-702b8f736d0b"
+          },
+          "at_ms": 3
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 2,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 41
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "intent_confidence": 0.765,
+            "intent_source_scores": {
+              "llm": 0.9,
+              "embedding": 0,
+              "pattern": 0.5,
+              "refined_by_pattern": 0.5
+            }
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.31, planning=0.15, general=0.10]",
+            "routing_confidence": 1
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 0
+          },
+          "at_ms": 3807
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 7004
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 7004
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 7004
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 7004
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 38
+          },
+          "at_ms": 7042
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 54.7
+          },
+          "at_ms": 7058
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 55.2
+          },
+          "at_ms": 7059
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 57.8
+          },
+          "at_ms": 7061
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "b307e735-4508-494a-9548-702b8f736d0b",
+            "response": "以下是 **FA26 学期** CSE 100 与 CSE 110 的对比（数据来自课程目录静态快照，生成时间 2026-08-13）：\n\n| 对比项 | CSE 100 – Advanced Data Structures | CSE 110 – Software Engineering |\n|---|---|---|\n| 学分 | 4 units | 4 units |\n| 先修要求 | CSE 21 or MATH 154 or MATH 158 or MATH 184 or MATH 188 and CSE 12 and CSE 15L or CSE 29 or ECE 15; restricted to undergraduates. Graduate students will be allowed as space permits. Students may not receive credit for both CSE 100R and CSE 100. | CSE 100 or CSE 100R; restricted to students within the CS25, CS26, CS27, CS29, and EC26 majors. All other students will be allowed as space permits. |\n| 时间安排（FA26） | Lecture：周一/周三/周五 09:00–09:50（JEANN AUD）<br>Discussion：周一 17:00–17:50（GH 242）<br>Final：2026-12-09（周三）08:00–10:59（JEANN AUD） | Lecture：TBA（时间地点待定）<br>Discussion：TBA<br>Final：2026-12-08（周二）15:00–17:59（CTL 0125）<br>Lab：周四，共 6 个时段可选，分布在 EBU3B B250 / B260 / B270：<br>• 10:00–12:50（B250、B260、B270 各一个）<br>• 14:00–16:50（B250、B260、B270 各一个） |\n\n**补充说明：**\n\n- CSE 110 的 Lecture 和 Discussion 在快照中均为 **TBA**（待定），只有 Lab 和 Final 时间已确定；选课时请以 WebReg 更新的教室为准。\n- CSE 100 在 FA26 只有一个 Package section，时间固定；CSE 110 是 1 个 Lecture/Discussion 组合 + 6 个 Lab 自选的 Package。\n\n**名额快照（非实时，请以 WebReg 为准）：** 两者名额均来自同一快照时间 **2026-08-12T16:39:36Z**。CSE 100 该 section 已满（100/100，剩 0）；CSE 110 各 Lab section 名额不同，总余量从 5 到 47 个不等，具体以每个 Package 的 enrolled/capacity 为准。以上数字均为快照，非实时数据。",
+            "intent": "prerequisites",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=prerequisites, group=facts, primary=course, supporting=none, scores=[course=1.31, planning=0.15, general=0.10]",
+            "routing_confidence": 1,
+            "escalated": false,
+            "latency_ms": 18149.8,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 100",
+                "CSE 110"
+              ],
+              "term": [],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.765,
+            "intent_source_scores": {
+              "llm": 0.9,
+              "embedding": 0,
+              "pattern": 0.5,
+              "refined_by_pattern": 0.5
+            }
+          },
+          "at_ms": 42287
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 42287
+        }
+      ]
+    }
+  ]
+}

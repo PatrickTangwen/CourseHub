@@ -1,0 +1,178 @@
+{
+  "id": "cse101-instructor",
+  "recorded_at": "2026-08-17T03:55:32.123Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "Who teaches CSE 101 in FA26?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "8d8f2d8c-fe8e-4993-934e-0258941a95a3"
+          },
+          "at_ms": 36
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 66
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "instructor_lookup",
+            "intent_group": "facts",
+            "intent_confidence": 0.908,
+            "intent_source_scores": {
+              "llm": 0.98,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 1823
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=instructor_lookup, group=facts, primary=course, supporting=none, scores=[course=1.05, general=0.10, planning=0.00]",
+            "routing_confidence": 1
+          },
+          "at_ms": 1823
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "course_lookup"
+          },
+          "at_ms": 1823
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "course_lookup",
+            "success": true,
+            "duration_ms": 24
+          },
+          "at_ms": 1847
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4486
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4486
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4486
+        },
+        {
+          "event": "tool_call_started",
+          "data": {
+            "tool_name": "knowledge_search"
+          },
+          "at_ms": 4486
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 50.3
+          },
+          "at_ms": 4536
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 51.9
+          },
+          "at_ms": 4537
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 55.1
+          },
+          "at_ms": 4540
+        },
+        {
+          "event": "tool_call_finished",
+          "data": {
+            "tool_name": "knowledge_search",
+            "success": true,
+            "duration_ms": 93.9
+          },
+          "at_ms": 4580
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "8d8f2d8c-fe8e-4993-934e-0258941a95a3",
+            "response": "For **FA26 (Fall 2026)**, **CSE 101 – Design and Analysis of Algorithms** is taught by **Miles Jones**. Both listed lecture/discussion packages for this term show Miles Jones as the instructor.",
+            "intent": "instructor_lookup",
+            "intent_group": "facts",
+            "agent_type": "course",
+            "agent_types": [
+              "course"
+            ],
+            "primary_agent": "course",
+            "supporting_agents": [],
+            "routing_reason": "intent=instructor_lookup, group=facts, primary=course, supporting=none, scores=[course=1.05, general=0.10, planning=0.00]",
+            "routing_confidence": 1,
+            "escalated": false,
+            "latency_ms": 1687.9,
+            "knowledge_used": true,
+            "entities": {
+              "course_code": [
+                "CSE 101"
+              ],
+              "term": [
+                "FA26"
+              ],
+              "subject": [
+                "CSE"
+              ],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.908,
+            "intent_source_scores": {
+              "llm": 0.98,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 16008
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 16008
+        }
+      ]
+    }
+  ]
+}

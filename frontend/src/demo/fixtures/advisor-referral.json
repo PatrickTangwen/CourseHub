@@ -1,0 +1,92 @@
+{
+  "id": "advisor-referral",
+  "recorded_at": "2026-08-17T03:56:35.541Z",
+  "backend": "http://localhost:8010",
+  "turns": [
+    {
+      "question": "I have an enrollment hold on my account - can you remove it?",
+      "events": [
+        {
+          "event": "run_started",
+          "data": {
+            "conv_id": "44e6598d-33af-4cc4-96d4-da5354624ce5"
+          },
+          "at_ms": 35
+        },
+        {
+          "event": "memory_recalled",
+          "data": {
+            "working_messages": 0,
+            "episodic_hits": 0,
+            "has_profile": false,
+            "has_summary": false
+          },
+          "at_ms": 64
+        },
+        {
+          "event": "intent_recognized",
+          "data": {
+            "intent": "advisor_referral",
+            "intent_group": "escalation",
+            "intent_confidence": 0.8995,
+            "intent_source_scores": {
+              "llm": 0.97,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 1391
+        },
+        {
+          "event": "routing_decided",
+          "data": {
+            "primary_agent": "general",
+            "supporting_agents": [],
+            "routing_reason": "意图为 advisor_referral，触发转介路由",
+            "routing_confidence": 0.8995
+          },
+          "at_ms": 1391
+        },
+        {
+          "event": "answer",
+          "data": {
+            "conv_id": "44e6598d-33af-4cc4-96d4-da5354624ce5",
+            "response": "I'm sorry, but I can't remove enrollment holds on your account. That requires official handling through UCSD's administrative channels. Please contact the Virtual Advising Center, your department advisor, or WebReg support for assistance.\n\n[Referral]",
+            "intent": "advisor_referral",
+            "intent_group": "escalation",
+            "agent_type": "general",
+            "agent_types": [
+              "general"
+            ],
+            "primary_agent": "general",
+            "supporting_agents": [],
+            "routing_reason": "意图为 advisor_referral，触发转介路由",
+            "routing_confidence": 0.8995,
+            "escalated": true,
+            "latency_ms": 2977.6,
+            "knowledge_used": false,
+            "entities": {
+              "course_code": [],
+              "term": [],
+              "subject": [],
+              "instructor": [],
+              "units": []
+            },
+            "intent_confidence": 0.8995,
+            "intent_source_scores": {
+              "llm": 0.97,
+              "embedding": 0,
+              "pattern": 0.5
+            }
+          },
+          "at_ms": 4373
+        },
+        {
+          "event": "done",
+          "data": {},
+          "at_ms": 4373
+        }
+      ]
+    }
+  ]
+}
