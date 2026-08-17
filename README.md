@@ -28,13 +28,13 @@ It is also built to show its work: the UI exposes memory recall, three-signal in
 
 ## What you can do
 
-| Ask CourseHub to… | What happens underneath | Product boundary |
-| --- | --- | --- |
-| Explain a course or its prerequisites | The Course Agent combines semantic course material with structured catalog lookup | Missing catalog content is acknowledged, never invented |
-| Check schedules, seats, instructors, or grades | Exact facts come from the Course Index rather than generated text | Availability always carries a snapshot timestamp; grades stay instructor × term |
-| Compare options or plan a sequence | The Planning Agent grounds suggestions in catalog facts | Every planning response is unofficial and includes an advising disclaimer |
-| Handle a mixed question | The orchestrator selects one lead agent and optional supporting agents | Case-specific issues are referred to official UCSD channels, not presented as a human handoff |
-| Continue across conversations | Redis working memory and ChromaDB episodic memory/profile context are recalled | The timeline reports counts and status, not memory contents |
+| Ask CourseHub to…                             | What happens underneath                                                           | Product boundary                                                                              |
+| ---------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Explain a course or its prerequisites          | The Course Agent combines semantic course material with structured catalog lookup | Missing catalog content is acknowledged, never invented                                       |
+| Check schedules, seats, instructors, or grades | Exact facts come from the Course Index rather than generated text                 | Availability always carries a snapshot timestamp; grades stay instructor × term              |
+| Compare options or plan a sequence             | The Planning Agent grounds suggestions in catalog facts                           | Every planning response is unofficial and includes an advising disclaimer                     |
+| Handle a mixed question                        | The orchestrator selects one lead agent and optional supporting agents            | Case-specific issues are referred to official UCSD channels, not presented as a human handoff |
+| Continue across conversations                  | Redis working memory and ChromaDB episodic memory/profile context are recalled    | The timeline reports counts and status, not memory contents                                   |
 
 The browser chrome stays in English; answers follow the language of the question.
 
@@ -43,8 +43,8 @@ The browser chrome stays in English; answers follow the language of the question
 CourseHub currently builds its structured index and semantic documents from the published snapshot bundled with this repository.
 
 | Published terms | Course-term records | Sections | Grade records | Snapshot date |
-| ---: | ---: | ---: | ---: | --- |
-| 15 | 19,041 | 61,496 | 15,138 | 2026-08-13 |
+| --------------: | ------------------: | -------: | ------------: | ------------- |
+|              15 |              19,041 |   61,496 |        15,138 | 2026-08-13    |
 
 This is static catalog data, not a live WebReg feed. CourseHub preserves that distinction in both retrieval and answer wording.
 
@@ -150,15 +150,15 @@ CourseHub/
 
 ## Documentation
 
-| Start here | Contents |
-| --- | --- |
-| [Complete guide (Chinese)](./docs/完整使用指南.md) | Deployment modes, every API, knowledge import, ChromaDB/Redis inspection, monitoring, evaluation, cleanup, and troubleshooting |
-| [Local Windows runbook (Chinese)](./docs/runbooks/本地启动服务指南.md) | Copyable start, restart, port, and health-check commands |
-| [Frontend guide](./frontend/README.md) | Local development, UI behavior, test commands, and source layout |
-| [Frontend specification](./docs/specs/coursehub-frontend.md) | Product decisions, SSE contract, interaction rules, and acceptance criteria |
-| [Hybrid retrieval ADR](./docs/adr/0001-hybrid-retrieval.md) | Why exact Course Index lookup and semantic retrieval work together |
-| [SSE + assistant-ui ADR](./docs/adr/0002-custom-sse-protocol-with-assistant-ui.md) | Why CourseHub keeps a typed custom event protocol |
-| [Domain context](./CONTEXT.md) | Canonical agent, intent, entity, safety, and referral terminology |
+| Start here                                                                        | Contents                                                                                                                       |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| [Complete guide (Chinese)](./docs/完整使用指南.md)                                 | Deployment modes, every API, knowledge import, ChromaDB/Redis inspection, monitoring, evaluation, cleanup, and troubleshooting |
+| [Local Windows runbook (Chinese)](./docs/runbooks/本地启动服务指南.md)             | Copyable start, restart, port, and health-check commands                                                                       |
+| [Frontend guide](./frontend/README.md)                                             | Local development, UI behavior, test commands, and source layout                                                               |
+| [Frontend specification](./docs/specs/coursehub-frontend.md)                       | Product decisions, SSE contract, interaction rules, and acceptance criteria                                                    |
+| [Hybrid retrieval ADR](./docs/adr/0001-hybrid-retrieval.md)                        | Why exact Course Index lookup and semantic retrieval work together                                                             |
+| [SSE + assistant-ui ADR](./docs/adr/0002-custom-sse-protocol-with-assistant-ui.md) | Why CourseHub keeps a typed custom event protocol                                                                              |
+| [Domain context](./CONTEXT.md)                                                     | Canonical agent, intent, entity, safety, and referral terminology                                                              |
 
 ## API surface
 
