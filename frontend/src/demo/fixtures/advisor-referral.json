@@ -1,6 +1,6 @@
 {
   "id": "advisor-referral",
-  "recorded_at": "2026-08-17T03:56:35.541Z",
+  "recorded_at": "2026-08-17T04:52:27.359Z",
   "backend": "http://localhost:8010",
   "turns": [
     {
@@ -9,9 +9,9 @@
         {
           "event": "run_started",
           "data": {
-            "conv_id": "44e6598d-33af-4cc4-96d4-da5354624ce5"
+            "conv_id": "3adb3fdf-6dfb-4470-a1af-fec4df95b0a3"
           },
-          "at_ms": 35
+          "at_ms": 44
         },
         {
           "event": "memory_recalled",
@@ -21,21 +21,21 @@
             "has_profile": false,
             "has_summary": false
           },
-          "at_ms": 64
+          "at_ms": 307
         },
         {
           "event": "intent_recognized",
           "data": {
             "intent": "advisor_referral",
             "intent_group": "escalation",
-            "intent_confidence": 0.8995,
+            "intent_confidence": 0.925,
             "intent_source_scores": {
-              "llm": 0.97,
+              "llm": 1,
               "embedding": 0,
               "pattern": 0.5
             }
           },
-          "at_ms": 1391
+          "at_ms": 1530
         },
         {
           "event": "routing_decided",
@@ -43,15 +43,15 @@
             "primary_agent": "general",
             "supporting_agents": [],
             "routing_reason": "意图为 advisor_referral，触发转介路由",
-            "routing_confidence": 0.8995
+            "routing_confidence": 0.9249999999999999
           },
-          "at_ms": 1391
+          "at_ms": 1530
         },
         {
           "event": "answer",
           "data": {
-            "conv_id": "44e6598d-33af-4cc4-96d4-da5354624ce5",
-            "response": "I'm sorry, but I can't remove enrollment holds on your account. That requires official handling through UCSD's administrative channels. Please contact the Virtual Advising Center, your department advisor, or WebReg support for assistance.\n\n[Referral]",
+            "conv_id": "3adb3fdf-6dfb-4470-a1af-fec4df95b0a3",
+            "response": "I'm sorry, but I can't remove enrollment holds. That's a case-specific matter that needs to be handled through official channels. Please contact the Virtual Advising Center, your college advisor, or WebReg support for assistance.",
             "intent": "advisor_referral",
             "intent_group": "escalation",
             "agent_type": "general",
@@ -61,9 +61,9 @@
             "primary_agent": "general",
             "supporting_agents": [],
             "routing_reason": "意图为 advisor_referral，触发转介路由",
-            "routing_confidence": 0.8995,
+            "routing_confidence": 0.9249999999999999,
             "escalated": true,
-            "latency_ms": 2977.6,
+            "latency_ms": 3839.1,
             "knowledge_used": false,
             "entities": {
               "course_code": [],
@@ -72,19 +72,19 @@
               "instructor": [],
               "units": []
             },
-            "intent_confidence": 0.8995,
+            "intent_confidence": 0.925,
             "intent_source_scores": {
-              "llm": 0.97,
+              "llm": 1,
               "embedding": 0,
               "pattern": 0.5
             }
           },
-          "at_ms": 4373
+          "at_ms": 5371
         },
         {
           "event": "done",
           "data": {},
-          "at_ms": 4373
+          "at_ms": 5371
         }
       ]
     }

@@ -9,25 +9,9 @@ import { ASK_PREFIX, DEMO_BANNER } from "./demoStrings";
 
 export function DemoShell() {
   const runtimeRef = useRef<AssistantRuntime | null>(null);
-  const landed = useRef(false);
+  // 落地保持运行时默认:欢迎页 + 示例提问;播种的会话在侧边栏等待点开(2026-08-17 用户修订)。
   const onRuntimeReady = useCallback((runtime: AssistantRuntime) => {
     runtimeRef.current = runtime;
-    if (landed.current) return;
-    landed.current = true;
-    // 落地选中最近一条会话(播种后即修课规划条),而不是空欢迎页。
-    const landOnLatestThread = () => {
-      const state = runtime.threads.getState();
-      if (state.isLoading) return false;
-      if (state.threadIds.length > 0) {
-        void runtime.threads.switchToThread(state.threadIds[0]);
-      }
-      return true;
-    };
-    if (!landOnLatestThread()) {
-      const unsubscribe = runtime.threads.subscribe(() => {
-        if (landOnLatestThread()) unsubscribe();
-      });
-    }
   }, []);
 
   const onClickCapture = useCallback((e: React.MouseEvent) => {

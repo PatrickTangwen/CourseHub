@@ -199,24 +199,41 @@ describe("first-visit seeding (T4)", () => {
     return render(<DemoShell />);
   }
 
-  it("lands on the planning thread: table, disclaimer, six threads in sidebar", async () => {
+  it("lands on the welcome state with six seeded threads in the sidebar", async () => {
     setupSeeded();
-    // 落地即最新会话(修课规划),含 GFM 表格与免责声明,无需任何点击
+    // 落地为欢迎页(2026-08-17 用户修订);播种的六条会话在侧边栏
+    expect(
+      await screen.findByText(/welcome to coursehub/i),
+    ).toBeInTheDocument();
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await vi.waitFor(() =>
+      expect(
+        within(sidebar).getAllByRole("button", { name: /delete chat/i }),
+      ).toHaveLength(6),
+    );
+  }, 15000);
+
+  it("opens the planning thread from the sidebar: table, disclaimer; new chat returns to welcome", async () => {
+    setupSeeded();
+    await screen.findByText(/welcome to coursehub/i);
+    const user = userEvent.setup();
+    const sidebar = screen.getByTestId("thread-sidebar");
+    await user.click(
+      await within(sidebar).findByRole("button", {
+        name: /帮我规划 CSE 100 和 CSE 110 的修课顺序/,
+      }),
+    );
     expect(
       await screen.findByRole("table", undefined, { timeout: 5000 }),
     ).toBeInTheDocument();
-    expect(
-      await screen.findByText(/本建议为非官方参考/),
-    ).toBeInTheDocument();
-    const sidebar = screen.getByTestId("thread-sidebar");
-    expect(
-      within(sidebar).getAllByRole("button", { name: /delete chat/i }),
-    ).toHaveLength(6);
+    expect(await screen.findByText(/本建议为非官方参考/)).toBeInTheDocument();
+    await user.click(within(sidebar).getByRole("button", { name: /new chat/i }));
+    expect(await screen.findByText(/welcome to coursehub/i)).toBeInTheDocument();
   }, 15000);
 
   it("seeds only once: a deleted thread stays deleted after reload", async () => {
     const first = setupSeeded();
-    await screen.findByRole("table", undefined, { timeout: 5000 });
+    await screen.findByText(/welcome to coursehub/i);
     const sidebar = screen.getByTestId("thread-sidebar");
     const user = userEvent.setup();
     await user.click(
@@ -239,16 +256,6 @@ describe("first-visit seeding (T4)", () => {
     );
   }, 15000);
 
-  it("new chat still reaches the welcome state", async () => {
-    setupSeeded();
-    await screen.findByRole("table", undefined, { timeout: 5000 });
-    const user = userEvent.setup();
-    const sidebar = screen.getByTestId("thread-sidebar");
-    await user.click(within(sidebar).getByRole("button", { name: /new chat/i }));
-    expect(
-      await screen.findByText(/welcome to coursehub/i),
-    ).toBeInTheDocument();
-  }, 15000);
 });
 
 describe("dev panel demo data source (T5)", () => {
@@ -270,9 +277,16 @@ describe("dev panel demo data source (T5)", () => {
     expect(await screen.findByText(snapshotStatsLine)).toBeInTheDocument();
     const firstAgent = Object.keys(panelSnapshots.monitor.agent_stats)[0];
     expect(await screen.findByText(firstAgent)).toBeInTheDocument();
-    const firstSkill = panelSnapshots.skills.skills[0].name;
-    expect(await screen.findByText(firstSkill)).toBeInTheDocument();
     expect(realFetch).not.toHaveBeenCalled();
+  });
+
+  it("labels skills in English (demo only), keeping recorded rule bodies", async () => {
+    await openDevPanel();
+    expect(await screen.findByText("Course Facts Rules")).toBeInTheDocument();
+    expect(screen.getByText("Planning Advice Rules")).toBeInTheDocument();
+    expect(screen.getByText("Reception & Routing Rules")).toBeInTheDocument();
+    // 实录中文名不再作为标注出现
+    expect(screen.queryByText("课程事实规范")).not.toBeInTheDocument();
   });
 
   it("fake-succeeds add-document: notice appears, chunk count grows, Refresh keeps it", async () => {

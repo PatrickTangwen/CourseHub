@@ -12,6 +12,33 @@ export const askHref = (question: string) =>
 const questionList = (questions: string[]) =>
   questions.map((q) => `- [${q}](${askHref(q)})`).join("\n");
 
+/**
+ * 仅 Demo:面板实录快照的英文标注(skills 名称/描述、告警文案)。
+ * 规则正文保持实录原文;键是实录里的原始中文,重录后未覆盖的条目按原文显示。
+ */
+export const SKILL_LABELS_EN: Record<string, { name: string; description: string }> = {
+  课程事实规范: {
+    name: "Course Facts Rules",
+    description:
+      "Answer rules for the CourseHub Course Agent's objective course information, including five answer-safety constraints",
+  },
+  规划建议规范: {
+    name: "Planning Advice Rules",
+    description:
+      "Rules for the CourseHub Planning Agent's course-planning suggestions, including the disclaimer and evidence-citation requirements",
+  },
+  接待分流规范: {
+    name: "Reception & Routing Rules",
+    description:
+      "Rules for the CourseHub General Agent's bilingual reception, clarification, capability-boundary and meta-info answers",
+  },
+};
+
+export const ALERT_MESSAGES_EN: Record<string, string> = {
+  "course_0 的 agent_avg_ms = 13548.600，阈值 3000":
+    "course_0 agent_avg_ms = 13548.600, threshold 3000",
+};
+
 /** 诚实横幅:应用壳外的一条细横幅,说明本页为实录回放。 */
 export const DEMO_BANNER = {
   text: "Scripted demo — responses replay sessions pre-recorded from a real local deployment · 本页回放实录会话",

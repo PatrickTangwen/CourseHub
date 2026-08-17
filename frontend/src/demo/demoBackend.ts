@@ -5,7 +5,7 @@
  */
 import { API_BASE, type ChatAnswer } from "../lib/chatApi";
 import { DEMO_SESSIONS, type RecordedTurn } from "./sessions";
-import { DEMO_NOTICE } from "./demoStrings";
+import { ALERT_MESSAGES_EN, DEMO_NOTICE, SKILL_LABELS_EN } from "./demoStrings";
 import panelSnapshots from "./fixtures/panel-snapshots.json";
 
 /** 阶段流回放总时长:等比压缩,各事件相对节奏保持实录比例。测试下瞬时。 */
@@ -103,6 +103,27 @@ function createKnowledgeStats() {
   return { ...panelSnapshots.knowledge_stats };
 }
 
+/** 仅 Demo:skills 名称/描述显示英文标注,规则正文保持实录原文。 */
+function labeledSkills() {
+  return {
+    ...panelSnapshots.skills,
+    skills: panelSnapshots.skills.skills.map((skill) => ({
+      ...skill,
+      ...(SKILL_LABELS_EN[skill.name] ?? {}),
+    })),
+  };
+}
+
+function labeledMonitor() {
+  return {
+    ...panelSnapshots.monitor,
+    active_alerts: panelSnapshots.monitor.active_alerts.map((alert) => ({
+      ...alert,
+      message: ALERT_MESSAGES_EN[alert.message] ?? alert.message,
+    })),
+  };
+}
+
 export function installDemoBackend(): void {
   const knowledgeStats = createKnowledgeStats();
 
@@ -131,11 +152,11 @@ export function installDemoBackend(): void {
     }
 
     if (path === `${API_BASE}/monitor`) {
-      return Response.json(panelSnapshots.monitor);
+      return Response.json(labeledMonitor());
     }
 
     if (path === `${API_BASE}/skills` || path === `${API_BASE}/skills/reload`) {
-      return Response.json(panelSnapshots.skills);
+      return Response.json(labeledSkills());
     }
 
     if (path === `${API_BASE}/knowledge/add` && method === "POST") {
