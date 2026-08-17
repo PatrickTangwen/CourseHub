@@ -15,16 +15,13 @@
 </p>
 
 <p align="center">
-  <strong><a href="https://patricktangwen.github.io/CourseHub/zh/">▶ 在线体验 Demo(中文界面)</a></strong> —— 完整界面回放实录自真实本地部署的会话，无需启动后端。也可访问 <a href="https://patricktangwen.github.io/CourseHub/">English 界面版</a>。
+  <strong><a href="https://patricktangwen.github.io/CourseHub/zh/">▶ 在线体验 Demo(中文界面)</a></strong> —— 完整界面回放实录自真实本地部署的会话，无需启动后端。
 </p>
 
 CourseHub 把 UCSD 已发布的课程目录快照变成双语课程问答与规划建议。学生可以在同一个聊天界面询问课程内容、先修要求、上课时间、名额、授课教授、历史成绩和修课顺序。
 
 它也会展示真实处理过程：界面通过实时过程时间线呈现记忆召回、三路意图识别、多 Agent 路由和工具执行，但不会暴露记忆正文或模型内部思维链。
 
-<p align="center">
-  <img src="./assets/readme/coursehub-ui.jpg" width="100%" alt="CourseHub 聊天界面，包含中英示例问题、后端连接状态、主题切换和开发者面板入口。">
-</p>
 
 ## 你可以用它做什么
 
