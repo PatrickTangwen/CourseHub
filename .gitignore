@@ -41,3 +41,8 @@ prisma/*.db
 .pytest_cache/
 **/.git-nested-backup/
 **/.claude/worktrees/
+
+# local-only reference documents
+/*完整使用指南.pdf
+/*定位与技术亮点.md
+/*重点代码讲解(复制权限已开).md
