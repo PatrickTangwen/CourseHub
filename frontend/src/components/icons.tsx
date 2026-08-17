@@ -13,12 +13,6 @@ const ICON = {
   "aria-hidden": true,
 } as const;
 
-export const PlusIcon = () => (
-  <svg {...ICON}>
-    <path d="M12 5v14M5 12h14" />
-  </svg>
-);
-
 export const ArrowUpIcon = () => (
   <svg {...ICON}>
     <path d="M12 19V5M5 12l7-7 7 7" />

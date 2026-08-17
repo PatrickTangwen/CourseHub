@@ -2,6 +2,8 @@
 
 本文档说明 CourseHub 的部署、启动、API 调用、知识库使用、ChromaDB 数据查看、监控评测和常见排障。
 
+Windows 本机的快速启动、重启和健康检查流程见 [`docs/runbooks/本地启动服务指南.md`](docs/runbooks/本地启动服务指南.md)。
+
 CourseHub 是一个回答 UCSD 课程问题的双语多 Agent 问答助手，核心链路为：
 
 ```text
@@ -36,7 +38,7 @@ CourseHub/
 │   └── .env
 ├── frontend/                      # React + assistant-ui 前端
 ├── ucsd-course-data/              # UCSD 课程快照、索引、来源与数据管线资料包
-├── docs/                          # CourseHub specs 与 ADR
+├── docs/                          # CourseHub specs、ADR 与运维 runbook
 └── README.md                      # 本完整使用指南
 ```
 

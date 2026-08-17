@@ -3,7 +3,6 @@ import {
   ComposerPrimitive,
   ErrorPrimitive,
   MessagePrimitive,
-  ThreadListPrimitive,
   ThreadPrimitive,
   useAuiState,
 } from "@assistant-ui/react";
@@ -17,7 +16,6 @@ import {
   CalendarIcon,
   ListIcon,
   PersonIcon,
-  PlusIcon,
 } from "./icons";
 import { useStickToBottom } from "../lib/stickToBottom";
 import { EXAMPLE_PROMPTS, STRINGS } from "../lib/strings";
@@ -95,7 +93,7 @@ const AssistantMessage = () => (
 
 /**
  * 输入框:上行文本区 + 下行工具条,同一个圆角容器。
- * 工具条上只放真实能力——新建会话、后端连接状态、发送。
+ * 工具条只显示后端连接状态和发送；新建会话统一从侧边栏进入。
  */
 const Composer = () => (
   <ComposerPrimitive.Root className="mx-auto flex w-full max-w-3xl flex-col gap-2 rounded-3xl border border-input bg-muted/50 px-4 py-3">
@@ -107,13 +105,6 @@ const Composer = () => (
       className="max-h-40 w-full resize-none bg-transparent pt-1 outline-none placeholder:text-muted-foreground"
     />
     <div className="flex items-center gap-2">
-      <ThreadListPrimitive.New
-        aria-label={STRINGS.newChat}
-        title={STRINGS.newChat}
-        className="flex h-8 w-8 items-center justify-center rounded-full border border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-      >
-        <PlusIcon />
-      </ThreadListPrimitive.New>
       <HealthDot />
       <ComposerPrimitive.Send
         aria-label={STRINGS.send}

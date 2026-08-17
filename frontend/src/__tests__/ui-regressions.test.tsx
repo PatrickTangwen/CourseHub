@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "../App";
 import { ThemeToggle } from "../components/ThemeToggle";
@@ -50,5 +50,21 @@ describe("reported UI regressions", () => {
 
     expect(composer).not.toBeNull();
     expect(composer).not.toHaveClass("focus-within:border-ring");
+  });
+
+  it("does not show a duplicate new-chat button in the composer", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({ ok: true, status: 200 } as Response),
+    );
+    render(<App />);
+
+    const input = await screen.findByPlaceholderText(/ask about ucsd courses/i);
+    const composer = input.closest("form");
+
+    expect(composer).not.toBeNull();
+    expect(
+      within(composer!).queryByRole("button", { name: /new chat/i }),
+    ).not.toBeInTheDocument();
   });
 });
