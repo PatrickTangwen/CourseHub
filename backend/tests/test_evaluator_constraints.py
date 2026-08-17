@@ -106,7 +106,7 @@ def test_planning_constraint_requires_planning_agent_and_disclaimer():
     ) == []
 
 
-def test_referral_constraint_requires_flag_marker_and_official_channel():
+def test_referral_constraint_requires_flag_and_official_channel_without_marker():
     failures = check_dialog_constraints(
         ["advisor_referral"],
         response="这个问题我无法处理。",
@@ -118,12 +118,19 @@ def test_referral_constraint_requires_flag_marker_and_official_channel():
 
     assert failures == [
         "advisor_referral: escalated flag is false",
-        "advisor_referral: missing referral marker",
         "advisor_referral: missing official channel",
     ]
     assert check_dialog_constraints(
         ["advisor_referral"],
         response="请联系 Virtual Advising Center 或院系 advisor。\n[转介]",
+        intent="advisor_referral",
+        agent_type="general",
+        escalated=True,
+        entities={"course_code": [], "term": []},
+    ) == ["advisor_referral: referral marker leaked into response"]
+    assert check_dialog_constraints(
+        ["advisor_referral"],
+        response="请联系 Virtual Advising Center 或院系 advisor。",
         intent="advisor_referral",
         agent_type="general",
         escalated=True,

@@ -123,6 +123,16 @@ class RoutingDecision:
 
 # ── 基础 Agent ────────────────────────────────────────────────────────────────
 
+# 转介标记：persona 指示 Agent 在实际转介时输出，仅作为编排器的内部信号，
+# 不应出现在用户可见文本中。evaluator 的泄漏检查复用 REFERRAL_MARKER_RE。
+_REFERRAL_MARKER = r"\[(?:转介|referral)\]"
+REFERRAL_MARKER_RE = re.compile(_REFERRAL_MARKER, re.IGNORECASE)
+# 协议情形：标记独立成段出现在末尾，连同因它而存在的分段空白一起去掉
+_TRAILING_MARKER_RE = re.compile(rf"\s*(?:{_REFERRAL_MARKER}\s*)+$", re.IGNORECASE)
+# 正文中独立成行的标记：连同该行（及其行尾换行）一起去掉
+_MARKER_LINE_RE = re.compile(rf"^[^\S\n]*{_REFERRAL_MARKER}[^\S\n]*\n?", re.IGNORECASE | re.MULTILINE)
+
+
 class BaseAgent:
     """所有 Agent 的基类，封装 LLM 调用和统计。"""
 
@@ -144,6 +154,8 @@ class BaseAgent:
             self.stats.success += 1
             self.stats.total_ms += ms
             escalate = self._needs_escalation(content)
+            if escalate:
+                content = self._strip_referral_marker(content)
             return AgentResponse(
                 agent_type=self.agent_type,
                 content=content,
@@ -204,8 +216,14 @@ class BaseAgent:
         不能用"官方渠道"等措辞做关键词：那是 Agent 被指示在说明能力边界时
         也会正常使用的短语，会把日常问答误报为转介。
         """
-        lowered = content.lower()
-        return "[转介]" in content or "[referral]" in lowered
+        return bool(REFERRAL_MARKER_RE.search(content))
+
+    @staticmethod
+    def _strip_referral_marker(content: str) -> str:
+        """去除转介标记；除标记及其悬空空白外，不改动任何既有内容。"""
+        content = _TRAILING_MARKER_RE.sub("", content)
+        content = _MARKER_LINE_RE.sub("", content)
+        return REFERRAL_MARKER_RE.sub("", content)
 
 
 class GeneralAgent(BaseAgent):

@@ -26,6 +26,7 @@ from typing import Any, Dict, List, Optional
 
 from anthropic import AsyncAnthropic
 
+from agents.agent_orchestrator import REFERRAL_MARKER_RE
 from core.llm_utils import AUX_MAX_TOKENS, extract_text_content
 
 from core.intent_recognizer import IntentCategory, IntentRecognizer
@@ -101,8 +102,9 @@ def check_dialog_constraints(
     if "advisor_referral" in constraints:
         if not escalated:
             failures.append("advisor_referral: escalated flag is false")
-        if "[转介]" not in response and "[referral]" not in lowered:
-            failures.append("advisor_referral: missing referral marker")
+        # 转介语义由 escalated 标志承载；标记是内部信号，编排器应已剥离
+        if REFERRAL_MARKER_RE.search(response):
+            failures.append("advisor_referral: referral marker leaked into response")
         if not any(marker in lowered for marker in _OFFICIAL_CHANNEL_MARKERS):
             failures.append("advisor_referral: missing official channel")
     return failures
